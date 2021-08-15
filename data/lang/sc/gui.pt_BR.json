@@ -1,0 +1,2738 @@
+{
+  "DOCTYPE": "STATIC-LANG-FILE",
+  "feature": "sc.gui",
+  "labels": {
+    "arena": {
+      "rushDisabled": "Desativado",
+      "arenaName": "Rhombus Arena",
+      "score": "Pontuação",
+      "time": "Tempo",
+      "round": "Rodada [!]",
+      "chain": "Chain",
+      "rushChain": "Rush Chain",
+      "rushChainHigh": "Highest Rush Chain",
+      "rushAbbreviated": "R",
+      "summary": "Resumo",
+      "roundClear": "Rodada [!] Concluída!",
+      "newRecord": "Novo recorde!",
+      "newTrophy": "\\c[3]Novo Troféu Desbloqueado!\\c[0]",
+      "rushModeDone": "Modo Rush Concluído!",
+      "roundFail": "Rodada Perdida!",
+      "chainBonus": "Chain Bonus",
+      "dimReturns": "Staling",
+      "total": "Total",
+      "totalScore": "Pontuação total",
+      "overview": {
+        "cupHeader": "[CUP_NAME] Visão Geral",
+        "trophyHeader": "Você conseguiu",
+        "trophyNone": "Conclua todas as rodadas uma vez para obter um troféu!"
+      },
+      "dialogs": {
+        "next": "Começar a próxima rodada?",
+        "repeat": "Repetir a rodada atual?",
+        "lobby": "Voltar para o lobby?",
+        "giveUp": "Voltar para o lobby?",
+        "restart": "Reiniciar a Copa na 1ª Rodada?"
+      },
+      "buttons": {
+        "names": {
+          "giveUp": "Desistir",
+          "repeat": "Tente Novamente",
+          "nextRound": "Próxima Rodada",
+          "return": "Lobby",
+          "summary": "Visão Geral",
+          "restart": "Reiniciar Copa",
+          "rush": "Continuar"
+        },
+        "description": {
+          "giveUp": "Desista e volte para o lobby.",
+          "rush": "Continue para a próxima rodada. Apenas 50% da sua vida é restaurada.",
+          "repeat": "Repita a rodada atual.",
+          "nextRound": "Vá para a próxima rodada na copa.",
+          "return": "Volte para o lobby.",
+          "summary": "Dê uma olhada no seu troféu e no seu progresso em todas as rodadas da copa.",
+          "restart": "Reinicie a copa da rodada 1."
+        }
+      },
+      "bonuses": {
+        "HIT_COUNTER": "Receba menos do que \\c[3][!] Golpes\\c[0]",
+        "TIME": "Bônus de Tempo: \\c[3][!] Minutos\\c[0]",
+        "ITEMS_USED": "Use menos que \\c[3][!] Itens\\c[0]",
+        "COMBAT_ARTS_USED": "Use pelo menos \\c[3][!] Habilidades de Combate\\c[0]",
+        "EFFECTIVE_DAMAGE": "Cause \\c[3][!] Dano Efetivo\\c[0]",
+        "CHAIN": "Reach a \\c[3][!]x Chain Multiplier\\c[0]",
+        "NO_DAMAGE_TAKEN": "\\c[5]Nenhum Dano Recebido\\c[0]",
+        "NO_ITEMS_USED": "\\c[5]Nenhum Item Usado\\c[0]",
+        "PVP_FLAWLESS": "\\c[5]Nenhuma rodada perdida\\c[0]"
+      },
+      "challenges": {
+        "descriptions": {
+          "WEAPON_ADJUST": "Ascended Gear Level will be adjusted to round level.",
+          "NO_MELEE": "Combate Corpo a Corpo está desativado.",
+          "NO_RANGED": "Combate a Distancia está desativado.",
+          "NO_DASH": "Esquiva está desativada.",
+          "NO_GUARD": "Escudo está desativado.",
+          "NO_COMBAT_ARTS": "Habilidades de Combate estão desativados.",
+          "NO_ITEMS": "Uso de Itens está desativado.",
+          "LEA_MUST_DIE": "Cada ataque te mata instantaneamente.",
+          "NO_HP_REGEN": "Regeneração de HP desabilitada.",
+          "ENVIRO_HAZARD": "Esta rodada contém riscos ambientais.",
+          "PVP_BATTLE": "Combate PVP - A penalidade por dano recebido é reduzida."
+        }
+      },
+      "scoreTypes": {
+        "TARGET_KILL": "Alvo Destruído",
+        "KILL": "Eliminação",
+        "BOSS_KILL": "Eliminação de Boss",
+        "MULTI_KILL": "Eliminação Multípla",
+        "ONE_HIT_KILL": "Unico Golpe",
+        "ENVIRONMENT_KILL": "Eliminação por Ambiente",
+        "DAMAGE_DONE": "Dano Causado",
+        "DAMAGE_DONE_EFFECTIVE": "Dano Efetivo",
+        "DAMAGE_TAKEN": "Dano Recebido",
+        "ENEMY_HEAL": "HP Inimigo Recuperado",
+        "LOCK_FINISH": "Level 2 Art Finisher",
+        "LOCK_FINISH_3": "Level 3 Art Finisher",
+        "ELEMENT_OVERLOAD": "Sobrecarga Elemental",
+        "PERFECT_SHIELD": "Defesa Perfeita",
+        "ENEMY_BREAK": "Atordoar Inimigo",
+        "GUARD_COUNTER": "Contador de Defesa",
+        "STATUS_INFLICT": "Status Infligido",
+        "PERFECT_DODGE": "Esquiva Perfeita",
+        "PVP_ROUND_WON": "Rodadas Vitoriosas",
+        "PVP_ROUND_LOST": "Rodadas Perdidas"
+      },
+      "medals": [
+        "Bronze",
+        "Prata",
+        "Ouro",
+        "Platina",
+        "Platina Real",
+        "Hi Modders! :)"
+      ],
+      "menu": {
+        "trophy": "Troféu",
+        "medal": "Medalha",
+        "tabs": { "solo": "Copas Solo", "team": "Copas Equipe" },
+        "creator": "Criador",
+        "silver": "Prata",
+        "gold": "Ouro",
+        "time": "Soma dos Melhores",
+        "timeRound": "Melhor Tempo",
+        "highscore": "Pontuação Máxima",
+        "coins": "Moedas da Arena",
+        "rush": "Modo Rush",
+        "cleared": "Concluído",
+        "challenges": "Condições",
+        "objective": "Objetivo",
+        "startRushMode": "Iniciar \\c[3][CUP_NAME]\\c[0] em \\c[3]Modo Rush\\c[0]?",
+        "startAtRound": "Start \\c[3][CUP_NAME]\\c[0] at \\c[3]Round [ROUND_INDEX]\\c[0]?",
+        "objectiveRushMode": "Termine todas as rodadas \\c[3]sem parar\\c[0] apenas \\c[3]regenerando 50% do seu HP entre rodadas.\\c[0]",
+        "objectiveDefault": "Derrote todos os inimigos",
+        "bonusNone": "Selecione uma rodada para ver quais objetivos bônus estão disponíveis.",
+        "bonuses": "Pontos Bônus",
+        "notCleared": "Não Concluído",
+        "rounds": "Rodadas",
+        "difficulty": "Dificuldade",
+        "info": "Visão Geral",
+        "noCup": "Nenhuma Copa Selecionada",
+        "noRound": "Nenhuma Rodada Selecionada",
+        "totalPoints": "Moedas da Arena",
+        "roundUnlockCond": "Conclua a rodada anterior para desbloquear esta rodada."
+      }
+    },
+    "dlc": { "abr": "DLC" },
+    "area": { "other": "Outros" },
+    "feats": { "hud-title": "Troféus", "unlocked": "Desbloqueado" },
+    "trade": {
+      "trader": "\\c[3]Comerciante\\c[0]",
+      "shop": "\\c[3]Loja\\c[0]",
+      "quest": "\\c[3]Evento\\c[0]",
+      "tradeOffer": "Ofertas",
+      "stats": "Status",
+      "modifier": "Modificador",
+      "trade": "Trocar",
+      "nothing": "Selecione o equipamento para comparar",
+      "for": "Por",
+      "owned": "(Possui)",
+      "offer": "Oferta",
+      "toggle": "Comparar com Equipamento",
+      "toggleEnd": "Mostrar Status",
+      "toggleDes": "Alterne para exibir a diferença para o equipamento atual ou ver as estatisticas brutas.",
+      "description": "Pressione para iniciar a negociação!",
+      "equipInfo": "Um ou mais itens de que você precisa estão equipados no momento! Desequipar e prosseguir com a negociação? ",
+      "end": "Finalizar Troca.",
+      "credits": "Créditos:",
+      "rest": "Restante:",
+      "fee": "Taxa:",
+      "compare": "Comparado com",
+      "compareHEAD": "Cabeça",
+      "compareARMRight": "Braço Direito",
+      "compareARMLeft": "Braço Esquerdo",
+      "compareTORSO": "Tronco",
+      "compareFEET": "Pés",
+      "compareBASE": "Status Base"
+    },
+    "botanics": {
+      "rate": "Chance de Coleta",
+      "locText": "Colete mais [[x]] para desbloquear locais.",
+      "infoLocked": "- Informação Bloqueada -",
+      "collect": "Itens Coletados [[x]] / [[y]]"
+    },
+    "status-hud": {
+      "maxhp": "HP MAX",
+      "atk": "ATQ",
+      "def": "DEF",
+      "foc": "FOC",
+      "lvl": "LVL"
+    },
+    "msg": {
+      "private": "Direct Link",
+      "outgoing": "Solicitando Direct Link",
+      "incoming": "Solicitação de Direct Link"
+    },
+    "get-msg": {
+      "ACTIVATED": "[!] Ativado",
+      "OBTAINED": "[!] Obtido",
+      "REMOVED": "[!] Removido",
+      "ENEMY": "[!] adicionado ao Almanaque Monstro ",
+      "EXTENDED": "[!] Estendido",
+      "WORD": "Nova Palavra Anexada: [!]",
+      "FRIENDSHIP": "Contatos compartilhados com [!]",
+      "PARTY": "[!] juntou-se ao grupo! ",
+      "USED": "[!] Usado!",
+      "HAND_OVER": "Entregue [!]",
+      "RESET": "[!] foi reiniciado "
+    },
+    "dialogs": {
+      "slotsOverflow": "Número máximo de espaços atingido! Exclua alguns para criar novos jogos salvos. ",
+      "newConfirm": "Criar novo jogo salvo?",
+      "loadConfirm": "Carregar este jogo salvo?",
+      "loadNewGameConfirm": "Usar os dados deste jogo salvo e iniciar um novo jogo com as opções selecionadas?",
+      "deleteConfirm": "Tem certeza de que deseja excluir este jogo salvo?",
+      "titleConfirm": "Retornar ao menu inicial?",
+      "cancelConfirm": "Você realmente quer cancelar?",
+      "overrideConfirm": "Substituir este jogo salvo?",
+      "skipConfirm": "Você quer pular esta cena?",
+      "skipAsk": "Pressione \\i[skip-cutscene] novamente para pular!",
+      "resetAsk": "Redefinir todas as configurações para o padrão?",
+      "sellRare": "Um ou mais itens que você está tentando vender são de raridade lendária ou superior. Tem certeza? ",
+      "yes": "Sim",
+      "no": "Não"
+    },
+    "bigChoice": {
+      "tutorial": {
+        "title": "Tutorial",
+        "yes": "Mostrar Tutorial",
+        "no": "Pular"
+      },
+      "generic": { "title": "Opção", "yes": "Sim", "no": "Não" }
+    },
+    "stats": {
+      "stats": "Status - Autumn's Rise",
+      "time": "Tempo Total",
+      "chests": "Baús",
+      "level": "Level",
+      "exp": "EXP Total",
+      "kills": "Inimigos Mortos",
+      "deaths": "Mortes",
+      "money": "Dinheiro"
+    },
+    "highscore": {
+      "header": "Crabby Redux - Melhor Tempo",
+      "header2": "Enemy Rush - Melhor Tempo",
+      "last-time": "Crabby Redux - Seu Tempo",
+      "last-time2": "Enemy Rush - Seu Tempo",
+      "new-record": "Novo Recorde!"
+    },
+    "combat": {
+      "heat": "Fogo",
+      "cold": "Gelo",
+      "wave": "Onda",
+      "shock": "Choque",
+      "aim": "Mirar",
+      "hp": "HP",
+      "atk": "Atq",
+      "def": "Def",
+      "foc": "Foc",
+      "burn": "Em Chamas",
+      "chill": "Congelado",
+      "jolt": "Eletrificado",
+      "mark": "Marcado",
+      "stun": "Atordoar",
+      "no-sp": "SEM SP",
+      "element-overload": "Sobrecarga Elemental"
+    },
+    "combat-hud": { "skip": "Pular" },
+    "combat-msg": {
+      "break": "\\i[break]Atordoar",
+      "guard-counter": "\\i[break]Contra Ataque",
+      "guard-break": "Quebra de Escudo",
+      "once-more": "Mais uma vez!",
+      "hp-break": "HP Break",
+      "rank-up": "\\i[rank-up]Rank"
+    },
+    "detector": {
+      "mine-equip": "Equipamento detectado: \\c[3][[x]]\\c[0]",
+      "chest": "Baú detectado: \\c[3][[x]]\\c[0]"
+    },
+    "title-screen": {
+      "preset-title": "Selecione um jogo pré-definido",
+      "pressStart": "Aperte para Começar",
+      "start": "Novo Jogo",
+      "startPlus": "Novo Jogo \\c[3]Plus\\c[0]",
+      "continue": "Continuar",
+      "preset": "Começar com predenifição",
+      "story": "História",
+      "grind": "Exploração",
+      "puzzle": "Quebra-Cabeça",
+      "select": "Selecione um modo de demonstração para experimentar!",
+      "load": "Carregar Jogo",
+      "options": "Opções",
+      "close": "Sair",
+      "gamecode": "Código Bônus",
+      "perform-warn": "Alerta de Perfomance",
+      "perform-warn-text": {
+        "old-nwjs": "\\c[3]Aviso de Desempenho\\c[0]\nVocê está jogando CrossCode com uma \\c[3]versão antiga\\c[0] do NW.js.\nPara muitos jogadores, esta versão tem demonstrou ter um desempenho insatisfatório, especialmente com placas de vídeo modernas.\nSe o jogo ficar lento para você, considere desativar o uso do BETA branch 'nwjs_old'.",
+        "sample-rate": "\\c[3]Aviso de Desempenho!\\c[0]\nVocê está jogando CrossCode com uma configuração de alta \\c[3]taxa de bits\\c[0] para seu dispositivo de Saída de Audio \\c[3][X]\\c[0].\nIsso mostrou aumentar o consumo de memória e torna o jogo mais propenso a \\c[3]travar\\c[0].\nRecomendamos jogar com uma configuração de taxa de bits de \\c[3]96000 Hz ou menor\\c[0].\nNo Windows, você pode alterar a taxa de bits por meio do \\c[3]Painel de Controle de Som\\c[0], em \\c[3]Propriedades\\c[0] do seu \\c[3]Dispositivo de Controle de Som\\c[0] alterando o \\c[3]Formato Padrão\\c[0] na guia \\c[3]Avançada\\c[0]."
+      }
+    },
+    "dlc-list": {
+      "button": "DLC",
+      "title": "DLC's Instaladas",
+      "back": "Voltar"
+    },
+    "hit-task": { "title": "Tarefa" },
+    "information": { "title": "Dica" },
+    "levelup": {
+      "title": "Status",
+      "level": "Level",
+      "cp": "CP",
+      "hp": "HP Máx.",
+      "attack": "Ataque",
+      "defense": "Defesa",
+      "focus": "Foco"
+    },
+    "button": { "skip": "Pular" },
+    "money-hud": { "title": "Crédito" },
+    "item-hud": { "title": "Item" },
+    "lore-hud": {
+      "title": "Enciclopédia",
+      "updated": "Atualizado",
+      "unlocked": "Desbloqueado",
+      "top-title": "Enciclopédia",
+      "top-first-title": "Atualizações de Registros",
+      "top-first": "\\c[3]Enciclopédia\\c[0], \\c[3]Estatisticas\\c[0] & \\c[3]Almanaque Monstro\\c[0] desbloqueados"
+    },
+    "drop-hud": { "title": "Botânica", "completed": "Analisado" },
+    "timer-hud": { "counter": "Tempo Passado", "countdown": "Tempo Restando" },
+    "counter-hud": { "title": "Contador" },
+    "task-hud": { "title": "Tarefa" },
+    "quest-hud": {
+      "taskDoneCenter": "Missão: Proxima Tarefa",
+      "taskDoneCurrent": "Missão: Tarefa Concluida",
+      "title": "Missão Marcada",
+      "taskUpdated": "Atualizações de Tarefa",
+      "taskDone": "Tarefa",
+      "taskDone2": "Concluída",
+      "nextTask": "Próximo"
+    },
+    "landmark-hud": {
+      "title-new": "Novo Marco Alcançado",
+      "title": "Pontos de Refêrencia",
+      "landmark": "Ponto de Refêrencia",
+      "unlocked": "desbloqueado"
+    },
+    "pause-screen": {
+      "lobby": "Voltar para o Lobby",
+      "restartRound": "Reiniciar Rodada",
+      "restartCup": "Reiniciar Copa",
+      "to-title": "Menu Inicial",
+      "resume": "Retomar o Jogo",
+      "skip": "Pular Cena",
+      "save-game": "Salvar Jogo",
+      "info": "Pressione ESC ou P para retornar ao jogo ",
+      "lang-fix": "Encontrou um erro? Pressione \\c[3]F7 para o Editor de Idioma\\c[0] e mande para nós para corrigir!"
+    },
+    "lang-edit": {
+      "title": "Edição de Idioma",
+      "map": "Mapa",
+      "recent": "Recente",
+      "user-prefix": "Usuário: ",
+      "user-edit": "editado",
+      "user-credentials": "Credencial do Usuário",
+      "user-name": "Nome",
+      "user-email": "E-Mail",
+      "comment": "Comentários adicionais aqui, edite o texto no campo acima",
+      "submit": "Enviar",
+      "send-report": "Enviar Relatório",
+      "cancel": "Cancelar",
+      "sending": "Enviando Relatório...",
+      "error": "Erro"
+    },
+    "credits": {
+      "note": "Nota",
+      "ideaConcept": "Ideias e Conceito",
+      "programming": "Programação",
+      "spriteart": "Pixel Art",
+      "conceptart": "Arte Conceitual",
+      "leveldesign": "Design de Nível",
+      "music": "Música",
+      "sound": "Som",
+      "betatesters": "Testadores BETA",
+      "thanks": "Agradecimentos Especiais para"
+    },
+    "gamepad-box": {
+      "not-connected": "Aperte qualquer botão",
+      "connected": "Conectado!",
+      "info-title": "Como usar seu Controle",
+      "info-text": "Você pode jogar CrossCode com qualquer controle compatível com X-Input.\nO que fazer:\n1. Conecte seu controle\n2. Pressione qualquer botão (exceto os analógicos)\nSe você ver 'conectado' próximo ao símbolo do controle, seu gamepad deve funcionar!"
+    },
+    "quick-menu": {
+      "select": "Selecione Estratégia",
+      "current": "Atual",
+      "description": {
+        "items": "Use itens de cura e buffs.",
+        "map": "Acesse o Mapa.",
+        "analyze": "Analise os inimigos no campo.",
+        "party": "Dê Ordens aos membros do grupo."
+      },
+      "strategy": {
+        "headers": {
+          "target": "Alvo",
+          "behaviour": "Comportamento",
+          "arts": "Habilidades de Combate"
+        },
+        "names": {
+          "TARGET": ["Você Decide", "Meu Inimigo", "Outros"],
+          "BEHAVIOUR": ["Ofensivo", "Defensivo", "Nenhum"],
+          "ARTS": ["Normal", "Sempre", "Nunca"]
+        },
+        "description": {
+          "TARGET": [
+            "Os membros do grupo irão focar os inimigos como quiserem.",
+            "Os membros do grupo irão focar no mesmo inimigo que você.",
+            "Os membros do grupo irão focar os inimigos que você não está atacando."
+          ],
+          "BEHAVIOUR": [
+            "Os membros do grupo usarão um estilo de jogo agressivo.",
+            "Os membros do grupo ficarão para trás e irão focar em movimentos defensivos",
+            "Os membros do grupo ficarão longe e não farão nada."
+          ],
+          "ARTS": [
+            "Os membros do grupo usarão habilidades de combate em intervalos normais.",
+            "Os membros do grupo usarão as habiliades de combate tanto quanto possível.",
+            "Os membros do grupo nunca usarão habilidades de combate. "
+          ]
+        },
+        "buttons": {
+          "FREE": "Faça o que quiser!",
+          "FOCUS_ENEMY": "Foque no meu inimigo!",
+          "FOCUS_DEFENSE": "Foque na defesa!",
+          "NOTHING": "Fique fora de combate!"
+        },
+        "descriptions": {
+          "FREE": "Os membros do seu grupo tomarão as medidas que acharem melhor.",
+          "FOCUS_ENEMY": "Os membros do seu grupo irão focar no mesmo inimigo que você.",
+          "FOCUS_DEFENSE": "Os membros do seu grupo ficarão para trás e se concentrarão na defesa/evasão de ataques.",
+          "NOTHING": "Os membros do seu grupo não farão absolutamente nada e ficarão para trás."
+        }
+      },
+      "noData": "Dados insuficientes! Lute contra este inimigo para revelar mais informações."
+    },
+    "shop": {
+      "buy": "Comprar",
+      "sell": "Vender",
+      "cancel": "Cancelar",
+      "checkout": "Confirmar",
+      "credits": "Créditos",
+      "coins": "Moedas",
+      "price": "Preço de Venda",
+      "profit": "Lucro",
+      "cost": "Custo",
+      "rest": "Restante",
+      "total": "Total",
+      "leaveWithCartItems": "Ainda existem itens no seu carrinho. Deseja sair?",
+      "confirmBuy": "Comprar os itens selecionados?",
+      "confirmSell": "Vender os itens selecionados?",
+      "owned": "Possui",
+      "select": "Selecione",
+      "cart": "Carrinho",
+      "quantity": "Quantidade",
+      "submit": "Enviar",
+      "items": "Itens",
+      "noEquip": "----------------------",
+      "sellGroup": "Selecionar Categoria",
+      "sellPages": {
+        "cons": "Consumíveis",
+        "equip-arm": "Braço",
+        "equip-head": "Cabeça",
+        "equip-torso": "Quadril",
+        "equip-feet": "Pés",
+        "trade": "Trocar",
+        "key": "Valiosos"
+      }
+    },
+    "menu": {
+      "new-game": {
+        "points": "Pontos",
+        "overview": "Visão Geral",
+        "start": "Começar Aventura",
+        "saveFileInfo": "Selecione um \\i[save-star] arquivo salvo para transferir as opções selecionadas.",
+        "confirmOptions": "Iniciar um novo jogos com as opções selecionadas?",
+        "okay": "Okay",
+        "sets": {
+          "enemy-damage": "Dano Inimigo",
+          "combat-arts": "Habilidades de Combate",
+          "others": "Outros",
+          "money": "Créditos",
+          "exp": "Experiencia",
+          "carry-over": "Tranferir de um arquivo salvo",
+          "combat-modifier": "Modificador de Combate",
+          "drop-rate": "Taxa de Saque",
+          "enemy": "Modificadores de Inimigos",
+          "itemCooldown": "Tempo de Uso de Itens",
+          "hp-regen": "Regeneração de HP"
+        },
+        "dialogs": {
+          "modeSelect": "Selecionar Modo de Jogo",
+          "normal": "Normal",
+          "plus": "Novo Jogo +",
+          "normalDescription": "Experimente a história do CrossCode como antes!",
+          "plusDescription": "Use seus \\c[3]Pontos de Troféu\\c[0] acumulados para customizar seu jogo!"
+        },
+        "options": {
+          "names": {
+            "enemy-damage-15": "Dano x 1.5",
+            "enemy-damage-2": "Dano x 2",
+            "enemy-damage-4": "Dano x 4",
+            "keep-level": "Level",
+            "keep-consumables": "Consumíveis",
+            "keep-equipment": "Equipamento",
+            "keep-trade": "Trocas",
+            "keep-addons": "Complementos",
+            "keep-money": "Créditos",
+            "keep-records": "Registros",
+            "keep-elements": "Elementos",
+            "keep-botanics": "Botânica",
+            "keep-arena": "Arena",
+            "keep-traders": "Comerciantes",
+            "money-plus-2": "Créditos x 2",
+            "money-plus-4": "Créditos x 4",
+            "exp-plus-2": "EXP x 2",
+            "exp-plus-4": "EXP x 4",
+            "drop-rate-2": "Taxa de Saque x 2",
+            "drop-rate-4": "Taxa de Saque x 4",
+            "disable-exp": "Desabilitar EXP.",
+            "disable-money": "Desabilitar Créditos",
+            "dash-1": "Mestre da Esquiva",
+            "waypoints-heals": "Cura Normal",
+            "waypoints-teleport": "Teletransporte Normal",
+            "scale-enemies": "Igual meu Level",
+            "witch-time": "Witch Time",
+            "harder-enemies": "Sem Misericórida",
+            "lea-must-die": "Prepare-se para Oi!",
+            "sergey-hax": "Sergey Hack",
+            "double-buff-time": "Mega Nutrientes",
+            "rhombus-start": "Pular Início",
+            "combat-arts-level-1": "Primeiro Circuito",
+            "combat-arts-level-2": "Segundo Circuito",
+            "overload-disable": "Perfeitamente Equilibrado",
+            "infinite-sp": "Gatilho do Diabo",
+            "enemy-aggro": "Habitat Hostil",
+            "item-cd-double": "Dieta",
+            "item-cd-half": "Festa",
+            "item-cd-zero": "Bufê",
+            "remove-skill-blocks": "Acesso Antecipado",
+            "combat-regen-half": "Meia Cura",
+            "combat-regen-zero": "Sem Cura",
+            "no-trophies": "Bloco de Troféus",
+            "ice-physics": "Inclinação Escorregadia"
+          },
+          "descriptions": {
+            "double-buff-time": "Dobra a duração dos itens consumíveis.",
+            "drop-rate-2": "Aumenta a taxa de coleta de plantas e inimigos em 100%.",
+            "drop-rate-4": "Aumenta a taxa de coleta de plantas e inimigos em 300%.",
+            "enemy-damage-15": "Aumenta o dano recebido em 50%.",
+            "enemy-damage-2": "Aumenta o dano recebido em 100%.",
+            "enemy-damage-4": "Aumenta o dano recebido em 300%.",
+            "keep-level": "Mantenha seu level atual.",
+            "keep-consumables": "Mantenha todos os seus consumíveis. (Os favoritos são redefinidos)",
+            "keep-equipment": "Guarde todo o seu equipamento. (Os itens equipados são movidos para o seu inventário)",
+            "keep-trade": "Mantenha todos os itens de troca.",
+            "keep-addons": "Mantenha todos Complementos. (Complementos serão desativados)",
+            "keep-money": "Mantenha todos seus Créditos.",
+            "keep-records": "Mantenha seus registros acumulados.",
+            "keep-botanics": "Mantenha seu progresso em Botânica.",
+            "keep-traders": "Mantenha a localização de todos os comerciantes.",
+            "keep-elements": "Matenha todos os elementos. (Os elementos serão ativados assim que obter o modo Neutro)",
+            "keep-arena": "Mantenha todo o seu progresso na arena.",
+            "money-plus-2": "Ganhe 100% mais créditos de todas as fontes.",
+            "money-plus-4": "Ganhe 300% mais créditos de todas as fontes.",
+            "exp-plus-2": "Ganhe 100% mais experiência de todas as fontes.",
+            "exp-plus-4": "Ganhe 300% mais experiência de todas as fontes.",
+            "disable-exp": "Desabilitar o ganho de experiência.",
+            "disable-money": "Desative o ganho de créditos. Isso inclui a venda de itens nas lojas!",
+            "dash-1": "Comece com uma esquiva que tem 3 vezes a invencibilidade e menos tempo parado no final.",
+            "witch-time": "Cada vez que você realiza uma esquiva perfeita, o tempo desacelera por alguns segundos.",
+            "waypoints-heals": "Cura fora de combate só é possivel em Pontos de Referência.",
+            "waypoints-teleport": "Usar o mapa para se teletransportar só possivel em Pontos de Referência.",
+            "scale-enemies": "Os leveis dos inimigos comuns & bosses serão balanceados de acordo com suas estatísticas.",
+            "harder-enemies": "Inimigos comuns & chefes serão mais agressivos.",
+            "lea-must-die": "Qualquer golpe mata você instantaneamente",
+            "sergey-hax": "Habilite os hacks de Sergey e cause danos insanos o tempo todo.",
+            "rhombus-start": "Comece diretamente na Ponte dos Iniciantes em Rhombus Square.",
+            "combat-arts-level-1": "Você só pode fazer Habilidades de Combate nível 1, não importa o que mais você desbloqueou.",
+            "combat-arts-level-2": "Você só pode fazer Habilidades de Combate nível 2, não importa o que mais você desbloqueou.",
+            "overload-disable": "Sobrecarga elemental está desativada, isso significa que você pode permanecer no modo elemental pelo tempo que desejar.",
+            "infinite-sp": "Você está com SP cheiom e usar Habilidades de Combate não consome nenhum SP.",
+            "enemy-aggro": "Inimigos comuns sempre irão te atacar ao te ver.",
+            "item-cd-double": "O tempo de espera para consumíveis é duas vezes mais longo em combate.",
+            "item-cd-half": "O tempo de espera para consumíveis é a metade do tempo em combate.",
+            "item-cd-zero": "Não há tempo de espera ao usar consumíveis em combate.",
+            "remove-skill-blocks": "Remova todos os bloqueios de fragmentos no Circuito",
+            "combat-regen-half": "Regenaração de HP em combate é cortado pela metade.",
+            "combat-regen-zero": "Regeneração de HP é desativado em combate.",
+            "no-trophies": "Desativa a capacidade de obter quaisquer Troféus.",
+            "ice-physics": "O chão é escorradio o tempo todo."
+          }
+        }
+      },
+      "rhombus": {
+        "help": "\\i[help-icon]Selecione um local no mapa para o qual você gostaria de viajar!"
+      },
+      "help": {
+        "arena": {
+          "titles": {
+            "points": "Moedas da Arena",
+            "highscore": "Pontuação Máxima",
+            "highscoreRound": "Pontuação Máxima",
+            "time": "Soma dos Melhores",
+            "timeRound": "Melhor Tempo",
+            "difficulty": "Dificuldade",
+            "coins": "Moedas da Arena",
+            "coinsRound": "Moedas da Arena",
+            "rounds": "Rodadas",
+            "avgLevel": "Level Médio",
+            "clears": "Concluído",
+            "objective": "Objetivo",
+            "bonus": "Pontos Bônus",
+            "challenges": "Condições",
+            "creator": "Criador"
+          },
+          "description": {
+            "points": "Mostra suas moedas de arena acumuladas. Ganhe Copas para ganhar mais moedas. Quanto maior for sua pontuação, maior será sua recompensa!",
+            "highscore": "Mostra a pontuação combinada de todas as rodadas, incluindo a pontuação do Modo Rush.",
+            "highscoreRound": "Mostra a pontuação mais alta que você alcançou. Abaixo você confere quantos pontos você precisa para ganhar as medalhas de prata e ouro.",
+            "time": "Mostra o tempo combinado de todas as rodadas. Abaixo está o melhor tempo alcançado no Modo Rush.",
+            "difficulty": "Indica a dificuldade da Copa. Variando de 1 a 5 espadas. 5 sendo o mais difícil. ",
+            "coins": "Mostra as moedas de arena obtidas e o máximo de moedas disponíveis em uma Copa.",
+            "coinsRound": "Shows the obtained and maximum Arena coins in a round or Rush Mode.",
+            "rounds": "Shows the number of rounds cleared and the total rounds in a cup. Below you can see what Rush Mode medal was achieved in a cup.",
+            "timeRound": "Shows the best time achieved in a round or Rush Mode.",
+            "avgLevel": "Shows the average enemy level present in a cup.",
+            "clears": "Shows the number of times a round or Rush Mode was completed.",
+            "objective": "Shows what you need to do in order to successfully clear a round or Ruse Mode.",
+            "bonus": "Shows optional bonus challenges that reward you with extra points, crucial to reach the highest score.",
+            "challenges": "Shows additional conditions that may apply to this round. Conditions with yellow outlines are active for the entire cup.",
+            "creator": "Shows who created the selected cup."
+          }
+        },
+        "hub": {
+          "titles": {
+            "rate": "Taxa de Conclusão",
+            "available": "Missões Disponíveis"
+          },
+          "description": {
+            "rate": "Mostra quantas missões neste Quadro de Avisos foram concluídas. Isso não conta missões ocultas. ",
+            "available": "Mostra o número de missões atualmente disponíveis nas áreas próximas. Volte de vez em quando para encontrar novas missões."
+          }
+        },
+        "trophy": {
+          "titles": {
+            "rate": "Taxa de Conclusão",
+            "points": "Pontos de Troféu"
+          },
+          "description": {
+            "rate": "Mostra a quantidade de troféus desbloqueados em porcentagem.",
+            "points": "Mostra o número total de pontos de troféu adquiridos."
+          }
+        },
+        "equip": {
+          "colors": {
+            "green": "Verde",
+            "white": "Branco",
+            "orange": "Laranja",
+            "red": "Perigo!"
+          },
+          "colorDesc": {
+            "green": "Indica que os níveis estão bem igualados.",
+            "white": "Indica que os níveis estão igualados.",
+            "orange": "Indica que os níveis não estão bem igualados.",
+            "red": "Indica que os níveis estão mal igualados, o que pode causar problemas ao lutar contra inimigos de level semelhante."
+          }
+        },
+        "item": {
+          "titles": {
+            "hp": "Barra de HP",
+            "sp": "Barra de SP",
+            "exp": "Barra de EXP",
+            "buffs": "Buffs Ativos",
+            "favs": "Consumíveis Favoritos",
+            "avail": "Disponibilidade"
+          },
+          "description": {
+            "hp": "Mostra seu HP atual e máximo.",
+            "sp": "Mostra seu SP atual e máximo.",
+            "exp": "Mostra quanta experiência você precisa para subir de level.",
+            "buffs": "Uma lista de todos os seus buffs ativos.",
+            "favs": "Seus consumíveis favoritos. Adicione um para ver seu nome e descrição aqui.",
+            "avail": "Shows where your commonly find a trade item."
+          }
+        },
+        "status": {
+          "titles": { "element": "Elemento Atual", "page": "Página Atual" },
+          "description": {
+            "element": "Os valores abaixo são exibidos para o elemento mostrado aqui. Consulte o Tutorial para ver como alternar entre os elementos.",
+            "page": "Nome da página atual. Consulte o Tutorial para ver como alternar entre as páginas."
+          }
+        },
+        "quest": {
+          "titles": {
+            "level": "Level da Missão",
+            "type": "Tipo de Missão",
+            "content": "Tarefas da Missão",
+            "location": "Localização da Missão",
+            "owner": "Proprietário da Missão",
+            "rewards": "Recompensas de Missão"
+          },
+          "description": {
+            "level": "Mostra o nivel recomendado para você fazer esta missão.",
+            "type": "Missões com um ponto de exclamação vermelho são muito mais dificeis, mas trazem melhores recompensas e desafios.",
+            "content": "Exiba as tarefas que você já concluiu e as que atualmente precisa concluir. Os 3 pontos mostram quais tarefas foram concluidas e podem ser verificadas na visualização detalhada.",
+            "content2": "Exibe todas as tarefas da missão em uma exibição em lista.",
+            "location": "Isso mostra onde você começou a missão.",
+            "owner": "Mostra o nome e a imagem do entregador da missão.",
+            "rewards": "Uma lista de recompensas que você pode obter ao concluir a missão. As inscrições com um ponto de interrogação são reveladas assim que a missão é concluída também."
+          }
+        },
+        "circuit": {
+          "titles": {
+            "points": "Pontos de Circuito",
+            "branch": "Ramificações de Circuito"
+          },
+          "description": {
+            "points": "Total de pontos disponiveis para cada conjunto de habilidades elementais.",
+            "branch": "Mostra as habilidades de uma ramificação do circuito. As setas mostram quais habilidades são trocadas."
+          }
+        },
+        "social": {
+          "titles": { "equip": "Equipamento Amigo" },
+          "description": {
+            "equip": "O equipamento do amigo selecionado. Eles serão atualizados automaticamente ao visitar lojas."
+          }
+        },
+        "synopsis": {
+          "titles": {
+            "objective": "Objetivo Atual",
+            "quest": "Quest Marcada",
+            "activity": "Últimas Atividades"
+          },
+          "description": {
+            "objective": "Seu objetivo atual. Isso está vinculado ao progresso da história. Verifique novamente se você se perder.",
+            "quest": "Mostra a missão marcada e a tarefa atual para a missão. ",
+            "activity": "Exibe suas atividades mais recentes, como tarefas de missão, novas entradas de enciclopédia e muito mais."
+          }
+        },
+        "map": {
+          "titles": { "chest": "Baús na Área", "stamps": "Suas Marcações" },
+          "description": {
+            "chest": "Mostra a quantidade de baús restantes para encontrar nesta área.",
+            "stamps": "Mostra a quantidade de marcações definida por você, bem como o máximo por área."
+          }
+        },
+        "lore": {
+          "titles": {
+            "type": "Tipo da História",
+            "content": "Conteúdo da História"
+          },
+          "description": {
+            "type": "Isso exibe o tipo de história. Observe que algumas histórias ainda podem estar incompletas conforme indicado pela porcentagem.",
+            "content": "O conteúdo da história. Desbloque mais páginas para uma história explorando o mundo!"
+          }
+        },
+        "trader": {
+          "titles": {
+            "info": "Informação de Comerciantes",
+            "content": "Requisitos para Troca",
+            "money": "Taxa de Troca"
+          },
+          "description": {
+            "info": "Exibe o comerciante e o local para encontrá-lo.",
+            "content": "Mostra quais itens são necessários para adquirir este item. Os itens já obtidos são mostrados entre colchetes.",
+            "money": "Mostra a taxa que você precisa pagar por essa troca."
+          }
+        },
+        "enemy": {
+          "titles": {
+            "type": "Tipo de Inimigo",
+            "level": "Level do Inimigo",
+            "res": "Resistência do Inimigo",
+            "view": "Recompensas e Exibição do inimigo",
+            "rewards": "Saque do Inimigo"
+          },
+          "description": {
+            "type": "O tipo de inimigo conforme indicado pela guia. Os dourados são bosses e têm uma guia especial.",
+            "level": "Level do inimigo selecionado.",
+            "res": "Mostra a resistência elemental do inimigo selecionado. Quanto mais baixo o valor, mais dano você causa com o elemento mostrado.",
+            "view": "Mostra o inimigo. Talvez se você esperar, você pode vê-los fazer algo especial? Abaixo da tela você pode encontrar a EXP e o Crédito ganhos ao derrotar um inimigo.",
+            "rewards": "Mostra os itens que você pode obter ao derrotar este inimigo, incluindo o rank necessário. Para revelar o nome do item, você precisa obter ele pelo menos uma vez.",
+            "maxhp": "Quantidade máxima de pontos de vida do inimigo selecionado.",
+            "atk": "Poder de ataque do inimigo selecionado.",
+            "def": "Poder defensivo do inimigo selecionado.",
+            "foc": "Foco do inimigo selecionado. Determina a probabilidade dele receber acertos criticos."
+          }
+        },
+        "botanics": {
+          "titles": { "info": "Informações do Objeto" },
+          "description": {
+            "info": "Depois de analisar um objeto por tempo suficiente coletando seus itens, você encontrará o local e as chances de coleta deles aqui."
+          }
+        }
+      },
+      "sort": {
+        "auto": "Auto",
+        "name": "Nome",
+        "unlocked": "Encontrado",
+        "amount": "Quantidade",
+        "rarity": "Raridade",
+        "questAccepted": "Data",
+        "questLevel": "Level",
+        "hp": "HP",
+        "level": "Level",
+        "attack": "Ataque",
+        "defense": "Defesa",
+        "focus": "Foco",
+        "area": "Área",
+        "enemyLevel": "Level",
+        "status": "Status",
+        "socialLevel": "Level",
+        "invite": "Convidar",
+        "inviteFull": "Convidar [Cheio]",
+        "locked": "[Bloqueado]",
+        "remove": "Remover",
+        "contact": "Contato",
+        "trader": "Encontrado",
+        "botanics": "Encontrado",
+        "botanicsName": "Nome",
+        "featLock": "Desbloqueado",
+        "featName": "Nome",
+        "featPoints": "Pontos",
+        "des": {
+          "level": "Organiza a lista por level de item. Mais alto primeiro.",
+          "auto": "Organiza a lista em uma ordem automática.",
+          "area": "Organiza a lista pela área em que o inimigo se encontra.",
+          "enemyLevel": "Organiza a lista com base no level dos inimigos.",
+          "unlocked": "Organiza a lista por entradas desbloqueadas. As entradas desbloqueadas são classificadas por \\c[3]Auto\\c[0].",
+          "name": "Organiza a lista pelos nomes dos itens",
+          "amount": "Organiza a lista com base na quantidade de cada item.",
+          "rarity": "Organiza a lista com base na raridade de cada item.",
+          "questLevel": "Organiza a lista com base no level da missão.",
+          "questAccepted": "Organiza a lista com base na hora ou data em que você aceitou a missão.",
+          "hp": "Organiza a lista pelo status de vida do equipamento. ",
+          "attack": "Organiza a lista pelo status de ataque do equipamento.",
+          "defense": "Organiza a lista pelo status de defesa do equipamento.",
+          "focus": "Organiza a lista pelo status de foco do equipamento.",
+          "status": "Organiza a lista pelo status online e se o jogador faz parte do seu grupo.",
+          "socialLevel": "Organiza a lista pelo Level dos contatos.",
+          "invite": "Convide o jogador para se juntar ao seu grupo.",
+          "inviteFull": "Não é possivel convidar porque o grupo está cheio.",
+          "locked": "Não pode ser adicionado ou removido agora.",
+          "remove": "Remova o jogador do seu grupo atual.",
+          "contact": "Entre em contato ou deixe uma mensagem de voz para o jogador via Ligação Direta.",
+          "trader": "Organiza os comerciantes pela ordem em que os encontrou. Os mais novos primeiro.",
+          "botanics": "Organiza as plantas pela ordem que você os encontrou. Os mais novos primeiro.",
+          "botanicsName": "Organiza a lista pelos nomes da planta.",
+          "featLock": "Classifica a lista por troféus desbloqueados primeiro.",
+          "featName": "Classifica a lista pelo nome dos troféus.",
+          "featPoints": "Classifica a lista pela quantidade de pontos que você pode obter, o mais alto primeiro."
+        }
+      },
+      "menu-titles": {
+        "start": "Menu Principal",
+        "items": "Inventário",
+        "skills": "Circuito",
+        "equipment": "Equipamento",
+        "status": "Status",
+        "synopsis": "Registros",
+        "map": "Mapa",
+        "save": "Salvar",
+        "load": "Carregar",
+        "options": "Opções",
+        "shop": "Loja",
+        "quests": "Missões",
+        "lore": "Enciclopédia",
+        "trophy": "Troféus",
+        "stats": "Estatisticas",
+        "collection": "Almanaque",
+        "enemy": "Almanaque Monstro",
+        "museum": "Museu",
+        "help": "Tela de Ajuda",
+        "botanics": "Botânica",
+        "questHub": "Quadro de Avisos",
+        "social": "Grupo",
+        "trade": "Livro de Trocas",
+        "arena": "Arena",
+        "arenaCustom": "Arena Personalizada",
+        "arenaShop": "Loja da Arena",
+        "new-game": "Novo Jogo +"
+      },
+      "manual": "Tutorial",
+      "back": "Voltar",
+      "credits": "Créditos",
+      "playtime": "Tempo",
+      "description": {
+        "items": "Navegue pelos seus itens e consumiveis.",
+        "skills": "Melhore suas habilidades ativando as placas de circuito.",
+        "equipment": "Equipe itens para melhorar suas estatisticas de batalha.",
+        "status": "Verifique seu status, habilidades, modificadores e equipamentos.",
+        "synopsis": "Veja tudo que você encontrou e experimentou no CrossWorlds.",
+        "map": "Dê uma olhada em sua localização atual e use o teletransporte.",
+        "quests": "Dê uma olhada em todas as missões ativas e concluidas.",
+        "party": "Grupo! Uhuul",
+        "save": "Salve seu progresso atual.",
+        "options": "Altere as opções de acordo com seu estilo de jogo.",
+        "social": "Adicione, remova ou apenas interaja com seus amigos e contatos.",
+        "back": "Volte para o menu anterior."
+      },
+      "equip": {
+        "moreMod": "\\i[help4] Mais",
+        "lessMod": "\\i[help4] Menos",
+        "hidden": "Oculto",
+        "head": "cabeça",
+        "leftarm": "braço esquerdo",
+        "rightarm": "braço direito",
+        "torso": "quadril",
+        "feet": "pernas",
+        "maxhp": "HP Máximo",
+        "player": "Jogador",
+        "atk": "Ataque",
+        "def": "Defesa",
+        "foc": "Foco",
+        "res": "resistencia",
+        "heat": "Resistencia a Fogo",
+        "cold": "Resistencia a Gelo",
+        "shock": "Resistencia a Elétrico",
+        "wave": "Resistencia a Onda",
+        "param": "Parâmetro",
+        "base": "Base",
+        "equip": "Equip.",
+        "skills": "Circuito",
+        "info": "Info.",
+        "modifiers": "Modificadores",
+        "modifierName": "Modificação",
+        "nothing": "- Nenhum -",
+        "unequip-name": "- Desequipar - ",
+        "unequip-des": "Tire seu equipamento atual.",
+        "levels": "Level do Jogador & Equipamento",
+        "modifier": {
+          "ITEM_GUARD": "Leaf Bracer",
+          "SP_REGEN": "SP Regen",
+          "AIM_SPEED": "Mira",
+          "XP_PLUS": "Treinador",
+          "XP_ZERO": "Zero XP",
+          "RANGED_DMG": "Atirador",
+          "KNOCKBACK": "Calibre Grosso",
+          "MELEE_DMG": "Lutador",
+          "ASSAULT": "Investida",
+          "CRITICAL_DMG": "Alvo",
+          "DASH_INVINC": "Esquiva Veloz",
+          "STUN_THRESHOLD": "Postura de Ferro",
+          "HP_REGEN": "Regeneração de HP",
+          "DROP_CHANCE": "Sorte Sortuda",
+          "GUARD_STRENGTH": "Escudo Sólido",
+          "ITEM_BOOST": "Item Booster",
+          "OVERHEAT_REDUCTION": "Equilíbrio",
+          "AIM_STABILITY": "Tiro Estável",
+          "SPIKE_DMG": "Corpo de Espinhos",
+          "AIMING_MOVEMENT": "Precisão",
+          "DASH_STEP": "Dash Extra",
+          "MONEY_PLUS": "Banqueiro",
+          "CROSS_COUNTER": "X Counter",
+          "ONCE_MORE": "Mais uma vez",
+          "PERFECT_GUARD_RESET": "Riposte",
+          "PERFECT_GUARD_WINDOW": "Guarda Real",
+          "GUARD_SP": "Vingador",
+          "RANK_PLANTS": "Botânico",
+          "BREAK_DMG": "Covarde",
+          "BERSERK": "Frenesi",
+          "MOMENTUM": "Momentum",
+          "GUARD_AREA": "Bastião",
+          "APPETITE": "Apetite",
+          "SPIDER_SLOW_DOWN_GUARD": "Pés Ágeis",
+          "COND_EFFECT_HEAT": "Impeto de Fogo",
+          "COND_EFFECT_COLD": "Impeto de Gelo",
+          "COND_EFFECT_SHOCK": "Impeto de Choque",
+          "COND_EFFECT_WAVE": "Impeto de Onda",
+          "COND_EFFECT_ALL": "Impeto de Status",
+          "COND_GUARD_HEAT": "Defesa a Fogo",
+          "COND_GUARD_COLD": "Defesa a Gelo",
+          "COND_GUARD_SHOCK": "Defesa a Choque",
+          "COND_GUARD_WAVE": "Defesa a Onda",
+          "COND_HEALING": "Primeiros Socorros",
+          "BEGONE_ICE": "Patinador",
+          "EQUIP_SCALE": "Persistência"
+        },
+        "descriptions": {
+          "levels": "Mostra o jogador e o level médio dos equipamentos.\n - Verde: Os Leveis estão alinhados.\n -Branco: Os Leveis estão ok.",
+          "maxhp": "Quantidade máxima de pontos de Vida. Determina quanto de dano você pode receber e a eficiência da regeneração.",
+          "atk": "Aumenta o dano de seus ataques. Quanto maior o número, mais dano você vai causar.",
+          "def": "Reduz o dano que você recebe de ataques inimigos e aumenta o poder do seu escudo.",
+          "foc": "Aumenta a chance de criticos, ganho de SP, tempo invencivel enquanto desvia e a taxa que você inflige status elementais.",
+          "heat": "Resistência ao elemento fogo. Quanto maior o número, menos dano você sofre de ataques de fogo.",
+          "cold": "Resistência ao elemento gelo. Quanto maior o número, menos dano você sofre de ataques de gelo.",
+          "shock": "Resistência ao elemento eletrico. Quanto maior o número, menos dano você sofre de ataques elétricos.",
+          "wave": "Resistência ao elemento onda. Quanto maior o número, menos dano você sofre de ataques de onda.",
+          "ITEM_GUARD": "O uso de itens não pode ser interrompido por nenhum ataque. No entanto, você ainda pode sofrer danos.",
+          "SP_REGEN": "Aumenta a regeneração de SP de qualquer forma.",
+          "MELEE_DMG": "Aumenta o dano causado por ataques de combate corpo a corpo, incluindo habilidades de combate.",
+          "AIM_SPEED": "Aumenta a velocidade para estabilizar a mira.",
+          "XP_ZERO": "Desabilita o ganho de experiência ao derrotar inimigos.",
+          "XP_PLUS": "Aumenta a quantidade de experiência ganha ao derrotar inimigos",
+          "RANGED_DMG": "Aumenta o dano causado por ataques à distância, incluindo habilidades de esfera.",
+          "KNOCKBACK": "Aumenta o knockback de esferas carregadas contra os inimigos.",
+          "ASSAULT": "Dispara projéteis adicionais ao usar ataques corpo a corpo com uma fração da força de ataques.",
+          "CRITICAL_DMG": "Aumenta o dano de acerto crítico.",
+          "DASH_INVINC": "Aumenta a duração da invencibilidade ao esquivar.",
+          "STUN_THRESHOLD": "Aumenta a resistência de knockback a ataques fracos, dependendo do seu HP Max.",
+          "HP_REGEN": "Regenera determinada porcentagem de HP ao longo de 60 segundos de combate. A frequência de cura aumenta com uma porcentagem maior.",
+          "DROP_CHANCE": "Aumenta a taxa de queda de itens de inimigos e objetos do ambiente.",
+          "GUARD_STRENGTH": "Fortalece seu escudo e diminui o dano sofrido durante a defesa.",
+          "ITEM_BOOST": "Aumenta o efeito dos itens de cura e a duração dos itens de buff.",
+          "OVERHEAT_REDUCTION": "Retarda a sobrecarga ao usar um elemento.",
+          "AIM_STABILITY": "Diminui a perda da precisão devido ao movimento de mira rápida e esquivas.",
+          "SPIKE_DMG": "Causa danos aos inimigos que atingem seu escudo, com base no dano absorvido e na defesa.",
+          "AIMING_MOVEMENT": "Aumenta sua velocidade de movimento enquanto mira.",
+          "DASH_STEP": "Concede uma esquiva adicional.",
+          "MONEY_PLUS": "Aumenta a quantidade de créditos que você obtém ao derrotar os inimigos.",
+          "CROSS_COUNTER": "Aumenta o dano de ataque e atacar os inimigos carregando.",
+          "ONCE_MORE": "Sobreviva exatamente a um ataque que normalmente o mataria.",
+          "PERFECT_GUARD_RESET": "Redefine sua defesa perfeita ao realizar uma defesa perfeita bem-sucedida.",
+          "PERFECT_GUARD_WINDOW": "Aumenta a janela de tempo para uma defesa perfeita.",
+          "GUARD_SP": "Restaura SP na defesa com base no poder do ataque. O Dobro disso para uma defesa perfeita.",
+          "RANK_PLANTS": "Rank de Combate também aumenta a taxa de queda de itens de objetos do ambiente.",
+          "BREAK_DMG": "Aumente o dano em inimigos que estão atordoados, fracos ou interrompidos.",
+          "BERSERK": "Aumenta o dano causado quando em o HP está crítico. (Abaixo de 33% do HP máximo)",
+          "MOMENTUM": "Aumenta o dano causado imediatamente após as esquivas. Esquivas consecutivas aumentam ainda mais o dano.",
+          "GUARD_AREA": "Permite proteger contra ataques laterais. Ative duas vezes para proteger os ataques de cima também.",
+          "APPETITE": "Aumenta o número de slots de buff disponíveis. A cada marco de 100 desbloqueia outro.",
+          "COND_EFFECT_HEAT": "Aumenta a velocidade de infligir a condição \\c[3]Em Chamas\\c[0] e seu efeito. \\c[3]Em Chamas\\c[0] causa danos ao longo do tempo, dependendo do HP Max da vítima.",
+          "COND_EFFECT_COLD": "Aumenta a velocidade de infligir a condição \\c[3]Congelado\\c[0] e seu efeito. \\c[3]Congelado\\c[0] diminui a velocidade geral da vítima.",
+          "COND_EFFECT_SHOCK": "Aumenta a velocidade de infligir a condição \\c[3]Eletrificado\\c[0] e seu efeito. \\c[3]Eletrificado\\c[0] causa danos e atordoa em intervalos curtos.",
+          "COND_EFFECT_WAVE": "Aumenta a velocidade de infligir a condição \\c[3]Marcado\\c[0] e seu efeito. \\c[3]Marcado\\c[0] aumenta o dano recebido de ataques a distância em 50%.",
+          "COND_EFFECT_ALL": "Aumenta a velocidade de infligir uma \\c[3]Condição de Status\\c[0] e seu efeito.",
+          "COND_GUARD_HEAT": "Aumenta a resistência contra a Condição \\c[3]Em Chamas\\c[0] e reduz seu efeito. \\c[3]Em Chamas\\c[0] causa danos ao longo do tempo, dependendo do HP Max da vítima.",
+          "COND_GUARD_COLD": "Aumenta a resistência contra a Condição \\c[3]Congelado\\c[0] e reduz seu efeito. \\c[3]Congelado\\c[0] diminui a velocidade geral da vítima.",
+          "COND_GUARD_SHOCK": "Aumenta a resistência contra a Condição \\c[3]Eletrificado\\c[0] e reduz seu efeito. \\c[3]Eletrificado\\c[0] causa danos e atordoa em intervalos curtos.",
+          "COND_GUARD_WAVE": "Aumenta a resistência contra a Condição \\c[3]Marcado\\c[0] e reduz seu efeito. \\c[3]Marcado\\c[0] aumenta o dano recebido de ataques a distância em 50%.",
+          "COND_HEALING": "Aumenta a velocidade de recuperação de condições de status negativo.",
+          "SPIDER_SLOW_DOWN_GUARD": "Torna possível andar livremente nas teias pegajosas criadas pela \\v[combat.name.forest/spider] e subespécies",
+          "BEGONE_ICE": "Torna possível andar normalmente e executar ações no gelo sem escorregar.",
+          "EQUIP_SCALE": "Os status básicos deste equipamento são dimensionados automaticamente de acordo com seu nível atual."
+        }
+      },
+      "skill": {
+        "shade": "Encontre o [xyz] para quebrar as correntes e desbloquear mais habilidades.",
+        "cost": "Custo:",
+        "activate": "Ativar",
+        "cancel": "Cancelar",
+        "activated": "Ativado!",
+        "switch": "Trocar",
+        "chain": "Ativar Tudo",
+        "chain-des": "Use \\c[3]Ativar Tudo\\c[0] para ativar todas as habilidades anteriores e esta com CP suficiente.",
+        "swappable": "Alternável",
+        "learn-prev": "Ative os módulos anteriores para ver este!"
+      },
+      "item": {
+        "buffHelp": "Clique para Detalhes",
+        "news": "Novo",
+        "items": "Consumíveis",
+        "arms": "Armas",
+        "head": "Cabeça",
+        "torso": "Quadril",
+        "feet": "Pernas",
+        "keys": "Valiosos",
+        "trade": "Troca",
+        "availability": "Disponibilidade",
+        "toggle": "Complementos",
+        "buff": "Buffs Ativos",
+        "favs": "Favoritos",
+        "set-fav": "Definir Favorito",
+        "sort-title": "Ordem",
+        "chance": "Chance"
+      },
+      "option": {
+        "general": "Geral",
+        "interface": "Interface",
+        "video": "Video",
+        "audio": "Audio",
+        "gamepad": "Controle",
+        "controls": "Teclado",
+        "assists": "Auxilio",
+        "arena": "Arena"
+      },
+      "save-menu": {
+        "delete": "Deletar",
+        "exit-del": "Sair",
+        "new-save": "Novo Arquivo",
+        "load": "Carregar",
+        "save": "Salvar",
+        "time": "Tempo",
+        "chapter": "Capítulo",
+        "chapter0": "Prólogo",
+        "chapterLast": "Epílogo",
+        "level": "lvl",
+        "playtime": "Tempo de Jogo",
+        "credit": "créditos",
+        "noAuto": "- Nenhum arquivo de salvamento automático ainda -",
+        "new-slot": "- Criar novo arquivo salvo  -",
+        "delete-info-title": "\\c[3]Excluindo arquivos salvos \\c[0]",
+        "delete-info-content": "Passe o mouse sobre um arquivo (exceto o arquivo salvo automaticamente e o novo arquivo para salvar) e pressione \\i[help2] para deletar o arquivo.",
+        "description-save": "Selecione um arquivo para salvar.",
+        "description-load": "Selecione um arquivo para carregar. ",
+        "description-newgame": "Selecione um arquivo de onde importar os dados."
+      },
+      "trade-menu": {},
+      "synopsis-menu": {
+        "quests": "Missões",
+        "map": "Mapa",
+        "trophies": "Troféus",
+        "lore": "Enciclopédia",
+        "records": "Estatisticas",
+        "items": "Almanaque",
+        "enemies": "Almanaque Monstro",
+        "museum": "Museu",
+        "help": "Ajuda",
+        "trade": "Livro de Trocas",
+        "botanics": "Botânica",
+        "newgame": "Novo Jogo +",
+        "types": {
+          "landmark": "Novo Marco Alcançado ",
+          "trader": "Comerciante Encontrado ",
+          "traderUpdate": "Comerciante Atualizado",
+          "lm": "em ",
+          "questTask": "Missão Atualizada ",
+          "qtm": "Tarefa concluida: ",
+          "questStart": "Missão iniciada ",
+          "questFinish": "Missão concluída ",
+          "lore": "Enciclopédia Desbloqueada ",
+          "loreUpdated": "Enciclopédia Atualizada ",
+          "dropCompleted": "Análise Completa ",
+          "trophy": "Troféu Desbloqueado"
+        },
+        "descriptions": {
+          "map": "Dê uma olhada em sua localização atual e use o Teletransporte.",
+          "quests": "Dê uma olhada em todas as missões ativas e concluídas.",
+          "lore": "Veja uma sinopse da história até agora ou leia sobre a história do jogo.",
+          "trophies": "Aproveite a glória de seus troféus e encontre novos para conquistar.",
+          "records": "Veja um registro detalhado de suas várias estatisticas e atividades.",
+          "items": "Aqui você pode encontrar uma lista detalhada de todos os itens e onde encontrá-los.",
+          "trade": "Procure as localizações e ofertas de cada comerciante que você encontrou até agora.",
+          "enemies": "Informações detalhadas sobre todos os inimigos que você encontrou em sua jornada.",
+          "museum": "Aproveite as coisas que você descobriu.",
+          "help": "Perdeu a descrição de algo ou uma dica útil? Encontre-o nesta seção. ",
+          "botanics": "Veja todas as plantas de CrossWorlds e quais itens elas podem deixar.",
+          "newgame": "Take a look at the \\c[3]New Game Plus\\c[0] options you have selected."
+        },
+        "task": "Objetivo Atual",
+        "log": "Registro de Atividade",
+        "notask": "\\c[1]Sem Objetivo\\c[0]",
+        "favquest": "Missão Destacada",
+        "noquest": "\\c[1]Sem Missão Destacada\\c[0]",
+        "achievements": "Troféus Recentes"
+      },
+      "quests": {
+        "firstTask": "Primeira Tarefa",
+        "tasks": "Tarefas",
+        "fav": "Definir Favoritos",
+        "Back": "Voltar",
+        "solved": "Resolvido",
+        "atCurLvl": "*no Level atual",
+        "accept": "Aceitar",
+        "collect": "Coletar Recompensas",
+        "collectSubQuest": "Continue",
+        "decline": "Recusar",
+        "accepted-large": "ACEITO!",
+        "tabs": { "active": "Ativo", "solved": "Concluída", "all": "Tudo" },
+        "noquest": "Nenhuma missão selecionada"
+      },
+      "lore": {
+        "tabs": {
+          "story": "História",
+          "people": "Pessoas",
+          "cross-lore": "CrossWorlds",
+          "earth-lore": "Em geral",
+          "memories": "Memórias",
+          "others": "Outros"
+        },
+        "aka": "\\c[3]Outros Termos:\\c[0] ",
+        "noLore": "Nenhuma História Selecionada",
+        "lockedEntry": "\\c[1]História Bloqueada\\c[0]",
+        "completion": "Conclusão %"
+      },
+      "status": {
+        "pages": ["Resumo", "Parâmetros", "Modificadores", "Habilidades"],
+        "artType": {
+          "THROW_SPECIAL": "Esfera",
+          "ATTACK_SPECIAL": "Combate",
+          "DASH_SPECIAL": "Esquiva",
+          "GUARD_SPECIAL": "Escudo"
+        },
+        "lvl": "LVL",
+        "sp": "SP",
+        "dmgType": "DMG",
+        "damageTypes": ["Corpo a Copo", "À Distância", "Nenhum", "Misturado"],
+        "effects": "EFEITOS",
+        "stunTypes": ["Interromper", "Travar"],
+        "inflicts": "Infligir Status",
+        "conditions": [
+          "Isso nunca deve ser exibido",
+          "Queimar",
+          "Congelar",
+          "Eletrificar",
+          "Marcar"
+        ]
+      },
+      "enemy": {
+        "tabs": {
+          "avatars": "Humanóide",
+          "animals": "Orgânico",
+          "mecha": "Mecânico",
+          "abstract": "Abstrato",
+          "boss": "Bosses"
+        },
+        "unknown": "Desconhecido",
+        "special": "\\c[3]Especial\\c[0]",
+        "trivia": "\\c[3]Relatório:\\c[0] ",
+        "species": "\\c[3]Subtipo:\\c[0] ",
+        "killMore": "Derrote \\c[3][x]\\c[0] mais [y] para desbloquear esta página!",
+        "kills": "Derrotado: ",
+        "resistance": "resistencia",
+        "drops": "Itens",
+        "rank": "rank",
+        "chance": "Chance",
+        "location": "\\c[3]Encontrado em:\\c[0] ",
+        "noEnemy": "Nenhum Inimigo Selecionado",
+        "noReports": "Nenhum Relatório Encontrado"
+      },
+      "social": {
+        "tabs": { "close": "Amigos", "contacts": "Contatos", "all": "Todos" },
+        "status": "Status",
+        "name": "Nome",
+        "class": "Classe",
+        "equipment": "Equipamento",
+        "noMember": "Nenhum Jogador Selecionado",
+        "party": "Grupo Atual",
+        "classes": {
+          "SPHEROMANCER": "Spheromancer",
+          "TRIBLADER": "Triblader",
+          "QUADROGUARD": "Quadroguard",
+          "PENTAFIST": "Pentafist",
+          "HEXACAST": "Hexacast",
+          "UNKNOWN": "Unknown"
+        }
+      },
+      "questHub": {
+        "tabs": {
+          "open": "Aberta",
+          "active": "Ativo",
+          "finished": "Concluído"
+        },
+        "rewards": "Recompensas",
+        "completion": "Taxa de Conclusão",
+        "available": "Missões Disponiveis"
+      },
+      "trophies": {
+        "tabs": {
+          "GENERAL": "Em geral",
+          "COMBAT": "Combate",
+          "EXPLORATION": "Exploração",
+          "CHALLENGES": "Especial"
+        },
+        "sections": {
+          "GENERAL": {
+            "PROGRESS": "Progressão",
+            "PLAYER": "Jogador",
+            "SPECIAL": "Especial",
+            "ITEMS": "Inventário"
+          },
+          "COMBAT": {
+            "CUMULATIVE": "Cumulativo",
+            "ACTIONS": "Ações",
+            "CIRCUITS": "Circuito",
+            "ENEMIES": "Inimigos"
+          },
+          "EXPLORATION": {
+            "AREAS": "Locais",
+            "CHESTS": "Baús",
+            "QUESTS": "Missões",
+            "DISCOVERY": "Descoberta"
+          },
+          "CHALLENGES": { "GENERAL": "Geral", "COMBAT": "Combate" }
+        },
+        "toggleStats": "Alternar Progresso",
+        "category": "Categoria",
+        "section": "Seção",
+        "totalTrophies": "Troféus Totais",
+        "questionMarks": "???",
+        "questionMarksDesc": "??????",
+        "sectionText": "Seções",
+        "points": "Pontos de Troféu",
+        "completion": "Taxa de Conclusão"
+      },
+      "stats": {
+        "tabs": {
+          "general": "Geral",
+          "combat": "Combate",
+          "items": "Coleção",
+          "quests": "Missões",
+          "exploration": "Exploração",
+          "misc": "Outros",
+          "log": "Atividades",
+          "arena": "Arena"
+        },
+        "keys": {
+          "playtime": "Tempo de Jogo",
+          "assistTime": "Tempo de Jogo com Modo de Auxilio",
+          "level": "Level Atual",
+          "exp": "Total de Exp Ganho",
+          "money": "Total de Créditos Coletados",
+          "progressComplete": "Conclusão Geral",
+          "progressStory": "História",
+          "progressTrophies": "Troféus",
+          "progressArena": "Arena",
+          "progressCollection": "Coleção",
+          "progressEnemies": "Inimigos",
+          "progressQuests": "Missões",
+          "progressExploration": "Exploração",
+          "kills": "Inimigos Derrotados",
+          "enviroKills": "Através do Ambiente",
+          "boostedKills": "Empurrado",
+          "oneHitKills": "Apenas um Golpe",
+          "foundAnimals": "\\i[enemy-animals]Orgânico",
+          "foundMechas": "\\i[enemy-mecha]Mecânico",
+          "foundPlayers": "\\i[enemy-avatars]Avatares",
+          "foundAbstract": "\\i[enemy-abstract]Abstrato",
+          "enemies": "Conclusão de Inimigos",
+          "damageGiven": "Dano Total Causado",
+          "timeCombat": "Tempo Gasto em Combate",
+          "hitsTaken": "Total de Golpes Recebidos",
+          "damageTaken": "Dano Total Recebido ",
+          "throws": "Total de Esferas Arremessadas",
+          "normalThrows": "Arremessos Normais",
+          "chargedThrows": "Arremessos Carregados",
+          "aimingTime": "Tempo Gasto Mirando",
+          "chargeTime": "Tempo Gasto Carregando",
+          "guardTime": "Tempo Gasto Defendendo",
+          "shieldedHits": "Ataques Defendidos",
+          "perfectShield": "Defesas Perfeita",
+          "guardCounters": "Contra Ataques",
+          "shieldRatio": "Defesa Normal / Perfeita Taxa de Acerto",
+          "specials": "Total de Habilidades de Combate Executadas",
+          "specials-level-1": "Level 1",
+          "specials-level-2": "Level 2",
+          "specials-level-3": "Level 3",
+          "specialsClose": "Combate",
+          "specialsThrow": "Esfera",
+          "specialsDash": "Esquiva",
+          "specialsGuard": "Escudo",
+          "critHits": "Total de Golpes Criticos",
+          "critHitsThrow": "Distancia",
+          "critHitsClose": "Combate",
+          "dash": "Total de Esquivas",
+          "atkDashCancel": "Esquivas Canceladas",
+          "streakKilled": "Recorde de Inimigos Derrotados em Sequência",
+          "streakTime": "Maior Tempo em Combate",
+          "elOverload": "Total de Sobrecargas",
+          "elTime": "Tempo Gasto em Modos de Elemento",
+          "elTimeHeat": "\\i[element-heat]Fogo",
+          "elTimeCold": "\\i[element-cold]Gelo",
+          "elTimeShock": "\\i[element-shock]Elétrico",
+          "elTimeWave": "\\i[element-wave]Onda",
+          "elSwitches": "Vezes que Trocou de Elemento",
+          "elSwitchesNeutral": "\\i[element-neutral]Neutro",
+          "elSwitchesHeat": "\\i[element-heat]Fogo",
+          "elSwitchesCold": "\\i[element-cold]Gelo",
+          "elSwitchesShock": "\\i[element-shock]Elétrico",
+          "elSwitchesWave": "\\i[element-wave]Onda",
+          "throwHits": "Total de Golpes com Projéteis",
+          "hitPercent": "Arremessos / Taxa de Acerto",
+          "dashTime": "Tempo Gasto Esquivando",
+          "perfectDash": "Esquivas Perfeitas",
+          "healed": "Total de HP Curado",
+          "maxDamage": "Dano Máximo em um Único Golpe",
+          "close": "Ataques Corpo a Corpo",
+          "closeHits": "Golpes Corpo a Corpo",
+          "items": "Conclusão de Itens",
+          "itemCons": "Consumiveis",
+          "itemEquip": "Equipamentos",
+          "itemEquipHead": "Cabeça",
+          "itemEquipArm": "Braços",
+          "itemEquipTorso": "Quadril",
+          "itemEquipFeet": "Pés",
+          "itemTrade": "Troca",
+          "itemKey": "Valiosos",
+          "total": "Total de Itens Coletados",
+          "used": "Consumiveis Usados",
+          "dropsTotal": "Total de Itens Saqueados",
+          "dropsProps": "Ambiente",
+          "dropsEnemies": "Inimigos",
+          "buy": "Itens Comprados",
+          "sell": "Itens Vendidos",
+          "chestFound": "Baús Encontrados",
+          "botanics": "Botânica",
+          "trades": "Trocas Realizadas",
+          "tradeGot": "Itens Obtidos por Meio de Trocas",
+          "tradeLost": "Itens Perdidos por Troca",
+          "areas": "Conclusão dos Locais",
+          "landmarks": "Conclusão de Ponto de Referencia",
+          "lories": "Conclusão da Enciclopédia",
+          "loriesStory": "\\i[lore-story]História",
+          "loriesMemories": "\\i[lore-memories]Memórias",
+          "loriesPeople": "\\i[lore-people]Pessoas",
+          "loriesCross": "\\i[lore-cross-lore]CrossWorlds",
+          "loriesEarth": "\\i[lore-earth-lore]Mundo",
+          "loriesOther": "\\i[lore-others]Outros",
+          "enemyReports": "Conclusão dos Relatórios Inimigos",
+          "areasFound": "Locais Encontrados",
+          "landmarksFound": "Pontos de Referência Encontrados",
+          "loreFound": "Entradas na Enciclopédia Encontradas",
+          "loreEntries": "Parágrafos da Enciclopédia Encontrados ",
+          "finalStat": "Número Total de Estatisticas neste Menu",
+          "chests": "Conclusão de Baús",
+          "hiCount": "Número de Vezes que Lea disse \"Oi\"",
+          "yawns": "Número de Vezes que Lea ficou Entediada",
+          "quests": "Conclusão de Missões",
+          "questTotal": "Total de Missões Concluídas",
+          "questGenTotal": "Total de Missões Genéricas",
+          "tasksTotal": "Total de Tarefas Concluídas",
+          "subTaskTotal": "Total de Sub-Tarefas Concluídas",
+          "subTaskKill": "Derrotar Inimigos",
+          "subTaskCol": "Coletar Itens",
+          "subTaskAct": "Interações",
+          "subTaskQuest": "Missões",
+          "subTaskLandmark": "Pontos de Referência",
+          "questActive": "Número Máximo de Missões Ativas Simultâneamente",
+          "rewardExp": "Total de Exp ganha por meio de Missões",
+          "rewardMoney": "Total de Créditos ganhos por meio de Missões",
+          "rewardItems": "Total de Itens ganhos por meio de Missões",
+          "rewardCp": "Pontos de Circuito ganhos por meio de Missões",
+          "saves": "Total de Jogos Salvos",
+          "steps": "Número de Passos",
+          "meters": "Metros Corridos",
+          "respawns": "Número Total de Autodestruição",
+          "respWater": "Pela Água",
+          "respSand": "Pela Areia",
+          "respCoal": "Por Carvão(?)",
+          "respHole": "Por Buracos",
+          "respHighway": "Na Rodovia",
+          "words": "Total de Palavras Aprendidas",
+          "teleports": "Teleportes Usando o Menu do Mapa",
+          "propsDestroyed": "Objetos Ambientais Destruidos",
+          "jumps": "Número de Pulos",
+          "skills": "Quantidades de Módulos de Habilidades",
+          "skillsPassive": "Passiva",
+          "skillsActive": "Habilidades de Combate",
+          "branches": "Ramificações Alternadas",
+          "skillPoints": "Pontos de Circuito Gastos ",
+          "skillPoints0": "\\i[element-neutral]Neutro",
+          "skillPoints1": "\\i[element-heat]Fogo",
+          "skillPoints2": "\\i[element-cold]Gelo",
+          "skillPoints3": "\\i[element-shock]Elétrico",
+          "skillPoints4": "\\i[element-wave]Onda",
+          "expEnemies": "Inimigos",
+          "expQuest": "Missões",
+          "expOther": "Eventos / Outros",
+          "expEn": "Total de EXP ganho através de Inimigos",
+          "moneyEn": "Total de Créditos obtidos através de inimigos",
+          "moneyEnemies": "Inimigos",
+          "moneyQuest": "Crédito",
+          "moneySelling": "Venda de Itens ",
+          "moneyOther": "Eventos / Outros",
+          "logs": "Total de Entradas de Registro Acumuladas",
+          "gameBoots": "Total de Jogos Iniciados",
+          "randomNumber": "Aqui está um Número Aleatório para você",
+          "shieldBreaks": "Quebra de Escudo Sofridas",
+          "tradersFound": "Conclusão de Comerciantes",
+          "traderTotal": "Mercadores Encontrados",
+          "dropsTotalPlants": "Objetos Ambientais Encontrados",
+          "dropsCompleted": "Completamente Analisado",
+          "arenaTime": "Tempo passado na Arena",
+          "arenaKills": "Inimigos Derrotados",
+          "roundsDone": "Rodadas Concluídas",
+          "arenaCompletion": "Conclusão da Arena",
+          "roundsFailed": "Rodadas Perdidas",
+          "rushDone": "Modo Rush Concluídos",
+          "arenaScore": "Pontuação Total Acumulada",
+          "totalMedals": "Medalhas Obtidas",
+          "totalMedals1": "\\i[arena-medal-1]Bronze",
+          "totalMedals2": "\\i[arena-medal-2]Prata",
+          "totalMedals3": "\\i[arena-medal-3]Ouro",
+          "totalMedals4": "\\i[arena-medal-4]Platina",
+          "totalTrophies": "Troféus Desbloqueados",
+          "totalTrophies1": "\\i[arena-trophy-1]Bronze",
+          "totalTrophies2": "\\i[arena-trophy-2]Prata",
+          "totalTrophies3": "\\i[arena-trophy-3]Ouro",
+          "totalTrophies4": "\\i[arena-trophy-4]Platina",
+          "totalTrophies5": "\\i[arena-trophy-5]Platina Real",
+          "totalCoins": "Moedas da Arena Obtidas"
+        },
+        "groups": {
+          "circuits": "Circuitos",
+          "questAreas": "Conclusão de Missão por Área",
+          "trades": "Trocas",
+          "chests": "Baús",
+          "overview": "Visão Geral",
+          "elements": "Elementos",
+          "throwing": "Esferas e Corpo a Corpo",
+          "guarding": "Esquiva e Escudo",
+          "combatArts": "Habilidades de Combate",
+          "progress": "Progresso",
+          "enemyKills": "Derrotados por Categoria",
+          "enemyFound": "Encontrados por Categoria",
+          "botanics": "Botânica",
+          "tradersByArea": "Comerciantes",
+          "medals": "Medalhas",
+          "trophies": "Troféus",
+          "trophyCompletion": "Conclusão de Troféu por Copa"
+        }
+      },
+      "hotkeys": {
+        "equip": "Equipamento",
+        "help": "Ajuda",
+        "status": "Status",
+        "diff-show": "Mostrar Diferença",
+        "diff-hide": "Esconder Diferença",
+        "swap-branches": "Trocar Ramificação",
+        "swap-exit": "Sair da Troca",
+        "reset-default": "Redefinir Padrões",
+        "center-map": "Marcação",
+        "worldmap": "Mapa-Múndi",
+        "deleteSlot": "Excluir (slot)",
+        "newSlot": "Novo (slot)"
+      },
+      "map-menu": {
+        "gf": "T",
+        "floor-short": "P",
+        "base-short": "S",
+        "current": "Localização Atual",
+        "teleport": "Teleportar para [!]?",
+        "area": "Area: ",
+        "delete": "Deletar",
+        "blocked": "Bloqueado",
+        "stamps": {
+          "DEFAULT": "Marcação",
+          "CHEST": "Baú",
+          "ENEMY": "Inimigo",
+          "GREEN": "Coletável",
+          "SECRET": "Secreto",
+          "QUEST": "Missão",
+          "UNKNOWN": "Desconhecido",
+          "XXX": "Local",
+          "ARROW_RIGHT": "Leste",
+          "ARROW_LEFT": "Oeste",
+          "ARROW_UP": "Norte",
+          "ARROW_DOWN": "Sul",
+          "ARROW_DOWN_RIGHT": "Sudeste",
+          "ARROW_DOWN_LEFT": "Sudoeste",
+          "ARROW_UP_RIGHT": "Nordeste",
+          "ARROW_UP_LEFT": "Noroeste"
+        },
+        "popupTitle": "\\c[3]Adicionando Marcações\\c[0]",
+        "popupDesc": "Passe o mouse sobre qualquer lugar onde deseja colocar uma marcação e pressione \\i[help3] para defini-lo. As marcações não podem ser colocadas perto de outras marcações ou pontos de referência."
+      },
+      "seconds": "seg.",
+      "select": "Selecione",
+      "quantity": "Quantidade",
+      "help-texts": {
+        "inventory": {
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Inventário!",
+                "......",
+                "É aqui que você pode dar uma olhada em todos os seus itens coletados ou definir certos consumiveis como favoritos.",
+                "Use \\i[circle-left] e \\i[circle-right] para alternar entre as categorias ou pressione as guias se usar o mouse.",
+                "A primeira guia mostra os últimos itens que você coletou para ficar de olho em todos os seus saques!"
+              ]
+            },
+            {
+              "title": "\\c[3]Menu do Inventário\\c[0] - Consumíveis",
+              "content": [
+                "A maioria dos consumiveis são \\c[3]buffs usados para ajudá-lo na batalha\\c[0]. Passar o mouse sobre um consumivel que também é buff mostra uma pequena janela informando o que o item faz no \\c[3]canto inferior esquerdo\\c[0].",
+                "..",
+                "Os simbolos que você vê informam quais estatisticas ou modificadores mudam e o quão forte a estatistica é aumentada. Enquanto estiver na tela de ajuda, selecione o \\c[3]IU no canto inferior esquerdo\\c[0] para ver o que cada um dos simbolos significa."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu do Inventário\\c[0] - Complementos",
+              "content": [
+                "Complementos são itens úteis ou efeitos visuais que você pode ativar e desativar quando desejar!",
+                "..",
+                "Os itens nesta categoria são agrupados em \\c[3]Conjuntos\\c[0]. Em Conjuntos com caixa de seleção \\c[3]Redondas\\c[0], apenas um dos itens no conjunto pode estar ativo ao mesmo tempo. \\c[3]Quadrados\\c[0] indicavam um conjunto onde você pode \\c[3]ativar qualquer item\\c[0]."
+              ],
+              "condition": "player.hasAnyToggleItems"
+            }
+          ],
+          "title": "\\c[3]Menu de Inventário\\c[0]",
+          "title-2": "\\c[3]Adicionando Itens Favoritos\\c[0]",
+          "text-2": "Passe o mouse sobre um item na seção de consumiveis e pressione \\i[help2] para adicioná-lo como favorito"
+        },
+        "equip": {
+          "title": "\\c[3]Menu de Equipamento\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Equipamentos!",
+                "......",
+                "Neste menu, você pode equipar seu equipamento coletado em 5 lugares diferentes.",
+                "São eles \\c[3]Cabeça\\c[0], \\c[3]Braço Direito\\c[0], \\c[3]Braço Esquerdo\\c[0], \\c[3]Quadril\\c[0] e \\c[3]Pernas\\c[0].",
+                "..",
+                "Selecione uma parte do corpo clicando em um dos botões. Você também pode usar o mouse para clicar nos botões do centro.",
+                "Além disso, você pode percorrer as partes do corpo usando \\i[circle-right] e \\i[circle-left] ou \\i[left] e \\i[right].",
+                "Pressione \\i[help2] para ir diretamente para o menu de status."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Equipamento\\c[0] - Status e Modificadores",
+              "content": [
+                "Passar o mouse sobre um equipamento mostra as mudanças em seu \\c[3]status\\c[0] à esquerda. Depois de equipar um item mostrará como seus parâmetros mudam ao trocar para outro equipamento.",
+                "\\c[3]Modificadores\\c[0] são mostrados abaixo dos parâmetros de status. Pressione \\i[skip-cutscene] para expandir a lista se mais modificadores forem equipados ou exibidos se encaixarem na lista.",
+                "Use o \\c[3]Menu de Status\"Modificador\" - Lista\\c[0] para obter uma descrição detalhada de cada modificador equipado."
+              ]
+            }
+          ]
+        },
+        "circuit": {
+          "title": "\\c[3]Menu de Circuito\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem Vindo ao Menu de Circuito!",
+                "......",
+                "Neste menu você pode gastar seus \\c[3]Pontos de Circuito (CP)\\c[0] ganhos para desbloquear habilidades nas árvores de habilidades.",
+                "selecione uma das ramificações desbloqueadas e pressione para entrar na visão detalhada da ramificação associada.",
+                "Role para a direita para obter mais informações sobre a exibição detalhada que aparece quando você pressiona uma das ramificações."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Circuito\\c[0] - Visualização de Detalhes",
+              "content": [
+                "Use \\i[key-up]\\i[key-left]\\i[key-down]\\i[key-right] ou arraste o mouse para mover-se pelo circuito de habilidades.",
+                "Com o gamepad você pode usar \\i[left-stick] para mover o cursor e \\i[right-stick] para mover a câmera..",
+                "......",
+                "Passe o cursor sobre uma habilidade para ver o que ela faz e quantos CP você precisa para ativá-la.",
+                "Observe que, para ativar uma habilidade, você deve primeiro desbloquear a habilidade anterior. Outra alternativa, você pode ativar todas as habilidades anteriores, desde que você tenha CP suficiente. Nesse caso, o botão exibirá o texto \\c[3]Ativar Tudo\\c[0]."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Circuito\\c[0] - Ramificações",
+              "content": [
+                "Observe as ramificações em alguns caminhos ao longo das habilidades do circuito? Esses sempre oferecem 2 caminhos e você só pode escolher um deles",
+                "No entanto você pode \\c[3]alternar entre as duas ramificações a qualquer momento sem gastar nenhum ponto adicional\\c[0] contanto que você tenha uma habilidade ativada em um dos caminhos de ramificação.",
+                "Pressionando \\i[help2] você pode entrar em um modo de troca especial na visão geral, onde você pode trocar ramificações rapidamente. Basta selecionar um painel e pressioná-lo para trocar as habilidades!"
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Circuito\\c[0] - Habilidades de Combate",
+              "content": [
+                "Os ramificações mencionadas sempre contêm pelo menos uma \\c[3]Habilidade de Combate\\c[0] em cada caminho, que você pode reconhecer por seus \\c[3]fundo cinza-claro\\c[0].",
+                "......",
+                "Essas artes de combate são habilidades que não aumentam seus status, mas permitem que você execute habilidades especiais durante o combate, em troca de \\c[3]Pontos Especiais (SP)\\c[0].",
+                "......",
+                "As Habilidades de Combate podem aumentar muito suas chances em uma batalha, então é aconselhável que você aprenda pelo menos uma delas o mais rápido possivel!"
+              ]
+            }
+          ]
+        },
+        "map": {
+          "title": "\\c[3]Menu do Mapa\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu do Mapa!",
+                "......",
+                "Aqui você pode verificar sua localização atual exibida por uma \\c[3]caixa vermelha e linhas pontilhadas brancas\\c[0], veja quantos tesouros você encontrou e use o sistema de teletransporte.",
+                "..",
+                "Use \\i[key-up]\\i[key-left]\\i[key-down]\\i[key-right] para mover a câmera ou arraste com o mouse. Você também pode usar \\i[left-stick] para mover ou \\i[right-stick] para mover a câmera com o controle.",
+                "..",
+                "Pressinonando \\i[help3] coloca uma \\c[3]Marcação\\c[0]. Você pode atualizar a marcação clicando nele ou criando um."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu do Mapa\\c[0] - Sistema de Teletransporte",
+              "content": [
+                "Uma vez que um \\c[3]Teletransportador\\c[0] está ativado, pode ser selecionado passando o mouse sobre o simbolo \\i[landmark] com o mouse ou o cursor do controle.",
+                "Clicar ou pressionando \\i[gamepad-a] no gamepad abre uma caixa de diálogo de confirmação.",
+                "Selecionar 'sim' fecha o menu e teletransporta Lea para a localização do teletransportador",
+                "....",
+                "Se um teletranspotador está cinza, isso significa que está bloqueado. (por exemplo, por causa da progressão da história) Para acessá-los, simplesmente encontre ele."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu do Mapa\\c[0] - Mapa-Múndi",
+              "content": [
+                "Pressionando \\i[help2] abre ou fecha o mapa mundi de CrossWorlds. Neste menu você pode selecionar uma área que já tenha visitado.",
+                "Passar o mouse sobre uma área mostra o nome, uma breve descrição e os baús encontrados na área.",
+                "Clicar ou pressionar \\i[gamepad-a] no controle exibe os mapas da área. Aqui você pode usar o sistema de teletransporte para leva-lo para teletransportadores ativados na área selecionada."
+              ]
+            }
+          ]
+        },
+        "newgame": {
+          "title": "\\c[3]Novo Jogo + Menu\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao menu Novo Jogo + ! ",
+                "......",
+                "Comece uma nova aventura usando seus \\c[3]Pontos de Troféus\\c[0] para desbloquear modificadores especiais para alterar o jogo e criar uma nova experiência única!\n",
+                "Selecione uma opção para ativá-la. Os grupos com as caixas de seleção\\c[0].",
+                "Os grupos com caixa de seleção \\c[3]Redondas\\c[0] permitem que apenas \\c[3]uma opção\\c[0] seja selecionada.",
+                "Se for selecionada uma opção que \\c[3]precise de arquivo de salvamento\\c[0], você será solicitado a \\c[3]escolher um antes de iniciar o jogo\\c[0]."
+              ]
+            },
+            {
+              "title": "\\c[1]Coisas que não podem ser transportadas\\c[0]",
+              "content": [
+                "!!min=64",
+                "--\\c[3]Itens Valiosos\\c[0]",
+                "--\\c[3]Contatos\\c[0]",
+                "--\\c[3]Progresso em Missões\\c[0]",
+                "--\\c[3]Estatisticas\\c[0]",
+                "!!min=-1"
+              ]
+            }
+          ]
+        },
+        "options": {
+          "title": "\\c[3]Menu de Opções\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Opções!",
+                "......",
+                "Neste menu, você pode alterar várias configurações para personalizar sua experiência de jogo. Use \\i[circle-right] e \\i[circle-left] para navegar pelas guias.",
+                "Algumas opções podem exigir uma reinicialização. Opções como essas são \\c[3]marcadas com um texto informativo em vermelho.\\c[0]",
+                "As opções são salvas assim que você sai do menu principal.",
+                "Use \\i[help2] para redefinir todas as configurações de volta ao padrão. Isso também redefinirá todas as suas configurações de teclas."
+              ]
+            }
+          ]
+        },
+        "synopsis": {
+          "title": "\\c[3]Menu de Registros\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Registros!",
+                "......",
+                "Este menu apresenta uma grande variedade de informações sobre todas as suas missões, estatisticas e conquistas!",
+                "No lado esquerdo você pode ver um breve resumo incluindo sua \\c[3]tarefa atual\\c[0] e suas \\c[3]atividades mais recentes.\\c[0]",
+                "Para ver mais atividades, acesse o \\c[3]Registro de Atividades\\c[0] no menu de estatisticas"
+              ]
+            }
+          ]
+        },
+        "quests": {
+          "title": "\\c[3]Menu De Missão\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Missão!",
+                "......",
+                "Neste menu você pode ver a todas as suas missões ativas e concluidas.",
+                "Navegue as guias usando \\i[circle-left] e \\i[circle-right].",
+                "Selecionar uma missão mostra um rápido resumo, incluindo as últimas tarefas realizadas e uma descrição.",
+                "....",
+                "Clicando em uma missão abre a \\c[3]Visão Detalhada\\c[0]. Este menu oferece uma visão mais precisa de uma missão."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Missão\\c[0] - Favoritos",
+              "content": [
+                "Pressionando \\i[help2] em uma missão na seção ativa, marca como missão favorita. Pressione \\i[help2] em uma missão marcada, para desmarqua-la.",
+                "......",
+                "As missões favoritas são destacadas fora do menu, no canto superior direito da tela.",
+                "Você pode alternar entre elas fora do menu usando \\i[circle-left] e \\i[circle-right] no teclado ou pressionando \\i[left-stick] e \\i[right-stick] no controle.",
+                "Você apenas vai ver aqueles que você marcou como favorito."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Missão\\c[0] - Missão Secundária",
+              "content": [
+                "Uma missão pode ter até 4 missões secundárias.",
+                "Caso essa missão seja ativada, todas as missões secundárias ficam abaixo da missão principal quando a Ordem de \\c[3]Data\\c[0] ou \\c[3]Auto\\c[0] está ativa. Desta forma, você sempre saberá de onde pertence uma missão secundária."
+              ]
+            }
+          ],
+          "title-2": "\\c[3]Definir Missões Favoritas\\c[0]",
+          "text-2": "Selecione uma missão na seção de missões ativas e pressione \\i[help2] para defini-la como favorita! \n\nFaça o mesmo em uma missão favorita para desmarcá-la."
+        },
+        "shop": {
+          "title": "\\c[3]Menu de Loja\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem Vindo ao Menu de Loja",
+                "......",
+                "Neste menu você pode comprar itens ou vendê-los caso não precise deles.",
+                "Use \\i[circle-left] e \\i[circle-right] para navegar entre as categorias ou clique nas guias se usar o mouse.",
+                "Clique em um item para selecionar a quantidade que deseja comprar. Você pode usar o \\i[up]\\i[left]\\i[down]\\i[right] para alterar o valor.",
+                "Pressione \\i[help2] para abrir a tela de confirmação quando tiver pelo menos um item no carrinho. Quando tiver certeza de que deseja comprar ou vender os itens selecionados, pressione Comprar/Vender para confirmar."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Loja\\c[0] - Informação Adicional",
+              "content": [
+                "Quando um item é selecionado, você pode usar \\i[left] e \\i[right] para diminuir ou aumentar o número de um em um diretamente.",
+                "Alguns fornecedores podem ter apenas um tipo de item que você pode comprar. Isso é indicado pelos botões cinza ao lado do nome da categoria."
+              ]
+            }
+          ]
+        },
+        "save": {
+          "title": "\\c[3]Menu de Salvar\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Menu de Salvar",
+                "......",
+                "Neste menu você pode salvar seu progresso e ver todos os arquivos salvos que você criou.",
+                "Navegue pelos arquivos salvos usando \\i[mousewheel] com o mouse ou os botões de direção no controle. ",
+                "Clique em um arquivo ou pressione \\i[gamepad-a] no controle para salvar o jogo no espaço selecionado..",
+                "Pressione \\i[help3] para criar \\c[3]um novo arquivo salvo\\c[0] ou \\i[help2] para \\c[3]deletar um arquivo salvo\\c[0] selecionando sobre.",
+                "Você também pode usar a primeira opção na lista para criar um novo arquivo salvo."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Salvar\\c[0] - Arquivos Salvos",
+              "content": [
+                "Um único arquivo salvo exibe algumas informações básicas sobre o seu progresso:",
+                "!!min=66",
+                "--\\c[3]Capítulo\\c[0]:-- Reflete o progresso da história por meio do capítulo em que você está e um pequeno gráfico.",
+                "--\\c[3]Level\\c[0]:-- O level que você tem nesse arquivo salvo.",
+                "--\\c[3]Localização\\c[0]:-- A área e o mapa em que você salvou.",
+                "--\\c[3]Elemento\\c[0]:-- Os elementos que você tem neste arquivo salvo.",
+                "--\\c[3]Versão\\c[0]:-- Exibido no canto inferior direito. Mostra a versão do jogo com a qual esse arquivo foi criado pela primeira vez.",
+                "--\\c[3]Tempo de Jogo\\c[0]:-- O tempo total de jogo nesse arquivo salvo. ",
+                "--\\c[3]Crédito\\c[0]:-- O Crédito que você acumulou.",
+                "!!min=-1"
+              ]
+            }
+          ]
+        },
+        "load": {
+          "title": "\\c[3]Menu de Carregamento\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao menu Carregar! ",
+                "......",
+                "Neste menu, você pode carregar um arquivo salvo e começar de onde parou.",
+                "Navegue pelos arquivos para salvar usando \\i[mousewheel] com o mouse ou os botões de direção no controle.",
+                "Clique em um arquivo ou pressione \\i[gamepad-a] no controle para carregar o arquivo salvo selecionado. ",
+                "Pressione \\i[help2] para \\c[3] deletar um arquivo salvo\\c[0] passando o mouse sobre um slot. "
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Carregamento\\c[0] - Salvar Arquivos",
+              "content": [
+                "Um único arquivo salvo exibe algumas informações básicas sobre o seu progresso:",
+                "!!min=66",
+                "--\\c[3]Capitulo\\c[0]:-- Reflete o progresso da história por meio do capitulo em que você está e um pequeno gráfico. ",
+                "--\\c[3]Level[LVL]\\c[0]:-- O level que você tem neste arquivo salvo.",
+                "--\\c[3]Elemento\\c[0]:-- Os elementos que você tem neste arquivo salvo.",
+                "--\\c[3]Posição\\c[0]:-- A área e o mapa que você salvou.",
+                "--\\c[3]Versão\\c[0]:-- Exibido no canto inferior direito. Mostra a versão do jogo com a qual esse arquivo foi criado pela primeira vez. ",
+                "--\\c[3]Tempo\\c[0]:-- O tempo de jogo deste arquivo salvo.",
+                "--\\c[3]Crédito\\c[0]:-- O dinheiro que você acumulou.",
+                "!!min=-1"
+              ]
+            }
+          ]
+        },
+        "lore": {
+          "title": "\\c[3]Enciclopédia\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo à enciclopédia!",
+                "......",
+                "Neste menu, você pode ler sobre todos os tópicos interessantes que encontrou ao explorar CrossWorlds.",
+                "Navegue pelas guias usando \\i[circle-left] e \\i[circle-right].",
+                "Selecione uma entrada para destacar e percorrer seu conteúdo.",
+                "....",
+                "Você também pode usar \\i[left] ou \\i[right] enquanto passa o mouse sobre uma entrada para percorrê-la diretamente. No controle usando \\i[right-stick] faz o mesmo."
+              ]
+            },
+            {
+              "title": "\\c[3]Enciclopédia\\c[0] - Desbloqueando Histórias",
+              "content": [
+                "Existem várias maneiras de desbloquear histórias. Você pode apenas falar com as pessoas ou encontrar mais informações sobre um tópico progredindo na \\c[3]Trilha dos Antigos\\c[0].",
+                "......",
+                "\\c[3][Nota do Sergey]\\c[0]",
+                "Eu adicionei um código extra aqui para você, Lea. Ao lado das categorias do jogo, adicionei uma para o seu progresso e outra para os personagens.",
+                "Vou inserir essas notas para você quando elas aparecerem!"
+              ]
+            }
+          ]
+        },
+        "enemy": {
+          "title": "\\c[3]Almanaque Monstro\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Almanaque Monstro!",
+                "......",
+                "Neste menu você pode encontrar informações detalhadas sobre cada inimigo que encontrar.",
+                "Navegue pelas guias usando \\i[circle-left] e \\i[circle-right].",
+                "Selecione uma entrada para revelar a primeira página do inimigo e use \\i[page-left] ou \\i[page-right] para mudar de página.",
+                "....",
+                "Se você encontrar a marcação \"especial\" acima do inimigo, isso significa que você desbloqueou um inimigo por meio de um \\c[3]evento especial ou uma missão\\c[0]."
+              ]
+            },
+            {
+              "title": "\\c[3]Almanaque Monstro\\c[0] - Relatórios",
+              "content": [
+                "Os relatórios são desbloqueados derrotando pela primeira vez um inimigo ou uma certa quantidade de vezes.",
+                "....",
+                "Eles mostram informações úteis ou curiosidades sobre o inimigo selecionado .",
+                "Esta primeira página, incluindo as espécies do inimigo, estará sempre desbloqueada.",
+                "....",
+                "Relatórios adicionais são desbloqueados através de várias tarefas, como derrotar ainda mais inimigos, resolver missões, progredir na história e assim por diante."
+              ]
+            }
+          ]
+        },
+        "traders": {
+          "title": "\\c[3]Livro de Trocas\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Livro de Trocas!",
+                "......",
+                "Este menu oferece um registro de cada comerciante que você conheceu em cada área.",
+                "Navegue pelas guias usando \\i[circle-left] e \\i[circle-right].",
+                "Selecione um comerciante para revelar uma visão detalhada sobre quais itens você precisa e quanto custará.",
+                "....",
+                "Enquanto a visualização de detalhes está aberta, você ainda pode alternar entre as guias e selecionar outros itens."
+              ]
+            }
+          ]
+        },
+        "status": {
+          "title": "\\c[3]Menu de Status\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Status!",
+                "......",
+                "Este menu oferece uma visão detalhada de todas as suas estatisticas e parâmetros para todos os elementos disponiveis.",
+                "Use \\i[page-left] e \\i[page-right] para alternar entre seus elementos.",
+                "Para alternar entre as diferentes visualizações, use \\i[circle-left] e \\i[circle-right]. As visualizações disponiveis são:",
+                "!!min=64",
+                "--\\c[3]Resumo\\c[0]",
+                "--\\c[3]Parâmetros\\c[0]",
+                "--\\c[3]Modificador\\c[0]",
+                "--\\c[3]Habilidades de Combate\\c[0]",
+                "!!min=-1"
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Status\\c[0] - Resumo",
+              "content": [
+                "Como o nome sugere, os serviços de resumo são uma visão geral sobre seu equipamento e estatisticas.",
+                "....",
+                "Os parâmetros mostrados à esquerda são seus parâmetros finais para o elemento atualmente selecionado, incluindo equipamentos e habilidades."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Status\\c[0] - Parâmetros",
+              "content": [
+                "Esta visualização exibe seus parâmetros básicos para o elemento atualmente selecionado.",
+                "....",
+                "Para cada parâmetro, você pode ver como o valor final é reunido com base no \\c[3]Valor Base\\c[0], o \\c[3]Equipamento\\c[0] e finalmente \\c[3]Habilidades\\c[0] dos Circuitos. A descrição mostra a finalidade de cada parâmetro.",
+                "Para ver os valores absolutos de cada etapa do valor final de um parâmetro, pressione \\i[help3]."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Status\\c[0] - Modificadores",
+              "content": [
+                "Esta visualização exibe todos os modificadores de seu equipamento e  elemento atualmente selecionado.",
+                "....",
+                "Para cada modificador, você pode ver como o valor final vem junto com base em seu \\c[3]Equipamento\\c[0] e as \\c[3]Habilidades\\c[0] dos Circuitos. A descrição mostra a função de cada modificador.",
+                "Para ver os valores absolutos de cada etapa do valor final de um modificador, pressione \\i[help3]."
+              ]
+            },
+            {
+              "title": "\\c[3]Menu de Status\\c[0] - Habilidades de Combate",
+              "content": [
+                "Esta visualização exibe todas as habilidades de combate atualmente ativas, separadas por tipo. (\\c[3]Arremeso\\c[0], \\c[3]Ataque\\c[0], \\c[3]Esquiva\\c[0], \\c[3]Escudo\\c[0])",
+                "....",
+                "Ao lado do nome e da descrição, de cada Habilidade mostra quantos \\c[3]SP\\c[0] são consumidos, o modificador de dano e efeitos adicionais.",
+                "O tipo de dano (exibido como DMG) destaca se o dano é \\c[3]Corpo a Corpo\\c[0], \\c[3]A distancia\\c[0], \\c[3]Misto\\c[0] ou \\c[3]Nenhum\\c[0].",
+                "....",
+                "Os efeitos mostram os \\c[3]Tipo de Atordoamento\\c[0] e se a Habilidade impõe uma condição de status. Tipos de atordoamento podem ser os seguintes:",
+                "!!min=82",
+                "--\\c[3]\\i[status-stun-1]Interromper\\c[0]:-- Essas Habilidades podem interromper os ataques inimigos.",
+                "--\\c[3]\\i[status-stun-2]Prender\\c[0]:-- Essas Habilidades prendem os inimigos no lugar até que sejam concluidos..",
+                "!!min=-1"
+              ]
+            }
+          ]
+        },
+        "social": {
+          "title": "\\c[3]Menu de Grupo\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem Vindo ao Menu de Grupo!",
+                "......",
+                "Neste menu você pode convidar/remover outros jogadores do seu grupo ou contatá-los.",
+                "Passe o mouse sobre um contato para ver mais de perto as estatísticas e o equipamento do jogador.",
+                "....",
+                "Clique em um slot ou pressione \\i[gamepad-a] no controle para convidar/remover o jogador. ",
+                "Desta forma, você também pode contatar o jogador. Observe que alguns jogadores podem não responder se não estiverem online."
+              ]
+            }
+          ]
+        },
+        "stats": {
+          "title": "\\c[3]Menu de Estatisticas\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Estatisticas!",
+                "......",
+                "Este menu é uma compilação de todo o seu progresso em números. Use \\i[circle-right] e \\i[circle-left] para navegar pelas categorias. Para percorrer uma categoria, use a roda do mouse ou \\i[down] e \\i[up]."
+              ]
+            }
+          ]
+        },
+        "botanics": {
+          "title": "\\c[3]Menu de Botânica\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu Botânica!",
+                "......",
+                "Este menu lista todos os objetos ambientais destrutíveis encontrados em CrossWorlds. Use \\i[circle-right] e \\i[circle-left] para navegar entres as guias.",
+                "....",
+                "Cada objeto precisa primeiro ser analisado, o que é feito simplesmente destruindo-os e recolhendo os itens deixados.",
+                "Uma vez que um objetivo estiver \\c[3]50% analisado \\c[0] você pode ver a localização do objeto e uma vez que \\c[3]analisado 100%, todos os itens que o objeto pode deixar são revelados\\c[0]."
+              ]
+            }
+          ]
+        },
+        "trade": {
+          "title": "\\c[3]Menu de Troca\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Troca!",
+                "......",
+                "Aqui você pode trocar seus itens por outros itens, desde que cumpra os requisitos e tenha créditos suficientes.",
+                "....",
+                "Um comerciante pode ter várias ofertas. Use \\i[circle-right] e \\i[circle-left] para navegar por elas.",
+                "Os valores em \\c[3]colchetes mostram a quantidade de itens necessários que você tem\\c[0]. Se a oferta for um equipamento você pode verificar os parâmetros do lado esquerdo."
+              ]
+            }
+          ]
+        },
+        "questHub": {
+          "title": "\\c[3]Quadro de Avisos\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao quadro de avisos!",
+                "......",
+                "Este menu lista todas as missões \\c[3]disponíveis nas áreas próximas\\c[0].",
+                "....",
+                "As 3 guias mostram as missões abertas, ativas e concluídas nessa ordem. Use \\i[circle-right] e \\i[circle-left] para navegar pelas guias.",
+                "Na parte inferior, você pode ver quantas missões estão disponíveis no momento e sua taxa de conclusão neste quadro de avisos."
+              ]
+            }
+          ]
+        },
+        "feat": {
+          "title": "\\c[3]Menu de Troféus\\c[0]",
+          "pages": [
+            {
+              "content": [
+                "Bem-vindo ao Menu de Troféus!",
+                "......",
+                "Este menu mostra todas as suas realizações. Você também pode ver o que precisa fazer para desbloquear um troféu, pelo menos para a maioria deles. ",
+                "....",
+                "Os troféus são separados por 3 categorias: \\c[3]Geral\\c[0], \\c[3]Combate\\c[0] e \\c[3]Exploração\\c[0]. Use \\i[circle-right] e \\i[circle-left] para navegar pelas guias.",
+                "Cada guia pode ter várias seções. Clique em uma ou use \\i[left] ou \\i[right] para mostrar os troféus de cada um deles."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "skills": {
+      "special-types": {
+        "THROW": "Esfera",
+        "ATTACK": "Combate",
+        "GUARD": "Escudo",
+        "DASH": "Esquiva"
+      },
+      "specials": {
+        "wip": { "name": "???", "desc": "\\c[1]Not implemented!" }
+      },
+      "names": {
+        "specials": {
+          "NEUTRAL_THROW_1_A": "Throw Special 1 A",
+          "NEUTRAL_THROW_1_B": "Throw Special 1 B",
+          "NEUTRAL_THROW_2_A": "Throw Special 2 A",
+          "NEUTRAL_THROW_2_B": "Throw Special 2 B",
+          "NEUTRAL_ATTACK_1_A": "Melee Special 1 A",
+          "NEUTRAL_ATTACK_1_B": "Melee Special 1 B",
+          "NEUTRAL_ATTACK_2_A": "Melee Special 2 A",
+          "NEUTRAL_ATTACK_2_B": "Melee Special 2 B",
+          "NEUTRAL_GUARD_1_A": "Guard Special 1 A",
+          "NEUTRAL_GUARD_1_B": "Guard Special 1 B",
+          "NEUTRAL_GUARD_2_A": "Guard Special 2 A",
+          "NEUTRAL_GUARD_2_B": "Guard Special 2 B",
+          "NEUTRAL_DASH_1_A": "Dash Special 1 A",
+          "NEUTRAL_DASH_1_B": "Dash Special 1 B",
+          "NEUTRAL_DASH_2_A": "Dash Special 2 A",
+          "NEUTRAL_DASH_2_B": "Dash Special 2 B"
+        },
+        "MAXHP": "+ HP Máx.",
+        "ATK": "+ Ataque",
+        "DEF": "+ Defesa",
+        "FOC": "+ Foco",
+        "OWN_ELEMENT_RES_HEAT": "Armadura Térmica",
+        "COUNTER_ELEMENT_RES_HEAT": "Armadura Fria",
+        "OWN_ELEMENT_RES_COLD": "Armadura Fria",
+        "COUNTER_ELEMENT_RES_COLD": "Armadura Térmica",
+        "OWN_ELEMENT_RES_SHOCK": "Armadura Isolante",
+        "COUNTER_ELEMENT_RES_SHOCK": "Armadura Refletiva",
+        "OWN_ELEMENT_RES_WAVE": "Armadura Refletiva",
+        "COUNTER_ELEMENT_RES_WAVE": "Armadura Isolante",
+        "ALL_ELEMENT_RES": "Armadura Elemental",
+        "RANGED_DAMAGE": "Atirador",
+        "CHARGED_KNOCKBACK": "Calibre Grosso",
+        "MELEE_DAMAGE": "Lutador",
+        "ASSAULT": "Investida",
+        "CRITICAL_DAMAGE": "Alvo",
+        "AIMING_SPEED": "Mira",
+        "AIMING_STABILITY": "Tiro Estável",
+        "AIMING_MOVEMENT_SPEED": "Precisão",
+        "DASH_DISTANCE": "Esquiva Veloz",
+        "ADDITIONAL_DASH_STEP": "Extra Dash",
+        "GUARD_STRENGTH": "Escudo Sólido",
+        "ADDITIONAL_GUARD_AREA": "Bastion",
+        "STUN_THRESHOLD": "Postura de Ferro",
+        "STATUS_CONDITION_EFFECT_HEAT": "Burn Rush",
+        "STATUS_CONDITION_EFFECT_COLD": "Chill Rush",
+        "STATUS_CONDITION_EFFECT_SHOCK": "Jolt Rush",
+        "STATUS_CONDITION_EFFECT_WAVE": "Mark Rush",
+        "STATUS_CONDITION_GUARD_HEAT": "Proteção a Fogo",
+        "STATUS_CONDITION_GUARD_COLD": "Proteção a Gelo",
+        "STATUS_CONDITION_GUARD_SHOCK": "Proteção a Choque",
+        "STATUS_CONDITION_GUARD_WAVE": "Proteção a Onda",
+        "STATUS_CONDITION_HEALING": "Reparo de Status",
+        "HP_REGENERATION": "Regeneração de HP",
+        "OVERHEAT_REDUCTION": "Equilíbrio",
+        "ITEM_BOOST": "Intensificador de Itens",
+        "APPETITE": "Apetite",
+        "SPIKE_DAMAGE": "Escudo Pontudo",
+        "CROSS_COUNTER": "Contra Ataque",
+        "BERSERKER": "Frenesi",
+        "ONCE_MORE": "Mais uma vez",
+        "GUARD_SP": "Vingador",
+        "ACTIVE_PLACEHOLDER": "Placeholder"
+      },
+      "descriptions": {
+        "MAXHP": "Aumenta o HP máximo em \\c[3][xyz]%\\c[0]. \nAumenta seu HP para resistir mais aos danos.",
+        "ATK": "Aumenta o Ataque em \\c[3][xyz]%\\c[0]. \nAumenta o dano que você pode causar com seus ataques.",
+        "DEF": "Aumenta Defesa em \\c[3][xyz]%\\c[0]. \nDiminui o dano que você recebe e melhora o escudo.",
+        "FOC": "Aumenta o Foco em \\c[3][xyz]%\\c[0]. \nDetermina a frequência de acertos criticos e efeitos de status, tempo invencivel na esquiva, seu ganho de SP e mais tempo para fazer um defesa perfeita.",
+        "OWN_ELEMENT_RES_HEAT": "Aumenta a resistência a Fogo em \\c[3][xyz]%\\c[0].",
+        "COUNTER_ELEMENT_RES_HEAT": "Aumenta a resistência a Gelo em \\c[3][xyz]%\\c[0].",
+        "OWN_ELEMENT_RES_COLD": "Aumenta a resistência ao Gelo em \\c[3][xyz]%\\c[0].",
+        "COUNTER_ELEMENT_RES_COLD": "Aumenta a resistência ao Fogo em \\c[3][xyz]%\\c[0].",
+        "OWN_ELEMENT_RES_SHOCK": "Aumenta a resistência a Choque em \\c[3][xyz]%\\c[0].",
+        "COUNTER_ELEMENT_RES_SHOCK": "Aumenta a resistência a Onda em \\c[3][xyz]%\\c[0].",
+        "OWN_ELEMENT_RES_WAVE": "Aumenta a resistência ao Onda em \\c[3][xyz]%\\c[0].",
+        "COUNTER_ELEMENT_RES_WAVE": "Aumenta a resistência a Choque em \\c[3][xyz]%\\c[0].",
+        "ALL_ELEMENT_RES": "Aumenta a resistência a todos os elementos em \\c[3][xyz]%\\c[0].",
+        "RANGED_DAMAGE": "Aumenta o dano de ataques à distância em \\c[3][xyz]%\\c[0].",
+        "CHARGED_KNOCKBACK": "Aumenta o knockback de projéteis carregados em \\c[3][xyz]%\\c[0].",
+        "MELEE_DAMAGE": "Aumenta o dano de ataques corpo a corpo em \\c[3][xyz]%\\c[0].",
+        "ASSAULT": "Ataques corpo a corpo disparam pequenos projéteis adicionais que causam \\c[3][xyz]%\\c[0] do dano base.",
+        "CRITICAL_DAMAGE": "Aumenta o dano de Ataques Criticos em \\c[3][xyz]%\\c[0].",
+        "AIMING_SPEED": "Diminui o tempo necessário para estabilizar a mira em \\c[3][xyz]%\\c[0].",
+        "AIMING_STABILITY": "Diminui a perda de precisão devido ao movimento de mira rápida e esquivas em \\c[3][xyz]%\\c[0].",
+        "AIMING_MOVEMENT_SPEED": "Aumenta a velocidade de movimento enquanto mira em \\c[3][xyz]%\\c[0].",
+        "DASH_DISTANCE": "Prolonga a invencibilidade durante a esquiva em \\c[3][xyz]%\\c[0].",
+        "ADDITIONAL_DASH_STEP": "Grants \\c[3]one\\c[0] additional dash step.",
+        "GUARD_STRENGTH": "Fortalece o seu escudo e diminui o dano recebido ao defender por \\c[3][xyz]%\\c[0].",
+        "ADDITIONAL_GUARD_AREA": "Allows to guard against attacks \\c[3]from the side\\c[0]. Activate twice to guard attacks \\c[3]from above\\c[0] too.",
+        "ADDITIONAL_GUARD_AREA_2": "Allows to guard against attacks \\c[3]from above\\c[0].",
+        "STUN_THRESHOLD": "Aumenta a imunidade a knockback em \\c[3][xyz]%\\c[0], dependendo do seu HP Máximo.",
+        "STATUS_CONDITION_EFFECT_HEAT": "Aumenta a velocidade de infligir a condição \\c[3]Em Chamas\\c[0] e seu efeito em \\c[3][xyz]%\\c[0]. \n\\c[3]Em Chamas\\c[0] causa danos ao longo do tempo, dependendo do HP Max da vítima.",
+        "STATUS_CONDITION_EFFECT_COLD": "Aumenta a velocidade de infligir a condição \\c[3]Congelado\\c[0] e seu efeito em \\c[3][xyz]%\\c[0]. \n\\c[3]Congelado\\c[0] diminui a velocidade geral da vítima.",
+        "STATUS_CONDITION_EFFECT_SHOCK": "Aumenta a velocidade de infligir a condição \\c[3]Eletrificado\\c[0] e seu efeito em \\c[3][xyz]%\\c[0]. \n\\c[3]Eletrificado\\c[0] causa danos e atordoa em intervalos curtos.",
+        "STATUS_CONDITION_EFFECT_WAVE": "Aumenta a velocidade de infligir a condição \\c[3]Marcado\\c[0] e seu efeito em \\c[3][xyz]%\\c[0]. \n\\c[3]Marcado\\c[0] aumenta o dano recebido de ataques a distância em 50%.",
+        "STATUS_CONDITION_GUARD_HEAT": "Aumenta a resistência contra a condição \\c[3]Em Chamas\\c[0] e reduz seu efeito em \\c[3][xyz]%\\c[0]. \n\\c[3]Em Chamas\\c[0] causa danos ao longo do tempo, dependendo do HP Max da vítima.",
+        "STATUS_CONDITION_GUARD_COLD": "Aumenta a resistência contra a condição \\c[3]Congelado\\c[0] e reduz seu efeito em  \\c[3][xyz]%\\c[0]. \n\\c[3]Congelado\\c[0] diminui a velocidade geral da vítima.",
+        "STATUS_CONDITION_GUARD_SHOCK": "Aumenta a resistência contra a condição \\c[3]Eletrificado\\c[0] e reduz seu efeito em  \\c[3][xyz]%\\c[0]. \n\\c[3]Eletrificado\\c[0] causa danos e atordoa em intervalos curtos.",
+        "STATUS_CONDITION_GUARD_WAVE": "Aumenta a resistência contra a condição \\c[3]Marcado\\c[0] e reduz seu efeito em  \\c[3][xyz]%\\c[0]. \n\\c[3]Marcado\\c[0] aumenta o dano recebido de ataques a distância em 50%.",
+        "STATUS_CONDITION_HEALING": "Aumenta a velocidade de recuperação de todos os status negativos em \\c[3][xyz]%\\c[0].",
+        "HP_REGENERATION": "Regenera \\c[3][xyz]%\\c[0] de HP a cada 60 segundos em combate. A frequência de cura aumenta com uma porcentagem maior.",
+        "OVERHEAT_REDUCTION": "Retarda a sobrecarga elemental em \\c[3][xyz]%\\c[0].",
+        "ITEM_BOOST": "Aumenta o efeito da cura e a duração dos buffs dos itens em \\c[3][xyz]%\\c[0].",
+        "APPETITE": "Desbloqueia \\c[3]um\\c[0] slot de buff adicional.",
+        "SPIKE_DAMAGE": "Enquanto defende, reflete \\c[3][xyz]%\\c[0] do dano total absorvido de volta ao inimigo.",
+        "CROSS_COUNTER": "Aumenta o dano em inimigos que estão atacando ou carregando em \\c[3][xyz]%\\c[0].",
+        "BERSERKER": "Aumenta o dano em \\c[3][xyz]%\\c[0] quando está em estado critico. (Abaixo de 33% do HP Máximo)",
+        "BREAK_DMG": "Increases Damage on enemies that are stunned, weak or in break state by \\c[3][xyz]%\\c[0].",
+        "ONCE_MORE": "Sobreviva exatamente a \\c[3]um ataque\\c[0] que normalmente o mataria.",
+        "GUARD_SP": "Restaura SP em ao defender com equivalente a \\c[3][xyz]%\\c[0] do poder de ataque. (O \\c[3]Dobro\\c[0] para uma Defesa Perfeita)",
+        "ACTIVE_PLACEHOLDER": "\\c[3]Placeholder\\c[0] for a Special Attack that can be learned in future versions."
+      }
+    },
+    "options": {
+      "headers": {
+        "sound": "Som",
+        "menu": "Menu",
+        "gameplay": "Jogabilidade",
+        "debug": "Debug",
+        "main": "Menu Principal",
+        "field": "Jogabilidade",
+        "quick": "Menu Rapido",
+        "quests": "Missões",
+        "cutscenes": "Cutscenes",
+        "updates": "Atualizações de HUD",
+        "party": "Grupo",
+        "combat": "Combate",
+        "puzzle": "Enigmas",
+        "arena": "Arena"
+      },
+      "arena-confirm": {
+        "name": "Confirmar Diálogos da Arena ",
+        "description": "Marque se as ações do menu na arena devem ser confirmadas."
+      },
+      "arena-cam-focus": {
+        "name": "Camera Centralizada",
+        "description": "Se marcado, foca a câmera no centro da área na maioria das rodadas."
+      },
+      "item-hud-size": {
+        "name": "Tamanho do item na HUD",
+        "description": "Altera o tamanho da janela de notificação do item.",
+        "group": ["Normal", "Pequeno"]
+      },
+      "update-quest-style": {
+        "name": "Tarefas",
+        "description": "Altera como as tarefas concluidas em missões são exibidas.",
+        "group": ["Normal", "Minimo", "Off"]
+      },
+      "update-landmark-style": {
+        "name": "Ponto de Referência",
+        "description": "Altera como os novos pontos de referência são exibidos quando encontrados.",
+        "group": ["Normal", "Minimo", "Off"]
+      },
+      "update-lore-style": {
+        "name": "Enciclopédia",
+        "description": "Altera a forma como as novas entradas da Enciclopédia são exibidas quando encontradas.",
+        "group": ["Normal", "Minimo", "Off"]
+      },
+      "update-drop-style": {
+        "name": "Botânica",
+        "description": "Altera a forma como é exibida quando completa algo da Botânica.",
+        "group": ["Normal", "Minimo", "Off"]
+      },
+      "update-trophy-style": {
+        "name": "Troféus",
+        "description": "Altera a forma como os novos troféus são exibidos quando conquistados.",
+        "group": ["Normal", "Minimo", "Off"]
+      },
+      "hp-bars": {
+        "name": "Barra de Status do Grupo",
+        "description": "Alterar quais barras de status dos membros do grupo são mostradas. ",
+        "group": ["Todos", "Todos Menos Lea", "Nenhum"]
+      },
+      "party-combat-arts": {
+        "name": "Estilo de Combate do Grupo",
+        "description": "Altere como a execução do estilo de combate é exibida para os membros do grupo.",
+        "group": ["Tudo", "Nome Apenas", "Nenhum"]
+      },
+      "quick-menu-access": {
+        "name": "Acesso ao Menu Rápido ",
+        "group": ["Segurar", "Clicar"],
+        "description": "O estilo de acesso para alternar o menu rápido."
+      },
+      "skip-confirm": {
+        "name": "Confirmar 'Pular Cena' ",
+        "description": "Pergunta antes se você que pular a cena atual."
+      },
+      "game-sense": {
+        "name": "Habilitar Game Sense",
+        "description": "Marque se o Game Sense (Steel Series Engine 3) deve ser habilitado. "
+      },
+      "equip-level-display": {
+        "name": "Niveis no Equipamento",
+        "description": "Exibição no menu de equipamento que mostra o level do jogador e do equipamento."
+      },
+      "enemy-status-bars": {
+        "name": "Barra de Status Inimigo",
+        "description": "Marque se as barras de status do inimigo devem ser mostradas abaixo dos inimigos."
+      },
+      "level-letter-display": {
+        "name": "Mostrar Simbolo de Level ",
+        "description": "Mostra o Simbolo de Level próximo ao level de um item de equipamento."
+      },
+      "buff-help": {
+        "name": "Informações de Buff",
+        "description": "Mostra um pequeno texto de ajuda sobre os consumiveis no inventário."
+      },
+      "skip-tutorials": {
+        "name": "Pular Tutoriais",
+        "description": "Marque para pular todos tutoriais opcionais. \\c[1]Não recomendado para novos jogadores! \\c[0]"
+      },
+      "quest-show-current": {
+        "name": "Tarefas Concluídas ",
+        "description": "Mostrar a tarefa que foi feita quando uma missão é atualizada, em vez da próxima."
+      },
+      "min-sidebar": {
+        "name": "Barra Lateral Direita ",
+        "description": "Diminui a barra lateral direita. Funciona apenas com \\c[3]Tamanho do Pixel\\c[0] 2 ou superior."
+      },
+      "xeno-pointer": {
+        "name": "Ponteiro de Diálogo",
+        "description": "Marque para mostrar um efeito se o NPC puder se interrompido enquanto fala."
+      },
+      "difficulty": {
+        "name": "Dificuldade",
+        "group": ["Casual", "Normal", "Difícil", "Ultra"],
+        "description": "A dificuldade do jogo. PARA FAZER adicionar texto melhor (desativado?)"
+      },
+      "rumble-strength": {
+        "name": "Tremor da tela",
+        "group": ["Off", "50%", "75%", "100%"],
+        "description": "Altera a intensidade dos efeitos de vibração da tela."
+      },
+      "message-padding": {
+        "name": "Preenchimento da Mensagem ",
+        "group": ["Normal", "Largo"],
+        "description": "Altera o preenchimento ao redor dos textos em balões/caixas de diálogo. "
+      },
+      "text-speed": {
+        "name": "Velocidade dos ",
+        "example": "\\c[3]Diálogos     ",
+        "description": "A velocidade com que o texto aparece em diálogos e mensagens secundárias."
+      },
+      "pause-unfocused": {
+        "name": "Pausar fora de foco",
+        "description": "Pause o jogo quando a janela do jogo não estiver ativa "
+      },
+      "circuit-text-size": {
+        "name": "Informação do Circuito",
+        "group": ["Pequeno", "Médio", "Grande"],
+        "description": "Tamanho da caixa de informações sobre um modulo de habilidade no menu do Circuito."
+      },
+      "circuit-display-time": {
+        "name": "Tempo de inform. Circuito ",
+        "group": ["Curto", "Longo"],
+        "description": "Tempo que a caixa de informações permanece em módulo no menu do circuito."
+      },
+      "min-quest": {
+        "name": "Janela da Missão ",
+        "description": "Exibe apenas o nome e o progresso da missão na janela de missões favoritas."
+      },
+      "circuit-quick-change": {
+        "name": "Ativação em Cadeia no Circuito",
+        "description": "Permite ativar módulos em sequência no menu do circuito ao selecionar um módulo."
+      },
+      "hud-display": {
+        "name": "Exibir HUD ",
+        "description": "Alterna a exibição de status no canto superior esquerdo."
+      },
+      "close-circle": {
+        "name": "Indicador de Ataque",
+        "description": "Alterna o circulo que indica o alcance de combate próximo para entrada do mouse."
+      },
+      "element-select": {
+        "name": "Show Element on Lea",
+        "description": "Toggles the current element display when switching elements on Lea."
+      },
+      "element-overload": {
+        "name": "Sobrecarga Elemental",
+        "description": "Mostrar efeitos de canto indicando sobrecarga elemental."
+      },
+      "language": {
+        "name": "Idioma",
+        "group": [
+          "Inglês",
+          "Alemão",
+          "Chinês",
+          "Japônes",
+          "Koreano",
+          "Chinês Tradicional",
+          "Português"
+        ],
+        "description": "O idioma do Jogo. \\c[1]Necessita Reiniciar!"
+      },
+      "low-health-warning": {
+        "name": "Mostrar Alerta de Vida ",
+        "description": "Alterna os efeitos de canto para vida baixa."
+      },
+      "combat-art-name": {
+        "name": "Nome do Estilo de Combate",
+        "description": "Mostra o nome de um estilo de combate acima de Lea quando executado."
+      },
+      "sp-bar": {
+        "name": "Mostrar Barra de SP",
+        "description": "Alterna se a barra de SP deve ser exibida ao usar habilidades ou recuperar SP. "
+      },
+      "damage-numbers": {
+        "name": "Mostrar Números de Danos ",
+        "description": "Alterna os números dos danos. Isso também se aplica aos números de cura."
+      },
+      "damage-numbers-crit": {
+        "name": "Mostrar apenas Criticos ",
+        "description": "Mostra apenas os números de acertos criticos.(Os números de cura ainda são exibidos)"
+      },
+      "s-rank-effects": {
+        "name": "Música & Efeitos Rank-S ",
+        "description": "Se selecionado: reproduz música de Rank-S e exibe efeitos especiais."
+      },
+      "show-items": {
+        "name": "Notificação de Item",
+        "description": "Alterna a janela de notificação do item ao obter um item."
+      },
+      "show-money": {
+        "name": "Notificação de Dinheiro ",
+        "description": "Alterna a janela de notificação de dinheiro ao obter dinheiro."
+      },
+      "quick-cursor": {
+        "name": "Salvar Posição do Cursor ",
+        "description": "Se marcado, salva a posição do cursor no menu de item rápido."
+      },
+      "quick-element": {
+        "name": "Permitir Troca de Elemento ",
+        "description": "Marque para poder alternar os elementos enquanto estiver no menu rápido. "
+      },
+      "quick-location": {
+        "name": "Exibição de Localização ",
+        "group": ["Rápido", "Mapa", "Desativado"],
+        "description": "\\c[3]Rápido\\c[0]: Mostrar no menu rápido. \\c[3]Mapa\\c[0]: Mostrar no mapa. \\c[3]Desativado\\c[0]: Nunca mostrar."
+      },
+      "display-type": {
+        "name": "Tamanho da Tela",
+        "group": ["Original", "Dobro", "Ajustar", "Tela Toda"],
+        "description": "Altera a escala usada para a tela em que o jogo é executado. "
+      },
+      "gamepad-attack": {
+        "name": "Ataque / Carregar",
+        "group": [
+          "\\i[gamepad-r1] / \\i[gamepad-r2]",
+          "\\i[gamepad-r2] / \\i[gamepad-r1]"
+        ],
+        "description": "Alterna o botão para ataque e disparo. O outro botão será usado para ataques especiais."
+      },
+      "gamepad-dash": {
+        "name": "Esquiva / Menu Rápido",
+        "group": [
+          "\\i[gamepad-l1] / \\i[gamepad-l2]",
+          "\\i[gamepad-l2] / \\i[gamepad-l1]"
+        ],
+        "description": "Alterne o botão para correr e defender. O outro botão será usado para o menu rápido."
+      },
+      "gamepad-icons": {
+        "name": "Icones do Controle ",
+        "group": ["Xbox", "Dualshock"],
+        "description": "Icones exibidos para botões do controle."
+      },
+      "fullscreen": {
+        "name": "Tela Cheia",
+        "description": "Alterna a visualização em tela cheia."
+      },
+      "double-pixels": {
+        "name": "Duplicar Tamanho do Pixel",
+        "description": "Aumenta o tamanho do pixel, resultando em gráficos menos borrados. \\c[1]Necessita Reiniciar!"
+      },
+      "pixel-size": {
+        "name": "Tamanho do Pixel",
+        "group": ["1", "2", "3", "4"],
+        "description": "Tamanho maior significa imagem mais nitida. Pode reduzir o FPS. \\c[1]Necessita Reiniciar!"
+      },
+      "speedlines": {
+        "name": "Linhas de Velocidade",
+        "description": "Alterna as linhas de velocidade mostradas durante eventos de combate importantes."
+      },
+      "env-particles": {
+        "name": "Particulas de Sobreposição ",
+        "description": "Alterna as particulas do ambiente. "
+      },
+      "weather": {
+        "name": "Efeitos climáticos",
+        "description": "Alterna os efeitos do clima, como chuva e neve."
+      },
+      "lighting": {
+        "name": "Iluminação",
+        "description": "Alterna a iluminação ambiente."
+      },
+      "effects": {
+        "name": "Detalhes de Efeito ",
+        "group": ["Baixo", "Médio", "Alto"],
+        "description": "Define os detalhes dos efeitos gerais."
+      },
+      "volume-master": {
+        "name": "Volume Principal",
+        "description": "Define o volume geral do jogo."
+      },
+      "volume-music": {
+        "name": "Volume da Música",
+        "description": "Define o volume da música no jogo."
+      },
+      "volume-sound": {
+        "name": "Volume do Som",
+        "description": "Define o volume dos sons do jogo. "
+      },
+      "web-audio": {
+        "name": "Usar Áudio Web",
+        "description": "Ativa o WebAudio para melhor qualidade de som e sons posicionados. \\c[1]Necessita Reiniciar!"
+      },
+      "close-combat-input": {
+        "name": "Atacar Com Mouse",
+        "description": "Habilita a capacidade de clicar perto de Lea para executar um ataque corpo a corpo. "
+      },
+      "element-wheel": {
+        "name": "Elementos no Mouse ",
+        "description": "Se marcada, você pode usar a roda do mouse para alterar o modo do elemento."
+      },
+      "controls": {
+        "keys": {
+          "left": "Mover Para Esquerda",
+          "right": "Mover Para Direita",
+          "up": "Mover Para Cima",
+          "down": "Mover Para Baixo",
+          "menu": "Entrar/Sair do Menu",
+          "pause": "Pausa",
+          "confirm": "Confirmar",
+          "dash2": "Esquiva",
+          "back": "Voltar",
+          "melee": "Atacar",
+          "guard": "Defender",
+          "special": "Carregar Habilidade",
+          "cold": "Modo Gelo",
+          "heat": "Modo Fogo",
+          "shock": "Modo Elétrico",
+          "wave": "Modo Onda",
+          "neutral": "Modo Neutro",
+          "help": "Menu de Ajuda",
+          "help2": "Atalho 1",
+          "help3": "Atalho 2",
+          "skip-cutscene": "Atalho 3/Pular Cenas",
+          "help4": "Atalho 4",
+          "circle-left": "Alterar Abas/Esquerda",
+          "circle-right": "Alterar Abas/Direita",
+          "quick": "Entrar/Sair Menu Rápido"
+        },
+        "anykey": "\\c[3]- Aperte Qualquer Tecla - \\c[0]",
+        "unbind": "Desvincular",
+        "back": "Voltar",
+        "none": "- Nenhum -",
+        "description": "Defina a tecla normal ou secundária usada para a opção selecionada.",
+        "reset": "Algumas opções entram em vigor após o reiniciar o jogo. ",
+        "reset-confirm": "Voltar"
+      },
+      "assist-damage": {
+        "name": "Dano Recebido",
+        "description": "Altera a quantidade de dano que você recebe dos inimigos."
+      },
+      "assist-attack-frequency": {
+        "name": "Frequência de Ataque",
+        "description": "Altera a frequência com que os inimigos atacam."
+      },
+      "assist-puzzle-speed": {
+        "name": "Velocidade dos Enigmas",
+        "description": "Altera a velocidade de duração dos elementos de enigma, como temporizadores de troca."
+      },
+      "assists-description": {
+        "description": "\\c[3]CrossCode\\c[0] foi projetado com \\c[3]desafio\\c[0] em mente. Contudo, se isso torna o jogo menos agradável ou mesmo inacessível para você, você pode usar essas opções \\c[3]para ajustar a dificuldade\\c[0] ao seu gosto!"
+      }
+    },
+    "shakeit": {
+      "pre": "Não consegues ver que estou compondo?",
+      "start": "Vós",
+      "first": [
+        "ignorais",
+        "devassais",
+        "sofreis",
+        "inutilizais",
+        "agrosseirais",
+        "mimais",
+        "ferrais",
+        "amedrontais",
+        "curiosais",
+        "desgostais",
+        "dissimulais",
+        "falais",
+        "pecais",
+        "bajulais",
+        "enganais",
+        "malvezais",
+        "futilizais",
+        "alegrais",
+        "engordais",
+        "incomodais",
+        "infectais",
+        "hesitais",
+        "obstinais",
+        "estupidais",
+        "espantais",
+        "mutilais",
+        "sofreis",
+        "embarrigais",
+        "brincais",
+        "vomitais",
+        "fragilizais",
+        "tremulais",
+        "classificais",
+        "defumais",
+        "malandrais",
+        "vulgais",
+        "atreveis",
+        "aborreceis",
+        "absorveis",
+        "afrontais",
+        "duvidais",
+        "confundis",
+        "envaidais",
+        "envenenais",
+        "infamais",
+        "deformais",
+        "caprichais",
+        "estreitais",
+        "vergonhais"
+      ],
+      "second": [
+        "o campo",
+        "o caçador",
+        "o bife",
+        "o rato",
+        "o bigode",
+        "o chocalho",
+        "o cérebro",
+        "o beijo",
+        "o bolo",
+        "o sonhador",
+        "o olho",
+        "o homem",
+        "o parafuso",
+        "o mineral",
+        "o elfo",
+        "o rim",
+        "o pantano",
+        "o quadro",
+        "o inseto",
+        "o louco",
+        "o tolo",
+        "o sorvete",
+        "o estômago",
+        "o rosto",
+        "o espírito",
+        "um nome",
+        "o inferno",
+        "o panda",
+        "o sol",
+        "o chapéu",
+        "o sapato",
+        "o covarde",
+        "o livro",
+        "o tomate",
+        "o chocolate",
+        "o frasco",
+        "o doente",
+        "o malandro",
+        "o monumento",
+        "o selvagem",
+        "o galo",
+        "o fragmento",
+        "o bode",
+        "o galho",
+        "o cristal",
+        "o carro",
+        "o travesseiro",
+        "o sapo",
+        "o sapato",
+        "o vestido"
+      ],
+      "third": [
+        "molhado",
+        "malvado",
+        "estragado",
+        "liso",
+        "pontudo",
+        "barulhento",
+        "perspicaz",
+        "nojento",
+        "bonito",
+        "forte",
+        "enferrujado",
+        "sujo",
+        "espiritual",
+        "debilitado",
+        "verde",
+        "histórico",
+        "quebrado",
+        "peludo",
+        "perfeito",
+        "feio",
+        "deslumbrante",
+        "inteligente",
+        "gelado",
+        "bondoso",
+        "honesto",
+        "verdadeiro",
+        "imperfeito",
+        "fraco",
+        "elastico",
+        "fedido",
+        "resistente",
+        "longo",
+        "alto",
+        "pequeno",
+        "estreito",
+        "poderoso",
+        "infernal",
+        "abençoado",
+        "podre",
+        "congelado",
+        "bagunçado",
+        "amaldiçoado",
+        "mistico",
+        "misterioso",
+        "rasgado",
+        "estiloso",
+        "incrível",
+        "maleável",
+        "fofo",
+        "confortável"
+      ]
+    },
+    "loading": {
+      "trophyUpdate": "Os troféus mudaram e tentamos garantir que você receba todos os troféus que deveria ter até agora.",
+      "skillUpdate": "A estrutura dos módulos do circuito mudou, então tivemos que redefinir a configuração de suas habilidades. Desculpe! Você pode reatribuir suas habilidades novamente. ",
+      "versionOutdated": "Este arquivo salvo está desatualizado, talvez possa ter bugs. Use por sua conta e risco!",
+      "questUpdate": "Algumas missões mudaram e foram redefinidas. Isso significa que você pode ter que refazer algumas tarefas ou obter suas recompensas depois de fechar esta mensagem."
+    }
+  }
+}
