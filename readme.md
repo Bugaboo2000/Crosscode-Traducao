@@ -8,7 +8,6 @@ Esse repositório contém arquivos de um projeto que visa **traduzir o game Cros
 
 [![Windows](https://img.shields.io/static/v1?label=Windows&message=version&color=blue&logo=windows)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/0.1.3/Traducao_Crosscode_v0.1.3.linux.zip) [![Linux](https://img.shields.io/static/v1?label=Linux&message=version&color=yellow&logo=linux)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/0.1.3/Traducao_Crosscode_v0.1.3.linux.zip) [![Mac](https://img.shields.io/static/v1?label=Macos&message=version(soon)&color=white)]()
 
-[![CrossCode Capitulo 1 - Traduzido PT-BR (Download nos Comentários)](http://img.youtube.com/vi/kyqA59m2WDI&t/0.jpg)](http://www.youtube.com/watch?v=kyqA59m2WDI&t "CrossCode Capitulo 1 - Traduzido PT-BR (Download nos Comentários)")
 ## Contribuindo 
 
 Para contribuir para esse projeto você precisa atender a esses *requisitos*:
