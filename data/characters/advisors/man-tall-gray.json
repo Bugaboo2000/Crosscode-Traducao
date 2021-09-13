@@ -1,1 +1,18 @@
-{"jsonINSTANCE":"NPCBasic","gender":"MALE","name":{"en_US":"Advisor","pt_br":"Orientador","de_DE":"Betreuer","langUid":1,"zh_CN":"\u987e\u95ee","ko_KR":"\uc870\uc5b8\uc790","ja_JP":"\u30a2\u30c9\u30d0\u30a4\u30b6\u30fc","zh_TW":"\u9867\u554f"},"img":"media/entity/npc/advisors.png","x":0,"y":0,"face":"maleAdvisor"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "gender": "MALE",
+    "name": {
+        "en_US": "Advisor",
+        "pt_BR": "Orientador",
+        "de_DE": "Betreuer",
+        "langUid": 1,
+        "zh_CN": "\u987e\u95ee",
+        "ko_KR": "\uc870\uc5b8\uc790",
+        "ja_JP": "\u30a2\u30c9\u30d0\u30a4\u30b6\u30fc",
+        "zh_TW": "\u9867\u554f"
+    },
+    "img": "media/entity/npc/advisors.png",
+    "x": 0,
+    "y": 0,
+    "face": "maleAdvisor"
+}

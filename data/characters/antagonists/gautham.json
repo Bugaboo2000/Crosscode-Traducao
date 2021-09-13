@@ -1,1 +1,46 @@
-{"name":{"en_US":"???","pt_br":"???","de_DE":"???","langUid":1,"zh_CN":"???","ko_KR":"???","ja_JP":"\uff1f\uff1f\uff1f","zh_TW":"???"},"face":{"src":"gautham.png","width":96,"height":160,"centerX":40,"centerY":76,"parts":[{"display":{"srcX":0,"srcY":0,"width":96,"height":160,"destX":0,"destY":0,"hideOnClip":true}},{"straight":{"srcX":96,"srcY":0,"width":88,"height":136,"destX":4,"destY":16}}],"expressions":{"DEFAULT":{"faces":[["display","straight"]]}}}}
+{
+    "name": {
+        "en_US": "???",
+        "pt_BR": "???",
+        "de_DE": "???",
+        "langUid": 1,
+        "zh_CN": "???",
+        "ko_KR": "???",
+        "ja_JP": "\uff1f\uff1f\uff1f",
+        "zh_TW": "???"
+    },
+    "face": {
+        "src": "gautham.png",
+        "width": 96,
+        "height": 160,
+        "centerX": 40,
+        "centerY": 76,
+        "parts": [{
+            "display": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 96,
+                "height": 160,
+                "destX": 0,
+                "destY": 0,
+                "hideOnClip": true
+            }
+        }, {
+            "straight": {
+                "srcX": 96,
+                "srcY": 0,
+                "width": 88,
+                "height": 136,
+                "destX": 4,
+                "destY": 16
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["display", "straight"]
+                ]
+            }
+        }
+    }
+}

@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Sperling","pt_br":"Pardal","de_DE":"Sperling","langUid":1,"zh_CN":"\u65af\u4f69\u6797<<A<<[CHANGED 2017/10/10]","ko_KR":"\uc2a4\ud384\ub9c1<<A<<[CHANGED 2017/10/17]","ja_JP":"\u30b9\u30d1\u30fc\u30ea\u30f3\u30b0<<A<<[CHANGED 2017/11/04]","zh_TW":"\u65af\u4f69\u6797<<A<<[CHANGED 2017/10/10]"},"img":"media/entity/npc/adventurers-1.png","x":0,"y":240,"face":"maleAdventurerBald"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Sperling",
+        "pt_BR": "Pardal",
+        "de_DE": "Sperling",
+        "langUid": 1,
+        "zh_CN": "\u65af\u4f69\u6797<<A<<[CHANGED 2017/10/10]",
+        "ko_KR": "\uc2a4\ud384\ub9c1<<A<<[CHANGED 2017/10/17]",
+        "ja_JP": "\u30b9\u30d1\u30fc\u30ea\u30f3\u30b0<<A<<[CHANGED 2017/11/04]",
+        "zh_TW": "\u65af\u4f69\u6797<<A<<[CHANGED 2017/10/10]"
+    },
+    "img": "media/entity/npc/adventurers-1.png",
+    "x": 0,
+    "y": 240,
+    "face": "maleAdventurerBald"
+}

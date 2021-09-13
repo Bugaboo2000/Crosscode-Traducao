@@ -1,1 +1,34 @@
-{"name":{"en_US":"???","de_DE":"???","pt_br":"???","fr_FR":"","langUid":1,"zh_CN":"???","ja_JP":"\uff1f\uff1f\uff1f<<A<<[CHANGED 2017/08/03]","ko_KR":"???","zh_TW":"???"},"size":{"x":16,"y":16,"z":24},"shadow":24,"animSheet":"enemies.daft-frobbit","walkAnimSet":{"normal":{"idle":"idle","move":"hobble","jump":"jump","fall":"fall"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":1}}}
+{
+    "name": {
+        "en_US": "???",
+        "de_DE": "???",
+        "pt_BR": "???",
+        "fr_FR": "",
+        "langUid": 1,
+        "zh_CN": "???",
+        "ja_JP": "\uff1f\uff1f\uff1f<<A<<[CHANGED 2017/08/03]",
+        "ko_KR": "???",
+        "zh_TW": "???"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "shadow": 24,
+    "animSheet": "enemies.daft-frobbit",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "hobble",
+            "jump": "jump",
+            "fall": "fall"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 1
+        }
+    }
+}
