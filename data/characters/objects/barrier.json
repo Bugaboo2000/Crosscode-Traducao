@@ -1,1 +1,53 @@
-{"name":{"en_US":"THE WALL","pt_br":"A PAREDE","de_DE":"DIE MAUER","langUid":1,"zh_CN":"\u5899","ko_KR":"\ubcbd","ja_JP":"\u58c1","zh_TW":"\u7246"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","dirs":1,"flipX":[0],"tileOffsets":[0],"shapeType":"Y_FLAT","sheet":{"src":"media/entity/objects/dynamic-blocks.png","width":24,"height":56,"offX":0,"offY":112},"repeat":true,"SUB":[{"name":"default","time":0.05,"frames":[0,1,2,3]},{"name":"broken","time":0.05,"frames":[4]}]},"size":{"x":24,"y":24,"z":32},"walkAnimSet":{"normal":{"idle":"default"}},"walkAnims":"normal","configs":{"normal":{},"float":{"floatHeight":48}}}
+{
+    "name": {
+        "en_US": "THE WALL",
+        "pt_BR": "A PAREDE",
+        "de_DE": "DIE MAUER",
+        "langUid": 1,
+        "zh_CN": "\u5899",
+        "ko_KR": "\ubcbd",
+        "ja_JP": "\u58c1",
+        "zh_TW": "\u7246"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "dirs": 1,
+        "flipX": [0],
+        "tileOffsets": [0],
+        "shapeType": "Y_FLAT",
+        "sheet": {
+            "src": "media/entity/objects/dynamic-blocks.png",
+            "width": 24,
+            "height": 56,
+            "offX": 0,
+            "offY": 112
+        },
+        "repeat": true,
+        "SUB": [{
+            "name": "default",
+            "time": 0.05,
+            "frames": [0, 1, 2, 3]
+        }, {
+            "name": "broken",
+            "time": 0.05,
+            "frames": [4]
+        }]
+    },
+    "size": {
+        "x": 24,
+        "y": 24,
+        "z": 32
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "default"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {},
+        "float": {
+            "floatHeight": 48
+        }
+    }
+}

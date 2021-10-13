@@ -1,1 +1,21 @@
-{"name":{"en_US":"Jonathan","pt_br":"Jonathan","de_DE":"Jonathan","fr_FR":"","langUid":1,"ja_JP":"\u30b8\u30e7\u30ca\u30b5\u30f3<<A<<[CHANGED 2018/10/04]","ko_KR":"\uc870\ub098\ub2e8<<A<<[CHANGED 2018/10/04]","zh_CN":"\u4e54\u7eb3\u68ee<<A<<[CHANGED 2018/10/04]","zh_TW":"\u55ac\u7d0d\u68ee<<A<<[CHANGED 2018/10/04]"},"jsonINSTANCE":"NPCAvatarSimple","gender":"MALE","img":"media/entity/npc/dkar.png","x":384,"y":0,"offlineX":0,"offlineY":160,"face":"hexacastMale"}
+{
+    "name": {
+        "en_US": "Jonathan",
+        "pt_BR": "Jonathan",
+        "de_DE": "Jonathan",
+        "fr_FR": "",
+        "langUid": 1,
+        "ja_JP": "\u30b8\u30e7\u30ca\u30b5\u30f3<<A<<[CHANGED 2018/10/04]",
+        "ko_KR": "\uc870\ub098\ub2e8<<A<<[CHANGED 2018/10/04]",
+        "zh_CN": "\u4e54\u7eb3\u68ee<<A<<[CHANGED 2018/10/04]",
+        "zh_TW": "\u55ac\u7d0d\u68ee<<A<<[CHANGED 2018/10/04]"
+    },
+    "jsonINSTANCE": "NPCAvatarSimple",
+    "gender": "MALE",
+    "img": "media/entity/npc/dkar.png",
+    "x": 384,
+    "y": 0,
+    "offlineX": 0,
+    "offlineY": 160,
+    "face": "hexacastMale"
+}

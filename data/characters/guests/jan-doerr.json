@@ -1,1 +1,87 @@
-{"name":{"en_US":"Voltrey","pt_br":"Voltrey","de_DE":"Voltrey","zh_CN":"\u6e25\u7279\u83b1<<A<<[CHANGED 2019/04/16]","ja_JP":"\u30dc\u30eb\u30c8\u30ec\u30a4<<A<<[CHANGED 2019/04/16]","ko_KR":"\ubcfc\ud2b8\ub808\uc774<<A<<[CHANGED 2019/04/16]","langUid":1,"zh_TW":"\u6e25\u7279\u840a<<A<<[CHANGED 2019/04/16]"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/guest/jan-doerr.png","xCount":1,"offX":0,"offY":0,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":"4","flipX":[0,0,0,1],"tileOffsets":[0,1,2,1],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[0]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,0,0,0]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"width":136,"height":176,"centerX":48,"centerY":76,"src":"guest/jan-doerr.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":136,"height":176,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]}}}}
+{
+    "name": {
+        "en_US": "Voltrey",
+        "pt_BR": "Voltrey",
+        "de_DE": "Voltrey",
+        "zh_CN": "\u6e25\u7279\u83b1<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30dc\u30eb\u30c8\u30ec\u30a4<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ubcfc\ud2b8\ub808\uc774<<A<<[CHANGED 2019/04/16]",
+        "langUid": 1,
+        "zh_TW": "\u6e25\u7279\u840a<<A<<[CHANGED 2019/04/16]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guest/jan-doerr.png",
+                "xCount": 1,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": "4",
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 0, 0, 0]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 136,
+        "height": 176,
+        "centerX": 48,
+        "centerY": 76,
+        "src": "guest/jan-doerr.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 136,
+                "height": 176,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            }
+        }
+    }
+}

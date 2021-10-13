@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Jennifer Ling","pt_br":"Jennifer Ling","de_DE":"Jennifer Ling","langUid":1,"ja_JP":"\u30b8\u30a7\u30cb\u30d5\u30a1\u30fc\u30fb\u30ea\u30f3<<A<<[CHANGED 2018/09/02]","ko_KR":"\uc81c\ub2c8\ud37c \ub9c1<<A<<[CHANGED 2018/09/02]","zh_CN":"\u8a79\u5c3c\u5f17\u00b7\u7075<<A<<[CHANGED 2018/09/02]","zh_TW":"\u8a79\u5c3c\u5f17\u00b7\u9748<<A<<[CHANGED 2018/09/02]"},"img":"media/entity/npc/forest-npcs.png","x":192,"y":120,"face":"femaleLongHair1"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Jennifer Ling",
+        "pt_BR": "Jennifer Ling",
+        "de_DE": "Jennifer Ling",
+        "langUid": 1,
+        "ja_JP": "\u30b8\u30a7\u30cb\u30d5\u30a1\u30fc\u30fb\u30ea\u30f3<<A<<[CHANGED 2018/09/02]",
+        "ko_KR": "\uc81c\ub2c8\ud37c \ub9c1<<A<<[CHANGED 2018/09/02]",
+        "zh_CN": "\u8a79\u5c3c\u5f17\u00b7\u7075<<A<<[CHANGED 2018/09/02]",
+        "zh_TW": "\u8a79\u5c3c\u5f17\u00b7\u9748<<A<<[CHANGED 2018/09/02]"
+    },
+    "img": "media/entity/npc/forest-npcs.png",
+    "x": 192,
+    "y": 120,
+    "face": "femaleLongHair1"
+}

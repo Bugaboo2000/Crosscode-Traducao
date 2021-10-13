@@ -1,1 +1,79 @@
-{"name":{"en_US":"The Boosi Man","pt_br":"O Homem da Bebida","de_DE":"Der Botzemann","langUid":1,"zh_CN":"\u5927\u00b7\u8001\u677f","ko_KR":"\ubd80\uc9c0\ub9e8","ja_JP":"\u30d6\u30fc\u30b8\u30fc\u30de\u30f3","zh_TW":"\u5927\u00b7\u8001\u95c6"},"size":{"x":24,"y":16,"z":38},"displayOffset":{"x":0,"y":-2},"shadow":24,"animSheet":"npc.boogie","walkAnimSet":{"normal":{"idle":"idleHat","move":"walkHat"},"bald":{"idle":"idle","move":"walk"}},"relativeVel":0.5,"configs":{"normal":{"walkAnims":"normal"},"bald":{"walkAnims":"bald"}},"face":{"src":"boogie.png","width":192,"height":192,"centerX":77,"centerY":60,"parts":[{"normal":{"srcX":0,"srcY":0,"width":192,"height":192,"destX":0,"destY":0},"bald":{"srcX":192,"srcY":0,"width":192,"height":192,"destX":0,"destY":0}}],"expressions":{"DEFAULT":{"faces":[["normal"]]},"BALD":{"faces":[["bald"]]}}}}
+{
+    "name": {
+        "en_US": "The Boosi Man",
+        "pt_BR": "O Homem da Bebida",
+        "de_DE": "Der Botzemann",
+        "langUid": 1,
+        "zh_CN": "\u5927\u00b7\u8001\u677f",
+        "ko_KR": "\ubd80\uc9c0\ub9e8",
+        "ja_JP": "\u30d6\u30fc\u30b8\u30fc\u30de\u30f3",
+        "zh_TW": "\u5927\u00b7\u8001\u95c6"
+    },
+    "size": {
+        "x": 24,
+        "y": 16,
+        "z": 38
+    },
+    "displayOffset": {
+        "x": 0,
+        "y": -2
+    },
+    "shadow": 24,
+    "animSheet": "npc.boogie",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idleHat",
+            "move": "walkHat"
+        },
+        "bald": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "relativeVel": 0.5,
+    "configs": {
+        "normal": {
+            "walkAnims": "normal"
+        },
+        "bald": {
+            "walkAnims": "bald"
+        }
+    },
+    "face": {
+        "src": "boogie.png",
+        "width": 192,
+        "height": 192,
+        "centerX": 77,
+        "centerY": 60,
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 192,
+                "height": 192,
+                "destX": 0,
+                "destY": 0
+            },
+            "bald": {
+                "srcX": 192,
+                "srcY": 0,
+                "width": 192,
+                "height": 192,
+                "destX": 0,
+                "destY": 0
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            },
+            "BALD": {
+                "faces": [
+                    ["bald"]
+                ]
+            }
+        }
+    }
+}

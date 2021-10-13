@@ -1,1 +1,473 @@
-{"name":{"en_US":"Shizuka","pt_br":"Shizuka","de_DE":"Shizuka","zh_CN":"\u9759","ja_JP":"\u30b7\u30ba\u30ab","ko_KR":"\uc2dc\uc988\uce74","langUid":1,"zh_TW":"\u975c"},"realname":{"en_US":"Shizuka","pt_br":"Shizuka","de_DE":"Shizuka","zh_CN":"\u9759","ja_JP":"\u30b7\u30ba\u30ab","ko_KR":"\uc2dc\uc988\uce74","langUid":2,"zh_TW":"\u975c"},"size":{"x":16,"y":16,"z":24},"animSheet":"shizuka","walkAnimSet":{"normal":{"idle":"idle","move":"walk","run":"run","brake":"brake","preIdle":"preIdle","damage":"damage","fall":"fall","jump":"jump"}},"shadow":16,"configs":{"normal":{"walkAnims":"normal","relativeVel":0.5},"running":{"walkAnims":"normal","relativeVel":1}},"face":{"width":104,"height":144,"centerX":35,"centerY":50,"src":"shizuka.png","parts":[{"straight":{"srcX":0,"srcY":88,"width":104,"height":56,"destX":0,"destY":88},"spread":{"srcX":392,"srcY":0,"width":104,"height":56,"destX":0,"destY":88,"subX":-4,"subY":3},"hold":{"srcX":296,"srcY":0,"width":96,"height":128,"destX":0,"destY":16}},{"norm":{"srcX":0,"srcY":0,"width":96,"height":32,"destX":0,"destY":0},"down":{"srcX":104,"srcY":0,"width":96,"height":32,"destX":0,"destY":0},"toward":{"srcX":200,"srcY":0,"width":96,"height":32,"destX":0,"destY":0}},{"normNeutral":{"srcX":0,"srcY":32,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"normSuspicious":{"srcX":0,"srcY":144,"width":96,"height":56,"destX":0,"destY":32},"normSarcastic":{"srcX":0,"srcY":200,"width":96,"height":56,"destX":0,"destY":32},"normStrict":{"srcX":0,"srcY":256,"width":96,"height":56,"destX":0,"destY":32},"normShock":{"srcX":0,"srcY":312,"width":96,"height":56,"destX":0,"destY":32},"normShout":{"srcX":0,"srcY":368,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"normSurprised":{"srcX":0,"srcY":424,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"downNeutral":{"srcX":104,"srcY":32,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"downAngry":{"srcX":104,"srcY":88,"width":96,"height":56,"destX":0,"destY":32},"downDenying":{"srcX":104,"srcY":144,"width":96,"height":56,"destX":0,"destY":32},"downGrin":{"srcX":104,"srcY":200,"width":96,"height":56,"destX":0,"destY":32},"downConcerned":{"srcX":104,"srcY":256,"width":96,"height":56,"destX":0,"destY":32},"downScream":{"srcX":104,"srcY":312,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"downSmile":{"srcX":104,"srcY":368,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"downSad":{"srcX":104,"srcY":424,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"towardNeutral":{"srcX":200,"srcY":32,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"towardYell":{"srcX":200,"srcY":88,"width":96,"height":56,"destX":0,"destY":32},"towardAnnoyed":{"srcX":200,"srcY":144,"width":96,"height":56,"destX":0,"destY":32},"towardConflicted":{"srcX":200,"srcY":200,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"towardInnocent":{"srcX":200,"srcY":256,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"downBadass":{"srcX":200,"srcY":312,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"normBright":{"srcX":200,"srcY":368,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"towardFunnySmile":{"srcX":200,"srcY":424,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""},"normSmug":{"srcX":296,"srcY":144,"width":96,"height":56,"destX":0,"destY":32,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","normNeutral"]]},"SUSPICIOUS":{"faces":[["straight","norm","normSuspicious"]]},"SARCASTIC":{"faces":[["straight","norm","normSarcastic"]]},"STRICT":{"faces":[["straight","norm","normStrict"]]},"SHOCK":{"faces":[["straight","norm","normShock"]]},"SHOUT":{"faces":[["straight","norm","normShout"]]},"SURPRISED":{"faces":[["straight","norm","normSurprised"]]},"BRIGHT":{"faces":[["straight","norm","normBright"]]},"SMUG":{"faces":[["straight","norm","normSmug"]]},"DOWN":{"faces":[["straight","down","downNeutral"]]},"ANGRY":{"faces":[["straight","down","downAngry"]]},"DENYING":{"faces":[["straight","down","downDenying"]]},"EVIL_GRIN":{"faces":[["straight","down","downGrin"]]},"CONCERNED":{"faces":[["straight","down","downConcerned"]]},"SCREAM":{"faces":[["spread","down","downScream"]]},"SMILE":{"faces":[["straight","down","downSmile"]]},"SAD":{"faces":[["straight","down","downSad"]]},"BADASS":{"faces":[["straight","down","downBadass"]]},"TOWARD":{"faces":[["straight","toward","towardNeutral"]]},"YELL":{"faces":[["straight","toward","towardYell"]]},"ANNOYED":{"faces":[["straight","toward","towardAnnoyed"]]},"CONFLICTED":{"faces":[["straight","toward","towardConflicted"]]},"INNOCENT":{"faces":[["straight","toward","towardInnocent"]]},"FUNNY_SMILE":{"faces":[["straight","toward","towardFunnySmile"]]},"HOLD":{"faces":[["hold"]]}}}}
+{
+    "name": {
+        "en_US": "Shizuka",
+        "pt_BR": "Shizuka",
+        "de_DE": "Shizuka",
+        "zh_CN": "\u9759",
+        "ja_JP": "\u30b7\u30ba\u30ab",
+        "ko_KR": "\uc2dc\uc988\uce74",
+        "langUid": 1,
+        "zh_TW": "\u975c"
+    },
+    "realname": {
+        "en_US": "Shizuka",
+        "pt_BR": "Shizuka",
+        "de_DE": "Shizuka",
+        "zh_CN": "\u9759",
+        "ja_JP": "\u30b7\u30ba\u30ab",
+        "ko_KR": "\uc2dc\uc988\uce74",
+        "langUid": 2,
+        "zh_TW": "\u975c"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": "shizuka",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk",
+            "run": "run",
+            "brake": "brake",
+            "preIdle": "preIdle",
+            "damage": "damage",
+            "fall": "fall",
+            "jump": "jump"
+        }
+    },
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "walkAnims": "normal",
+            "relativeVel": 0.5
+        },
+        "running": {
+            "walkAnims": "normal",
+            "relativeVel": 1
+        }
+    },
+    "face": {
+        "width": 104,
+        "height": 144,
+        "centerX": 35,
+        "centerY": 50,
+        "src": "shizuka.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 88,
+                "width": 104,
+                "height": 56,
+                "destX": 0,
+                "destY": 88
+            },
+            "spread": {
+                "srcX": 392,
+                "srcY": 0,
+                "width": 104,
+                "height": 56,
+                "destX": 0,
+                "destY": 88,
+                "subX": -4,
+                "subY": 3
+            },
+            "hold": {
+                "srcX": 296,
+                "srcY": 0,
+                "width": 96,
+                "height": 128,
+                "destX": 0,
+                "destY": 16
+            }
+        }, {
+            "norm": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 96,
+                "height": 32,
+                "destX": 0,
+                "destY": 0
+            },
+            "down": {
+                "srcX": 104,
+                "srcY": 0,
+                "width": 96,
+                "height": 32,
+                "destX": 0,
+                "destY": 0
+            },
+            "toward": {
+                "srcX": 200,
+                "srcY": 0,
+                "width": 96,
+                "height": 32,
+                "destX": 0,
+                "destY": 0
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 0,
+                "srcY": 32,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSuspicious": {
+                "srcX": 0,
+                "srcY": 144,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "normSarcastic": {
+                "srcX": 0,
+                "srcY": 200,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "normStrict": {
+                "srcX": 0,
+                "srcY": 256,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "normShock": {
+                "srcX": 0,
+                "srcY": 312,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "normShout": {
+                "srcX": 0,
+                "srcY": 368,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSurprised": {
+                "srcX": 0,
+                "srcY": 424,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downNeutral": {
+                "srcX": 104,
+                "srcY": 32,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downAngry": {
+                "srcX": 104,
+                "srcY": 88,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "downDenying": {
+                "srcX": 104,
+                "srcY": 144,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "downGrin": {
+                "srcX": 104,
+                "srcY": 200,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "downConcerned": {
+                "srcX": 104,
+                "srcY": 256,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "downScream": {
+                "srcX": 104,
+                "srcY": 312,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downSmile": {
+                "srcX": 104,
+                "srcY": 368,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downSad": {
+                "srcX": 104,
+                "srcY": 424,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardNeutral": {
+                "srcX": 200,
+                "srcY": 32,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardYell": {
+                "srcX": 200,
+                "srcY": 88,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "towardAnnoyed": {
+                "srcX": 200,
+                "srcY": 144,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32
+            },
+            "towardConflicted": {
+                "srcX": 200,
+                "srcY": 200,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardInnocent": {
+                "srcX": 200,
+                "srcY": 256,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downBadass": {
+                "srcX": 200,
+                "srcY": 312,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normBright": {
+                "srcX": 200,
+                "srcY": 368,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardFunnySmile": {
+                "srcX": 200,
+                "srcY": 424,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSmug": {
+                "srcX": 296,
+                "srcY": 144,
+                "width": 96,
+                "height": 56,
+                "destX": 0,
+                "destY": 32,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "SUSPICIOUS": {
+                "faces": [
+                    ["straight", "norm", "normSuspicious"]
+                ]
+            },
+            "SARCASTIC": {
+                "faces": [
+                    ["straight", "norm", "normSarcastic"]
+                ]
+            },
+            "STRICT": {
+                "faces": [
+                    ["straight", "norm", "normStrict"]
+                ]
+            },
+            "SHOCK": {
+                "faces": [
+                    ["straight", "norm", "normShock"]
+                ]
+            },
+            "SHOUT": {
+                "faces": [
+                    ["straight", "norm", "normShout"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["straight", "norm", "normSurprised"]
+                ]
+            },
+            "BRIGHT": {
+                "faces": [
+                    ["straight", "norm", "normBright"]
+                ]
+            },
+            "SMUG": {
+                "faces": [
+                    ["straight", "norm", "normSmug"]
+                ]
+            },
+            "DOWN": {
+                "faces": [
+                    ["straight", "down", "downNeutral"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "down", "downAngry"]
+                ]
+            },
+            "DENYING": {
+                "faces": [
+                    ["straight", "down", "downDenying"]
+                ]
+            },
+            "EVIL_GRIN": {
+                "faces": [
+                    ["straight", "down", "downGrin"]
+                ]
+            },
+            "CONCERNED": {
+                "faces": [
+                    ["straight", "down", "downConcerned"]
+                ]
+            },
+            "SCREAM": {
+                "faces": [
+                    ["spread", "down", "downScream"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["straight", "down", "downSmile"]
+                ]
+            },
+            "SAD": {
+                "faces": [
+                    ["straight", "down", "downSad"]
+                ]
+            },
+            "BADASS": {
+                "faces": [
+                    ["straight", "down", "downBadass"]
+                ]
+            },
+            "TOWARD": {
+                "faces": [
+                    ["straight", "toward", "towardNeutral"]
+                ]
+            },
+            "YELL": {
+                "faces": [
+                    ["straight", "toward", "towardYell"]
+                ]
+            },
+            "ANNOYED": {
+                "faces": [
+                    ["straight", "toward", "towardAnnoyed"]
+                ]
+            },
+            "CONFLICTED": {
+                "faces": [
+                    ["straight", "toward", "towardConflicted"]
+                ]
+            },
+            "INNOCENT": {
+                "faces": [
+                    ["straight", "toward", "towardInnocent"]
+                ]
+            },
+            "FUNNY_SMILE": {
+                "faces": [
+                    ["straight", "toward", "towardFunnySmile"]
+                ]
+            },
+            "HOLD": {
+                "faces": [
+                    ["hold"]
+                ]
+            }
+        }
+    }
+}

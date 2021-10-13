@@ -1,1 +1,96 @@
-{"name":{"en_US":"Dr. Cretia","pt_br":"Dr. Cretia","de_DE":"Dr. Cretia","zh_CN":"\u514b\u96f7\u63d0\u4e9a\u535a\u58eb<<A<<[CHANGED 2018/03/14]","ja_JP":"\u30c9\u30af\u30bf\u30fc\u30fb\u30af\u30ec\u30c4\u30a3\u30a2<<A<<[CHANGED 2018/03/14]","ko_KR":"\ud06c\ub808\ud2f0\uc544 \ubc15\uc0ac<<A<<[CHANGED 2018/03/14]","langUid":1,"zh_TW":"\u514b\u96f7\u63d0\u4e9e\u535a\u58eb<<A<<[CHANGED 2018/03/14]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/basin-keep.png","width":32,"height":40,"xCount":3,"offX":384,"offY":120}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"0":"l","1":"o","2":"u","3":"C","4":"r","5":"e","6":"t","7":"i","8":"a","width":136,"height":168,"centerX":54,"centerY":76,"src":"loucretia.png","parts":[{"norm":{"srcX":0,"srcY":0,"width":136,"height":168,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["norm"]]}}}}
+{
+    "name": {
+        "en_US": "Dr. Cretia",
+        "pt_BR": "Dr. Cretia",
+        "de_DE": "Dr. Cretia",
+        "zh_CN": "\u514b\u96f7\u63d0\u4e9a\u535a\u58eb<<A<<[CHANGED 2018/03/14]",
+        "ja_JP": "\u30c9\u30af\u30bf\u30fc\u30fb\u30af\u30ec\u30c4\u30a3\u30a2<<A<<[CHANGED 2018/03/14]",
+        "ko_KR": "\ud06c\ub808\ud2f0\uc544 \ubc15\uc0ac<<A<<[CHANGED 2018/03/14]",
+        "langUid": 1,
+        "zh_TW": "\u514b\u96f7\u63d0\u4e9e\u535a\u58eb<<A<<[CHANGED 2018/03/14]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/basin-keep.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 384,
+                "offY": 120
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "0": "l",
+        "1": "o",
+        "2": "u",
+        "3": "C",
+        "4": "r",
+        "5": "e",
+        "6": "t",
+        "7": "i",
+        "8": "a",
+        "width": 136,
+        "height": 168,
+        "centerX": 54,
+        "centerY": 76,
+        "src": "loucretia.png",
+        "parts": [{
+            "norm": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 136,
+                "height": 168,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["norm"]
+                ]
+            }
+        }
+    }
+}

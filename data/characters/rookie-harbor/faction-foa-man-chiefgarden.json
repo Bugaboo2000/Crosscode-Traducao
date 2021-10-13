@@ -1,1 +1,97 @@
-{"name":{"en_US":"Manzana","pt_br":"Manzana","langUid":1,"de_DE":"Manzana","ja_JP":"\u30de\u30f3\u30b6\u30ca<<A<<[CHANGED 2018/08/28]","ko_KR":"\ub9cc\uc790\ub098<<A<<[CHANGED 2018/08/28]","zh_CN":"\u66fc\u67e5\u5a1c<<A<<[CHANGED 2018/08/28]","zh_TW":"\u66fc\u67e5\u5a1c<<A<<[CHANGED 2018/08/28]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/greenies-1.png","width":32,"height":40,"xCount":3,"offX":96,"offY":0}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"0":"m","1":"a","2":"l","3":"e","4":"F","5":"a","6":"r","7":"m","8":"e","9":"r","width":144,"height":176,"centerX":46,"centerY":56,"src":"faction-greens-rh-1.png","parts":[{"default":{"srcX":0,"srcY":0,"width":144,"height":176,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "Manzana",
+        "pt_BR": "Manzana",
+        "langUid": 1,
+        "de_DE": "Manzana",
+        "ja_JP": "\u30de\u30f3\u30b6\u30ca<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\ub9cc\uc790\ub098<<A<<[CHANGED 2018/08/28]",
+        "zh_CN": "\u66fc\u67e5\u5a1c<<A<<[CHANGED 2018/08/28]",
+        "zh_TW": "\u66fc\u67e5\u5a1c<<A<<[CHANGED 2018/08/28]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/greenies-1.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 96,
+                "offY": 0
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "0": "m",
+        "1": "a",
+        "2": "l",
+        "3": "e",
+        "4": "F",
+        "5": "a",
+        "6": "r",
+        "7": "m",
+        "8": "e",
+        "9": "r",
+        "width": 144,
+        "height": 176,
+        "centerX": 46,
+        "centerY": 56,
+        "src": "faction-greens-rh-1.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 144,
+                "height": 176,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}

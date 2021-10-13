@@ -1,1 +1,49 @@
-{"name":{"en_US":"THE WALL","pt_br":"A PAREDE","de_DE":"DIE MAUER","zh_CN":"\u5899<<A<<[CHANGED 2018/03/14]","ja_JP":"\u58c1<<A<<[CHANGED 2018/03/14]","ko_KR":"\ubcbd<<A<<[CHANGED 2018/03/14]","langUid":1,"zh_TW":"\u7246<<A<<[CHANGED 2018/03/14]"},"size":{"x":40,"y":40,"z":88},"animSheet":{"shapeType":"Y_FLAT","sheet":{"src":"media/entity/npc/god-pentafist.png","offX":0,"offY":0,"width":80,"height":128},"renderMode":"lighter","dirs":"1","flipX":[0],"tileOffsets":[0],"repeat":true,"SUB":[{"name":"default","time":0.1,"frames":[0,1,2,3]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"default"}},"walkAnims":"normal","zGravityFactor":0,"shadow":0,"configs":{"normal":{}}}
+{
+    "name": {
+        "en_US": "THE WALL",
+        "pt_BR": "A PAREDE",
+        "de_DE": "DIE MAUER",
+        "zh_CN": "\u5899<<A<<[CHANGED 2018/03/14]",
+        "ja_JP": "\u58c1<<A<<[CHANGED 2018/03/14]",
+        "ko_KR": "\ubcbd<<A<<[CHANGED 2018/03/14]",
+        "langUid": 1,
+        "zh_TW": "\u7246<<A<<[CHANGED 2018/03/14]"
+    },
+    "size": {
+        "x": 40,
+        "y": 40,
+        "z": 88
+    },
+    "animSheet": {
+        "shapeType": "Y_FLAT",
+        "sheet": {
+            "src": "media/entity/npc/god-pentafist.png",
+            "offX": 0,
+            "offY": 0,
+            "width": 80,
+            "height": 128
+        },
+        "renderMode": "lighter",
+        "dirs": "1",
+        "flipX": [0],
+        "tileOffsets": [0],
+        "repeat": true,
+        "SUB": [{
+            "name": "default",
+            "time": 0.1,
+            "frames": [0, 1, 2, 3]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "default"
+        }
+    },
+    "walkAnims": "normal",
+    "zGravityFactor": 0,
+    "shadow": 0,
+    "configs": {
+        "normal": {}
+    }
+}

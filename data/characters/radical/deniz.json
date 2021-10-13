@@ -1,1 +1,76 @@
-{"name":{"en_US":"Deniz","pt_br":"Deniz","de_DE":"Deniz","zh_CN":"\u4e39\u5c3c\u65af<<A<<[CHANGED 2020/06/17]","ja_JP":"\u30c7\u30cb\u30ba<<A<<[CHANGED 2020/06/17]","ko_KR":"Deniz<<A<<[CHANGED 2020/06/17]","langUid":1,"zh_TW":"\u9127\u5c3c\u65af<<A<<[CHANGED 2020/06/15]"},"animSheet":{"namedSheets":{"idle":{"src":"media/entity/npc/radicalfishgames.png","xCount":8,"offX":160,"offY":80,"width":32,"height":32}},"shapeType":"Y_FLAT","offset":{"x":0,"y":0,"z":0},"SUB":[{"sheet":"idle","dirs":"1","flipX":[0],"tileOffsets":[0],"SUB":[{"name":"idle","time":0.2,"repeat":true,"frames":[0,1,2,1]},{"name":"turn","time":0.12,"repeat":false,"frames":[3,4,5,6]},{"name":"turnPost","time":1,"repeat":true,"frames":[6]},{"name":"blink","time":0.1,"repeat":false,"frames":[7,6,6,7,6,6]},{"name":"turnBack","time":0.12,"repeat":false,"frames":[6,5,4,3]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"idle"}},"walkAnims":"normal","configs":{"normal":{}},"face":{"ABSTRACT":"oldman"}}
+{
+    "name": {
+        "en_US": "Deniz",
+        "pt_BR": "Deniz",
+        "de_DE": "Deniz",
+        "zh_CN": "\u4e39\u5c3c\u65af<<A<<[CHANGED 2020/06/17]",
+        "ja_JP": "\u30c7\u30cb\u30ba<<A<<[CHANGED 2020/06/17]",
+        "ko_KR": "Deniz<<A<<[CHANGED 2020/06/17]",
+        "langUid": 1,
+        "zh_TW": "\u9127\u5c3c\u65af<<A<<[CHANGED 2020/06/15]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "idle": {
+                "src": "media/entity/npc/radicalfishgames.png",
+                "xCount": 8,
+                "offX": 160,
+                "offY": 80,
+                "width": 32,
+                "height": 32
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "idle",
+            "dirs": "1",
+            "flipX": [0],
+            "tileOffsets": [0],
+            "SUB": [{
+                "name": "idle",
+                "time": 0.2,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }, {
+                "name": "turn",
+                "time": 0.12,
+                "repeat": false,
+                "frames": [3, 4, 5, 6]
+            }, {
+                "name": "turnPost",
+                "time": 1,
+                "repeat": true,
+                "frames": [6]
+            }, {
+                "name": "blink",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [7, 6, 6, 7, 6, 6]
+            }, {
+                "name": "turnBack",
+                "time": 0.12,
+                "repeat": false,
+                "frames": [6, 5, 4, 3]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "idle"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {}
+    },
+    "face": {
+        "ABSTRACT": "oldman"
+    }
+}

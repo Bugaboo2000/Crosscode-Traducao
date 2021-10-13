@@ -1,1 +1,21 @@
-{"name":{"en_US":"Jeff","pt_br":"Jeff","de_DE":"Jeff","fr_FR":"","langUid":1,"ja_JP":"\u30b8\u30a7\u30d5<<A<<[CHANGED 2018/10/04]","ko_KR":"\uc81c\ud504<<A<<[CHANGED 2018/10/04]","zh_CN":"\u6770\u592b<<A<<[CHANGED 2018/10/04]","zh_TW":"\u5091\u592b<<A<<[CHANGED 2018/10/04]"},"jsonINSTANCE":"NPCAvatarSimple","gender":"MALE","img":"media/entity/npc/triblader.png","x":480,"y":0,"offlineX":96,"offlineY":0,"face":"tribladerMale"}
+{
+    "name": {
+        "en_US": "Jeff",
+        "pt_BR": "Jeff",
+        "de_DE": "Jeff",
+        "fr_FR": "",
+        "langUid": 1,
+        "ja_JP": "\u30b8\u30a7\u30d5<<A<<[CHANGED 2018/10/04]",
+        "ko_KR": "\uc81c\ud504<<A<<[CHANGED 2018/10/04]",
+        "zh_CN": "\u6770\u592b<<A<<[CHANGED 2018/10/04]",
+        "zh_TW": "\u5091\u592b<<A<<[CHANGED 2018/10/04]"
+    },
+    "jsonINSTANCE": "NPCAvatarSimple",
+    "gender": "MALE",
+    "img": "media/entity/npc/triblader.png",
+    "x": 480,
+    "y": 0,
+    "offlineX": 96,
+    "offlineY": 0,
+    "face": "tribladerMale"
+}

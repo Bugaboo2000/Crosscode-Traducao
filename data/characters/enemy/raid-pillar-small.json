@@ -1,1 +1,46 @@
-{"name":{"en_US":"THE WALL","pt_br":"A PAREDE","de_DE":"DIE MAUER","langUid":1,"zh_CN":"\u5899","ja_JP":"\u58c1<<A<<[CHANGED 2017/08/03]","ko_KR":"\ubcbd","zh_TW":"\u7246"},"animSheet":"enemies.pillar-small","size":{"x":20,"y":20,"z":24},"walkAnimSet":{"heat":{"idle":"heatOff"},"cold":{"idle":"coldOff"},"shock":{"idle":"shockOff"},"wave":{"idle":"waveOff"}},"configs":{"heat":{"walkAnims":"heat"},"cold":{"walkAnims":"cold"},"shock":{"walkAnims":"shock"},"wave":{"walkAnims":"wave"}}}
+{
+    "name": {
+        "en_US": "THE WALL",
+        "pt_BR": "A PAREDE",
+        "de_DE": "DIE MAUER",
+        "langUid": 1,
+        "zh_CN": "\u5899",
+        "ja_JP": "\u58c1<<A<<[CHANGED 2017/08/03]",
+        "ko_KR": "\ubcbd",
+        "zh_TW": "\u7246"
+    },
+    "animSheet": "enemies.pillar-small",
+    "size": {
+        "x": 20,
+        "y": 20,
+        "z": 24
+    },
+    "walkAnimSet": {
+        "heat": {
+            "idle": "heatOff"
+        },
+        "cold": {
+            "idle": "coldOff"
+        },
+        "shock": {
+            "idle": "shockOff"
+        },
+        "wave": {
+            "idle": "waveOff"
+        }
+    },
+    "configs": {
+        "heat": {
+            "walkAnims": "heat"
+        },
+        "cold": {
+            "walkAnims": "cold"
+        },
+        "shock": {
+            "walkAnims": "shock"
+        },
+        "wave": {
+            "walkAnims": "wave"
+        }
+    }
+}

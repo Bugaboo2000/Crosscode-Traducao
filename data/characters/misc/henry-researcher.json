@@ -1,1 +1,19 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Henry","pt_br":"Henry","de_DE":"Henry","langUid":1,"zh_CN":"\u4ea8\u5229","ko_KR":"\ud5e8\ub9ac","ja_JP":"\u30d8\u30f3\u30ea\u30fc","zh_TW":"\u4ea8\u5229"},"img":"media/entity/npc/henry.png","x":0,"y":0,"sitX":96,"sitY":0,"face":"henry"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Henry",
+        "pt_BR": "Henry",
+        "de_DE": "Henry",
+        "langUid": 1,
+        "zh_CN": "\u4ea8\u5229",
+        "ko_KR": "\ud5e8\ub9ac",
+        "ja_JP": "\u30d8\u30f3\u30ea\u30fc",
+        "zh_TW": "\u4ea8\u5229"
+    },
+    "img": "media/entity/npc/henry.png",
+    "x": 0,
+    "y": 0,
+    "sitX": 96,
+    "sitY": 0,
+    "face": "henry"
+}

@@ -1,1 +1,112 @@
-{"name":{"en_US":"PuellaDocta","pt_br":"PuellaDocta","de_DE":"PuellaDocta","zh_CN":"\u533b\u751f\u59d0\u59d0<<A<<[CHANGED 2019/01/10]","ja_JP":"\u30d7\u30a8\u30e9\u30c9\u30af\u30bf<<A<<[CHANGED 2019/01/10]","ko_KR":"\ud478\uc5d8\ub77c\ub3c5\ud0c0<<A<<[CHANGED 2019/01/10]","langUid":1,"zh_TW":"\u91ab\u751f\u59d0\u59d0<<A<<[CHANGED 2019/01/10]"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/guest/puella-docta.png","xCount":3,"offX":0,"offY":0,"width":32,"height":40},"sit":{"src":"media/entity/npc/guest/puella-docta.png","xCount":3,"offX":0,"offY":120,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":"4","flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"sit","dirs":"2","flipX":[0,1],"tileOffsets":[0,0],"SUB":[{"name":"sit","time":1,"repeat":false,"frames":[0]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"sit":{"idle":"sit"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5},"sit":{"walkAnims":"sit"}},"face":{"width":112,"height":144,"centerX":36,"centerY":50,"src":"guest/puella-docta.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":112,"height":144,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]}}}}
+{
+    "name": {
+        "en_US": "PuellaDocta",
+        "pt_BR": "PuellaDocta",
+        "de_DE": "PuellaDocta",
+        "zh_CN": "\u533b\u751f\u59d0\u59d0<<A<<[CHANGED 2019/01/10]",
+        "ja_JP": "\u30d7\u30a8\u30e9\u30c9\u30af\u30bf<<A<<[CHANGED 2019/01/10]",
+        "ko_KR": "\ud478\uc5d8\ub77c\ub3c5\ud0c0<<A<<[CHANGED 2019/01/10]",
+        "langUid": 1,
+        "zh_TW": "\u91ab\u751f\u59d0\u59d0<<A<<[CHANGED 2019/01/10]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guest/puella-docta.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            },
+            "sit": {
+                "src": "media/entity/npc/guest/puella-docta.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 120,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": "4",
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "sit",
+            "dirs": "2",
+            "flipX": [0, 1],
+            "tileOffsets": [0, 0],
+            "SUB": [{
+                "name": "sit",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "sit": {
+            "walkAnims": "sit"
+        }
+    },
+    "face": {
+        "width": 112,
+        "height": 144,
+        "centerX": 36,
+        "centerY": 50,
+        "src": "guest/puella-docta.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 112,
+                "height": 144,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            }
+        }
+    }
+}

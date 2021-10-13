@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Baxton","pt_br":"Baxton","de_DE":"Baxton","langUid":1,"zh_CN":"\u5df4\u514b\u897f\u987f<<A<<[CHANGED 2017/12/12]","ko_KR":"\ubc31\uc2a4\ud134<<A<<[CHANGED 2017/11/16]","ja_JP":"\u30a2\u30c7\u30a3<<A<<[CHANGED 2017/11/04]","zh_TW":"\u5df4\u514b\u897f\u9813<<A<<[CHANGED 2017/12/12]"},"img":"media/entity/npc/henry.png","x":128,"y":0,"face":"maleAdvisor"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Baxton",
+        "pt_BR": "Baxton",
+        "de_DE": "Baxton",
+        "langUid": 1,
+        "zh_CN": "\u5df4\u514b\u897f\u987f<<A<<[CHANGED 2017/12/12]",
+        "ko_KR": "\ubc31\uc2a4\ud134<<A<<[CHANGED 2017/11/16]",
+        "ja_JP": "\u30a2\u30c7\u30a3<<A<<[CHANGED 2017/11/04]",
+        "zh_TW": "\u5df4\u514b\u897f\u9813<<A<<[CHANGED 2017/12/12]"
+    },
+    "img": "media/entity/npc/henry.png",
+    "x": 128,
+    "y": 0,
+    "face": "maleAdvisor"
+}

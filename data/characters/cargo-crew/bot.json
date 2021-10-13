@@ -1,1 +1,36 @@
-{"name":{"en_US":"Gear Bot","pt_br":"Gear Bot","de_DE":"Gear Bot","langUid":1,"zh_CN":"\u673a\u5668\u4eba","ko_KR":"\uc7a5\ube44 \ubd07","ja_JP":"\u30ae\u30a2\u30fb\u30dc\u30c3\u30c8","zh_TW":"\u6a5f\u5668\u4eba"},"animSheet":"npc.cargo-crew","size":{"x":16,"y":16,"z":24},"walkAnimSet":{"normal":{"idle":"bot1Idle"},"sleep":{"idle":"bot1Sleep"}},"configs":{"normal":{"walkAnims":"normal","relativeVel":0.5},"sleep":{"walkAnims":"sleep","relativeVel":0.5}}}
+{
+    "name": {
+        "en_US": "Gear Bot",
+        "pt_BR": "Gear Bot",
+        "de_DE": "Gear Bot",
+        "langUid": 1,
+        "zh_CN": "\u673a\u5668\u4eba",
+        "ko_KR": "\uc7a5\ube44 \ubd07",
+        "ja_JP": "\u30ae\u30a2\u30fb\u30dc\u30c3\u30c8",
+        "zh_TW": "\u6a5f\u5668\u4eba"
+    },
+    "animSheet": "npc.cargo-crew",
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "bot1Idle"
+        },
+        "sleep": {
+            "idle": "bot1Sleep"
+        }
+    },
+    "configs": {
+        "normal": {
+            "walkAnims": "normal",
+            "relativeVel": 0.5
+        },
+        "sleep": {
+            "walkAnims": "sleep",
+            "relativeVel": 0.5
+        }
+    }
+}

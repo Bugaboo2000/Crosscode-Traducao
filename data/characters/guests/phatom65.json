@@ -1,1 +1,87 @@
-{"name":{"en_US":"Niki","pt_br":"Niki","de_DE":"Niki","zh_CN":"\u59ae\u59ec<<A<<[CHANGED 2019/04/16]","ja_JP":"\u30cb\u30c3\u30ad\u30fc<<A<<[CHANGED 2019/04/16]","ko_KR":"\ub2c8\ud0a4<<A<<[CHANGED 2019/04/16]","langUid":1,"zh_TW":"\u59ae\u59ec<<A<<[CHANGED 2019/04/16]"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/guest/phatom65.png","xCount":3,"offX":0,"offY":0,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":"4","flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"width":152,"height":160,"centerX":58,"centerY":62,"src":"guest/phatom65.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":152,"height":160,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]}}}}
+{
+    "name": {
+        "en_US": "Niki",
+        "pt_BR": "Niki",
+        "de_DE": "Niki",
+        "zh_CN": "\u59ae\u59ec<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30cb\u30c3\u30ad\u30fc<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ub2c8\ud0a4<<A<<[CHANGED 2019/04/16]",
+        "langUid": 1,
+        "zh_TW": "\u59ae\u59ec<<A<<[CHANGED 2019/04/16]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guest/phatom65.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": "4",
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 152,
+        "height": 160,
+        "centerX": 58,
+        "centerY": 62,
+        "src": "guest/phatom65.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 152,
+                "height": 160,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            }
+        }
+    }
+}

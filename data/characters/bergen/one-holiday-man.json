@@ -1,1 +1,84 @@
-{"name":{"en_US":"Holiday Man","pt_br":"Homem de Férias","de_DE":"Festtagsmann","langUid":1,"zh_CN":"\u5723\u8bde\u8d85\u4eba","ko_KR":"\ud560\ub9ac\ub370\uc774 \ub9e8","ja_JP":"\u30db\u30ea\u30c7\u30fc\u30de\u30f3","zh_TW":"\u8056\u8a95\u8d85\u4eba"},"size":{"x":16,"y":16,"z":24},"shadow":16,"animSheet":"npc.holiday-man","walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"bald":{"idle":"idleBald","move":"walkBald"}},"relativeVel":0.5,"configs":{"normal":{"walkAnims":"normal"},"bald":{"walkAnims":"bald"}},"face":{"src":"holiday-man.png","width":176,"height":176,"centerX":77,"centerY":60,"parts":[{"straight":{"srcX":0,"srcY":80,"width":176,"height":96,"destX":0,"destY":80}},{"normal":{"srcX":56,"srcY":0,"width":80,"height":80,"destX":56,"destY":0},"bald":{"srcX":136,"srcY":0,"width":80,"height":80,"destX":56,"destY":0}}],"expressions":{"DEFAULT":{"faces":[["straight","normal"]]},"BALD":{"faces":[["straight","bald"]]}}}}
+{
+    "name": {
+        "en_US": "Holiday Man",
+        "pt_BR": "Homem de Férias",
+        "de_DE": "Festtagsmann",
+        "langUid": 1,
+        "zh_CN": "\u5723\u8bde\u8d85\u4eba",
+        "ko_KR": "\ud560\ub9ac\ub370\uc774 \ub9e8",
+        "ja_JP": "\u30db\u30ea\u30c7\u30fc\u30de\u30f3",
+        "zh_TW": "\u8056\u8a95\u8d85\u4eba"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "shadow": 16,
+    "animSheet": "npc.holiday-man",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "bald": {
+            "idle": "idleBald",
+            "move": "walkBald"
+        }
+    },
+    "relativeVel": 0.5,
+    "configs": {
+        "normal": {
+            "walkAnims": "normal"
+        },
+        "bald": {
+            "walkAnims": "bald"
+        }
+    },
+    "face": {
+        "src": "holiday-man.png",
+        "width": 176,
+        "height": 176,
+        "centerX": 77,
+        "centerY": 60,
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 80,
+                "width": 176,
+                "height": 96,
+                "destX": 0,
+                "destY": 80
+            }
+        }, {
+            "normal": {
+                "srcX": 56,
+                "srcY": 0,
+                "width": 80,
+                "height": 80,
+                "destX": 56,
+                "destY": 0
+            },
+            "bald": {
+                "srcX": 136,
+                "srcY": 0,
+                "width": 80,
+                "height": 80,
+                "destX": 56,
+                "destY": 0
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "normal"]
+                ]
+            },
+            "BALD": {
+                "faces": [
+                    ["straight", "bald"]
+                ]
+            }
+        }
+    }
+}

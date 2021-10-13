@@ -1,1 +1,28 @@
-{"name":{"en_US":"Painter","pt_br":"Pintor","de_DE":"Maler","langUid":1,"zh_CN":"\u5237\u6f06\u5de5<<A<<[CHANGED 2017/10/10]","ko_KR":"\ud654\uac00<<A<<[CHANGED 2017/10/17]","ja_JP":"\u30da\u30a4\u30f3\u30bf\u30fc<<A<<[CHANGED 2017/11/04]","zh_TW":"\u5237\u6f06\u5de5<<A<<[CHANGED 2017/10/10]"},"animSheet":"npc.painter","walkAnimSet":{"normal":{"idle":"idle","move":"idle"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"ABSTRACT":"maleNormalHair1"}}
+{
+    "name": {
+        "en_US": "Painter",
+        "pt_BR": "Pintor",
+        "de_DE": "Maler",
+        "langUid": 1,
+        "zh_CN": "\u5237\u6f06\u5de5<<A<<[CHANGED 2017/10/10]",
+        "ko_KR": "\ud654\uac00<<A<<[CHANGED 2017/10/17]",
+        "ja_JP": "\u30da\u30a4\u30f3\u30bf\u30fc<<A<<[CHANGED 2017/11/04]",
+        "zh_TW": "\u5237\u6f06\u5de5<<A<<[CHANGED 2017/10/10]"
+    },
+    "animSheet": "npc.painter",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "idle"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "ABSTRACT": "maleNormalHair1"
+    }
+}

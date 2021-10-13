@@ -1,1 +1,95 @@
-{"name":{"en_US":"Kney'tehab","pt_br":"Kney'tehab","langUid":1,"de_DE":"Kney'tehab","ja_JP":"\u30af\u30cd\u30a4\u30fb\u30c6\u30cf\u30d6<<A<<[CHANGED 2018/08/28]","ko_KR":"\ub124\uc774\ud14c\ud558\ube0c<<A<<[CHANGED 2018/08/28]","zh_CN":"\u80af\u5c3c\u8fbe\u6bd4<<A<<[CHANGED 2018/08/28]","zh_TW":"\u80af\u5c3c\u9054\u6bd4<<A<<[CHANGED 2018/08/28]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/shad.png","width":32,"height":40,"xCount":3,"offX":384,"offY":0}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"0":"s","1":"h","2":"a","3":"d","4":"M","5":"a","6":"l","7":"e","width":176,"height":184,"centerX":66,"centerY":72,"src":"faction-trader-baki-1.png","parts":[{"default":{"srcX":0,"srcY":0,"width":176,"height":184,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "Kney'tehab",
+        "pt_BR": "Kney'tehab",
+        "langUid": 1,
+        "de_DE": "Kney'tehab",
+        "ja_JP": "\u30af\u30cd\u30a4\u30fb\u30c6\u30cf\u30d6<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\ub124\uc774\ud14c\ud558\ube0c<<A<<[CHANGED 2018/08/28]",
+        "zh_CN": "\u80af\u5c3c\u8fbe\u6bd4<<A<<[CHANGED 2018/08/28]",
+        "zh_TW": "\u80af\u5c3c\u9054\u6bd4<<A<<[CHANGED 2018/08/28]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/shad.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 384,
+                "offY": 0
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "0": "s",
+        "1": "h",
+        "2": "a",
+        "3": "d",
+        "4": "M",
+        "5": "a",
+        "6": "l",
+        "7": "e",
+        "width": 176,
+        "height": 184,
+        "centerX": 66,
+        "centerY": 72,
+        "src": "faction-trader-baki-1.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 176,
+                "height": 184,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}

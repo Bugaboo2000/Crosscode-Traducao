@@ -1,1 +1,368 @@
-{"name":{"en_US":"Captain Jet","pt_br":"Capitão Jet","de_DE":"Captain Jet","fr_FR":"","langUid":1,"zh_CN":"\u706b\u7bad\u8239\u957f","ko_KR":"\uc81c\ud2b8 \uc120\uc7a5","ja_JP":"\u30b8\u30a7\u30c3\u30c8\u8239\u9577","zh_TW":"\u706b\u7bad\u8239\u9577"},"size":{"x":16,"y":16,"z":24},"shadow":16,"animSheet":"npc.captain","walkAnimSet":{"normal":{"idle":"idle","move":"walk","hover":"hover"},"glassOn":{"idle":"idleGlass","move":"walkGlass","hover":"hoverGlass"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5},"floating":{"floatHeight":48,"floatVariance":3,"relativeVel":0.5},"glassOn":{"walkAnims":"glassOn","relativeVel":0.5},"floatingGlassOn":{"walkAnims":"glassOn","floatHeight":48,"floatVariance":3,"relativeVel":0.5}},"face":{"src":"captain.png","width":192,"height":184,"centerX":96,"centerY":60,"parts":[{"straight":{"srcX":0,"srcY":0,"width":192,"height":128,"destX":24,"destY":56}},{"norm":{"srcX":192,"srcY":0,"width":80,"height":32,"destX":64,"destY":0},"down":{"srcX":272,"srcY":0,"width":80,"height":32,"destX":64,"destY":0},"toward":{"srcX":352,"srcY":0,"width":80,"height":32,"destX":64,"destY":0},"dark":{"srcX":432,"srcY":0,"width":80,"height":32,"destX":64,"destY":0}},{"normNeutral":{"srcX":192,"srcY":32,"width":80,"height":64,"destX":64,"destY":32},"normStern":{"srcX":192,"srcY":96,"width":80,"height":64,"destX":64,"destY":32},"normSmile":{"srcX":192,"srcY":160,"width":80,"height":64,"destX":64,"destY":32},"normConcerned":{"srcX":192,"srcY":224,"width":80,"height":64,"destX":64,"destY":32},"downNeutral":{"srcX":272,"srcY":32,"width":80,"height":64,"destX":64,"destY":32},"downSmile":{"srcX":272,"srcY":96,"width":80,"height":64,"destX":64,"destY":32},"towardNeutral":{"srcX":352,"srcY":32,"width":80,"height":64,"destX":64,"destY":32},"towardSceptical":{"srcX":352,"srcY":96,"width":80,"height":64,"destX":64,"destY":32},"towardShout":{"srcX":352,"srcY":160,"width":80,"height":64,"destX":64,"destY":32},"towardRoar":{"srcX":352,"srcY":224,"width":80,"height":64,"destX":64,"destY":32},"darkNeutral":{"srcX":432,"srcY":32,"width":80,"height":64,"destX":64,"destY":32},"darkPlotting":{"srcX":432,"srcY":96,"width":80,"height":64,"destX":64,"destY":32},"darkAngry":{"srcX":432,"srcY":160,"width":80,"height":64,"destX":64,"destY":32}},{"normGlass":{"srcX":0,"srcY":128,"width":64,"height":24,"destX":72,"destY":40},"downGlass":{"srcX":0,"srcY":152,"width":64,"height":24,"destX":72,"destY":40},"towardGlass":{"srcX":0,"srcY":176,"width":64,"height":24,"destX":72,"destY":40},"darkGlass":{"srcX":0,"srcY":200,"width":64,"height":24,"destX":72,"destY":40}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","normNeutral"]]},"STERN":{"faces":[["straight","norm","normStern"]]},"SMILE":{"faces":[["straight","norm","normSmile"]]},"CONCERNED":{"faces":[["straight","norm","normConcerned"]]},"DOWN":{"faces":[["straight","down","downNeutral"]]},"DOWN_SMILE":{"faces":[["straight","down","downSmile"]]},"TOWARD":{"faces":[["straight","toward","towardNeutral"]]},"SCEPTICAL":{"faces":[["straight","toward","towardSceptical"]]},"SHOUT":{"faces":[["straight","toward","towardShout"]]},"ROAR":{"faces":[["straight","toward","towardRoar"]]},"DARK":{"faces":[["straight","dark","darkNeutral"]]},"PLOTTING":{"faces":[["straight","dark","darkPlotting"]]},"ANGRY":{"faces":[["straight","dark","darkAngry"]]},"DEFAULT_GLASS":{"faces":[["straight","norm","normNeutral","normGlass"]]},"STERN_GLASS":{"faces":[["straight","norm","normStern","normGlass"]]},"SMILE_GLASS":{"faces":[["straight","norm","normSmile","normGlass"]]},"CONCERNED_GLASS":{"faces":[["straight","norm","normConcerned","normGlass"]]},"DOWN_GLASS":{"faces":[["straight","down","downNeutral","downGlass"]]},"DOWN_SMILE_GLASS":{"faces":[["straight","down","downSmile","downGlass"]]},"TOWARD_GLASS":{"faces":[["straight","toward","towardNeutral","towardGlass"]]},"SCEPTICAL_GLASS":{"faces":[["straight","toward","towardSceptical","towardGlass"]]},"SHOUT_GLASS":{"faces":[["straight","toward","towardShout","towardGlass"]]},"ROAR_GLASS":{"faces":[["straight","toward","towardRoar","towardGlass"]]},"PLOTTING_GLASS":{"faces":[["straight","dark","darkPlotting","darkGlass"]]},"ANGRY_GLASS":{"faces":[["straight","dark","darkAngry","darkGlass"]]}}}}
+{
+    "name": {
+        "en_US": "Captain Jet",
+        "pt_BR": "Capitão Jet",
+        "de_DE": "Captain Jet",
+        "fr_FR": "",
+        "langUid": 1,
+        "zh_CN": "\u706b\u7bad\u8239\u957f",
+        "ko_KR": "\uc81c\ud2b8 \uc120\uc7a5",
+        "ja_JP": "\u30b8\u30a7\u30c3\u30c8\u8239\u9577",
+        "zh_TW": "\u706b\u7bad\u8239\u9577"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "shadow": 16,
+    "animSheet": "npc.captain",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk",
+            "hover": "hover"
+        },
+        "glassOn": {
+            "idle": "idleGlass",
+            "move": "walkGlass",
+            "hover": "hoverGlass"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "floating": {
+            "floatHeight": 48,
+            "floatVariance": 3,
+            "relativeVel": 0.5
+        },
+        "glassOn": {
+            "walkAnims": "glassOn",
+            "relativeVel": 0.5
+        },
+        "floatingGlassOn": {
+            "walkAnims": "glassOn",
+            "floatHeight": 48,
+            "floatVariance": 3,
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "src": "captain.png",
+        "width": 192,
+        "height": 184,
+        "centerX": 96,
+        "centerY": 60,
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 192,
+                "height": 128,
+                "destX": 24,
+                "destY": 56
+            }
+        }, {
+            "norm": {
+                "srcX": 192,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 64,
+                "destY": 0
+            },
+            "down": {
+                "srcX": 272,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 64,
+                "destY": 0
+            },
+            "toward": {
+                "srcX": 352,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 64,
+                "destY": 0
+            },
+            "dark": {
+                "srcX": 432,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 64,
+                "destY": 0
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 192,
+                "srcY": 32,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "normStern": {
+                "srcX": 192,
+                "srcY": 96,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "normSmile": {
+                "srcX": 192,
+                "srcY": 160,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "normConcerned": {
+                "srcX": 192,
+                "srcY": 224,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "downNeutral": {
+                "srcX": 272,
+                "srcY": 32,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "downSmile": {
+                "srcX": 272,
+                "srcY": 96,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "towardNeutral": {
+                "srcX": 352,
+                "srcY": 32,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "towardSceptical": {
+                "srcX": 352,
+                "srcY": 96,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "towardShout": {
+                "srcX": 352,
+                "srcY": 160,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "towardRoar": {
+                "srcX": 352,
+                "srcY": 224,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "darkNeutral": {
+                "srcX": 432,
+                "srcY": 32,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "darkPlotting": {
+                "srcX": 432,
+                "srcY": 96,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            },
+            "darkAngry": {
+                "srcX": 432,
+                "srcY": 160,
+                "width": 80,
+                "height": 64,
+                "destX": 64,
+                "destY": 32
+            }
+        }, {
+            "normGlass": {
+                "srcX": 0,
+                "srcY": 128,
+                "width": 64,
+                "height": 24,
+                "destX": 72,
+                "destY": 40
+            },
+            "downGlass": {
+                "srcX": 0,
+                "srcY": 152,
+                "width": 64,
+                "height": 24,
+                "destX": 72,
+                "destY": 40
+            },
+            "towardGlass": {
+                "srcX": 0,
+                "srcY": 176,
+                "width": 64,
+                "height": 24,
+                "destX": 72,
+                "destY": 40
+            },
+            "darkGlass": {
+                "srcX": 0,
+                "srcY": 200,
+                "width": 64,
+                "height": 24,
+                "destX": 72,
+                "destY": 40
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "STERN": {
+                "faces": [
+                    ["straight", "norm", "normStern"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["straight", "norm", "normSmile"]
+                ]
+            },
+            "CONCERNED": {
+                "faces": [
+                    ["straight", "norm", "normConcerned"]
+                ]
+            },
+            "DOWN": {
+                "faces": [
+                    ["straight", "down", "downNeutral"]
+                ]
+            },
+            "DOWN_SMILE": {
+                "faces": [
+                    ["straight", "down", "downSmile"]
+                ]
+            },
+            "TOWARD": {
+                "faces": [
+                    ["straight", "toward", "towardNeutral"]
+                ]
+            },
+            "SCEPTICAL": {
+                "faces": [
+                    ["straight", "toward", "towardSceptical"]
+                ]
+            },
+            "SHOUT": {
+                "faces": [
+                    ["straight", "toward", "towardShout"]
+                ]
+            },
+            "ROAR": {
+                "faces": [
+                    ["straight", "toward", "towardRoar"]
+                ]
+            },
+            "DARK": {
+                "faces": [
+                    ["straight", "dark", "darkNeutral"]
+                ]
+            },
+            "PLOTTING": {
+                "faces": [
+                    ["straight", "dark", "darkPlotting"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "dark", "darkAngry"]
+                ]
+            },
+            "DEFAULT_GLASS": {
+                "faces": [
+                    ["straight", "norm", "normNeutral", "normGlass"]
+                ]
+            },
+            "STERN_GLASS": {
+                "faces": [
+                    ["straight", "norm", "normStern", "normGlass"]
+                ]
+            },
+            "SMILE_GLASS": {
+                "faces": [
+                    ["straight", "norm", "normSmile", "normGlass"]
+                ]
+            },
+            "CONCERNED_GLASS": {
+                "faces": [
+                    ["straight", "norm", "normConcerned", "normGlass"]
+                ]
+            },
+            "DOWN_GLASS": {
+                "faces": [
+                    ["straight", "down", "downNeutral", "downGlass"]
+                ]
+            },
+            "DOWN_SMILE_GLASS": {
+                "faces": [
+                    ["straight", "down", "downSmile", "downGlass"]
+                ]
+            },
+            "TOWARD_GLASS": {
+                "faces": [
+                    ["straight", "toward", "towardNeutral", "towardGlass"]
+                ]
+            },
+            "SCEPTICAL_GLASS": {
+                "faces": [
+                    ["straight", "toward", "towardSceptical", "towardGlass"]
+                ]
+            },
+            "SHOUT_GLASS": {
+                "faces": [
+                    ["straight", "toward", "towardShout", "towardGlass"]
+                ]
+            },
+            "ROAR_GLASS": {
+                "faces": [
+                    ["straight", "toward", "towardRoar", "towardGlass"]
+                ]
+            },
+            "PLOTTING_GLASS": {
+                "faces": [
+                    ["straight", "dark", "darkPlotting", "darkGlass"]
+                ]
+            },
+            "ANGRY_GLASS": {
+                "faces": [
+                    ["straight", "dark", "darkAngry", "darkGlass"]
+                ]
+            }
+        }
+    }
+}

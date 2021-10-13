@@ -1,1 +1,87 @@
-{"name":{"en_US":"Feiu","pt_br":"Feiu","de_DE":"Feiu","zh_CN":"\u83f2<<A<<[CHANGED 2020/06/17]","ja_JP":"\u30d5\u30a3\u30fc\u30e6<<A<<[CHANGED 2020/06/17]","ko_KR":"Feiu<<A<<[CHANGED 2020/06/17]","langUid":1,"zh_TW":"\u83f2<<A<<[CHANGED 2020/06/15]"},"size":{"x":16,"y":16,"z":32},"animSheet":{"namedSheets":{"idle":{"src":"media/entity/npc/radicalfishgames.png","xCount":5,"offX":128,"offY":232,"width":56,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":0,"z":0},"SUB":[{"sheet":"idle","dirs":"1","flipX":[0],"tileOffsets":[0],"SUB":[{"name":"idle","time":0.2,"repeat":true,"frames":[1,2,3,4,3,2]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"idle"}},"walkAnims":"normal","floatHeight":4,"floatVariance":2,"configs":{"normal":{}},"face":{"width":120,"height":168,"centerX":38,"centerY":73,"src":"feiu.png","parts":[{"default":{"srcX":0,"srcY":0,"width":120,"height":168,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "Feiu",
+        "pt_BR": "Feiu",
+        "de_DE": "Feiu",
+        "zh_CN": "\u83f2<<A<<[CHANGED 2020/06/17]",
+        "ja_JP": "\u30d5\u30a3\u30fc\u30e6<<A<<[CHANGED 2020/06/17]",
+        "ko_KR": "Feiu<<A<<[CHANGED 2020/06/17]",
+        "langUid": 1,
+        "zh_TW": "\u83f2<<A<<[CHANGED 2020/06/15]"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 32
+    },
+    "animSheet": {
+        "namedSheets": {
+            "idle": {
+                "src": "media/entity/npc/radicalfishgames.png",
+                "xCount": 5,
+                "offX": 128,
+                "offY": 232,
+                "width": 56,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "idle",
+            "dirs": "1",
+            "flipX": [0],
+            "tileOffsets": [0],
+            "SUB": [{
+                "name": "idle",
+                "time": 0.2,
+                "repeat": true,
+                "frames": [1, 2, 3, 4, 3, 2]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "idle"
+        }
+    },
+    "walkAnims": "normal",
+    "floatHeight": 4,
+    "floatVariance": 2,
+    "configs": {
+        "normal": {}
+    },
+    "face": {
+        "width": 120,
+        "height": 168,
+        "centerX": 38,
+        "centerY": 73,
+        "src": "feiu.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 120,
+                "height": 168,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}

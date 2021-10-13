@@ -1,1 +1,21 @@
-{"name":{"en_US":"Sophia","pt_br":"Sophia","de_DE":"Sophia","fr_FR":"","langUid":1,"ja_JP":"\u30bd\u30d5\u30a3\u30a2<<A<<[CHANGED 2019/01/10]","ko_KR":"\uc18c\ud53c\uc544<<A<<[CHANGED 2019/01/10]","zh_CN":"\u7d22\u83f2\u4e9a<<A<<[CHANGED 2019/01/10]","zh_TW":"\u7d22\u83f2\u4e9e<<A<<[CHANGED 2019/01/10]"},"jsonINSTANCE":"NPCAvatarSimple","gender":"FEMALE","img":"media/entity/npc/dkar.png","x":192,"y":0,"offlineX":0,"offlineY":160,"face":"quadroguardFemale"}
+{
+    "name": {
+        "en_US": "Sophia",
+        "pt_BR": "Sophia",
+        "de_DE": "Sophia",
+        "fr_FR": "",
+        "langUid": 1,
+        "ja_JP": "\u30bd\u30d5\u30a3\u30a2<<A<<[CHANGED 2019/01/10]",
+        "ko_KR": "\uc18c\ud53c\uc544<<A<<[CHANGED 2019/01/10]",
+        "zh_CN": "\u7d22\u83f2\u4e9a<<A<<[CHANGED 2019/01/10]",
+        "zh_TW": "\u7d22\u83f2\u4e9e<<A<<[CHANGED 2019/01/10]"
+    },
+    "jsonINSTANCE": "NPCAvatarSimple",
+    "gender": "FEMALE",
+    "img": "media/entity/npc/dkar.png",
+    "x": 192,
+    "y": 0,
+    "offlineX": 0,
+    "offlineY": 160,
+    "face": "quadroguardFemale"
+}
