@@ -1,0 +1,867 @@
+{
+    "DOCTYPE": "AREAS_MAP",
+    "name": {
+        "en_US": "untitled",
+        "pt_BR": "Sem título",
+        "de_DE": "Unbenannt",
+        "langUid": 1,
+        "ja_JP": "\u7121\u984c<<A<<[CHANGED 2018\/05\/01]",
+        "ko_KR": "untitled<<A<<[CHANGED 2018\/05\/01]",
+        "zh_CN": "\u672a\u547d\u540d<<A<<[CHANGED 2018\/05\/01]",
+        "zh_TW": "\u672a\u547d\u540d<<A<<[CHANGED 2018\/05\/01]"
+    },
+    "width": 20,
+    "height": 20,
+    "floors": [{
+        "level": 0,
+        "name": {
+            "en_US": "F0",
+            "pt_BR": "F0",
+            "langUid": 7,
+            "de_DE": "EG",
+            "ja_JP": "\u5730\u968e<<A<<[CHANGED 2018\/08\/01]",
+            "ko_KR": "F0<<A<<[CHANGED 2018\/08\/01]",
+            "zh_CN": "F0<<A<<[CHANGED 2018\/08\/01]",
+            "zh_TW": "F0<<A<<[CHANGED 2018\/08\/01]"
+        },
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [{
+            "icon": "arrow_up",
+            "x": 76,
+            "y": 72,
+            "map": 0
+        }],
+        "maps": [{
+            "path": "arid-dng.second.f0.center",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Center Elevator GF",
+                "pt_BR": "Elevador Central GF",
+                "langUid": 13,
+                "de_DE": "Aufzug EG",
+                "ja_JP": "\u30bb\u30f3\u30bf\u30fc\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u3000\u5730\u968e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc911\uc559 \uc5d8\ub9ac\ubca0\uc774\ud130 GF<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u4e2d\u592e\u7535\u68af \u5e95\u5c42<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u4e2d\u592e\u96fb\u68af \u5e95\u5c64<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f0.entrance",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Entrance",
+                "pt_BR": "Entrada",
+                "langUid": 12,
+                "de_DE": "Eingang",
+                "ja_JP": "\u5165\u53e3<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc785\uad6c<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u5165\u53e3<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u5165\u53e3<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.elevator-down",
+            "name": {
+                "en_US": "Elevator Shaft",
+                "pt_BR": "Eixo do elevador",
+                "langUid": 33,
+                "de_DE": "Aufzugschacht",
+                "ja_JP": "\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u30b7\u30e3\u30d5\u30c8<<A<<[CHANGED 2018\/09\/14]",
+                "ko_KR": "\uc5d8\ub9ac\ubca0\uc774\ud130 \uc218\uac31<<A<<[CHANGED 2018\/09\/14]",
+                "zh_CN": "\u7535\u68af\u4e95<<A<<[CHANGED 2018\/09\/14]",
+                "zh_TW": "\u96fb\u68af\u4e95<<A<<[CHANGED 2018\/09\/14]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "arid-dng.second.elevator-up",
+            "name": {
+                "en_US": "Elevator Shaft",
+                "pt_BR": "Eixo do elevador",
+                "langUid": 35,
+                "de_DE": "Aufzugschacht",
+                "ja_JP": "\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u30b7\u30e3\u30d5\u30c8<<A<<[CHANGED 2018\/09\/14]",
+                "ko_KR": "\uc5d8\ub9ac\ubca0\uc774\ud130 \uc218\uac31<<A<<[CHANGED 2018\/09\/14]",
+                "zh_CN": "\u7535\u68af\u4e95<<A<<[CHANGED 2018\/09\/14]",
+                "zh_TW": "\u96fb\u68af\u4e95<<A<<[CHANGED 2018\/09\/14]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }],
+        "connections": [{
+            "tx": 9,
+            "ty": 11,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 0,
+            "map2": 1
+        }],
+        "landmarks": []
+    }, {
+        "level": 1,
+        "name": {
+            "en_US": "F1",
+            "pt_BR": "F1",
+            "langUid": 3,
+            "de_DE": "E1",
+            "ja_JP": "1\u968e<<A<<[CHANGED 2018\/08\/01]",
+            "ko_KR": "F1<<A<<[CHANGED 2018\/08\/01]",
+            "zh_CN": "F1<<A<<[CHANGED 2018\/08\/01]",
+            "zh_TW": "F1<<A<<[CHANGED 2018\/08\/01]"
+        },
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 0, 0, 0],
+            [0, 0, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 7, 7, 7, 7, 7, 0, 0, 0],
+            [0, 0, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 7, 7, 7, 7, 7, 0, 0, 0],
+            [0, 0, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 7, 7, 7, 7, 7, 0, 0, 0],
+            [0, 0, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 7, 7, 7, 7, 7, 0, 0, 0],
+            [0, 0, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 7, 7, 7, 7, 7, 0, 0, 0],
+            [0, 0, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [{
+            "icon": "arrow_up",
+            "x": 76,
+            "y": 72,
+            "map": 0
+        }, {
+            "icon": "arrow_down",
+            "x": 76,
+            "y": 80,
+            "map": 0
+        }],
+        "maps": [{
+            "path": "arid-dng.second.f1.center",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Center Elevator F1",
+                "pt_BR": "Elevador Central F1",
+                "langUid": 14,
+                "de_DE": "Aufzug E1",
+                "ja_JP": "\u30bb\u30f3\u30bf\u30fc\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc 1\u968e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc911\uc559 \uc5d8\ub9ac\ubca0\uc774\ud130 F1<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u4e2d\u592e\u7535\u68af 1\u5c42<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u4e2d\u592e\u96fb\u68af 1\u5c64<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f1.heat-1",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Blazing Storm",
+                "pt_BR": "Tempestade Flamejante",
+                "langUid": 19,
+                "de_DE": "Flammender Sturm",
+                "ja_JP": "\u71c3\u3048\u76db\u308b\u66b4\u98a8<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ubd88\ud0c0\ub294 \ud3ed\ud48d<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u706b\u7130\u98ce\u66b4<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u706b\u7130\u98a8\u66b4<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f1.heat-2",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Blazing Blizzard",
+                "pt_BR": "Nevasca Flamejante",
+                "langUid": 20,
+                "de_DE": "Flammender Blizzard",
+                "ja_JP": "\u71c3\u3048\u76db\u308b\u5439\u96ea<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ubd88\ud0c0\ub294 \ub208\ubcf4\ub77c<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u706b\u7130\u51b0\u96f9<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u706b\u7130\u51b0\u96f9<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f1.heat-3",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Blazing Challenge",
+                "pt_BR": "Desafio flamejante",
+                "langUid": 22,
+                "de_DE": "Flammende Pr\u00fcfung",
+                "ja_JP": "\u71c3\u3048\u76db\u308b\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ubd88\ud0c0\ub294 \ucc4c\ub9b0\uc9c0<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u706b\u7130\u6311\u6218<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u706b\u7130\u6311\u6230<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f1.cold-1",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Freezing Groove",
+                "pt_BR": "Groove congelante",
+                "langUid": 23,
+                "de_DE": "Freezing Groove",
+                "ja_JP": "\u51cd\u3066\u3064\u304f\u5f8b\u52d5<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ud639\ud55c\uc758 \ub3c4\ub791<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u51b0\u51bb\u6ce2\u6d6a<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u51b0\u51cd\u6ce2\u6d6a<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f1.cold-2",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Freezing Storm",
+                "pt_BR": "Tempestade Congelante",
+                "langUid": 24,
+                "de_DE": "Gefrierender Sturm",
+                "ja_JP": "\u51cd\u3066\u3064\u304f\u66b4\u98a8<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ud639\ud55c\uc758 \ud3ed\ud48d<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u51b0\u51bb\u98ce\u66b4<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u51b0\u51cd\u98a8\u66b4<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f1.cold-3",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Freezing Challenge",
+                "pt_BR": "Desafio Congelante",
+                "langUid": 25,
+                "de_DE": "Gefrierende Pr\u00fcfung",
+                "ja_JP": "\u51cd\u3066\u3064\u304f\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ud639\ud55c\uc758 \ucc4c\ub9b0\uc9c0<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u51b0\u51bb\u6311\u6218<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u51b0\u51cd\u6311\u6230<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }],
+        "connections": [{
+            "tx": 9,
+            "ty": 6,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 4,
+            "map2": 0
+        }, {
+            "tx": 11,
+            "ty": 4,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 4,
+            "map2": 5
+        }, {
+            "tx": 14,
+            "ty": 6,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 5,
+            "map2": 6
+        }, {
+            "tx": 11,
+            "ty": 9,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 0,
+            "map2": 6
+        }, {
+            "tx": 9,
+            "ty": 11,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 0,
+            "map2": 1
+        }, {
+            "tx": 6,
+            "ty": 14,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 2,
+            "map2": 1
+        }, {
+            "tx": 4,
+            "ty": 11,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 3,
+            "map2": 2
+        }, {
+            "tx": 6,
+            "ty": 9,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 3,
+            "map2": 0
+        }],
+        "landmarks": []
+    }, {
+        "level": 2,
+        "name": {
+            "en_US": "F2",
+            "pt_BR": "F2",
+            "langUid": 4,
+            "de_DE": "E2",
+            "ja_JP": "2\u968e<<A<<[CHANGED 2018\/08\/01]",
+            "ko_KR": "F2<<A<<[CHANGED 2018\/08\/01]",
+            "zh_CN": "F2<<A<<[CHANGED 2018\/08\/01]",
+            "zh_TW": "F2<<A<<[CHANGED 2018\/08\/01]"
+        },
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0],
+            [0, 0, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0],
+            [0, 0, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0],
+            [0, 0, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0],
+            [0, 0, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [{
+            "icon": "arrow_up",
+            "x": 76,
+            "y": 72,
+            "map": 0
+        }, {
+            "icon": "arrow_down",
+            "x": 76,
+            "y": 80,
+            "map": 0
+        }],
+        "maps": [{
+            "path": "arid-dng.second.f2.center",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Center Elevator F2",
+                "pt_BR": "Elevador Central F2",
+                "langUid": 15,
+                "de_DE": "Aufzug E2",
+                "ja_JP": "\u30bb\u30f3\u30bf\u30fc\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc 2\u968e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc911\uc559 \uc5d8\ub9ac\ubca0\uc774\ud130 F2<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u4e2d\u592e\u7535\u68af 2\u5c42<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u4e2d\u592e\u96fb\u68af 2\u5c64<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f2.shock-1",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Shocking Blizzard",
+                "pt_BR": "Nevasca Chocante",
+                "langUid": 27,
+                "de_DE": "Schockender Blizzard",
+                "ja_JP": "\u7a32\u5149\u308b\u5439\u96ea<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc9dc\ub9bf\ud55c \ud3ed\ud48d<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u95ea\u7535\u51b0\u96f9<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u9583\u96fb\u51b0\u96f9<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f2.shock-2",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Shocking Inferno",
+                "pt_BR": "Inferno chocante",
+                "langUid": 28,
+                "de_DE": "Schockendes Inferno",
+                "ja_JP": "\u7a32\u5149\u308b\u7344\u708e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc9dc\ub9bf\ud55c \ub9f9\ud654<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u95ea\u7535\u72f1\u706b<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u9583\u96fb\u7344\u706b<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f2.shock-3",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Shocking Challenge",
+                "pt_BR": "Desafio chocante",
+                "langUid": 29,
+                "de_DE": "Schockende Pr\u00fcfung",
+                "ja_JP": "\u7a32\u5149\u308b\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc9dc\ub9bf\ud55c \ucc4c\ub9b0\uc9c0<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u95ea\u7535\u6311\u6218<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u9583\u96fb\u6311\u6230<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f2.wave-1",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Waving Flames",
+                "pt_BR": "Chamas ondulantes",
+                "langUid": 30,
+                "de_DE": "Wellende Flammen",
+                "ja_JP": "\u6ce2\u6253\u3064\u706b\u708e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ud30c\ub3d9\uc758 \ubd88\uaf43<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u6ce2\u5f62\u4e4b\u708e<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u6ce2\u5f62\u4e4b\u708e<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f2.wave-2",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Waving Inferno",
+                "pt_BR": "Inferno ondulante",
+                "langUid": 31,
+                "de_DE": "Wellendes Inferno",
+                "ja_JP": "\u6ce2\u6253\u3064\u7344\u708e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ud30c\ub3d9\uc758 \ub9f9\ud654<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u6ce2\u5f62\u72f1\u706b<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u6ce2\u5f62\u7344\u706b<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f2.wave-3",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Waving Challenge",
+                "pt_BR": "Desafio ondulante",
+                "langUid": 32,
+                "de_DE": "Wellende Pr\u00fcfung",
+                "ja_JP": "\u6ce2\u6253\u3064\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\ud30c\ub3d9\uc758 \ucc4c\ub9b0\uc9c0<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u6ce2\u5f62\u6311\u6218<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u6ce2\u5f62\u6311\u6230<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }],
+        "connections": [{
+            "tx": 11,
+            "ty": 9,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 0,
+            "map2": 1
+        }, {
+            "tx": 14,
+            "ty": 11,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 1,
+            "map2": 2
+        }, {
+            "tx": 11,
+            "ty": 14,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 3,
+            "map2": 2
+        }, {
+            "tx": 9,
+            "ty": 11,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 0,
+            "map2": 3
+        }, {
+            "tx": 6,
+            "ty": 9,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 4,
+            "map2": 0
+        }, {
+            "tx": 4,
+            "ty": 6,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 5,
+            "map2": 4
+        }, {
+            "tx": 6,
+            "ty": 4,
+            "dir": "HORIZONTAL",
+            "size": 1,
+            "map1": 5,
+            "map2": 6
+        }, {
+            "tx": 9,
+            "ty": 6,
+            "dir": "VERTICAL",
+            "size": 1,
+            "map1": 6,
+            "map2": 0
+        }],
+        "landmarks": []
+    }, {
+        "level": 3,
+        "name": {
+            "en_US": "F3",
+            "pt_BR": "F3",
+            "langUid": 5,
+            "de_DE": "E3",
+            "ja_JP": "3\u968e<<A<<[CHANGED 2018\/08\/01]",
+            "ko_KR": "F3<<A<<[CHANGED 2018\/08\/01]",
+            "zh_CN": "F3<<A<<[CHANGED 2018\/08\/01]",
+            "zh_TW": "F3<<A<<[CHANGED 2018\/08\/01]"
+        },
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [{
+            "icon": "arrow_up",
+            "x": 76,
+            "y": 72,
+            "map": 0
+        }, {
+            "icon": "arrow_down",
+            "x": 76,
+            "y": 80,
+            "map": 0
+        }],
+        "maps": [{
+            "path": "arid-dng.second.f3.center",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Center Elevator F3",
+                "pt_BR": "Elevador Central F3",
+                "langUid": 16,
+                "de_DE": "Aufzug E3",
+                "ja_JP": "\u30bb\u30f3\u30bf\u30fc\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc 3\u968e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc911\uc559 \uc5d8\ub9ac\ubca0\uc774\ud130 F3<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u4e2d\u592e\u7535\u68af 3\u5c42<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u4e2d\u592e\u96fb\u68af 3\u5c64<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }],
+        "connections": [],
+        "landmarks": []
+    }, {
+        "level": 4,
+        "name": {
+            "en_US": "F4",
+            "pt_BR": "F4",
+            "langUid": 6,
+            "de_DE": "E4",
+            "ja_JP": "4\u968e<<A<<[CHANGED 2018\/08\/01]",
+            "ko_KR": "F4<<A<<[CHANGED 2018\/08\/01]",
+            "zh_CN": "F4<<A<<[CHANGED 2018\/08\/01]",
+            "zh_TW": "F4<<A<<[CHANGED 2018\/08\/01]"
+        },
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [{
+            "icon": "arrow_up",
+            "x": 76,
+            "y": 72,
+            "map": 0
+        }, {
+            "icon": "arrow_down",
+            "x": 76,
+            "y": 80,
+            "map": 0
+        }],
+        "maps": [{
+            "path": "arid-dng.second.f4.center",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Center Elevator F4",
+                "pt_BR": "Elevador Central F4",
+                "langUid": 17,
+                "de_DE": "Aufzug E4",
+                "ja_JP": "\u30bb\u30f3\u30bf\u30fc\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc 4\u968e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc911\uc559 \uc5d8\ub9ac\ubca0\uc774\ud130 F4<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u4e2d\u592e\u7535\u68af 4\u5c42<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u4e2d\u592e\u96fb\u68af 4\u5c64<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }],
+        "connections": [],
+        "landmarks": []
+    }, {
+        "level": 5,
+        "name": {
+            "en_US": "Top",
+            "pt_BR": "Principal",
+            "de_DE": "Spitze",
+            "zh_CN": "\u6700\u9ad8<<A<<[CHANGED 2018\/08\/01]",
+            "ja_JP": "\u9802\u4e0a<<A<<[CHANGED 2018\/08\/01]",
+            "ko_KR": "\uaf2d\ub300\uae30<<A<<[CHANGED 2018\/08\/01]",
+            "langUid": 8,
+            "zh_TW": "\u6700\u9ad8<<A<<[CHANGED 2018\/08\/01]"
+        },
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [{
+            "icon": "arrow_down",
+            "x": 76,
+            "y": 80,
+            "map": 0
+        }],
+        "maps": [{
+            "path": "arid-dng.second.f99.center",
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "",
+            "name": {
+                "en_US": "Center Elevator F??",
+                "pt_BR": "Elevador Central F??",
+                "langUid": 18,
+                "de_DE": "Aufzug E??",
+                "ja_JP": "\u30bb\u30f3\u30bf\u30fc\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc ??\u968e<<A<<[CHANGED 2018\/08\/01]",
+                "ko_KR": "\uc911\uc559 \uc5d8\ub9ac\ubca0\uc774\ud130 ??\uce35<<A<<[CHANGED 2018\/08\/01]",
+                "zh_CN": "\u4e2d\u592e\u7535\u68af ??\u5c42<<A<<[CHANGED 2018\/08\/01]",
+                "zh_TW": "\u4e2d\u592e\u96fb\u68af ??\u5c64<<A<<[CHANGED 2018\/08\/01]"
+            }
+        }, {
+            "path": "arid-dng.second.f99.boss-1",
+            "name": {
+                "en_US": "The Final Arena",
+                "pt_BR": "A última Arena",
+                "langUid": 36,
+                "de_DE": "Die letzte Arena",
+                "ja_JP": "\u6700\u5f8c\u306e\u30a2\u30ea\u30fc\u30ca<<A<<[CHANGED 2018\/09\/16]",
+                "ko_KR": "\ub9c8\uc9c0\ub9c9 \uacbd\uae30\uc7a5<<A<<[CHANGED 2018\/09\/16]",
+                "zh_CN": "\u6700\u7ec8\u7ade\u6280\u573a<<A<<[CHANGED 2018\/09\/16]",
+                "zh_TW": "\u6700\u7d42\u7adf\u6280\u5834<<A<<[CHANGED 2018\/09\/16]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "arid-dng.second.f99.boss-2",
+            "name": {
+                "en_US": "The Ultimate Experience",
+                "pt_BR": "A experiência final",
+                "langUid": 37,
+                "de_DE": "Die ultimative Erfahrung",
+                "ja_JP": "\u7a76\u6975\u306e\u7d4c\u9a13<<A<<[CHANGED 2018\/09\/16]",
+                "ko_KR": "\uad81\uadf9\uc758 \uacbd\ud5d8<<A<<[CHANGED 2018\/09\/16]",
+                "zh_CN": "\u7a76\u6781\u4f53\u9a8c<<A<<[CHANGED 2018\/09\/16]",
+                "zh_TW": "\u7a76\u6975\u9ad4\u9a57<<A<<[CHANGED 2018\/09\/16]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "arid-dng.second.f99.end-room",
+            "name": {
+                "en_US": "???",
+                "pt_BR": "???",
+                "langUid": 41,
+                "de_DE": "???",
+                "ja_JP": "???<<A<<[CHANGED 2018\/09\/19]",
+                "ko_KR": "???<<A<<[CHANGED 2018\/09\/19]",
+                "zh_CN": "???<<A<<[CHANGED 2018\/09\/19]",
+                "zh_TW": "???<<A<<[CHANGED 2018\/09\/19]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "arid-dng.second.f99.pre-server",
+            "name": {
+                "en_US": "Server Room Entrance",
+                "pt_BR": "Entrada da sala dos servidores",
+                "langUid": 42,
+                "de_DE": "Serverraum \/ Eingang",
+                "ja_JP": "\u30b5\u30fc\u30d0\u30fc\u30eb\u30fc\u30e0\u306e\u5165\u308a\u53e3<<A<<[CHANGED 2018\/09\/19]",
+                "ko_KR": "\uc11c\ubc84\uc2e4 \uc785\uad6c<<A<<[CHANGED 2018\/09\/19]",
+                "zh_CN": "\u670d\u52a1\u5668\u623f\u95f4\u5165\u53e3<<A<<[CHANGED 2018\/09\/19]",
+                "zh_TW": "\u670d\u52d9\u5668\u623f\u9593\u5165\u53e3<<A<<[CHANGED 2018\/09\/19]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "arid-dng.second.f99.server-room",
+            "name": {
+                "en_US": "Server Room",
+                "pt_BR": "Sala dos servidores",
+                "langUid": 43,
+                "de_DE": "Serverraum",
+                "ja_JP": "\u30b5\u30fc\u30d0\u30fc\u30eb\u30fc\u30e0<<A<<[CHANGED 2018\/09\/19]",
+                "ko_KR": "\uc11c\ubc84\uc2e4<<A<<[CHANGED 2018\/09\/19]",
+                "zh_CN": "\u670d\u52a1\u5668\u623f\u95f4<<A<<[CHANGED 2018\/09\/19]",
+                "zh_TW": "\u670d\u52d9\u5668\u623f\u9593<<A<<[CHANGED 2018\/09\/19]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }],
+        "connections": [],
+        "landmarks": [],
+        "handle": {
+            "en_US": "F??",
+            "pt_BR": "F??",
+            "langUid": 39,
+            "de_DE": "E??",
+            "ja_JP": "??\u968e<<A<<[CHANGED 2018\/09\/16]",
+            "ko_KR": "??\uce35<<A<<[CHANGED 2018\/09\/16]",
+            "zh_CN": "F??<<A<<[CHANGED 2018\/09\/16]",
+            "zh_TW": "F??<<A<<[CHANGED 2018\/09\/16]"
+        }
+    }],
+    "chests": 0,
+    "defaultFloor": 0
+}
