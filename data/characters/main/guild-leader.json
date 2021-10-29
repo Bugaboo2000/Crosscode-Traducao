@@ -1,1 +1,253 @@
-{"name":{"en_US":"Hlin","pt_br":"Hlin","de_DE":"Hlin","zh_CN":"\u5e0c\u5c14\u7433","ja_JP":"\u30d5\u30ea\u30fc\u30f3","ko_KR":"\ud750\ub9b0","langUid":1,"zh_TW":"\u5e0c\u723e\u7433"},"size":{"x":16,"y":16,"z":24},"animSheet":"npc.guild-leader","walkAnimSet":{"normal":{"idle":"idle","move":"walk","run":"run"},"sit":{"idle":"sit"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"sit":{"walkAnims":"sit","relativeVel":0.5},"running":{"relativeVel":1}},"face":{"width":144,"height":168,"centerX":58,"centerY":66,"src":"guild-leader.png","parts":[{"straight":{"srcX":0,"srcY":0,"width":144,"height":80,"destX":0,"destY":88},"forward":{"srcX":0,"srcY":80,"width":144,"height":72,"destX":-4,"destY":96,"subX":-6,"subY":4}},{"norm":{"srcX":144,"srcY":0,"width":88,"height":40,"destX":32,"destY":0},"towards":{"srcX":232,"srcY":0,"width":88,"height":40,"destX":32,"destY":0},"down":{"srcX":320,"srcY":0,"width":88,"height":40,"destX":32,"destY":0}},{"normNeutral":{"srcX":144,"srcY":40,"width":88,"height":56,"destX":32,"destY":40},"normExcited":{"srcX":144,"srcY":96,"width":88,"height":56,"destX":32,"destY":40},"normSmile":{"srcX":144,"srcY":152,"width":88,"height":56,"destX":32,"destY":40},"normSurprised":{"srcX":144,"srcY":208,"width":88,"height":56,"destX":32,"destY":40},"towardsNeutral":{"srcX":232,"srcY":40,"width":88,"height":56,"destX":32,"destY":40},"towardsAngry":{"srcX":232,"srcY":96,"width":88,"height":56,"destX":32,"destY":40},"towardsThinking":{"srcX":232,"srcY":152,"width":88,"height":56,"destX":32,"destY":40},"towardsDetermined":{"srcX":232,"srcY":208,"width":88,"height":56,"destX":32,"destY":40},"downNeutral":{"srcX":320,"srcY":40,"width":88,"height":56,"destX":32,"destY":40},"downEmbarrassed":{"srcX":320,"srcY":96,"width":88,"height":56,"destX":32,"destY":40},"downEyesClosed":{"srcX":320,"srcY":152,"width":88,"height":56,"destX":32,"destY":40},"downWorried":{"srcX":320,"srcY":208,"width":88,"height":56,"destX":32,"destY":40}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","normNeutral"]]},"EXCITED":{"faces":[["forward","norm","normExcited"]]},"SMILE":{"faces":[["straight","norm","normSmile"]]},"SURPRISED":{"faces":[["straight","norm","normSurprised"]]},"TOWARDS":{"faces":[["straight","towards","towardsNeutral"]]},"ANGRY":{"faces":[["straight","towards","towardsAngry"]]},"THINKING":{"faces":[["straight","towards","towardsThinking"]]},"DETERMINED":{"faces":[["forward","towards","towardsDetermined"]]},"DOWN":{"faces":[["straight","down","downNeutral"]]},"EMBARRASSED":{"faces":[["forward","down","downEmbarrassed"]]},"EYES_CLOSED":{"faces":[["straight","down","downEyesClosed"]]},"WORRIED":{"faces":[["forward","down","downWorried"]]}}}}
+{
+    "name": {
+        "en_US": "Hlin",
+        "pt_BR": "Hlin",
+        "de_DE": "Hlin",
+        "zh_CN": "\u5e0c\u5c14\u7433",
+        "ja_JP": "\u30d5\u30ea\u30fc\u30f3",
+        "ko_KR": "\ud750\ub9b0",
+        "langUid": 1,
+        "zh_TW": "\u5e0c\u723e\u7433"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": "npc.guild-leader",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk",
+            "run": "run"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "relativeVel": 0.5
+        },
+        "running": {
+            "relativeVel": 1
+        }
+    },
+    "face": {
+        "width": 144,
+        "height": 168,
+        "centerX": 58,
+        "centerY": 66,
+        "src": "guild-leader.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 144,
+                "height": 80,
+                "destX": 0,
+                "destY": 88
+            },
+            "forward": {
+                "srcX": 0,
+                "srcY": 80,
+                "width": 144,
+                "height": 72,
+                "destX": -4,
+                "destY": 96,
+                "subX": -6,
+                "subY": 4
+            }
+        }, {
+            "norm": {
+                "srcX": 144,
+                "srcY": 0,
+                "width": 88,
+                "height": 40,
+                "destX": 32,
+                "destY": 0
+            },
+            "towards": {
+                "srcX": 232,
+                "srcY": 0,
+                "width": 88,
+                "height": 40,
+                "destX": 32,
+                "destY": 0
+            },
+            "down": {
+                "srcX": 320,
+                "srcY": 0,
+                "width": 88,
+                "height": 40,
+                "destX": 32,
+                "destY": 0
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 144,
+                "srcY": 40,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "normExcited": {
+                "srcX": 144,
+                "srcY": 96,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "normSmile": {
+                "srcX": 144,
+                "srcY": 152,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "normSurprised": {
+                "srcX": 144,
+                "srcY": 208,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "towardsNeutral": {
+                "srcX": 232,
+                "srcY": 40,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "towardsAngry": {
+                "srcX": 232,
+                "srcY": 96,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "towardsThinking": {
+                "srcX": 232,
+                "srcY": 152,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "towardsDetermined": {
+                "srcX": 232,
+                "srcY": 208,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "downNeutral": {
+                "srcX": 320,
+                "srcY": 40,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "downEmbarrassed": {
+                "srcX": 320,
+                "srcY": 96,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "downEyesClosed": {
+                "srcX": 320,
+                "srcY": 152,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            },
+            "downWorried": {
+                "srcX": 320,
+                "srcY": 208,
+                "width": 88,
+                "height": 56,
+                "destX": 32,
+                "destY": 40
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "EXCITED": {
+                "faces": [
+                    ["forward", "norm", "normExcited"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["straight", "norm", "normSmile"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["straight", "norm", "normSurprised"]
+                ]
+            },
+            "TOWARDS": {
+                "faces": [
+                    ["straight", "towards", "towardsNeutral"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "towards", "towardsAngry"]
+                ]
+            },
+            "THINKING": {
+                "faces": [
+                    ["straight", "towards", "towardsThinking"]
+                ]
+            },
+            "DETERMINED": {
+                "faces": [
+                    ["forward", "towards", "towardsDetermined"]
+                ]
+            },
+            "DOWN": {
+                "faces": [
+                    ["straight", "down", "downNeutral"]
+                ]
+            },
+            "EMBARRASSED": {
+                "faces": [
+                    ["forward", "down", "downEmbarrassed"]
+                ]
+            },
+            "EYES_CLOSED": {
+                "faces": [
+                    ["straight", "down", "downEyesClosed"]
+                ]
+            },
+            "WORRIED": {
+                "faces": [
+                    ["forward", "down", "downWorried"]
+                ]
+            }
+        }
+    }
+}

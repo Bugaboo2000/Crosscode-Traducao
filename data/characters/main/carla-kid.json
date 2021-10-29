@@ -1,1 +1,125 @@
-{"name":{"en_US":"Isabelle","de_DE":"Isabelle","zh_CN":"\u5361\u62c9<<A<<[CHANGED 2021/05/04]","zh_TW":"\u5361\u62c9<<A<<[CHANGED 2021/05/04]","ja_JP":"\u30ab\u30fc\u30e9<<A<<[CHANGED 2021/05/04]","ko_KR":"\uc774\uc0ac\ubca8<<A<<[CHANGED 2021/05/04]","langUid":1},"size":{"x":16,"y":16,"z":24},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/carla-kid.png","xCount":3,"offX":0,"offY":0,"width":32,"height":32},"poses":{"src":"media/entity/npc/carla-kid.png","xCount":3,"offX":0,"offY":96,"width":32,"height":32}},"DOCTYPE":"MULTI_DIR_ANIMATION","shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"poses","dirs":"2","flipX":[0,1],"tileOffsets":[0,0],"SUB":[{"name":"preThrow","time":0.1,"repeat":false,"frames":[0]},{"name":"throw","time":0.15,"repeat":false,"frames":[1]},{"name":"lift","time":0.2,"repeat":false,"frames":[2]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"running":{"relativeVel":1}},"face":{"width":96,"height":128,"centerX":32,"centerY":72,"src":"carla-kid.png","parts":[{"straight":{"srcX":0,"srcY":0,"width":96,"height":128,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["straight"]]}}}}
+{
+    "name": {
+        "en_US": "Isabelle",
+        "pt_BR": "Isabelle",
+        "de_DE": "Isabelle",
+        "zh_CN": "\u5361\u62c9<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "\u5361\u62c9<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u30ab\u30fc\u30e9<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\uc774\uc0ac\ubca8<<A<<[CHANGED 2021/05/04]",
+        "langUid": 1
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/carla-kid.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 32
+            },
+            "poses": {
+                "src": "media/entity/npc/carla-kid.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 96,
+                "width": 32,
+                "height": 32
+            }
+        },
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "poses",
+            "dirs": "2",
+            "flipX": [0, 1],
+            "tileOffsets": [0, 0],
+            "SUB": [{
+                "name": "preThrow",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [0]
+            }, {
+                "name": "throw",
+                "time": 0.15,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "lift",
+                "time": 0.2,
+                "repeat": false,
+                "frames": [2]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "running": {
+            "relativeVel": 1
+        }
+    },
+    "face": {
+        "width": 96,
+        "height": 128,
+        "centerX": 32,
+        "centerY": 72,
+        "src": "carla-kid.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 96,
+                "height": 128,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight"]
+                ]
+            }
+        }
+    }
+}

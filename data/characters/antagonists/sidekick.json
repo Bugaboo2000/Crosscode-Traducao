@@ -1,1 +1,238 @@
-{"name":{"en_US":"Joern","pt_br":"Joern","de_DE":"Joern","zh_CN":"\u4e54\u6069","ja_JP":"\u30b8\u30e7\u30a2\u30f3","ko_KR":"\uc874","langUid":1,"zh_TW":"\u55ac\u6069"},"realname":{"en_US":"Joern","pt_br":"Joern","de_DE":"Joern","zh_CN":"\u4e54\u6069<<A<<[CHANGED 2018/08/28]","ja_JP":"\u30b8\u30e7\u30a2\u30f3<<A<<[CHANGED 2018/08/28]","ko_KR":"\uc874<<A<<[CHANGED 2018/08/28]","langUid":2,"zh_TW":"\u55ac\u6069<<A<<[CHANGED 2018/08/28]"},"size":{"x":16,"y":16,"z":32},"animSheet":"npc.sidekick","walkAnimSet":{"normal":{"idle":"idle","move":"walk","run":"run","jump":"jump","fall":"fall"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"running":{"relativeVel":1}},"face":{"width":208,"height":208,"centerX":88,"centerY":47,"src":"sidekick.png","parts":[{"straight":{"srcX":0,"srcY":0,"width":208,"height":128,"destX":25,"destY":80,"subX":24,"subY":0}},{"norm":{"srcX":208,"srcY":0,"width":72,"height":16,"destX":64,"destY":0},"up":{"srcX":280,"srcY":0,"width":72,"height":16,"destX":64,"destY":0},"toward":{"srcX":352,"srcY":0,"width":72,"height":16,"destX":64,"destY":0}},{"normNeutral":{"srcX":208,"srcY":16,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"normSmile":{"srcX":208,"srcY":80,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"normSarcastic":{"srcX":208,"srcY":144,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"normAwww":{"srcX":208,"srcY":208,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"upNeutral":{"srcX":280,"srcY":16,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"upSuspicious":{"srcX":280,"srcY":80,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"upSurprised":{"srcX":280,"srcY":144,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"towardNeutral":{"srcX":352,"srcY":16,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""},"towardAngry":{"srcX":352,"srcY":80,"width":72,"height":64,"destX":64,"destY":16,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","normNeutral"]]},"SMILE":{"faces":[["straight","norm","normSmile"]]},"SARCASTIC":{"faces":[["straight","norm","normSarcastic"]]},"AWWW":{"faces":[["straight","norm","normAwww"]]},"UP":{"faces":[["straight","up","upNeutral"]]},"SUSPICIOUS":{"faces":[["straight","up","upSuspicious"]]},"SURPRISED":{"faces":[["straight","up","upSurprised"]]},"TOWARD":{"faces":[["straight","toward","towardNeutral"]]},"ANGRY":{"faces":[["straight","toward","towardAngry"]]}}}}
+{
+    "name": {
+        "en_US": "Joern",
+        "pt_BR": "Joern",
+        "de_DE": "Joern",
+        "zh_CN": "\u4e54\u6069",
+        "ja_JP": "\u30b8\u30e7\u30a2\u30f3",
+        "ko_KR": "\uc874",
+        "langUid": 1,
+        "zh_TW": "\u55ac\u6069"
+    },
+    "realname": {
+        "en_US": "Joern",
+        "pt_BR": "Joern",
+        "de_DE": "Joern",
+        "zh_CN": "\u4e54\u6069<<A<<[CHANGED 2018/08/28]",
+        "ja_JP": "\u30b8\u30e7\u30a2\u30f3<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\uc874<<A<<[CHANGED 2018/08/28]",
+        "langUid": 2,
+        "zh_TW": "\u55ac\u6069<<A<<[CHANGED 2018/08/28]"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 32
+    },
+    "animSheet": "npc.sidekick",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk",
+            "run": "run",
+            "jump": "jump",
+            "fall": "fall"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "running": {
+            "relativeVel": 1
+        }
+    },
+    "face": {
+        "width": 208,
+        "height": 208,
+        "centerX": 88,
+        "centerY": 47,
+        "src": "sidekick.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 208,
+                "height": 128,
+                "destX": 25,
+                "destY": 80,
+                "subX": 24,
+                "subY": 0
+            }
+        }, {
+            "norm": {
+                "srcX": 208,
+                "srcY": 0,
+                "width": 72,
+                "height": 16,
+                "destX": 64,
+                "destY": 0
+            },
+            "up": {
+                "srcX": 280,
+                "srcY": 0,
+                "width": 72,
+                "height": 16,
+                "destX": 64,
+                "destY": 0
+            },
+            "toward": {
+                "srcX": 352,
+                "srcY": 0,
+                "width": 72,
+                "height": 16,
+                "destX": 64,
+                "destY": 0
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 208,
+                "srcY": 16,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSmile": {
+                "srcX": 208,
+                "srcY": 80,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSarcastic": {
+                "srcX": 208,
+                "srcY": 144,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normAwww": {
+                "srcX": 208,
+                "srcY": 208,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "upNeutral": {
+                "srcX": 280,
+                "srcY": 16,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "upSuspicious": {
+                "srcX": 280,
+                "srcY": 80,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "upSurprised": {
+                "srcX": 280,
+                "srcY": 144,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardNeutral": {
+                "srcX": 352,
+                "srcY": 16,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardAngry": {
+                "srcX": 352,
+                "srcY": 80,
+                "width": 72,
+                "height": 64,
+                "destX": 64,
+                "destY": 16,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["straight", "norm", "normSmile"]
+                ]
+            },
+            "SARCASTIC": {
+                "faces": [
+                    ["straight", "norm", "normSarcastic"]
+                ]
+            },
+            "AWWW": {
+                "faces": [
+                    ["straight", "norm", "normAwww"]
+                ]
+            },
+            "UP": {
+                "faces": [
+                    ["straight", "up", "upNeutral"]
+                ]
+            },
+            "SUSPICIOUS": {
+                "faces": [
+                    ["straight", "up", "upSuspicious"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["straight", "up", "upSurprised"]
+                ]
+            },
+            "TOWARD": {
+                "faces": [
+                    ["straight", "toward", "towardNeutral"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "toward", "towardAngry"]
+                ]
+            }
+        }
+    }
+}

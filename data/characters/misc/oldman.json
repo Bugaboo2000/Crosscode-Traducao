@@ -1,1 +1,21 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Old Man","pt_br":"Velhote","de_DE":"Alter Mann","langUid":1,"zh_CN":"\u8001\u4eba<<A<<[CHANGED 2018/07/09]","ja_JP":"\u8001\u4eba<<A<<[CHANGED 2018/07/09]","ko_KR":"\ub178\uc778<<A<<[CHANGED 2018/07/09]","zh_TW":"\u8001\u4eba<<A<<[CHANGED 2018/07/09]"},"img":"media/entity/npc/oldman.png","x":0,"y":0,"sitX":0,"sitY":120,"sit2X":32,"sit2Y":120,"face":"oldman"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Old Man",
+        "pt_BR": "Velhote",
+        "de_DE": "Alter Mann",
+        "langUid": 1,
+        "zh_CN": "\u8001\u4eba<<A<<[CHANGED 2018/07/09]",
+        "ja_JP": "\u8001\u4eba<<A<<[CHANGED 2018/07/09]",
+        "ko_KR": "\ub178\uc778<<A<<[CHANGED 2018/07/09]",
+        "zh_TW": "\u8001\u4eba<<A<<[CHANGED 2018/07/09]"
+    },
+    "img": "media/entity/npc/oldman.png",
+    "x": 0,
+    "y": 0,
+    "sitX": 0,
+    "sitY": 120,
+    "sit2X": 32,
+    "sit2Y": 120,
+    "face": "oldman"
+}

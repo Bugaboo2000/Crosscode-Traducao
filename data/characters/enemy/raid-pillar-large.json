@@ -1,1 +1,27 @@
-{"name":{"en_US":"THE WALL","pt_br":"A PAREDE","de_DE":"DIE MAUER","langUid":1,"zh_CN":"\u5899","ja_JP":"\u58c1<<A<<[CHANGED 2017/08/03]","ko_KR":"\ubcbd","zh_TW":"\u7246"},"animSheet":"enemies.pillar-large","size":{"x":32,"y":32,"z":80},"walkAnimSet":{"normal":{"idle":"idle"}},"walkAnims":"normal","configs":{"normal":{}}}
+{
+    "name": {
+        "en_US": "THE WALL",
+        "pt_BR": "A PAREDE",
+        "de_DE": "DIE MAUER",
+        "langUid": 1,
+        "zh_CN": "\u5899",
+        "ja_JP": "\u58c1<<A<<[CHANGED 2017/08/03]",
+        "ko_KR": "\ubcbd",
+        "zh_TW": "\u7246"
+    },
+    "animSheet": "enemies.pillar-large",
+    "size": {
+        "x": 32,
+        "y": 32,
+        "z": 80
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {}
+    }
+}

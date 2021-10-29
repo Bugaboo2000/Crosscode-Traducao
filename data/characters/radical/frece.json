@@ -1,1 +1,92 @@
-{"name":{"en_US":"Vanilla","pt_br":"Vanilla","de_DE":"Vanilla","zh_CN":"\u74e6\u5c3c\u62c9<<A<<[CHANGED 2020/06/17]","ja_JP":"\u30d0\u30cb\u30e9<<A<<[CHANGED 2020/06/17]","ko_KR":"Vanilla<<A<<[CHANGED 2020/06/17]","langUid":1,"zh_TW":"\u74e6\u5c3c\u62c9<<A<<[CHANGED 2020/06/15]"},"animSheet":{"namedSheets":{"idle":{"src":"media/entity/npc/radicalfishgames.png","xCount":6,"offX":0,"offY":88,"width":24,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":0,"z":0},"SUB":[{"sheet":"idle","dirs":"1","flipX":[0],"tileOffsets":[0],"SUB":[{"name":"idle","time":0.2,"repeat":true,"frames":[0,1,2,3]},{"name":"look","time":0.1,"repeat":false,"frames":[4,5,5,5,5,5,5,5,5,4]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"idle"}},"walkAnims":"normal","shadowScaleY":0,"configs":{"normal":{}},"face":{"0":"o","1":"l","2":"d","3":"m","4":"a","5":"n","width":120,"height":160,"centerX":39,"centerY":67,"src":"vanilla.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":120,"height":160,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]}}}}
+{
+    "name": {
+        "en_US": "Vanilla",
+        "pt_BR": "Vanilla",
+        "de_DE": "Vanilla",
+        "zh_CN": "\u74e6\u5c3c\u62c9<<A<<[CHANGED 2020/06/17]",
+        "ja_JP": "\u30d0\u30cb\u30e9<<A<<[CHANGED 2020/06/17]",
+        "ko_KR": "Vanilla<<A<<[CHANGED 2020/06/17]",
+        "langUid": 1,
+        "zh_TW": "\u74e6\u5c3c\u62c9<<A<<[CHANGED 2020/06/15]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "idle": {
+                "src": "media/entity/npc/radicalfishgames.png",
+                "xCount": 6,
+                "offX": 0,
+                "offY": 88,
+                "width": 24,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "idle",
+            "dirs": "1",
+            "flipX": [0],
+            "tileOffsets": [0],
+            "SUB": [{
+                "name": "idle",
+                "time": 0.2,
+                "repeat": true,
+                "frames": [0, 1, 2, 3]
+            }, {
+                "name": "look",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [4, 5, 5, 5, 5, 5, 5, 5, 5, 4]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "idle"
+        }
+    },
+    "walkAnims": "normal",
+    "shadowScaleY": 0,
+    "configs": {
+        "normal": {}
+    },
+    "face": {
+        "0": "o",
+        "1": "l",
+        "2": "d",
+        "3": "m",
+        "4": "a",
+        "5": "n",
+        "width": 120,
+        "height": 160,
+        "centerX": 39,
+        "centerY": 67,
+        "src": "vanilla.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 120,
+                "height": 160,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            }
+        }
+    }
+}

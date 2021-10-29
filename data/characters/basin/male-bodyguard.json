@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Vince","pt_br":"Vince","de_DE":"Vince","langUid":1,"zh_CN":"\u6587\u65af<<A<<[CHANGED 2018/03/14]","ko_KR":"\ube48\uc2a4<<A<<[CHANGED 2018/03/14]","ja_JP":"\u30d3\u30f3\u30b9<<A<<[CHANGED 2018/03/14]","zh_TW":"\u6587\u65af<<A<<[CHANGED 2018/03/14]"},"img":"media/entity/npc/business-1.png","x":192,"y":240,"face":"maleNormalHair1"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Vince",
+        "pt_BR": "Vince",
+        "de_DE": "Vince",
+        "langUid": 1,
+        "zh_CN": "\u6587\u65af<<A<<[CHANGED 2018/03/14]",
+        "ko_KR": "\ube48\uc2a4<<A<<[CHANGED 2018/03/14]",
+        "ja_JP": "\u30d3\u30f3\u30b9<<A<<[CHANGED 2018/03/14]",
+        "zh_TW": "\u6587\u65af<<A<<[CHANGED 2018/03/14]"
+    },
+    "img": "media/entity/npc/business-1.png",
+    "x": 192,
+    "y": 240,
+    "face": "maleNormalHair1"
+}

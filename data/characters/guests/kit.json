@@ -1,1 +1,127 @@
-{"name":{"en_US":"Kit Renaud","pt_br":"Kit Renaud","de_DE":"Kit Renaud","zh_CN":"\u56fe\u7075<<A<<[CHANGED 2018/11/28]","ja_JP":"\u30ad\u30c3\u30c8\u30fb\u30eb\u30ce\u30fc<<A<<[CHANGED 2019/01/10]","ko_KR":"\ud0b7 \ub974\ub178<<A<<[CHANGED 2019/01/10]","langUid":1,"zh_TW":"\u5716\u9748<<A<<[CHANGED 2018/11/28]"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/guest/kit.png","xCount":3,"offX":0,"offY":0,"width":32,"height":40},"poses":{"src":"media/entity/npc/guest/kit.png","xCount":2,"offX":96,"offY":0,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":"4","flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"poses","dirs":"2","flipX":[0,1],"tileOffsets":[0,0],"SUB":[{"name":"spin","time":0.05,"repeat":true,"frames":[0,1,2,3]},{"name":"brake","time":0.05,"repeat":true,"frames":[4]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"width":104,"height":144,"centerX":32,"centerY":64,"src":"guest/kit.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":104,"height":144,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"shadow":{"srcX":104,"srcY":0,"width":104,"height":144,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]},"SHADOW":{"faces":[["shadow"]]}}}}
+{
+    "name": {
+        "en_US": "Kit Renaud",
+        "pt_BR": "Kit Renaud",
+        "de_DE": "Kit Renaud",
+        "zh_CN": "\u56fe\u7075<<A<<[CHANGED 2018/11/28]",
+        "ja_JP": "\u30ad\u30c3\u30c8\u30fb\u30eb\u30ce\u30fc<<A<<[CHANGED 2019/01/10]",
+        "ko_KR": "\ud0b7 \ub974\ub178<<A<<[CHANGED 2019/01/10]",
+        "langUid": 1,
+        "zh_TW": "\u5716\u9748<<A<<[CHANGED 2018/11/28]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guest/kit.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            },
+            "poses": {
+                "src": "media/entity/npc/guest/kit.png",
+                "xCount": 2,
+                "offX": 96,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": "4",
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "poses",
+            "dirs": "2",
+            "flipX": [0, 1],
+            "tileOffsets": [0, 0],
+            "SUB": [{
+                "name": "spin",
+                "time": 0.05,
+                "repeat": true,
+                "frames": [0, 1, 2, 3]
+            }, {
+                "name": "brake",
+                "time": 0.05,
+                "repeat": true,
+                "frames": [4]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 104,
+        "height": 144,
+        "centerX": 32,
+        "centerY": 64,
+        "src": "guest/kit.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 104,
+                "height": 144,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "shadow": {
+                "srcX": 104,
+                "srcY": 0,
+                "width": 104,
+                "height": 144,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            },
+            "SHADOW": {
+                "faces": [
+                    ["shadow"]
+                ]
+            }
+        }
+    }
+}

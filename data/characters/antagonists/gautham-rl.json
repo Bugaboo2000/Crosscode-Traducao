@@ -1,1 +1,240 @@
-{"name":{"en_US":"???","pt_br":"???","de_DE":"???","zh_CN":"???","ja_JP":"\uff1f\uff1f\uff1f<<A<<[CHANGED 2017/11/04]","ko_KR":"???","langUid":1,"zh_TW":"???"},"size":{"x":16,"y":16,"z":24},"animSheet":"npc.gautham","walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"sad":{"idle":"idleSad","move":"walkSad"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"running":{"relativeVel":1},"sad":{"walkAnims":"sad","relativeVel":0.3}},"face":{"width":96,"height":160,"centerX":52,"centerY":56,"src":"gautham-rl.png","parts":[{"straight":{"srcX":0,"srcY":0,"width":136,"height":80,"destX":0,"destY":80,"subX":0,"subY":0,"img":""}},{"norm":{"srcX":136,"srcY":0,"width":80,"height":32,"destX":24,"destY":0,"subX":24,"subY":32,"img":""},"away":{"srcX":216,"srcY":0,"width":80,"height":32,"destX":24,"destY":0,"subX":24,"subY":32,"img":""},"down":{"srcX":296,"srcY":0,"width":80,"height":32,"destX":24,"destY":0,"subX":24,"subY":32,"img":""}},{"normNeutral":{"srcX":136,"srcY":32,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"normPanic1":{"srcX":136,"srcY":88,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"normPanic2":{"srcX":136,"srcY":144,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"awayNeutral":{"srcX":216,"srcY":32,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"awayPanic1":{"srcX":216,"srcY":88,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"awayPanic2":{"srcX":216,"srcY":144,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"downNeutral":{"srcX":296,"srcY":32,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"downPanic1":{"srcX":296,"srcY":88,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"downPanic2":{"srcX":296,"srcY":144,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","normNeutral"]]},"PANIC":{"anim":[0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1],"time":0.05,"repeat":1,"faces":[["straight","norm","normPanic1"],["straight","norm","normPanic2"]]},"AWAY":{"faces":[["straight","away","awayNeutral"]]},"AWAY_PANIC":{"anim":[0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1],"time":0.05,"repeat":1,"faces":[["straight","away","awayPanic1"],["straight","away","awayPanic2"]]},"DOWN":{"faces":[["straight","down","downNeutral"]]},"DOWN_PANIC":{"anim":[0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1],"time":0.05,"repeat":1,"faces":[["straight","down","downPanic1"],["straight","down","downPanic2"]]}}}}
+{
+    "name": {
+        "en_US": "???",
+        "pt_BR": "???",
+        "de_DE": "???",
+        "zh_CN": "???",
+        "ja_JP": "\uff1f\uff1f\uff1f<<A<<[CHANGED 2017/11/04]",
+        "ko_KR": "???",
+        "langUid": 1,
+        "zh_TW": "???"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": "npc.gautham",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "sad": {
+            "idle": "idleSad",
+            "move": "walkSad"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "running": {
+            "relativeVel": 1
+        },
+        "sad": {
+            "walkAnims": "sad",
+            "relativeVel": 0.3
+        }
+    },
+    "face": {
+        "width": 96,
+        "height": 160,
+        "centerX": 52,
+        "centerY": 56,
+        "src": "gautham-rl.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 136,
+                "height": 80,
+                "destX": 0,
+                "destY": 80,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }, {
+            "norm": {
+                "srcX": 136,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 24,
+                "destY": 0,
+                "subX": 24,
+                "subY": 32,
+                "img": ""
+            },
+            "away": {
+                "srcX": 216,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 24,
+                "destY": 0,
+                "subX": 24,
+                "subY": 32,
+                "img": ""
+            },
+            "down": {
+                "srcX": 296,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 24,
+                "destY": 0,
+                "subX": 24,
+                "subY": 32,
+                "img": ""
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 136,
+                "srcY": 32,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normPanic1": {
+                "srcX": 136,
+                "srcY": 88,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normPanic2": {
+                "srcX": 136,
+                "srcY": 144,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "awayNeutral": {
+                "srcX": 216,
+                "srcY": 32,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "awayPanic1": {
+                "srcX": 216,
+                "srcY": 88,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "awayPanic2": {
+                "srcX": 216,
+                "srcY": 144,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downNeutral": {
+                "srcX": 296,
+                "srcY": 32,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downPanic1": {
+                "srcX": 296,
+                "srcY": 88,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downPanic2": {
+                "srcX": 296,
+                "srcY": 144,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "PANIC": {
+                "anim": [0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                "time": 0.05,
+                "repeat": 1,
+                "faces": [
+                    ["straight", "norm", "normPanic1"],
+                    ["straight", "norm", "normPanic2"]
+                ]
+            },
+            "AWAY": {
+                "faces": [
+                    ["straight", "away", "awayNeutral"]
+                ]
+            },
+            "AWAY_PANIC": {
+                "anim": [0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                "time": 0.05,
+                "repeat": 1,
+                "faces": [
+                    ["straight", "away", "awayPanic1"],
+                    ["straight", "away", "awayPanic2"]
+                ]
+            },
+            "DOWN": {
+                "faces": [
+                    ["straight", "down", "downNeutral"]
+                ]
+            },
+            "DOWN_PANIC": {
+                "anim": [0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                "time": 0.05,
+                "repeat": 1,
+                "faces": [
+                    ["straight", "down", "downPanic1"],
+                    ["straight", "down", "downPanic2"]
+                ]
+            }
+        }
+    }
+}

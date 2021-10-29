@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Pi Ling","pt_br":"Pi Ling","de_DE":"Pi Ling","langUid":1,"ja_JP":"\u30d1\u30a4\u30fb\u30ea\u30f3<<A<<[CHANGED 2018/09/02]","ko_KR":"\ud30c\uc774 \ub9c1<<A<<[CHANGED 2018/09/02]","zh_CN":"\u4e15\u00b7\u7075<<A<<[CHANGED 2018/09/02]","zh_TW":"\u4e15\u00b7\u9748<<A<<[CHANGED 2018/09/02]"},"img":"media/entity/npc/forest-npcs.png","x":288,"y":120,"face":"femaleLongHair1"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Pi Ling",
+        "pt_BR": "Pi Ling",
+        "de_DE": "Pi Ling",
+        "langUid": 1,
+        "ja_JP": "\u30d1\u30a4\u30fb\u30ea\u30f3<<A<<[CHANGED 2018/09/02]",
+        "ko_KR": "\ud30c\uc774 \ub9c1<<A<<[CHANGED 2018/09/02]",
+        "zh_CN": "\u4e15\u00b7\u7075<<A<<[CHANGED 2018/09/02]",
+        "zh_TW": "\u4e15\u00b7\u9748<<A<<[CHANGED 2018/09/02]"
+    },
+    "img": "media/entity/npc/forest-npcs.png",
+    "x": 288,
+    "y": 120,
+    "face": "femaleLongHair1"
+}

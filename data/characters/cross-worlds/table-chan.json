@@ -1,1 +1,23 @@
-{"name":{"en_US":"Nina","pt_br":"Nina","de_DE":"Nina","langUid":1,"zh_CN":"\u59ae\u5a1c<<A<<[CHANGED 2019/04/16]","ko_KR":"\ub2c8\ub098<<A<<[CHANGED 2019/04/16]","ja_JP":"\u30cb\u30fc\u30ca<<A<<[CHANGED 2019/04/16]","zh_TW":"\u59ae\u5a1c<<A<<[CHANGED 2019/04/16]"},"jsonINSTANCE":"NPCAvatarSimple","gender":"FEMALE","img":"media/entity/npc/triblader.png","x":0,"y":160,"offlineX":96,"offlineY":160,"face":"tribladerFemale","runSrc":"media/entity/npc/runners.png","runX":0,"runY":120}
+{
+    "name": {
+        "en_US": "Nina",
+        "pt_BR": "Nina",
+        "de_DE": "Nina",
+        "langUid": 1,
+        "zh_CN": "\u59ae\u5a1c<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ub2c8\ub098<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30cb\u30fc\u30ca<<A<<[CHANGED 2019/04/16]",
+        "zh_TW": "\u59ae\u5a1c<<A<<[CHANGED 2019/04/16]"
+    },
+    "jsonINSTANCE": "NPCAvatarSimple",
+    "gender": "FEMALE",
+    "img": "media/entity/npc/triblader.png",
+    "x": 0,
+    "y": 160,
+    "offlineX": 96,
+    "offlineY": 160,
+    "face": "tribladerFemale",
+    "runSrc": "media/entity/npc/runners.png",
+    "runX": 0,
+    "runY": 120
+}

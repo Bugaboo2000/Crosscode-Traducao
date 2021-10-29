@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Master Sensei","pt_br":"Mestre Sensei","de_DE":"Meister Sensei","langUid":1,"ja_JP":"\u30f4\u30a1\u30f3\u30fb\u30d1\u30e1\u30eb\u30be\u30f3<<A<<[CHANGED 2018/08/01]","ko_KR":"\ub9c8\uc2a4\ud130 \uc13c\uc138\uc774<<A<<[CHANGED 2018/08/01]","zh_CN":"\u5927\u8001\u5e08<<A<<[CHANGED 2018/08/01]","zh_TW":"\u5927\u8001\u5e2b<<A<<[CHANGED 2018/08/01]"},"img":"media/entity/npc/rookie-harbor.png","x":192,"y":240,"face":"sensei"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Master Sensei",
+        "pt_BR": "Mestre Sensei",
+        "de_DE": "Meister Sensei",
+        "langUid": 1,
+        "ja_JP": "\u30f4\u30a1\u30f3\u30fb\u30d1\u30e1\u30eb\u30be\u30f3<<A<<[CHANGED 2018/08/01]",
+        "ko_KR": "\ub9c8\uc2a4\ud130 \uc13c\uc138\uc774<<A<<[CHANGED 2018/08/01]",
+        "zh_CN": "\u5927\u8001\u5e08<<A<<[CHANGED 2018/08/01]",
+        "zh_TW": "\u5927\u8001\u5e2b<<A<<[CHANGED 2018/08/01]"
+    },
+    "img": "media/entity/npc/rookie-harbor.png",
+    "x": 192,
+    "y": 240,
+    "face": "sensei"
+}

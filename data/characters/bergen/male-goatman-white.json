@@ -1,1 +1,149 @@
-{"name":{"en_US":"Goater","pt_br":"Cabra","langUid":1,"de_DE":"Goater","ja_JP":"\u30b4\u30fc\u30bf\u30fc<<A<<[CHANGED 2018/09/17]","ko_KR":"\uace0\ud130<<A<<[CHANGED 2018/09/17]","zh_CN":"\u7f8a\u4eba<<A<<[CHANGED 2018/09/17]","zh_TW":"\u7f8a\u4eba<<A<<[CHANGED 2018/09/17]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/goat-guard.png","width":32,"height":40,"xCount":3,"offX":0,"offY":0},"sit":{"src":"media/entity/npc/goat-guard.png","width":32,"height":40,"xCount":1,"offX":0,"offY":0}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"sit","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,1,2,1],"SUB":[{"name":"sit","time":1,"repeat":false,"frames":[0]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"sit":{"idle":"sit"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5},"sit":{"walkAnims":"sit","shadow":0},"sitFloat":{"walkAnims":"sit","zGravityFactor":0,"shadow":0}},"face":{"0":"m","1":"a","2":"l","3":"e","4":"N","5":"o","6":"r","7":"m","8":"a","9":"l","10":"H","11":"a","12":"i","13":"r","14":"1","width":128,"height":192,"centerX":40,"centerY":100,"src":"guard-goat.png","parts":[{"horned":{"srcX":0,"srcY":0,"width":128,"height":192,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"unhorned":{"srcX":128,"srcY":0,"width":128,"height":192,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["horned"]]},"UNHORNED":{"faces":[["unhorned"]]}}}}
+{
+    "name": {
+        "en_US": "Goater",
+        "pt_BR": "Cabra",
+        "langUid": 1,
+        "de_DE": "Goater",
+        "ja_JP": "\u30b4\u30fc\u30bf\u30fc<<A<<[CHANGED 2018/09/17]",
+        "ko_KR": "\uace0\ud130<<A<<[CHANGED 2018/09/17]",
+        "zh_CN": "\u7f8a\u4eba<<A<<[CHANGED 2018/09/17]",
+        "zh_TW": "\u7f8a\u4eba<<A<<[CHANGED 2018/09/17]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/goat-guard.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0
+            },
+            "sit": {
+                "src": "media/entity/npc/goat-guard.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 1,
+                "offX": 0,
+                "offY": 0
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "sit",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "sit",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "shadow": 0
+        },
+        "sitFloat": {
+            "walkAnims": "sit",
+            "zGravityFactor": 0,
+            "shadow": 0
+        }
+    },
+    "face": {
+        "0": "m",
+        "1": "a",
+        "2": "l",
+        "3": "e",
+        "4": "N",
+        "5": "o",
+        "6": "r",
+        "7": "m",
+        "8": "a",
+        "9": "l",
+        "10": "H",
+        "11": "a",
+        "12": "i",
+        "13": "r",
+        "14": "1",
+        "width": 128,
+        "height": 192,
+        "centerX": 40,
+        "centerY": 100,
+        "src": "guard-goat.png",
+        "parts": [{
+            "horned": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 128,
+                "height": 192,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "unhorned": {
+                "srcX": 128,
+                "srcY": 0,
+                "width": 128,
+                "height": 192,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["horned"]
+                ]
+            },
+            "UNHORNED": {
+                "faces": [
+                    ["unhorned"]
+                ]
+            }
+        }
+    }
+}

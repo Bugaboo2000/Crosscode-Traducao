@@ -1,1 +1,102 @@
-{"name":{"en_US":"Mr Nomsworth","pt_br":"Sr. Nomsworth","langUid":1,"de_DE":"Herr Nomsworth","ja_JP":"\u30ce\u30e0\u30ba\u30ef\u30fc\u30b9<<A<<[CHANGED 2018/08/28]","ko_KR":"\ub188\uc2a4\uc6cc\uc4f0 \uc528<<A<<[CHANGED 2018/08/28]","zh_CN":"\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2018/08/28]","zh_TW":"\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2018/08/28]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/rookie-harbor.png","width":32,"height":40,"xCount":3,"offX":0,"offY":240}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"0":"m","1":"a","2":"l","3":"e","4":"N","5":"o","6":"r","7":"m","8":"a","9":"l","10":"H","11":"a","12":"i","13":"r","14":"1","width":128,"height":160,"centerX":46,"centerY":56,"src":"faction-trader-rh-1.png","parts":[{"default":{"srcX":0,"srcY":0,"width":128,"height":160,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "Mr Nomsworth",
+        "pt_BR": "Sr. Nomsworth",
+        "langUid": 1,
+        "de_DE": "Herr Nomsworth",
+        "ja_JP": "\u30ce\u30e0\u30ba\u30ef\u30fc\u30b9<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\ub188\uc2a4\uc6cc\uc4f0 \uc528<<A<<[CHANGED 2018/08/28]",
+        "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2018/08/28]",
+        "zh_TW": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2018/08/28]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/rookie-harbor.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 0,
+                "offY": 240
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "0": "m",
+        "1": "a",
+        "2": "l",
+        "3": "e",
+        "4": "N",
+        "5": "o",
+        "6": "r",
+        "7": "m",
+        "8": "a",
+        "9": "l",
+        "10": "H",
+        "11": "a",
+        "12": "i",
+        "13": "r",
+        "14": "1",
+        "width": 128,
+        "height": 160,
+        "centerX": 46,
+        "centerY": 56,
+        "src": "faction-trader-rh-1.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 128,
+                "height": 160,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}

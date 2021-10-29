@@ -1,6 +1,6 @@
 # Crosscode PT-BR
 ![banner](banner.png)
-[![Steam](https://img.shields.io/static/v1?label=Steam&message=page&color=blue&logo=steam&style=flat-square)](https://store.steampowered.com/app/368340/CrossCode/) [![Discord](https://img.shields.io/static/v1?label=Discord&message=Server&color=darkblue&logo=discord&style=flat-square)](https://discord.gg/dqWYEM8UJY)
+[![Steam](https://img.shields.io/static/v1?label=Steam&message=page&color=blue&logo=steam&style=flat-square)](https://store.steampowered.com/app/368340/CrossCode/) [![Discord](https://img.shields.io/discord/820853804572344381?style=flat-square&label=Discord&color=darkblue&logo=discord&style=flat-square)](https://discord.gg/dqWYEM8UJY)
 # Sobre 
 
 Esse repositório contém arquivos de um projeto que visa **traduzir o game Crosscode**. A tradução ainda não está 100% completa. Por se tratar de um game de Rpg, o mesmo contém uma extensa linha de diálogos, toda ajuda é bem vinda, e você pode testar as traduções aqui:

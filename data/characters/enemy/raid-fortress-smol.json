@@ -1,1 +1,46 @@
-{"name":{"en_US":"THE WALL","pt_br":"A PAREDE","de_DE":"DIE MAUER","zh_CN":"\u5899<<A<<[CHANGED 2020/07/29]","zh_TW":"\u7246<<A<<[CHANGED 2020/07/29]","ja_JP":"\u58c1<<A<<[CHANGED 2020/07/29]","ko_KR":"\ubcbd<<A<<[CHANGED 2020/07/29]","langUid":1},"size":{"x":192,"y":64,"z":64},"animSheet":{"shapeType":"Y_FLAT","sheet":{"src":"media/entity/enemy/boss/raid-fortress-smol.png","offX":0,"offY":0,"width":192,"height":112},"dirs":"1","flipX":[0],"tileOffsets":[0],"SUB":[{"name":"default","frames":[0]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"default"}},"walkAnims":"normal","zGravityFactor":0,"shadow":0,"configs":{"normal":{}}}
+{
+    "name": {
+        "en_US": "THE WALL",
+        "pt_BR": "A PAREDE",
+        "de_DE": "DIE MAUER",
+        "zh_CN": "\u5899<<A<<[CHANGED 2020/07/29]",
+        "zh_TW": "\u7246<<A<<[CHANGED 2020/07/29]",
+        "ja_JP": "\u58c1<<A<<[CHANGED 2020/07/29]",
+        "ko_KR": "\ubcbd<<A<<[CHANGED 2020/07/29]",
+        "langUid": 1
+    },
+    "size": {
+        "x": 192,
+        "y": 64,
+        "z": 64
+    },
+    "animSheet": {
+        "shapeType": "Y_FLAT",
+        "sheet": {
+            "src": "media/entity/enemy/boss/raid-fortress-smol.png",
+            "offX": 0,
+            "offY": 0,
+            "width": 192,
+            "height": 112
+        },
+        "dirs": "1",
+        "flipX": [0],
+        "tileOffsets": [0],
+        "SUB": [{
+            "name": "default",
+            "frames": [0]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "default"
+        }
+    },
+    "walkAnims": "normal",
+    "zGravityFactor": 0,
+    "shadow": 0,
+    "configs": {
+        "normal": {}
+    }
+}

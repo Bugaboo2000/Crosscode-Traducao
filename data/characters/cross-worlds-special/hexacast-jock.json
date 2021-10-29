@@ -1,1 +1,21 @@
-{"name":{"en_US":"Jock","pt_br":"Jock","de_DE":"Jock","fr_FR":"","langUid":1,"ja_JP":"\u30b8\u30e7\u30c3\u30af<<A<<[CHANGED 2018/10/04]","ko_KR":"\uc870\ud06c<<A<<[CHANGED 2018/10/04]","zh_CN":"\u4e54\u514b<<A<<[CHANGED 2018/10/04]","zh_TW":"\u55ac\u514b<<A<<[CHANGED 2018/10/04]"},"jsonINSTANCE":"NPCAvatarSimple","gender":"MALE","img":"media/entity/npc/hexacast.png","x":384,"y":0,"offlineX":96,"offlineY":0,"face":"hexacastMale"}
+{
+    "name": {
+        "en_US": "Jock",
+        "pt_BR": "Jock",
+        "de_DE": "Jock",
+        "fr_FR": "",
+        "langUid": 1,
+        "ja_JP": "\u30b8\u30e7\u30c3\u30af<<A<<[CHANGED 2018/10/04]",
+        "ko_KR": "\uc870\ud06c<<A<<[CHANGED 2018/10/04]",
+        "zh_CN": "\u4e54\u514b<<A<<[CHANGED 2018/10/04]",
+        "zh_TW": "\u55ac\u514b<<A<<[CHANGED 2018/10/04]"
+    },
+    "jsonINSTANCE": "NPCAvatarSimple",
+    "gender": "MALE",
+    "img": "media/entity/npc/hexacast.png",
+    "x": 384,
+    "y": 0,
+    "offlineX": 96,
+    "offlineY": 0,
+    "face": "hexacastMale"
+}

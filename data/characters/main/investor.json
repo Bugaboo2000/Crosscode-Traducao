@@ -1,1 +1,325 @@
-{"name":{"en_US":"Mr. Vestorovich","pt_br":"Sr. Vestorovich","de_DE":"Mr. Vestorovich","zh_CN":"\u7ef4\u65af\u6258\u7ef4\u5947\u5148\u751f<<A<<[CHANGED 2018/10/04]","ja_JP":"\u30f4\u30a7\u30b9\u30c8\u30ed\u30d3\u30c3\u30c1\u3055\u3093<<A<<[CHANGED 2018/10/04]","ko_KR":"\ubca0\uc2a4\ud1a0\ub974\ube44\uc26c \uc528<<A<<[CHANGED 2018/10/04]","langUid":1,"zh_TW":"\u7dad\u65af\u6258\u7dad\u5947\u5148\u751f<<A<<[CHANGED 2018/10/04]"},"size":{"x":16,"y":16,"z":24},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/investor.png","xCount":3,"offX":0,"offY":0,"width":32,"height":40},"poses":{"src":"media/entity/npc/investor.png","offX":96,"offY":0,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"poses","dirs":"1","flipX":[0],"tileOffsets":[0],"SUB":[{"name":"sit","time":1,"repeat":false,"frames":[0]}]},{"sheet":"poses","dirs":"2","flipX":[1,0],"tileOffsets":[0,0],"dirOffsets":[[-1,0,0],[0,0,0]],"SUB":[{"name":"sitFaceSide","time":1,"repeat":false,"frames":[1]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"sit":{"idle":"sit"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"sit":{"walkAnims":"sit","relativeVel":0.5}},"face":{"width":176,"height":152,"centerX":70,"centerY":44,"src":"investor.png","parts":[{"straight":{"srcX":0,"srcY":0,"width":176,"height":96,"destX":0,"destY":56,"subX":0,"subY":0,"img":""}},{"norm":{"srcX":176,"srcY":0,"width":88,"height":24,"destX":40,"destY":0,"subX":40,"subY":24,"img":""},"down":{"srcX":272,"srcY":0,"width":88,"height":24,"destX":40,"destY":0,"subX":40,"subY":24,"img":""},"toward":{"srcX":368,"srcY":0,"width":88,"height":24,"destX":40,"destY":0,"subX":40,"subY":24,"img":""}},{"norm2":{"srcX":176,"srcY":72,"width":96,"height":32,"destX":0,"destY":48,"subX":0,"subY":0,"img":""},"down2":{"srcX":272,"srcY":72,"width":96,"height":32,"destX":0,"destY":48,"subX":0,"subY":0,"img":""},"toward2":{"srcX":368,"srcY":72,"width":96,"height":32,"destX":0,"destY":48,"subX":0,"subY":0,"img":""}},{"normNeutral":{"srcX":176,"srcY":24,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"normSurprised":{"srcX":176,"srcY":104,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"normSerious":{"srcX":176,"srcY":152,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"downNeutral":{"srcX":272,"srcY":24,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"downPondering":{"srcX":272,"srcY":104,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"downLaughing":{"srcX":272,"srcY":152,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"towardNeutral":{"srcX":368,"srcY":24,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"towardThinking":{"srcX":368,"srcY":104,"width":96,"height":48,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","norm2","normNeutral"]]},"SURPRISED":{"faces":[["straight","norm","norm2","normSurprised"]]},"SERIOUS":{"faces":[["straight","norm","norm2","normSerious"]]},"DOWN":{"faces":[["straight","down","down2","downNeutral"]]},"PONDERING":{"faces":[["straight","down","down2","downPondering"]]},"LAUGHING":{"faces":[["straight","down","down2","downLaughing"]]},"TOWARD":{"faces":[["straight","toward","toward2","towardNeutral"]]},"THINKING":{"faces":[["straight","toward","toward2","towardThinking"]]}}}}
+{
+    "name": {
+        "en_US": "Mr. Vestorovich",
+        "pt_BR": "Sr. Vestorovich",
+        "de_DE": "Mr. Vestorovich",
+        "zh_CN": "\u7ef4\u65af\u6258\u7ef4\u5947\u5148\u751f<<A<<[CHANGED 2018/10/04]",
+        "ja_JP": "\u30f4\u30a7\u30b9\u30c8\u30ed\u30d3\u30c3\u30c1\u3055\u3093<<A<<[CHANGED 2018/10/04]",
+        "ko_KR": "\ubca0\uc2a4\ud1a0\ub974\ube44\uc26c \uc528<<A<<[CHANGED 2018/10/04]",
+        "langUid": 1,
+        "zh_TW": "\u7dad\u65af\u6258\u7dad\u5947\u5148\u751f<<A<<[CHANGED 2018/10/04]"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/investor.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            },
+            "poses": {
+                "src": "media/entity/npc/investor.png",
+                "offX": 96,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "poses",
+            "dirs": "1",
+            "flipX": [0],
+            "tileOffsets": [0],
+            "SUB": [{
+                "name": "sit",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }]
+        }, {
+            "sheet": "poses",
+            "dirs": "2",
+            "flipX": [1, 0],
+            "tileOffsets": [0, 0],
+            "dirOffsets": [
+                [-1, 0, 0],
+                [0, 0, 0]
+            ],
+            "SUB": [{
+                "name": "sitFaceSide",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 176,
+        "height": 152,
+        "centerX": 70,
+        "centerY": 44,
+        "src": "investor.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 176,
+                "height": 96,
+                "destX": 0,
+                "destY": 56,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }, {
+            "norm": {
+                "srcX": 176,
+                "srcY": 0,
+                "width": 88,
+                "height": 24,
+                "destX": 40,
+                "destY": 0,
+                "subX": 40,
+                "subY": 24,
+                "img": ""
+            },
+            "down": {
+                "srcX": 272,
+                "srcY": 0,
+                "width": 88,
+                "height": 24,
+                "destX": 40,
+                "destY": 0,
+                "subX": 40,
+                "subY": 24,
+                "img": ""
+            },
+            "toward": {
+                "srcX": 368,
+                "srcY": 0,
+                "width": 88,
+                "height": 24,
+                "destX": 40,
+                "destY": 0,
+                "subX": 40,
+                "subY": 24,
+                "img": ""
+            }
+        }, {
+            "norm2": {
+                "srcX": 176,
+                "srcY": 72,
+                "width": 96,
+                "height": 32,
+                "destX": 0,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "down2": {
+                "srcX": 272,
+                "srcY": 72,
+                "width": 96,
+                "height": 32,
+                "destX": 0,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "toward2": {
+                "srcX": 368,
+                "srcY": 72,
+                "width": 96,
+                "height": 32,
+                "destX": 0,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 176,
+                "srcY": 24,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSurprised": {
+                "srcX": 176,
+                "srcY": 104,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normSerious": {
+                "srcX": 176,
+                "srcY": 152,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downNeutral": {
+                "srcX": 272,
+                "srcY": 24,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downPondering": {
+                "srcX": 272,
+                "srcY": 104,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downLaughing": {
+                "srcX": 272,
+                "srcY": 152,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardNeutral": {
+                "srcX": 368,
+                "srcY": 24,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "towardThinking": {
+                "srcX": 368,
+                "srcY": 104,
+                "width": 96,
+                "height": 48,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "norm2", "normNeutral"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["straight", "norm", "norm2", "normSurprised"]
+                ]
+            },
+            "SERIOUS": {
+                "faces": [
+                    ["straight", "norm", "norm2", "normSerious"]
+                ]
+            },
+            "DOWN": {
+                "faces": [
+                    ["straight", "down", "down2", "downNeutral"]
+                ]
+            },
+            "PONDERING": {
+                "faces": [
+                    ["straight", "down", "down2", "downPondering"]
+                ]
+            },
+            "LAUGHING": {
+                "faces": [
+                    ["straight", "down", "down2", "downLaughing"]
+                ]
+            },
+            "TOWARD": {
+                "faces": [
+                    ["straight", "toward", "toward2", "towardNeutral"]
+                ]
+            },
+            "THINKING": {
+                "faces": [
+                    ["straight", "toward", "toward2", "towardThinking"]
+                ]
+            }
+        }
+    }
+}

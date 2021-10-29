@@ -1,1 +1,493 @@
-{"name":{"en_US":"Sergey","pt_br":"Sergey","de_DE":"Sergey","zh_CN":"\u8c22\u5c14\u76d6","ja_JP":"\u30bb\u30eb\u30b2\u30a4","ko_KR":"\uc138\ub974\uac8c\uc774","langUid":1,"zh_TW":"\u8b1d\u723e\u84cb"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/sergey-rl2.png","xCount":3,"offX":0,"offY":0,"width":32,"height":40},"ar":{"src":"media/entity/npc/sergey-rl2.png","xCount":3,"offX":96,"offY":0,"width":32,"height":40},"arPoses":{"src":"media/entity/npc/sergey-rl2.png","xCount":3,"offX":192,"offY":0,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]},{"name":"ar","sheet":"ar","time":0.166,"repeat":true,"frames":[0,1,2]}]},{"sheet":"arPoses","dirs":"2","flipX":[0,1],"tileOffsets":[0,0],"SUB":[{"name":"arSitGround","time":0.166,"repeat":true,"frames":[0,1,2]},{"name":"arSitGroundDown","time":0.166,"repeat":true,"frames":[3,4,5]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"ar":{"idle":"ar"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"ar":{"walkAnims":"ar","relativeVel":0.5,"floatHeight":4,"shadow":0}},"face":{"width":96,"height":160,"centerX":40,"centerY":76,"src":"programmer.png","parts":[{"display":{"srcX":0,"srcY":0,"width":96,"height":160,"destX":0,"destY":0,"hideOnClip":true}},{"straight":{"srcX":96,"srcY":80,"width":80,"height":48,"destX":12,"destY":104},"back":{"srcX":16,"srcY":160,"width":80,"height":56,"destX":12,"destY":96,"subX":5,"subY":-2}},{"norm":{"srcX":96,"srcY":0,"width":80,"height":24,"destX":12,"destY":24},"down":{"srcX":176,"srcY":0,"width":80,"height":24,"destX":12,"destY":24},"away":{"srcX":256,"srcY":0,"width":80,"height":24,"destX":12,"destY":24}},{"normNeutral":{"srcX":96,"srcY":24,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""},"normRollEyes":{"srcX":96,"srcY":128,"width":80,"height":56,"destX":12,"destY":48},"normJoke":{"srcX":96,"srcY":184,"width":80,"height":56,"destX":12,"destY":48},"normShout":{"srcX":96,"srcY":240,"width":80,"height":56,"destX":12,"destY":48},"normSmile":{"srcX":96,"srcY":296,"width":80,"height":56,"destX":12,"destY":48},"normSurprised":{"srcX":96,"srcY":352,"width":80,"height":56,"destX":12,"destY":48},"normShock":{"srcX":96,"srcY":408,"width":80,"height":56,"destX":12,"destY":48},"downNeutral":{"srcX":176,"srcY":24,"width":80,"height":56,"destX":12,"destY":48},"downWorried":{"srcX":176,"srcY":80,"width":80,"height":56,"destX":12,"destY":48},"downSerious":{"srcX":176,"srcY":136,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""},"downEyeClosed":{"srcX":176,"srcY":192,"width":80,"height":56,"destX":12,"destY":48},"downWhistling":{"srcX":176,"srcY":248,"width":80,"height":56,"destX":12,"destY":48},"downDramatic":{"srcX":176,"srcY":304,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""},"downIntense1":{"srcX":176,"srcY":360,"width":80,"height":56,"destX":12,"destY":48},"downIntense2":{"srcX":176,"srcY":416,"width":80,"height":56,"destX":12,"destY":48},"awayNeutral":{"srcX":256,"srcY":24,"width":80,"height":56,"destX":12,"destY":48},"awayNotify":{"srcX":256,"srcY":80,"width":80,"height":56,"destX":12,"destY":48},"awayThink":{"srcX":256,"srcY":136,"width":80,"height":56,"destX":12,"destY":48},"awayComplex":{"srcX":256,"srcY":192,"width":80,"height":56,"destX":12,"destY":48},"awayDesperate":{"srcX":256,"srcY":248,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""},"normTouched":{"srcX":256,"srcY":304,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""},"downAngry":{"srcX":256,"srcY":360,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""},"downShout":{"srcX":256,"srcY":416,"width":80,"height":56,"destX":12,"destY":48,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["display","straight","norm","normNeutral"]]},"ROLL_EYES":{"faces":[["display","straight","norm","normRollEyes"]]},"JOKING":{"faces":[["display","straight","norm","normJoke"]]},"SHOUTING":{"faces":[["display","straight","norm","normShout"]]},"SMILE":{"faces":[["display","straight","norm","normSmile"]]},"SURPRISED":{"faces":[["display","back","norm","normSurprised"]]},"SHOCK":{"faces":[["display","straight","norm","normShock"]]},"DOWN":{"faces":[["display","straight","down","downNeutral"]]},"WORRIED":{"faces":[["display","straight","down","downWorried"]]},"SERIOUS":{"faces":[["display","straight","down","downSerious"]]},"EYES_CLOSED":{"faces":[["display","straight","down","downEyeClosed"]]},"WHISTLING":{"faces":[["display","straight","down","downWhistling"]]},"DRAMATIC":{"faces":[["display","straight","down","downDramatic"]]},"INTENSE1":{"faces":[["display","straight","down","downIntense1"]]},"INTENSE2":{"faces":[["display","straight","down","downIntense2"]]},"AWAY":{"faces":[["display","straight","away","awayNeutral"]]},"NOTIFYING":{"faces":[["display","straight","away","awayNotify"]]},"THINKING":{"faces":[["display","straight","away","awayThink"]]},"COMPLEX":{"faces":[["display","straight","away","awayComplex"]]},"DESPERATE":{"faces":[["display","straight","away","awayDesperate"]]},"TOUCHED":{"faces":[["display","straight","norm","normTouched"]]},"ANGRY":{"faces":[["display","straight","down","downAngry"]]},"SHOUTING2":{"faces":[["display","straight","down","downShout"]]}}}}
+{
+    "name": {
+        "en_US": "Sergey",
+        "pt_BR": "Sergey",
+        "de_DE": "Sergey",
+        "zh_CN": "\u8c22\u5c14\u76d6",
+        "ja_JP": "\u30bb\u30eb\u30b2\u30a4",
+        "ko_KR": "\uc138\ub974\uac8c\uc774",
+        "langUid": 1,
+        "zh_TW": "\u8b1d\u723e\u84cb"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/sergey-rl2.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            },
+            "ar": {
+                "src": "media/entity/npc/sergey-rl2.png",
+                "xCount": 3,
+                "offX": 96,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            },
+            "arPoses": {
+                "src": "media/entity/npc/sergey-rl2.png",
+                "xCount": 3,
+                "offX": 192,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }, {
+                "name": "ar",
+                "sheet": "ar",
+                "time": 0.166,
+                "repeat": true,
+                "frames": [0, 1, 2]
+            }]
+        }, {
+            "sheet": "arPoses",
+            "dirs": "2",
+            "flipX": [0, 1],
+            "tileOffsets": [0, 0],
+            "SUB": [{
+                "name": "arSitGround",
+                "time": 0.166,
+                "repeat": true,
+                "frames": [0, 1, 2]
+            }, {
+                "name": "arSitGroundDown",
+                "time": 0.166,
+                "repeat": true,
+                "frames": [3, 4, 5]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "ar": {
+            "idle": "ar"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "ar": {
+            "walkAnims": "ar",
+            "relativeVel": 0.5,
+            "floatHeight": 4,
+            "shadow": 0
+        }
+    },
+    "face": {
+        "width": 96,
+        "height": 160,
+        "centerX": 40,
+        "centerY": 76,
+        "src": "programmer.png",
+        "parts": [{
+            "display": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 96,
+                "height": 160,
+                "destX": 0,
+                "destY": 0,
+                "hideOnClip": true
+            }
+        }, {
+            "straight": {
+                "srcX": 96,
+                "srcY": 80,
+                "width": 80,
+                "height": 48,
+                "destX": 12,
+                "destY": 104
+            },
+            "back": {
+                "srcX": 16,
+                "srcY": 160,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 96,
+                "subX": 5,
+                "subY": -2
+            }
+        }, {
+            "norm": {
+                "srcX": 96,
+                "srcY": 0,
+                "width": 80,
+                "height": 24,
+                "destX": 12,
+                "destY": 24
+            },
+            "down": {
+                "srcX": 176,
+                "srcY": 0,
+                "width": 80,
+                "height": 24,
+                "destX": 12,
+                "destY": 24
+            },
+            "away": {
+                "srcX": 256,
+                "srcY": 0,
+                "width": 80,
+                "height": 24,
+                "destX": 12,
+                "destY": 24
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 96,
+                "srcY": 24,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normRollEyes": {
+                "srcX": 96,
+                "srcY": 128,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "normJoke": {
+                "srcX": 96,
+                "srcY": 184,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "normShout": {
+                "srcX": 96,
+                "srcY": 240,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "normSmile": {
+                "srcX": 96,
+                "srcY": 296,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "normSurprised": {
+                "srcX": 96,
+                "srcY": 352,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "normShock": {
+                "srcX": 96,
+                "srcY": 408,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "downNeutral": {
+                "srcX": 176,
+                "srcY": 24,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "downWorried": {
+                "srcX": 176,
+                "srcY": 80,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "downSerious": {
+                "srcX": 176,
+                "srcY": 136,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downEyeClosed": {
+                "srcX": 176,
+                "srcY": 192,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "downWhistling": {
+                "srcX": 176,
+                "srcY": 248,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "downDramatic": {
+                "srcX": 176,
+                "srcY": 304,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downIntense1": {
+                "srcX": 176,
+                "srcY": 360,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "downIntense2": {
+                "srcX": 176,
+                "srcY": 416,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "awayNeutral": {
+                "srcX": 256,
+                "srcY": 24,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "awayNotify": {
+                "srcX": 256,
+                "srcY": 80,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "awayThink": {
+                "srcX": 256,
+                "srcY": 136,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "awayComplex": {
+                "srcX": 256,
+                "srcY": 192,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48
+            },
+            "awayDesperate": {
+                "srcX": 256,
+                "srcY": 248,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normTouched": {
+                "srcX": 256,
+                "srcY": 304,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downAngry": {
+                "srcX": 256,
+                "srcY": 360,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "downShout": {
+                "srcX": 256,
+                "srcY": 416,
+                "width": 80,
+                "height": 56,
+                "destX": 12,
+                "destY": 48,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["display", "straight", "norm", "normNeutral"]
+                ]
+            },
+            "ROLL_EYES": {
+                "faces": [
+                    ["display", "straight", "norm", "normRollEyes"]
+                ]
+            },
+            "JOKING": {
+                "faces": [
+                    ["display", "straight", "norm", "normJoke"]
+                ]
+            },
+            "SHOUTING": {
+                "faces": [
+                    ["display", "straight", "norm", "normShout"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["display", "straight", "norm", "normSmile"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["display", "back", "norm", "normSurprised"]
+                ]
+            },
+            "SHOCK": {
+                "faces": [
+                    ["display", "straight", "norm", "normShock"]
+                ]
+            },
+            "DOWN": {
+                "faces": [
+                    ["display", "straight", "down", "downNeutral"]
+                ]
+            },
+            "WORRIED": {
+                "faces": [
+                    ["display", "straight", "down", "downWorried"]
+                ]
+            },
+            "SERIOUS": {
+                "faces": [
+                    ["display", "straight", "down", "downSerious"]
+                ]
+            },
+            "EYES_CLOSED": {
+                "faces": [
+                    ["display", "straight", "down", "downEyeClosed"]
+                ]
+            },
+            "WHISTLING": {
+                "faces": [
+                    ["display", "straight", "down", "downWhistling"]
+                ]
+            },
+            "DRAMATIC": {
+                "faces": [
+                    ["display", "straight", "down", "downDramatic"]
+                ]
+            },
+            "INTENSE1": {
+                "faces": [
+                    ["display", "straight", "down", "downIntense1"]
+                ]
+            },
+            "INTENSE2": {
+                "faces": [
+                    ["display", "straight", "down", "downIntense2"]
+                ]
+            },
+            "AWAY": {
+                "faces": [
+                    ["display", "straight", "away", "awayNeutral"]
+                ]
+            },
+            "NOTIFYING": {
+                "faces": [
+                    ["display", "straight", "away", "awayNotify"]
+                ]
+            },
+            "THINKING": {
+                "faces": [
+                    ["display", "straight", "away", "awayThink"]
+                ]
+            },
+            "COMPLEX": {
+                "faces": [
+                    ["display", "straight", "away", "awayComplex"]
+                ]
+            },
+            "DESPERATE": {
+                "faces": [
+                    ["display", "straight", "away", "awayDesperate"]
+                ]
+            },
+            "TOUCHED": {
+                "faces": [
+                    ["display", "straight", "norm", "normTouched"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["display", "straight", "down", "downAngry"]
+                ]
+            },
+            "SHOUTING2": {
+                "faces": [
+                    ["display", "straight", "down", "downShout"]
+                ]
+            }
+        }
+    }
+}

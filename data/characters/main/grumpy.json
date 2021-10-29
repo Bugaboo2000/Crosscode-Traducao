@@ -1,1 +1,248 @@
-{"name":{"en_US":"Beowulf","pt_br":"Beowulf","de_DE":"Beowulf","zh_CN":"\u8d1d\u5965\u6b66\u592b","ja_JP":"\u30d9\u30aa\u30a6\u30eb\u30d5","ko_KR":"\ubca0\uc624\uc6b8\ud504","langUid":1,"zh_TW":"\u8c9d\u5967\u6b66\u592b"},"size":{"x":16,"y":16,"z":24},"animSheet":"npc.grumpy","walkAnimSet":{"normal":{"idle":"idle","move":"walk","run":"run","brake":"brake","preIdle":"preIdle","damage":"damage","fall":"fall","jump":"jump"},"sit":{"idle":"sit"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5},"running":{"relativeVel":1},"sit":{"walkAnims":"sit","relativeVel":0.5}},"face":{"width":168,"height":192,"centerX":72,"centerY":58,"src":"grumpy.png","parts":[{"straight":{"srcX":0,"srcY":0,"width":168,"height":104,"destX":0,"destY":88,"subX":0,"subY":0,"img":""}},{"norm":{"srcX":168,"srcY":0,"width":88,"height":32,"destX":48,"destY":0,"subX":48,"subY":32,"img":""},"up":{"srcX":256,"srcY":0,"width":88,"height":32,"destX":48,"destY":0,"subX":48,"subY":32,"img":""},"away":{"srcX":344,"srcY":0,"width":80,"height":32,"destX":48,"destY":0,"subX":48,"subY":32,"img":""}},{"normNeutral":{"srcX":168,"srcY":32,"width":88,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"normAngry":{"srcX":168,"srcY":88,"width":88,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"normEyesClosed":{"srcX":168,"srcY":144,"width":88,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"upNeutral":{"srcX":256,"srcY":32,"width":88,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"upAnnoyed":{"srcX":256,"srcY":88,"width":88,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"upSurprised":{"srcX":256,"srcY":144,"width":88,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"awayNeutral":{"srcX":344,"srcY":32,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"awaySarcastic":{"srcX":344,"srcY":88,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""},"awaySmile":{"srcX":344,"srcY":144,"width":80,"height":56,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["straight","norm","normNeutral"]]},"ANGRY":{"faces":[["straight","norm","normAngry"]]},"EYES_CLOSED":{"faces":[["straight","norm","normEyesClosed"]]},"UP":{"faces":[["straight","up","upNeutral"]]},"ANNOYED":{"faces":[["straight","up","upAnnoyed"]]},"SURPRISED":{"faces":[["straight","up","upSurprised"]]},"AWAY":{"faces":[["straight","away","awayNeutral"]]},"SARCASTIC":{"faces":[["straight","away","awaySarcastic"]]},"SMILE":{"faces":[["straight","away","awaySmile"]]}}}}
+{
+    "name": {
+        "en_US": "Beowulf",
+        "pt_BR": "Beowulf",
+        "de_DE": "Beowulf",
+        "zh_CN": "\u8d1d\u5965\u6b66\u592b",
+        "ja_JP": "\u30d9\u30aa\u30a6\u30eb\u30d5",
+        "ko_KR": "\ubca0\uc624\uc6b8\ud504",
+        "langUid": 1,
+        "zh_TW": "\u8c9d\u5967\u6b66\u592b"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": "npc.grumpy",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk",
+            "run": "run",
+            "brake": "brake",
+            "preIdle": "preIdle",
+            "damage": "damage",
+            "fall": "fall",
+            "jump": "jump"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "running": {
+            "relativeVel": 1
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 168,
+        "height": 192,
+        "centerX": 72,
+        "centerY": 58,
+        "src": "grumpy.png",
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 168,
+                "height": 104,
+                "destX": 0,
+                "destY": 88,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }, {
+            "norm": {
+                "srcX": 168,
+                "srcY": 0,
+                "width": 88,
+                "height": 32,
+                "destX": 48,
+                "destY": 0,
+                "subX": 48,
+                "subY": 32,
+                "img": ""
+            },
+            "up": {
+                "srcX": 256,
+                "srcY": 0,
+                "width": 88,
+                "height": 32,
+                "destX": 48,
+                "destY": 0,
+                "subX": 48,
+                "subY": 32,
+                "img": ""
+            },
+            "away": {
+                "srcX": 344,
+                "srcY": 0,
+                "width": 80,
+                "height": 32,
+                "destX": 48,
+                "destY": 0,
+                "subX": 48,
+                "subY": 32,
+                "img": ""
+            }
+        }, {
+            "normNeutral": {
+                "srcX": 168,
+                "srcY": 32,
+                "width": 88,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normAngry": {
+                "srcX": 168,
+                "srcY": 88,
+                "width": 88,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "normEyesClosed": {
+                "srcX": 168,
+                "srcY": 144,
+                "width": 88,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "upNeutral": {
+                "srcX": 256,
+                "srcY": 32,
+                "width": 88,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "upAnnoyed": {
+                "srcX": 256,
+                "srcY": 88,
+                "width": 88,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "upSurprised": {
+                "srcX": 256,
+                "srcY": 144,
+                "width": 88,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "awayNeutral": {
+                "srcX": 344,
+                "srcY": 32,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "awaySarcastic": {
+                "srcX": 344,
+                "srcY": 88,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            },
+            "awaySmile": {
+                "srcX": 344,
+                "srcY": 144,
+                "width": 80,
+                "height": 56,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight", "norm", "normNeutral"]
+                ]
+            },
+            "ANGRY": {
+                "faces": [
+                    ["straight", "norm", "normAngry"]
+                ]
+            },
+            "EYES_CLOSED": {
+                "faces": [
+                    ["straight", "norm", "normEyesClosed"]
+                ]
+            },
+            "UP": {
+                "faces": [
+                    ["straight", "up", "upNeutral"]
+                ]
+            },
+            "ANNOYED": {
+                "faces": [
+                    ["straight", "up", "upAnnoyed"]
+                ]
+            },
+            "SURPRISED": {
+                "faces": [
+                    ["straight", "up", "upSurprised"]
+                ]
+            },
+            "AWAY": {
+                "faces": [
+                    ["straight", "away", "awayNeutral"]
+                ]
+            },
+            "SARCASTIC": {
+                "faces": [
+                    ["straight", "away", "awaySarcastic"]
+                ]
+            },
+            "SMILE": {
+                "faces": [
+                    ["straight", "away", "awaySmile"]
+                ]
+            }
+        }
+    }
+}

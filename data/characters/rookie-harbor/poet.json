@@ -1,1 +1,40 @@
-{"name":{"en_US":"Poet","de_DE":"Poet","pt_BR":"Poeta","langUid":1,"zh_CN":"\u8bd7\u4eba","ko_KR":"\uc2dc","ja_JP":"\u8a69\u4eba","zh_TW":"\u8a69\u4eba"},"size":{"x":16,"y":16,"z":32},"shadow":16,"animSheet":"npc.poet","walkAnimSet":{"normal":{"idle":"idle","move":"waggle"},"waggle":{"waggle":"waggle"}},"relativeVel":0.5,"configs":{"normal":{"walkAnims":"normal"},"waggle":{"walkAnims":"waggle"}},"face":{"ABSTRACT":"maleNormalHair1"}}
+{
+    "name": {
+        "en_US": "Poet",
+        "de_DE": "Poet",
+        "pt_BR": "Poeta",
+        "langUid": 1,
+        "zh_CN": "\u8bd7\u4eba",
+        "ko_KR": "\uc2dc",
+        "ja_JP": "\u8a69\u4eba",
+        "zh_TW": "\u8a69\u4eba"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 32
+    },
+    "shadow": 16,
+    "animSheet": "npc.poet",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "waggle"
+        },
+        "waggle": {
+            "waggle": "waggle"
+        }
+    },
+    "relativeVel": 0.5,
+    "configs": {
+        "normal": {
+            "walkAnims": "normal"
+        },
+        "waggle": {
+            "walkAnims": "waggle"
+        }
+    },
+    "face": {
+        "ABSTRACT": "maleNormalHair1"
+    }
+}

@@ -1,1 +1,87 @@
-{"name":{"en_US":"Code Knight","pt_br":"Cavaleira Code","de_DE":"Code Knight","zh_CN":"\u4ee3\u7801\u9a91\u58eb<<A<<[CHANGED 2019/04/16]","ja_JP":"\u30b3\u30fc\u30c9\u30ca\u30a4\u30c8<<A<<[CHANGED 2019/04/16]","ko_KR":"\ucf54\ub4dc \ub098\uc774\ud2b8<<A<<[CHANGED 2019/04/16]","langUid":1,"zh_TW":"\u4ee3\u78bc\u9a0e\u58eb<<A<<[CHANGED 2019/04/16]"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/guest/code-knight.png","xCount":1,"offX":0,"offY":0,"width":32,"height":40}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":"4","flipX":[0,0,0,1],"tileOffsets":[0,1,2,1],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[0]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,0,0,0]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"width":112,"height":128,"centerX":44,"centerY":60,"src":"guest/code-knight.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":112,"height":128,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]}}}}
+{
+    "name": {
+        "en_US": "Code Knight",
+        "pt_BR": "Cavaleira Code",
+        "de_DE": "Code Knight",
+        "zh_CN": "\u4ee3\u7801\u9a91\u58eb<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30b3\u30fc\u30c9\u30ca\u30a4\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ucf54\ub4dc \ub098\uc774\ud2b8<<A<<[CHANGED 2019/04/16]",
+        "langUid": 1,
+        "zh_TW": "\u4ee3\u78bc\u9a0e\u58eb<<A<<[CHANGED 2019/04/16]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guest/code-knight.png",
+                "xCount": 1,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": "4",
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 0, 0, 0]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 112,
+        "height": 128,
+        "centerX": 44,
+        "centerY": 60,
+        "src": "guest/code-knight.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 112,
+                "height": 128,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            }
+        }
+    }
+}

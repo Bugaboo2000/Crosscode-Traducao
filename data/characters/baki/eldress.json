@@ -1,1 +1,69 @@
-{"name":{"en_US":"Eldress","pt_br":"Anciã","de_DE":"\u00c4lteste","langUid":1,"zh_CN":"\u5973\u65cf\u957f","ko_KR":"\ucd0c\uc7a5","ja_JP":"\u9577\u8001","zh_TW":"\u5973\u65cf\u9577"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","dirs":1,"flipX":[0],"tileOffsets":[0],"shapeType":"Y_FLAT","sheet":{"src":"media/entity/npc/shad.png","width":32,"height":40,"offX":480},"repeat":true,"SUB":[{"name":"default","time":0.1,"frames":[0]}]},"size":{"x":12,"y":12,"z":24},"walkAnimSet":{"normal":{"idle":"default"}},"walkAnims":"normal","configs":{"normal":{}},"face":{"src":"eldress.png","width":136,"height":164,"centerX":56,"centerY":56,"parts":[{"straight":{"srcX":0,"srcY":0,"width":136,"height":164,"destX":16,"destY":0}}],"expressions":{"DEFAULT":{"faces":[["straight"]]}}}}
+{
+    "name": {
+        "en_US": "Eldress",
+        "pt_BR": "Anciã",
+        "de_DE": "\u00c4lteste",
+        "langUid": 1,
+        "zh_CN": "\u5973\u65cf\u957f",
+        "ko_KR": "\ucd0c\uc7a5",
+        "ja_JP": "\u9577\u8001",
+        "zh_TW": "\u5973\u65cf\u9577"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "dirs": 1,
+        "flipX": [0],
+        "tileOffsets": [0],
+        "shapeType": "Y_FLAT",
+        "sheet": {
+            "src": "media/entity/npc/shad.png",
+            "width": 32,
+            "height": 40,
+            "offX": 480
+        },
+        "repeat": true,
+        "SUB": [{
+            "name": "default",
+            "time": 0.1,
+            "frames": [0]
+        }]
+    },
+    "size": {
+        "x": 12,
+        "y": 12,
+        "z": 24
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "default"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {}
+    },
+    "face": {
+        "src": "eldress.png",
+        "width": 136,
+        "height": 164,
+        "centerX": 56,
+        "centerY": 56,
+        "parts": [{
+            "straight": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 136,
+                "height": 164,
+                "destX": 16,
+                "destY": 0
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["straight"]
+                ]
+            }
+        }
+    }
+}

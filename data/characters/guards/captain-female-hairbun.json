@@ -1,1 +1,129 @@
-{"name":{"en_US":"Sgt. Sterling","pt_br":"Sgt. Sterling","langUid":1,"de_DE":"Hptm. Sterling","ja_JP":"\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0\u66f9\u9577<<A<<[CHANGED 2018/08/28]","ko_KR":"\uc2a4\ud130\ub9c1 \uacbd\uc0ac<<A<<[CHANGED 2018/08/28]","zh_CN":"\u65af\u7279\u6797\u4e2d\u5c09<<A<<[CHANGED 2018/08/28]","zh_TW":"\u65af\u7279\u6797\u4e2d\u5c09<<A<<[CHANGED 2018/08/28]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/guard-captains.png","width":32,"height":40,"xCount":3,"offX":192,"offY":0},"sit":{"src":"media/entity/npc/guard-captains.png","width":32,"height":40,"xCount":1,"offX":192,"offY":120}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"sit","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,1,2,1],"SUB":[{"name":"sit","time":1,"repeat":false,"frames":[0]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"sit":{"idle":"sit"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5},"sit":{"walkAnims":"sit","shadow":0},"sitFloat":{"walkAnims":"sit","zGravityFactor":0,"shadow":0}},"face":{"0":"f","1":"e","2":"m","3":"a","4":"l","5":"e","6":"G","7":"u","8":"a","9":"r","10":"d","width":136,"height":176,"centerX":52,"centerY":74,"src":"faction-guard-bergen-1.png","parts":[{"default":{"srcX":0,"srcY":0,"width":136,"height":176,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "Sgt. Sterling",
+        "pt_BR": "Sgt. Sterling",
+        "langUid": 1,
+        "de_DE": "Hptm. Sterling",
+        "ja_JP": "\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0\u66f9\u9577<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\uc2a4\ud130\ub9c1 \uacbd\uc0ac<<A<<[CHANGED 2018/08/28]",
+        "zh_CN": "\u65af\u7279\u6797\u4e2d\u5c09<<A<<[CHANGED 2018/08/28]",
+        "zh_TW": "\u65af\u7279\u6797\u4e2d\u5c09<<A<<[CHANGED 2018/08/28]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/guard-captains.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 192,
+                "offY": 0
+            },
+            "sit": {
+                "src": "media/entity/npc/guard-captains.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 1,
+                "offX": 192,
+                "offY": 120
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "sit",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "sit",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "shadow": 0
+        },
+        "sitFloat": {
+            "walkAnims": "sit",
+            "zGravityFactor": 0,
+            "shadow": 0
+        }
+    },
+    "face": {
+        "0": "f",
+        "1": "e",
+        "2": "m",
+        "3": "a",
+        "4": "l",
+        "5": "e",
+        "6": "G",
+        "7": "u",
+        "8": "a",
+        "9": "r",
+        "10": "d",
+        "width": 136,
+        "height": 176,
+        "centerX": 52,
+        "centerY": 74,
+        "src": "faction-guard-bergen-1.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 136,
+                "height": 176,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}

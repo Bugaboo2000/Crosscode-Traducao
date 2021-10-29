@@ -1,1 +1,102 @@
-{"name":{"en_US":"Mrs. Summers","pt_br":"Sra. Summers","langUid":1,"de_DE":"Frau Summers","ja_JP":"\u30df\u30bb\u30b9\u30fb\u30b5\u30de\u30fc\u30ba<<A<<[CHANGED 2018/08/28]","ko_KR":"\uc368\uba38\uc2a4 \ubd80\uc778<<A<<[CHANGED 2018/08/28]","zh_CN":"\u8428\u9ed8\u65af\u592b\u4eba<<A<<[CHANGED 2018/08/28]","zh_TW":"\u85a9\u9ed8\u65af\u592b\u4eba<<A<<[CHANGED 2018/08/28]"},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/leader-trade-bergen.png","xCount":3,"offX":0,"offY":0,"width":32,"height":40}},"DOCTYPE":"MULTI_DIR_ANIMATION","shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"0":"f","1":"e","2":"m","3":"a","4":"l","5":"e","6":"L","7":"o","8":"n","9":"g","10":"H","11":"a","12":"i","13":"r","14":"1","width":112,"height":160,"centerX":40,"centerY":56,"src":"faction-trader-bergen-1.png","parts":[{"default":{"srcX":0,"srcY":0,"width":112,"height":160,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "Mrs. Summers",
+        "pt_BR": "Sra. Summers",
+        "langUid": 1,
+        "de_DE": "Frau Summers",
+        "ja_JP": "\u30df\u30bb\u30b9\u30fb\u30b5\u30de\u30fc\u30ba<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\uc368\uba38\uc2a4 \ubd80\uc778<<A<<[CHANGED 2018/08/28]",
+        "zh_CN": "\u8428\u9ed8\u65af\u592b\u4eba<<A<<[CHANGED 2018/08/28]",
+        "zh_TW": "\u85a9\u9ed8\u65af\u592b\u4eba<<A<<[CHANGED 2018/08/28]"
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/leader-trade-bergen.png",
+                "xCount": 3,
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 40
+            }
+        },
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "0": "f",
+        "1": "e",
+        "2": "m",
+        "3": "a",
+        "4": "l",
+        "5": "e",
+        "6": "L",
+        "7": "o",
+        "8": "n",
+        "9": "g",
+        "10": "H",
+        "11": "a",
+        "12": "i",
+        "13": "r",
+        "14": "1",
+        "width": 112,
+        "height": 160,
+        "centerX": 40,
+        "centerY": 56,
+        "src": "faction-trader-bergen-1.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 112,
+                "height": 160,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}

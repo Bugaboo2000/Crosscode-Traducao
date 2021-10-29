@@ -1,1 +1,28 @@
-{"name":{"en_US":"Felix","pt_br":"Felix","de_DE":"Felix","langUid":1,"zh_CN":"\u83f2\u529b\u514b\u65af","ko_KR":"\ud3a0\ub9ad\uc2a4","ja_JP":"\u30d5\u30a3\u30ea\u30c3\u30af\u30b9","zh_TW":"\u83f2\u529b\u514b\u65af"},"animSheet":"npc.cargo-crew","walkAnimSet":{"normal":{"idle":"cargoGamerIdle","move":"cargoGamerWalk"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"ABSTRACT":"maleNormalHair2"}}
+{
+    "name": {
+        "en_US": "Felix",
+        "pt_BR": "Felix",
+        "de_DE": "Felix",
+        "langUid": 1,
+        "zh_CN": "\u83f2\u529b\u514b\u65af",
+        "ko_KR": "\ud3a0\ub9ad\uc2a4",
+        "ja_JP": "\u30d5\u30a3\u30ea\u30c3\u30af\u30b9",
+        "zh_TW": "\u83f2\u529b\u514b\u65af"
+    },
+    "animSheet": "npc.cargo-crew",
+    "walkAnimSet": {
+        "normal": {
+            "idle": "cargoGamerIdle",
+            "move": "cargoGamerWalk"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "ABSTRACT": "maleNormalHair2"
+    }
+}

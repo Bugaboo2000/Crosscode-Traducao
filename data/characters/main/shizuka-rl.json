@@ -1,1 +1,65 @@
-{"name":{"en_US":"Shizuka","pt_br":"Shizuka","de_DE":"Shizuka","zh_CN":"\u9759<<A<<[CHANGED 2018/05/01]","ja_JP":"\u30b7\u30ba\u30ab<<A<<[CHANGED 2018/05/01]","ko_KR":"\uc2dc\uc988\uce74<<A<<[CHANGED 2018/05/01]","langUid":1,"zh_TW":"\u975c<<A<<[CHANGED 2018/05/01]"},"size":{"x":16,"y":16,"z":24},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/shizuka-rl.png","offX":0,"offY":0,"width":32,"height":32}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"}},"walkAnims":"normal","shadow":16,"configs":{"normal":{"relativeVel":0.5}}}
+{
+    "name": {
+        "en_US": "Shizuka",
+        "pt_BR": "Shizuka",
+        "de_DE": "Shizuka",
+        "zh_CN": "\u9759<<A<<[CHANGED 2018/05/01]",
+        "ja_JP": "\u30b7\u30ba\u30ab<<A<<[CHANGED 2018/05/01]",
+        "ko_KR": "\uc2dc\uc988\uce74<<A<<[CHANGED 2018/05/01]",
+        "langUid": 1,
+        "zh_TW": "\u975c<<A<<[CHANGED 2018/05/01]"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 24
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/shizuka-rl.png",
+                "offX": 0,
+                "offY": 0,
+                "width": 32,
+                "height": 32
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        }
+    },
+    "walkAnims": "normal",
+    "shadow": 16,
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    }
+}

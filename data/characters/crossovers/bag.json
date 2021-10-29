@@ -1,1 +1,113 @@
-{"name":{"en_US":"Bag","pt_br":"Bolsa","de_DE":"Beutel","zh_CN":"\u5305\u88f9<<A<<[CHANGED 2018/11/08]","ja_JP":"\u30d0\u30c3\u30b0<<A<<[CHANGED 2018/11/08]","ko_KR":"\uac00\ubc29<<A<<[CHANGED 2018/11/08]","langUid":1,"zh_TW":"\u5305\u88f9<<A<<[CHANGED 2018/11/08]"},"size":{"x":8,"y":8,"z":16},"animSheet":{"namedSheets":{"move":{"src":"media/entity/npc/grindea-bag.png","offX":0,"offY":0,"width":16,"height":16}},"shapeType":"Y_FLAT","SUB":[{"sheet":"move","dirs":1,"flipX":[0],"tileOffsets":[0],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[0]},{"name":"shake","time":0.05,"repeat":true,"frames":[0,0],"framesGfxOffset":[1,0,0,0]},{"name":"jump","time":0.1,"repeat":false,"frames":[1]},{"name":"land","time":0.1,"repeat":false,"frames":[2]},{"name":"grow","time":0.1,"repeat":false,"frames":[3,4]},{"name":"face","time":0.1,"repeat":false,"frames":[5]},{"name":"shrink","time":0.1,"repeat":false,"frames":[4,3]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"normal":{"idle":"idle","jump":"jump","fall":"jump"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5}},"face":{"width":104,"height":88,"centerX":34,"centerY":64,"src":"grindea-bag.png","parts":[{"normal":{"srcX":0,"srcY":0,"width":104,"height":88,"destX":8,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["normal"]]}}}}
+{
+    "name": {
+        "en_US": "Bag",
+        "pt_BR": "Bolsa",
+        "de_DE": "Beutel",
+        "zh_CN": "\u5305\u88f9<<A<<[CHANGED 2018/11/08]",
+        "ja_JP": "\u30d0\u30c3\u30b0<<A<<[CHANGED 2018/11/08]",
+        "ko_KR": "\uac00\ubc29<<A<<[CHANGED 2018/11/08]",
+        "langUid": 1,
+        "zh_TW": "\u5305\u88f9<<A<<[CHANGED 2018/11/08]"
+    },
+    "size": {
+        "x": 8,
+        "y": 8,
+        "z": 16
+    },
+    "animSheet": {
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/grindea-bag.png",
+                "offX": 0,
+                "offY": 0,
+                "width": 16,
+                "height": 16
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 1,
+            "flipX": [0],
+            "tileOffsets": [0],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }, {
+                "name": "shake",
+                "time": 0.05,
+                "repeat": true,
+                "frames": [0, 0],
+                "framesGfxOffset": [1, 0, 0, 0]
+            }, {
+                "name": "jump",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "land",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [2]
+            }, {
+                "name": "grow",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [3, 4]
+            }, {
+                "name": "face",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [5]
+            }, {
+                "name": "shrink",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [4, 3]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "jump": "jump",
+            "fall": "jump"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        }
+    },
+    "face": {
+        "width": 104,
+        "height": 88,
+        "centerX": 34,
+        "centerY": 64,
+        "src": "grindea-bag.png",
+        "parts": [{
+            "normal": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 104,
+                "height": 88,
+                "destX": 8,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["normal"]
+                ]
+            }
+        }
+    }
+}

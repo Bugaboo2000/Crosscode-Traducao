@@ -1,1 +1,87 @@
-{"name":{"en_US":"???","pt_br":"???","de_DE":"???","zh_CN":"???<<A<<[CHANGED 2018/09/19]","ja_JP":"\uff1f\uff1f\uff1f<<A<<[CHANGED 2018/09/19]","ko_KR":"???<<A<<[CHANGED 2018/09/19]","langUid":1,"zh_TW":"???<<A<<[CHANGED 2018/09/19]"},"size":{"x":16,"y":16,"z":16},"animSheet":{"namedSheets":{"lazy":{"src":"media/entity/npc/cat.png","xCount":6,"offX":0,"offY":0,"width":24,"height":24}},"shapeType":"Y_FLAT","offset":{"x":0,"y":0,"z":0},"SUB":[{"sheet":"lazy","dirs":"2","flipX":[0,1],"tileOffsets":[0,0],"SUB":[{"name":"lazy1","time":1,"repeat":false,"frames":[0]},{"name":"lazy1Ear","time":0.1,"repeat":false,"frames":[1,0]},{"name":"lazy1Tail","time":0.2,"repeat":false,"frames":[2,3,4,5]},{"name":"lazy2","time":1,"repeat":false,"frames":[6]},{"name":"lazy2Lick","time":0.1,"repeat":false,"frames":[7,8,9,10,11]}]}],"DOCTYPE":"MULTI_DIR_ANIMATION"},"walkAnimSet":{"lazy1":{"idle":"lazy1"},"lazy2":{"idle":"lazy2"}},"walkAnims":"lazy1","shadow":16,"configs":{"lazy1":{"zGravityFactor":0},"lazy2":{"walkAnims":"lazy2","zGravityFactor":0}}}
+{
+    "name": {
+        "en_US": "???",
+        "pt_BR": "???",
+        "de_DE": "???",
+        "zh_CN": "???<<A<<[CHANGED 2018/09/19]",
+        "ja_JP": "\uff1f\uff1f\uff1f<<A<<[CHANGED 2018/09/19]",
+        "ko_KR": "???<<A<<[CHANGED 2018/09/19]",
+        "langUid": 1,
+        "zh_TW": "???<<A<<[CHANGED 2018/09/19]"
+    },
+    "size": {
+        "x": 16,
+        "y": 16,
+        "z": 16
+    },
+    "animSheet": {
+        "namedSheets": {
+            "lazy": {
+                "src": "media/entity/npc/cat.png",
+                "xCount": 6,
+                "offX": 0,
+                "offY": 0,
+                "width": 24,
+                "height": 24
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "lazy",
+            "dirs": "2",
+            "flipX": [0, 1],
+            "tileOffsets": [0, 0],
+            "SUB": [{
+                "name": "lazy1",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }, {
+                "name": "lazy1Ear",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [1, 0]
+            }, {
+                "name": "lazy1Tail",
+                "time": 0.2,
+                "repeat": false,
+                "frames": [2, 3, 4, 5]
+            }, {
+                "name": "lazy2",
+                "time": 1,
+                "repeat": false,
+                "frames": [6]
+            }, {
+                "name": "lazy2Lick",
+                "time": 0.1,
+                "repeat": false,
+                "frames": [7, 8, 9, 10, 11]
+            }]
+        }],
+        "DOCTYPE": "MULTI_DIR_ANIMATION"
+    },
+    "walkAnimSet": {
+        "lazy1": {
+            "idle": "lazy1"
+        },
+        "lazy2": {
+            "idle": "lazy2"
+        }
+    },
+    "walkAnims": "lazy1",
+    "shadow": 16,
+    "configs": {
+        "lazy1": {
+            "zGravityFactor": 0
+        },
+        "lazy2": {
+            "walkAnims": "lazy2",
+            "zGravityFactor": 0
+        }
+    }
+}

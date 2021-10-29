@@ -1,1 +1,17 @@
-{"jsonINSTANCE":"NPCBasic","name":{"en_US":"Tara","pt_br":"Tara","de_DE":"Tara","langUid":1,"ja_JP":"\u30bf\u30e9<<A<<[CHANGED 2017/12/11]","ko_KR":"\ud0c0\ub77c<<A<<[CHANGED 2017/12/12]","zh_CN":"\u5854\u62c9<<A<<[CHANGED 2017/12/12]","zh_TW":"\u5854\u62c9<<A<<[CHANGED 2017/12/12]"},"img":"media/entity/npc/rookie-harbor.png","x":288,"y":240,"face":"maleNormalHair1"}
+{
+    "jsonINSTANCE": "NPCBasic",
+    "name": {
+        "en_US": "Tara",
+        "pt_BR": "Tara",
+        "de_DE": "Tara",
+        "langUid": 1,
+        "ja_JP": "\u30bf\u30e9<<A<<[CHANGED 2017/12/11]",
+        "ko_KR": "\ud0c0\ub77c<<A<<[CHANGED 2017/12/12]",
+        "zh_CN": "\u5854\u62c9<<A<<[CHANGED 2017/12/12]",
+        "zh_TW": "\u5854\u62c9<<A<<[CHANGED 2017/12/12]"
+    },
+    "img": "media/entity/npc/rookie-harbor.png",
+    "x": 288,
+    "y": 240,
+    "face": "maleNormalHair1"
+}

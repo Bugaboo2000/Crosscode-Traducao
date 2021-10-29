@@ -1,1 +1,127 @@
-{"name":{"en_US":"McEdinthil","pt_br":"McEdinthil","langUid":1,"de_DE":"McEdinthil","ja_JP":"\u30de\u30af\u30a8\u30c7\u30a3\u30f3\u30c6\u30a3\u30eb<<A<<[CHANGED 2018/08/28]","ko_KR":"\ub9e5\uc5d0\ub518\ud2f8<<A<<[CHANGED 2018/08/28]","zh_CN":"\u9ea6\u4f0a\u4e01\u745f<<A<<[CHANGED 2018/08/28]","zh_TW":"\u9ea5\u4f0a\u4e01\u745f<<A<<[CHANGED 2018/08/28]"},"animSheet":{"DOCTYPE":"MULTI_DIR_ANIMATION","namedSheets":{"move":{"src":"media/entity/npc/bergen_miner.png","width":32,"height":40,"xCount":3,"offX":192,"offY":120},"sit":{"src":"media/entity/npc/bergen_miner.png","width":32,"height":40,"xCount":1,"offX":192,"offY":120}},"shapeType":"Y_FLAT","offset":{"x":0,"y":-2,"z":0},"SUB":[{"sheet":"move","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,3,6,3],"SUB":[{"name":"idle","time":1,"repeat":false,"frames":[1]},{"name":"walk","time":0.133,"repeat":true,"frames":[0,1,2,1]}]},{"sheet":"sit","dirs":4,"flipX":[0,0,0,1],"tileOffsets":[0,1,2,1],"SUB":[{"name":"sit","time":1,"repeat":false,"frames":[0]}]}]},"walkAnimSet":{"normal":{"idle":"idle","move":"walk"},"sit":{"idle":"sit"}},"walkAnims":"normal","configs":{"normal":{"relativeVel":0.5},"sit":{"walkAnims":"sit","shadow":0},"sitFloat":{"walkAnims":"sit","zGravityFactor":0,"shadow":0}},"face":{"0":"m","1":"a","2":"l","3":"e","4":"M","5":"i","6":"n","7":"e","8":"r","width":196,"height":192,"centerX":76,"centerY":66,"src":"faction-adv-bergen-1.png","parts":[{"default":{"srcX":0,"srcY":0,"width":192,"height":192,"destX":0,"destY":0,"subX":0,"subY":0,"img":""}}],"expressions":{"DEFAULT":{"faces":[["default"]]}}}}
+{
+    "name": {
+        "en_US": "McEdinthil",
+        "pt_BR": "McEdinthil",
+        "langUid": 1,
+        "de_DE": "McEdinthil",
+        "ja_JP": "\u30de\u30af\u30a8\u30c7\u30a3\u30f3\u30c6\u30a3\u30eb<<A<<[CHANGED 2018/08/28]",
+        "ko_KR": "\ub9e5\uc5d0\ub518\ud2f8<<A<<[CHANGED 2018/08/28]",
+        "zh_CN": "\u9ea6\u4f0a\u4e01\u745f<<A<<[CHANGED 2018/08/28]",
+        "zh_TW": "\u9ea5\u4f0a\u4e01\u745f<<A<<[CHANGED 2018/08/28]"
+    },
+    "animSheet": {
+        "DOCTYPE": "MULTI_DIR_ANIMATION",
+        "namedSheets": {
+            "move": {
+                "src": "media/entity/npc/bergen_miner.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 3,
+                "offX": 192,
+                "offY": 120
+            },
+            "sit": {
+                "src": "media/entity/npc/bergen_miner.png",
+                "width": 32,
+                "height": 40,
+                "xCount": 1,
+                "offX": 192,
+                "offY": 120
+            }
+        },
+        "shapeType": "Y_FLAT",
+        "offset": {
+            "x": 0,
+            "y": -2,
+            "z": 0
+        },
+        "SUB": [{
+            "sheet": "move",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 3, 6, 3],
+            "SUB": [{
+                "name": "idle",
+                "time": 1,
+                "repeat": false,
+                "frames": [1]
+            }, {
+                "name": "walk",
+                "time": 0.133,
+                "repeat": true,
+                "frames": [0, 1, 2, 1]
+            }]
+        }, {
+            "sheet": "sit",
+            "dirs": 4,
+            "flipX": [0, 0, 0, 1],
+            "tileOffsets": [0, 1, 2, 1],
+            "SUB": [{
+                "name": "sit",
+                "time": 1,
+                "repeat": false,
+                "frames": [0]
+            }]
+        }]
+    },
+    "walkAnimSet": {
+        "normal": {
+            "idle": "idle",
+            "move": "walk"
+        },
+        "sit": {
+            "idle": "sit"
+        }
+    },
+    "walkAnims": "normal",
+    "configs": {
+        "normal": {
+            "relativeVel": 0.5
+        },
+        "sit": {
+            "walkAnims": "sit",
+            "shadow": 0
+        },
+        "sitFloat": {
+            "walkAnims": "sit",
+            "zGravityFactor": 0,
+            "shadow": 0
+        }
+    },
+    "face": {
+        "0": "m",
+        "1": "a",
+        "2": "l",
+        "3": "e",
+        "4": "M",
+        "5": "i",
+        "6": "n",
+        "7": "e",
+        "8": "r",
+        "width": 196,
+        "height": 192,
+        "centerX": 76,
+        "centerY": 66,
+        "src": "faction-adv-bergen-1.png",
+        "parts": [{
+            "default": {
+                "srcX": 0,
+                "srcY": 0,
+                "width": 192,
+                "height": 192,
+                "destX": 0,
+                "destY": 0,
+                "subX": 0,
+                "subY": 0,
+                "img": ""
+            }
+        }],
+        "expressions": {
+            "DEFAULT": {
+                "faces": [
+                    ["default"]
+                ]
+            }
+        }
+    }
+}
