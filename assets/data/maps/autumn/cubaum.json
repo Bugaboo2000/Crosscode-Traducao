@@ -4194,6 +4194,7 @@
             "analType": "DEFAULT",
             "text": {
                 "en_US": "A perfectly regular tree",
+                "pt_BR": "Uma árvore perfeitamente normal",
                 "de_DE": "Ein ganz gew\u00f6hnlicher Baum",
                 "zh_CN": "\u4e00\u682a\u975e\u5e38\u666e\u901a\u7684\u6811",
                 "langUid": 10,
@@ -7899,6 +7900,7 @@
                 }, {
                     "message": {
                         "en_US": "Yo, what's up?",
+                        "pt_BR": "Yo, E ai?",
                         "de_DE": "Yo, was geht?",
                         "fr_FR": "fr_FR",
                         "langUid": 295,
@@ -7920,6 +7922,7 @@
                     "thenStep": [{
                         "message": {
                             "en_US": "I see you got the \\c[3]\\v[item.230.name]\\c[0] with you! Nice, nice!",
+                            "pt_BR": "Eu vejo que você trouxe o \\c[3]\\v[item.230.name]\\c[0] com você! Boa, boa!",
                             "de_DE": "Ich sehe, du hast die \\c[3]Rote Flammenform\\c[0] bei dir. Schick, schick!",
                             "fr_FR": "fr_FR",
                             "langUid": 290,
@@ -7937,6 +7940,7 @@
                     }, {
                         "message": {
                             "en_US": "Well then, good luck on your journey!",
+                            "pt_BR": "Muito bem então, boa sorte na sua jornada!",
                             "de_DE": "Na dann, viel Gl\u00fcck auf deiner Reise!",
                             "fr_FR": "fr_FR",
                             "langUid": 291,
@@ -7955,6 +7959,7 @@
                     "elseStep": [{
                         "message": {
                             "en_US": "If you want to pass this barrier you first have to collect the \\c[3]\\v[item.230.name]\\c[0].",
+                            "pt_BR": "Se você quer atravessar essa barreira, primeiro você tem que coletar o \\c[3]\\v[item.230.name]\\c[0].",
                             "de_DE": "Wenn du die Barriere passieren willst, brauchst du die \\c[3]Rote Flammenform\\c[0].",
                             "fr_FR": "fr_FR",
                             "langUid": 292,
@@ -7972,6 +7977,7 @@
                     }, {
                         "message": {
                             "en_US": "You get it at the end of the \\c[3]Faj'ro Temple\\c[0], right after the boss battle.",
+                            "pt_BR": "Você consegue isso no final do \\c[3]Faj'ro Temple\\c[0], após a batalha contra o chefe",
                             "de_DE": "Du erh\u00e4ltst sie direkt nach dem Boss, am Ende des \\c[3]Faj'ro-Tempels\\c[0].",
                             "fr_FR": "fr_FR",
                             "langUid": 293,
@@ -7989,6 +7995,7 @@
                     }, {
                         "message": {
                             "en_US": "In case you already beat the boss, just go to the final room and fetch your reward. It should still be there!",
+                            "pt_BR": "Caso já tenha vencido o chefe, basta ir até a sala final e buscar sua recompensa. Ela ainda deve estar lá!",
                             "de_DE": "Falls du den Boss schon besiegt hast, geh nochmal in den Raum. Deine Belohnung sollte dort immer noch auf dich warten!",
                             "fr_FR": "fr_FR",
                             "langUid": 294,
@@ -8145,6 +8152,7 @@
                             },
                             "text": {
                                 "en_US": "<ReturnPos Changed>",
+                                "pt_BR": "<ReturnPos Changed>",
                                 "langUid": 296,
                                 "zh_CN": "<ReturnPos Changed><<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "<ReturnPos Changed><<C<<IGNORE",
@@ -8654,6 +8662,7 @@
                         },
                         "name": {
                             "en_US": "Deggart",
+                            "pt_BR": "Deggart",
                             "langUid": 711,
                             "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                             "de_DE": "Deggart",
@@ -8681,6 +8690,7 @@
                         },
                         "message": {
                             "en_US": "Hi!",
+                            "pt_BR": "Oi!",
                             "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2017/11/04]",
                             "langUid": 198,
                             "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/10/10]",
@@ -8697,6 +8707,7 @@
                         },
                         "message": {
                             "en_US": "Great, there you are again.\\. About time we finished this task, I would say.",
+                            "pt_BR": "Ótimo, aí está você novamente.\\. Já era hora de terminarmos esta tarefa, eu diria.",
                             "ja_JP": "\u3088\u304b\u3063\u305f\u3001\u307e\u305f\u6765\u3066\u304f\u308c\u305f\u3093\u3060\u306a\u3002\n\\.\u672c\u5f53\u306a\u3089\u3068\u3063\u304f\u306b\u7d42\u308f\u3063\u3066\u305f\u306f\u305a\u306a\u3093\u3060\u304c\u3002<<A<<[CHANGED 2017/11/04]",
                             "langUid": 705,
                             "zh_CN": "\u54e6\uff0c\u53c8\u662f\u4f60\u554a\uff1f\\.\u90a3\u6b63\u597d\u6211\u4eec\u6765\u628a\u6d3b\u5e72\u5b8c\u3002<<A<<[CHANGED 2017/12/12]",
@@ -8713,6 +8724,7 @@
                         },
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[bong]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 701,
@@ -8831,6 +8843,7 @@
                         },
                         "name": {
                             "en_US": "Deggart",
+                            "pt_BR": "Deggart",
                             "langUid": 720,
                             "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                             "de_DE": "Deggart",
@@ -8858,6 +8871,7 @@
                         },
                         "message": {
                             "en_US": "This time, all the energy signals can be found around that lonely tree there.",
+                            "pt_BR": "Desta vez, todos os sinais de energia pode ser encontrados ao redor daquela ávore solitária ali",
                             "ja_JP": "\u4eca\u56de\u3001\u5168\u3066\u306e\u30a8\u30cd\u30eb\u30ae\u30fc\u53cd\u5fdc\u306f\u3042\u305d\u3053\u306b\u3042\u308b\n1\u672c\u306e\u6728\u304b\u3089\u691c\u51fa\u3055\u308c\u305f\u3002<<A<<[CHANGED 2017/11/04]",
                             "langUid": 740,
                             "zh_CN": "\u8fd9\u6b21\u80fd\u91cf\u6765\u6e90\u90fd\u5728\u90a3\u9897\u6811\u65c1\u8fb9\u3002<<A<<[CHANGED 2017/10/10]",
@@ -8874,6 +8888,7 @@
                         },
                         "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "ja_JP": "...<<A<<[CHANGED 2017/11/04]",
                             "langUid": 722,
                             "zh_CN": "...<<A<<[CHANGED 2017/10/10]",
@@ -8890,6 +8905,7 @@
                         },
                         "message": {
                             "en_US": "Weird coincidence that, considering there's nothing really special about the tree itself...",
+                            "pt_BR": "É uma estranha coincidência que, considerando que não há nada realmente especial sobre aquela árvore em particular",
                             "ja_JP": "\u5947\u5999\u306a\u3053\u3068\u306b\u3001\u6728\u81ea\u4f53\u304b\u3089\u306f\u4f55\u3082\n\u7279\u5225\u306a\u3082\u306e\u306f\u691c\u51fa\u3055\u308c\u306a\u304b\u3063\u305f\u3093\u3060...<<A<<[CHANGED 2017/11/04]",
                             "langUid": 770,
                             "zh_CN": "\u786e\u5b9e\u6709\u4e9b\u5947\u602a\uff0c\u56e0\u4e3a\u6811\u672c\u8eab\u6beb\u65e0\u7279\u522b\u4e4b\u5904...<<A<<[CHANGED 2017/10/10]",
@@ -8923,6 +8939,7 @@
                         },
                         "message": {
                             "en_US": "Though it seems to be rather unstable and fluctuating this time.\\. You should keep an eye on that.",
+                            "pt_BR": "Embora pareça ser bastante instável e flutuante desta vez.\\. Você deve ficar atenta a isso.",
                             "ja_JP": "\u3068\u306f\u3044\u3048\u3001\u4eca\u56de\u306e\u30a8\u30cd\u30eb\u30ae\u30fc\u53cd\u5fdc\u306f\u4e0d\u5b89\u5b9a\u3067\n\u7d76\u3048\u305a\u5909\u52d5\u3057\u3066\u3044\u308b\u3088\u3046\u3060\u3002\n\\.\u6ce8\u610f\u3092\u6020\u3089\u306a\u3044\u3088\u3046\u306b\u3057\u305f\u307b\u3046\u304c\u3044\u3044\u3002<<A<<[CHANGED 2018/09/19]",
                             "langUid": 772,
                             "zh_CN": "\u4e0d\u8fc7\u80fd\u91cf\u6709\u4e9b\u6ce2\u52a8\u3002\\.\u4f60\u6700\u597d\u5c0f\u5fc3\u70b9\u3002<<A<<[CHANGED 2018/09/19]",
@@ -9036,6 +9053,7 @@
                         },
                         "name": {
                             "en_US": "Deggart",
+                            "pt_BR": "Deggart",
                             "langUid": 734,
                             "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                             "de_DE": "Deggart",
@@ -9063,6 +9081,7 @@
                         },
                         "message": {
                             "en_US": "In any case, knocking our probe onto the Powerspots as before and clearing hostiles should do the trick.",
+                            "pt_BR": "Em qualquer caso, derrubar nossa sonda nos Powerspots como antes e limpar os hostis deve fazer isto funcionar",
                             "ja_JP": "\u3068\u306b\u304b\u304f\u3001\u3055\u3063\u304d\u306e\u3088\u3046\u306b\u30d7\u30ed\u30fc\u30d6\u3092\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u306e\u4e0a\u306b\u4e57\u305b\u3066\u3001\u6575\u3092\u5012\u305b\u3070\u3046\u307e\u304f\u3044\u304f\u306f\u305a\u3060\u3002<<A<<[CHANGED 2017/11/04]",
                             "langUid": 733,
                             "zh_CN": "\u8fd8\u662f\u6309\u8001\u65b9\u6cd5\u6765\u5427\uff0c\u5e94\u8be5\u4e0d\u4f1a\u51fa\u4ec0\u4e48\u95ee\u9898\u3002<<A<<[CHANGED 2017/12/12]",
@@ -9079,6 +9098,7 @@
                         },
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "ja_JP": "...\uff01<<A<<[CHANGED 2017/11/04]",
                             "langUid": 736,
                             "zh_CN": "...!<<A<<[CHANGED 2017/10/10]",
@@ -9095,6 +9115,7 @@
                         },
                         "message": {
                             "en_US": "I am ready whenever you are.\\. Just give me the signal, \\v[lore.title.seeker].",
+                            "pt_BR": "Estou pronto quando você estiver.\\. Apenas me dê o sinal, \\v[lore.title.seeker].",
                             "ja_JP": "\u4ffa\u306e\u65b9\u306f\u3044\u3064\u3067\u3082\u6e96\u5099\u3067\u304d\u3066\u308b\u305c\u3002\n\\.\u305d\u3063\u3061\u306e\u6e96\u5099\u304c\u3067\u304d\u305f\u3089\u5408\u56f3\u3057\u3066\u304f\u308c\u3001\\v[lore.title.seeker]\u3055\u3093\u3002<<A<<[CHANGED 2017/11/04]",
                             "langUid": 738,
                             "zh_CN": "\u6211\u8fd9\u8fb9\u51c6\u5907\u597d\u4e86\u3002\\.\u7b49\u4f60\u51c6\u5907\u597d\u4e86\u544a\u8bc9\u6211\u4e00\u58f0\u5c31\u884c\uff0c\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2017/10/10]",
@@ -9191,6 +9212,7 @@
                         },
                         "name": {
                             "en_US": "Deggart",
+                            "pt_BR": "Deggart",
                             "langUid": 712,
                             "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                             "de_DE": "Deggart",
@@ -9218,6 +9240,7 @@
                         },
                         "message": {
                             "en_US": "Ready to finish this up, \\v[lore.title.seeker]?",
+                            "pt_BR": "Pronta para finalizar? \\v[lore.title.seeker]?",
                             "ja_JP": "\u4ed5\u4e0a\u3052\u3092\u3059\u308b\u6e96\u5099\u306f\u3044\u3044\u304b\u3044\u3001\\v[lore.title.seeker]\u3055\u3093\uff1f<<A<<[CHANGED 2017/11/04]",
                             "langUid": 212,
                             "zh_CN": "\u51c6\u5907\u597d\u4e86\u5417\uff0c\\v[lore.title.seeker]\uff1f<<A<<[CHANGED 2017/10/10]",
@@ -9277,6 +9300,7 @@
                             },
                             "message": {
                                 "en_US": "Alright, then let me start this thing up!",
+                                "pt_BR": "Muito bem, então deixe-me começar isto!",
                                 "ja_JP": "\u3088\u3057\u3001\u305d\u308c\u3058\u3083\u3042\u88c5\u7f6e\u3092\u7a3c\u50cd\u3059\u308b\u305e\uff01<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 201,
                                 "zh_CN": "\u884c\uff0c\u90a3\u6211\u628a\u8fd9\u73a9\u610f\u542f\u52a8\u8d77\u6765\uff01<<A<<[CHANGED 2017/10/10]",
@@ -9501,6 +9525,7 @@
                             },
                             "name": {
                                 "en_US": "Deggart",
+                                "pt_BR": "Deggart",
                                 "langUid": 713,
                                 "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "Deggart",
@@ -9528,6 +9553,7 @@
                             },
                             "message": {
                                 "en_US": "Probe has booted.\\. Prepare for the first point to appear.",
+                                "pt_BR": "A sonda inicializou.\\. Prepare-se para o primeiro ponto que aparecer.",
                                 "ja_JP": "\u30d7\u30ed\u30fc\u30d6\u306f\u8d77\u52d5\u3057\u305f\u3002\n\\.\u6700\u521d\u306e\u30b9\u30dd\u30c3\u30c8\u304c\u51fa\u3066\u304f\u308b\u306e\u306b\u5099\u3048\u3066\u304f\u308c\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 702,
                                 "zh_CN": "\u63a2\u6d4b\u5668\u5df2\u6fc0\u6d3b\u3002\\.\u7b49\u7b2c\u4e00\u4e2a\u70b9\u51fa\u73b0\u5427\u3002<<A<<[CHANGED 2017/10/10]",
@@ -9651,6 +9677,7 @@
                             "changeType": "set",
                             "value": {
                                 "en_US": "[Expecting Probe]",
+                                "pt_BR": "[Esperando Sonda]",
                                 "ko_KR": "[\ud0d0\uc0ac\uae30 \uc774\ub3d9 \uc704\uce58]<<A<<[CHANGED 2018/01/05]",
                                 "langUid": 777,
                                 "ja_JP": "[\u30d7\u30ed\u30fc\u30d6\u3092\u5f85\u6a5f\u4e2d]<<A<<[CHANGED 2018/01/06]",
@@ -9724,6 +9751,7 @@
                             },
                             "name": {
                                 "en_US": "Deggart",
+                                "pt_BR": "Deggart",
                                 "langUid": 714,
                                 "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "Deggart",
@@ -9751,6 +9779,7 @@
                             },
                             "message": {
                                 "en_US": "Alright, just like before.\\. Knock our device onto the Powerspot and then defeat all the enemies that might appear!",
+                                "pt_BR": "Muito bem, como aconteceu antes.\\. Derrube nosso dispositivo no Powerspot e depois derrote todos os inimigos que possam aparecer!",
                                 "ja_JP": "\u3088\u3057\u3001\u3084\u308a\u65b9\u306f\u3055\u3063\u304d\u3068\u540c\u3058\u3060\u3002\\.\u30c7\u30d0\u30a4\u30b9\u3092\u30b9\u30dd\u30c3\u30c8\u306e\u4e0a\u306b\u4e57\u305b\u3066\u3001\u51fa\u73fe\u3059\u308b\u6575\u3092\u305c\u3093\u3076\u3084\u3063\u3064\u3051\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/09/19]",
                                 "langUid": 707,
                                 "zh_CN": "\u55ef\uff0c\u8ddf\u4ee5\u524d\u4e00\u6837\u3002\\.\u628a\u88c5\u7f6e\u63a8\u5230\u70b9\u4e0a\uff0c\u7136\u540e\u6253\u8d25\u6240\u6709\u654c\u4eba\uff01<<A<<[CHANGED 2018/09/19]",
@@ -9851,6 +9880,7 @@
                             },
                             "name": {
                                 "en_US": "Deggart",
+                                "pt_BR": "Deggart",
                                 "langUid": 715,
                                 "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "Deggart",
@@ -9878,6 +9908,7 @@
                             },
                             "message": {
                                 "en_US": "Just remember what I told you about the unstable energy fluctuation.",
+                                "pt_BR": "Apenas lembre do eu te disse sobre a flutuação instável da energia.",
                                 "ja_JP": "\u3055\u3063\u304d\u8a71\u3057\u305f\u901a\u308a\u3001\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u4e0d\u5b89\u5b9a\u3067\n\u5909\u52d5\u3057\u3066\u308b\u3053\u3068\u3092\u5fd8\u308c\u306a\u3044\u3067\u304f\u308c\u3088\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 709,
                                 "zh_CN": "\u8fd8\u8bb0\u5f97\u6211\u8ddf\u4f60\u8bf4\u7684\u4e0d\u7a33\u5b9a\u80fd\u91cf\u5417\uff1f<<A<<[CHANGED 2017/10/10]",
@@ -9894,6 +9925,7 @@
                             },
                             "message": {
                                 "en_US": "Be prepared to readjust the probe during the operation in case the Powerspots move around.",
+                                "pt_BR": "Esteja preparada para reajusatar a sonda durante a operação, caso os Powerspots se movimentem",
                                 "ja_JP": "\u4f5c\u6226\u4e2d\u306b\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u306e\u4f4d\u7f6e\u304c\u5909\u308f\u3063\u305f\u6642\u306b\n\u5099\u3048\u3066\u3001\u30d7\u30ed\u30fc\u30d6\u306e\u4f4d\u7f6e\u3092\u518d\u8abf\u6574\u3059\u308b\n\u6e96\u5099\u306f\u3057\u3066\u304a\u3044\u3066\u304f\u308c\u3088\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 776,
                                 "zh_CN": "\u80fd\u91cf\u70b9\u79fb\u52a8\u4e86\u7684\u8bdd\u8981\u53ca\u65f6\u8c03\u6574\u63a2\u6d4b\u5668\u4f4d\u7f6e\u3002<<A<<[CHANGED 2017/10/10]",
@@ -9950,6 +9982,7 @@
                         }, {
                             "task": {
                                 "en_US": "Knock the \\c[3]Probe\\c[0] on the \\c[3]Powerpoints\\c[0].\n\\c[3]Heat\\c[0]:More knockback\n\\c[3]Cold\\c[0]:Stabilize",
+                                "pt_BR": "Acerte a \\c[3]Sonda\\c[0] nos \\c[3]Powerpoints\\c[0].\n\\c[3]Heat\\c[0]:Mais recuo\n\\c[3]Cold\\c[0]:Estabiliza",
                                 "langUid": 749,
                                 "zh_CN": "\u628a\\c[3]\u63a2\u6d4b\u5668\\c[0]\u79fb\u52a8\u5230\\c[3]\u80fd\u91cf\u70b9\\c[0]\u4e0a\u3002\n\\c[3\u706b\\c[0]:\u5f3a\u529b\u63a8\u8fdb\n\\c[3]\u51b0\\c[0]:\u7a33\u5b9a<<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "Sto\u00dfe die \\c[3]Sonde\\c[0] auf die \\c[3]Kraftpunkte\\c[0].\n\\c[3]Hitze\\c[0]:gr\u00f6\u00dfere Sto\u00dfkraft\n\\c[3]K\u00e4lte\\c[0]:stabilisieren",
@@ -9980,6 +10013,7 @@
                             },
                             "message": {
                                 "en_US": "[shakes head]",
+                                "pt_BR": "[balança a cabeça]",
                                 "de_DE": "[sch\u00fcttelt Kopf]",
                                 "fr_FR": "fr_FR",
                                 "langUid": 50,
@@ -9997,6 +10031,7 @@
                             },
                             "message": {
                                 "en_US": "Alright, come back when you feel fresh and ready.",
+                                "pt_BR": "Muito bem, volte quando você se sentir recuperada e pronta",
                                 "ja_JP": "\u3088\u3057\u3001\u6c17\u6301\u3061\u304c\u5207\u308a\u66ff\u308f\u3063\u3066\u6e96\u5099\u304c\u3067\u304d\u305f\u3089\u623b\u3063\u3066\u304d\u3066\u304f\u308c\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 703,
                                 "zh_CN": "\u884c\uff0c\u7b49\u4f60\u51c6\u5907\u597d\u4e86\u518d\u6765\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10014,6 +10049,7 @@
                             },
                             "message": {
                                 "en_US": "How?",
+                                "pt_BR": "Como?",
                                 "ja_JP": "\u3069\u3046\u3084\u3063\u3066\uff1f<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 209,
                                 "zh_CN": "\u5565\uff1f<<A<<[CHANGED 2017/10/10]",
@@ -10030,6 +10066,7 @@
                             },
                             "message": {
                                 "en_US": "You need me to refresh your memory again?\\. Alright then...",
+                                "pt_BR": "Você quer que eu refresque sua memoria novamente?\\. Muito bem então...",
                                 "ja_JP": "\u3088\u3057\u3001\u3082\u3046\u4e00\u5ea6\u8aac\u660e\u3055\u305b\u3066\u304f\u308c\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 704,
                                 "zh_CN": "\u4f60\u8981\u518d\u542c\u4e00\u6b21\uff1f\\.\u597d\u5427...<<A<<[CHANGED 2017/10/10]",
@@ -10052,6 +10089,7 @@
                             },
                             "message": {
                                 "en_US": "You need to \\c[3]push this device around\\c[0] and move it onto certain spots of power in this area, short \\c[3]Powerspots\\c[0].",
+                                "pt_BR": "Você precisa \\c[3]empurrar este dispositivo\\c[0] e movê-lo para certos pontos de força nesta área, curto \\c[3]Powerspots\\c[0].",
                                 "ja_JP": "\u3053\u306e\u30a8\u30ea\u30a2\u306e\u30d1\u30ef\u30fc\u304c\u96c6\u307e\u3063\u3066\u3044\u308b\u70b9\u3001\\c[3]\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\\c[0]\u306e\u4e0a\u306b\\c[3]\u3053\u306e\u30c7\u30d0\u30a4\u30b9\u3092\u4e57\u305b\u3066\\c[0]\u307b\u3057\u3044\u3093\u3060\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 739,
                                 "zh_CN": "\u4f60\u8981\\c[3]\u63a8\u52a8\u8fd9\u4e2a\u88c5\u7f6e\\c[0]\uff0c\u5c06\u5176\u79fb\u52a8\u5230\u533a\u57df\u91cc\u6709\u80fd\u91cf\u7684\u5730\u65b9\uff0c\u4e5f\u5c31\u662f\\c[3]\u80fd\u91cf\u70b9\\c[0]\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10068,6 +10106,7 @@
                             },
                             "message": {
                                 "en_US": "You can \\c[3]move\\c[0] it by \\c[3]attacking\\c[0].\\. Using \\c[3]Heat\\c[0] will greatly increase the distance and velocity.",
+                                "pt_BR": "Você pode \\c[3]mover\\c[0] isso com \\c[3]ataques\\c[0].\\. Usando \\c[3]Heat\\c[0] vai aumentar drásticamente a distância e a velocidade.",
                                 "ja_JP": "\\c[3]\u653b\u6483\\c[0]\u3059\u308c\u3070\u3053\u3044\u3064\u3092\\c[3]\u79fb\u52d5\\c[0]\u3055\u305b\u3089\u308c\u308b\u3002\\.\\c[3]\u706b\u708e\u30e2\u30fc\u30c9\\c[0]\u3092\u4f7f\u3048\u3070\u3001\u79fb\u52d5\u8ddd\u96e2\u3068\u901f\u5ea6\u304c\u3050\u3093\u3068\u4f38\u3073\u308b\u305e\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 721,
                                 "zh_CN": "\u4f60\u53ef\u4ee5\u901a\u8fc7\\c[3]\u653b\u51fb\\c[0]\u6765\\c[3]\u79fb\u52a8\\c[0]\u5b83\u3002\\.\u4f7f\u7528\\c[3]\u706b\\c[0]\u653b\u51fb\u53ef\u4ee5\u6781\u5927\u7684\u63d0\u9ad8\u79fb\u52a8\u8ddd\u79bb\u548c\u901f\u5ea6\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10084,6 +10123,7 @@
                             },
                             "message": {
                                 "en_US": "Approaching a Powerspot will usually attract some \\c[3]hostile wildlife\\c[0] that will protect those places.",
+                                "pt_BR": "A aproximação de um Powerspot geralmente atrairá alguns \\c[3]animais selvagens\\c[0] que vão proteger esses lugares.",
                                 "ja_JP": "\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u306b\u8fd1\u3065\u304f\u3068\u3001\u901a\u5e38\u306f\\c[3]\u6575\u610f\u306e\u3042\u308b\u91ce\u751f\u52d5\u7269\\c[0]\u304c\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u3092\u5b88\u308b\u305f\u3081\u306b\u3084\u3063\u3066\u304f\u308b\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 741,
                                 "zh_CN": "\u63a5\u8fd1\u80fd\u91cf\u70b9\u4f1a\u5f15\u6765\\c[3]\u4fdd\u62a4\u8be5\u5730\u7684\u91ce\u751f\u52a8\u7269\\c[0]\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10100,6 +10140,7 @@
                             },
                             "message": {
                                 "en_US": "The Powerspots will grant them a \\c[3]shield\\c[0] that is almost impenetrable, meaning invincible enemies.",
+                                "pt_BR": "Os Powerspots vão garantir a eles um \\c[3]escudo\\c[0] que é quase impenetrável, resultando em inimigos invencíveis",
                                 "ja_JP": "\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u306f\u3001\u52d5\u7269\u305f\u3061\u306b\u307b\u3068\u3093\u3069\u8cab\u901a\u4e0d\u80fd\u306e\\c[3]\u30b7\u30fc\u30eb\u30c9\\c[0]\u3092\u4e0e\u3048\u308b\u3002\u3064\u307e\u308a\u3001\u5012\u305b\u306a\u3044\u6575\u306e\u3067\u304d\u3042\u304c\u308a\u3063\u3066\u308f\u3051\u3060\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 742,
                                 "zh_CN": "\u80fd\u91cf\u70b9\u4f1a\u7ed9\u5b83\u4eec\u51e0\u4e4e\u65e0\u654c\u7684\\c[3]\u62a4\u76fe\\c[0]\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10116,6 +10157,7 @@
                             },
                             "message": {
                                 "en_US": "\\c[3]Placing the probe on an active Powerspot\\c[0] will \\c[3]deactivate the shield\\c[0], though, so that's a priority!",
+                                "pt_BR": "\\c[3]Colocando a sonda em um Powerspot ativo\\c[0] vai \\c[3]desativar o escudo\\c[0], portanto, isso é uma prioridade!",
                                 "ja_JP": "\\c[3]\u30a2\u30af\u30c6\u30a3\u30d6\u306a\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u306e\u4e0a\u306b\u30d7\u30ed\u30fc\u30d6\u3092\u4e57\u305b\u308b\\c[0]\u3068\u3001\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\u7121\u52b9\u5316\u3067\u304d\u308b\\c[0]\u3002\u3060\u304b\u3089\u3001\u305d\u308c\u304c\u6700\u512a\u5148\u4e8b\u9805\u3060\uff01<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 743,
                                 "zh_CN": "\u4f46\\c[3]\u5f53\u63a2\u6d4b\u5668\u88ab\u653e\u7f6e\u5230\u6fc0\u6d3b\u4e86\u7684\u80fd\u91cf\u70b9\u4e0a\u65f6\\c[0]\uff0c\u5b83\u5c06\\c[3]\u89e3\u9664\u62a4\u76fe\\c[0]\uff0c\u6240\u4ee5\u4e00\u5b9a\u8981\u6ce8\u610f\uff01<<A<<[CHANGED 2017/10/10]",
@@ -10132,6 +10174,7 @@
                             },
                             "message": {
                                 "en_US": "Make sure it doesn't get knocked away again.\\. Hitting it with \\c[3]Cold\\c[0] will \\c[3]stabilize\\c[0] it for a bit which should help.",
+                                "pt_BR": "Tenha certeza de não ser nocauteada de de novo.\\. Arcertando isso com \\c[3]Cold\\c[0] vai \\c[3]estabilizar\\c[0] um pouco, o que pode ajudar.",
                                 "ja_JP": "\u30d7\u30ed\u30fc\u30d6\u304c\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u304b\u3089\u5916\u308c\u306a\u3044\u3088\u3046\u306b\u6c17\u3092\u3064\u3051\u3066\u304f\u308c\u3002\\.\\c[3]\u51b7\u6c17\u30e2\u30fc\u30c9\\c[0]\u3067\u653b\u6483\u3059\u308c\u3070\u3001\u30d7\u30ed\u30fc\u30d6\u3092\u5c11\u3057\u306e\u9593\\c[3]\u56fa\u5b9a\\c[0]\u3067\u304d\u308b\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 744,
                                 "zh_CN": "\u540c\u65f6\u8fd8\u8981\u5c0f\u5fc3\u522b\u8ba9\u88c5\u7f6e\u88ab\u6253\u98de\u4e86\u3002\\.\u4f7f\u7528\\c[3]\u51b0\\c[0]\u653b\u51fb\u53ef\u4ee5\u5c06\u5176\\c[3]\u7a33\u5b9a\\c[0]\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10148,6 +10191,7 @@
                             },
                             "message": {
                                 "en_US": "...",
+                                "pt_BR": "...",
                                 "ja_JP": "...<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 745,
                                 "zh_CN": "...<<A<<[CHANGED 2017/10/10]",
@@ -10164,6 +10208,7 @@
                             },
                             "message": {
                                 "en_US": "I hope you got it now, \\v[lore.title.seeker].",
+                                "pt_BR": "Espero que você tenha conseguido agora, \\v[lore.title.seeker].",
                                 "ja_JP": "\u3053\u308c\u3067\u308f\u304b\u3063\u3066\u3082\u3089\u3048\u305f\u304b\u306a\u3001\\v[lore.title.seeker]\u3055\u3093\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 746,
                                 "zh_CN": "\u8fd9\u4e0b\u542c\u660e\u767d\u4e86\u5427\uff0c\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2017/10/10]",
@@ -10185,6 +10230,7 @@
                             "0": "",
                             "label": {
                                 "en_US": "Yes",
+                                "pt_BR": "Sim",
                                 "langUid": 199,
                                 "ja_JP": "\u306f\u3044<<A<<[CHANGED 2017/11/04]",
                                 "zh_CN": "\u662f<<A<<[CHANGED 2017/10/10]",
@@ -10196,6 +10242,7 @@
                             "0": "",
                             "label": {
                                 "en_US": "No",
+                                "pt_BR": "Não",
                                 "langUid": 200,
                                 "ja_JP": "\u3044\u3044\u3048<<A<<[CHANGED 2017/11/04]",
                                 "zh_CN": "\u5426<<A<<[CHANGED 2017/10/10]",
@@ -10207,6 +10254,7 @@
                             "0": "",
                             "label": {
                                 "en_US": "Repeat Instructions",
+                                "pt_BR": "Repetir Instruções",
                                 "langUid": 208,
                                 "zh_CN": "\u518d\u6b21\u8bf4\u660e<<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "Nochmal erkl\u00e4ren",
@@ -10239,6 +10287,7 @@
             "analyzable": {
                 "text": {
                     "en_US": "Deggart",
+                    "pt_BR": "Deggart",
                     "langUid": 297,
                     "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                     "de_DE": "Deggart",
@@ -10323,6 +10372,7 @@
                     },
                     "text": {
                         "en_US": "[Powerspot unstable]",
+                        "pt_BR": "[Powerspot instável]",
                         "langUid": 765,
                         "zh_CN": "[\u80fd\u91cf\u70b9\u4e0d\u7a33\u5b9a]<<A<<[CHANGED 2017/10/10]",
                         "de_DE": "[Kraftpunkt instabil]",
@@ -11748,6 +11798,7 @@
             }, {
                 "name": {
                     "en_US": "Deggart",
+                    "pt_BR": "Deggart",
                     "langUid": 747,
                     "zh_CN": "\u8fea\u8fe6\u5fb7<<A<<[CHANGED 2017/10/10]",
                     "de_DE": "Deggart",
@@ -11775,6 +11826,7 @@
             }, {
                 "message": {
                     "en_US": "Seems like you're done.\\. Everything's clear.\\. For real this time.\\.\\. Finally.",
+                    "pt_BR": "Parece que você terminou.\\. Tudo está limpo.\\. De verdade desta vez.\\.\\. Finalmente.",
                     "de_DE": "Das war's.\\. Alles erledigt.\\. Diesmal aber wirklich.\\.\\. Endlich!",
                     "zh_CN": "\u770b\u6765\u5927\u529f\u544a\u6210\u4e86\u554a\u3002\\.\u6ca1\u6709\u65b0\u51fa\u73b0\u7684\u70b9\u4e86\u3002\\.\\.\u53ef\u7b97\u662f\u5b8c\u4e86\u3002<<A<<[CHANGED 2018/09/19]",
                     "ja_JP": "\u7d42\u308f\u3063\u305f\u3088\u3046\u3060\u306a\u3002\\.\u305c\u3093\u3076\u7247\u4ed8\u3044\u305f\u307f\u305f\u3044\u3060\u3002\\.\u4eca\u5ea6\u3053\u305d\u306a\u3002\\.\\.\u3088\u3046\u3084\u304f\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -11791,6 +11843,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 756,
                     "zh_CN": "...<<A<<[CHANGED 2017/10/10]",
                     "de_DE": "...",
@@ -11807,6 +11860,7 @@
             }, {
                 "message": {
                     "en_US": "I'm gonna skip further fanfare.\\. Our probe needs to get back to HQ and I need sleep.",
+                    "pt_BR": "Vou pular as comemorações.\\. Nossa sonda precisa voltar para a sede e eu preciso dormir.",
                     "ja_JP": "\u795d\u3044\u306e\u30d5\u30a1\u30f3\u30d5\u30a1\u30fc\u30ec\u306f\u307e\u305f\u4eca\u5ea6\u306b\u3059\u308b\u3088\u3002\n\\.\u30d7\u30ed\u30fc\u30d6\u3092\u672c\u90e8\u306b\u5c4a\u3051\u308b\u5fc5\u8981\u304c\u3042\u308b\u3057\u3001\n\u4ffa\u3082\u5bdd\u306a\u304f\u3061\u3083\u306a\u3002<<A<<[CHANGED 2017/11/04]",
                     "langUid": 773,
                     "zh_CN": "\u522b\u7684\u6211\u4e5f\u4e0d\u591a\u8bf4\u4e86\\.\u8fd9\u4e2a\u63a2\u6d4b\u5668\u5f97\u9001\u56de\u603b\u90e8\uff0c\u6211\u4e5f\u5f97\u7761\u4e00\u4e0b\u4e86\u3002<<A<<[CHANGED 2017/10/10]",
@@ -11823,6 +11877,7 @@
             }, {
                 "message": {
                     "en_US": "Talk to our leader for rewards, you know the drill.\\. Now excuse me, I gotta get going.",
+                    "pt_BR": "Fale com nosso líder parece receber as recompensas, você sabe como funciona.\\. Agora, com licença, tenho que ir andando.",
                     "ja_JP": "\u30ea\u30fc\u30c0\u30fc\u306b\u8a71\u3057\u3066\u5831\u916c\u3092\u3082\u3089\u3046\u3068\u3044\u3044\u3002\u624b\u9806\u306f\u308f\u304b\u308b\u3060\u308d\u3002\\.\u3058\u3083\u3042\u5931\u793c\u3059\u308b\u3088\u3001\u3082\u3046\u884c\u304b\u306a\u3044\u3068\u3002<<A<<[CHANGED 2017/11/04]",
                     "langUid": 774,
                     "zh_CN": "\u56de\u53bb\u8ddf\u6211\u4eec\u8001\u5927\u9886\u8d4f\u5427\u3002\\.\u6211\u5f97\u8d70\u4e86\uff0c\u518d\u89c1\u3002<<A<<[CHANGED 2017/10/10]",
@@ -11839,6 +11894,7 @@
             }, {
                 "message": {
                     "en_US": "...bye.",
+                    "pt_BR": "...até.",
                     "langUid": 775,
                     "zh_CN": "...\u518d\u89c1<<A<<[CHANGED 2017/10/10]",
                     "de_DE": "... Bye.",
@@ -11934,6 +11990,7 @@
                 }, {
                     "text": {
                         "en_US": "[Remote Control activated]",
+                        "pt_BR": "[Controle Remoto Ativado]",
                         "langUid": 748,
                         "zh_CN": "[\u6fc0\u6d3b\u8fdc\u7a0b\u9065\u63a7]<<A<<[CHANGED 2017/10/10]",
                         "de_DE": "[Fernsteuerung aktiviert]",
