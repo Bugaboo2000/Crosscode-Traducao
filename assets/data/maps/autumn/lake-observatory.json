@@ -8136,6 +8136,7 @@
                     }, {
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "de_DE": "...!",
                             "fr_FR": "fr_FR",
                             "langUid": 75,
@@ -8153,6 +8154,7 @@
                     }, {
                         "message": {
                             "en_US": "Oh, hello.",
+                            "pt_BR": "Oh, olá.",
                             "de_DE": "Oh, hallo!",
                             "fr_FR": "fr_FR",
                             "langUid": 76,
@@ -8170,6 +8172,7 @@
                     }, {
                         "message": {
                             "en_US": "Hi!",
+                            "pt_BR": "Oi!",
                             "de_DE": "Hi!",
                             "fr_FR": "fr_FR",
                             "langUid": 77,
@@ -8187,6 +8190,7 @@
                     }, {
                         "message": {
                             "en_US": "You want to give this to me?",
+                            "pt_BR": "Você quer me dar isso?",
                             "de_DE": "Du willst mir das geben?",
                             "fr_FR": "fr_FR",
                             "langUid": 293,
@@ -8204,6 +8208,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 294,
@@ -8221,6 +8226,7 @@
                     }, {
                         "message": {
                             "en_US": "That's awfully nice of you. May I ask why?",
+                            "pt_BR": "Isso é muito simpático da sua parte. Posso perguntar por quê?",
                             "de_DE": "Das ist echt nett von dir. Darf ich fragen, warum?",
                             "fr_FR": "fr_FR",
                             "langUid": 295,
@@ -8238,6 +8244,7 @@
                     }, {
                         "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "de_DE": "...",
                             "fr_FR": "fr_FR",
                             "langUid": 264,
@@ -8255,6 +8262,7 @@
                     }, {
                         "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "de_DE": "...",
                             "fr_FR": "fr_FR",
                             "langUid": 265,
@@ -8272,6 +8280,7 @@
                     }, {
                         "message": {
                             "en_US": "Hi... Lea... Hi...",
+                            "pt_BR": "Oi... Lea... Oi...",
                             "de_DE": "Hi... Lea... Hi...",
                             "fr_FR": "fr_FR",
                             "langUid": 266,
@@ -8289,6 +8298,7 @@
                     }, {
                         "message": {
                             "en_US": "Wait, what? Please tell me your voice module is broken.",
+                            "pt_BR": "Espera, o quê? Por favor, me diga que seu módulo de voz está quebrado.",
                             "de_DE": "Moment, was? Bitte sag mir, dass dein Sprachmodul hin\u00fcber ist.",
                             "fr_FR": "fr_FR",
                             "langUid": 267,
@@ -8306,6 +8316,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 268,
@@ -8323,6 +8334,7 @@
                     }, {
                         "message": {
                             "en_US": "Phew, well no problem. It can happen.",
+                            "pt_BR": "Sem problema. Isso pode ocorrer.",
                             "de_DE": "Puh, na ja, kein Problem. So was passiert.",
                             "fr_FR": "fr_FR",
                             "langUid": 269,
@@ -8340,6 +8352,7 @@
                     }, {
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "de_DE": "...!",
                             "fr_FR": "fr_FR",
                             "langUid": 270,
@@ -8379,6 +8392,7 @@
             "analType": "DEFAULT",
             "text": {
                 "en_US": "An old and abandoned observatory",
+                "pt_BR": "Um observatório antigo e abandonado",
                 "de_DE": "Eine alte, verlassene Sternwarte",
                 "zh_CN": "\u88ab\u5e9f\u5f03\u7684\u9648\u65e7\u89c2\u6d4b\u7ad9",
                 "ko_KR": "\uc624\ub798\ub418\uace0 \ubc84\ub824\uc9c4 \uad00\uce21\uc18c",
@@ -8414,7 +8428,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "Read inscription",
-                    "pt_BR": "Ler inscrição.",
+                    "pt_BR": "Ler inscrição",
                     "de_DE": "Inschrift lesen",
                     "zh_CN": "\u9605\u8bfb\u94ed\u6587",
                     "ko_KR": "\uae00\uadc0 \uc77d\uae30",
@@ -9099,6 +9113,7 @@
             }, {
                 "message": {
                     "en_US": "So... \\.Who do you think messaged us, Ellie?",
+                    "pt_BR": "Então... \\.Quem você acha que nos enviou a mensagem, Ellie?",
                     "langUid": 300,
                     "ko_KR": "\uadf8\ub798\uc11c... \\.\ub204\uac00 \uc6b0\ub9ac\uc5d0\uac8c \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0b8 \uac83 \uac19\uc544, \uc5d8\ub9ac?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u55ef... \\.\u827e\u4e3d\uff0c\u4f60\u89c9\u5f97\u662f\u8c01\u7ed9\u6211\u4eec\u53d1\u4e86\u6d88\u606f\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9115,6 +9130,7 @@
             }, {
                 "message": {
                     "en_US": "No clue, but it's nice checking out the game after so long.",
+                    "pt_BR": "Não faço idéia, mas é bom conferir o jogo depois de tanto tempo.",
                     "langUid": 302,
                     "ko_KR": "\uc804\ud600 \ubaa8\ub974\uaca0\uc5b4. \ud558\uc9c0\ub9cc \uc624\ub79c\ub9cc\uc5d0 \uac8c\uc784\uc744 \ud655\uc778\ud574\ubcf4\ub294 \uac83\ub3c4 \uc88b\uc744 \uac83 \uac19\uc544.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4e0d\u77e5\u9053\uff0c\u4f46\u597d\u4e45\u6ca1\u56de\u53bb\u4e86\uff0c\u91cd\u65b0\u73a9\u4e00\u4e0b\u4e5f\u4e0d\u9519\u3002<<A<<[CHANGED 2019/01/10]",
@@ -9131,6 +9147,7 @@
             }, {
                 "message": {
                     "en_US": "True, it must have been like half a year ago.",
+                    "pt_BR": "Verdade, deve ter sido há cerca de meio ano.",
                     "langUid": 303,
                     "ko_KR": "\ub9de\uc544, \ud55c \ubc18\ub144 \uc815\ub3c4 \ub41c \uac83 \uac19\ub124.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u662f\u554a\uff0c\u90fd\u534a\u5e74\u6ca1\u767b\u9646\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -9147,6 +9164,7 @@
             }, {
                 "message": {
                     "en_US": "Work really started to pick up, so I didn't have that much time.",
+                    "pt_BR": "O trabalho realmente começou a aumentar, por isso não tive tanto tempo.",
                     "langUid": 304,
                     "ko_KR": "\ubcf8\uaca9\uc801\uc73c\ub85c \uc77c\uc744 \uc2dc\uc791\ud558\ub294 \ubc14\ub78c\uc5d0 \uc2dc\uac04\uc774 \ubcc4\ub85c \uc5c6\uc5c8\uc5b4.<<A<<[CHANGED 2019/05/14]",
                     "zh_CN": "\u5de5\u4f5c\u5f00\u59cb\u5fd9\u4e86\u6211\u5c31\u6ca1\u73a9\u4e86\u3002<<A<<[CHANGED 2019/05/14]",
@@ -9163,6 +9181,7 @@
             }, {
                 "message": {
                     "en_US": "Same here.",
+                    "pt_BR": "Igual aqui.",
                     "langUid": 305,
                     "ko_KR": "\ub098\ub3c4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u4e5f\u662f\u3002<<A<<[CHANGED 2019/01/10]",
@@ -9247,6 +9266,7 @@
             }, {
                 "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "langUid": 310,
                     "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]",
@@ -9295,6 +9315,7 @@
             }, {
                 "message": {
                     "en_US": "Why hello, horned one.",
+                    "pt_BR": "Por que olá? 'Chifres grandes'",
                     "langUid": 311,
                     "ko_KR": "\uc548\ub155, \ubfd4 \ub2ec\ub9b0 \uc18c\ub140\uc57c.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\u554a\uff0c\u957f\u89d2\u7684\u3002<<A<<[CHANGED 2019/01/10]",
@@ -9317,6 +9338,7 @@
             }, {
                 "message": {
                     "en_US": "Are you our mystery sender, perhaps?",
+                    "pt_BR": "Você é nossa remetente misteriosa, talvez?",
                     "langUid": 314,
                     "ko_KR": "\ub124\uac00 \uc6b0\ub9ac\uc5d0\uac8c \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0b8 \uc218\uc218\uaed8\ub07c\uc758 \uc778\ubb3c?<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u4f60\u5c31\u662f\u7ed9\u6211\u4eec\u53d1\u6d88\u606f\u7684\u795e\u79d8\u4eba\u5417\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -9333,6 +9355,7 @@
             }, {
                 "message": {
                     "en_US": "[shakes head]",
+                    "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                     "langUid": 312,
                     "ko_KR": "[\ub3c4\ub9ac\ub3c4\ub9ac]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "[\u6447\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -9349,6 +9372,7 @@
             }, {
                 "message": {
                     "en_US": "Why?",
+                    "pt_BR": "Porque?",
                     "langUid": 315,
                     "ko_KR": "\uc65c?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4e3a\u4ec0\u4e48\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9365,6 +9389,7 @@
             }, {
                 "message": {
                     "en_US": "We've all got a message asking us to meet here.",
+                    "pt_BR": "Todos nós recebemos uma mensagem nos dizendo para nos encontrarmos aqui.",
                     "langUid": 316,
                     "ko_KR": "\uc6b0\ub9ac \ubaa8\ub450\uc5d0\uac8c \uc5ec\uae30\uc11c \ub9cc\ub098\uc790\ub294 \uba54\uc2dc\uc9c0\uac00 \uc654\uac70\ub4e0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u4eec\u90fd\u6536\u5230\u4e86\u6d88\u606f\u8ba9\u6211\u4eec\u5728\u8fd9\u89c1\u9762\u3002<<A<<[CHANGED 2019/01/10]",
@@ -9381,6 +9406,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 317,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -9401,6 +9427,7 @@
                 "thenStep": [{
                     "message": {
                         "en_US": "...Wait!",
+                        "pt_BR": "...Espere!",
                         "langUid": 318,
                         "ko_KR": "...\uc7a0\uae50!<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "...\u7b49\u7b49\uff01<<A<<[CHANGED 2019/01/10]",
@@ -9418,6 +9445,7 @@
                 "elseStep": [{
                     "message": {
                         "en_US": "...!",
+                        "pt_BR": "...!",
                         "langUid": 319,
                         "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
@@ -9435,6 +9463,7 @@
             }, {
                 "message": {
                     "en_US": "Oh, so you do know something about our sender?",
+                    "pt_BR": "Oh, então você sabe algo sobre nosso remetente?",
                     "langUid": 320,
                     "ko_KR": "\uc544, \uadf8\ub7fc \uc774 \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0b8 \uc0ac\ub78c\uc5d0 \uad00\ud574 \ubb54\uac00 \uc544\ub294 \uac70\uc57c?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u54e6\uff0c\u4f60\u662f\u60f3\u8bf4\u4f60\u8ba4\u8bc6\u7ed9\u6211\u4eec\u53d1\u6d88\u606f\u7684\u4eba\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9451,6 +9480,7 @@
             }, {
                 "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "langUid": 321,
                     "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -9467,6 +9497,7 @@
             }, {
                 "message": {
                     "en_US": "So, who is it?",
+                    "pt_BR": "Então, quem é?",
                     "langUid": 322,
                     "ko_KR": "\ub204\uad70\ub370?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u90a3\u6d88\u606f\u662f\u8c01\u53d1\u7684\u5462\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9483,6 +9514,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 324,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -9499,6 +9531,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 325,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -9515,6 +9548,7 @@
             }, {
                 "message": {
                     "en_US": "Sorry...",
+                    "pt_BR": "Desculpa...",
                     "langUid": 326,
                     "ko_KR": "\ubbf8\uc548\ud574...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5bf9\u4e0d\u8d77...<<A<<[CHANGED 2019/01/10]",
@@ -9602,6 +9636,7 @@
             }, {
                 "name": {
                     "en_US": "Dkar",
+                    "pt_BR": "Dkar",
                     "langUid": 327,
                     "ko_KR": "\ub514\uce74\ub974<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8fea\u5361<<A<<[CHANGED 2019/01/10]",
@@ -9620,6 +9655,7 @@
             }, {
                 "message": {
                     "en_US": "Everyone's already here?",
+                    "pt_BR": "Todos estão aqui?",
                     "langUid": 328,
                     "ko_KR": "\ub2e4 \uc654\ub2c8?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5927\u5bb6\u90fd\u5230\u4e86\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9723,6 +9759,7 @@
             }, {
                 "name": {
                     "en_US": "Dkar",
+                    "pt_BR": "Dkar",
                     "langUid": 329,
                     "ko_KR": "\ub514\uce74\ub974<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8fea\u5361<<A<<[CHANGED 2019/01/10]",
@@ -9741,6 +9778,7 @@
             }, {
                 "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "langUid": 330,
                     "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]",
@@ -9757,6 +9795,7 @@
             }, {
                 "message": {
                     "en_US": "Hey, kiddo. Nice to see you here.",
+                    "pt_BR": "Ei, criança. Bom ver você por aqui.",
                     "langUid": 331,
                     "ko_KR": "\ub140\uc11d\ub4e4, \uc5ec\uae30\uc11c \ubcf4\ub2e4\ub2c8 \ucc38 \ubc18\uac11\uad6c\ub098.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\u554a\u5b69\u5b50\u3002\u4f60\u6765\u4e86\u4e5f\u597d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -9783,6 +9822,7 @@
                 "side": "LEFT",
                 "message": {
                     "en_US": "...Dad?",
+                    "pt_BR": "...Pai?",
                     "langUid": 332,
                     "ko_KR": "...\uc544\ube60?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...\u8001\u7238?<<A<<[CHANGED 2019/01/10]",
@@ -9876,6 +9916,7 @@
             }, {
                 "message": {
                     "en_US": "Hey little ones...\n",
+                    "pt_BR": "Olá pequeninos...\n",
                     "langUid": 333,
                     "ko_KR": "\uadf8\ub798, \uc598\ub4e4\uc544...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u4eec\u597d\uff0c\u5b69\u5b50\u4eec...\n<<A<<[CHANGED 2019/01/10]",
@@ -9892,6 +9933,7 @@
             }, {
                 "message": {
                     "en_US": "Oh, we should have guessed that.\\.\\. Dad was the one who sent the message!",
+                    "pt_BR": "Oh, nós deveríamos ter advinhado isso. \\.\\. Era nosso pai que nos enviou a mensagem!",
                     "langUid": 334,
                     "ko_KR": "\uc544, \ub9de\ucd9c \uc218\ub3c4 \uc788\uc5c8\ub294\ub370.\\.\\. \uc544\ube60\uac00 \uba54\uc2dc\uc9c0\ub97c \ubcf4\ub0b8 \uac70\uc600\uc5b4!<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u6211\u4eec\u600e\u4e48\u6ca1\u60f3\u5230\u5462\u3002\\.\\.\u6d88\u606f\u662f\u8001\u7238\u53d1\u7684\uff01<<A<<[CHANGED 2020/06/17]",
@@ -9908,6 +9950,7 @@
             }, {
                 "message": {
                     "en_US": "That sure makes sense. What's up with the secrecy, dad?",
+                    "pt_BR": "Isso concerteza faz sentido. O que há com o segredo, pai?",
                     "langUid": 335,
                     "ko_KR": "\uadf8\ub7ec\uac8c \ub9d0\uc774\uc57c. \uc65c \ube44\ubc00\ub85c \ud55c \uac70\uc608\uc694, \uc544\ube60?<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u597d\u5427\uff0c\u786e\u5b9e\u5408\u7406\u3002\u4e0d\u8fc7\u8001\u7238\u4f60\u4e3a\u4ec0\u4e48\u8981\u4fdd\u5bc6\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -9924,6 +9967,7 @@
             }, {
                 "message": {
                     "en_US": "Well, you see...\n",
+                    "pt_BR": "Bem, você sabe...",
                     "langUid": 336,
                     "ko_KR": "\uadf8\uac8c \ub9d0\uc774\ub2e4...<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u55ef...<<A<<[CHANGED 2021/03/05]",
@@ -9940,6 +9984,7 @@
             }, {
                 "message": {
                     "en_US": "You've all been so busy and nobody had time to meet in the game to hang out with your old man.",
+                    "pt_BR": "Vocês todos estavam tão ocupados e ninguém teve tempo de se encontrar no jogo para sair com seu velho pai.",
                     "langUid": 337,
                     "ko_KR": "\ub108\ud76c \ubaa8\ub450 \ubc14\uc05c \ubc14\ub78c\uc5d0 \uc774 \ub299\uc740\uc774\uc640 \uac8c\uc784\uc5d0\uc11c \ub9cc\ub098 \ub180 \uc2dc\uac04\uc774 \uc5c6\uc5c8\uc796\ub2c8.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4f60\u4eec\u90fd\u5fd9\uff0c\u6ca1\u4eba\u5230\u6e38\u620f\u91cc\u6765\u966a\u6211\u4e86\u3002<<A<<[CHANGED 2019/02/01]",
@@ -9956,6 +10001,7 @@
             }, {
                 "message": {
                     "en_US": "And I promised you we would finish this quest...",
+                    "pt_BR": "E eu prometi que terminaríamos esta busca...",
                     "langUid": 338,
                     "ko_KR": "\ud018\uc2a4\ud2b8\ub97c \ub05d\ub0bc \uac70\ub77c\ub294 \uc57d\uc18d\ub3c4 \ud588\uace0 \ub9d0\uc774\ub2e4...<<A<<[CHANGED 2019/01/30]",
                     "zh_CN": "\u6211\u4e5f\u627f\u8bfa\u4e86\u4f60\u4eec\u8981\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1...<<A<<[CHANGED 2019/01/30]",
@@ -9972,6 +10018,7 @@
             }, {
                 "message": {
                     "en_US": "So, I thought if I could get it nearly done, you'd all come and play again.",
+                    "pt_BR": "Então, pensei que se eu conseguisse fazer quase tudo, todos vocês viriam e jogariam novamente.",
                     "langUid": 339,
                     "ko_KR": "\uadf8\ub798\uc11c \ub0b4\uac00 \uac70\uc758 \ub2e4 \ub05d\ub0b8\ub2e4\uba74 \ub108\ud76c\uc640 \ub2e4\uc2dc \ud568\uaed8 \ub180 \uc218 \uc788\uc744 \uac70\ub77c\uace0 \uc0dd\uac01\ud588\ub2e8\ub2e4.<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u6240\u4ee5\u6211\u60f3\u8981\u662f\u6211\u90fd\u5f04\u5f97\u5dee\u4e0d\u591a\u4e86\uff0c\u4f60\u4eec\u5c31\u4f1a\u518d\u6b21\u56de\u6765\u73a9\u4e86...<<A<<[CHANGED 2020/06/17]",
@@ -9988,6 +10035,7 @@
             }, {
                 "message": {
                     "en_US": "Dad, really?",
+                    "pt_BR": "Pai, Serio?",
                     "langUid": 340,
                     "ko_KR": "\uc815\ub9d0\uc774\uc5d0\uc694, \uc544\ube60?<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "...\u8001\u7238...<<A<<[CHANGED 2019/02/01]",
@@ -10004,6 +10052,7 @@
             }, {
                 "message": {
                     "en_US": "Yes... I know. You are all very busy.",
+                    "pt_BR": "Sim... Eu sei. Vocês estão todos muito ocupados.",
                     "langUid": 343,
                     "ko_KR": "\uadf8\ub798... \ub098\ub3c4 \uc548\ub2e4. \ub108\ud76c \ubaa8\ub450 \uc815\ub9d0 \ubc14\uc058\ub2e4\ub294\uac78.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u77e5\u9053...\u4f60\u4eec\u90fd\u5f88\u5fd9\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10020,6 +10069,7 @@
             }, {
                 "message": {
                     "en_US": "I'm sorry to be a bother, it's just that I really miss you all.",
+                    "pt_BR": "Lamento ser um incômodo, é que sinto muito a falta de todos vocês.",
                     "langUid": 344,
                     "ko_KR": "\uadc0\ucc2e\uac8c \ud574\uc11c \ubbf8\uc548\ud558\uc9c0\ub9cc, \ub09c \uadf8\uc800 \ub108\ud76c \ubaa8\ub450\uac00 \ubcf4\uace0 \uc2f6\uc5c8\ub2e8\ub2e4.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u62b1\u6b49\u6253\u6405\u4f60\u4eec\u4e86\uff0c\u53ea\u662f\u6211\u5f88\u60f3\u5ff5\u4f60\u4eec\u3002<<A<<[CHANGED 2019/02/01]",
@@ -10036,6 +10086,7 @@
             }, {
                 "message": {
                     "en_US": "Oh Dad, that's not what Noah meant.",
+                    "pt_BR": "Oh pai, não foi isso que Noah quis dizer.",
                     "langUid": 345,
                     "ko_KR": "\uc544\ube60, \ub178\uc544\uac00 \ud55c \ub9d0\uc740 \uadf8\ub7f0 \ub73b\uc774 \uc544\ub2c8\uc5c8\uc5b4\uc694.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u7238\u6211\u4e0d\u662f\u8fd9\u4e2a\u610f\u601d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10052,6 +10103,7 @@
             }, {
                 "message": {
                     "en_US": "Why didn't you just call and tell us?",
+                    "pt_BR": "Por que você não ligou para nos dizer isso?",
                     "langUid": 347,
                     "ko_KR": "\uc65c \uc6b0\ub9ac\uc5d0\uac8c \uc5f0\ub77d\ud574 \ub9d0\uc500\ud574\uc8fc\uc2dc\uc9c0 \uc54a\uc558\uc5b4\uc694?<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4f60\u4e3a\u4ec0\u4e48\u4e0d\u76f4\u63a5\u6253\u7535\u8bdd\u544a\u8bc9\u6211\u4eec\u5462\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -10068,6 +10120,7 @@
             }, {
                 "message": {
                     "en_US": "Yeah, we don't need a fancy quest to hang out with our father.",
+                    "pt_BR": "Sim, nós não precisamos de uma busca chique para sair com nosso pai.",
                     "langUid": 349,
                     "ko_KR": "\ub9de\uc544\uc694, \uc544\ube60\uc640 \uc2dc\uac04\uc744 \ubcf4\ub0b4\uae30 \uc704\ud55c \uc218\ub2e8\uc73c\ub85c \ud018\uc2a4\ud2b8\uac00 \ud544\uc694\ud55c \uac74 \uc544\ub2c8\uc5c8\ub2e4\uace0\uc694.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u4eec\u53ef\u4e0d\u9700\u8981\u6e38\u620f\u624d\u80fd\u966a\u4f60\u554a\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10084,6 +10137,7 @@
             }, {
                 "message": {
                     "en_US": "Besides, Jonah and Sophie couldn't make it anyway.",
+                    "pt_BR": "Além disso, Jonah e Sophie não puderam vir também.",
                     "langUid": 350,
                     "ko_KR": "\uc5b4\ucc28\ud53c \uc870\ub098\uc640 \uc18c\ud53c\ub294 \uc644\ub8cc\ud558\uc9c0\ub3c4 \ubabb\ud588\uaca0\uc9c0\ub9cc\uc694.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u800c\u4e14\uff0c\u4e54\u7eb3\u548c\u7d22\u83f2\u4e5f\u6765\u4e0d\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10100,6 +10154,7 @@
             }, {
                 "message": {
                     "en_US": "We'd need members of all classes, right?",
+                    "pt_BR": "Precisaríamos de membros de todas as classes, certo?",
                     "langUid": 351,
                     "ko_KR": "\ubaa8\ub4e0 \ud074\ub798\uc2a4\uac00 \ud55c \uba85\uc529 \ud544\uc694\ud55c \uac70\uc8e0?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u4eec\u5f97\u8981\u5168\u90e8\u804c\u4e1a\u624d\u884c\uff0c\u8bb0\u5f97\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -10116,6 +10171,7 @@
             }, {
                 "message": {
                     "en_US": "You guys... I just didn't want to bother you with my problems.",
+                    "pt_BR": "Pessoal... Eu só não queria incomodá-los com meus problemas.",
                     "langUid": 352,
                     "ko_KR": "\ub108\ud76c\ub4e4... \ub09c \ub0b4 \ubb38\uc81c\ub85c \ub108\ud76c\ub97c \uadc0\ucc2e\uac8c \ud558\uace0 \uc2f6\uc9c0 \uc54a\uc558\ub2e8\ub2e4.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4f60\u4eec...\u6211\u53ea\u662f\u4e0d\u60f3\u56e0\u4e3a\u81ea\u5df1\u7684\u539f\u56e0\u6253\u6405\u4f60\u4eec\u3002<<A<<[CHANGED 2019/02/01]",
@@ -10132,6 +10188,7 @@
             }, {
                 "message": {
                     "en_US": "Aww... Come on, dad. You can always talk to us!",
+                    "pt_BR": "Aww... Vamos lá, pai. Você sempre pode falar conosco!",
                     "langUid": 353,
                     "ko_KR": "\ubb50 \uc5b4\ub54c\uc694, \uc544\ube60. \uadf8\ub7f0 \uac74 \ub9d0\uc500\ud574\uc8fc\uc154\ub3c4 \ub3fc\uc694.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8001\u7238\u4f60\u4e0d\u7528\u8fd9\u6837\u5566\u3002\u60f3\u8ddf\u6211\u4eec\u804a\u5929\u8fd8\u4e0d\u5bb9\u6613\u5417\uff01<<A<<[CHANGED 2019/01/10]",
@@ -10148,6 +10205,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 354,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -10164,6 +10222,7 @@
             }, {
                 "message": {
                     "en_US": "Now I feel very stupid.",
+                    "pt_BR": "Agora eu me sinto muito estúpido.",
                     "langUid": 355,
                     "ko_KR": "\ubc14\ubcf4\uac00 \ub41c \ub290\ub08c\uc774\uad6c\ub098.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u597d\u5427\uff0c\u6211\u65e9\u8be5\u8fd9\u4e48\u505a\u7684\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10180,6 +10239,7 @@
             }, {
                 "message": {
                     "en_US": "Well, you should. And who is our blue-haired friend over here anyway?",
+                    "pt_BR": "Bem, você deveria. E quem é a nossa amiga de cabelo azul afinal?",
                     "langUid": 356,
                     "ko_KR": "\uadf8\ub7ec\uc154\uc57c\uc8e0. \uadfc\ub370 \uc5ec\uae30 \uc788\ub294 \uc774 \ud30c\ub780 \uba38\ub9ac \uce5c\uad6c\ub294 \ub204\uad6c\uc608\uc694?<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u662f\u8fd9\u6837\u3002\u90a3\u6211\u4eec\u8fd9\u4f4d\u84dd\u53d1\u670b\u53cb\u662f\u4ec0\u4e48\u4eba\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -10196,6 +10256,7 @@
             }, {
                 "message": {
                     "en_US": "Lea!",
+                    "pt_BR": "Lea!",
                     "langUid": 357,
                     "ko_KR": "\ub808\uc544!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8389\u4e9a\uff01<<A<<[CHANGED 2019/01/10]",
@@ -10212,6 +10273,7 @@
             }, {
                 "message": {
                     "en_US": "Yes, this is Lea. She helped me find all of those broken pieces needed for the quest.",
+                    "pt_BR": "Sim, esta é Lea. Ela me ajudou a encontrar todas aquelas peças quebradas necessárias para a busca.",
                     "langUid": 358,
                     "ko_KR": "\uadf8\ub798, \uc5ec\uae34 \ub808\uc544\ub780\ub2e4. \ud018\uc2a4\ud2b8\uc5d0 \ud544\uc694\ud55c \ubd80\uc11c\uc9c4 \ubb3c\uac74\uc744 \ucc3e\ub294 \uac78 \ub3c4\uc640\uc92c\uc9c0.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u8fd9\u4f4d\u662f\u8389\u4e9a\u3002\u662f\u5979\u5e2e\u6211\u627e\u5230\u4e86\u4efb\u52a1\u9700\u8981\u7684\u88c5\u5907\u788e\u7247\u3002<<A<<[CHANGED 2019/02/01]",
@@ -10228,6 +10290,7 @@
             }, {
                 "message": {
                     "en_US": "In fact, I barely did anything...",
+                    "pt_BR": "Na verdade, eu quase não fiz nada...",
                     "langUid": 359,
                     "ko_KR": "\uc0ac\uc2e4 \ub09c \uac70\uc758 \uc544\ubb34\uac83\ub3c4 \uc548 \ud55c\uac70\ub098 \ub9c8\ucc2c\uac00\uc9c0\ub780\ub2e4...<<A<<[CHANGED 2019/05/14]",
                     "zh_CN": "\u8001\u5b9e\u8bf4\uff0c\u6d3b\u57fa\u672c\u90fd\u662f\u5979\u5e72\u7684...<<A<<[CHANGED 2019/05/14]",
@@ -10244,6 +10307,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 360,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -10260,6 +10324,7 @@
             }, {
                 "message": {
                     "en_US": "Oh boy, I'm sorry, Lea. I hope he wasn't too much of a problem. He can get very... dramatic sometimes.",
+                    "pt_BR": "Puxa vida, desculpa, Lea. Espero que ele não tenha sido um grande problema. Ele pode ficar muito... dramático, às vezes.",
                     "langUid": 361,
                     "ko_KR": "\uc774\ub7f0, \ubbf8\uc548\ud574, \ub808\uc544. \uc544\ube60\uac00 \uace4\ub780\ud558\uac8c \ub9cc\ub4e4\uc9c0 \uc54a\uc558\uc73c\uba74 \uc88b\uaca0\ub124. \uac00\ub054... \uac10\uc815\uc758 \ubcc0\ud654\uac00 \uc2ec\ud560 \ub54c\uac00 \uc788\uac70\ub4e0.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u54ce\u5466\uff0c\u5bf9\u4e0d\u8d77\u554a\u8389\u4e9a\u3002\u5e0c\u671b\u6ca1\u592a\u9ebb\u70e6\u4f60\u3002\u4ed6\u8001\u559c\u6b22\u628a\u4e8b\u60c5\u5f04\u5f97\u7279\u5938\u5f20\u3002<<A<<[CHANGED 2021/03/05]",
@@ -10276,6 +10341,7 @@
             }, {
                 "message": {
                     "en_US": "He can get very, very dramatic sometimes.",
+                    "pt_BR": "Sim, ele fica muito, muito dramático às vezes.",
                     "langUid": 362,
                     "ko_KR": "\ub9de\uc544, \uac10\uc815\uc758 \ubcc0\ud654\uac00 \uc815\ub9d0 \uc2ec\ud560 \ub54c\uac00 \uc788\uc9c0.<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u786e\u5b9e\u662f\u8fd9\u6837\u3002<<A<<[CHANGED 2020/06/17]",
@@ -10292,6 +10358,7 @@
             }, {
                 "message": {
                     "en_US": "Hey now!",
+                    "pt_BR": "Tudo bem agora!",
                     "langUid": 363,
                     "ko_KR": "\uc774 \ub140\uc11d\ub4e4\uc544!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u884c\u4e86\u554a\uff01<<A<<[CHANGED 2019/01/10]",
@@ -10308,6 +10375,7 @@
             }, {
                 "message": {
                     "en_US": "[shakes head]",
+                    "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                     "langUid": 364,
                     "ko_KR": "[\ub3c4\ub9ac\ub3c4\ub9ac]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "[\u6447\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -10324,6 +10392,7 @@
             }, {
                 "message": {
                     "en_US": "It seems like a long talk is due.",
+                    "pt_BR": "Parece que devemos ter uma longa conversa.",
                     "langUid": 365,
                     "ko_KR": "\uc544\ubb34\ub798\ub3c4 \uae34 \ub300\ud654\ub97c \ub098\ub220\uc57c \ud560 \uac83 \uac19\ub124\uc694.<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u770b\u6765\u6211\u4eec\u5f97\u597d\u597d\u804a\u804a\u4e86\u3002<<A<<[CHANGED 2020/06/17]",
@@ -10340,6 +10409,7 @@
             }, {
                 "message": {
                     "en_US": "How about we go to our favorite cafe in \\v[area.rhombus-sqr.name] and have a chat?",
+                    "pt_BR": "Que tal irmos ao nosso café favorito em \\v[area.rhombus-sqr.name] e ter uma conversa?",
                     "langUid": 366,
                     "ko_KR": "\\v[area.rhombus-sqr.name]\uc5d0 \uc6b0\ub9ac\uac00 \uc88b\uc544\ud558\ub358 \uce74\ud398\uc5d0 \uac00\uc11c \uc218\ub2e4\ub97c \ub5a0\ub294 \uac8c \uc5b4\ub54c\uc694?<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u53bb\\v[area.rhombus-sqr.name]\u90a3\u5bb6\u6211\u4eec\u6700\u559c\u6b22\u7684\u5496\u5561\u5e97\u5750\u4e0b\u6765\u804a\u804a\u600e\u4e48\u6837\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -10356,6 +10426,7 @@
             }, {
                 "message": {
                     "en_US": "Maybe set a date on which Jonah and Sophie are available too?",
+                    "pt_BR": "Talvez marcar uma data em que Jonah e Sophie também estejam disponíveis?",
                     "langUid": 367,
                     "ko_KR": "\uc544\ub2c8\uba74 \uc870\ub098\uc640 \uc18c\ud53c\uac00 \uc2dc\uac04\uc774 \ub418\ub294 \ub0a0\uc744 \uc7a1\uc744\uae4c\uc694?<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u4e5f\u8bb8\u7ea6\u4e2a\u4e54\u7eb3\u548c\u7d22\u83f2\u90fd\u80fd\u6765\u7684\u65f6\u5019\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -10372,6 +10443,7 @@
             }, {
                 "message": {
                     "en_US": "That would be nice.",
+                    "pt_BR": "Isso seria legal.",
                     "langUid": 368,
                     "ko_KR": "\uadf8\ub798\uc8fc\uba74 \uc88b\uc9c0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u90a3\u6562\u60c5\u597d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10388,6 +10460,7 @@
             }, {
                 "message": {
                     "en_US": "You kids go ahead, there's something I need to give to Lea before I leave.",
+                    "pt_BR": "Vocês podem ir andando, há algo que eu preciso dar a Lea antes de partir.",
                     "langUid": 369,
                     "ko_KR": "\ub108\ud76c \uba3c\uc800 \uac00 \uc788\uc5b4\ub77c. \uac00\uae30 \uc804\uc5d0 \ub808\uc544\uc5d0\uac8c \uc918\uc57c \ud560 \uac83\uc774 \uc788\uc73c\ub2c8.<<A<<[CHANGED 2019/01/30]",
                     "zh_CN": "\u4f60\u4eec\u5148\u8d70\u5427\u3002\u6211\u6709\u4e9b\u4e1c\u897f\u8981\u7ed9\u8389\u4e9a\u3002<<A<<[CHANGED 2019/01/30]",
@@ -10404,6 +10477,7 @@
             }, {
                 "message": {
                     "en_US": "...?",
+                    "pt_BR": "...?",
                     "langUid": 370,
                     "ko_KR": "...?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...?<<A<<[CHANGED 2019/01/10]",
@@ -10420,6 +10494,7 @@
             }, {
                 "message": {
                     "en_US": "Alright. Bye Lea, it was nice meeting you.",
+                    "pt_BR": "Certo. Tchau Lea, foi uma prazer conhecer você.",
                     "langUid": 371,
                     "ko_KR": "\uc54c\uaca0\uc5b4\uc694. \uc798 \uac00, \ub808\uc544. \ub9cc\ub098\uc11c \ubc18\uac00\uc6e0\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u597d\u5427\u3002\u518d\u89c1\u4e86\uff0c\u8389\u4e9a\u5c0f\u59d0\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10436,6 +10511,7 @@
             }, {
                 "message": {
                     "en_US": "Yeah, see ya around.",
+                    "pt_BR": "Sim, te vejo por ai.",
                     "langUid": 372,
                     "ko_KR": "\uadf8\ub798, \ub098\uc911\uc5d0 \ubcf4\uc790.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u56de\u89c1\u55bd\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10452,6 +10528,7 @@
             }, {
                 "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Até logo!",
                     "langUid": 373,
                     "ko_KR": "\uc798 \uac00!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2019/01/10]",
@@ -10557,6 +10634,7 @@
             }, {
                 "name": {
                     "en_US": "Dkar",
+                    "pt_BR": "Dkar",
                     "langUid": 374,
                     "ko_KR": "\ub514\uce74\ub974<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8fea\u5361<<A<<[CHANGED 2019/01/10]",
@@ -10575,6 +10653,7 @@
             }, {
                 "message": {
                     "en_US": "Uhm...",
+                    "pt_BR": "Uhm...",
                     "langUid": 375,
                     "ko_KR": "\uc74c...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u55ef...<<A<<[CHANGED 2019/01/10]",
@@ -10591,6 +10670,7 @@
             }, {
                 "message": {
                     "en_US": "It seems I owe you an apology.",
+                    "pt_BR": "Parece que eu lhe devo desculpas.",
                     "langUid": 376,
                     "ko_KR": "\ub124\uac8c \ubbf8\uc548\ud558\ub2e4\ub294 \ub9d0\uc744 \ud574\uc57c\uaca0\uad70.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u770b\u6765\u6211\u6b20\u4f60\u4e00\u4e2a\u9053\u6b49\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10607,6 +10687,7 @@
             }, {
                 "message": {
                     "en_US": "I misjudged the whole situation.",
+                    "pt_BR": "Eu julguei mal toda a situação.",
                     "langUid": 377,
                     "ko_KR": "\uc774 \uc0c1\ud669\uc744 \uc804\ubd80 \uc624\ud574\ud588\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u662f\u6211\u8bef\u5224\u4e86\u72b6\u51b5\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10623,6 +10704,7 @@
             }, {
                 "message": {
                     "en_US": "And made you get all these items for what now feels like nothing.",
+                    "pt_BR": "E fiz você coletar todos esses items por nada.",
                     "langUid": 378,
                     "ko_KR": "\uc774\uc820 \uc544\ubb34\uac83\ub3c4 \uc544\ub2cc \uac8c \ub418\uc5b4\ubc84\ub9b0 \uc544\uc774\ud15c\uc744 \ucc3e\uac8c \ub9cc\ub4e4\uae30\ub3c4 \ud588\uace0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4e5f\u8ba9\u4f60\u7684\u8f9b\u82e6\u52aa\u529b\u767d\u8d39\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10639,6 +10721,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 379,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -10655,6 +10738,7 @@
             }, {
                 "message": {
                     "en_US": "Because of this, I think it is only fair that you have them.",
+                    "pt_BR": "Por causa disso, eu acho que a única coisa justa a ser feita é deixar eles com você.",
                     "langUid": 380,
                     "ko_KR": "\uadf8\ub7ec\ub2c8\uae4c \uc774 \ubb3c\uac74\ub4e4\uc740 \ub124\uac00 \uac00\uc838\uac00\ub294 \uac8c \ub9de\ub294 \uac83 \uac19\uad6c\ub098.<<A<<[CHANGED 2019/05/14]",
                     "zh_CN": "\u56e0\u6b64\uff0c\u6211\u5e0c\u671b\u4f60\u80fd\u6536\u4e0b\u8fd9\u4e9b\u88c5\u5907\u3002<<A<<[CHANGED 2019/05/14]",
@@ -10675,6 +10759,7 @@
                 "msgType": "OBTAINED",
                 "object": {
                     "en_US": "Broken Equipment",
+                    "pt_BR": "Equipamento Quebrado",
                     "langUid": 381,
                     "ko_KR": "\ubd80\uc11c\uc9c4 \uc7a5\ube44<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u7834\u635f\u88c5\u5907<<A<<[CHANGED 2019/01/10]",
@@ -10686,6 +10771,7 @@
             }, {
                 "name": {
                     "en_US": "Dkar",
+                    "pt_BR": "Dkar",
                     "langUid": 382,
                     "ko_KR": "\ub514\uce74\ub974<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8fea\u5361<<A<<[CHANGED 2019/01/10]",
@@ -10713,6 +10799,7 @@
             }, {
                 "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "langUid": 384,
                     "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
@@ -10729,6 +10816,7 @@
             }, {
                 "message": {
                     "en_US": "Thank you for everything, Lea.",
+                    "pt_BR": "Obrigado por tudo, Lea.",
                     "langUid": 385,
                     "ko_KR": "\uc804\ubd80 \uace0\ub9d9\ub2e4, \ub808\uc544.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8c22\u8c22\u4f60\u7684\u4ed8\u51fa\uff0c\u8389\u4e9a\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10745,6 +10833,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 401,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -10761,6 +10850,7 @@
             }, {
                 "message": {
                     "en_US": "My kids are everything to me. But it seems I let my fear of losing them take over.",
+                    "pt_BR": "Meus filhos são tudo pra mim. Mas parece que eu deixei o meu medo de perdê-los tomar conta de mim.",
                     "langUid": 386,
                     "ko_KR": "\ub0b4 \uc544\uc774\ub4e4\uc774 \ub0b4\uac90 \uc804\ubd80\uc57c. \ud558\uc9c0\ub9cc \uc544\uc774\ub4e4\uc744 \uc783\ub294\ub2e4\ub294 \ub450\ub824\uc6c0\uc5d0 \uc798\ubabb \ud310\ub2e8\ud55c \uac70 \uac19\uad6c\ub098.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u7684\u5b69\u5b50\u4eec\u662f\u6211\u7684\u4e00\u5207\u3002\u4f46\u6211\u5374\u8ba9\u6211\u7684\u6050\u60e7\u6240\u8ff7\u60d1\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10777,6 +10867,7 @@
             }, {
                 "message": {
                     "en_US": "I believed I did something wrong, but I guess this old man still has a lot to learn.",
+                    "pt_BR": "Eu pensava que tinha feito alguma coisa errada, mas eu acho que esse velho aqui ainda tem muita coisa a aprender.",
                     "langUid": 387,
                     "ko_KR": "\ub09c \ub0b4\uac00 \ubb54\uac00\ub97c \uc798\ubabb \ud588\ub2e4\uace0 \uc0dd\uac01\ud588\ub294\ub370 \uc774 \ub299\uc740\uc774\ub294 \uc544\uc9c1 \ubc30\uc6cc\uc57c \ud560 \uac8c \ub9ce\uc740 \uac83 \uac19\uad6c\ub098.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u8fd9\u4ef6\u4e8b\u662f\u6211\u7684\u4e0d\u5bf9\uff0c\u6211\u8fd9\u4e2a\u8001\u5934\u770b\u6765\u4e5f\u7f3a\u5c11\u4eba\u751f\u7684\u7ecf\u9a8c\u3002<<A<<[CHANGED 2019/02/01]",
@@ -10793,6 +10884,7 @@
             }, {
                 "message": {
                     "en_US": "Anyway, I'll be on my way now.",
+                    "pt_BR": "De qualquer forma, agora vou seguir meu caminho.",
                     "langUid": 391,
                     "ko_KR": "\uc544\ubb34\ud2bc \ub098\ub3c4 \uc774\ub9cc \uac00\uc57c\uaca0\ub2e4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u603b\u4e4b\uff0c\u6211\u8981\u8d70\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10809,6 +10901,7 @@
             }, {
                 "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Adeus!",
                     "langUid": 389,
                     "ko_KR": "\uc798 \uac00!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u518d\u89c1\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10901,6 +10994,7 @@
             }, {
                 "message": {
                     "en_US": "Everything went well in the end.",
+                    "pt_BR": "Tudo deu certo no final.",
                     "langUid": 392,
                     "ko_KR": "\uacb0\uad6d\uc5d4 \ub2e4 \uc798\ub410\ub124.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5927\u56e2\u5706\u7ed3\u5c40\u771f\u662f\u592a\u597d\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -10917,6 +11011,7 @@
             }, {
                 "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "langUid": 394,
                     "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -10933,6 +11028,7 @@
             }, {
                 "message": {
                     "en_US": "But... \\.\\.We still do not know why he is wearing that armor.",
+                    "pt_BR": "Mas... \\.\\.Ainda não sabemos por que ele está usando aquela armadura.",
                     "langUid": 395,
                     "ko_KR": "\uadfc\ub370... \\.\\.\uadf8\uac00 \uc65c \uc774 \uac11\uc637\uc744 \uc785\uace0 \uc788\ub294\uc9c0\ub294 \uc5ec\uc804\ud788 \uc54c\uc544\ub0b4\uc9c0 \ubabb\ud588\uc5b4.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4e0d\u8fc7... \\.\\.\u6211\u4eec\u8fd8\u662f\u4e0d\u77e5\u9053\u4ed6\u662f\u600e\u4e48\u7a7f\u4e0a\u8fd9\u8eab\u88c5\u5907\u7684\u3002<<A<<[CHANGED 2019/02/01]",
@@ -10949,6 +11045,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 396,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -10965,6 +11062,7 @@
             }, {
                 "message": {
                     "en_US": "Maybe he got it during the beta phase?",
+                    "pt_BR": "Talvez ele tenha conseguido isso durante a fase beta?",
                     "langUid": 397,
                     "ko_KR": "\ubca0\ud0c0 \ub2e8\uacc4 \ub54c \uc5bb\uc740 \uac74\uac00?<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4e5f\u8bb8\u4ed6\u5728\u516c\u6d4b\u671f\u95f4\u5c31\u5f00\u59cb\u73a9\u4e86\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -10981,6 +11079,7 @@
             }, {
                 "message": {
                     "en_US": "Looks like I am going to have a chat with our design team...",
+                    "pt_BR": "Parece que vou ter uma conversa com nossa equipe de design...",
                     "langUid": 398,
                     "ko_KR": "\ub514\uc790\uc778 \ud300\uacfc \uc598\uae30\ub97c \ud574\ubd10\uc57c\uaca0\uad70...<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u770b\u6765\u6211\u5f97\u53bb\u548c\u6211\u4eec\u7684\u8bbe\u8ba1\u56e2\u961f\u804a\u804a\u4e86...<<A<<[CHANGED 2019/02/01]",
@@ -10997,6 +11096,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 399,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -11147,6 +11247,7 @@
             }, {
                 "message": {
                     "en_US": "Oh look, those plates started glowing!",
+                    "pt_BR": "Oh veja, aquelas placas começaram a brilhar!",
                     "langUid": 393,
                     "ko_KR": "\uc774\uac83 \uc880 \ubd10, \ud310\uc774 \ube5b\ub098\uae30 \uc2dc\uc791\ud588\uc5b4!<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u770b\uff01\u62a4\u7532\u5f00\u59cb\u53d1\u5149\u4e86\uff01<<A<<[CHANGED 2020/06/17]",
@@ -11162,6 +11263,7 @@
             }, {
                 "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "langUid": 400,
                     "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
@@ -11227,6 +11329,7 @@
                     "quest": [{
                         "text": {
                             "en_US": "What is broken has been found.",
+                            "pt_BR": "O que estava quebrado foi achado.",
                             "langUid": 402,
                             "ko_KR": "\ubd80\uc11c\uc9c4 \ubb3c\uac74\uc744 \ucc3e\uc558\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2019/01/10]",
                             "zh_CN": "\u7834\u788e\u4e4b\u7269\u5df2\u7136\u5bfb\u56de\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11240,6 +11343,7 @@
                     }, {
                         "text": {
                             "en_US": "Now all shapes must come together to reveal the truth.",
+                            "pt_BR": "Agora todas as formas devem se juntar para revelar a verdade.",
                             "langUid": 511,
                             "ko_KR": "\uc774\uc81c \uc9c4\uc2e4\uc744 \ub4dc\ub7ec\ub0bc \ubaa8\ub4e0 \ubaa8\uc591\uc774 \ud558\ub098\ub85c \ud569\uccd0\uc9d1\ub2c8\ub2e4.<<A<<[CHANGED 2019/02/01]",
                             "zh_CN": "\u5c06\u6240\u6709\u5f62\u72b6\u878d\u5408\u4e3a\u4e00\u624d\u80fd\u63ed\u793a\u771f\u76f8\u3002<<A<<[CHANGED 2019/02/01]",
@@ -11268,6 +11372,7 @@
                         }, {
                             "message": {
                                 "en_US": "...How?",
+                                "pt_BR": "...Como?",
                                 "langUid": 512,
                                 "ko_KR": "...\uc5b4\ub5bb\uac8c?<<A<<[CHANGED 2019/02/01]",
                                 "zh_CN": "...\u600e\u4e48\u529e?<<A<<[CHANGED 2019/02/01]",
@@ -11293,6 +11398,7 @@
                         }, {
                             "message": {
                                 "en_US": "All shapes, huh? Sounds like you need a player from each class to open this door?",
+                                "pt_BR": "Todas as formas, Hein? Será que você precisa de um player de cada classe para abrir essa porta?",
                                 "langUid": 513,
                                 "ko_KR": "\ubaa8\ub4e0 \ubaa8\uc591? \uc774 \ubb38\uc744 \uc5f4\ub824\uba74 \ud074\ub798\uc2a4\ubcc4\ub85c \ud50c\ub808\uc774\uc5b4\uac00 \ud55c \uba85\uc529 \uc788\uc5b4\uc57c \ud55c\ub2e4\ub294 \uc598\uae30\ub85c \ub4e4\ub9ac\ub124.<<A<<[CHANGED 2019/02/01]",
                                 "zh_CN": "\u6240\u6709\u7684\u5f62\u72b6\uff1f\u770b\u6765\u4f60\u8981\u627e\u9f50\u6240\u6709\u7684\u804c\u4e1a\u624d\u80fd\u6253\u5f00\u8fd9\u6247\u95e8\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -11309,6 +11415,7 @@
                         }, {
                             "message": {
                                 "en_US": "[nods]",
+                                "pt_BR": "[acena com a cabeça]",
                                 "langUid": 514,
                                 "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/02/01]",
                                 "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/02/01]",
@@ -11325,6 +11432,7 @@
                         }, {
                             "message": {
                                 "en_US": "Maybe you can ask Hlin to help out?",
+                                "pt_BR": "Talvez você possa pedir ajuda para Hlin, certo?",
                                 "langUid": 515,
                                 "ko_KR": "\ud750\ub9b0\uc5d0\uac8c \ub3c4\uc6c0\uc744 \uc694\uccad\ud574\ubcfc\uae4c?<<A<<[CHANGED 2019/02/01]",
                                 "zh_CN": "\u95ee\u5e0c\u5c14\u6797\u5e2e\u5fd9\u600e\u4e48\u6837\uff1f<<A<<[CHANGED 2019/02/01]",
@@ -11341,6 +11449,7 @@
                         }, {
                             "message": {
                                 "en_US": "...!",
+                                "pt_BR": "...!",
                                 "langUid": 516,
                                 "ko_KR": "...!<<A<<[CHANGED 2019/02/01]",
                                 "zh_CN": "...!<<A<<[CHANGED 2019/02/01]",
@@ -11357,6 +11466,7 @@
                         }, {
                             "message": {
                                 "en_US": "[nods]",
+                                "pt_BR": "[acena com a cabeça]",
                                 "langUid": 411,
                                 "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                                 "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -11383,6 +11493,7 @@
                 "event": [{
                     "text": {
                         "en_US": "What is broken has been found.",
+                        "pt_BR": "O que estava quebrado foi achado.",
                         "langUid": 412,
                         "ko_KR": "\ubd80\uc11c\uc9c4 \ubb3c\uac74\uc744 \ucc3e\uc558\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u7834\u788e\u4e4b\u7269\u5df2\u7136\u5bfb\u56de\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11396,6 +11507,7 @@
                 }, {
                     "text": {
                         "en_US": "Now all shapes must come together to reveal the truth.",
+                        "pt_BR": "Agora todas as formas devem se juntar para revelar a verdade.",
                         "langUid": 413,
                         "ko_KR": "\uc774\uc81c \uc9c4\uc2e4\uc744 \ub4dc\ub7ec\ub0bc \ubaa8\ub4e0 \ubaa8\uc591\uc774 \ud558\ub098\ub85c \ud569\uccd0\uc9d1\ub2c8\ub2e4.<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u5c06\u6240\u6709\u5f62\u72b6\u878d\u5408\u4e3a\u4e00\u624d\u80fd\u63ed\u793a\u771f\u76f8\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11623,6 +11735,7 @@
             }, {
                 "message": {
                     "en_US": "Hey, Lea.",
+                    "pt_BR": "Ei, Lea.",
                     "langUid": 426,
                     "ko_KR": "\uc548\ub155, \ub808\uc544.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8389\u4e9a\u4f60\u597d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11639,6 +11752,7 @@
             }, {
                 "message": {
                     "en_US": "Hello dear!",
+                    "pt_BR": "Olá querida!",
                     "langUid": 421,
                     "ko_KR": "\uc548\ub155, \uc598\uc57c!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\u5440\u4eb2\u7231\u7684\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11655,6 +11769,7 @@
             }, {
                 "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "langUid": 422,
                     "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]",
@@ -11679,6 +11794,7 @@
                     "thenStep": [{
                         "message": {
                             "en_US": "Oh, where are Emilie and Tronny? Would you mind inviting them?",
+                            "pt_BR": "Oh, onde estão Emilie e Tronny? Você se importaria de convidá-los?",
                             "langUid": 427,
                             "ko_KR": "\uc5d0\ubc00\ub9ac\uc640 \ud2b8\ub85c\ub2c8\ub294 \uc5b4\ub514\uc5d0 \uc788\ub2c8? \ub124\uac00 \ubd88\ub7ec\ubcfc\ub798?<<A<<[CHANGED 2019/02/01]",
                             "zh_CN": "\u827e\u7c73\u8389\u548c\u9686\u9686\u5462\uff1f\u4f60\u6765\u9080\u8bf7\u4ed6\u4eec\u5427\u3002<<A<<[CHANGED 2019/02/01]",
@@ -11695,6 +11811,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "langUid": 420,
                             "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                             "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -11716,6 +11833,7 @@
                         "thenStep": [{
                             "message": {
                                 "en_US": "Oh looks like Emilie is still missing. Would you mind inviting her too?",
+                                "pt_BR": "Oh parece que está faltando a Emilie. Você poderia convidar ela também?",
                                 "langUid": 423,
                                 "ko_KR": "\uc5d0\ubc00\ub9ac\ub294 \uac19\uc774 \uc548 \uc654\uad6c\ub098. \ub124\uac00 \uc5d0\ubc00\ub9ac\ub3c4 \ubd88\ub7ec\ubcfc\ub798?<<A<<[CHANGED 2019/01/10]",
                                 "zh_CN": "\u827e\u7c73\u8389\u4e0d\u5728\u5462\u3002\u4f60\u6765\u9080\u8bf7\u5979\u5427\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11732,6 +11850,7 @@
                         }, {
                             "message": {
                                 "en_US": "[nods]",
+                                "pt_BR": "[acena com a cabeça]",
                                 "langUid": 424,
                                 "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                                 "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -11753,6 +11872,7 @@
                             "thenStep": [{
                                 "message": {
                                     "en_US": "Oh looks like Tronny is still missing. Would you mind inviting him too?",
+                                    "pt_BR": "Oh parece que está faltando o Tronny. Você poderia convidar ele também?",
                                     "langUid": 425,
                                     "ko_KR": "\ud2b8\ub85c\ub2c8\ub294 \uac19\uc774 \uc548 \uc654\uad6c\ub098. \ub124\uac00 \ud2b8\ub85c\ub2c8\ub3c4 \ubd88\ub7ec\ubcfc\ub798?<<A<<[CHANGED 2019/01/10]",
                                     "zh_CN": "\u9686\u9686\u4e0d\u5728\u5462\u3002\u4f60\u6765\u9080\u8bf7\u4ed6\u5427\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11769,6 +11889,7 @@
                             }, {
                                 "message": {
                                     "en_US": "[nods]",
+                                    "pt_BR": "[acena com a cabeça]",
                                     "langUid": 428,
                                     "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                                     "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -11792,6 +11913,7 @@
             }, {
                 "message": {
                     "en_US": "Looks like everyone is here, eh?",
+                    "pt_BR": "Vejo que todo mundo está aqui, sim?",
                     "langUid": 429,
                     "ko_KR": "\ubaa8\ub450 \uc628 \uac83 \uac19\ub124.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5927\u5bb6\u90fd\u5230\u9f50\u4e86\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -11817,6 +11939,7 @@
             }, {
                 "message": {
                     "en_US": "Hello, you two!",
+                    "pt_BR": "Olá, vocês duas!",
                     "langUid": 430,
                     "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/02/01]",
@@ -11842,6 +11965,7 @@
             }, {
                 "message": {
                     "en_US": "Bonjour! What are you guys doing here?",
+                    "pt_BR": "Bonjour! O que vocês estão fazendo aqui?",
                     "langUid": 431,
                     "ko_KR": "\ubd09\uc96c\ub974! \uc5ec\uae30\uc11c \ubb50 \ud558\ub294 \uac74\ub370?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u54c8\u55bd\uff01\u4f60\u4eec\u5728\u8fd9\u505a\u4ec0\u4e48\u5462\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -11858,6 +11982,7 @@
             }, {
                 "message": {
                     "en_US": "What? \\.\\.Didn't Lea tell you?",
+                    "pt_BR": "O que? \\.\\.Lea não te contou?",
                     "langUid": 432,
                     "ko_KR": "\ubb50? \\.\\.\ub808\uc544\uac00 \ub9d0 \uc548 \ud574\uc92c\uc5b4?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4ec0\u4e48? \\.\\.\u8389\u4e9a\u6ca1\u544a\u8bc9\u4f60\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -11874,6 +11999,7 @@
             }, {
                 "message": {
                     "en_US": "...How?",
+                    "pt_BR": "...Como?",
                     "langUid": 433,
                     "ko_KR": "...\uc5b4\ub5bb\uac8c?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...\u600e\u4e48\u529e?<<A<<[CHANGED 2019/01/10]",
@@ -11890,6 +12016,7 @@
             }, {
                 "message": {
                     "en_US": "Buggy, the joke's getting a bit old.",
+                    "pt_BR": "Buggy, essa piada já está ficando velha.",
                     "langUid": 434,
                     "ko_KR": "\ubc84\uae30, \ub18d\ub2f4\uc774 \uc61b\ub0a0 \uac19\uc9c0\uac00 \uc54a\ub124.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u963f\u866b\u554a\uff0c\u4e00\u4e2a\u7b11\u8bdd\u8bf4\u592a\u591a\u904d\u5c31\u4e0d\u597d\u7b11\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11906,6 +12033,7 @@
             }, {
                 "message": {
                     "en_US": "Sorry, Ma'am.",
+                    "pt_BR": "Desculpe, Senhora.",
                     "langUid": 435,
                     "ko_KR": "\ubbf8\uc548\ud569\ub2c8\ub2e4\uc694.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u597d\u5427\uff0c\u5bf9\u4e0d\u8d77\u3002<<A<<[CHANGED 2019/01/10]",
@@ -11922,6 +12050,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 436,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -11938,6 +12067,7 @@
             }, {
                 "message": {
                     "en_US": "Anyway...",
+                    "pt_BR": "De qualquer forma...",
                     "langUid": 437,
                     "ko_KR": "\uc544\ubb34\ud2bc...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u603b\u4e4b..<<A<<[CHANGED 2019/01/10]",
@@ -11972,6 +12102,7 @@
             }, {
                 "message": {
                     "en_US": "We are here today because Lea has found the 5 broken relics!",
+                    "pt_BR": "Nós estamos aqui hoje porque Lea encontrou as 5 relíquias quebradas!",
                     "langUid": 438,
                     "ko_KR": "\uc6b0\ub9ac\uac00 \uc624\ub298 \uc5ec\uae30 \ubaa8\uc778 \uc774\uc720\ub294 \ub808\uc544\uac00 5\uac1c\uc758 \ubd80\uc11c\uc9c4 \uc720\ubb3c\uc744 \ucc3e\uc558\uae30 \ub54c\ubb38\uc774\ub780\ub2e4!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u4eec\u96c6\u5408\u662f\u56e0\u4e3a\u8389\u4e9a\u627e\u9f50\u4e865\u7247\u7834\u788e\u88c5\u5907\uff01<<A<<[CHANGED 2019/01/10]",
@@ -11988,6 +12119,7 @@
             }, {
                 "message": {
                     "en_US": "With these she can unravel the secret behind this ruined observatory.",
+                    "pt_BR": "Com eles ela pode desvendar o segredo por trás deste observatório arruinado.",
                     "langUid": 439,
                     "ko_KR": "\uadf8\uac78\ub85c \ud398\ud5c8\uac00 \ub41c \uad00\uce21\uc18c \ub4a4\uc5d0 \uc228\uaca8\uc9c4 \ube44\ubc00\uc744 \ud30c\ud5e4\uce60 \uc218 \uc788\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6709\u4e86\u8fd9\u4e9b\uff0c\u5979\u5c31\u80fd\u63ed\u5f00\u89c2\u6d4b\u7ad9\u80cc\u540e\u7684\u79d8\u5bc6\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12004,6 +12136,7 @@
             }, {
                 "message": {
                     "en_US": "However, all 5 virtues must come together in unison to unlock the door!",
+                    "pt_BR": "Entretando, todas as 5 virtudes devem estar reunídas para abrir a porta!",
                     "langUid": 440,
                     "ko_KR": "\ud558\uc9c0\ub9cc \ubb38\uc744 \uc5f4\ub824\uba74 5\uac1c\uc758 \ubbf8\ub355\uc774 \ud654\ud569\uc744 \uc774\ub904\uc57c \ud558\uc9c0!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f46\u662f\uff0c\u4e3a\u4e86\u89e3\u9501\u5927\u95e8\uff0c\u9700\u8981\u96c6\u9f50\u4e94\u79cd\u7f8e\u5fb7\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12020,6 +12153,7 @@
             }, {
                 "message": {
                     "en_US": "As long as there's loot, I'm in!",
+                    "pt_BR": "Se tiver loot, eu estou dentro!",
                     "langUid": 441,
                     "ko_KR": "\ub09c \uc804\ub9ac\ud488\ub9cc \uc788\ub2e4\uba74 \ud560\uac8c!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u53ea\u8981\u7ed9\u88c5\u5907\u6211\u5c31\u52a0\u5165\u597d\u5427\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12036,6 +12170,7 @@
             }, {
                 "message": {
                     "en_US": "I didn't know there was such an event!",
+                    "pt_BR": "Eu não sabia que havia um evento assim!",
                     "langUid": 442,
                     "ko_KR": "\uadf8\ub7f0 \uc774\ubca4\ud2b8\uac00 \uc788\ub294 \uc904\uc740 \ubab0\ub790\ub294\uac78!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u90fd\u4e0d\u77e5\u9053\u6e38\u620f\u91cc\u8fd8\u6709\u8fd9\u79cd\u4e8b\u4ef6\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12052,6 +12187,7 @@
             }, {
                 "message": {
                     "en_US": "Well, it's not easy to find as it's not connected to any other quest.",
+                    "pt_BR": "Bem, não é fácil de encontrar, pois não está ligado a nenhuma outra quest.",
                     "langUid": 443,
                     "ko_KR": "\ub2e4\ub978 \ud018\uc2a4\ud2b8\uc640 \uc5f0\uacb0\ub418\uc5b4 \uc788\ub294 \uac8c \uc544\ub2c8\ub2c8 \ucc3e\uae30 \uc27d\uc9c4 \uc54a\uac70\ub4e0.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u786e\u5b9e\u85cf\u5f97\u5f88\u9690\u853d\uff0c\u800c\u4e14\u8ddf\u5176\u4ed6\u7684\u4efb\u52a1\u90fd\u6ca1\u6709\u5173\u8054\u3002<<A<<[CHANGED 2021/03/05]",
@@ -12068,6 +12204,7 @@
             }, {
                 "message": {
                     "en_US": "Each region has a secret area that contains one of the pieces.",
+                    "pt_BR": "Cada região tem uma área secreta que contém uma das peças.",
                     "langUid": 444,
                     "ko_KR": "\uac01 \uc9c0\uc5ed\uc5d0\ub294 \ubd80\uc11c\uc9c4 \ubb3c\uac74\ub4e4 \uc911 \ud558\ub098\uac00 \uc788\ub294 \uc228\uaca8\uc9c4 \uc7a5\uc18c\uac00 \uc788\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6bcf\u4e2a\u533a\u57df\u4e2d\u90fd\u5305\u542b\u4e86\u4e00\u4e2a\u79d8\u5bc6\u5730\u70b9\uff0c\u85cf\u6709\u8fd9\u6837\u7684\u4e00\u4e2a\u788e\u7247\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12084,6 +12221,7 @@
             }, {
                 "message": {
                     "en_US": "Oh well, I was never good at finding all those secret locations.",
+                    "pt_BR": "Oh bem, eu nunca fui bom em encontrar todos aqueles locais secretos.",
                     "langUid": 446,
                     "ko_KR": "\uc774\ub7f0, \uc5b4\ucc28\ud53c \ub09c \ube44\ubc00 \uc7a5\uc18c\ub97c \ucc3e\ub294 \ub374 \uc82c\ubcd1\uc774\ub2c8\uae4c.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u597d\u5427\uff0c\u6211\u786e\u5b9e\u4e0d\u592a\u64c5\u957f\u627e\u8fd9\u4e9b\u9690\u85cf\u70b9\u3002<<A<<[CHANGED 2019/02/01]",
@@ -12100,6 +12238,7 @@
             }, {
                 "message": {
                     "en_US": "Typical new players. They don't know the joy of walking aimlessly through the wilds for hours.",
+                    "pt_BR": "Típicos jogadores novatos. Eles não conhecem a alegria de caminhar sem rumo pelos campos durante horas.",
                     "langUid": 447,
                     "ko_KR": "\uc804\ud615\uc801\uc778 \ub274\ube44 \uac19\ub124. \uc57c\uc0dd\uc5d0\uc11c \uba87 \uc2dc\uac04 \ub3d9\uc548 \ubaa9\uc801\ub3c4 \uc5c6\uc774 \uac70\ub2c8\ub294 \uc7ac\ubbf8\ub97c \ubab0\ub77c.<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u5178\u578b\u7684\u65b0\u73a9\u5bb6\u3002\u6211\u770b\u4f60\u662f\u5b8c\u5168\u4e0d\u61c2\u554a\u3002<<A<<[CHANGED 2020/06/17]",
@@ -12116,6 +12255,7 @@
             }, {
                 "message": {
                     "en_US": "All to find a piece of broken equipment.",
+                    "pt_BR": "Tudo para achar um pedaço de um equipamento quebrado.",
                     "langUid": 448,
                     "ko_KR": "\uace0\uc791 \uc774 \ubd80\uc11c\uc9c4 \uc7a5\ube44 \ub54c\ubb38\uc5d0 \ub9d0\uc774\uc9c0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5728\u5e7f\u88a4\u7684\u6e38\u620f\u5730\u56fe\u4e0a\u5bf8\u571f\u641c\u67e5\uff0c\u5c31\u4e3a\u4e86\u627e\u5230\u51e0\u7247\u88c5\u5907\u788e\u7247\u7684\u4e50\u8da3\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12132,6 +12272,7 @@
             }, {
                 "message": {
                     "en_US": "Nyeeahahahaha!",
+                    "pt_BR": "Nyeeahahahaha!",
                     "langUid": 449,
                     "ko_KR": "\ub0d0\ud558\ud558\ud558\ud558\ud558!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u634f\u54c8\u54c8\u54c8\u54c8\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12148,6 +12289,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 450,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -12164,6 +12306,7 @@
             }, {
                 "message": {
                     "en_US": "Why are you here, Buggy?",
+                    "pt_BR": "Por que você está aqui, Buggy?",
                     "langUid": 451,
                     "ko_KR": "\ub10c \uc5ec\uae30 \uc65c \uc628 \uac70\uc57c, \ubc84\uae30?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u90a3\u4f60\u6765\u5e72\u561b\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -12180,6 +12323,7 @@
             }, {
                 "message": {
                     "en_US": "It's a secret to everybody.",
+                    "pt_BR": "É um segredo para todos.",
                     "langUid": 452,
                     "ko_KR": "\ub9d0 \uc548 \ud574\uc904 \uac74\ub370?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8fd9\u662f\u79d8\u5bc6\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12196,6 +12340,7 @@
             }, {
                 "message": {
                     "en_US": "You haven't found any of these items yourself either, oui?",
+                    "pt_BR": "Você mesmo também não encontrou nenhum desses itens, oui?",
                     "langUid": 453,
                     "ko_KR": "\uc774 \ubb3c\uac74\ub4e4\uc744 \ub124\uac00 \ucc3e\uc740 \uac83\ub3c4 \uc544\ub2c8\uc796\uc544.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u662f\u4e00\u4e2a\u788e\u7247\u90fd\u6ca1\u627e\u5230\u5427\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -12212,6 +12357,7 @@
             }, {
                 "message": {
                     "en_US": "Precisely.",
+                    "pt_BR": "Exatamente.",
                     "langUid": 454,
                     "ko_KR": "\uadf8\ub807\uae34 \ud558\uc9c0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6ca1\u9519\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12228,6 +12374,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 456,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -12244,6 +12391,7 @@
             }, {
                 "message": {
                     "en_US": "So what exactly do we need to do?",
+                    "pt_BR": "Então, o que exatamente precisamos fazer?",
                     "langUid": 457,
                     "ko_KR": "\uadf8\ub798\uc11c \uc815\ud655\ud788 \ubb58 \ud574\uc57c \ud558\ub294\ub370?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u90a3\u6211\u4eec\u8981\u600e\u4e48\u5b8c\u6210\u8fd9\u4e2a\u4efb\u52a1\u5462\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -12260,6 +12408,7 @@
             }, {
                 "message": {
                     "en_US": "Oui, oui! Where is the loot?!",
+                    "pt_BR": "Oui, oui! Onde está o loot?!",
                     "langUid": 458,
                     "ko_KR": "\uadf8\ub798, \uadf8\ub798! \uc804\ub9ac\ud488\uc740 \uc5b4\ub514 \uc788\uc5b4?!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5bf9\u554a\uff01\u8fd8\u6709\u505a\u5b8c\u7ed9\u4ec0\u4e48\u88c5\u5907\uff1f\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12276,6 +12425,7 @@
             }, {
                 "message": {
                     "en_US": "It's quite simple, actually.",
+                    "pt_BR": "É bastante simples, na verdade.",
                     "langUid": 459,
                     "ko_KR": "\uc0ac\uc2e4 \uaf64 \uac04\ub2e8\ud574.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5176\u5b9e\u633a\u7b80\u5355\u7684\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12292,6 +12442,7 @@
             }, {
                 "message": {
                     "en_US": "First, each one of us needs to hold one of the relics.",
+                    "pt_BR": "Em primeiro lugar, cada um de nós precisa segurar uma das relíquias.",
                     "langUid": 460,
                     "ko_KR": "\uba3c\uc800 \uac01\uc790 \ud558\ub098\uc529 \uc720\ubb3c\uc744 \uc9d1\uc5b4 \ubd10.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u6211\u4eec\u6bcf\u4eba\u62ff\u4e00\u7247\u788e\u7247\u3002<<A<<[CHANGED 2021/03/05]",
@@ -12308,6 +12459,7 @@
             }, {
                 "message": {
                     "en_US": "The sword for a Triblader, the shield for a Quadroguard...",
+                    "pt_BR": "A espada para um Triblader, o escudo para um Quadroguard...",
                     "langUid": 461,
                     "ko_KR": "\uc0bc\uac80\uc0ac\ub294 \uac80, \uc0ac\uc804\uc0ac\ub294 \ubc29\ud328...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u53c1\u5203\u5251\u5ba2\u62ff\u5251\uff0c\u65b9\u5ca9\u62a4\u536b\u62ff\u76fe...<<A<<[CHANGED 2019/01/10]",
@@ -12324,6 +12476,7 @@
             }, {
                 "message": {
                     "en_US": "The gauntlet for a Pentafist, the deck for a Hexacast and finally...",
+                    "pt_BR": "A manopla para um Pentafist, o deck para um Hexacast e finalmente...",
                     "langUid": 462,
                     "ko_KR": "\uc624\uad8c\uc0ac\ub294 \uac74\ud2c0\ub9bf, \uc721\ubc95\uc0ac\ub294 \ub371, \uadf8\ub9ac\uace0 \ub9c8\uc9c0\ub9c9\uc73c\ub85c...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6b66\u661f\u62f3\u624b\u62ff\u62f3\u5957\uff0c\u9646\u5408\u6cd5\u5e08\u62ff\u5361\u724c...<<A<<[CHANGED 2019/01/10]",
@@ -12340,6 +12493,7 @@
             }, {
                 "message": {
                     "en_US": "...the chakrams for a Spheromancer!",
+                    "pt_BR": "...os chakrams para um Spheromancer!",
                     "langUid": 463,
                     "ko_KR": "...\uc6d0\uc220\uc0ac\ub294 \ucc28\ud06c\ub78c!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...\u6c14\u5706\u4f7f\u8005\u62ff\u73af\u5203\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12356,6 +12510,7 @@
             }, {
                 "message": {
                     "en_US": "Then, we stand next to the plates here and fit the relics in.",
+                    "pt_BR": "Então, ficamos ao lado das placas aqui e encaixamos as relíquias.",
                     "langUid": 464,
                     "ko_KR": "\uadf8\ub9ac\uace0 \uc5ec\uae30 \uc788\ub294 \ud310 \uc606\uc5d0 \uc11c\uc11c \uc720\ubb3c\uc744 \ubaa8\uc591\uc5d0 \ub9de\uac8c \ub123\ub294 \uac70\uc57c.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u7136\u540e\uff0c\u6211\u4eec\u7ad9\u5728\u5bf9\u5e94\u7684\u5730\u7816\u4e0a\uff0c\u5c06\u788e\u7247\u5d4c\u5165\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12372,6 +12527,7 @@
             }, {
                 "message": {
                     "en_US": "And the rest is in the hands of the Ancients.",
+                    "pt_BR": "E o resto está nas mãos dos Antigos.",
                     "langUid": 465,
                     "ko_KR": "\ub098\uba38\uc9c0\ub294 \uace0\ub300\uc778\uc758 \uc190\uc5d0 \ub2ec\ub838\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4e4b\u540e\u5c31\u662f\u5148\u7956\u7684\u4e8b\u60c5\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12388,6 +12544,7 @@
             }, {
                 "message": {
                     "en_US": "Sounds simple enough, let's get on it!",
+                    "pt_BR": "Soa bastante simples, vamos nessa!",
                     "langUid": 466,
                     "ko_KR": "\uac04\ub2e8\ud55c\ub370? \uc5b4\uc11c \ud574\ubcf4\uc790\uace0!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u542c\u8d77\u6765\u5f88\u7b80\u5355\uff0c\u5f00\u59cb\u5427\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12404,6 +12561,7 @@
             }, {
                 "message": {
                     "en_US": "Right! Lea, dear. Do you mind handing each of us one of the relics?",
+                    "pt_BR": "Certo! Lea, querida. Você se importa de entregar a cada um de nós uma das relíquias?",
                     "langUid": 467,
                     "ko_KR": "\uc88b\uc558\uc5b4! \ub808\uc544, \uc6b0\ub9ac\uc5d0\uac8c \uc720\ubb3c\uc744 \ub098\ub220\uc904\ub798?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u597d\uff01\u8389\u4e9a\u4eb2\uff0c\u8bf7\u628a\u788e\u7247\u5206\u7ed9\u6211\u4eec\u5427\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12420,6 +12578,7 @@
             }, {
                 "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "langUid": 468,
                     "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -12687,6 +12846,7 @@
             }, {
                 "message": {
                     "en_US": "Now, everyone! Fit in your relics and then step on the plates!",
+                    "pt_BR": "Agora, todos! Encaixem em suas relíquias e depois pisem nas placas!",
                     "langUid": 469,
                     "ko_KR": "\uc790, \ubaa8\ub450! \uc720\ubb3c\uc744 \ub123\uc740 \ub2e4\uc74c\uc5d0 \ud310 \uc704\uc5d0 \uc11c \ubd10!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u597d\uff0c\u5927\u5bb6\u628a\u788e\u7247\u5d4c\u5165\uff0c\u7136\u540e\u7ad9\u5728\u5730\u7816\u4e0a\uff01<<A<<[CHANGED 2019/01/10]",
@@ -13061,6 +13221,7 @@
             }, {
                 "message": {
                     "en_US": "Wow, funky!",
+                    "pt_BR": "Uau, sinistro!",
                     "langUid": 470,
                     "ko_KR": "\uc640\uc6b0, \uc9dc\ub9bf\ud574!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u54c7\u54e6\uff01<<A<<[CHANGED 2019/01/10]",
@@ -13569,6 +13730,7 @@
             }, {
                 "message": {
                     "en_US": "Oh, there you are, dear.",
+                    "pt_BR": "Oh, aí está você, querida.",
                     "langUid": 474,
                     "ko_KR": "\uac70\uae30 \uc788\uc5c8\uad6c\ub098, \uc598\uc57c.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u4f60\u8be5\u7ad9\u5230\u90a3\u91cc\uff0c\u4eb2\u3002<<A<<[CHANGED 2021/03/05]",
@@ -13607,6 +13769,7 @@
             }, {
                 "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "langUid": 475,
                     "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]",
@@ -13623,6 +13786,7 @@
             }, {
                 "message": {
                     "en_US": "And? Did you like what you saw?",
+                    "pt_BR": "E? Você gostou do que viu?",
                     "langUid": 476,
                     "ko_KR": "\uc5b4\ub54c? \ub9c8\uc74c\uc5d0 \ub4e4\uc5c8\ub2c8?<<A<<[CHANGED 2019/01/30]",
                     "zh_CN": "\u600e\u4e48\u6837\uff1f\u4e0d\u9519\u5427\uff1f<<A<<[CHANGED 2019/01/30]",
@@ -13639,6 +13803,7 @@
             }, {
                 "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "langUid": 477,
                     "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -13655,6 +13820,7 @@
             }, {
                 "message": {
                     "en_US": "To think this is where the Ancients gazed upon the stars.",
+                    "pt_BR": "E pensar que era aqui que os Antigos olhavam as estrelas.",
                     "langUid": 478,
                     "ko_KR": "\uc0dd\uac01\ud574\ubcf4\ub2c8\uae4c \uc774\uacf3\uc774 \uace0\ub300\uc778\ub4e4\uc774 \ubcc4\uc744 \ubd24\ub358 \uacf3\uc778\uac00 \ubd10.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u539f\u6765\u5148\u7956\u66fe\u7ecf\u7ad9\u5728\u8fd9\u91cc\u773a\u671b\u661f\u7a7a\u3002<<A<<[CHANGED 2019/02/01]",
@@ -13671,6 +13837,7 @@
             }, {
                 "message": {
                     "en_US": "I especially loved the bunnies on that mural.",
+                    "pt_BR": "Eu particularmente amei os coelhos naquele mural.",
                     "langUid": 479,
                     "ko_KR": "\ub09c \ubcbd\uc5d0 \uc788\ub294 \ud1a0\ub07c \uadf8\ub9bc\uc774 \ud2b9\ud788 \ub9c8\uc74c\uc5d0 \ub4e4\uc5c8\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u559c\u6b22\u58c1\u753b\u4e0a\u7684\u5154\u5b50\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13687,6 +13854,7 @@
             }, {
                 "message": {
                     "en_US": "Oh, come now, Buggy! Those were clearly meant to depict the Ancients themselves.",
+                    "pt_BR": "Ah, qual é, Buggy! Esses foram claramente destinados a retratar os próprios Antigos.",
                     "langUid": 480,
                     "ko_KR": "\uc73c\uc774\uad6c, \ubc84\uae30! \uadf8\uac74 \uace0\ub300\uc778\uc744 \ud615\uc0c1\ud654\ud55c \uac78 \uac70\uc57c.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u963f\u866b\uff01\u90a3\u660e\u663e\u662f\u5148\u7956\u4eec\u7684\u5f62\u8c61\u3002<<A<<[CHANGED 2021/03/05]",
@@ -13703,6 +13871,7 @@
             }, {
                 "message": {
                     "en_US": "So, not bird people, but bunny people?",
+                    "pt_BR": "Então, não são os pássaros, mas os coelhos?",
                     "langUid": 481,
                     "ko_KR": "\uadf8\ub7ec\ub2c8\uae4c \uc0c8 \uc778\uac04\uc774 \uc544\ub2c8\ub77c \uc0ac\uc2e4\uc740 \ud1a0\ub07c \uc778\uac04\uc774\uc5c8\ub358 \uac70\uc9c0?<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u6240\u4ee5\u5148\u7956\u4e0d\u662f\u9e1f\u4eba\u800c\u662f\u5154\u4eba\uff1f<<A<<[CHANGED 2021/03/05]",
@@ -13719,6 +13888,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 482,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -13735,6 +13905,7 @@
             }, {
                 "message": {
                     "en_US": "Anyway, where are the other two?",
+                    "pt_BR": "De qualquer forma, onde estão os outros dois?",
                     "langUid": 483,
                     "ko_KR": "\uc544\ubb34\ud2bc \ub098\uba38\uc9c0 \ub458\uc740 \uc5b4\ub514 \uac14\uc9c0?<<A<<[CHANGED 2019/01/30]",
                     "zh_CN": "\u4ed6\u4eec\u4fe9\u4eba\u5462\uff1f<<A<<[CHANGED 2019/01/30]",
@@ -13978,6 +14149,7 @@
             }, {
                 "message": {
                     "en_US": "Welcome back! How was it?",
+                    "pt_BR": "Bem-vindo de volta! Como foi?",
                     "langUid": 484,
                     "ko_KR": "\uc5b4\uc11c \uc640! \uc5b4\ub560\uc5b4?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6b22\u8fce\u56de\u6765\uff01\u611f\u89c9\u5982\u4f55\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -13994,6 +14166,7 @@
             }, {
                 "message": {
                     "en_US": "Well, it certainly was interesting.",
+                    "pt_BR": "Bem, isso concerteza foi interessante.",
                     "langUid": 485,
                     "ko_KR": "\uc815\ub9d0 \ud765\ubbf8\ub85c\uc6e0\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u786e\u5b9e\u6709\u8da3\u3002<<A<<[CHANGED 2019/01/10]",
@@ -14010,6 +14183,7 @@
             }, {
                 "message": {
                     "en_US": "And we got some nice CP to spend.",
+                    "pt_BR": "E nós conseguimos uma boa quantidade de CP para gastar.",
                     "langUid": 486,
                     "ko_KR": "\uac8c\ub2e4\uac00 CP\ub3c4 \uc5bb\uc5c8\uace0 \ub9d0\uc774\uc57c.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u800c\u4e14\u8fd8\u5f97\u5230\u4e86CP\u70b9\u6570\u3002<<A<<[CHANGED 2019/01/10]",
@@ -14026,6 +14200,7 @@
             }, {
                 "message": {
                     "en_US": "Yes! More power for me!",
+                    "pt_BR": "Sim! mais poder pra mim!",
                     "langUid": 487,
                     "ko_KR": "\uc88b\uc558\uc5b4! \ub0b4 \ud798\uc774 \ub354 \uac15\ub825\ud574\uc9c4\ub2e4!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u53c8\u53d8\u5f3a\u5566\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14042,6 +14217,7 @@
             }, {
                 "message": {
                     "en_US": "All thanks to our ch\u00e9rie, Lea.",
+                    "pt_BR": "Tudo graças á nossa amiga, Lea.",
                     "langUid": 488,
                     "ko_KR": "\uc774\uac8c \ub2e4 \uadc0\uc5fc\ub465\uc774 \ub808\uc544 \ub355\ubd84\uc774\uc57c.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u90fd\u8981\u8c22\u8c22\u8389\u4e9a\u3002<<A<<[CHANGED 2021/03/05]",
@@ -14058,6 +14234,7 @@
             }, {
                 "message": {
                     "en_US": "Lea!",
+                    "pt_BR": "Lea!",
                     "langUid": 509,
                     "ko_KR": "\ub808\uc544!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8389\u4e9a\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14074,6 +14251,7 @@
             }, {
                 "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "langUid": 494,
                     "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -14090,6 +14268,7 @@
             }, {
                 "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "langUid": 510,
                     "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
@@ -14106,6 +14285,7 @@
             }, {
                 "message": {
                     "en_US": "Huh? Me?",
+                    "pt_BR": "Hein? Eu?",
                     "langUid": 496,
                     "ko_KR": "\uc751? \ub098?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u554a\uff1f\u6211\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -14122,6 +14302,7 @@
             }, {
                 "message": {
                     "en_US": "No need to thank me, I'm happy I was able to help.",
+                    "pt_BR": "Não precisa me agradecer, eu estou feliz em ter ajudado.",
                     "langUid": 497,
                     "ko_KR": "\uace0\ub9c8\uc6cc\ud558\uc9c0 \uc54a\uc544\ub3c4 \ub3fc. \ub0a0 \ub110 \ub3c4\uc640\uc904 \uc218 \uc788\uc5b4\uc11c \ud589\ubcf5\ud588\uc5b4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4e0d\u7528\u8c22\u6211\uff0c\u6211\u5f88\u4e50\u610f\u5e2e\u5fd9\u3002<<A<<[CHANGED 2019/01/10]",
@@ -14138,6 +14319,7 @@
             }, {
                 "message": {
                     "en_US": "Especially with an event so rich in lore.",
+                    "pt_BR": "Especialmente com um evento tão rico em lore.",
                     "langUid": 498,
                     "ko_KR": "\uac8c\ub2e4\uac00 \uc774\ubca4\ud2b8\ub85c \uc9c0\uc2dd\uc744 \ucc44\uc6b8 \uc218\ub3c4 \uc788\uc5c8\uace0 \ub9d0\uc774\uc57c.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5c24\u5176\u8fd8\u662f\u8fd9\u4e48\u5267\u60c5\u76f8\u5173\u7684\u4efb\u52a1\u3002<<A<<[CHANGED 2019/01/10]",
@@ -14154,6 +14336,7 @@
             }, {
                 "message": {
                     "en_US": "I hate to break up the party so soon, but I gotta run.",
+                    "pt_BR": "Detesto interromper a festa tão cedo, mas tenho que correr.",
                     "langUid": 499,
                     "ko_KR": "\uc774\ub807\uac8c \uae08\ubc29 \ud30c\ud2f0\ub97c \ub05d\ub0b4\uace0 \uc2f6\uc9c0\ub294 \uc54a\uc9c0\ub9cc \ub09c \uac00\ubcfc \ub370\uac00 \uc788\uc5b4\uc11c \uc774\ub9cc.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u4e0d\u8fc7\u6211\u8fd8\u6709\u4e8b\uff0c\u5f97\u95ea\u4eba\u4e86\u3002<<A<<[CHANGED 2019/02/01]",
@@ -14170,6 +14353,7 @@
             }, {
                 "message": {
                     "en_US": "That's alright. Sadly, this is where the event ends anyway.",
+                    "pt_BR": "Está tudo bem. Infelizmente, é aqui que o evento termina mesmo.",
                     "langUid": 500,
                     "ko_KR": "\uad1c\ucc2e\uc544. \uc2ac\ud504\uc9c0\ub9cc \uc774\ubca4\ud2b8\ub294 \uc5ec\uae30\uc11c \ub05d\ub098\ub294 \uac8c \ub9de\uc73c\ub2c8\uae4c.<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u6ca1\u5173\u7cfb\u7684\u3002\u8fd9\u4e2a\u4e8b\u4ef6\u4e5f\u5230\u6b64\u4e3a\u6b62\u4e86\u3002<<A<<[CHANGED 2021/03/05]",
@@ -14186,6 +14370,7 @@
             }, {
                 "message": {
                     "en_US": "I guess I'll make my way back to headquarters, eh?",
+                    "pt_BR": "Acho que vou voltar à sede.",
                     "langUid": 501,
                     "ko_KR": "\ub098\ub3c4 \ubcf8\ubd80\ub85c \ub3cc\uc544\uac00\ubd10\uc57c\uaca0\ub2e4.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u90a3\u6211\u4e5f\u56de\u603b\u90e8\u4e86\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -14202,6 +14387,7 @@
             }, {
                 "message": {
                     "en_US": "See you soon, everyone!",
+                    "pt_BR": "Vejo vocês em breve, pessoal!",
                     "langUid": 502,
                     "ko_KR": "\ubaa8\ub450 \ub098\uc911\uc5d0 \ubd10!<<A<<[CHANGED 2021/03/05]",
                     "zh_CN": "\u5927\u5bb6\u56de\u89c1\uff01<<A<<[CHANGED 2021/03/05]",
@@ -14218,6 +14404,7 @@
             }, {
                 "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "langUid": 503,
                     "ko_KR": "\uc798 \uac00!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14234,6 +14421,7 @@
             }, {
                 "message": {
                     "en_US": "Au revoir!",
+                    "pt_BR": "Au revoir!",
                     "langUid": 504,
                     "ko_KR": "\ub2e4\uc74c\uc5d0 \ubd10!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u767d\u767d\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14250,6 +14438,7 @@
             }, {
                 "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "langUid": 505,
                     "ko_KR": "\uc798 \uac00!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14273,6 +14462,7 @@
                 },
                 "text": {
                     "en_US": "Logout",
+                    "pt_BR": "Desconectando",
                     "langUid": 506,
                     "ko_KR": "\ub85c\uadf8\uc544\uc6c3<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u767b\u51fa<<A<<[CHANGED 2019/01/10]",
@@ -14337,6 +14527,7 @@
             }, {
                 "message": {
                     "en_US": "Who's in for bashing some monsters with our newfound powers?",
+                    "pt_BR": "Quem está disposto a esmagar alguns monstros com nossos novos poderes?",
                     "langUid": 507,
                     "ko_KR": "\uc0c8\ub85c \ubc1c\uacac\ud55c \ud798\uc73c\ub85c \ubaac\uc2a4\ud130 \ub54c\ub9ac\ub7ec \uac19\uc774 \uac08 \uc0ac\ub78c?<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u600e\u4e48\u6837\uff0c\u53c8\u62ff\u5230\u4e86\u6280\u80fd\u70b9\uff0c\u53bb\u6253\u6253\u602a\u600e\u4e48\u6837\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -14352,6 +14543,7 @@
             }, {
                 "message": {
                     "en_US": "Oh wait, I haven't used my CP yet!",
+                    "pt_BR": "Espera, eu não usei meu CP ainda!",
                     "langUid": 508,
                     "ko_KR": "\uc7a0\uae50, \ub09c \uc544\uc9c1 CP \uc548 \uc37c\ub2e4\uace0!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u7b49\u7b49\uff0c\u6211\u7684\u70b9\u8fd8\u6ca1\u52a0\u5462\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14415,6 +14607,7 @@
                 }, {
                     "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "langUid": 523,
                         "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/04/16]",
