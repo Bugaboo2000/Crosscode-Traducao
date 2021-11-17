@@ -5989,6 +5989,7 @@
                     }, {
                         "message": {
                             "en_US": "Oh! W-Why hello S-S-Seeker!",
+                            "pt_BR": "Oh! O-Olá S-S-Seeker!",
                             "de_DE": "Oh! H-Hallo, Seeker!",
                             "fr_FR": "fr_FR",
                             "langUid": 190,
@@ -6024,6 +6025,7 @@
                     }, {
                         "message": {
                             "en_US": "How very f-f-fortunate, I just finished my preparations.",
+                            "pt_BR": "Que s-s-sorte, eu acabei de finalizar meus preparativos.",
                             "de_DE": "Was f\u00fcr ein Zu-Zu-Zufall, ich habe meine Vorbereitungen g-g-gerade abgeschlossen.",
                             "fr_FR": "fr_FR",
                             "langUid": 352,
@@ -6041,6 +6043,7 @@
                     }, {
                         "message": {
                             "en_US": "And even exactly the kind of s-seeker I was looking for.",
+                            "pt_BR": "E mesmo exatamente o tipo de s-seeker que eu estava procurando.",
                             "de_DE": "Oh, und sogar genau d-d-die Art von Seeker, die ich ge-ge-gesucht habe.",
                             "fr_FR": "fr_FR",
                             "langUid": 353,
@@ -6058,6 +6061,7 @@
                     }, {
                         "message": {
                             "en_US": "Good S-Seeker, I'm in desperate n-need of help.",
+                            "pt_BR": "Boa S-Seeker, Eu estou preciso de ajuda urgente.",
                             "de_DE": "Lieber Seeker, ich b-b-brauche dringend Hilfe.",
                             "fr_FR": "fr_FR",
                             "langUid": 354,
@@ -6075,6 +6079,7 @@
                     }, {
                         "message": {
                             "en_US": "...?",
+                            "pt_BR": "...?",
                             "de_DE": "...?",
                             "fr_FR": "fr_FR",
                             "langUid": 355,
@@ -6092,6 +6097,7 @@
                     }, {
                         "message": {
                             "en_US": "Y-Yes\\..\\..\\.. Yes\\..\\..\\..",
+                            "pt_BR": "S-Sim\\..\\..\\.. Sim\\..\\..\\..",
                             "de_DE": "Ja\\..\\..\\.. Ja\\..\\..\\.. ",
                             "fr_FR": "fr_FR",
                             "langUid": 356,
@@ -6109,6 +6115,7 @@
                     }, {
                         "message": {
                             "en_US": "W-W-W-Wait, you're still h-here?",
+                            "pt_BR": "E-E-E-Espere, você ainda está a-aqui?",
                             "de_DE": "W-W-Warte. du b-bist immer noch da?",
                             "fr_FR": "fr_FR",
                             "langUid": 357,
@@ -6126,6 +6133,7 @@
                     }, {
                         "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "de_DE": "...",
                             "fr_FR": "fr_FR",
                             "langUid": 358,
@@ -6143,6 +6151,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 359,
@@ -6160,6 +6169,7 @@
                     }, {
                         "message": {
                             "en_US": "T-That is most unexpected I must s-s-say.",
+                            "pt_BR": "Isso foi inesperado, devo d-d-dizer.",
                             "de_DE": "D-D-Das war unerwartet, mu-mu-muss ich sagen.",
                             "fr_FR": "fr_FR",
                             "langUid": 360,
@@ -6177,6 +6187,7 @@
                     }, {
                         "message": {
                             "en_US": "P-people often rather choose to ignore m-m-me.",
+                            "pt_BR": "A-as pessoas geralmente preferem i-i-ignorar",
                             "de_DE": "D-D-Die Leute ignorieren m-m-mich meistens.",
                             "fr_FR": "fr_FR",
                             "langUid": 409,
@@ -6194,6 +6205,7 @@
                     }, {
                         "message": {
                             "en_US": "I d-d-don't suppose y-you would like to h-h-h-help me?",
+                            "pt_BR": "S-s-suponho que g-gostaria de me a-a-a-ajudar?",
                             "de_DE": "Ich nehme mal nicht an, d-d-dass du m-m-mir helfen willst, oder?",
                             "fr_FR": "fr_FR",
                             "langUid": 361,
@@ -6212,6 +6224,7 @@
                         "0": [{
                             "message": {
                                 "en_US": "[nods]",
+                                "pt_BR": "[acena com a cabeça]",
                                 "de_DE": "[nickt]",
                                 "fr_FR": "fr_FR",
                                 "langUid": 364,
@@ -6247,6 +6260,7 @@
                         }, {
                             "message": {
                                 "en_US": "R-R-R-Really?!?",
+                                "pt_BR": "S-S-S-Sério?!?",
                                 "de_DE": "W-W-Wirklich?!?",
                                 "fr_FR": "fr_FR",
                                 "langUid": 365,
@@ -6264,6 +6278,7 @@
                         }, {
                             "message": {
                                 "en_US": "S-Splendid!",
+                                "pt_BR": "E-Esplêndido!",
                                 "de_DE": "A-A-Ausgezeichnet!",
                                 "fr_FR": "fr_FR",
                                 "langUid": 366,
@@ -6281,6 +6296,7 @@
                         }, {
                             "message": {
                                 "en_US": "O-Okay, l-l-let me introduce myself first.",
+                                "pt_BR": "O-Okay, d-d-deixe-me apresentar primeiro.",
                                 "de_DE": "G-G-Gut, ich stelle m-m-mich kurz vor.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 367,

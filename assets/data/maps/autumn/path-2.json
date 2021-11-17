@@ -4114,6 +4114,7 @@
                     }, {
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "de_DE": "...!",
                             "fr_FR": "fr_FR",
                             "langUid": 75,
@@ -4131,6 +4132,7 @@
                     }, {
                         "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "de_DE": "...",
                             "fr_FR": "fr_FR",
                             "langUid": 76,
@@ -4148,6 +4150,7 @@
                     }, {
                         "message": {
                             "en_US": "Hi!",
+                            "pt_BR": "Oi!",
                             "de_DE": "Hi!",
                             "fr_FR": "fr_FR",
                             "langUid": 77,
@@ -4165,6 +4168,7 @@
                     }, {
                         "message": {
                             "en_US": "...WHAT?",
+                            "pt_BR": "O QUÊ?",
                             "de_DE": "... WAS?",
                             "fr_FR": "fr_FR",
                             "langUid": 78,
@@ -4182,6 +4186,7 @@
                     }, {
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "de_DE": "...!",
                             "fr_FR": "fr_FR",
                             "langUid": 79,
@@ -4199,6 +4204,7 @@
                     }, {
                         "message": {
                             "en_US": "Oh dang it, I fell asleep again.",
+                            "pt_BR": "Droga!, Eu adormeci novamente.",
                             "de_DE": "Oh, Verdammt. Ich bin schon wieder eingeschlafen.",
                             "fr_FR": "fr_FR",
                             "langUid": 80,
@@ -4216,6 +4222,7 @@
                     }, {
                         "message": {
                             "en_US": "Sorry for startling you. Is this for me?",
+                            "pt_BR": "Desculpe surpreender você. Isto é para mim?",
                             "de_DE": "Sorry f\u00fcrs Anblaffen. Ist das f\u00fcr mich?",
                             "fr_FR": "fr_FR",
                             "langUid": 81,
@@ -4233,6 +4240,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 82,
@@ -4250,6 +4258,7 @@
                     }, {
                         "message": {
                             "en_US": "Nice. I love presents!",
+                            "pt_BR": "Legal. Eu amo presentes!",
                             "de_DE": "Wie toll. Ich liebe Geschenke!",
                             "fr_FR": "fr_FR",
                             "langUid": 83,
@@ -4267,6 +4276,7 @@
                     }, {
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "de_DE": "...!",
                             "fr_FR": "fr_FR",
                             "langUid": 84,
@@ -4681,6 +4691,7 @@
                 }, {
                     "message": {
                         "en_US": "Why do you even care so much about this...\\.",
+                        "pt_BR": "Por que você se importa tanto com isso...\\.",
                         "de_DE": "Warum st\u00f6rt dich das eigentlich so sehr...?\\.",
                         "zh_CN": "\u4f60\u5e72\u561b\u8fd9\u4e48\u5728\u610f\u8fd9\u4e2a...\\.<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3069\u3046\u3057\u3066\u3053\u306e\u4ef6\u3092\n\u305d\u3093\u306a\u306b\u6c17\u306b\u3059\u308b\u3093\u3060\u304b...\\.<<A<<[CHANGED 2019/08/16]",
@@ -4705,6 +4716,7 @@
                 }, {
                     "message": {
                         "en_US": "AGAIN, SHE IS \\c[1]LEVEL \\v[player.level]\\c[0]!",
+                        "pt_BR": "REPITO, ELA ESTÀ NO \\c[1]NÍVEL \\v[player.level]\\c[0]!",
                         "de_DE": "NOCHMAL:SIE HAT \\c[1]LEVEL \\v[player.level]\\c[0]!",
                         "zh_CN": "\u518d\u8bf4\u4e00\u6b21\uff0c\u5979\u53ef\u662f\\c[1]\\v[player.level]\u7ea7\\c[0]!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3082\u3046\u4e00\u5ea6\u8a00\u3046\u304c\u3001\u3053\u3044\u3064\u306f\n\\c[1]\u30ec\u30d9\u30eb\\v[player.level]\\c[0]\u306a\u3093\u3060\u305e\uff01<<A<<[CHANGED 2019/08/16]",
@@ -4729,6 +4741,7 @@
                 }, {
                     "message": {
                         "en_US": "EVERYBODY SHOULD CARE ABOUT THIS!!",
+                        "pt_BR": "TODOS DEVERIAM SE IMPORTAR COM ISSO!!",
                         "de_DE": "DAS SOLLTE DOCH JEDEN ST\u00d6REN!!",
                         "zh_CN": "\u6240\u6709\u4eba\u90fd\u5e94\u8be5\u5728\u610f\u597d\u5417\uff01<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u307f\u3093\u306a\u304c\u6c17\u306b\u3059\u308b\u3079\u304d\u3060\u308d\u3046\u3001\u3053\u308c\u306f\uff01\uff01\uff01<<A<<[CHANGED 2019/08/16]",
@@ -4745,6 +4758,7 @@
                 }, {
                     "message": {
                         "en_US": "This game has \\c[1]RULES\\c[0]!!",
+                        "pt_BR": "Este jogo possui \\c[1]REGRAS\\c[0]!!",
                         "de_DE": "Dieses Spiel hat schlie\u00dflich \\c[1]REGELN\\c[0]!!",
                         "zh_CN": "\u6e38\u620f\u662f\u6709\\c[1]\u89c4\u5219\\c[0]\u7684!!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3053\u306e\u30b2\u30fc\u30e0\u306b\u306f\n\\c[1]\u30eb\u30fc\u30eb\\c[0]\u3063\u3066\u3082\u306e\u304c\u3042\u308b\u3093\u3060\uff01\uff01<<A<<[CHANGED 2019/08/16]",
@@ -4761,6 +4775,7 @@
                 }, {
                     "message": {
                         "en_US": "Anyway...",
+                        "pt_BR": "De qualquer forma...",
                         "de_DE": "Jedenfalls...",
                         "zh_CN": "\u603b\u4e4b...<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3068\u306b\u304b\u304f...<<A<<[CHANGED 2019/08/16]",
@@ -5431,6 +5446,7 @@
                 "thenStep": [{
                     "message": {
                         "en_US": "Ha...\\. you really think that's a good idea?",
+                        "pt_BR": "Ha...\\. Você realmente acha que isso é uma boa ideia?",
                         "de_DE": "Ha...\\. Das halte ich f\u00fcr keine schlaue Idee...",
                         "zh_CN": "\u54c8...\\.\u4f60\u89c9\u5f97\u8fd9\u662f\u4e2a\u597d\u4e3b\u610f\uff1f<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u306f\u3041...\\.\u3042\u306a\u305f\u3001\u305d\u308c\u304c\n\u3044\u3044\u30a2\u30a4\u30c7\u30a2\u3060\u3068\u672c\u6c17\u3067\u601d\u3063\u3066\u308b\u306e\uff1f<<A<<[CHANGED 2019/08/16]",
@@ -5447,6 +5463,7 @@
                 }, {
                     "message": {
                         "en_US": "Trust me you haven't seen \\c[1]the worst of it\\c[0] yet.",
+                        "pt_BR": "Confia em mim, você não viu \\c[1]o pior de tudo\\c[0] ainda.",
                         "de_DE": "Glaub mir, du hast das \\c[1]Schlimmste\\c[0] noch nicht gesehen.",
                         "zh_CN": "\u76f8\u4fe1\u6211\uff0c\\c[1]\u6050\u6016\\c[0]\u7684\u4f60\u8fd8\u6ca1\u89c1\u5230\u5462\u3002<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u771f\u9762\u76ee\u306a\u8a71\u3001\u3042\u306a\u305f\u306f\u307e\u3060\n\\c[1]\u6700\u60aa\u306e\u4e8b\u614b\\c[0]\u3063\u3066\u306e\u3092\n\u76ee\u306b\u3057\u3066\u306a\u3044\u3068\u601d\u3046\u3093\u3060\u3088\u306d\u3002<<A<<[CHANGED 2019/08/16]",
@@ -5463,6 +5480,7 @@
                 }, {
                     "message": {
                         "en_US": "\\c[1]...!",
+                        "pt_BR": "\\c[1]...!",
                         "de_DE": "\\c[1]...!\\c[0]",
                         "zh_CN": "\\c[1]...!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\\c[1]...\uff01<<A<<[CHANGED 2019/08/16]",
@@ -5484,6 +5502,7 @@
                     "thenStep": [{
                         "message": {
                             "en_US": "Well she \\c[1]is level \\v[player.level]\\c[0]. So you can already guess how this will play out.",
+                            "pt_BR": "Bem ela \\c[1]está no nível \\v[player.level]\\c[0]. Então você já sabe como isso vai terminar..",
                             "de_DE": "Na ja, sie \\c[1]hat Level \\v[player.level]\\c[0]. Du kannst dir also denken, wie das ausgeht.",
                             "zh_CN": "\u6bd5\u7adf\u5979\u5df2\u7ecf\\c[1]\\v[player.level]\u7ea7\\c[0]\u4e86\u3002\u4f60\u4f30\u8ba1\u4e5f\u80fd\u731c\u5230\u7ed3\u679c\u3002<<A<<[CHANGED 2019/08/16]",
                             "ja_JP": "\u3060\u3063\u3066\u30ec\u30a2\u306f\\c[1]\u30ec\u30d9\u30eb\\v[player.level]\\c[0]\u3060\u3088\u3002\n\u7d50\u679c\u304c\u3069\u3046\u306a\u308b\u304b\u306a\u3093\u3066\n\u3082\u3046\u5206\u304b\u3063\u3066\u308b\u3067\u3057\u3087\u3002<<A<<[CHANGED 2019/08/16]",
@@ -5799,6 +5818,7 @@
                 "thenStep": [{
                     "message": {
                         "en_US": "I'm sure this will be a lot of \\c[1]fun to watch\\c[0]!",
+                        "pt_BR": "Eu tenho certeza que isso será muito \\c[1]divertido de assistir\\c[0]!",
                         "de_DE": "Ich \\c[1]freu'\\c[0] mich jetzt schon drauf, dir \\c[1]dabei zuzusehen\\c[0]...",
                         "zh_CN": "\u80af\u5b9a\u4f1a\\c[1]\u5f88\u6709\u4e50\u5b50\\c[0]\u7684!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u306a\u3093\u3060\u304b\u3053\u308c\u3001\u3059\u3063\u3054\u304f\n\\c[1]\u898b\u3066\u3066\u697d\u3057\u3044\\c[0]\u3053\u3068\u306b\u306a\u308a\u305d\u3046\uff01<<A<<[CHANGED 2019/08/16]",
@@ -5815,6 +5835,7 @@
                 }, {
                     "message": {
                         "en_US": "You beating that guy to a pulp.",
+                        "pt_BR": "Você espancando aquele cara até a alma dele sair.",
                         "de_DE": "... wie du den Kerl an die Wand klatschst und Hafergr\u00fctze aus ihm machst!",
                         "zh_CN": "\u4f60\u4f30\u8ba1\u4f1a\u628a\u4ed6\u6253\u6210\u8089\u9171\u3002<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3042\u3044\u3064\u306e\u3053\u3068\u3001\u30dc\u30ed\u30c3\u30ab\u30b9\u306b\u3057\u3066\u3084\u308a\u306a\u3088\u3002<<A<<[CHANGED 2019/08/16]",
@@ -5848,6 +5869,7 @@
                 }, {
                     "message": {
                         "en_US": "But I'd really like to level up a bit before that, too. If that's okay!",
+                        "pt_BR": "Mas eu também gostaria muito de aumentar um pouco o meu level antes disso. Se não houver problema!",
                         "de_DE": "Aber vorher m\u00f6chte ich noch ein bisschen leveln. Wenn das ok ist!",
                         "zh_CN": "\u4e0d\u8fc7\u5728\u90a3\u4e4b\u524d\u6211\u4e5f\u60f3\u53bb\u5347\u4e2a\u7ea7!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3067\u3082\u3067\u304d\u305f\u3089\u3001\u305d\u306e\u524d\u306b\u3061\u3087\u3063\u3068\n\u79c1\u3082\u30ec\u30d9\u30eb\u3092\u4e0a\u3052\u3066\u304a\u304d\u305f\u3044\u304b\u306a\u3002\n\u3082\u3057\u3088\u3051\u308c\u3070\u3060\u3051\u3069\uff01<<A<<[CHANGED 2019/08/16]",
@@ -6049,6 +6071,7 @@
             "analType": "QUEST",
             "text": {
                 "en_US": "\\c[1]Sick Tree\\c[0]",
+                "pt_BR": "\\c[1]Árvore Doente\\c[0]",
                 "de_DE": "\\c[1]Kranker Baum\\c[0]",
                 "zh_CN": "\\c[1]\u751f\u75c5\u7684\u6811\\c[0]<<A<<[CHANGED 2018/03/14]",
                 "ja_JP": "\\c[1]\u75c5\u3093\u3060\u6728\\c[0]<<A<<[CHANGED 2018/03/14]",
