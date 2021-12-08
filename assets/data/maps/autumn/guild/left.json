@@ -3701,6 +3701,7 @@
               {
                 "message": {
                   "en_US": "Lea... if we plan to talk to Albert, we definitely should do so alone.",
+                  "pt_BR": "Lea... se planejamos falar com Albert, definitivamente devemos fazê-lo sozinhos.",
                   "de_DE": "Lea... Wenn wir mit Albert reden wollen, sollten wir das definitiv allein tun.",
                   "zh_CN": "\u8389\u4e9a...\u5982\u679c\u6211\u4eec\u6253\u7b97\u548c\u57c3\u5c14\u4f2f\u7279\u8c08\uff0c\u5c31\u53ea\u80fd\u79c1\u4e0b\u91cc\u8bf4\u3002<<A<<[CHANGED 2018/08/28]",
                   "ja_JP": "\u30ec\u30a2...\u30a2\u30eb\u30d0\u30fc\u30c8\u3068\u8a71\u3059\u3064\u3082\u308a\u306a\u3089\u3001\n\u50d5\u305f\u3061\u3060\u3051\u3067\u3084\u3089\u306a\u304d\u3083\u30c0\u30e1\u3060\u3002<<A<<[CHANGED 2018/08/28]",
@@ -3715,6 +3716,7 @@
               {
                 "message": {
                   "en_US": "...!",
+                  "pt_BR": "...!",
                   "de_DE": "...!",
                   "zh_CN": "...!<<A<<[CHANGED 2018/08/28]",
                   "ja_JP": "...\uff01<<A<<[CHANGED 2018/08/28]",
@@ -3739,6 +3741,7 @@
               {
                 "message": {
                   "en_US": "...",
+                  "pt_BR": "...",
                   "langUid": 70,
                   "zh_CN": "...<<A<<[CHANGED 2018/03/14]",
                   "ko_KR": "...<<A<<[CHANGED 2018/03/14]",
@@ -3753,6 +3756,7 @@
               {
                 "message": {
                   "en_US": "[shakes head]",
+                  "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                   "langUid": 71,
                   "zh_CN": "[\u6447\u5934]<<A<<[CHANGED 2018/03/14]",
                   "ko_KR": "[\ub3c4\ub9ac\ub3c4\ub9ac]<<A<<[CHANGED 2018/03/14]",
@@ -4249,6 +4253,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "There's no easter egg here",
+            "pt_BR": "Não há easter egg aqui",
             "de_DE": "Hier ist kein Easteregg.",
             "zh_CN": "\u8fd9\u91cc\u6ca1\u6709\u5f69\u86cb<<A<<[CHANGED 2017/10/10]",
             "langUid": 59,
@@ -4260,6 +4265,7 @@
             {
               "text": {
                 "en_US": "Like really, there's nothing here.",
+                "pt_BR": "Tipo realmente, não há nada aqui.",
                 "langUid": 66,
                 "ja_JP": "\u672c\u5f53\u306b\u3001\u3053\u3053\u306b\u306f\u306a\u306b\u3082\u306a\u3044\u3088\u3002<<A<<[CHANGED 2017/08/03]",
                 "zh_CN": "\u771f\u7684\u6ca1\u6709\uff0c\u4e0d\u9a97\u4f60\u3002<<A<<[CHANGED 2017/10/10]",
@@ -4273,6 +4279,7 @@
             {
               "text": {
                 "en_US": "... ",
+                "pt_BR": "... ",
                 "langUid": 65,
                 "ja_JP": "...<<A<<[CHANGED 2017/08/03]",
                 "zh_CN": "...<<A<<[CHANGED 2017/10/10]",
@@ -4286,6 +4293,7 @@
             {
               "text": {
                 "en_US": "... ",
+                "pt_BR": "... ",
                 "langUid": 64,
                 "ja_JP": "...<<A<<[CHANGED 2017/08/03]",
                 "zh_CN": "...<<A<<[CHANGED 2017/10/10]",
@@ -4299,6 +4307,7 @@
             {
               "text": {
                 "en_US": "... ",
+                "pt_BR": "... ",
                 "langUid": 67,
                 "ja_JP": "...<<A<<[CHANGED 2017/08/03]",
                 "zh_CN": "...<<A<<[CHANGED 2017/10/10]",
@@ -4312,6 +4321,7 @@
             {
               "text": {
                 "en_US": "Sooooo... Bye.",
+                "pt_BR": "Entãooo... Tchau.",
                 "langUid": 68,
                 "ja_JP": "\u305d\u308c\u3058\u3083...\u3058\u3083\u3042\u306d\u3002<<A<<[CHANGED 2017/08/03]",
                 "zh_CN": "\u5443... \u62dc\u62dc\u3002<<A<<[CHANGED 2017/10/10]",
@@ -4662,6 +4672,7 @@
           {
             "message": {
               "en_US": "Hello, Lea!",
+              "pt_BR": "Olá, Lea!",
               "langUid": 76,
               "zh_TW": "\u4f60\u597d\uff0c\u8389\u4e9e\uff01<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\uc548\ub155, \ub808\uc544!<<A<<[CHANGED 2020/06/17]",
@@ -4676,6 +4687,7 @@
           {
             "message": {
               "en_US": "Hi!",
+              "pt_BR": "Oi!",
               "langUid": 77,
               "zh_TW": "\u4f60\u597d\uff01<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2020/06/17]",
@@ -4690,6 +4702,7 @@
           {
             "message": {
               "en_US": "I see you made an appointment for the raid tomorrow?\n",
+              "pt_BR": "Vejo que você combinou de ir para a raid de amanhã?\n",
               "langUid": 78,
               "zh_TW": "\u4f60\u5b9a\u4e86\u660e\u5929\u8981\u53bb\u6253\u526f\u672c\uff1f<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\ub0b4\uc77c \ub808\uc774\ub4dc \uc57d\uc18d\uc744 \uc7a1\uc558\uad6c\ub098?<<A<<[CHANGED 2020/06/17]",
@@ -4704,6 +4717,7 @@
           {
             "message": {
               "en_US": "[nods]",
+              "pt_BR": "[acena com a cabeça]",
               "langUid": 79,
               "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2020/06/17]",
@@ -4718,6 +4732,7 @@
           {
             "message": {
               "en_US": "That is great!\\. Hopefully things will not go wrong this time.",
+              "pt_BR": "Isso é ótimo!\\. Espero que as coisas não dêem errado desta vez.",
               "langUid": 80,
               "zh_TW": "\u633a\u597d\u7684\uff01\\.\u5e0c\u671b\u9019\u6b21\u4e0d\u6703\u51fa\u4ec0\u9ebc\u5c94\u5b50\u4e86\u3002<<A<<[CHANGED 2020/07/09]",
               "ko_KR": "\uc798\ub410\ub124!\\. \uc774\ubc88\uc5d0\ub294 \ubcc4\ubb38\uc81c \uc5c6\uae38 \ubc14\ub77c\uc57c\uc9c0.<<A<<[CHANGED 2020/07/08]",
@@ -4732,6 +4747,7 @@
           {
             "message": {
               "en_US": "...Why?",
+              "pt_BR": "Porque?",
               "langUid": 81,
               "zh_TW": "...\u70ba\u4ec0\u9ebc\uff1f<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "...\uc65c?<<A<<[CHANGED 2020/06/17]",
@@ -4746,6 +4762,7 @@
           {
             "message": {
               "en_US": "Well...\\. it is highly unlikely that anyone would interfere again.",
+              "pt_BR": "Bem...\\. é altamente improvável que alguém interfira novamente.",
               "langUid": 82,
               "zh_TW": "\u5514...\\.\u9019\u6b21\u4e0d\u592a\u53ef\u80fd\u6703\u6709\u4ec0\u9ebc\u4eba\u4f86\u6253\u652a\u4e86\u3002<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\ubb50...\\. \uc774\ubc88\uc5d0\ub294 \ub204\uad70\uac00\uac00 \uac1c\uc785\ud560 \ud655\ub960\uc774 \uac70\uc758 \uc5c6\uc73c\ub2c8\uae4c.<<A<<[CHANGED 2020/06/17]",
@@ -4766,6 +4783,7 @@
           {
             "message": {
               "en_US": "Anyway, I wanted to let you know that you can \\c[3]go to sleep\\c[0] on your own now!",
+              "pt_BR": "De qualquer modo, eu queria que você soubesse que agora você pode \\c[3]ir dormir\\c[0] por conta própria!",
               "langUid": 83,
               "zh_TW": "\u7e3d\u4e4b\uff0c\u6211\u4f86\u662f\u60f3\u8ddf\u4f60\u8aaa\u4f60\u53ef\u4ee5\u81ea\u5df1\\c[3]\u7761\u89ba\\c[0]\u4e86\uff01<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\uc544\ubb34\ud2bc, \uc774\uc81c\ub294 \ub108 \ud63c\uc790\uc11c \\c[3]\uc7a0\uc744 \uc798 \uc218 \uc788\ub2e4\\c[0]\ub294 \uac78 \uc54c\ub824\uc8fc\ub824\uace0 \uc654\uc5b4!<<A<<[CHANGED 2020/06/17]",
@@ -4780,6 +4798,7 @@
           {
             "message": {
               "en_US": "...?",
+              "pt_BR": "...?",
               "langUid": 84,
               "zh_TW": "...?<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "...?<<A<<[CHANGED 2020/06/17]",
@@ -4794,6 +4813,7 @@
           {
             "message": {
               "en_US": "How?",
+              "pt_BR": "Como?",
               "langUid": 85,
               "zh_TW": "\u600e\u9ebc\u8fa6\uff1f<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\uc5b4\ub5bb\uac8c?<<A<<[CHANGED 2020/06/17]",
@@ -4808,6 +4828,7 @@
           {
             "message": {
               "en_US": "It is pretty intuitive, really! ",
+              "pt_BR": "É bastante intuitivo, realmente!",
               "langUid": 86,
               "zh_TW": "\u5f88\u7c21\u55ae\u7684\uff01<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\uaf64 \uc9c1\uad00\uc801\uc774\uc57c!<<A<<[CHANGED 2020/06/17]",
@@ -4822,6 +4843,7 @@
           {
             "message": {
               "en_US": "Just go to your \\c[3]house\\c[0] in Homestedt and \\c[3]lay down in your bed\\c[0].",
+              "pt_BR": "Apenas vá para sua \\c[3]casa\\c[0] em Homestedt e \\c[3]deite na sua cama\\c[0].",
               "langUid": 87,
               "zh_TW": "\u524d\u5f80\u4f60\u5728\\c[3]\u5bb6\u539f\\c[0]\u7684\u623f\u5b50\uff0c\u7136\u5f8c\\c[3]\u8eba\u5728\u5e8a\u4e0a\\c[0]\u5c31\u884c\u3002<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\ud648\uc2a4\ud14c\ub4dc\uc5d0 \uc788\ub294 \ub124 \\c[3]\uc9d1\\c[0]\uc73c\ub85c \uac00\uc11c \\c[3]\uce68\ub300\uc5d0 \ub204\uc6b0\uba74\\c[0] \ub3fc.<<A<<[CHANGED 2020/06/17]",
@@ -4836,6 +4858,7 @@
           {
             "message": {
               "en_US": "There is no more need for me to be around to log you out manually.",
+              "pt_BR": "Não há mais a necessidade de eu estar por perto para efetuar o logout manualmente.",
               "langUid": 88,
               "zh_TW": "\u9019\u6a23\u5c31\u4e0d\u7528\u6211\u624b\u52d5\u5e6b\u4f60\u4e0b\u7dda\u4e86\u3002<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\ub110 \ub85c\uadf8\uc544\uc6c3 \uc2dc\ud0a4\uae30 \uc704\ud574 \ub0b4\uac00 \uc788\uc744 \ud544\uc694\uac00 \uc5c6\ub2e4\ub294 \uc598\uae30\uc9c0.<<A<<[CHANGED 2020/06/17]",
@@ -4850,6 +4873,7 @@
           {
             "message": {
               "en_US": "...!",
+              "pt_BR": "...!",
               "langUid": 89,
               "zh_TW": "...!<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "...!<<A<<[CHANGED 2020/06/17]",
@@ -4864,6 +4888,7 @@
           {
             "message": {
               "en_US": "And that is all I wanted to tell you.",
+              "pt_BR": "E isso é tudo o que eu queria dizer a você.",
               "langUid": 90,
               "zh_TW": "\u6211\u8981\u8aaa\u7684\u5c31\u9019\u4e9b\u3002<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\ub0b4\uac00 \uc804\ud560 \ub9d0\uc740 \uc774\uac70\uc600\uc5b4.<<A<<[CHANGED 2020/06/17]",
@@ -4878,6 +4903,7 @@
           {
             "message": {
               "en_US": "I guess now is a good time to prepare for the raid, correct?",
+              "pt_BR": "Acho que agora é um bom momento para se preparar para a raid, correto?",
               "langUid": 91,
               "zh_TW": "\u4f60\u4e5f\u8a72\u70ba\u526f\u672c\u6d3b\u52d5\u505a\u4e9b\u6e96\u5099\u4e86\u5427\uff1f<<A<<[CHANGED 2020/07/09]",
               "ko_KR": "\uc774\uc81c \ub808\uc774\ub4dc \uc900\ube44\ub97c \ud574\uc57c\uaca0\ub124?<<A<<[CHANGED 2020/07/08]",
@@ -4892,6 +4918,7 @@
           {
             "message": {
               "en_US": "[nods]",
+              "pt_BR": "[acena com a cabeça]",
               "langUid": 92,
               "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2020/06/17]",
@@ -4915,6 +4942,7 @@
           {
             "task": {
               "en_US": "Go to \\c[3]Homestedt\\c[0] to your house and try to \\c[3]sleep in your bed\\c[0].",
+              "pt_BR": "Vá para \\c[3]Homestedt\\c[0], entre na sua casa e tente \\c[3]dormir na sua cama\\c[0].",
               "langUid": 93,
               "zh_TW": "\u524d\u5f80\u4f60\u5728\\c[3]\u5bb6\u539f\\c[0]\u7684\u623f\u5b50\uff0c\u7136\u5f8c\\c[3]\u8eba\u5728\u5e8a\u4e0a\\c[0]\u3002<<A<<[CHANGED 2020/06/15]",
               "ko_KR": "\\c[3]\ud648\uc2a4\ud14c\ub4dc\\c[0]\uc5d0 \uc788\ub294 \uc9d1\uc73c\ub85c \uac00 \\c[3]\uce68\ub300\uc5d0\uc11c \uc7a0\uc744 \uc790\uc138\uc694\\c[0].<<A<<[CHANGED 2020/06/17]",
