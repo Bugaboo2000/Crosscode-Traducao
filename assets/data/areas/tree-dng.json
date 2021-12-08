@@ -2,6 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
+        "pt_BR": "Sem Título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "untitled",
@@ -15,6 +16,7 @@
         "level": -1,
         "name": {
             "en_US": "B1",
+            "pt_BR": "B1",
             "de_DE": "U1",
             "fr_FR": "fr_FR",
             "zh_CN": "B1",
@@ -75,6 +77,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Sticky Roots",
+                "pt_BR": "Raízes Pegajosas",
                 "de_DE": "Klebrige Wurzeln",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u9ecf\u7740\u6839\u987b",
@@ -90,6 +93,7 @@
         "level": 0,
         "name": {
             "en_US": "G",
+            "pt_BR": "G",
             "de_DE": "EG",
             "fr_FR": "fr_FR",
             "zh_CN": "G",
@@ -174,6 +178,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Entry Test",
+                "pt_BR": "Entrada Teste",
                 "de_DE": "Eingangspr\u00fcfung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u51c6\u5165\u6d4b\u8bd5",
@@ -192,6 +197,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Main Stream",
+                "pt_BR": "Convencional",
                 "de_DE": "Hauptstrom",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e3b\u6d41",
@@ -209,6 +215,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Trios",
+                "pt_BR": "Teste de Trios",
                 "de_DE": "Pr\u00fcfung der Trios",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e09\u91cd\u8bd5\u70bc",
@@ -226,6 +233,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Magnetic Transit ",
+                "pt_BR": "Trânsito Magnético",                
                 "de_DE": "Magnetische \u00dcberf\u00fchrung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u78c1\u6027\u4f20\u8f93",
@@ -243,6 +251,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Magnetic Attraction",
+                "pt_BR": "Atração Magnética",
                 "de_DE": "Magnetische Anziehung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u78c1\u6027\u5f15\u529b",
@@ -260,6 +269,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Block Conveyance",
+                "pt_BR": "Bloco de Transporte",
                 "de_DE": "Kisten-\u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u65b9\u5757\u8fd0\u8f93",
@@ -277,6 +287,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Geometry ",
+                "pt_BR": "Geometria",
                 "de_DE": "Geometrie",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u51e0\u4f55",
@@ -327,6 +338,7 @@
         "level": 1,
         "name": {
             "en_US": "F1",
+            "pt_BR": "F1",
             "de_DE": "E1",
             "fr_FR": "fr_FR",
             "zh_CN": "F1",
@@ -388,6 +400,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Main Stream",
+                "pt_BR": "Convencional",
                 "de_DE": "Hauptstrom",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e3b\u6d41",
@@ -405,6 +418,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Ghostly Lumber",
+                "pt_BR": "Madeira Fantasmagórica",
                 "de_DE": "Gespenstisches Ger\u00fcmpel",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u95f9\u9b3c\u4e4b\u6728",
@@ -422,6 +436,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Mana Trees",
+                "pt_BR": "Árvores de Mana",
                 "de_DE": "Mana-B\u00e4ume",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u9b54\u6cd5\u68ee\u6797",
@@ -451,6 +466,7 @@
         "level": 2,
         "name": {
             "en_US": "F2",
+            "pt_BR": "F2",
             "de_DE": "E2",
             "fr_FR": "fr_FR",
             "zh_CN": "F2",
@@ -511,6 +527,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of the West",
+                "pt_BR": "Teste do Oeste",
                 "de_DE": "Pr\u00fcfung des Westens",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u897f\u90e8\u8bd5\u70bc",
@@ -528,6 +545,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Upstream",
+                "pt_BR": "Upstream",
                 "de_DE": "Stromaufw\u00e4rts",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e0a\u6e38",
@@ -546,6 +564,7 @@
             "dungeon": "NO_DUNGEON",
             "name": {
                 "en_US": "Center Branch",
+                "pt_BR": "Ramo Central",
                 "de_DE": "Mittlere Abzweigung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e2d\u5fc3\u679d\u5e72",
@@ -575,6 +594,7 @@
         "level": 3,
         "name": {
             "en_US": "F3",
+            "pt_BR": "F3",
             "de_DE": "E3",
             "fr_FR": "fr_FR",
             "zh_CN": "F3",
@@ -636,6 +656,7 @@
             "dungeon": "NO_DUNGEON",
             "name": {
                 "en_US": "Center Branch",
+                "pt_BR": "Ramo Central",
                 "de_DE": "Mittlere Abzweigung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e2d\u5fc3\u679d\u5e72",
@@ -653,6 +674,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "West Branch",
+                "pt_BR": "Ramo Oeste",
                 "de_DE": "Westliche Abzweigung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u897f\u90e8\u679d\u5e72",
@@ -670,6 +692,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "East Branch",
+                "pt_BR": "Ramo Leste",
                 "de_DE": "\u00d6stliche Abzweigung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e1c\u90e8\u679d\u5e72",
@@ -687,6 +710,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Branch Transmit",
+                "pt_BR": "Ramo Transmissão",
                 "de_DE": "Parallelweg-\u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u679d\u5e72\u4f20\u8f93",
@@ -704,6 +728,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Symmetry ",
+                "pt_BR": "Simetria",
                 "de_DE": "Symmetrie",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u5300\u79f0",
@@ -721,6 +746,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Branch Conveyance",
+                "pt_BR": "Ramo Conveniência",
                 "de_DE": "Abzweigende \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u679d\u5e72\u4f20\u8f93",
@@ -738,6 +764,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Poetry ",
+                "pt_BR": "Poesia",
                 "de_DE": "Poesie",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u8bd7\u6b4c",
@@ -755,6 +782,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Falling Leaves",
+                "pt_BR": "Folhas que Caem",
                 "de_DE": "Fallendes Laub",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u843d\u53f6",
@@ -833,6 +861,7 @@
         "level": 4,
         "name": {
             "en_US": "F4",
+            "pt_BR": "F4",
             "de_DE": "E4",
             "fr_FR": "fr_FR",
             "zh_CN": "F4",
@@ -893,6 +922,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Crowing Tops",
+                "pt_BR": "Cantando no Topo",
                 "de_DE": "Kr\u00f6nender Wipfel",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u9e23\u53eb\u6811\u51a0",
@@ -908,6 +938,7 @@
         "level": 5,
         "name": {
             "en_US": "F5",
+            "pt_BR": "F5",
             "langUid": 702,
             "zh_CN": "F5<<A<<[CHANGED 2018\/03\/14]",
             "ko_KR": "F5<<A<<[CHANGED 2018\/03\/14]",
@@ -957,6 +988,7 @@
             "path": "jungle.dng.tree-expo-space",
             "name": {
                 "en_US": "Seeker's Conclusion",
+                "pt_BR": "Conclusão de Seeker",
                 "langUid": 709,
                 "zh_CN": "\u63a2\u7d22\u8005\u5c0f\u5c45<<A<<[CHANGED 2018\/03\/14]",
                 "ko_KR": "\uc2dc\ucee4\uc758 \uacb0\ub2e8<<A<<[CHANGED 2018\/03\/14]",
