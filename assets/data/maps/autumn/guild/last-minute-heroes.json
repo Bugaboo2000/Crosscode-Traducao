@@ -4429,6 +4429,7 @@
                 }, {
                     "message": {
                         "en_US": "Hello Seeker. I'm terribly sorry, but this guild is currently upgrading their headquarters.",
+                        "pt_BR": "Olá Seeker. Lamento muito, mas esta guilda está atualmente atualizando sua sede.",
                         "de_DE": "Hallo, Seeker! Es tut mir wahnsinnig leid, aber diese Gilde unterzieht ihr Hauptquartier gerade einem Upgrade.",
                         "fr_FR": "fr_FR",
                         "langUid": 1,
@@ -4446,6 +4447,7 @@
                 }, {
                     "message": {
                         "en_US": "Because of this, entry to it is currently not possible.",
+                        "pt_BR": "Por causa disso, atualmente não é possível entrar lá.",
                         "de_DE": "Deswegen ist der Durchgang im Moment nicht m\u00f6glich.",
                         "fr_FR": "fr_FR",
                         "langUid": 2,
@@ -4463,6 +4465,7 @@
                 }, {
                     "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 3,
@@ -5209,6 +5212,7 @@
                     }, {
                         "message": {
                             "en_US": "Ah, you must be that Spheromancer.",
+                            "pt_BR": "Ah, você deve ser a Spheromancer.",
                             "de_DE": "Ah, du musst dieser Spheromancer sein.",
                             "zh_CN": "\u54e6\uff0c\u4f60\u5c31\u662f\u90a3\u4e2a\u6c14\u5706\u4f7f\u8005\u5427\u3002<<A<<[CHANGED 2019/01/10]",
                             "ja_JP": "\u3042\u3042\u3001\u3042\u306a\u305f\u304c\n\u3042\u306e\u30b9\u30d5\u30a3\u30ed\u30de\u30f3\u30b5\u30fc\u3067\u3059\u306d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -5225,6 +5229,7 @@
                     }, {
                         "message": {
                             "en_US": "Puella is waiting with our Leader in the \\c[3]upper floor\\c[0]!",
+                            "pt_BR": "Puella está esperando com como nosso Líder no \\c[3]andar de cima\\c[0]!",
                             "de_DE": "Puella erwartet dich mit unserem Anf\u00fchrer im \\c[3]Obergeschoss\\c[0].",
                             "zh_CN": "\u4ed6\u4eec\u6b63\u5728\\c[3]\u697c\u4e0a\\c[0]\u7b49\u4f60\uff01<<A<<[CHANGED 2019/01/10]",
                             "ja_JP": "\u30d7\u30a8\u30e9\u306f\\c[3]\u4e0a\u306e\u968e\\c[0]\u3067\n\u6211\u3089\u304c\u30ea\u30fc\u30c0\u30fc\u3068\u4e00\u7dd2\u306b\u5f85\u3063\u3066\u307e\u3059\u3088\uff01<<A<<[CHANGED 2019/01/10]",
@@ -5245,6 +5250,7 @@
                         "thenStep": [{
                             "message": {
                                 "en_US": "Thanks!",
+                                "pt_BR": "Obrigada!",
                                 "de_DE": "Danke!",
                                 "zh_CN": "\u8c22\u8c22\uff01<<A<<[CHANGED 2019/01/10]",
                                 "ja_JP": "\u3042\u308a\u304c\u3068\u3046\uff01<<A<<[CHANGED 2019/01/10]",
@@ -5262,6 +5268,7 @@
                         "elseStep": [{
                             "message": {
                                 "en_US": "[nods]",
+                                "pt_BR": "[acena com a cabeça]",
                                 "de_DE": "[nickt]",
                                 "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
                                 "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
@@ -5810,6 +5817,7 @@
                 "event": [{
                     "name": {
                         "en_US": "Niki",
+                        "pt_BR": "Niki",
                         "langUid": 60,
                         "zh_CN": "\u59ae\u59ec<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "\ub2c8\ud0a4<<A<<[CHANGED 2019/04/16]",

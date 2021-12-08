@@ -4757,6 +4757,7 @@
             "characterName": "cross-worlds.hexacast-male-red",
             "displayName": {
                 "en_US": "Annoying Dog",
+                "pt_BR": "Cachorro Irritante",
                 "de_DE": "Nerviger Hund",
                 "fr_FR": "fr_FR",
                 "langUid": 6,
@@ -4794,6 +4795,7 @@
                     "message": {
                         "de_DE": "Seien Sie gegr\u00fc\u00dft, Madame. Wie ich sehe, spielen Sie die einsame Klasse der Spheromancer.",
                         "en_US": "Good day Madame. I see you play the lonely class of Spheromancer.",
+                        "pt_BR": "Bom dia, Madame. Vejo que você interpreta a classe solitária de Spheromancer.",
                         "langUid": 1,
                         "fr_FR": "",
                         "zh_CN": "\u5973\u58eb\u60a8\u597d\u3002\u770b\u6837\u5b50\u4f60\u73a9\u7684\u662f\u6ca1\u4ec0\u4e48\u4eba\u6c14\u7684\u6c14\u5706\u4f7f\u8005\u804c\u4e1a\u3002<<A<<[CHANGED 2018/09/19]",
@@ -4811,6 +4813,7 @@
                     "message": {
                         "de_DE": "...",
                         "en_US": "...",
+                        "pt_BR": "",
                         "langUid": 2,
                         "fr_FR": "",
                         "zh_CN": "\u2026",
@@ -4828,6 +4831,7 @@
                     "message": {
                         "de_DE": "Ein Anblick, der sich mir in der Tat nur sehr selten bietet.",
                         "en_US": "A view I consider quite rare.",
+                        "pt_BR": "Uma visão que eu considero bastante rara.",
                         "langUid": 3,
                         "fr_FR": "",
                         "zh_CN": "\u5973\u73a9\u5bb6\u786e\u5b9e\u5f88\u5c11\u6709\u9009\u8fd9\u4e2a\u7684\u3002<<A<<[CHANGED 2017/07/11]",
@@ -4845,6 +4849,7 @@
                     "message": {
                         "de_DE": "...?",
                         "en_US": "...?",
+                        "pt_BR": "...?",
                         "langUid": 4,
                         "fr_FR": "",
                         "zh_CN": "\u2026\uff1f",
@@ -4862,6 +4867,7 @@
                     "message": {
                         "de_DE": "Es war mir ein Vergn\u00fcgen, Sie kennenzulernen.",
                         "en_US": "It was a pleasant event to meet you.",
+                        "pt_BR": "Conhecê-la foi um evento agradável.",
                         "langUid": 5,
                         "fr_FR": "",
                         "zh_CN": "\u5e78\u4f1a\uff0c\u518d\u89c1\u3002",
@@ -5783,7 +5789,7 @@
             "analType": "DEFAULT",
             "text": {
                 "en_US": "Former location of data #3469",
-                "pt_BR": "Ex-localização dos dados #3469",
+                "pt_BR": "Antiga localização dos dados #3469",
                 "de_DE": "Fr\u00fcherer Standort der Daten #3469",
                 "zh_CN": "\u6570\u636e#3469\u4e0a\u6b21\u7684\u4f4d\u7f6e",
                 "ja_JP": "\u30c7\u30fc\u30bf#3469\u304c\u4ee5\u524d\u3042\u3063\u305f\u5834\u6240",
@@ -5807,6 +5813,7 @@
             "analType": "QUEST",
             "text": {
                 "en_US": "\\c[1]Data signature #3469\\c[0]",
+                "pt_BR": "\\c[1]Data signature #3469\\c[0]",
                 "de_DE": "\\c[1]Daten-Signatur #3469\\c[0]",
                 "zh_CN": "\\c[1]\u6570\u636e\u6807\u8bc6#3469\\c[0]<<A<<[CHANGED 2018/03/14]",
                 "ja_JP": "\\c[1]\u30c7\u30fc\u30bf\u4fe1\u53f7 #3469\\c[0]<<A<<[CHANGED 2018/03/14]",

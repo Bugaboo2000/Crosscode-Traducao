@@ -10251,6 +10251,7 @@
         "analyzable": {
           "text": {
             "en_US": "Game Tester",
+            "pt_BR": "Testador de jogos",
             "de_DE": "Spieletester",
             "fr_FR": "fr_FR",
             "langUid": 91,
@@ -12362,6 +12363,7 @@
         "showType": "INSTANT",
         "text": {
           "en_US": "A data probe installed by Henry.",
+          "pt_BR": "Uma sonda de dados instalada por Henry.",
           "de_DE": "Eine Datensonde, installiert von Henry.",
           "fr_FR": "fr_FR",
           "langUid": 89,
@@ -12386,6 +12388,7 @@
         "showType": "DEFAULT",
         "text": {
           "en_US": "A data probe installed by Henry. The data has been retrieved.",
+          "pt_BR": "Uma sonda de dados instalada por Henry. Os dados foram recuperados.",
           "de_DE": "Eine Datensonde, installiert von Henry. Die Daten wurden bereits extrahiert.",
           "fr_FR": "fr_FR",
           "langUid": 90,
