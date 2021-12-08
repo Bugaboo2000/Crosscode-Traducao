@@ -1,0 +1,114 @@
+{
+    "DOCTYPE": "AREAS_MAP",
+    "name": {
+        "en_US": "untitled",
+        "pt_BR": "Sem Título",
+        "de_DE": "Unbenannt",
+        "langUid": 1,
+        "ja_JP": "\u7121\u984c<<A<<[CHANGED 2018\/08\/28]",
+        "ko_KR": "untitled<<A<<[CHANGED 2018\/08\/28]",
+        "zh_CN": "\u672a\u547d\u540d<<A<<[CHANGED 2018\/08\/28]",
+        "zh_TW": "\u672a\u547d\u540d<<A<<[CHANGED 2018\/08\/28]"
+    },
+    "width": 20,
+    "height": 20,
+    "floors": [{
+        "level": 0,
+        "tiles": [
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ],
+        "icons": [],
+        "maps": [{
+            "path": "meta-space",
+            "name": {
+                "en_US": "Space",
+                "pt_BR": "Espaço",
+                "langUid": 3,
+                "de_DE": "Weltraum",
+                "ja_JP": "\u5b87\u5b99<<A<<[CHANGED 2018\/08\/28]",
+                "ko_KR": "\uc6b0\uc8fc<<A<<[CHANGED 2018\/08\/28]",
+                "zh_CN": "\u592a\u7a7a<<A<<[CHANGED 2018\/08\/28]",
+                "zh_TW": "\u592a\u7a7a<<A<<[CHANGED 2018\/08\/28]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "arid-dng.first.room-12",
+            "name": {
+                "en_US": "Developer Room",
+                "pt_BR": "Sala do Desenvolvedor",
+                "langUid": 6,
+                "de_DE": "Entwicklerraum",
+                "zh_TW": "\u958b\u767c\u8005\u623f\u9593<<A<<[CHANGED 2020\/06\/15]",
+                "ko_KR": "\uac1c\ubc1c\uc790\uc758 \ubc29<<A<<[CHANGED 2020\/06\/17]",
+                "ja_JP": "\u958b\u767a\u5ba4<<A<<[CHANGED 2020\/06\/17]",
+                "zh_CN": "\u5f00\u53d1\u8005\u623f\u95f4<<A<<[CHANGED 2020\/06\/17]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "DUNGEON"
+        }, {
+            "path": "final-dng.b4.boss",
+            "name": {
+                "en_US": "The Test",
+                "pt_BR": "O Teste",
+                "langUid": 9,
+                "de_DE": "Der Test",
+                "zh_TW": "\u6e2c\u8a66<<A<<[CHANGED 2021\/01\/12]",
+                "zh_CN": "\u6d4b\u8bd5<<A<<[CHANGED 2021\/01\/12]",
+                "ko_KR": "\uc2dc\ud5d8<<A<<[CHANGED 2021\/01\/12]",
+                "ja_JP": "\u30b6\u30fb\u30c6\u30b9\u30c8<<A<<[CHANGED 2021\/01\/12]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": ""
+        }, {
+            "path": "final-dng.b4.credits",
+            "name": {
+                "en_US": "Stress Test",
+                "pt_BR": "Teste de Estresse",
+                "langUid": 12,
+                "de_DE": "Stresstest",
+                "zh_TW": "\u58d3\u529b\u6e2c\u8a66<<A<<[CHANGED 2021\/01\/12]",
+                "zh_CN": "\u538b\u529b\u6d4b\u8bd5<<A<<[CHANGED 2021\/01\/12]",
+                "ko_KR": "\uc2a4\ud2b8\ub808\uc2a4 \ud14c\uc2a4\ud2b8<<A<<[CHANGED 2021\/01\/12]",
+                "ja_JP": "\u30b9\u30c8\u30ec\u30b9\u30c6\u30b9\u30c8<<A<<[CHANGED 2021\/01\/12]"
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "dungeon": "NO_DUNGEON"
+        }],
+        "connections": [],
+        "landmarks": []
+    }],
+    "chests": 0,
+    "defaultFloor": 0
+}
