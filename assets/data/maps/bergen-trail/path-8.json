@@ -6912,7 +6912,7 @@
               {
                 "message": {
                   "en_US": "[nods]",
-                  "pt_BR": "[acena com a cabeça]",
+                  "pt_BR": "[acena a cabeça]",
                   "langUid": 437,
                   "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                   "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -7200,6 +7200,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "langUid": 75,
@@ -7215,6 +7216,7 @@
                 {
                   "message": {
                     "en_US": "Where is he?",
+                    "pt_BR": "Onde ele está?",
                     "de_DE": "Wo ist er?",
                     "fr_FR": "fr_FR",
                     "langUid": 76,
@@ -7233,6 +7235,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 80,
@@ -7251,6 +7254,7 @@
                 {
                   "message": {
                     "en_US": "Oh sorry, is this for me? ",
+                    "pt_BR": "Oh desculpe, isso é para mim?",
                     "de_DE": "Oh, Entschuldigung, ist das f\u00fcr mich?",
                     "fr_FR": "fr_FR",
                     "langUid": 241,
@@ -7269,6 +7273,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 242,
@@ -7284,6 +7289,7 @@
                 {
                   "message": {
                     "en_US": "Oh cool, didn't expect this so soon. Thanks a bunch!",
+                    "pt_BR": "Oh Legal, não esperava isso tão cedo. Muitíssimo obrigado!",
                     "de_DE": "Oh, cool, h\u00e4tte ich nicht so schnell erwartet. Danke vielmals!",
                     "fr_FR": "fr_FR",
                     "langUid": 243,
@@ -7302,6 +7308,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 244,
@@ -7336,6 +7343,7 @@
         "analType": "SPECIAL",
         "text": {
           "en_US": "A strange contraption",
+          "pt_BR": "Uma estranha engenhoca",
           "de_DE": "Eine seltsame Vorrichtung",
           "fr_FR": "fr_FR",
           "langUid": 245,
@@ -7453,6 +7461,7 @@
         "analyzable": {
           "text": {
             "en_US": "Impostor Guard",
+            "pt_BR": "Guarda Impostor",
             "de_DE": "Falscher Wachmann",
             "fr_FR": "fr_FR",
             "langUid": 430,
@@ -7499,6 +7508,7 @@
         "analyzable": {
           "text": {
             "en_US": "Kid Goat",
+            "pt_BR": "Cabrito",
             "de_DE": "Ziegenkitz",
             "fr_FR": "fr_FR",
             "langUid": 429,
@@ -7620,6 +7630,7 @@
           {
             "name": {
               "en_US": "Guard Impostor",
+              "pt_BR": "Guarda Impostor",
               "de_DE": "Falscher Wachmann",
               "zh_CN": "\u5192\u724c\u5b88\u536b",
               "ja_JP": "\u30cb\u30bb\u885b\u5175",
