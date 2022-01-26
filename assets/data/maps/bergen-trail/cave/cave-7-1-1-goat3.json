@@ -7357,6 +7357,7 @@
           {
             "message": {
               "en_US": "It seems like he ran into a group that tried to smuggle out a huge crate.\\. Please get there quickly!",
+              "pt_BR": "Parece que ele encontrou um grupo que tentou contrabandear uma caixa enorme..\\. Por favor chegue lá rápido",
               "de_DE": "Er hat wohl eine Gruppe erwischt, die versucht hat, eine riesige Kiste herauszuschmuggeln.\\. Du musst sofort hin!<<A<<[CHANGED 2021/05/22]",
               "zh_CN": "\u4ed6\u597d\u50cf\u9047\u5230\u4e86\u4e00\u7fa4\u60f3\u8981\u8d70\u79c1\u4e00\u4e2a\u5927\u7bb1\u5b50\u7684\u53ef\u7591\u4eba\u5458\u3002\\.\u8bf7\u5c3d\u5feb\u8d76\u53bb\u90a3\u91cc\uff01<<A<<[CHANGED 2021/05/22]",
               "zh_TW": "\u4ed6\u597d\u50cf\u9047\u5230\u4e86\u4e00\u7fa4\u60f3\u8981\u8d70\u79c1\u4e00\u500b\u5927\u7bb1\u5b50\u7684\u53ef\u7591\u4eba\u54e1\u3002\\.\u8acb\u5118\u5feb\u8d95\u53bb\u90a3\u88e1\uff01<<A<<[CHANGED 2021/05/22]",
@@ -7374,6 +7375,7 @@
           {
             "message": {
               "en_US": "...!\\.\\. Bye...",
+              "pt_BR": "...!\\.\\. Tchau...",
               "de_DE": "...!\\.\\. Bye...",
               "zh_CN": "...!\\.\\.\u518d\u89c1...<<A<<[CHANGED 2020/07/08]",
               "zh_TW": "...!\\.\\.\u518d\u898b...<<A<<[CHANGED 2020/07/09]",
