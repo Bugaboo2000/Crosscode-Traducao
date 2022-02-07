@@ -16630,7 +16630,7 @@
       "ATTACK_SPECIAL1_B": {
         "name": {
           "en_US": "Ice Twirl",
-          "pt_BR": "Gelo rodopiante",
+          "pt_BR": "Giro Glacial",
           "de_DE": "Ice Twirl",
           "zh_CN": "\u51b0\u65cb\u98ce",
           "ja_JP": "\u30a2\u30a4\u30b9\u30c8\u30ef\u30fc\u30eb",
@@ -16640,7 +16640,7 @@
         },
         "description": {
           "en_US": "Performs a stationary ice whirl attack with wide range and strong knockback.",
-          "pt_BR": "Executa um ataque redemoinho de gelo rodopiante com amplo alcance e forte recuo",
+          "pt_BR": "Executa um ataque estacionário em forma de redemoinho de gelo com amplo alcance e forte empurrão",
           "de_DE": "Ein stehender Eiswirbelschlag mit gro\u00dfer Reichweite und starkem R\u00fccksto\u00df.",
           "zh_CN": "\u65bd\u5c55\u4e00\u6b21\u56fa\u5b9a\u7684\u51b0\u7cfb\u65cb\u98ce\u65a9\uff0c\u8303\u56f4\u5927\u51fb\u9000\u529b\u5f3a\u3002",
           "ja_JP": "\u305d\u306e\u5834\u3067\u6c37\u306e\u56de\u8ee2\u653b\u6483\u3092\u3059\u308b\u3002\u653b\u6483\u7bc4\u56f2\u304c\u5e83\u304f\u3001\u30ce\u30c3\u30af\u30d0\u30c3\u30af\u3082\u5927\u304d\u3044\u3002",
@@ -16737,7 +16737,7 @@
       "ATTACK_SPECIAL2_A": {
         "name": {
           "en_US": "Blizzard Hawk",
-          "pt_BR": "Falcão Nevasca",
+          "pt_BR": "Avanço Boreal",
           "de_DE": "Blizzard Hawk",
           "zh_CN": "\u96ea\u66b4\u98de\u9e70",
           "ja_JP": "\u30d6\u30ea\u30b6\u30fc\u30c9\u30db\u30fc\u30af",
@@ -16747,7 +16747,7 @@
         },
         "description": {
           "en_US": "Take a stand and do massive damage with 3 frozen stars.",
-          "pt_BR": "Tome uma posição e cause danos massivos com 3 estrelas congelantes",
+          "pt_BR": "Canaliza o ataque e causa dano massivo com 3 estrelas congelantes",
           "de_DE": "Beschw\u00f6re eine 3-Hit Eiskristallkombo f\u00fcr massiven Schaden.",
           "zh_CN": "\u7ad9\u5b9a\u4f4d\u7f6e\uff0c\u4ee53\u9897\u51b0\u51bb\u4e4b\u661f\u9020\u6210\u5de8\u989d\u4f24\u5bb3\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u899a\u609f\u3092\u6c7a\u3081\u3001\u30d5\u30ed\u30fc\u30ba\u30f3\u30b9\u30bf\u30fc3\u3064\u3067\u5927\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -17031,7 +17031,7 @@
       "ATTACK_SPECIAL2_B": {
         "name": {
           "en_US": "Ice Tornado",
-          "pt_BR": "Tornado de gelo",
+          "pt_BR": "Tornado de Gelo",
           "de_DE": "Ice Tornado",
           "zh_CN": "\u51b0\u98d3\u98ce",
           "ja_JP": "\u30a2\u30a4\u30b9\u30c8\u30eb\u30cd\u30fc\u30c9",
@@ -17041,7 +17041,7 @@
         },
         "description": {
           "en_US": "Extend the Ice Twirl by sucking in enemies with multiple hits and then ejecting them.",
-          "pt_BR": "Prolonga o Gelo Rodopiante sugando os inimigos com vários golpes e, em seguida, ejetando-os",
+          "pt_BR": "Prolonga o Giro Glacial atraindo os inimigos com vários golpes e, em seguida, repelindo-os",
           "de_DE": "Sauge Gegner mit mehreren Treffern ein und schleudere sie weg.",
           "zh_CN": "\u65bd\u653e\u4e00\u6b21\u5f3a\u5927\u7684\u51b0\u65cb\u98ce\u653b\u51fb\uff0c\u8303\u56f4\u5e7f\uff0c\u9644\u5e26\u5f3a\u5927\u7684\u51fb\u9000\u6548\u679c\u3002",
           "ja_JP": "\u30a2\u30a4\u30b9\u30c8\u30ef\u30fc\u30eb\u306e\u5f37\u5316\u7248\u3002\u6575\u3092\u5f15\u304d\u5bc4\u305b\u306a\u304c\u3089\u591a\u6bb5\u30d2\u30c3\u30c8\u3057\u305f\u5f8c\u3001\u6575\u3092\u5439\u304d\u98db\u3070\u3059\u3002",
@@ -17274,7 +17274,7 @@
         },
         "description": {
           "en_US": "Take a stand and conjure a massive frozen ice spear from the ground that impales your enemies.",
-          "pt_BR": "Tome uma posição e conjure uma enorme lança de gelo congelado do chão que empala seus inimigos",
+          "pt_BR": "Canaliza e conjura uma enorme lança de gelo do chão, que empala seus inimigos",
           "de_DE": "Beschw\u00f6re einen gewaltigen Eisspeer, der deine Feinde pf\u00e4hlt.",
           "zh_CN": "\u7ad9\u5b9a\u4f4d\u7f6e\uff0c\u4ece\u5730\u9762\u53ec\u5524\u5de8\u578b\u51b0\u67aa\u523a\u7a7f\u654c\u4eba\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/11/15]",
           "ja_JP": "\u899a\u609f\u3092\u6c7a\u3081\u3001\u5de8\u5927\u306a\u6c37\u306e\u69cd\u3092\u5730\u9762\u304b\u3089\u53ec\u559a\u3057\u3066\u6575\u3092\u7a81\u304d\u523a\u3059\u3002<<A<<[CHANGED 2018/11/15]",
@@ -17430,7 +17430,7 @@
         },
         "description": {
           "en_US": "Begin a dance of multiple huge ice whirl attacks and lock enemies in and end it all with a massive pirouette that blast enemies away.",
-          "pt_BR": "Comece uma dança multipla com enormes ataques de gelo rodopiante e prenda os inimigos terminando tudo com uma enorme pirueta que os destrói",
+          "pt_BR": "Inicia uma dança de múltiplos e enormes ataques em forma de um redemoinho de gelo que prende os inimigos e finaliza com uma pirueta maciça que lança os inimigos pra longe.",
           "de_DE": "Beginne mit einem Eiswirbeltanz, der die Gegner l\u00e4hmt und sie in einer gewaltigen Pirouette wegschleudert.",
           "zh_CN": "\u5f00\u59cb\u8fdb\u884c\u8d85\u5927\u8303\u56f4\u7684\u51b0\u98ce\u653b\u51fb\u9501\u5b9a\u654c\u4eba\uff0c\u6700\u540e\u518d\u7528\u56de\u65cb\u9707\u5f00\u654c\u4eba\u3002<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u591a\u6bb5\u30d2\u30c3\u30c8\u3059\u308b\u5de8\u5927\u306a\u6c37\u306e\u56de\u8ee2\u653b\u6483\u3067\u3001\u8e0a\u308a\u306a\u304c\u3089\u6575\u3092\u653b\u6483\u3059\u308b\u3002\u30c0\u30f3\u30b9\u306e\u6700\u5f8c\u306b\u3064\u307e\u3055\u304d\u7acb\u3061\u3067\u56de\u8ee2\u3057\u3001\u6575\u3092\u5439\u304d\u98db\u3070\u3059\u3002<<A<<[CHANGED 2017/11/27]",
@@ -18083,7 +18083,7 @@
       "THROW_SPECIAL1_B": {
         "name": {
           "en_US": "Snow Flawke",
-          "pt_BR": "Neve Falha",
+          "pt_BR": "Bola de Neve",
           "de_DE": "Snow Flawke",
           "zh_CN": "\u96ea\u7403\u7206\u88c2",
           "ja_JP": "\u30b9\u30ce\u30fc\u30d5\u30ec\u30fc\u30af",
@@ -18093,7 +18093,7 @@
         },
         "description": {
           "en_US": "Hit enemies with a big snow explosion, caging them within icicles.",
-          "pt_BR": "Acerta os inimigos com uma grande explosão de neve, prendendo-os dentro de pingentes de gelo",
+          "pt_BR": "Acerta os inimigos com uma grande explosão de neve, prendendo-os dentro de espinhos de gelo",
           "de_DE": "Triff deine Feinde mit einer wuchtigen Schnee-Explosion, die sie in Eiskristalle f\u00e4ngt.",
           "zh_CN": "\u7528\u96ea\u7403\u7206\u70b8\u5bf9\u654c\u4eba\u9020\u6210\u4f24\u5bb3\uff0c\u5e76\u4f7f\u5176\u56f0\u4e8e\u51b0\u67f1\u4e4b\u4e2d\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u96ea\u306e\u7206\u767a\u3092\u8d77\u3053\u3057\u3001\u5f53\u305f\u3063\u305f\u6575\u3092\u3064\u3089\u3089\u306e\u6abb\u306b\u9589\u3058\u8fbc\u3081\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -18134,7 +18134,7 @@
       "THROW_SPECIAL2_A": {
         "name": {
           "en_US": "Hail Storm",
-          "pt_BR": "Tempestade de Granizo",
+          "pt_BR": "Estilhaço Gélido",
           "de_DE": "Hail Storm",
           "zh_CN": "\u51b0\u96f9\u98ce\u66b4",
           "ja_JP": "\u30d8\u30a4\u30eb\u30b9\u30c8\u30fc\u30e0",
@@ -18144,7 +18144,7 @@
         },
         "description": {
           "en_US": "Shoot an icicle that bounces off of walls 2 times, creating homing mini icicles.",
-          "pt_BR": "Atira em um pingente de gelo que ricocheteia nas paredes 2 vezes, criando pequenos pingentes de gelo",
+          "pt_BR": "Dispara um espinho de gelo que ricocheteia nas paredes 2 vezes, criando pequenos espinhos de gelo",
           "de_DE": "Feuere einen Eiskristall, der zwei Mal von W\u00e4nden abprallt und sich in zielsuchende Kristalle aufteilt.",
           "zh_CN": "\u5c04\u51fa\u4e00\u679a\u51b0\u9525\uff0c\u649e\u5899\u540e\u53cd\u5f392\u6b21\uff0c\u5e76\u751f\u6210\u5f52\u822a\u7684\u5c0f\u578b\u51b0\u9525\u3002<<A<<[CHANGED 2018/10/04]",
           "ja_JP": "\u58c1\u306b2\u56de\u53cd\u5c04\u3059\u308b\u3064\u3089\u3089\u3092\u767a\u5c04\u3059\u308b\u3002\u53cd\u5c04\u6642\u3001\u30db\u30fc\u30df\u30f3\u30b0\u6027\u80fd\u3092\u6301\u3064\u304b\u3051\u3089\u3092\u767a\u751f\u3055\u305b\u308b\u3002<<A<<[CHANGED 2018/10/04]",
@@ -18186,7 +18186,7 @@
         "name": {
           "en_US": "Frigid Flawke",
           "de_DE": "Frigid Flawke",
-          "pt_BR": "Falha Fria",
+          "pt_BR": "Grande Bola de Neve",
           "zh_CN": "\u5bd2\u51b0\u5410\u606f",
           "ja_JP": "\u30d5\u30ea\u30b8\u30c3\u30c9\u30d5\u30ec\u30fc\u30af",
           "ko_KR": "\ucc28\uac00\uc6b4 \uc870\uac01",
@@ -18195,7 +18195,7 @@
         },
         "description": {
           "en_US": "Shoot a large snow ball, leaving an icicle trail and caging enemies with multiple icicles.",
-          "pt_BR": "Atira uma grande bola de neve, deixando um rastro de gelo e prendendo inimigos com multiplos pingentes",
+          "pt_BR": "Atira uma grande bola de neve, deixando um rastro de espinhos de gelo que prendem os inimigos",
           "de_DE": "Feuere einen Riesenschneeball, der deine Feinde in Eiskristalle f\u00e4ngt.",
           "zh_CN": "\u5c04\u51fa\u4e00\u679a\u5927\u578b\u7684\u96ea\u7403\uff0c\u7559\u4e0b\u4e00\u9053\u51b0\u9525\u4e4b\u5f84\uff0c\u5e76\u4ee5\u591a\u679a\u51b0\u9525\u8986\u76d6\u654c\u4eba\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u5de8\u5927\u306a\u96ea\u7389\u3092\u767a\u5c04\u3057\u3001\u5f53\u305f\u3063\u305f\u6575\u3092\u3064\u3089\u3089\u306e\u6abb\u306b\u9589\u3058\u8fbc\u3081\u308b\u3002\u96ea\u7389\u306e\u901a\u3063\u305f\u5f8c\u306b\u3064\u3089\u3089\u304c\u767a\u751f\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -18236,7 +18236,7 @@
       "THROW_SPECIAL3_A": {
         "name": {
           "en_US": "Gatling Arctillery",
-          "pt_BR": "Artilharia Gatling",
+          "pt_BR": "Torreta Metralhadora",
           "de_DE": "Gatling Arctillery",
           "zh_CN": "\u5bd2\u51b0\u52a0\u7279\u6797<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u30ac\u30c8\u30ea\u30f3\u30b0\u30a2\u30fc\u30c1\u30c6\u30ea<<A<<[CHANGED 2017/12/11]",
@@ -18246,7 +18246,7 @@
         },
         "description": {
           "en_US": "Summon an Ice Turret with spikes around you and blast your enemies away with a volley of icicles.",
-          "pt_BR": "Summona uma torre de gelo com espinhos ao seu redor que explode seus inimigos com uma rajada de pingentes de gelo",
+          "pt_BR": "Summona uma torre de gelo com espinhos ao seu redor que destroem seus inimigos com uma rajada de espinhos de gelo",
           "de_DE": "Beschw\u00f6re ein eisgepanzertes Gesch\u00fctz und puste deine Feinde mit einer Salve Eiszapfen weg.",
           "zh_CN": "\u5728\u4f60\u7684\u8eab\u8fb9\u53ec\u5524\u51fa\u5bd2\u51b0\u70ae\u53f0\u548c\u51b0\u523a\uff0c\u901a\u8fc7\u51b0\u67aa\u8fde\u51fb\u5c04\u7206\u654c\u4eba\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u81ea\u8eab\u306e\u5468\u308a\u306b\u3068\u3052\u4ed8\u304d\u306e\u6c37\u306e\u7832\u53f0\u3092\u53ec\u559a\u3057\u3001\u3064\u3089\u3089\u3092\u4e00\u6589\u653e\u5c04\u3057\u3066\u6575\u3092\u5439\u304d\u98db\u3070\u3059\u653b\u6483\u3002<<A<<[CHANGED 2018/03/14]",
@@ -18449,7 +18449,7 @@
       "DASH_SPECIAL1_A": {
         "name": {
           "en_US": "Indigo Strike",
-          "pt_BR": "Ataque Índigo",
+          "pt_BR": "Passos Gelados",
           "de_DE": "Indigo Strike",
           "zh_CN": "\u975b\u8272\u7a81\u88ad",
           "ja_JP": "\u30a4\u30f3\u30c7\u30a3\u30b4\u30b9\u30c8\u30e9\u30a4\u30af",
@@ -18459,7 +18459,7 @@
         },
         "description": {
           "en_US": "Dash with high speed, leaving a trail of icicles behind you, damaging enemies on contact.",
-          "pt_BR": "Corre em alta velocidade, deixando um rastro de pingentes atrás de você, causando dano aos inimigos próximos",
+          "pt_BR": "Avança em alta velocidade, deixando um rastro de espinhos de gelo atrás de você, causando dano aos inimigos que encostarem",
           "de_DE": "Ein schneller Dash, der Eiskristalle hinterl\u00e4sst, die Gegner bei Kontakt verwunden.",
           "zh_CN": "\u9ad8\u901f\u51b2\u523a\uff0c\u5728\u51b2\u523a\u8def\u7ebf\u4e0a\u7559\u4e0b\u4e00\u9053\u51b0\u67f1\uff0c\u5e76\u5bf9\u63a5\u89e6\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u9ad8\u901f\u3067\u30c0\u30c3\u30b7\u30e5\u3057\u3001\u901a\u3063\u305f\u5f8c\u306b\u3064\u3089\u3089\u3092\u6b8b\u3059\u3002\u3064\u3089\u3089\u306b\u89e6\u308c\u305f\u6575\u306f\u30c0\u30e1\u30fc\u30b8\u3092\u53d7\u3051\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -18581,7 +18581,7 @@
       "DASH_SPECIAL2_A": {
         "name": {
           "en_US": "Indigo Rush",
-          "pt_BR": "Ímpeto Índigo",
+          "pt_BR": "Investida Gélida",
           "de_DE": "Indigo Rush",
           "zh_CN": "\u975b\u84dd\u51b2\u523a",
           "ja_JP": "\u30a4\u30f3\u30c7\u30a3\u30b4\u30e9\u30c3\u30b7\u30e5",
@@ -18591,7 +18591,7 @@
         },
         "description": {
           "en_US": "Dash a long distance, leaving icicles which create multiple additional icicle trails.",
-          "pt_BR": "Corre uma longa distância, deixando pingentes de gelo que criam vários rastros de gelo adicionais.",
+          "pt_BR": "Avança uma longa distância, deixando espinhos de gelo que criam vários resquícios de gelo adicionais.",
           "de_DE": "Ein langer Dash, der Eiskristalle hinterl\u00e4sst, die noch mehr Eiskristalle erzeugen.",
           "zh_CN": "\u731b\u51b2\u4e00\u957f\u6bb5\u8ddd\u79bb\uff0c\u5728\u8eab\u540e\u7559\u4e0b\u51b0\u9525\uff0c\u989d\u5916\u751f\u6210\u591a\u6761\u51b0\u9525\u4e4b\u5f84\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u9577\u8ddd\u96e2\u3092\u30c0\u30c3\u30b7\u30e5\u3057\u3001\u901a\u3063\u305f\u5f8c\u306b\u3064\u3089\u3089\u3092\u6b8b\u3059\u3002\u3053\u306e\u3064\u3089\u3089\u306f\u3055\u3089\u306b\u3064\u3089\u3089\u306e\u5217\u3092\u3044\u304f\u3064\u304b\u767a\u751f\u3055\u305b\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -18745,7 +18745,7 @@
       "GUARD_SPECIAL1_A": {
         "name": {
           "en_US": "Frozen Stance",
-          "pt_BR": "Instância Gelada",
+          "pt_BR": "Deflexão de Gelo",
           "de_DE": "Frozen Stance",
           "zh_CN": "\u51b0\u51bb\u59ff\u6001",
           "ja_JP": "\u30d5\u30ed\u30fc\u30ba\u30f3\u30b9\u30bf\u30f3\u30b9",
@@ -18755,7 +18755,7 @@
         },
         "description": {
           "en_US": "Perfect guard an attack and counter with a cold strike, slowing down your enemy.",
-          "pt_BR": "Perfeitamente proteja um ataque e contra-ataque com um ataque frio, retardando seu inimigo",
+          "pt_BR": "Bloqueia um ataque e contra-ataca com um ataque gelado, retardando seu inimigo",
           "de_DE": "Pariere einen Angriff und kontere mit einem Frostschlag, der den Gegner verlangsamt.",
           "zh_CN": "\u5b8c\u7f8e\u9632\u5fa1\u4e00\u6b21\u653b\u51fb\uff0c\u540c\u65f6\u8fd8\u51fb\u5e76\u964d\u4f4e\u654c\u4eba\u7684\u901f\u5ea6\u3002",
           "ja_JP": "\u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30ac\u30fc\u30c9\u3067\u653b\u6483\u3092\u53d7\u3051\u3001\u6575\u306e\u52d5\u304d\u3092\u9045\u304f\u3059\u308b\u6c37\u306e\u4e00\u6483\u3067\u30ab\u30a6\u30f3\u30bf\u30fc\u653b\u6483\u3092\u3059\u308b\u3002",
@@ -18890,7 +18890,7 @@
         "name": {
           "en_US": "Brisk Barrier",
           "de_DE": "Brisk Barrier",
-          "pt_BR": "Barreira Brisk",
+          "pt_BR": "Barreira Gélida",
           "zh_CN": "\u51b0\u5899",
           "ja_JP": "\u30d6\u30ea\u30b9\u30af\u30d0\u30ea\u30a2",
           "ko_KR": "\uc5bc\uc74c \uc7a5\ubcbd",
@@ -18899,7 +18899,7 @@
         },
         "description": {
           "en_US": "Blast enemies away and spawn several icicles in front of you, blocking projectiles and damaging enemies on contact.",
-          "pt_BR": "Exploda os inimigos e invoque vários pingentes de gelo na sua frente, bloqueando projéteis e causando dano aos inimigos próximos",
+          "pt_BR": "Aremessa os inimigos longe e cria vários espinhos de gelo na sua frente, bloqueando projéteis e causando dano nos inimigos ao contato",
           "de_DE": "Sto\u00dfe Gegner weg und verbarrikadiere dich hinter Eiskristallen, die Projektile blocken und Gegner bei Kontakt verwunden.",
           "zh_CN": "\u5728\u4f60\u7684\u524d\u65b9\u53ec\u5524\u51fa\u6570\u6839\u51b0\u67f1\uff0c\u963b\u6321\u654c\u4eba\u7684\u5c04\u51fb\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u8fd1\u304f\u306b\u3044\u308b\u6575\u3092\u5439\u304d\u98db\u3070\u3057\u3001\u3064\u3089\u3089\u3092\u524d\u65b9\u306b\u6570\u500b\u767a\u751f\u3055\u305b\u308b\u3002\u3064\u3089\u3089\u306f\u89e6\u308c\u305f\u6575\u306b\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3001\u98db\u3073\u9053\u5177\u3082\u9632\u3044\u3067\u304f\u308c\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -19020,7 +19020,7 @@
       "GUARD_SPECIAL2_A": {
         "name": {
           "en_US": "Freeze Frame",
-          "pt_BR": "Quadro Gelado",
+          "pt_BR": "Defesa Perfeita",
           "de_DE": "Freeze Frame",
           "zh_CN": "\u51b0\u7130",
           "ja_JP": "\u30d5\u30ea\u30fc\u30ba\u30d5\u30ec\u30fc\u30e0",
@@ -19030,7 +19030,7 @@
         },
         "description": {
           "en_US": "Perfect guard an attack and completely freeze the enemy, leaving it open for more attacks.",
-          "pt_BR": "Perfeitamente proteja um ataque e congele completamente o inimigo, deixando-o vulnerável para mais ataques",
+          "pt_BR": "Bloqueia um ataque e congela completamente o inimigo, deixando-o vulnerável para mais ataques",
           "de_DE": "Pariere einen Angriff und friere den Gegner komplett ein, um weitere Angriffe zu landen.",
           "zh_CN": "\u5b8c\u7f8e\u9632\u5fa1\u4e00\u6b21\u653b\u51fb\uff0c\u5e76\u5b8c\u5168\u51bb\u4f4f\u654c\u4eba\uff0c\u4f7f\u5176\u627f\u53d7\u989d\u5916\u7684\u653b\u51fb\u3002",
           "ja_JP": "\u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30ac\u30fc\u30c9\u3067\u653b\u6483\u3092\u53d7\u3051\u3001\u6575\u3092\u5b8c\u5168\u306b\u51cd\u3089\u305b\u308b\u6c37\u306e\u4e00\u6483\u3067\u30ab\u30a6\u30f3\u30bf\u30fc\u653b\u6483\u3057\u3001\u7121\u9632\u5099\u306a\u72b6\u614b\u306b\u3059\u308b\u3002",
@@ -19209,7 +19209,7 @@
       "GUARD_SPECIAL2_B": {
         "name": {
           "en_US": "Icy Bastion",
-          "pt_BR": "Bastião Gelado",
+          "pt_BR": "Flor de Gelo",
           "de_DE": "Icy Bastion",
           "zh_CN": "\u5bd2\u51b0\u5821\u5792",
           "ja_JP": "\u30a2\u30a4\u30b9\u30fb\u30d5\u30a9\u30fc\u30c8\u30ec\u30b9",
@@ -19219,7 +19219,7 @@
         },
         "description": {
           "en_US": "Spawn multiple icicles around you and envelop yourself in a protective but slowing shield.",
-          "pt_BR": "Invoque multiplos pingentes de gelo ao seu redor envolvendo-o em um escudo protetor mas lento",
+          "pt_BR": "Invoca múltiplos espinhos de gelo ao seu redor envolvendo-o em um escudo protetor que te desacelera",
           "de_DE": "Beschw\u00f6re einige Eiskristalle und h\u00fclle dich in einen sch\u00fctzenden, doch verlangsamenden Schild.",
           "zh_CN": "\u5728\u8eab\u5468\u884d\u751f\u591a\u679a\u51b0\u9525\uff0c\u5e76\u521b\u9020\u4e00\u9053\u5177\u6709\u9632\u62a4\u6027\uff0c\u4f46\u4f1a\u51cf\u6162\u901f\u5ea6\u7684\u62a4\u76fe\u3002<<A<<[CHANGED 2019/04/16]",
           "ja_JP": "\u5468\u308a\u306b\u3064\u3089\u3089\u30b7\u30fc\u30eb\u30c9\u3092\u767a\u751f\u3055\u305b\u308b\u304c\u3001\u52d5\u304d\u306f\u9045\u304f\u306a\u308b\u3002<<A<<[CHANGED 2019/04/16]",
@@ -19387,7 +19387,7 @@
       "GUARD_SPECIAL3_A": {
         "name": {
           "en_US": "Crystal Keeper",
-          "pt_BR": "Guardião Cristal",
+          "pt_BR": "Pó de Diamante",
           "de_DE": "Crystal Keeper",
           "zh_CN": "\u6c34\u6676\u5b88\u536b<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u30af\u30ea\u30b9\u30bf\u30eb\u30ad\u30fc\u30d1\u30fc<<A<<[CHANGED 2017/11/27]",
@@ -19397,7 +19397,7 @@
         },
         "description": {
           "en_US": "Perfect guard an attack, initiate a quick combo and completely freeze all enemies in front of you.",
-          "pt_BR": "Perfeitamente proteja um ataque, inicie um combo rápido e congele completamente todos os inimigos à sua frente",
+          "pt_BR": "Bloqueia um ataque, inicia um combo rápido que congela completamente todos os inimigos à sua frente",
           "de_DE": "Pariere einen Angriff, kontere mit einer schnellen Kombo und friere alle Gegner vor dir ein.",
           "zh_CN": "\u5b8c\u7f8e\u9632\u5fa1\u4e00\u6b21\u653b\u51fb\uff0c\u8fdb\u884c\u4e00\u6b21\u5feb\u901f\u8fde\u51fb\u5e76\u5c06\u9762\u524d\u7684\u6240\u6709\u654c\u4eba\u51bb\u4f4f\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u30d1\u30fc\u30d5\u30a7\u30af\u30c8\u30ac\u30fc\u30c9\u3067\u653b\u6483\u3092\u53d7\u3051\u3066\u304b\u3089\u7d20\u65e9\u3044\u30b3\u30f3\u30dc\u3067\u53cd\u6483\u3057\u3001\u76ee\u306e\u524d\u306b\u3044\u308b\u3059\u3079\u3066\u306e\u6575\u3092\u5b8c\u5168\u306b\u51cd\u3089\u305b\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -19791,7 +19791,7 @@
       "GUARD_SPECIAL3_B": {
         "name": {
           "en_US": "Fimbulvetr",
-          "pt_BR": "Fimbulvetr",
+          "pt_BR": "Turbilhão de Gelo",
           "de_DE": "Fimbulvetr",
           "zh_CN": "\u82ac\u5e03\u5c14\u4e4b\u51ac<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u30d5\u30a3\u30f3\u30d6\u30eb\u30f4\u30a7\u30c8\u30eb<<A<<[CHANGED 2017/11/27]",
@@ -20055,7 +20055,7 @@
       "ATTACK_SPECIAL1_A": {
         "name": {
           "en_US": "Tesla Twist",
-          "pt_BR": "Redemoinho Tesla",
+          "pt_BR": "Ciclone Elétrico",
           "de_DE": "Tesla Twist",
           "zh_CN": "\u7279\u65af\u62c9\u8fc5\u51fb",
           "zh_TW": "\u7279\u65af\u62c9\u8fc5\u64ca",
@@ -20065,7 +20065,7 @@
         },
         "description": {
           "en_US": "Attack with a series of multiple fast spin attacks within a small radius.",
-          "pt_BR": "Ataque com uma série de vários ataques de giro rápido dentro de um pequeno raio",
+          "pt_BR": "Ataca com uma série de golpes rotatórios rápidos dentro de um pequeno raio",
           "de_DE": "Greife mit einer Reihe schneller Wirbelattacken mit kleinem Radius an.",
           "zh_CN": "\u65bd\u5c55\u4e00\u7cfb\u5217\u5c0f\u8303\u7684\u5feb\u901f\u65cb\u8f6c\u653b\u51fb\u3002",
           "zh_TW": "\u65bd\u5c55\u4e00\u7cfb\u5217\u5c0f\u8303\u7684\u5feb\u901f\u65cb\u8f49\u653b\u64ca\u3002",
@@ -20173,7 +20173,7 @@
         },
         "description": {
           "en_US": "Hit a single enemy into the air following up with a lightning strike.",
-          "pt_BR": "Acerte um único inimigo no ar seguindo com um ataque relâmpago",
+          "pt_BR": "Acerta um único inimigo o aremessando no ar, seguido de um relâmpago",
           "de_DE": "Schlage einen einzelnen Gegner in die Luft und triff ihn mit einem Blitzschlag.",
           "zh_CN": "\u51fb\u98de\u5355\u4f53\u654c\u4eba\uff0c\u7136\u540e\u7528\u95ea\u7535\u653b\u51fb\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u6575\u5358\u4f53\u3092\u7a7a\u306b\u53e9\u304d\u4e0a\u3052\u3001\u96f7\u3067\u8ffd\u6483\u3059\u308b\u653b\u6483\u3002<<A<<[CHANGED 2018/03/14]",
@@ -20320,7 +20320,7 @@
       "ATTACK_SPECIAL2_A": {
         "name": {
           "en_US": "Tesla Waltz",
-          "pt_BR": "Valsa Tesla",
+          "pt_BR": "Turbilhão Cortante",
           "de_DE": "Tesla Waltz",
           "zh_CN": "\u7279\u65af\u62c9\u4e4b\u821e",
           "ja_JP": "\u30c6\u30b9\u30e9\u30fb\u30ef\u30eb\u30c4",
@@ -20551,7 +20551,7 @@
       "ATTACK_SPECIAL2_B": {
         "name": {
           "en_US": "Battery Assault",
-          "pt_BR": "Bateria Agressora",
+          "pt_BR": "Surto Elétrico ",
           "de_DE": "Battery Assault",
           "zh_CN": "\u7535\u6c60\u7a81\u88ad",
           "ja_JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u30a2\u30b5\u30eb\u30c8",
@@ -20562,7 +20562,7 @@
         "description": {
           "en_US": "Lock a single enemy into a fast ground combo followed by multiple hit in the air and a strong lightning finisher.",
           "de_DE": "Bearbeite den Feind mit einer Multi-Hit-Kombo am Boden und in der Luft und strecke ihn mit einem Blitz nieder.",
-          "pt_BR": "Prenda um único inimigo em um combo de solo rápido seguido por multiplos acertos no ar e um raio forte",
+          "pt_BR": "Atinge um único inimigo em um combo rápido, seguido por multiplos acertos no ar e finaliza com uma forte descarga elétrica",
           "zh_CN": "\u9501\u5b9a\u4e00\u540d\u654c\u4eba\u65bd\u5c55\u5feb\u901f\u7684\u5730\u9762\u8fde\u51fb\uff0c\u5e76\u5728\u7a7a\u4e2d\u8854\u63a5\u591a\u6b21\u653b\u51fb\uff0c\u6700\u540e\u4ee5\u5f3a\u5927\u7684\u95ea\u7535\u7ec8\u7ed3\u3002\u9020\u6210\\c[3]\u89e6\u7535\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u6575\u5358\u4f53\u3092\u5bfe\u8c61\u3068\u3059\u308b\u653b\u6483\u3002\u5730\u4e0a\u30b3\u30f3\u30dc\u306e\u5f8c\u7a7a\u4e2d\u30b3\u30f3\u30dc\u306b\u5207\u308a\u66ff\u3048\u3001\u6700\u5f8c\u306b\u5f37\u529b\u306a\u96fb\u6483\u3092\u304a\u898b\u821e\u3044\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
           "ko_KR": "\ube60\ub978 \uc9c0\uba74 \ucf64\ubcf4\ub85c \uc801 \ud558\ub098\ub97c \ubb36\uc740 \ub4a4 \uacf5\uc911\uc5d0\uc11c \uc5ec\ub7ec \ubc88 \uacf5\uaca9\ud558\uace0, \uac15\ud55c \ubc88\uac1c\ub85c \ub9c8\ubb34\ub9ac\ud569\ub2c8\ub2e4.<<A<<[CHANGED 2018/03/14]",
@@ -20984,7 +20984,7 @@
       "ATTACK_SPECIAL3_A": {
         "name": {
           "en_US": "Song of Storms",
-          "pt_BR": "Canção de tempestade",
+          "pt_BR": "Vortex Elétrico",
           "de_DE": "Song of Storms",
           "zh_CN": "\u98ce\u66b4\u4e4b\u6b4c<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u30b9\u30c8\u30fc\u30e0\u30bd\u30f3\u30b0<<A<<[CHANGED 2017/11/27]",
@@ -20994,7 +20994,7 @@
         },
         "description": {
           "en_US": "Lock a single enemy into a hyper speed combo that creates a doppelganger and finishes with a faster-than-light attack chain.",
-          "pt_BR": "Prenda um único inimigo em um combo de hipervelocidade que cria um doppelganger e termina com uma cadeia de ataque mais rápida que a luz",
+          "pt_BR": "Atinge um único inimigo em um combo ultra rápido que cria um clone e finaliza com uma série de ataque mais rápidos que a luz",
           "de_DE": "Bearbeite den Feind mit einer blitzschnellen Kombo, die einen Doppelg\u00e4nger von dir erzeugt und mit einer Blitzkettenkombo endet.",
           "zh_CN": "\u521b\u9020\u5206\u8eab\uff0c\u4f7f\u7528\u95ea\u7535\u822c\u7684\u8fde\u51fb\u9501\u5b9a\u4e00\u4e2a\u654c\u4eba\uff0c\u6700\u540e\u5149\u901f\u8fde\u51fb\u7ec8\u7ed3\u3002\u9020\u6210\\c[3]\u89e6\u7535\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u6575\u5358\u4f53\u306b\u9ad8\u901f\u306e\u30b3\u30f3\u30dc\u3092\u53e9\u304d\u8fbc\u3080\u653b\u6483\u3002\u30b3\u30f3\u30dc\u306f\u30c9\u30c3\u30da\u30eb\u30b2\u30f3\u30ac\u30fc\u3092\u767a\u751f\u3055\u305b\u3001\u6700\u5f8c\u306b\u8d85\u5149\u901f\u306e\u9023\u9396\u653b\u6483\u3092\u304a\u898b\u821e\u3044\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -21699,7 +21699,7 @@
       "THROW_SPECIAL1_A": {
         "name": {
           "en_US": "Diving Spark",
-          "pt_BR": "Faísca de mergulho",
+          "pt_BR": "Projétil Trovejante",
           "de_DE": "Diving Spark",
           "zh_CN": "\u4fef\u51b2\u95ea\u7535",
           "ja_JP": "\u30c0\u30a4\u30d3\u30f3\u30b0\u30b9\u30d1\u30fc\u30af",
@@ -21709,7 +21709,7 @@
         },
         "description": {
           "en_US": "Throw a projectile that creates a delayed lightning bolt damaging everything around it.",
-          "pt_BR": "Lança um projétil que cria um raio  danificando tudo ao seu redor",
+          "pt_BR": "Lança um projétil que cria um raio com atraso danificando tudo ao seu redor",
           "de_DE": "Feuere ein Projektil, das einen vez\u00f6gerten Blitz auf Feind und Umgebung krachen l\u00e4sst.",
           "zh_CN": "\u6295\u63b7\u6807\u8bb0\uff0c\u4e00\u6bb5\u5ef6\u8fdf\u540e\u9020\u5bf9\u5468\u56f4\u654c\u4eba\u9020\u6210\u95ea\u7535\u4f24\u5bb3\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u96fb\u6483\u3092\u653e\u3064\u653b\u6483\u3002\u5f53\u305f\u3063\u305f\u6575\u306b\u306f\u4e00\u77ac\u9045\u308c\u3066\u96f7\u304c\u843d\u3061\u3001\u305d\u306e\u5468\u56f2\u306b\u3082\u30c0\u30e1\u30fc\u30b8\u304c\u884c\u304f\u3002<<A<<[CHANGED 2018/03/14]",
@@ -21758,7 +21758,7 @@
       "THROW_SPECIAL1_B": {
         "name": {
           "en_US": "Homing Wisp",
-          "pt_BR": "Fiapo Teleguiado",
+          "pt_BR": "Enxame Teleguiado",
           "de_DE": "Homing Wisp",
           "zh_CN": "\u8ddf\u8e2a\u98de\u5f39",
           "ja_JP": "\u30db\u30fc\u30df\u30f3\u30b0\u30a6\u30a3\u30b9\u30d7",
@@ -21768,7 +21768,7 @@
         },
         "description": {
           "en_US": "Shoot an array of small homing projectiles.",
-          "pt_BR": "Atire em uma série de pequenos projéteis teleguiados",
+          "pt_BR": "Atira uma série de pequenos projéteis teleguiados",
           "de_DE": "Feuere eine Salve zielsuchender Projektile.",
           "zh_CN": "\u5c04\u51fa\u4e00\u8fde\u4e32\u5c0f\u578b\u8ddf\u8e2a\u98de\u5f39\u3002",
           "ja_JP": "\u30db\u30fc\u30df\u30f3\u30b0\u6027\u80fd\u3092\u6301\u3064\u5c0f\u3055\u306a\u96fb\u6483\u3092\u5927\u91cf\u306b\u653e\u3064\u653b\u6483\u3002",
@@ -21828,7 +21828,7 @@
       "THROW_SPECIAL2_A": {
         "name": {
           "en_US": "Chain Blitz",
-          "pt_BR": "Blitz em Cadeia",
+          "pt_BR": "Arco Elétrico",
           "de_DE": "Chain Blitz",
           "zh_CN": "\u8fde\u9501\u95ea\u7535",
           "ja_JP": "\u30c1\u30a7\u30a4\u30f3\u30d6\u30ea\u30c3\u30c4",
@@ -21838,7 +21838,7 @@
         },
         "description": {
           "en_US": "Fire a projectile that creates a chain along up to 4 enemies which will get hit by a lightning bolt.",
-          "pt_BR": "Dispara um projétil que cria uma corrente ao longo de até 4 inimigos que serão atingidos por um raio",
+          "pt_BR": "Dispara um projétil que cria uma corrente que transpõe até 4 inimigos que serão atingidos por um relâmpago.",
           "de_DE": "Feuere ein Projektil, das bis zu vier Gegner verkettet, die dann von einem Blitz getroffen werden.",
           "zh_CN": "\u5c04\u51fa\u4e00\u679a\u70ae\u5f39\uff0c\u8fde\u63a5\u81f3\u591a4\u540d\u654c\u4eba\u5e76\u5bf9\u5176\u8fdb\u884c\u7535\u51fb\u3002\u9020\u6210\\c[3]\u89e6\u7535\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u6700\u5927\u30674\u4f53\u306e\u6575\u306b\u9023\u9396\u3059\u308b\u96fb\u6483\u3092\u653e\u3064\u653b\u6483\u3002\u5f53\u305f\u3063\u305f\u6575\u306b\u306f\u3001\u5468\u56f2\u306b\u3082\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u96f7\u304c\u843d\u3061\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -21880,7 +21880,7 @@
       "THROW_SPECIAL2_B": {
         "name": {
           "en_US": "Radiant Swarm",
-          "pt_BR": "Enxame Radiante",
+          "pt_BR": "Enxame Radiante Teleguiado",
           "de_DE": "Radiant Swarm",
           "zh_CN": "\u8f90\u5c04\u96c6\u7fa4",
           "ja_JP": "\u30e9\u30a4\u30c8\u30cb\u30f3\u30b0\u30b9\u30ef\u30fc\u30e0",
@@ -22002,7 +22002,7 @@
         },
         "description": {
           "en_US": "Call upon the help of the gods and summon 3 spheres that spam an enemy with bullets and finish it off with a lightning explosion. ",
-          "pt_BR": "Chama a ajuda dos deuses e summona 3 esferas que espantam um inimigo com balas terminando com uma explosão relâmpago.",
+          "pt_BR": "Chama a ajuda dos deuses e summona 3 esferas que enchem um inimigo de balas terminando com a explosão de um relâmpago.",
           "de_DE": "Rufe die G\u00f6tter zu Hilfe und beschw\u00f6re drei Kugeln, die den Feind mit einem Kugelhagel und einer Blitz-Explosion maltr\u00e4tieren.",
           "zh_CN": "\u547c\u5524\u795e\u7075\u7684\u5e2e\u52a9\uff0c\u53ec\u5524\u51fa\u4e09\u4e2a\u7403\u4f53\u5bf9\u4e00\u4e2a\u654c\u4eba\u75af\u72c2\u5c04\u51fb\uff0c\u6700\u540e\u7528\u4e00\u573a\u95ea\u7535\u7206\u70b8\u7ec8\u7ed3\u3002<<A<<[CHANGED 2018/07/09]",
           "ja_JP": "\u795e\u306b\u52a9\u3051\u3092\u6c42\u3081\u3001\u5927\u91cf\u306e\u5f3e\u4e38\u3092\u7121\u5dee\u5225\u306b\u653e\u3064\u7403\u4f53\u30923\u3064\u53ec\u559a\u3059\u308b\u3002\u6700\u5f8c\u306b\u7a32\u59bb\u306e\u7206\u767a\u3092\u304a\u898b\u821e\u3044\u3059\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -22062,7 +22062,7 @@
         },
         "description": {
           "en_US": "Perform a fast dash that attacks one enemy multiple times on contact.",
-          "pt_BR": "Executa uma corrida rápida que ataca um inimigo múltiplas vezes ao entrar em contato",
+          "pt_BR": "Executa avanço rápido que ataca um inimigo múltiplas vezes ao entrar em contato",
           "de_DE": "Ein schneller Dash, der einen Gegner bei Kontakt mehrfach trifft.",
           "zh_CN": "\u5bf9\u5355\u4e2a\u654c\u4eba\u9020\u6210\u6570\u6b21\u51b2\u523a\u653b\u51fb\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u7d20\u65e9\u3044\u30c0\u30c3\u30b7\u30e5\u3092\u884c\u3044\u3001\u5f53\u305f\u3063\u305f\u6575\u5358\u4f53\u306b\u8907\u6570\u56de\u653b\u6483\u3092\u4e0e\u3048\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -22321,7 +22321,7 @@
         "name": {
           "en_US": "Thunder Dart",
           "de_DE": "Thunder Dart",
-          "pt_BR": "Dardo Trovão",
+          "pt_BR": "Investida Relâmpago",
           "zh_CN": "\u9707\u8361\u51b2\u523a",
           "ja_JP": "\u30b5\u30f3\u30c0\u30fc\u30c0\u30fc\u30c4",
           "ko_KR": "\ucc9c\ub465 \ud654\uc0b4",
@@ -22330,7 +22330,7 @@
         },
         "description": {
           "en_US": "Dash through enemies leaving a shocking trail of lightning.",
-          "pt_BR": "Corre através dos inimigos, deixando um rastro chocante de relâmpagos",
+          "pt_BR": "Avança através dos inimigos, deixando um rastro eletrizante de raios",
           "de_DE": "Ein Dash, der eine schockende Blitzspur hinterl\u00e4sst.",
           "zh_CN": "\u4ece\u654c\u4eba\u4e2d\u95f4\u51b2\u523a\u800c\u8fc7\uff0c\u7559\u4e0b\u4e00\u9053\u95ea\u7535\u8f68\u8ff9\u3002\u9020\u6210\\c[3]\u7535\u51fb\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u30c0\u30c3\u30b7\u30e5\u3067\u6575\u3092\u901a\u308a\u629c\u3051\u3001\u80cc\u5f8c\u306b\u96fb\u6483\u3092\u767a\u751f\u3055\u305b\u308b\u653b\u6483\u3002<<A<<[CHANGED 2018/03/14]",
@@ -22478,7 +22478,7 @@
       "DASH_SPECIAL2_A": {
         "name": {
           "en_US": "Amber Breaker",
-          "pt_BR": "Disjuntor Âmbar",
+          "pt_BR": "Quebra-cabeças",
           "de_DE": "Amber Breaker",
           "zh_CN": "\u7425\u73c0\u88c2\u51fb",
           "ja_JP": "\u30a2\u30f3\u30d0\u30fc\u30d6\u30ec\u30a4\u30ab\u30fc",
@@ -22488,7 +22488,7 @@
         },
         "description": {
           "en_US": "Dash through a single enemy multiple times at the speed of light and finish with a strong punch.",
-          "pt_BR": "Corre através de um único inimigo várias vezes na velocidade da luz e finaliza com um soco forte",
+          "pt_BR": "Avança através de um único inimigo várias vezes na velocidade da luz e finaliza com um soco forte",
           "de_DE": "Dashe mit Lichtgeschwindigkeit mehrmals durch den Feind und erledige ihn mit einem kr\u00e4ftigen Schlag.",
           "zh_CN": "\u4ee5\u5149\u901f\u731b\u51b2\u7a7f\u8fc7\u4e00\u540d\u654c\u4eba\u591a\u6b21\uff0c\u5e76\u4ee5\u5f3a\u5927\u7684\u62f3\u51fb\u7ec8\u7ed3\u3002\u9020\u6210\\c[3]\u89e6\u7535\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u5149\u306e\u901f\u3055\u306e\u30c0\u30c3\u30b7\u30e5\u3067\u6575\u5358\u4f53\u3092\u8907\u6570\u56de\u901a\u308a\u629c\u3051\u3001\u6700\u5f8c\u306b\u5f37\u529b\u306a\u4e00\u6483\u3092\u304a\u898b\u821e\u3044\u3059\u308b\u653b\u6483\u3002<<A<<[CHANGED 2018/03/14]",
@@ -22824,7 +22824,7 @@
       "DASH_SPECIAL2_B": {
         "name": {
           "en_US": "Storm Walker",
-          "pt_BR": "Tempestade Caminhante",
+          "pt_BR": "Caminho da Tempestade",
           "de_DE": "Storm Walker",
           "zh_CN": "\u98ce\u66b4\u884c\u8005",
           "ja_JP": "\u30b9\u30c8\u30fc\u30e0\u30a6\u30a9\u30fc\u30ab\u30fc",
@@ -22834,7 +22834,7 @@
         },
         "description": {
           "en_US": "Lightning returns with a controllable chain attack of 3 dashes which hit all enemies on the path.",
-          "pt_BR": "Relâmpago retorna com um ataque em cadeia controlável de 3 traços que atingiu todos os inimigos no caminho",
+          "pt_BR": "Ataque em cadeia controlável, executa 3 avanços que atinge todos os inimigos no caminho",
           "de_DE": "Steuere drei aufeinander folgende Blitz-Dashes, die alle Gegner dazwischen treffen.",
           "zh_CN": "\u968f\u7740\u95ea\u7535\u5f52\u67653\u6b21\u53ef\u63a7\u5236\u7684\u8fde\u9501\u653b\u51fb\uff0c\u653b\u51fb\u8def\u5f84\u4e0a\u7684\u5168\u90e8\u654c\u4eba\u3002\u9020\u6210\\c[3]\u7535\u51fb\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u64cd\u4f5c\u53ef\u80fd\u306a\u30c0\u30c3\u30b7\u30e5\u30923\u56de\u9023\u7d9a\u3067\u884c\u3044\u3001\u901a\u308a\u9053\u306b\u96fb\u6483\u3092\u767a\u751f\u3055\u305b\u3066\u6575\u306b\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u9023\u9396\u653b\u6483\u3002<<A<<[CHANGED 2018/03/14]",
@@ -23096,7 +23096,7 @@
         },
         "description": {
           "en_US": "Stop time and pummel an enemy with an uncontrollable series of attacks, finishing off with a diving spark and balls.",
-          "pt_BR": "Para o tempo e esmurra um inimigo com uma série de ataques incontroláveis, terminando com uma faísca e bolas de mergulho",
+          "pt_BR": "Para o tempo e esmaga um inimigo com uma série de ataques incontroláveis, finalizando com um mergulho e projeteis eletrizantes",
           "de_DE": "Halte die Zeit an und h\u00e4mmere auf den Feind mit einer Reihe Attacken ein, die mit einem heftigen Blitztritt und kleinen Blitzkugeln enden.",
           "zh_CN": "\u6682\u505c\u65f6\u95f4\uff0c\u7528\u4e00\u7cfb\u5217\u81ea\u52a8\u8fde\u51fb\u75db\u6bb4\u654c\u4eba\uff0c\u6700\u540e\u4ee5\u95ea\u7535\u7403\u7ec8\u7ed3\u3002\u9020\u6210\\c[3]\u89e6\u7535\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u6642\u3092\u6b62\u3081\u3001\u6575\u5358\u4f53\u3092\u304c\u3080\u3057\u3083\u3089\u306b\u6bb4\u308a\u307e\u304f\u308b\u653b\u6483\u3002\u6700\u5f8c\u306b\u30c0\u30a4\u30d3\u30f3\u30b0\u30b9\u30d1\u30fc\u30af\u3068\u7403\u4f53\u306b\u3088\u308b\u653b\u6483\u3092\u304a\u898b\u821e\u3044\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -23940,7 +23940,7 @@
       "DASH_SPECIAL3_B": {
         "name": {
           "en_US": "Lightning Prophecy",
-          "pt_BR": "Profecia Relâmpago",
+          "pt_BR": "Profecia dos Raios",
           "de_DE": "Lightning Prophecy",
           "zh_CN": "\u95ea\u7535\u9884\u8a00<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u30dc\u30eb\u30c8\u30fb\u30d7\u30ed\u30d5\u30a7\u30b7\u30fc<<A<<[CHANGED 2017/11/27]",
@@ -23950,7 +23950,7 @@
         },
         "description": {
           "en_US": "Create an start and end point and dash between it multiple times automatically attacking everything in between.",
-          "pt_BR": "Cria um ponto inicial e final e um traço entre eles múltiplas vezes, atacando automaticamente tudo entorno",
+          "pt_BR": "Cria um ponto inicial e final e avança entre eles múltiplas vezes, atacando automaticamente tudo no meio",
           "de_DE": "Schaffe einen Start- und Endpunkt, dashe mehrere Male blitzschnell hin und her und greife alles an, was sich dazwischen befindet.",
           "zh_CN": "\u521b\u9020\u4e00\u4e2a\u521d\u59cb\u70b9\u548c\u4e00\u4e2a\u7ec8\u70b9\uff0c\u5728\u5176\u95f4\u7a7f\u68ad\u591a\u6b21\uff0c\u653b\u51fb\u5176\u4e2d\u7684\u6240\u6709\u654c\u4eba\u3002\u9020\u6210\\c[3]\u7535\u51fb\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u59cb\u70b9\u3068\u7d42\u70b9\u3092\u8a2d\u5b9a\u3057\u3001\u305d\u306e\u9593\u3092\u30c0\u30c3\u30b7\u30e5\u3067\u8907\u6570\u56de\u5f80\u5fa9\u3059\u308b\u653b\u6483\u3002\u9593\u306b\u3044\u308b\u3059\u3079\u3066\u306e\u6575\u306b\u81ea\u52d5\u7684\u306b\u653b\u6483\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -24348,7 +24348,7 @@
         },
         "description": {
           "en_US": "Block one attack and slow down time for everything but yourself.",
-          "pt_BR": "Bloqueia um ataque e diminui o tempo para tudo exceto você",
+          "pt_BR": "Bloqueia um ataque e atraso o tempo para tudo exceto você",
           "de_DE": "Blocke einen Angriff und verlangsame die Zeit f\u00fcr alle au\u00dfer dich selbst.",
           "zh_CN": "\u9632\u5fa1\u4e00\u6b21\u8fdb\u653b\uff0c\u5e76\u51cf\u7f13\u9664\u4e86\u4f60\u81ea\u5df1\u7684\u4e00\u5207\u65f6\u95f4\u3002",
           "ja_JP": "\u653b\u6483\u3092\u4e00\u5ea6\u3060\u3051\u9632\u304e\u3001\u81ea\u5206\u4ee5\u5916\u306e\u6642\u9593\u306e\u6d41\u308c\u3092\u9045\u304f\u3059\u308b\u3002",
@@ -24583,7 +24583,7 @@
       "ATTACK_SPECIAL1_A": {
         "name": {
           "en_US": "Ki Thrust",
-          "pt_BR": "Impulso Ki",
+          "pt_BR": "Impulso de Ki",
           "de_DE": "Ki Thrust",
           "zh_CN": "\u94c1\u638c\u731b\u51fb",
           "zh_TW": "\u9435\u638c\u731b\u64ca",
@@ -24593,7 +24593,7 @@
         },
         "description": {
           "en_US": "Frontal attack with high damage, sending all hit enemies flying.",
-          "pt_BR": "Ataque frontal com alto dano, enviando todos os inimigos atingidos pelos ares",
+          "pt_BR": "Ataque frontal com alto dano, mandando todos os inimigos atingidos pelos ares",
           "de_DE": "Starker Frontalangriff, der alle getroffenen Feinde weit wegst\u00f6\u00dft.",
           "zh_CN": "\u9762\u5411\u524d\u65b9\u7684\u9ad8\u4f24\u5bb3\u653b\u51fb\uff0c\u53ef\u5c06\u6240\u6709\u547d\u4e2d\u7684\u654c\u4eba\u51fb\u98de\u3002<<A<<[CHANGED 2018/03/14]",
           "zh_TW": "\u9762\u5411\u524d\u65b9\u7684\u9ad8\u50b7\u5bb3\u653b\u64ca\uff0c\u53ef\u4ee5\u5c07\u6240\u6709\u547d\u4e2d\u7684\u6575\u4eba\u64ca\u98db\u3002<<A<<[CHANGED 2018/03/14]",
@@ -24677,7 +24677,7 @@
       "ATTACK_SPECIAL2_A": {
         "name": {
           "en_US": "Spirit Blast",
-          "pt_BR": "Explosão espírita",
+          "pt_BR": "Explosão Espiritual",
           "de_DE": "Spirit Blast",
           "zh_CN": "\u7075\u9b42\u7206\u70b8",
           "ja_JP": "\u30b9\u30d4\u30ea\u30c3\u30c8\u30d6\u30e9\u30b9\u30c8",
@@ -24687,7 +24687,7 @@
         },
         "description": {
           "en_US": "Draws enemies to the front of the player and then blasts them away with a powerful attack.",
-          "pt_BR": "Atrai os inimigos para a frente do jogador e, em seguida, os detona com um ataque poderoso",
+          "pt_BR": "Arrasta os inimigos para a frente do jogador e depois os arremessa longe com um ataque poderoso",
           "de_DE": "Ziehe deine Feinde an dich heran, um sie mit einer m\u00e4chtigen Druckwelle wegzusto\u00dfen.",
           "zh_CN": "\u7275\u5f15\u73a9\u5bb6\u8eab\u524d\u7684\u654c\u4eba\uff0c\u5e76\u4ee5\u5f3a\u5927\u7684\u653b\u51fb\u5c06\u5176\u51fb\u9000\u3002\u9020\u6210\\c[3]\u6807\u8bb0\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u5468\u308a\u306e\u6575\u3092\u81ea\u5206\u306e\u524d\u65b9\u306b\u5f15\u304d\u5bc4\u305b\u305f\u5f8c\u3001\u5f37\u529b\u306a\u4e00\u6483\u3067\u9060\u304f\u306b\u5439\u304d\u98db\u3070\u3059\u653b\u6483\u3002<<A<<[CHANGED 2018/03/14]",
@@ -24897,7 +24897,7 @@
       "THROW_SPECIAL1_A": {
         "name": {
           "en_US": "Fae Round",
-          "pt_BR": "Rodada Fae",
+          "pt_BR": "Disco de Fae",
           "de_DE": "Fae Round",
           "zh_CN": "\u70ae\u5c04\u98de\u5f39",
           "ja_JP": "\u30d5\u30a7\u30a2\u30ea\u30fc\u30e9\u30a6\u30f3\u30c9",
@@ -24949,7 +24949,7 @@
       "THROW_SPECIAL1_B": {
         "name": {
           "en_US": "Essence Drain",
-          "pt_BR": "Drena essência",
+          "pt_BR": "Dreno de Essência",
           "de_DE": "Essence Drain",
           "zh_CN": "\u7cbe\u534e\u8679\u5438",
           "ja_JP": "\u30a8\u30c3\u30bb\u30f3\u30b9\u30c9\u30ec\u30a4\u30f3",
@@ -25049,7 +25049,7 @@
         },
         "description": {
           "en_US": "Shoots a super fast projectile that bounces between the player and a wall for several times and penetrates everything in between.",
-          "pt_BR": "Atira um projétil super rápido que salta entre o jogador e uma parede várias vezes e penetra tudo entorno",
+          "pt_BR": "Atira um projétil super rápido que salta entre o jogador e uma parede várias vezes e penetra tudo que estã entre eles",
           "de_DE": "Feuere ein extrem schnelles Projektil, das zwischen dir und der Wand merhmals hin- und herrast und alles dazwischen durchschl\u00e4gt.",
           "zh_CN": "\u5c04\u51fa\u4e00\u679a\u8d85\u9ad8\u901f\u7684\u6295\u5f39\uff0c\u5b83\u4f1a\u5728\u73a9\u5bb6\u548c\u5899\u58c1\u4e4b\u95f4\u5f39\u8df3\uff0c\u5e76\u523a\u7a7f\u4e4b\u95f4\u7684\u4e00\u5207\u4e1c\u897f\u3002",
           "ja_JP": "\u8d85\u9ad8\u901f\u306e\u5f3e\u4e38\u3092\u767a\u5c04\u3059\u308b\u3002\u5f3e\u4e38\u306f\u30d7\u30ec\u30a4\u30e4\u30fc\u3068\u58c1\u306e\u9593\u3092\u53cd\u5c04\u3057\u3066\u6570\u5f80\u5fa9\u3057\u306a\u304c\u3089\u3001\u9593\u306b\u3042\u308b\u3082\u306e\u3092\u8cab\u901a\u3059\u308b\u3002",
@@ -25291,7 +25291,7 @@
       "THROW_SPECIAL3_A": {
         "name": {
           "en_US": "Ether Snipe",
-          "pt_BR": "Éter Narceja",
+          "pt_BR": "Fenda do Éter",
           "de_DE": "Ether Snipe",
           "zh_CN": "\u5e7d\u51a5\u72d9\u51fb<<A<<[CHANGED 2017/12/12]",
           "zh_TW": "\u5e7d\u51a5\u72d9\u64ca<<A<<[CHANGED 2017/12/12]",
@@ -25301,7 +25301,7 @@
         },
         "description": {
           "en_US": "Charge up a sniping attack that can bounce 3 times until it hits an enemy. Each bounce increases the strength of the attack.",
-          "pt_BR": "Carregua um ataque franco-atirador que pode ricochetear 3 vezes até atingir um inimigo. Cada salto aumenta a força do ataque",
+          "pt_BR": "Carrega um ataque sniper que pode ricochetear 3 vezes até atingir um inimigo. Cada salto aumenta a força do ataque",
           "de_DE": "Feuere ein geladenes Wellegeschoss, das drei Mal abprallen kann, bevor es einen Gegner trifft. Jedes Abprallen erh\u00f6ht die St\u00e4rke der Attacke.",
           "zh_CN": "\u84c4\u529b\u5e76\u5c04\u51fa\u4e00\u4e2a\u80fd\u591f\u5f39\u8df3\u4e09\u6b21\u7684\u72d9\u51fb\u5f39\u3002\u5728\u547d\u4e2d\u524d\u5f39\u8df3\u6b21\u6570\u8d8a\u9ad8\uff0c\u6700\u7ec8\u4f24\u5bb3\u8d8a\u9ad8\u3002<<A<<[CHANGED 2017/12/14]",
           "zh_TW": "\u84c4\u529b\u4e26\u5c04\u51fa\u4e00\u500b\u80fd\u5920\u5f48\u8df3\u4e09\u6b21\u7684\u72d9\u64ca\u5f48\u3002\u5728\u547d\u4e2d\u524d\u5f48\u8df3\u6b21\u6578\u8d8a\u9ad8\uff0c\u6700\u7d42\u50b7\u5bb3\u8d8a\u9ad8\u3002<<A<<[CHANGED 2017/12/14]",
@@ -25453,7 +25453,7 @@
         "name": {
           "en_US": "Wave Motion Beam",
           "de_DE": "Wave Motion Beam",
-          "pt_BR": "Feixe de Onda Ondulatório",
+          "pt_BR": "Feixe de Ondas",
           "zh_CN": "\u52a8\u611f\u5149\u6ce2<<A<<[CHANGED 2017/12/12]",
           "zh_TW": "\u52d5\u611f\u5149\u6ce2<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\u30a6\u30a7\u30fc\u30d6\u30d3\u30fc\u30e0<<A<<[CHANGED 2017/11/27]",
@@ -25462,7 +25462,7 @@
         },
         "description": {
           "en_US": "Siphon HP from the enemies and trade it for a huge controllable wave beam that drains your HP.",
-          "pt_BR": "Sifona HP dos inimigos e troca por um enorme feixe de onda controlável que drena seu HP",
+          "pt_BR": "Absorve HP dos inimigos em troca de disparar um enorme feixe de ondas controlável que drena seu HP",
           "de_DE": "Sauge den Gegnern HP ab und transformiere sie in einen kontrollierbaren Welle-Strahl, der auch deine HP verbraucht.",
           "zh_CN": "\u54d4\u54d4\u54d4\u54d4\u3002\u4ece\u654c\u4eba\u8eab\u4e0a\u5438\u53d6HP\uff0c\u968f\u540e\u6d88\u8017HP\u653e\u51fa\u53ef\u63a7\u7684\u5de8\u578b\u5149\u6ce2\u3002\u9020\u6210\\c[3]\u6807\u8bb0\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "zh_TW": "\u55f6\u55f6\u55f6\u55f6\u3002\u5f9e\u6575\u4eba\u8eab\u4e0a\u5438\u53d6HP\uff0c\u96a8\u5f8c\u6d88\u8017HP\u653e\u51fa\u53ef\u63a7\u7684\u5de8\u578b\u5149\u6ce2\u3002\u9020\u6210\\c[3]\u6a19\u8a18\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
@@ -25685,7 +25685,7 @@
       "GUARD_SPECIAL1_A": {
         "name": {
           "en_US": "Guarding Gale",
-          "pt_BR": "Guardando Vendaval",
+          "pt_BR": "Vento Guardião",
           "de_DE": "Guarding Gale",
           "zh_CN": "\u5b88\u62a4\u5149\u73af",
           "zh_TW": "\u5b88\u8b77\u5149\u74b0",
@@ -25735,7 +25735,7 @@
       "GUARD_SPECIAL1_B": {
         "name": {
           "en_US": "Pain Grip",
-          "pt_BR": "Aperto Dolor",
+          "pt_BR": "Aperto da Dor",
           "de_DE": "Pain Grip",
           "zh_CN": "\u75db\u82e6\u4e4b\u63e1",
           "ja_JP": "\u30da\u30a4\u30f3\u30b0\u30ea\u30c3\u30d7",
@@ -25908,7 +25908,7 @@
       "GUARD_SPECIAL2_B": {
         "name": {
           "en_US": "Circle of Valor",
-          "pt_BR": "Círculo do Valor",
+          "pt_BR": "Círculo de Valor",
           "de_DE": "Circle of Valor",
           "zh_CN": "\u52c7\u6c14\u4e4b\u73af",
           "ja_JP": "\u30f4\u30a1\u30e9\u30fc\u30fb\u30b5\u30fc\u30af\u30eb",
@@ -26053,7 +26053,7 @@
       "GUARD_SPECIAL3_A": {
         "name": {
           "en_US": "Karma Scale",
-          "pt_BR": "Escala de Carma",
+          "pt_BR": "Barreira Divina",
           "de_DE": "Karma Scale",
           "zh_CN": "\u4e1a\u62a5<<A<<[CHANGED 2017/12/12]",
           "zh_TW": "\u696d\u5831<<A<<[CHANGED 2017/12/12]",
@@ -26063,7 +26063,7 @@
         },
         "description": {
           "en_US": "Enter critical mode but become invincible. Absorb any enemy attacks for a short time. The more absorbed, the larger the ending explosion and the more HP healed.",
-          "pt_BR": "Entra no modo crítico, mas torna-o invencível. Absorve qualquer ataque inimigo por um curto período de tempo. Quanto mais absorvido, maior será a explosão final e mais HP curado",
+          "pt_BR": "Entra no modo crítico tornando-o invencível. Absorve qualquer ataque inimigo por um curto período de tempo. Quanto mais absorvido, maior será a explosão final e mais HP curado",
           "de_DE": "Werde unverwundbar im kritischen Modus. Absorbiere jegliche Angriffe f\u00fcr kurze Zeit. Je mehr absorbiert wurde, desto l\u00e4nger die finale Explosion und desto mehr HP werden geheilt.",
           "zh_CN": "\u5c06\u8840\u91cf\u964d\u4f4e\u81f3\u6781\u9650\u5e76\u83b7\u5f97\u65e0\u654c\u72b6\u6001\u3002\u77ed\u65f6\u95f4\u5185\u5438\u6536\u654c\u4eba\u7684\u6240\u6709\u653b\u51fb\u3002\u5438\u6536\u7684\u4f24\u5bb3\u8d8a\u591a\uff0c\u6700\u7ec8\u7206\u70b8\u4f24\u5bb3\u8d8a\u9ad8\uff0c\u56de\u590d\u7684\u8840\u91cf\u4e5f\u8d8a\u591a\u3002<<A<<[CHANGED 2018/05/01]",
           "zh_TW": "\u5c07\u8840\u91cf\u964d\u4f4e\u81f3\u6975\u9650\u4e26\u7372\u5f97\u7121\u6575\u72c0\u614b\u3002\u77ed\u6642\u9593\u5167\u5438\u6536\u6575\u4eba\u7684\u6240\u6709\u653b\u64ca\u3002\u5438\u6536\u7684\u50b7\u5bb3\u8d8a\u591a\uff0c\u6700\u7d42\u7206\u70b8\u50b7\u5bb3\u8d8a\u9ad8\uff0c\u56de\u8986\u7684\u8840\u91cf\u4e5f\u8d8a\u591a\u3002<<A<<[CHANGED 2018/05/01]",
@@ -26462,7 +26462,7 @@
         },
         "description": {
           "en_US": "Dash with high speed, damaging and stunning enemies along the way.",
-          "pt_BR": "Corre em alta velocidade, causando danos e atordoando os inimigos ao longo do caminho",
+          "pt_BR": "Avança em alta velocidade, causando danos e atordoando os inimigos ao longo do caminho",
           "de_DE": "Sehr schneller Dash, der alle getroffenen Gegner schadet und l\u00e4hmt.",
           "zh_CN": "\u9ad8\u901f\u51b2\u523a\uff0c\u5bf9\u89e6\u78b0\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u548c\u7729\u6655\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "zh_TW": "\u9ad8\u901f\u885d\u523a\uff0c\u5c0d\u89f8\u78b0\u7684\u6575\u4eba\u9020\u6210\u50b7\u5bb3\u548c\u7729\u6688\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
@@ -26577,7 +26577,7 @@
       "DASH_SPECIAL1_B": {
         "name": {
           "en_US": "Warp Decoy",
-          "pt_BR": "Dobra Chamariz",
+          "pt_BR": "Avanço Provocante",
           "de_DE": "Warp Decoy",
           "zh_CN": "\u626d\u66f2\u5708\u5957",
           "ja_JP": "\u30ef\u30fc\u30d7\u30c7\u30b3\u30a4",
@@ -26587,7 +26587,7 @@
         },
         "description": {
           "en_US": "Dash away and leave behind a decoy, distracting your foes.",
-          "pt_BR": "Corre para longe e deixa para trás uma isca, distraindo seus inimigos",
+          "pt_BR": "Avança para longe e deixa para trás uma clone como isca, distraindo seus inimigos",
           "de_DE": "Dashe dich in Sicherheit und hinterlasse einen Lockvogel, der deine Feinde ablenkt.",
           "zh_CN": "\u51b2\u523a\u79bb\u5f00\uff0c\u5e76\u7559\u4e0b\u4e00\u4e2a\u53ef\u4ee5\u8bef\u5bfc\u654c\u4eba\u7684\u8bf1\u9975\u3002<<A<<[CHANGED 2018/09/02]",
           "ja_JP": "\u30c0\u30c3\u30b7\u30e5\u3067\u96e2\u8131\u3057\u3064\u3064\u3001\u6575\u306e\u6ce8\u610f\u3092\u5f15\u304f\u6b8b\u50cf\u3092\u6b8b\u3059\u3002<<A<<[CHANGED 2018/09/02]",
@@ -26664,7 +26664,7 @@
         },
         "description": {
           "en_US": "Dash through enemies at high speed and draw them into your trail behind you before causing a powerful explosion.",
-          "pt_BR": "Avança através dos inimigos em alta velocidade atraindo-os em sua trilha atrás de você antes de causar uma explosão poderosa",
+          "pt_BR": "Avança através dos inimigos em alta velocidade atraindo-os para o seu rastro atrás de si antes de causar uma explosão poderosa",
           "de_DE": "Dashe extrem schnell durch deine Feinde und ziehe sie in deine Spur f\u00fcr eine heftige Explosion.",
           "zh_CN": "\u4ee5\u9ad8\u901f\u731b\u51b2\u7a7f\u8fc7\u654c\u4eba\uff0c\u7275\u5f15\u8eab\u540e\u7684\u654c\u4eba\u5e76\u9020\u6210\u5f3a\u5927\u7684\u7206\u70b8\u3002\u9020\u6210\\c[3]\u6807\u8bb0\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u9ad8\u901f\u30c0\u30c3\u30b7\u30e5\u3067\u901a\u308a\u629c\u3051\u305f\u6575\u3092\u3001\u81ea\u5206\u306e\u901a\u3063\u305f\u9053\u306b\u5f15\u304d\u8fbc\u307f\u3001\u3055\u3089\u306b\u5f37\u529b\u306a\u7206\u767a\u3092\u5f15\u304d\u8d77\u3053\u3059\u3002<<A<<[CHANGED 2018/03/14]",
@@ -26915,7 +26915,7 @@
         },
         "description": {
           "en_US": "Dash away and leave behind a deadly decoy that distracts and damages your foes.",
-          "pt_BR": "Corre para longe e deixa para trás uma isca mortal que distrai e causa danos aos seus inimigos",
+          "pt_BR": "Avança para longe e deixa para trás uma clone como isca que distrai e causa danos aos seus inimigos",
           "de_DE": "Dashe dich in Sicherheit und hinterlasse einen Lockvogel, der deine Feinde ablenkt und ihnen Schaden zuf\u00fcgt.",
           "zh_CN": "\u98de\u901f\u79bb\u5f00\u5e76\u5728\u8eab\u540e\u7559\u4e0b\u81f4\u547d\u7684\u8bf1\u9975\uff0c\u8f6c\u79fb\u654c\u4eba\u6ce8\u610f\u5e76\u5bf9\u5176\u9020\u6210\u4f24\u5bb3\u3002\u9020\u6210\\c[3]\u6807\u8bb0\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u30c0\u30c3\u30b7\u30e5\u3067\u96e2\u8131\u3057\u3064\u3064\u3001\u6575\u306e\u6ce8\u610f\u3092\u5f15\u304d\u30c0\u30e1\u30fc\u30b8\u3082\u4e0e\u3048\u308b\u5f37\u529b\u306a\u6b8b\u50cf\u3092\u6b8b\u3059\u3002<<A<<[CHANGED 2018/03/14]",
@@ -26992,7 +26992,7 @@
         },
         "description": {
           "en_US": "Charge up by creating a Vortex behind you and blast off leaving behind a huge wave explosion.",
-          "pt_BR": "Carrega criando uma vórtice atrás de você e decola deixando para trás uma enorme explosão de ondas",
+          "pt_BR": "Carrega um vórtice atrás de você que decola deixando para trás uma enorme explosão de ondas",
           "de_DE": "Lade dich durch einen gewaltigen Vortex hinter dir auf, st\u00fcrme los und hinterlasse eine heftige Welle-Explosion.",
           "zh_CN": "\u901a\u8fc7\u5728\u80cc\u540e\u521b\u9020\u6f29\u6da1\u6765\u8fdb\u884c\u51b2\u523a\uff0c\u5728\u539f\u5730\u7559\u4e0b\u5de8\u5927\u7684\u6ce2\u5143\u7d20\u7206\u7834\u3002<<A<<[CHANGED 2017/12/12]",
           "ja_JP": "\n\u80cc\u5f8c\u306b\u6ce2\u52d5\u306e\u6e26\u3092\u767a\u751f\u3055\u305b\u306a\u304c\u3089\u529b\u3092\u6e9c\u3081\u305f\u5f8c\u3001\u80cc\u5f8c\u306b\u5de8\u5927\u306a\u6ce2\u52d5\u306e\u7206\u767a\u3092\u6b8b\u3057\u3066\u731b\u767a\u9032\u3059\u308b\u3002<<A<<[CHANGED 2017/11/27]",
@@ -27181,7 +27181,7 @@
         },
         "description": {
           "en_US": "Dash through and create 4 decoys that pummel an enemy multiple times ending with a combined wave attack.",
-          "pt_BR": "Dá um dash e cria 4 chamarizes que atingem o inimigo múltiplas vezes terminando com um ataque combinado em forma de onda.",
+          "pt_BR": "Dá um dash e cria 4 clones que atingem o inimigo múltiplas vezes terminando com um ataque combinado em forma de onda.",
           "de_DE": "Erschaffe vier Lockv\u00f6gel durch einen Dash, die einen Gegner mehrmals angreifen und ihm mit einer kombinierten Welle-Attacke erledigen.",
           "zh_CN": "\u8fdb\u884c\u51b2\u523a\uff0c\u521b\u90204\u4e2a\u5206\u8eab\u5e76\u5bf9\u4e00\u4e2a\u654c\u4eba\u8fdb\u884c\u8fde\u7eed\u653b\u51fb\uff0c\u7136\u540e\u7528\u6ce2\u52a8\u8fde\u51fb\u7ec8\u7ed3\u3002\u9020\u6210\\c[3]\u6807\u8bb0\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\u6575\u3092\u30c0\u30c3\u30b7\u30e5\u3067\u901a\u308a\u629c\u3051\u30014\u4f53\u306e\u6b8b\u50cf\u3092\u751f\u307f\u51fa\u3059\u3002\u6b8b\u50cf\u306f\u6575\u5358\u4f53\u3092\u8907\u6570\u56de\u6bb4\u6253\u3057\u3001\u6700\u5f8c\u306b\u6ce2\u52d5\u306b\u3088\u308b\u5408\u540c\u653b\u6483\u3092\u304a\u898b\u821e\u3044\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
