@@ -2,6 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
+        "pt_BR": "Sem Título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "untitled",
@@ -15,6 +16,7 @@
         "level": -1,
         "name": {
             "en_US": "B1",
+            "pt_BR": "B1",
             "de_DE": "B1",
             "fr_FR": "fr_FR",
             "langUid": 13,
@@ -77,6 +79,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Principle of Conveyance",
+                "pt_BR": "Princípio do Transporte",
                 "de_DE": "Prinzip der \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 18,
@@ -94,6 +97,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Fishing",
+                "pt_BR": "Teste de Pesca",
                 "de_DE": "Pr\u00fcfung der Fische",
                 "fr_FR": "fr_FR",
                 "langUid": 19,
@@ -111,6 +115,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Principle of Attraction",
+                "pt_BR": "Princípio de Atração",
                 "de_DE": "Prinzip der Anziehung",
                 "fr_FR": "fr_FR",
                 "langUid": 20,
@@ -128,6 +133,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Persistence",
+                "pt_BR": "Teste de Persistência",
                 "de_DE": "Pr\u00fcfung der Beharrlichkeit",
                 "fr_FR": "fr_FR",
                 "langUid": 21,
@@ -145,6 +151,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Moving Attraction",
+                "pt_BR": "Atração em Movimento",
                 "de_DE": "Bewegliche Anziehung",
                 "fr_FR": "fr_FR",
                 "langUid": 24,
@@ -162,6 +169,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Attraction",
+                "pt_BR": "Teste de Atração",
                 "de_DE": "Pr\u00fcfung der Anziehung",
                 "fr_FR": "fr_FR",
                 "langUid": 25,
@@ -179,6 +187,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Slowing Attraction",
+                "pt_BR": "Atração Lenta",
                 "de_DE": "Langsame Anziehung",
                 "fr_FR": "fr_FR",
                 "langUid": 26,
@@ -196,6 +205,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Captivated Conveyance",
+                "pt_BR": "Transporte Cativante",
                 "de_DE": "Gefangene \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 27,
@@ -213,6 +223,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Wobble",
+                "pt_BR": "Teste de Balançar",
                 "de_DE": "Pr\u00fcfung der Wabbel",
                 "fr_FR": "fr_FR",
                 "langUid": 30,
@@ -230,6 +241,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Standing Attraction",
+                "pt_BR": "Atração Persistente",
                 "de_DE": "Stehende Anziehung",
                 "fr_FR": "fr_FR",
                 "langUid": 32,
@@ -247,6 +259,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Channels",
+                "pt_BR": "Teste de Canais,",
                 "de_DE": "Pr\u00fcfung der Kan\u00e4le",
                 "fr_FR": "fr_FR",
                 "langUid": 33,
@@ -264,6 +277,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Attracting Conveyance",
+                "pt_BR": "Transporte Atrativo",
                 "de_DE": "Anziehende \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 38,
@@ -281,6 +295,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Chaining Conveyance",
+                "pt_BR": "Transporte em Cadeia",
                 "de_DE": "Verkettete \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 40,
@@ -298,6 +313,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Base Colors",
+                "pt_BR": "Teste de Cores Base",
                 "de_DE": "Pr\u00fcfung der Grundfarben",
                 "fr_FR": "fr_FR",
                 "langUid": 41,
@@ -315,6 +331,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Impulses",
+                "pt_BR": "Teste de Impulsos",
                 "de_DE": "Pr\u00fcfung der Impulse",
                 "fr_FR": "fr_FR",
                 "langUid": 42,
@@ -332,6 +349,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Fast Conveyance",
+                "pt_BR": "Transporte Rápido",
                 "de_DE": "Schnelle \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 47,
@@ -349,6 +367,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Standing Conveyance",
+                "pt_BR": "Transporte Persistente",
                 "de_DE": "Stehende \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 48,
@@ -366,6 +385,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Flaming Conveyance",
+                "pt_BR": "Transporte Flamejante",
                 "de_DE": "Flammende \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 49,
@@ -383,6 +403,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Conveyance",
+                "pt_BR": "Teste de Transporte",
                 "de_DE": "Pr\u00fcfung der \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 50,
@@ -400,6 +421,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Conveyable Attraction",
+                "pt_BR": "Atração Transportável",
                 "de_DE": "\u00dcbertragbare Anziehung",
                 "fr_FR": "fr_FR",
                 "langUid": 52,
@@ -417,6 +439,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Chamber of Shock",
+                "pt_BR": "Câmara dos Choques ",
                 "de_DE": "Kammer des Schocks",
                 "fr_FR": "fr_FR",
                 "langUid": 23,
@@ -434,6 +457,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Conclusion of Conveyance",
+                "pt_BR": "Conclusão do Transporte",
                 "de_DE": "Abschluss der \u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "langUid": 53,
@@ -451,6 +475,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Conduct",
+                "pt_BR": "Teste da Conduta",
                 "de_DE": "Pr\u00fcfung der Handlungsweise",
                 "fr_FR": "fr_FR",
                 "langUid": 60,
@@ -468,6 +493,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Bouncing Surprise",
+                "pt_BR": "Surpresa Saltitante",
                 "de_DE": "Prallende \u00dcberraschung",
                 "fr_FR": "fr_FR",
                 "langUid": 61,
@@ -700,6 +726,7 @@
         "level": 0,
         "name": {
             "en_US": "G",
+            "pt_BR": "G",
             "de_DE": "EG",
             "fr_FR": "fr_FR",
             "langUid": 14,
@@ -771,6 +798,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Entry Test",
+                "pt_BR": "Entrada Teste",
                 "de_DE": "Eingangspr\u00fcfung",
                 "fr_FR": "fr_FR",
                 "langUid": 17,
