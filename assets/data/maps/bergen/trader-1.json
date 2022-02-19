@@ -1884,6 +1884,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "langUid": 75,
@@ -1899,6 +1900,7 @@
                 {
                   "message": {
                     "en_US": "For me? A gift?",
+                    "pt_BR": "Um presente? pra mim?",
                     "de_DE": "Ein Geschenk? F\u00fcr mich?",
                     "fr_FR": "fr_FR",
                     "langUid": 76,
@@ -1917,6 +1919,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 77,
@@ -1932,6 +1935,7 @@
                 {
                   "message": {
                     "en_US": "Sure, whatever.",
+                    "pt_BR": "Claro, que seja.",
                     "de_DE": "Joa, gib mal her, wieso nicht.",
                     "fr_FR": "fr_FR",
                     "langUid": 78,
@@ -1950,6 +1954,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 79,
@@ -2275,6 +2280,7 @@
                 {
                   "name": {
                     "en_US": "Metaltrader",
+                    "pt_BR": "Metaltrader",
                     "de_DE": "Metallh\u00e4ndler",
                     "zh_CN": "\u91d1\u5c5e\u5546\u4eba<<A<<[CHANGED 2017/12/12]",
                     "ko_KR": "\uae08\uc18d \uc0c1\uc778<<A<<[CHANGED 2017/11/20]",
@@ -2294,6 +2300,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2017/12/11]",
@@ -2308,6 +2315,7 @@
                 {
                   "message": {
                     "en_US": "Ah, hello \\v[lore.title.seeker].\\. Can I interest you in some solid metal?\\. It is especially shiny today.",
+                    "pt_BR": "Ah, olá \\v[lore.title.seeker].\\. Posso lhe mostrar alguns metáis sólidos?\\. Eles estão especialmente brilhantes hoje.",
                     "de_DE": "Ah, hallo, Seeker.\\. Kann ich dich f\u00fcr ein paar \u00e4u\u00dferst solide Metallteile begeistern?\\. Sie gl\u00e4nzen heute ganz besonders.",
                     "zh_CN": "\u54e6\uff0c\u4f60\u597d\u554a\\v[lore.title.seeker]\u3002\\.\u6709\u5174\u8da3\u770b\u770b\u6211\u7684\u91d1\u5c5e\u5546\u54c1\u5417\uff1f\\.\u54c1\u8d28\u4f18\u79c0\u54e6\u3002<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u304a\u3001\u3053\u3093\u306b\u3061\u306f\\v[lore.title.seeker]\u3055\u3093\u3002\n\\. \u304b\u305f\uff5e\u3044\u30e1\u30bf\u30eb\u3067\u3082\u3069\u3046\u3060\u3044\uff1f\n\\.\u4eca\u65e5\u306e\u306f\u7279\u306b\u30d4\u30ab\u30d4\u30ab\u3060\u3088\u3002<<A<<[CHANGED 2017/12/11]",
@@ -2325,6 +2333,7 @@
                 {
                   "message": {
                     "en_US": "[shakes head]",
+                    "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                     "de_DE": "[sch\u00fcttelt Kopf]",
                     "fr_FR": "fr_FR",
                     "langUid": 50,
@@ -2340,6 +2349,7 @@
                 {
                   "message": {
                     "en_US": "Lea!",
+                    "pt_BR": "Lea!",
                     "de_DE": "Lea!",
                     "zh_CN": "\u8389\u4e9a\uff01<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u30ec\u30a2\uff01<<A<<[CHANGED 2017/12/11]",
@@ -2357,6 +2367,7 @@
                 {
                   "message": {
                     "en_US": "Ahhh, you're the assistant from \\v[area.rookie-harbor.name]?\\. Alright then, let me explain the deal.",
+                    "pt_BR": "Ahhh, você é a assistente da \\v[area.rookie-harbor.name]?\\. Muito bem, então, deixe-me esplicar o acordo.",
                     "de_DE": "Ahhh, du bist der Assistent von Rookie Harbor?\\. Alles klar, dann erkl\u00e4re ich dir jetzt die getroffene Vereinbarung.",
                     "zh_CN": "\u54e6\uff0c\u4f60\u662f\\v[area.rookie-harbor.name]\u90a3\u8fb9\u6d3e\u6765\u7684\u52a9\u624b?\\.\u884c\uff0c\u90a3\u6211\u7ed9\u4f60\u89e3\u91ca\u4e00\u4e0b\u3002<<A<<[CHANGED 2018/01/06]",
                     "ja_JP": "\u3042\u3042\u3001\u541b\u304c\\v[area.rookie-harbor.name]\u304b\u3089\u6765\u305f\u624b\u4f1d\u3044\u304b\u3002\\. \u3058\u3083\u3042\u3001\u72b6\u6cc1\u3092\u8aac\u660e\u3059\u308b\u3088\u3002<<A<<[CHANGED 2018/01/06]",
@@ -2374,6 +2385,7 @@
                 {
                   "message": {
                     "en_US": "We can deliver some advanced metalworking tools to \\v[area.rookie-harbor.name] but only if you bring us certain spare parts.",
+                    "pt_BR": "Nós podemos fornecer algumas ferramentas avançadas de metalurgia para \\v[area.rookie-harbor.name] mas apenas se você nos trouxer certas peças adicionais.",
                     "de_DE": "Wir liefern die gew\u00fcnschten Metallverarbeitungsger\u00e4te erst, nachdem du uns bestimmte Ersatzteile besorgt hast.",
                     "zh_CN": "\u6211\u4eec\u53ef\u4ee5\u628a\u9ad8\u7ea7\u51b6\u91d1\u5de5\u5177\u9001\u5230\\v[area.rookie-harbor.name]\uff0c\u4f46\u662f\u524d\u63d0\u662f\u4f60\u5f97\u7ed9\u6211\u4eec\u5e26\u6765\u4e00\u4e9b\u7279\u6b8a\u7684\u96f6\u90e8\u4ef6\u3002<<A<<[CHANGED 2018/09/19]",
                     "ja_JP": "\\v[area.rookie-harbor.name]\u306b\u9ad8\u5ea6\u306a\u91d1\u5c5e\u52a0\u5de5\u306e\u305f\u3081\u306e\n\u5de5\u5177\u3092\u5c4a\u3051\u308b\u3053\u3068\u306f\u3067\u304d\u308b\u3002\u3067\u3082\u305d\u306e\u305f\u3081\u306b\u306f\n\u3044\u304f\u3064\u304b\u30d1\u30fc\u30c4\u304c\u5fc5\u8981\u306a\u3093\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -2391,6 +2403,7 @@
                 {
                   "message": {
                     "en_US": "They are expensive to produce these days but there should still be some built into certain machines in the mine.",
+                    "pt_BR": "Elas são caras de produzir atualmente, mas ainda deve haver algumas fabricadas em certas máquinas na mina.",
                     "de_DE": "Sie sind heutzutage einfach zu teuer in der Herstellung. Es sollen aber noch ein paar in den Maschinen der Mine verbaut sein.",
                     "zh_CN": "\u90a3\u4e9b\u73a9\u610f\u73b0\u5728\u751f\u4ea7\u8d77\u6765\u592a\u8d35\u4e86\uff0c\u4e0d\u8fc7\u5728\u77ff\u4e95\u7684\u673a\u5668\u91cc\u9762\u5e94\u8be5\u80fd\u627e\u7740\u3002<<A<<[CHANGED 2018/01/06]",
                     "ja_JP": "\u305d\u306e\u30d1\u30fc\u30c4\u306f\u4eca\u3058\u3083\u9ad8\u304f\u3066\u306a\u304b\u306a\u304b\u4f5c\u308c\u306a\u3044\u3002\n\u3067\u3082\u9271\u5c71\u306b\u884c\u3051\u3070\u3001\u307e\u3060\u305d\u306e\u30d1\u30fc\u30c4\u3092\n\u4f7f\u3063\u305f\u6a5f\u68b0\u304c\u3042\u308b\u306f\u305a\u3060\u3002<<A<<[CHANGED 2018/01/06]",
@@ -2408,6 +2421,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "zh_CN": "...!<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "...\uff01<<A<<[CHANGED 2017/12/11]",
@@ -2422,6 +2436,7 @@
                 {
                   "message": {
                     "en_US": "Word on the street is that there's one in some \\c[3]room that harbors the power of heat\\c[0], whatever that means.",
+                    "pt_BR": "Dizem por aí que há alguma \\c[3]sala que guarda o poder do calor\\c[0], sejá lá o que isso significa.",
                     "de_DE": "Ger\u00fcchten zufolge befindet sich eine davon \\c[3]in dem Raum, der die Kraft der Hitze innehat.\\c[0] Was auch immer das hei\u00dfen soll.",
                     "zh_CN": "\u6839\u636e\u8c23\u8a00\uff0c\u5728\\c[3]\u4e00\u4e2a\u50a8\u5b58\u70ed\u91cf\u7684\u623f\u95f4\\c[0]\u91cc\u9762\u80fd\u627e\u5230\u3002\u771f\u5047\u672a\u77e5\u3002<<A<<[CHANGED 2018/09/19]",
                     "ja_JP": "\u8857\u306e\u5642\u3058\u3083\u3001\u4f55\u304b\\c[3]\u71b1\u306e\u529b\u3092\u5bbf\u3057\u305f\u90e8\u5c4b\\c[0]\u3068\u3084\u3089\u306b\n1\u500b\u3042\u3063\u305f\u3068\u304b\u3002<<A<<[CHANGED 2018/09/19]",
@@ -2439,6 +2454,7 @@
                 {
                   "message": {
                     "en_US": "In any case, maybe you can find one there so we can bring this deal to a close.\\. Good luck.",
+                    "pt_BR": "De qualquer forma, talvez você possa achar uma dessas para que possamos fechar este negócio.\\. Boa sorte.",
                     "de_DE": "Auf jeden Fall hoffe ich, dass du dort eine findest, damit wir unseren Handel abschlie\u00dfen k\u00f6nnen.\\. Viel Gl\u00fcck.",
                     "zh_CN": "\u603b\u4e4b\uff0c\u5982\u679c\u4f60\u80fd\u627e\u5230\u7684\u8bdd\uff0c\u8fd9\u6869\u751f\u610f\u5c31\u7b97\u6210\u4e86\u3002\\.\u795d\u4f60\u597d\u8fd0\u3002<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3068\u3082\u304b\u304f\u3001\u305d\u3093\u306a\u30d1\u30fc\u30c4\u3092\u898b\u3064\u3051\u305f\u3089\u6301\u3063\u3066\u304d\u3066\u304f\u308c\u3002\u305d\u308c\u3067\u53d6\u5f15\u306f\u5b8c\u4e86\u3060\u3002\\. \u307e\u3042\u3001\u304c\u3093\u3070\u308c\u3088\u3002<<A<<[CHANGED 2017/12/11]",
@@ -2456,6 +2472,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3058\u3083\u3042\u306d\uff01<<A<<[CHANGED 2017/12/11]",
@@ -2497,6 +2514,7 @@
                   {
                     "name": {
                       "en_US": "Metaltrader",
+                      "pt_BR": "Metaltrader",
                       "de_DE": "Metallh\u00e4ndler",
                       "zh_CN": "\u91d1\u5c5e\u5546\u4eba<<A<<[CHANGED 2017/12/12]",
                       "ko_KR": "\uae08\uc18d \uc0c1\uc778<<A<<[CHANGED 2017/11/20]",
@@ -2516,6 +2534,7 @@
                   {
                     "message": {
                       "en_US": "Apparently you can find those parts in some \\c[3]room that harbors the power of heat\\c[0].",
+                      "pt_BR": "Aparentemente você pode achar essas partes em alguma \\c[3]sala que guarda o poder do calor\\c[0].",
                       "de_DE": "Die Ersatzteile sollen sich in einem \\c[3]Raum befinden, der die Kraft der Hitze innehat.\\c[0]",
                       "zh_CN": "\u636e\u8bf4\u90a3\u4e9b\u96f6\u90e8\u4ef6\u5728\\c[3]\u4e00\u4e2a\u50a8\u5b58\u70ed\u91cf\u7684\u623f\u95f4\\c[0]\u91cc\u9762\u3002<<A<<[CHANGED 2017/12/12]",
                       "ja_JP": "\u3069\u3046\u3084\u3089\u3001\u30d1\u30fc\u30c4\u306f\\c[3]\u71b1\u306e\u529b\u3092\u5bbf\u3057\u305f\u90e8\u5c4b\\c[0]\u3068\u3084\u3089\u3067\u898b\u3064\u304b\u308b\u3089\u3057\u3044\u3002<<A<<[CHANGED 2017/12/11]",
@@ -2533,6 +2552,7 @@
                   {
                     "message": {
                       "en_US": "Not sure what it means, but I'm sure you got some ideas.\\. In the meantime, care for some metal?",
+                      "pt_BR": "Não sei o que significa, mas estou certo de que você pode imaginar o que é.\\. Entretanto, quer dar uma olhada em algum metal?",
                       "de_DE": "Keine Ahnung, was das bedeutet, aber ich bin mir sicher, dass du ein paar Ideen hast.\\. Kann ich dir in der Zwischenzeit etwas Metall anbieten?",
                       "zh_CN": "\u6211\u662f\u4e0d\u77e5\u9053\u8fd9\u662f\u4ec0\u4e48\u610f\u601d\uff0c\u4f60\u5e94\u8be5\u77e5\u9053\u5427\u3002\\.\u603b\u4e4b\uff0c\u8981\u4e0d\u8981\u4e70\u70b9\u91d1\u5c5e\uff1f<<A<<[CHANGED 2018/09/19]",
                       "ja_JP": "\u4f55\u306e\u3053\u3068\u304b\u308f\u304b\u3089\u3093\u3051\u3069\u3001\u541b\u306b\u306f\u898b\u5f53\u304c\u3064\u304f\u3093\u3058\u3083\u306a\u3044\u304b\uff1f\\. \u305d\u308c\u3068\u3001\u3064\u3044\u3067\u306b\u30e1\u30bf\u30eb\u3067\u3082\u3069\u3046\u3060\u3044\uff1f<<A<<[CHANGED 2018/09/19]",
@@ -2572,6 +2592,7 @@
                 {
                   "name": {
                     "en_US": "Metaltrader",
+                    "pt_BR": "Metaltrader",
                     "de_DE": "Metallh\u00e4ndler",
                     "zh_CN": "\u91d1\u5c5e\u5546\u4eba<<A<<[CHANGED 2017/12/12]",
                     "ko_KR": "\uae08\uc18d \uc0c1\uc778<<A<<[CHANGED 2017/11/20]",
@@ -2591,6 +2612,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2017/12/11]",
@@ -2605,6 +2627,7 @@
                 {
                   "message": {
                     "en_US": "Hello \\v[lore.title.seeker].\\. You got the parts we need?",
+                    "pt_BR": "Olá \\v[lore.title.seeker].\\. Você consegiu as peças que precisamos?",
                     "de_DE": "Hallo, Seeker.\\. Hast du die Teile gefunden?",
                     "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u4f60\u627e\u5230\u6211\u4eec\u9700\u8981\u7684\u90e8\u4ef6\u4e86\u5417\uff1f<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3084\u3042\\v[lore.title.seeker]\u3002\\.\u4f8b\u306e\u30d1\u30fc\u30c4\u306f\u3042\u3063\u305f\u304b\u3044\uff1f<<A<<[CHANGED 2017/12/11]",
@@ -2622,6 +2645,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 46,
@@ -2642,6 +2666,7 @@
                 {
                   "message": {
                     "en_US": "Ah, yes those seem perfect.\\. Good job!\\. That'll be more than enough for a nicely advanced metal oven.",
+                    "pt_BR": "Ah, sim elas parecem perfeitas.\\. Bom trabalho!\\. Isso será mais do que suficiente para um forno metálico bem avançado.",
                     "de_DE": "Ah, genau, die sehen perfekt aus.\\. Gute Arbeit!\\. Das wird mehr als genug sein f\u00fcr einen schicken modernen Schmelzofen.",
                     "zh_CN": "\u55ef\uff0c\u662f\u8fd9\u4e9b\u6ca1\u9519\u3002\\.\u5e72\u5f97\u597d\uff01\\.\u8db3\u591f\u6362\u4e00\u4e2a\u9ad8\u7ea7\u7194\u7089\u4e86\u3002<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u304a\u304a\u3001\u5b8c\u74a7\u3060\uff01\\. \u3084\u308b\u306a\uff01\\. \u305d\u308c\u3060\u3051\u3042\u308c\u3070\u3001\u9ad8\u6027\u80fd\u306e\u30e1\u30bf\u30eb\u6eb6\u9271\u7089\u3092\u4f5c\u308b\u306e\u306b\u5341\u5206\u3060\u3002<<A<<[CHANGED 2017/12/11]",
@@ -2659,6 +2684,7 @@
                 {
                   "message": {
                     "en_US": "We will handle the rest.\\. You can report back to the CTC in \\v[area.rookie-harbor.name] to get your reward.",
+                    "pt_BR": "Vamos tratar do resto.\\. Você pode pode ir no CTC em \\v[area.rookie-harbor.name] para receber a sua recompensa.",
                     "de_DE": "Wir k\u00fcmmern uns um den Rest.\\. Deine Belohnung bekommst du vom KHV in Rookie Harbor.",
                     "zh_CN": "\u5269\u4e0b\u7684\u5c31\u4ea4\u7ed9\u6211\u4eec\u4e86\u3002\\.\u4f60\u53ef\u4ee5\u56de\u53bb\\v[area.rookie-harbor.name]\u7684\u6cbf\u6d77\u8d38\u6613\u8054\u76df\u90a3\u91cc\u9886\u8d4f\u4e86\u3002<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3042\u3068\u306f\u307e\u304b\u305b\u3066\u304f\u308c\u3002\\. \\v[area.rookie-harbor.name]\u306eCTC\u306b\u5831\u544a\u3059\u308c\u3070\u3001\u5831\u916c\u304c\u51fa\u308b\u305e\u3002<<A<<[CHANGED 2017/12/11]",
@@ -2676,6 +2702,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 491,
@@ -2691,6 +2718,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u3058\u3083\u3042\u306d\uff01<<A<<[CHANGED 2017/12/11]",
@@ -2732,6 +2760,7 @@
                   {
                     "name": {
                       "en_US": "Metaltrader",
+                      "pt_BR": "Metaltrader",
                       "de_DE": "Metallh\u00e4ndler",
                       "zh_CN": "\u91d1\u5c5e\u5546\u4eba<<A<<[CHANGED 2017/12/12]",
                       "ko_KR": "\uae08\uc18d \uc0c1\uc778<<A<<[CHANGED 2017/11/20]",
@@ -2751,6 +2780,7 @@
                   {
                     "message": {
                       "en_US": "You can report back to the CTC in \\v[area.rookie-harbor.name].\\. I have already notified them.",
+                      "pt_BR": "Você pode voltar ao CTC em \\v[area.rookie-harbor.name].\\. Eu já notifiquei eles.",
                       "de_DE": "Du kannst dich beim KHV in Rookie Harbor zur\u00fcckmelden.\\. Ich habe ihn bereits informiert.",
                       "zh_CN": "\u4f60\u53ef\u4ee5\u56de\u53bb\\v[area.rookie-harbor.name]\u6c47\u62a5\u4e86\u3002\\.\u6211\u5df2\u7ecf\u901a\u77e5\u4e86\u4ed6\u4eec\u3002<<A<<[CHANGED 2017/12/14]",
                       "ja_JP": "\\v[area.rookie-harbor.name]\u306e\u6cbf\u5cb8\u4ea4\u6613\u9023\u5408\u3078\n\u5831\u544a\u306b\u623b\u308b\u3068\u3044\u3044\u3002\n\\.\u5411\u3053\u3046\u306b\u306f\u3082\u3046\u77e5\u3089\u305b\u3066\u304a\u3044\u305f\u3002<<A<<[CHANGED 2017/12/14]",
@@ -2768,6 +2798,7 @@
                   {
                     "message": {
                       "en_US": "In the meantime, why not buy some nice metal here?\\. It's nice and fresh!",
+                      "pt_BR": "Mas antes, por que não comprar alguns belos metais aqui?\\. São bonitos e novos!",
                       "de_DE": "Warum kaufst du hier nicht vorher noch etwas Metall, frisch aus dem Ofen?",
                       "zh_CN": "\u4e0d\u5728\u8fd9\u513f\u4e70\u70b9\u91d1\u5c5e\u5417\uff1f\\.\u53c8\u597d\u53c8\u65b0\u9c9c\uff01<<A<<[CHANGED 2018/01/06]",
                       "ja_JP": "\u3068\u308a\u3042\u3048\u305a\u3001\u8cea\u306e\u3044\u3044\u30e1\u30bf\u30eb\u3092\n\u8cb7\u3063\u3066\u3044\u304b\u306a\u3044\u304b\u3044\uff1f\n\\.\u9ad8\u54c1\u8cea\u3067\u63a1\u308c\u305f\u3066\u3060\u305e\uff01<<A<<[CHANGED 2018/01/06]",
@@ -3015,6 +3046,7 @@
         "analyzable": {
           "text": {
             "en_US": "Mrs. Summers",
+            "pt_BR": "Sra. Summers",
             "de_DE": "Frau Summers",
             "fr_FR": "fr_FR",
             "langUid": 247,
@@ -3038,6 +3070,7 @@
               {
                 "name": {
                   "en_US": "Mrs. Summers",
+                  "pt_BR": "Sra. Summers",
                   "langUid": 476,
                   "zh_CN": "\u8428\u9ed8\u65af\u592b\u4eba<<A<<[CHANGED 2017/12/12]",
                   "de_DE": "Frau Summers",
@@ -3065,6 +3098,7 @@
               {
                 "message": {
                   "en_US": "Greetings, young lady.\\. Our current circumstances don't require your assistance for once.",
+                  "pt_BR": "Saudações, senhorita.\\. No momento, não precisamos de ajuda.",
                   "de_DE": "Sei gegr\u00fc\u00dft, junge Dame!\\. Im Moment ben\u00f6tigen wir deine Hilfe ausnahmsweise nicht.",
                   "fr_FR": "fr_FR",
                   "langUid": 284,
