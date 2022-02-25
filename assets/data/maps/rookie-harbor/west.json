@@ -7837,6 +7837,7 @@
                 "thenStep": [{
                     "message": {
                         "en_US": "But Lea is \\c[1]high level\\c[0] as well!",
+                        "pt_BR": "Mas Lea também tem um \\c[1]level alto!\\c[0]",
                         "de_DE": "Aber Leas Level ist doch auch \\c[1]hoch\\c[0]!",
                         "zh_CN": "\u53ef\u8389\u4e9a\u4e5f\u662f\\c[1]\u9ad8\u7b49\u7ea7\\c[0]\u554a!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3067\u3082\u3001\u30ec\u30a2\u3060\u3063\u3066\u540c\u3058\u304f\u3089\u3044\n\\c[1]\u9ad8\u30ec\u30d9\u30eb\\c[0]\u3058\u3083\u306a\u3044\uff01<<A<<[CHANGED 2019/08/16]",
@@ -7853,6 +7854,7 @@
                 }, {
                     "message": {
                         "en_US": "Yes, and she'll snipe away all those enemies you'd like to attack as well.",
+                        "pt_BR": "Sim, e ela vai afastar todos aqueles inimigos que você gostaria de atacar também.",
                         "de_DE": "Ja, und sie wird uns die Gegner vor unserer Nase wegschnippen.",
                         "zh_CN": "\u662f\u7684\uff0c\u5979\u4f1a\u76f4\u63a5\u72d9\u6389\u4f60\u8981\u6253\u7684\u90a3\u4e9b\u654c\u4eba\u3002<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u305d\u3046\u3060\u306a\u3002\u3060\u3063\u305f\u3089\u5f7c\u5973\u306f\u304d\u3063\u3068\u3001\n\u304a\u524d\u304c\u3084\u3063\u3064\u3051\u305f\u3044\u6575\u307e\u3067\n\u5168\u90e8\u3084\u3063\u3064\u3051\u3061\u307e\u3046\u305e\u3002<<A<<[CHANGED 2019/08/16]",
@@ -7886,6 +7888,7 @@
                 }, {
                     "message": {
                         "en_US": "Nah, I'm sure Lea will leave a few enemies for me, right?",
+                        "pt_BR": "Nah, Eu confio que a Lea vai deixar alguns inimigos pra mim, certo?",
                         "de_DE": "Nee, Lea l\u00e4sst mir bestimmt ein paar \u00fcbrig, stimmt's?",
                         "zh_CN": "\u600e\u4e48\u4f1a\u5462\uff0c\u8389\u4e9a\u80af\u5b9a\u4f1a\u7ed9\u6211\u7559\u51e0\u53ea\u7684\uff0c\u5bf9\u5427\uff1f<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3048\u30fc\u3063\u3001\u30ec\u30a2\u306f\u79c1\u306e\u305f\u3081\u306b\u4f55\u4f53\u304b\n\u6575\u3092\u3068\u3063\u3066\u304a\u3044\u3066\u304f\u308c\u308b\u3068\u601d\u3046\u3088\u3002\u306d\u3048\uff1f<<A<<[CHANGED 2019/08/16]",
@@ -7919,6 +7922,7 @@
                 }, {
                     "message": {
                         "en_US": "Right...?",
+                        "pt_BR": "Certo...?",
                         "de_DE": "Stimmt's...?",
                         "zh_CN": "\u5bf9...\u5427?<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u305d\u3046\u3060\u3088\u306d...\uff1f<<A<<[CHANGED 2019/08/16]",
@@ -7935,6 +7939,7 @@
                 }, {
                     "message": {
                         "en_US": "In any case...\\. I have to head back to the guild.",
+                        "pt_BR": "De qualquer forma...\\. Eu tenho que voltar para a guilda.",
                         "de_DE": "Aber mal im Ernst, ich muss zur\u00fcck zur Gilde.",
                         "zh_CN": "\u603b\u4e4b...\\.\u6211\u5f97\u8fd4\u56de\u516c\u4f1a\u4e86\u3002<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3067\u3082\u3001\u30c0\u30e1\u3060\u3001\u4ffa\u306f\u30ae\u30eb\u30c9\u306b\u623b\u3089\u306a\u3044\u3068\u3002<<A<<[CHANGED 2019/08/16]",
