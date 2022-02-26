@@ -2780,6 +2780,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 1,
@@ -2805,6 +2806,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 2,
@@ -2830,6 +2832,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 3,
@@ -2855,6 +2858,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 4,
@@ -2880,6 +2884,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 5,
@@ -2905,6 +2910,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 6,
@@ -2930,6 +2936,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 7,
@@ -2955,6 +2962,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 8,
@@ -2980,6 +2988,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 9,
@@ -3005,6 +3014,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 10,
@@ -3030,6 +3040,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 11,
@@ -3055,6 +3066,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 12,
@@ -3081,6 +3093,7 @@
         "map": "rhombus-sqr.central-inner",
         "teleportLabel": {
           "en_US": "CrossCentral",
+          "pt_BR": "CrossCentral",
           "de_DE": "CrossCentral",
           "fr_FR": "fr_FR",
           "langUid": 13,
@@ -3107,6 +3120,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 14,
@@ -3132,6 +3146,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 15,
@@ -3157,6 +3172,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 16,
@@ -3182,6 +3198,7 @@
         "dir": "NORTH",
         "teleportLabel": {
           "en_US": "en_US",
+          "pt_BR": "pt_BR",
           "de_DE": "de_DE",
           "fr_FR": "fr_FR",
           "langUid": 17,
@@ -11095,6 +11112,7 @@
         "analyzable": {
           "text": {
             "en_US": "Ms. Hat",
+            "pt_BR": "Ms. Hat",
             "langUid": 428,
             "ko_KR": "\ubaa8\uc790 \uc18c\ub140<<A<<[CHANGED 2018/01/05]",
             "ja_JP": "\u30df\u30b9\u30fb\u30cf\u30c3\u30c8<<A<<[CHANGED 2018/01/06]",
@@ -11117,6 +11135,7 @@
               {
                 "name": {
                   "en_US": "Ms. Hat",
+                  "pt_BR": "Ms. Hat",
                   "langUid": 429,
                   "ko_KR": "\ubaa8\uc790 \uc18c\ub140<<A<<[CHANGED 2018/01/05]",
                   "ja_JP": "\u30df\u30b9\u30fb\u30cf\u30c3\u30c8<<A<<[CHANGED 2018/01/06]",
@@ -11254,6 +11273,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "fr_FR": "fr_FR",
                     "langUid": 22,
@@ -11790,6 +11810,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 39,
@@ -12306,6 +12327,7 @@
         "analyzable": {
           "text": {
             "en_US": "Bharel",
+            "pt_BR": "Bharel",
             "de_DE": "Bharel",
             "fr_FR": "fr_FR",
             "langUid": 97,
@@ -12334,6 +12356,7 @@
               {
                 "name": {
                   "en_US": "Bharel",
+                  "pt_BR": "Bharel",
                   "langUid": 427,
                   "ko_KR": "\ubc14\ub810<<A<<[CHANGED 2018/01/05]",
                   "ja_JP": "\u30d0\u30cf\u30ec\u30eb<<A<<[CHANGED 2018/01/06]",
@@ -12919,6 +12942,7 @@
                   {
                     "message": {
                       "en_US": "Oh, someone else actually made it up here?",
+                      "pt_BR": "Oh, mais alguém consegiu chegar até aqui?",
                       "langUid": 445,
                       "ko_KR": "\uc624, \ub204\uac00 \ub610 \uc5ec\uae30\uae4c\uc9c0 \uc62c\ub77c\uc654\ub098?<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u54e6\uff0c\u8fd8\u6709\u5176\u4ed6\u4eba\u6765\u8fd9\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -12936,6 +12960,7 @@
                   {
                     "message": {
                       "en_US": "Hi!",
+                      "pt_BR": "Oi!",
                       "langUid": 446,
                       "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]",
@@ -12950,6 +12975,7 @@
                   {
                     "message": {
                       "en_US": "Congratulations.\\. Not many people figure out how to reach this spot.",
+                      "pt_BR": "Parabéns.\\. Poucas pessoas descobriram uma forma de alcançar este ponto.",
                       "langUid": 447,
                       "ko_KR": "\ucd95\ud558\ud574.\\. \uc5ec\uae30\uae4c\uc9c0 \uc624\ub294 \ubc29\ubc95\uc744 \uc54c\uc544\ub0b8 \uc0ac\ub78c\uc740 \uadf8\ub9ac \ub9ce\uc9c0 \uc54a\uc544.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u606d\u559c\u3002\\.\u80fd\u627e\u5230\u8fd9\u5730\u65b9\u6765\u7684\u4eba\u4e0d\u591a\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12967,6 +12993,7 @@
                   {
                     "message": {
                       "en_US": "...!",
+                      "pt_BR": "...!",
                       "langUid": 448,
                       "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
@@ -12981,6 +13008,7 @@
                   {
                     "message": {
                       "en_US": "CrossWorlds is full of secrets.\\. You might even say that the secrets are the soul of this game.",
+                      "pt_BR": "CrossWorlds é cheia de segredos.\\. Você pode até dizer que os segredos são a alma deste jogo.",
                       "langUid": 449,
                       "ko_KR": "\ud06c\ub85c\uc2a4\uc6d4\ub4dc\ub294 \ube44\ubc00\ub85c \uac00\ub4dd\ud558\uc9c0.\\. \uc774 \uac8c\uc784\uc758 \ud575\uc2ec\uc774 \ubc14\ub85c \ube44\ubc00\uc774\ub77c\uace0 \ub9d0\ud560 \uc218 \uc788\uc744 \uc815\ub3c4\ub85c.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u8fdc\u661f\u4e16\u754c\u91cc\u6709\u4e0d\u5c11\u79d8\u5bc6\u3002\\.\u751a\u81f3\u53ef\u4ee5\u8bf4\u79d8\u5bc6\u5c31\u662f\u8fd9\u4e2a\u6e38\u620f\u7684\u7075\u9b42\u3002<<A<<[CHANGED 2019/01/10]",
@@ -12998,6 +13026,7 @@
                   {
                     "message": {
                       "en_US": "The developers have done a great job filling this entire world with hidden hints and clues to the vast mysteries of the Ancients.",
+                      "pt_BR": "Os desenvolvedores fizeram um grande trabalho preenchendo este mundo inteiro com dicas e pistas ocultas para os vastos mistérios dos Antigos.",
                       "langUid": 450,
                       "ko_KR": "\uac1c\ubc1c\uc9c4\uc740 \uc774 \uc138\uacc4\ub97c \uace0\ub300\uc778\uc758 \ub2e4\uc591\ud55c \uc218\uc218\uaed8\uae30\uc640 \uad00\ub828\ub41c \uc228\uaca8\uc9c4 \ud78c\ud2b8\uc640 \ub2e8\uc11c\ub85c \uac00\ub4dd \ucc44\uc6cc\ub1a8\uc5b4.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u5f00\u53d1\u8005\u4eec\u8d39\u5c3d\u5fc3\u601d\u5c06\u5404\u79cd\u7ebf\u7d22\u85cf\u8fdb\u4e86\u5148\u7956\u7684\u8c1c\u56e2\u4e4b\u4e2d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13015,6 +13044,7 @@
                   {
                     "message": {
                       "en_US": "But once they're noticed, the secrets don't stay secret for long.",
+                      "pt_BR": "Mas uma vez que eles são descobertos, os segredos não ficam por muito tempo.",
                       "langUid": 451,
                       "ko_KR": "\ud558\uc9c0\ub9cc \ube44\ubc00\uc774\ub77c\ub294 \uac74 \ubc1c\uacac\ub418\uace0 \ub098\uba74 \ub354 \uc774\uc0c1 \ube44\ubc00\uc774 \uc544\ub2c8\uac8c \ub418\uc9c0.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u4e0d\u8fc7\u73a9\u5bb6\u4eec\u4e00\u65e6\u6ce8\u610f\u5230\u4e86\u7ebf\u7d22\uff0c\u79bb\u63ed\u5f00\u8c1c\u5e95\u4e5f\u5c31\u4e0d\u8fdc\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13032,6 +13062,7 @@
                   {
                     "message": {
                       "en_US": "...?",
+                      "pt_BR": "...?",
                       "langUid": 452,
                       "ko_KR": "...?<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "...?<<A<<[CHANGED 2019/01/10]",
@@ -13049,6 +13080,7 @@
                   {
                     "message": {
                       "en_US": "A new discovery goes from something special to common knowledge faster than you'd ever believe.",
+                      "pt_BR": "Uma nova descoberta vai de algo especial para o conhecimento comum mais rápido do que você imagina.",
                       "langUid": 453,
                       "ko_KR": "\uc0c8\ub85c\uc6b4 \uac83\uc744 \ubc1c\uacac\ud558\uba74 \ub124\uac00 \uc0dd\uac01\ud558\ub294 \uac83\ubcf4\ub2e4 \ud6e8\uc52c \ube60\ub974\uac8c \ud2b9\ubcc4\ud55c \uac83\uc5d0\uc11c \ud3c9\ubc94\ud55c \uac83\uc73c\ub85c \ubcc0\ud574.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u4fe1\u606f\u4ece\u5c11\u6570\u4eba\u77e5\u6653\u7684\u79d8\u5bc6\u5230\u5e38\u8bc6\u7684\u8f6c\u5316\u901f\u5ea6\u4f1a\u8ba9\u4f60\u60ca\u8bb6\u7684\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13066,6 +13098,7 @@
                   {
                     "message": {
                       "en_US": "It's kind of sad, actually.",
+                      "pt_BR": "É um pouco triste, na realidade.",
                       "langUid": 454,
                       "ko_KR": "\uc2ac\ud508 \uc77c\uc774\uc9c0.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u5176\u5b9e\u8fd9\u4e48\u8bf4\u6765\u4e5f\u633a\u4f24\u611f\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13083,6 +13116,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "langUid": 455,
                       "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -13097,6 +13131,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "langUid": 456,
                       "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -13111,6 +13146,7 @@
                   {
                     "message": {
                       "en_US": "This place, though.\\. This is my secret.",
+                      "pt_BR": "Este lugar, no entando.\\. Este é o meu segredo.",
                       "langUid": 457,
                       "ko_KR": "\ud558\uc9c0\ub9cc \uc774\uacf3\uc740\\. \ub0b4\uac00 \uac00\uc9c0\uace0 \uc788\ub294 \ube44\ubc00\uc774\uc57c.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u4e0d\u8fc7\u8fd9\u4e2a\u5730\u65b9\uff0c\\.\u8fd9\u91cc\u662f\u6211\u7684\u79d8\u5bc6\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13132,6 +13168,7 @@
                   {
                     "message": {
                       "en_US": "I know it seems inconsequential, but it can still be special, right?",
+                      "pt_BR": "Eu sei que parece inconsequente, mas ainda pode ser especial, certo?",
                       "langUid": 458,
                       "ko_KR": "\uc0ac\uc18c\ud55c \uac70\uc9c0\ub9cc \uadf8\ub798\ub3c4 \ub098\uc5d0\uac90 \ud2b9\ubcc4\ud558\ub2c8\uae4c.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u867d\u7136\u6ca1\u4ec0\u4e48\u91cd\u8981\u7684\uff0c\u4f46\u4e5f\u5f88\u7279\u6b8a\u5bf9\u4e0d\u5bf9\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -13153,6 +13190,7 @@
                   {
                     "message": {
                       "en_US": "Almost nobody knows how to get here. It isn't listed in any guides, or posted on any forums.",
+                      "pt_BR": "Quase ninguém sabe como chegar aqui. Não está listado em nenhum guia, nem publicado em algum fórum.",
                       "langUid": 459,
                       "ko_KR": "\uc774\uacf3\uc5d0 \uc624\ub294 \ubc29\ubc95\uc744 \uc544\ub294 \uc0ac\ub78c\uc740 \uac70\uc758 \uc5c6\uc5b4. \uc5b4\ub5a4 \uac00\uc774\ub4dc\uc5d0\ub3c4 \uc5b4\ub5a4 \ud3ec\ub7fc\uc5d0\ub3c4 \uc62c\ub77c\uc640 \uc788\uc9c0 \uc54a\uac70\ub4e0.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u56e0\u4e3a\u51e0\u4e4e\u6ca1\u4eba\u77e5\u9053\u8981\u600e\u4e48\u5230\u8fd9\u91cc\u3002\u4e0d\u7ba1\u662f\u653b\u7565\u8fd8\u662f\u8bba\u575b\u5e16\u90fd\u6ca1\u6709\u8bb2\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13170,6 +13208,7 @@
                   {
                     "message": {
                       "en_US": "It's your secret now, too. Please keep it that way.\n",
+                      "pt_BR": "Agora também é o seu segredo. Por favor, mantenha-o assim. \n",
                       "langUid": 460,
                       "ko_KR": "\uc774\uc820 \ub108\uc758 \ube44\ubc00\uc774 \ub418\uae30\ub3c4 \ud588\ub124? \ube44\ubc00 \uc9c0\ucf1c\uc57c \ud558\ub294 \uac70 \uc78a\uc9c0 \ub9c8.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u73b0\u5728\u8fd9\u4e5f\u662f\u4f60\u7684\u79d8\u5bc6\u4e86\u3002\u8bf7\u4fdd\u5bc6\u54e6\u3002<<A<<[CHANGED 2019/01/10]",
@@ -13187,6 +13226,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "langUid": 461,
                       "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
@@ -13204,6 +13244,7 @@
                   {
                     "message": {
                       "en_US": "[nods]",
+                      "pt_BR": "[acena com a cabeça]",
                       "langUid": 462,
                       "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -13220,6 +13261,7 @@
                   {
                     "message": {
                       "en_US": "The view is beautiful from up here, isn't it?",
+                      "pt_BR": "A vista é linda daqui de cima, não é?",
                       "langUid": 463,
                       "ko_KR": "\uc774\uacf3\uc5d0\uc11c \ubcf4\ub294 \ud48d\uacbd\uc774 \uc544\ub984\ub2f5\uc9c0 \uc54a\ub2c8?<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u8fd9\u91cc\u7684\u98ce\u666f\u5f88\u68d2\u5bf9\u5427\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -13237,6 +13279,7 @@
                   {
                     "message": {
                       "en_US": "[nods]",
+                      "pt_BR": "[acena com a cabeça]",
                       "langUid": 464,
                       "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
@@ -13997,6 +14040,7 @@
               {
                 "message": {
                   "en_US": "Bonjour, Lea!",
+                  "pt_BR": "Bonjour, Lea!",
                   "de_DE": "Bonjour, Lea!",
                   "fr_FR": "fr_FR",
                   "langUid": 121,
@@ -14012,6 +14056,7 @@
               {
                 "message": {
                   "en_US": "Hi!",
+                  "pt_BR": "Oi!",
                   "de_DE": "Hi!",
                   "fr_FR": "fr_FR",
                   "langUid": 122,
@@ -14027,6 +14072,7 @@
               {
                 "message": {
                   "en_US": "Guess what?\\. Lukas told me he'd like to introduce us to his guild.",
+                  "pt_BR": "Adivinha?\\. Lukas me contou que gostaria de nos apresentar a guilda dele.",
                   "de_DE": "Wei\u00dft du was?\\. Lukas hat mir gesagt, dass er uns gerne seiner Gilde vorstellen w\u00fcrde.",
                   "fr_FR": "fr_FR",
                   "langUid": 123,
@@ -14042,6 +14088,7 @@
               {
                 "message": {
                   "en_US": "Uhm, what was the name...?\\. Right, the \\c[3]First Scholars\\c[0]!",
+                  "pt_BR": "Uhm, qual era o nome...?\\. Lembrei, o nome da guilda é \\c[3]First Scholars\\c[0]!",
                   "de_DE": "\u00c4hm, wie war nochmal der Name...?\\. Genau, die \\c[3]Ersten Gelehrten\\c[0]!",
                   "fr_FR": "fr_FR",
                   "langUid": 143,
@@ -14060,6 +14107,7 @@
               {
                 "message": {
                   "en_US": "It seems, they are looking for new members!",
+                  "pt_BR": "Pelo que parece, eles estão em busca de novos membros!",
                   "de_DE": "Scheint so, als w\u00fcrden sie nach neuen Mitgliedern suchen!",
                   "fr_FR": "fr_FR",
                   "langUid": 124,
@@ -14075,6 +14123,7 @@
               {
                 "message": {
                   "en_US": "...!",
+                  "pt_BR": "...!",
                   "de_DE": "...!",
                   "fr_FR": "fr_FR",
                   "langUid": 125,
@@ -14090,6 +14139,7 @@
               {
                 "message": {
                   "en_US": "We probably shouldn't let them wait for too long, non?",
+                  "pt_BR": "Acho que nós não devemos deixar eles esperando por muito tempo, non?",
                   "de_DE": "Wir sollten sie wohl lieber nicht zu lange warten lassen, non?",
                   "fr_FR": "fr_FR",
                   "langUid": 126,
@@ -14105,6 +14155,7 @@
               {
                 "message": {
                   "en_US": "[nods]",
+                  "pt_BR": "[acena com a cabeça]",
                   "de_DE": "[nickt]",
                   "fr_FR": "fr_FR",
                   "langUid": 127,
@@ -14120,6 +14171,7 @@
               {
                 "message": {
                   "en_US": "Tr\u00e8s bien!",
+                  "pt_BR": "Tr\u00e8s bien!",
                   "de_DE": "Tr\u00e8s bien!",
                   "fr_FR": "fr_FR",
                   "langUid": 128,
@@ -14135,6 +14187,7 @@
               {
                 "message": {
                   "en_US": "We should meet in \\c[3]\\v[area.autumn-area.name]\\c[0] at the \\c[3]Old Obelisk\\c[0].",
+                  "pt_BR": "Nós devemos nos encontrar em \\c[3]\\v[area.autumn-area.name]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
                   "de_DE": "Wir treffen uns in \\c[3]Autumn's Rise\\c[0] am \\c[3]Alten Obelisken\\c[0].",
                   "fr_FR": "fr_FR",
                   "langUid": 129,
@@ -14150,6 +14203,7 @@
               {
                 "message": {
                   "en_US": "That's a \\c[3]landmark\\c[0], remember? You can just quickly teleport to it.",
+                  "pt_BR": "Aquilo é um \\c[3]marco\\c[0], lembra? Você pode simplesmente se teleportar até lá.",
                   "de_DE": "Das ist ein \\c[3]Wegpunkt\\c[0], erinnerst du dich? Du kannst dich einfach dorthin teleportieren.",
                   "fr_FR": "fr_FR",
                   "langUid": 130,
@@ -14165,6 +14219,7 @@
               {
                 "message": {
                   "en_US": "...!",
+                  "pt_BR": "...!",
                   "de_DE": "...!",
                   "fr_FR": "fr_FR",
                   "langUid": 131,
@@ -15282,6 +15337,7 @@
                   {
                     "message": {
                       "en_US": "Ice blocks...\\. and they're gone! Nevermind.",
+                      "pt_BR": "Blocos de gelo...\\. e eles sumiram! Deixa pra lá.",
                       "de_DE": "Eisbl\u00f6cke...\\. Und weg sind sie!",
                       "fr_FR": "fr_FR",
                       "langUid": 415,
@@ -15301,6 +15357,7 @@
                   {
                     "message": {
                       "en_US": "It's an ice wall! Lea, you know what to do, right?",
+                      "pt_BR": "É uma parede de gelo! Lea, você sabe o que fazer, certo?",
                       "de_DE": "Eine Eiswand! Lea, du wei\u00dft, was zu tun ist, stimmt's?",
                       "fr_FR": "fr_FR",
                       "langUid": 416,
@@ -15372,6 +15429,7 @@
         "analyzable": {
           "text": {
             "en_US": "Kid Goat",
+            "pt_BR": "Cabrito",
             "de_DE": "Ziegenkitz",
             "fr_FR": "fr_FR",
             "langUid": 426,
@@ -16602,6 +16660,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "Challenge Note",
+            "pt_BR": "Nota de Desafio",
             "langUid": 557,
             "ja_JP": "\u30c1\u30e3\u30ec\u30f3\u30b8\u30ce\u30fc\u30c8<<A<<[CHANGED 2020/07/03]",
             "de_DE": "Hinweis zum Duell",
@@ -16613,6 +16672,7 @@
             {
               "text": {
                 "en_US": "The duel will take place at\n\\c[3]Bergen Trail - Rising Path 1\\c[0].",
+                "pt_BR": "O duelo terá lugar em \n\\c[3]Bergen Trail - Escalada 1\\c[0].",
                 "langUid": 558,
                 "ja_JP": "\u6c7a\u95d8\u306f\\c[3]\u30d9\u30eb\u30b2\u30f3\u306e\u5c71\u9053 - \u767b\u308a\u9053 1\\c[0]\u3067\n\u884c\u308f\u308c\u308b\u3002<<A<<[CHANGED 2020/07/03]",
                 "de_DE": "Das Duell findet am \n\\c[3]Aufstieg 1 des Bergen-Trails\\c[0] statt.",
@@ -16627,6 +16687,7 @@
             {
               "text": {
                 "en_US": "The duel shall start \nwhen the area has been \n\\c[3]ridden of all other opponents\\c[0].",
+                "pt_BR": "O duelo deve começar \nquando a área estiver \n\\c[3]completamente limpa sem outros oponentes.\\c[0].",
                 "langUid": 556,
                 "ja_JP": "\u6c7a\u95d8\u306f\u3001\u305d\u306e\u30a8\u30ea\u30a2\u306b\u3044\u308b\n\\c[3]\u4ed6\u306e\u6575\u304c\u5168\u6ec5\u3057\u305f\\c[0]\u6642\u3001\n\u59cb\u307e\u308b\u3060\u308d\u3046\u3002 <<A<<[CHANGED 2020/07/03]",
                 "de_DE": "Das Duell beginnt, \nwenn das Gebiet von \n\\c[3]allen anderen Gegnern ges\u00e4ubert wurde.\\c[0]",

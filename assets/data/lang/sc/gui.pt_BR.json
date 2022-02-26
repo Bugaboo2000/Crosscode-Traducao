@@ -585,7 +585,7 @@
             "combat-arts-level-1": "Você só pode fazer Habilidades de Combate nível 1, não importa o que mais você desbloqueou.",
             "combat-arts-level-2": "Você só pode fazer Habilidades de Combate nível 2, não importa o que mais você desbloqueou.",
             "overload-disable": "Sobrecarga elemental está desativada, isso significa que você pode permanecer no modo elemental pelo tempo que desejar.",
-            "infinite-sp": "Você está com SP cheiom e usar Habilidades de Combate não consome nenhum SP.",
+            "infinite-sp": "Você está com SP cheio e usar Habilidades de Combate não consome nenhum SP.",
             "enemy-aggro": "Inimigos comuns sempre irão te atacar ao te ver.",
             "item-cd-double": "O tempo de espera para consumíveis é duas vezes mais longo em combate.",
             "item-cd-half": "O tempo de espera para consumíveis é a metade do tempo em combate.",
@@ -1142,7 +1142,7 @@
           "museum": "Aproveite as coisas que você descobriu.",
           "help": "Perdeu a descrição de algo ou uma dica útil? Encontre-o nesta seção. ",
           "botanics": "Veja todas as plantas de CrossWorlds e quais itens elas podem deixar.",
-          "newgame": "Take a look at the \\c[3]New Game Plus\\c[0] options you have selected."
+          "newgame": "Veja as opções que você selecionou em \\c[3]New Game Plus\\c[0]."
         },
         "task": "Objetivo Atual",
         "log": "Registro de Atividade",

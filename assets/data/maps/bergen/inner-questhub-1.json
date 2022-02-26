@@ -1570,6 +1570,7 @@
                   "msgType": "OBTAINED",
                   "object": {
                     "en_US": "\\v[item.466.name]",
+                    "pt_BR": "\\v[item.466.name]",
                     "langUid": 477,
                     "de_DE": "Grubensuchger\u00e4t",
                     "ja_JP": "\\v[item.466.name]<<A<<[CHANGED 2018/08/01]",
@@ -3406,6 +3407,7 @@
                 {
                   "name": {
                     "en_US": "Talatu Lips",
+                    "pt_BR": "Talatu Lips",
                     "langUid": 59,
                     "zh_CN": "\u5854\u62c9\u56fe\u00b7\u83b1\u666e\u65af",
                     "de_DE": "Talatu Lips",
@@ -3433,6 +3435,7 @@
                 {
                   "message": {
                     "en_US": "There ya are!",
+                    "pt_BR": "Aí está você!",
                     "de_DE": "Da bischte ja!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u597d\u5440!",
@@ -3467,6 +3470,7 @@
                 {
                   "message": {
                     "en_US": "Ah've been workin' on a li'l somethin' here.",
+                    "pt_BR": "Ah eu estava trabalhando em uma coisinha aqui.",
                     "de_DE": "I hann anner Kleinigkeit geschaffet.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u6211\u5728\u5f04\u4e00\u4e2a\u5c0f\u73a9\u610f\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3485,6 +3489,7 @@
                 {
                   "message": {
                     "en_US": "A fancy new hat!",
+                    "pt_BR": "Um chapéu novo e chique!",
                     "de_DE": "Ein neues H\u00fctle!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4e00\u9876\u5e3d\u5b50\uff01",
@@ -3503,6 +3508,7 @@
                 {
                   "message": {
                     "en_US": "...?",
+                    "pt_BR": "...?",
                     "de_DE": "...?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "...?",
@@ -3518,6 +3524,7 @@
                 {
                   "message": {
                     "en_US": "Haha, now don'tcher look at me like that!",
+                    "pt_BR": "Haha, não faça essa carinha!",
                     "de_DE": "Haha, jetze schau mi doch net so in!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u54c8\u54c8\uff0c\u522b\u8fd9\u4e48\u770b\u7740\u6211\uff01<<A<<[CHANGED 2018/09/19]",
@@ -3536,6 +3543,7 @@
                 {
                   "message": {
                     "en_US": "It has one o' them nice \\c[3]Modifiers\\c[0].",
+                    "pt_BR": "Ele tem alguns desses \\c[3]Modificadores\\c[0] legaizinhos.",
                     "de_DE": "Desch Dinge hat eine dieser \\c[3]Modifikatoren\\c[0].",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u8fd9\u4e0a\u9762\u53ef\u6709\\c[3]\u7279\u8d28\\c[0]\u54e6\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3554,6 +3562,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "...!",
@@ -3569,6 +3578,7 @@
                 {
                   "message": {
                     "en_US": "Makes it so ya'll can increase yer chance of loot by havin' a high \\c[3]Combat Rank\\c[0].",
+                    "pt_BR": "Faz com que você aumente as chances de ganhar items, por ter um nível alto de \\c[3]Ranking de Combate\\c[0].",
                     "de_DE": "So kriegschst mehr von de Beude wennde deinen \\c[3]Kampfrang\\c[0] h\u00f6her hascht.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u5b83\u53ef\u4ee5\u8ba9\u4f60\u5728\u62e5\u6709\u9ad8\\c[3]\u6218\u6597\u8bc4\u7ea7\\c[0]\u7684\u65f6\u5019\u63d0\u9ad8\u7269\u54c1\u6389\u843d\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3587,6 +3597,7 @@
                 {
                   "message": {
                     "en_US": "Made it all by mahself. Here take it, sweetheart.",
+                    "pt_BR": "Tudo isso feito por mim. Pegue, queridinha.",
                     "de_DE": "Hann i s\u00e4lbr gmacht. Hie, fir di, M\u00e4dle.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u8fd9\u53ef\u662f\u6211\u81ea\u5df1\u52a8\u624b\u4f5c\u7684\u3002\u6765\uff0c\u7ed9\u4f60\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3607,6 +3618,7 @@
                   "msgType": "OBTAINED",
                   "object": {
                     "en_US": "\\i[item-helm-unique]\\v[item.287.name]",
+                    "pt_BR": "\\i[item-helm-unique]\\v[item.287.name]",
                     "de_DE": "\\i[item-helm-unique]Strohhut",
                     "zh_CN": "\\i[item-helm-unique]\\v[item.287.name]<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "\\i[item-helm-unique]\\v[item.287.name]<<A<<[CHANGED 2018/07/09]",
@@ -3625,6 +3637,7 @@
                 {
                   "name": {
                     "en_US": "Talatu Lips",
+                    "pt_BR": "Talatu Lips",
                     "langUid": 60,
                     "zh_CN": "\u5854\u62c9\u56fe\u00b7\u83b1\u666e\u65af",
                     "de_DE": "Talatu Lips",
@@ -3652,6 +3665,7 @@
                 {
                   "message": {
                     "en_US": "Ya'll like it?",
+                    "pt_BR": "Você gostou?",
                     "de_DE": "Mogscht des?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u559c\u6b22\u561b\uff1f",
@@ -3670,6 +3684,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "...!",
@@ -3685,6 +3700,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 54,
@@ -3700,6 +3716,7 @@
                 {
                   "message": {
                     "en_US": "Glad ta hear it!",
+                    "pt_BR": "Fico feliz em saber!",
                     "de_DE": "Hah, sche, des zu h\u00f6re!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u90a3\u5c31\u597d\uff01<<A<<[CHANGED 2018/09/19]",
@@ -3718,6 +3735,7 @@
                 {
                   "message": {
                     "en_US": "A'right, Ah'll be off now. Y'all be good now!",
+                    "pt_BR": "Certo, eu vou embora agora. Tchauzinho!",
                     "de_DE": "Na denne, isch moche mich mal vom Agger. Bleibsch gesund, ne?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u884c\uff0c\u90a3\u6211\u8d70\u4e86\u3002\u4f60\u81ea\u5df1\u4fdd\u91cd\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3736,6 +3754,7 @@
                 {
                   "message": {
                     "en_US": "And keep hittin' them plants fer me, will ya?",
+                    "pt_BR": "E continue acertando as plantinhas por mim, combinado?",
                     "de_DE": "Und kloppschst weiter de Gew\u00e4ggse?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u8fd8\u6709\u8bb0\u5f97\u8981\u5e2e\u6211\u505a\u690d\u7269\u4fe1\u606f\u91c7\u96c6\u54e6\uff01<<A<<[CHANGED 2018/09/19]",
@@ -3754,6 +3773,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 58,

@@ -1944,6 +1944,7 @@
                 "entity": { "player": true },
                 "text": {
                   "en_US": "[Player stuck. Initiate emergency rescue.]",
+                  "pt_BR": "[Jogador preso. Iniciar o resgate de emergência.]",
                   "de_DE": "[Spieler sitzt fest. Starte Notfallrettung.]",
                   "langUid": 40,
                   "zh_TW": "[\u73a9\u5bb6\u5361\u6b7b\u3002\u958b\u59cb\u7dca\u6025\u6551\u63f4\u3002]<<A<<[CHANGED 2020/07/15]",
@@ -2071,6 +2072,7 @@
             "entity": { "player": true },
             "text": {
               "en_US": "[Emergency rescue cancelled.]",
+              "pt_BR": "[Resgate de emergência cancelado.]",
               "de_DE": "[Notfallrettung abgebrochen.]",
               "langUid": 42,
               "zh_TW": "[\u7dca\u6025\u6551\u63f4\u53d6\u6d88\u3002]<<A<<[CHANGED 2020/07/15]",

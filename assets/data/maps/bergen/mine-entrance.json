@@ -3324,6 +3324,7 @@
         "analyzable": {
           "text": {
             "en_US": "Mine Guard",
+            "pt_BR": "Guarda da Mina",
             "de_DE": "Minenwache",
             "fr_FR": "fr_FR",
             "langUid": 62,
@@ -4269,6 +4270,7 @@
                       {
                         "message": {
                           "en_US": "Hm... Looking at your stats and level, do you really think that you're ready yet?",
+                          "pt_BR": "Hm... Olhando para as suas estatísticas e nível, acha mesmo que já está pronta?",
                           "de_DE": "Hm... Olhando para suas estatísticas e nível, você realmente acha que já está pronta?",
                           "zh_CN": "\u55ef...\u770b\u770b\u4f60\u7684\u7b49\u7ea7\u548c\u5c5e\u6027\uff0c\u4f60\u786e\u5b9a\u4f60\u5df2\u7ecf\u51c6\u5907\u597d\u4e86\uff1f<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u3046\u30fc\u3093...\u79c1\u305f\u3061\u306e\u30ec\u30d9\u30eb\u3092\u898b\u308b\u9650\u308a\u3060\u3068\u3001\u307e\u3060\u6e96\u5099\u306f\u3067\u304d\u3066\u306a\u3055\u305d\u3046\u3058\u3083\u306a\u3044\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -5288,6 +5290,7 @@
                 {
                   "name": {
                     "en_US": "Aisy",
+                    "pt_BR": "Aisy",
                     "langUid": 454,
                     "zh_CN": "\u827e\u5e0c",
                     "de_DE": "Aisy",
@@ -5327,6 +5330,7 @@
                     {
                       "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "de_DE": "Hi!",
                         "fr_FR": "fr_FR",
                         "langUid": 413,
@@ -5345,6 +5349,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u2026",
@@ -5363,6 +5368,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 415,
@@ -5404,6 +5410,7 @@
                     {
                       "message": {
                         "en_US": "\\v[lore.title.seeker]... what makes you disturb my meditation?",
+                        "pt_BR": "\\v[lore.title.seeker]... o que faz você interromper minha meditação?",
                         "de_DE": "Seeker... Warum st\u00f6rst du meine Meditation?",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\\v[lore.title.seeker]\u2026\u8bf7\u95ee\u4f60\u4e3a\u4f55\u8981\u6253\u65ad\u6211\u7684\u51a5\u60f3\uff1f",
@@ -5422,6 +5429,7 @@
                     {
                       "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "de_DE": "Hi!",
                         "fr_FR": "fr_FR",
                         "langUid": 407,
@@ -5440,6 +5448,7 @@
                     {
                       "message": {
                         "en_US": "A test from our leader?\\. Then you must already be familiar with the cold.\\. Very well.",
+                        "pt_BR": "Um teste do nosso líder?\\. Então você já está familiarizada com o gelo.\\. Muito bem.",
                         "de_DE": "Eine Aufgabe von unserem Oberhaupt?\\. Dann musst du mit der K\u00e4lte bereits vertraut sein.\\. Nun gut.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u6765\u81ea\u6211\u4eec\u9886\u8896\u7684\u8bd5\u70bc\uff1f\\.\u90a3\u4f60\u4e00\u5b9a\u5df2\u7ecf\u719f\u6089\u4e86\u51b0\u5143\u7d20\u3002\\.\u975e\u5e38\u597d\u3002",
@@ -5458,6 +5467,7 @@
                     {
                       "message": {
                         "en_US": "With that heated passion of yours, you might be up for the \\c[3]Trial of Progression\\c[0].",
+                        "pt_BR": "Com a sua vontade acalorada, você deve estar pronta para a \\c[3]Trilha da Progressão\\c[0].",
                         "de_DE": "Mit deinem Eifer k\u00f6nntest du wom\u00f6glich f\u00fcr die \\c[3]Pr\u00fcfung des Fortschritts\\c[0] bereit sein.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u90a3\u71c3\u70e7\u7684\u70ed\u60c5\u6b63\u9002\u5408\\c[3]\u8fdb\u5347\u8bd5\u70bc\\c[0]\u3002",
@@ -5476,6 +5486,7 @@
                     {
                       "message": {
                         "en_US": "...!",
+                        "pt_BR": "...!",
                         "de_DE": "...!",
                         "fr_FR": "fr_FR",
                         "langUid": 417,
@@ -5494,6 +5505,7 @@
                     {
                       "message": {
                         "en_US": "I will prepare an entrance.",
+                        "pt_BR": "Vou preparar uma entrada.",
                         "de_DE": "Ich werde einen Eingang vorbereiten.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u6211\u53bb\u51c6\u5907\u4e00\u4e2a\u5165\u53e3\u3002",
@@ -5607,6 +5619,7 @@
                     {
                       "name": {
                         "en_US": "Aisy",
+                        "pt_BR": "Aisy",
                         "langUid": 455,
                         "zh_CN": "\u827e\u5e0c",
                         "de_DE": "Aisy",
@@ -5637,6 +5650,7 @@
                     {
                       "message": {
                         "en_US": "This teleporter will let you slip into the cave of your trial.",
+                        "pt_BR": "Esse teleportador irá te levar à entrada da caverna de sua prova.",
                         "de_DE": "Dieser Teleporter wird dich in die H\u00f6hle deiner Pr\u00fcfung bef\u00f6rdern.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u8fd9\u4e2a\u4f20\u9001\u70b9\u4f1a\u8ba9\u4f60\u76f4\u63a5\u8fdb\u5165\u4f60\u7684\u8bd5\u70bc\u6d1e\u7a74\u3002",
@@ -5655,6 +5669,7 @@
                     {
                       "message": {
                         "en_US": "Brave the cold wrath of the mountain and return with the sacred artifact from the end of the path.",
+                        "pt_BR": "Enfrente a ira gelada da montanha e retorne com o artefato sagrado no fim do caminho.",
                         "de_DE": "Trotze dem kalten Atem des Berges und kehre mit dem Artefakt zur\u00fcck, welches dich am Ende des Pfades erwartet.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u6218\u80dc\u5bd2\u5c71\u7684\u6124\u6012\uff0c\u4ece\u8def\u7684\u5c3d\u5934\u5c06\u5723\u7269\u5e26\u56de\u6765\u5427\u3002",
@@ -5673,6 +5688,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 408,
@@ -5691,6 +5707,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 325,
@@ -5744,6 +5761,7 @@
               {
                 "name": {
                   "en_US": "Aisy",
+                  "pt_BR": "Aisy",
                   "langUid": 456,
                   "zh_CN": "\u827e\u5e0c",
                   "de_DE": "Aisy",
@@ -5783,6 +5801,7 @@
                   {
                     "message": {
                       "en_US": "Hi!",
+                      "pt_BR": "Oi!",
                       "de_DE": "Hi!",
                       "fr_FR": "fr_FR",
                       "langUid": 419,
@@ -5798,6 +5817,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u2026",
@@ -5816,6 +5836,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "langUid": 421,
@@ -5854,6 +5875,7 @@
                   {
                     "message": {
                       "en_US": "Slip into the cave and reach the end of the track to beat the trial.",
+                      "pt_BR": "Entre na caverna e alcance o fim da trilha para vençer a prova.",
                       "de_DE": "Schl\u00fcpfe in die H\u00f6hle und erreiche das Ende des Pfades, um die Aufgabe zu bestehen.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u8fdb\u5165\u6d1e\u7a74\uff0c\u8fbe\u5230\u8f68\u9053\u7684\u6700\u5e95\u90e8\uff0c\u5f00\u59cb\u8bd5\u9a8c\u3002",
@@ -5872,6 +5894,7 @@
                   {
                     "message": {
                       "en_US": "Fighting will not be necessary.\\. Just keep your footing and be one with the chill.",
+                      "pt_BR": "Lutar não será necessário.\\. Basta manter seus passos firmes e ser um só com o frio.",
                       "de_DE": "K\u00e4mpfen wird nicht n\u00f6tig sein.\\. Bleibe standfest und sei eins mit der K\u00e4lte.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u4e0d\u9700\u8981\u6218\u6597\u3002\\.\u4fdd\u6301\u524d\u8fdb\uff0c\u5b81\u5fc3\u9759\u6c14\u3002",
@@ -5890,6 +5913,7 @@
                   {
                     "message": {
                       "en_US": "[nods]",
+                      "pt_BR": "[acena com a cabeça]",
                       "de_DE": "[nickt]",
                       "fr_FR": "fr_FR",
                       "langUid": 328,
@@ -5936,6 +5960,7 @@
                 {
                   "name": {
                     "en_US": "Aisy",
+                    "pt_BR": "Aisy",
                     "langUid": 457,
                     "zh_CN": "\u827e\u5e0c",
                     "de_DE": "Aisy",
@@ -5975,6 +6000,7 @@
                     {
                       "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "de_DE": "Hi!",
                         "fr_FR": "fr_FR",
                         "langUid": 422,
@@ -5993,6 +6019,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u2026",
@@ -6011,6 +6038,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 424,
@@ -6052,6 +6080,7 @@
                     {
                       "message": {
                         "en_US": "You are back... and you still haven't lost your fire.\\. Very promising.",
+                        "pt_BR": "Você voltou... e parece que você não deixou sua chama apagar.\\. Muito promissor.",
                         "de_DE": "Du bist zur\u00fcck... und du hast deinen Eifer nicht verloren.\\. Das verhei\u00dft Gutes.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u56de\u6765\u4e86\u2026\u4f60\u4ecd\u7136\u6ca1\u6709\u4e22\u5931\u4f60\u7684\u706b\u79cd\u3002\\.\u5f88\u6709\u524d\u9014\u3002",
@@ -6070,6 +6099,7 @@
                     {
                       "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "de_DE": "Hi!",
                         "fr_FR": "fr_FR",
                         "langUid": 330,
@@ -6085,6 +6115,7 @@
                     {
                       "message": {
                         "en_US": "Yes, this is the artifact you were supposed to retrieve.",
+                        "pt_BR": "Sim, este é o artefato que você deveria recuperar.",
                         "de_DE": "Ja, das ist das Artefakt, welches du holen solltest.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u5f88\u597d\uff0c\u8fd9\u5c31\u662f\u90a3\u4ef6\u5723\u7269\u3002",
@@ -6103,6 +6134,7 @@
                     {
                       "message": {
                         "en_US": "You see, it symbolizes the omnipresence of winter that looms over both nature and all human creation.",
+                        "pt_BR": "Veja, ele simboliza a onipresença do inverno, que paira tanto sobre a natureza como sobre toda a criação humana.",
                         "de_DE": "Du musst wissen, es symbolisiert die Allgegenwart des Winters, die den Sch\u00f6pfungen von Mensch und Natur wie ein Schatten anhaftet.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u770b\uff0c\u5b83\u8c61\u5f81\u7740\u51ac\u5929\u65e0\u5904\u4e0d\u5728\uff0c\u5728\u81ea\u7136\u548c\u6240\u6709\u4eba\u7c7b\u7684\u521b\u9020\u7269\u4e0a\u82e5\u9690\u82e5\u73b0\u3002",
@@ -6121,6 +6153,7 @@
                     {
                       "message": {
                         "en_US": "But it also reminds us that life and determination can always persevere against the ice, just like you did.",
+                        "pt_BR": "Mas também nos lembra que a vida e a determinação podem sempre perseverar contra o gelo, assim como você fez.",
                         "de_DE": "Aber es erinnert uns auch daran, dass das Leben und die Entschlossenheit stets \u00fcber das Eis obsiegen kann, so wie du es getan hast.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f46\u662f\u5b83\u4e5f\u63d0\u9192\u6211\u4eec\uff0c\u751f\u547d\u548c\u51b3\u5fc3\u603b\u80fd\u62b5\u6321\u5bd2\u51b0\uff0c\u5c31\u50cf\u4f60\u505a\u7684\u90a3\u6837\u3002",
@@ -6139,6 +6172,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 390,
@@ -6157,6 +6191,7 @@
                     {
                       "message": {
                         "en_US": "Now go back to our leader and leave me to meditate on the ice.",
+                        "pt_BR": "Agora, retorne ao nosso líder e deixe-me meditar no gelo.",
                         "de_DE": "Gehe nun zur\u00fcck zu unserem Oberhaupt und lass mich weiter auf dem Eis meditieren.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u73b0\u5728\u56de\u5230\u6211\u4eec\u7684\u9886\u8896\u8eab\u8fb9\uff0c\u8ba9\u6211\u7ee7\u7eed\u5728\u51b0\u4e0a\u6c89\u601d\u51a5\u60f3\u5427\u3002",
@@ -6175,6 +6210,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 342,
@@ -6190,6 +6226,7 @@
                     {
                       "message": {
                         "en_US": "Bye!",
+                        "pt_BR": "Tchau!",
                         "de_DE": "Bye!",
                         "fr_FR": "fr_FR",
                         "langUid": 427,
@@ -6244,6 +6281,7 @@
               {
                 "name": {
                   "en_US": "Aisy",
+                  "pt_BR": "Aisy",
                   "langUid": 458,
                   "zh_CN": "\u827e\u5e0c",
                   "de_DE": "Aisy",
@@ -6283,6 +6321,7 @@
                   {
                     "message": {
                       "en_US": "Hi!",
+                      "pt_BR": "Oi!",
                       "de_DE": "Hi!",
                       "fr_FR": "fr_FR",
                       "langUid": 428,
@@ -6298,6 +6337,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u2026",
@@ -6316,6 +6356,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "langUid": 430,
@@ -6354,6 +6395,7 @@
                   {
                     "message": {
                       "en_US": "Now go back to our leader and leave me to meditate on the ice.",
+                      "pt_BR": "Agora, retorne ao nosso líder e deixe-me meditar no gelo.",
                       "de_DE": "Gehe nun zur\u00fcck zu unserem Oberhaupt und lass mich weiter auf dem Eis meditieren.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u73b0\u5728\u56de\u5230\u6211\u4eec\u7684\u9886\u8896\u8eab\u8fb9\uff0c\u8ba9\u6211\u7ee7\u7eed\u5728\u51b0\u4e0a\u6c89\u601d\u51a5\u60f3\u5427\u3002",
@@ -6402,6 +6444,7 @@
                 {
                   "name": {
                     "en_US": "Aisy",
+                    "pt_BR": "Aisy",
                     "langUid": 459,
                     "zh_CN": "\u827e\u5e0c",
                     "de_DE": "Aisy",
@@ -6441,6 +6484,7 @@
                     {
                       "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "de_DE": "Hi!",
                         "fr_FR": "fr_FR",
                         "langUid": 432,
@@ -6459,6 +6503,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u2026",
@@ -6477,6 +6522,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 434,
@@ -6518,6 +6564,7 @@
                     {
                       "message": {
                         "en_US": "Hi.",
+                        "pt_BR": "Oi.",
                         "de_DE": "Hi.",
                         "fr_FR": "fr_FR",
                         "langUid": 346,
@@ -6536,6 +6583,7 @@
                     {
                       "message": {
                         "en_US": "Ah, it is you again.\\. You still feel a lot of respect for the ice, yes?",
+                        "pt_BR": "Ah, é você novamente.\\. Ainda sente muito respeito pelo gelo, sim?",
                         "de_DE": "Ah, du bist es.\\. Du hast immer noch gro\u00dfen Respekt vor dem Eis, nicht wahr?",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u5662\uff0c\u53c8\u662f\u4f60\u3002\\.\u4f60\u4ecd\u65e7\u80fd\u611f\u89c9\u5230\u5bf9\u51b0\u7684\u65e0\u6bd4\u5d07\u656c\uff0c\u5bf9\u5417\uff1f",
@@ -6554,6 +6602,7 @@
                     {
                       "message": {
                         "en_US": "...?",
+                        "pt_BR": "...?",
                         "de_DE": "...?",
                         "fr_FR": "fr_FR",
                         "langUid": 360,
@@ -6572,6 +6621,7 @@
                     {
                       "message": {
                         "en_US": "Indeed you should.\\. Beating the trial does not mean that you are already a master of cold.",
+                        "pt_BR": "De fato, deveria.\\. Vencer a prova não significa que você tenha dominado o gelo.",
                         "de_DE": "Den solltest du auch haben.\\. Die Pr\u00fcfung bestanden zu haben bedeutet nicht, ein Meister der K\u00e4lte geworden zu sein.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u786e\u5b9e\u5e94\u8be5\u8fd9\u6837\u3002\\.\u901a\u8fc7\u8bd5\u9a8c\u5e76\u4e0d\u610f\u5473\u7740\u4f60\u5df2\u7ecf\u662f\u5bd2\u51b0\u7684\u4e3b\u4eba\u3002",
@@ -6590,6 +6640,7 @@
                     {
                       "message": {
                         "en_US": "But there are additional challenges for you that will give you even more insight into the nature of frost.",
+                        "pt_BR": "Mas existem desafios extras para você, eles lhe darão uma visão ainda maior sobre a natureza do gelo.",
                         "de_DE": "Es gibt aber weitere Herausforderungen, welche dich mehr \u00fcber die Natur des Frostes lehren werden.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f46\u662f\u6211\u4eec\u4e3a\u4f60\u51c6\u5907\u4e86\u4e00\u4e2a\u989d\u5916\u7684\u6311\u6218\uff0c\u5b83\u5c06\u7ed9\u4f60\u66f4\u591a\u673a\u4f1a\u8ba9\u4f60\u53bb\u6d1e\u5bdf\u5bd2\u51b0\u7684\u672c\u8d28\u3002",
@@ -6614,6 +6665,7 @@
                         {
                           "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 348,
@@ -6632,6 +6684,7 @@
                         {
                           "message": {
                             "en_US": "Good.\\. The passage will be opened again.",
+                            "pt_BR": "Bom.\\. A passagem será aberta novamente.",
                             "de_DE": "Gut.\\. Ich werde dir den Pfad erneut zug\u00e4nglich machen.",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u597d\u7684\u3002\\.\u901a\u9053\u5373\u5c06\u518d\u6b21\u5f00\u542f\u3002",
@@ -6710,6 +6763,7 @@
                           "entity": { "global": true, "name": "trial_cave-2" },
                           "text": {
                             "en_US": "Path reopened!",
+                            "pt_BR": "Caminho reaberto!",
                             "de_DE": "Pfad erneut ge\u00f6ffnet!",
                             "fr_FR": "fr_FR",
                             "langUid": 378,
@@ -6786,6 +6840,7 @@
                         {
                           "name": {
                             "en_US": "Aisy",
+                            "pt_BR": "Aisy",
                             "langUid": 460,
                             "zh_CN": "\u827e\u5e0c",
                             "de_DE": "Aisy",
@@ -6816,6 +6871,7 @@
                         {
                           "message": {
                             "en_US": "Return here, once you have solved those icy challenges.",
+                            "pt_BR": "Retorne aqui, assim que você superar esses desafios gelados.",
                             "de_DE": "Kehre hierher zur\u00fcck, sobald du die eisigen Herausforderungen gemeistert hast.",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u4e00\u65e6\u4f60\u89e3\u51b3\u4e86\u8fd9\u4e9b\u51b0\u51bb\u6311\u6218\uff0c\u8bf7\u56de\u5230\u8fd9\u91cc\u6765\u3002",
@@ -6834,6 +6890,7 @@
                         {
                           "message": {
                             "en_US": "Bye.",
+                            "pt_BR": "Tchau.",
                             "de_DE": "Bye.",
                             "fr_FR": "fr_FR",
                             "langUid": 391,
@@ -6854,6 +6911,7 @@
                         {
                           "message": {
                             "en_US": "[shakes head]",
+                            "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                             "de_DE": "[sch\u00fcttelt Kopf]",
                             "fr_FR": "fr_FR",
                             "langUid": 350,
@@ -6872,6 +6930,7 @@
                         {
                           "message": {
                             "en_US": "Ah, you think that you are done with the ice already.\\. Do not underestimate its reach.",
+                            "pt_BR": "Ah, você acha que aprendeu tudo sobre o gelo.\\. Não subestime o alcance dele.",
                             "de_DE": "Ah, du denkst, dass du mit dem Eis schon fertig bist.\\. Untersch\u00e4tze niemals seinen Einflussbereich.",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u563f\uff0c\u770b\u6765\u4f60\u4ee5\u4e3a\u4e0d\u7528\u518d\u548c\u51b0\u6253\u4ea4\u9053\u4e86\uff1f\\.\u4e0d\u8981\u4f4e\u4f30\u51b0\u7684\u5ef6\u5c55\u3002<<A<<[CHANGED 2018/01/06]",
@@ -6890,6 +6949,7 @@
                         {
                           "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "de_DE": "...",
                             "fr_FR": "fr_FR",
                             "langUid": 364,
@@ -6941,6 +7001,7 @@
               {
                 "name": {
                   "en_US": "Aisy",
+                  "pt_BR": "Aisy",
                   "langUid": 461,
                   "zh_CN": "\u827e\u5e0c",
                   "de_DE": "Aisy",
@@ -6980,6 +7041,7 @@
                   {
                     "message": {
                       "en_US": "Hi!",
+                      "pt_BR": "Oi!",
                       "de_DE": "Hi!",
                       "fr_FR": "fr_FR",
                       "langUid": 435,
@@ -6995,6 +7057,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u2026",
@@ -7013,6 +7076,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "langUid": 437,
@@ -7051,6 +7115,7 @@
                   {
                     "message": {
                       "en_US": "Return to the cave and face the challenges.",
+                      "pt_BR": "Retorne à caverna e enfrente os desafios.",
                       "de_DE": "Kehre zur H\u00f6hle zur\u00fcck und stelle dich den Herausforderungen.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u8bf7\u56de\u5230\u6d1e\u7a74\u63a5\u53d7\u6311\u6218\u3002",
@@ -7074,6 +7139,7 @@
                       {
                         "message": {
                           "en_US": "To solve the extra frosty challenge you have to activate it at the sign inside.",
+                          "pt_BR": "Para resolver o desafio extra gelado, você terâ que ativá-lo no sinal interno.",
                           "de_DE": "Du musst die \"extra frostige\"Herausforderung drinnen am Schild erst aktivieren.",
                           "fr_FR": "fr_FR",
                           "zh_CN": "\u5982\u8981\u8fdb\u884c\u989d\u5916\u7684\u51b0\u51bb\u6311\u6218\uff0c\u8bf7\u6fc0\u6d3b\u5185\u90e8\u6807\u8bb0\u3002",
@@ -7094,6 +7160,7 @@
                   {
                     "message": {
                       "en_US": "[nods]",
+                      "pt_BR": "[acena com a cabeça]",
                       "de_DE": "[nickt]",
                       "fr_FR": "fr_FR",
                       "langUid": 357,
@@ -7139,6 +7206,7 @@
                 {
                   "name": {
                     "en_US": "Aisy",
+                    "pt_BR": "Aisy",
                     "langUid": 462,
                     "zh_CN": "\u827e\u5e0c",
                     "de_DE": "Aisy",
@@ -7178,6 +7246,7 @@
                     {
                       "message": {
                         "en_US": "Hi!",
+                        "pt_BR": "Oi!",
                         "de_DE": "Hi!",
                         "fr_FR": "fr_FR",
                         "langUid": 438,
@@ -7196,6 +7265,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u2026",
@@ -7214,6 +7284,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 440,
@@ -7255,6 +7326,7 @@
                     {
                       "message": {
                         "en_US": "Once again your passion has broken the ice.\\. Impressive.",
+                        "pt_BR": "Mais uma vez sua paixão qubrou o gelo.\\. Impressionante.",
                         "de_DE": "Dein inneres Feuer hat das Eis erneut gebrochen.\\. Beeindruckend.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u7684\u70ed\u60c5\u53c8\u4e00\u6b21\u6218\u80dc\u4e86\u5bd2\u51b0\u3002\\.\u4ee4\u4eba\u5370\u8c61\u6df1\u523b\u3002",
@@ -7273,6 +7345,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 365,
@@ -7288,6 +7361,7 @@
                     {
                       "message": {
                         "en_US": "With that, you have mastered even the most slippery of paths.",
+                        "pt_BR": "Com isso, você dominou até o mais escorregadio dos caminhos.",
                         "de_DE": "Damit hast du sogar den rutschigsten aller Pfade gemeistert.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u8fde\u6700\u4e3a\u6ed1\u6e9c\u7684\u5bd2\u51b0\u90fd\u4e0d\u80fd\u963b\u6b62\u4f60\u3002",
@@ -7306,6 +7380,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 355,
@@ -7321,6 +7396,7 @@
                     {
                       "message": {
                         "en_US": "I will now continue to connect with the ice.\\. The path will remain open for you to do the same if you wish.",
+                        "pt_BR": "Agora, vou continuar me ligando ao gelo.\\. O caminho permanecerá aberto para você fazer o mesmo se assim desejar.",
                         "de_DE": "Ich werde mich jetzt wieder mit dem Eis verbinden.\\. Der Pfad bleibt nun f\u00fcr dich ge\u00f6ffnet, falls du es mir gleich tun willst.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u6211\u73b0\u5728\u5c06\u91cd\u62fe\u4e0e\u5bd2\u51b0\u7684\u4ea4\u6d41\u3002\\.\u82e5\u4f60\u60f3\u7684\u8bdd\uff0c\u8fd9\u6761\u8def\u5c06\u7ee7\u7eed\u4e3a\u4f60\u5f00\u653e\u3002",
@@ -7339,6 +7415,7 @@
                     {
                       "message": {
                         "en_US": "Bye!",
+                        "pt_BR": "Tchau!",
                         "de_DE": "Bye!",
                         "fr_FR": "fr_FR",
                         "langUid": 392,
@@ -7394,6 +7471,7 @@
               {
                 "name": {
                   "en_US": "Aisy",
+                  "pt_BR": "Aisy",
                   "langUid": 463,
                   "zh_CN": "\u827e\u5e0c",
                   "de_DE": "Aisy",
@@ -7433,6 +7511,7 @@
                   {
                     "message": {
                       "en_US": "Hi!",
+                      "pt_BR": "Oi!",
                       "de_DE": "Hi!",
                       "fr_FR": "fr_FR",
                       "langUid": 445,
@@ -7448,6 +7527,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u2026",
@@ -7466,6 +7546,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "langUid": 447,
@@ -7504,6 +7585,7 @@
                   {
                     "message": {
                       "en_US": "Hi!",
+                      "pt_BR": "Oi!",
                       "de_DE": "Hi!",
                       "fr_FR": "fr_FR",
                       "langUid": 448,
@@ -7519,6 +7601,7 @@
                   {
                     "message": {
                       "en_US": "\\v[lore.title.seeker]...why did you disturb my meditation?",
+                      "pt_BR": "\\v[lore.title.seeker]...porque você interrompeu minha meditação?",
                       "de_DE": "Seeker... Warum st\u00f6rst du meine Meditation?",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\\v[lore.title.seeker]\u2026\u4e3a\u4f55\u8981\u6253\u6405\u6211\u7684\u4f11\u7720\uff1f<<A<<[CHANGED 2017/10/13]",
@@ -7537,6 +7620,7 @@
                   {
                     "message": {
                       "en_US": "... bye?",
+                      "pt_BR": "... tchau?",
                       "de_DE": "... Bye?",
                       "fr_FR": "fr_FR",
                       "langUid": 450,
@@ -7552,6 +7636,7 @@
                   {
                     "message": {
                       "en_US": "For no reason?\\. Please be more considerate in the future.",
+                      "pt_BR": "Por motivo nenhum?\\. Por favor seja mais cuidadosa no futuro.",
                       "de_DE": "V\u00f6llig grundlos?\\. Bitte sei in Zukunft etwas r\u00fccksichtsvoller.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u6beb\u65e0\u7406\u7531\uff1f\\.\u8bf7\u5728\u5c06\u6765\u8003\u8651\u5468\u5230\u4e9b\u5427\u3002",
@@ -7570,6 +7655,7 @@
                   {
                     "message": {
                       "en_US": "...",
+                      "pt_BR": "...",
                       "de_DE": "...",
                       "fr_FR": "fr_FR",
                       "langUid": 452,
@@ -7631,6 +7717,7 @@
         "map": "bergen.special.monks-questcave2",
         "teleportLabel": {
           "en_US": "Enter the \\c[3]Cave of Progression\\c[0]",
+          "pt_BR": "Entre na \\c[3]Caverna of Progressão\\c[0]",
           "de_DE": "\\c[3]H\u00f6hle des Fortschritts\\c[0] betreten",
           "zh_CN": "\u8fdb\u5165\\c[3]\u8fdb\u6b65\u6d1e\u7a74\\c[0]<<A<<[CHANGED 2019/05/06]",
           "ja_JP": "\\c[3]\u9032\u884c\u306e\u6d1e\u7a9f\\c[0]\u306b\u5165\u308b<<A<<[CHANGED 2019/05/06]",
@@ -7655,6 +7742,7 @@
             "entity": { "player": true },
             "text": {
               "en_US": "Access denied!",
+              "pt_BR": "Acesso negado!",
               "de_DE": "Zutritt verweigert!",
               "fr_FR": "fr_FR",
               "langUid": 377,
