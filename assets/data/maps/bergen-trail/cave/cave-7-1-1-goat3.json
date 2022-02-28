@@ -4338,7 +4338,7 @@
             "entity": { "global": true, "name": "goat-Father" },
             "text": {
               "en_US": "[neutral goat noises]",
-              "pt_BR": "[barulhos de cabra neutros]",
+              "pt_BR": "[ruídos vagos de cabra]",
               "de_DE": "[typische Ziegenlaute]",
               "fr_FR": "fr_FR",
               "langUid": 469,
@@ -4485,7 +4485,7 @@
             "entity": { "global": true, "name": "goat-Father" },
             "text": {
               "en_US": "[thankful goat noises]",
-              "pt_BR": "ruídos de cabra agradecida]",
+              "pt_BR": "[ruídos de cabra agradecida]",
               "de_DE": "[dankbare Ziegenlaute]",
               "fr_FR": "fr_FR",
               "langUid": 485,
@@ -4919,7 +4919,7 @@
           {
             "message": {
               "en_US": "Bye!",
-              "pt_BR": "Tchau",
+              "pt_BR": "Tchau!",
               "de_DE": "Bye!",
               "fr_FR": "fr_FR",
               "langUid": 498,
@@ -6481,6 +6481,7 @@
         "analyzable": {
           "text": {
             "en_US": "en_US",
+            "pt_BR": "pt_BR",
             "de_DE": "Wichtige Kiste",
             "zh_CN": "\u91cd\u8981\u7684\u7bb1\u5b50",
             "ja_JP": "\u91cd\u8981\u306a\u7bb1",
@@ -7133,7 +7134,7 @@
           {
             "name": {
               "en_US": "Sgt. Sterling",
-              "pt_BR": "Sarg. Sterling",
+              "pt_BR": "Sgt. Sterling",
               "de_DE": "Hptm. Sterling",
               "zh_CN": "\u65af\u7279\u6797\u4e2d\u5c09<<A<<[CHANGED 2020/06/17]",
               "ja_JP": "\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0\u66f9\u9577<<A<<[CHANGED 2020/06/17]",
@@ -7160,7 +7161,7 @@
           {
             "message": {
               "en_US": "\\v[lore.title.seeker], come in.\\. Bergen Guard speaking, can you hear us?",
-              "pt_BR": "\\v[lore.title.seeker], venha.\\. Guarda de Bergen falando, você pode nos ouvir?",
+              "pt_BR": "\\v[lore.title.seeker], entre.\\. Guarda de Bergen falando, você pode nos ouvir?",
               "de_DE": "Seeker!\\. Hier spricht die Bergen-Wache, kannst du uns h\u00f6ren?",
               "zh_CN": "\\v[lore.title.seeker]\uff0c\u8bf7\u56de\u8bdd\u3002\\.\u8fd9\u91cc\u662f\u4ffe\u5c14\u6839\u5b88\u536b\uff0c\u80fd\u542c\u89c1\u5417\uff1f<<A<<[CHANGED 2020/06/17]",
               "ja_JP": "\\v[lore.title.seeker]\u3001\n\\.\u3053\u3061\u3089\u30d9\u30eb\u30b2\u30f3\u8b66\u5099\u968a\u3001\u805e\u3053\u3048\u308b\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -7208,7 +7209,7 @@
           {
             "message": {
               "en_US": "[nods]",
-              "pt_BR": "[acena com a cabeça]",
+              "pt_BR": "[acena a cabeça]",
               "de_DE": "[nickt]",
               "fr_FR": "fr_FR",
               "langUid": 46,
@@ -7224,7 +7225,7 @@
           {
             "message": {
               "en_US": "Good!\\. Our guards have observed movement coming from the Horncave.\\. Did you find anything?",
-              "pt_BR": "Bom!\\. Nossos guardas observaram movimento vindo da Horncave.\\ Você encontrou alguma coisa?",
+              "pt_BR": "Excelente!\\. Nossos guardas observaram movimento vindo da Horncave.\\. Você encontrou alguma coisa?",
               "de_DE": "Gut!\\. Unsere Wachen haben Bewegungen aus der Hornh\u00f6hle beobachtet.\\. Hast du etwas gefunden?",
               "zh_CN": "Good!\\. Our guards have observed movement coming from the Horncave.\\. Did you find anything?<<A<<[CHANGED 2020/06/17]",
               "ja_JP": "\u3088\u3057\uff01\\.\u8b66\u5099\u968a\u306f\u30e4\u30ae\u306e\u307b\u3089\u7a74\u304b\u3089\u59cb\u307e\u3063\u305f\n\u6d3b\u52d5\u306e\u52d5\u5411\u3092\u76e3\u8996\u3057\u3066\u3044\u308b\u3002\n\\.\u4f55\u304b\u308f\u304b\u3063\u305f\u304b\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -7242,7 +7243,7 @@
           {
             "message": {
               "en_US": "[nods]",
-              "pt_BR": "[acena com a cabeça]",
+              "pt_BR": "[acena a cabeça]",
               "de_DE": "[nickt]",
               "fr_FR": "fr_FR",
               "langUid": 12206,
@@ -7273,7 +7274,7 @@
           {
             "message": {
               "en_US": "Lea. Meet. Lea! How?",
-              "pt_BR": "Lea. Conheça. Lea! Como?",
+              "pt_BR": "Lea. Conhece. Lea! Como?",
               "de_DE": "Lea. Treffen. Lea! Wie?",
               "zh_CN": "\u8389\u4e9a\u3002\u89c1\u9762\u3002\u8389\u4e9a\uff01\u600e\u4e48\u529e\uff1f<<A<<[CHANGED 2020/06/17]",
               "zh_TW": "\u8389\u4e9e\u3002\u898b\u9762\u3002\u8389\u4e9e\uff01\u600e\u9ebc\u8fa6\uff1f<<A<<[CHANGED 2020/06/15]",
@@ -7288,7 +7289,7 @@
           {
             "message": {
               "en_US": "Goats AND Papaguns?\\. Working together in our cold mountains?\\. What is this madness?",
-              "pt_BR": "Cabras e Papaguns?\\. Trabalhando junto em nossas montanhas geladas?\\. Que loucura é essa?",
+              "pt_BR": "Cabras E Papaguns?\\. Trabalhando juntos em nossas montanhas frias?\\. Que loucura é essa?",
               "de_DE": "Ziegen UND Papaguns?\\. Arbeiten in unseren kalten Bergen zusammen?\\. Was ist das f\u00fcr ein Wahnsinn?",
               "zh_CN": "\u5c71\u7f8a\u548c\u9e66\u9e49\uff1f\\.\u5c45\u7136\u5728\u6211\u4eec\u8fd9\u91cc\u5408\u4f5c\u4e86\uff1f\\.\u771f\u662f\u89c1\u9b3c\u4e86\uff01<<A<<[CHANGED 2020/06/17]",
               "ja_JP": "\u30e4\u30ae\u3068\u30d1\u30d1\u30ac\u30f3\u3060\u3068\uff1f\n\\.\u3053\u3093\u306a\u5bd2\u3044\u5c71\u3067\u5354\u540c\u4f5c\u696d\uff1f\n\\.\u4e00\u4f53\u3069\u3046\u306a\u3063\u3066\u3044\u308b\u3093\u3060\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -7306,7 +7307,7 @@
           {
             "message": {
               "en_US": "There must be something bigger behind this.\\. We will need to start more investiga\\..\\..\\..\\. wait!",
-              "pt_BR": "Tem coisa grande por trás disso.\\. precisamos fazer mais investigações\\..\\..\\..\\. espere!",
+              "pt_BR": "Deve ter algo maior atrás disso.\\. Precisamos iniciar mais investigações\\..\\..\\..\\. espere!",
               "de_DE": "Da steckt vermutlich mehr dahinter.\\. Wir m\u00fcssen der Sache auf den Grund geh-\\..\\..\\..\\. Warte!",
               "zh_CN": "\u4ed6\u4eec\u4e00\u5b9a\u5728\u56fe\u8c0b\u4e0d\u8f68\u3002\\.\u6211\u4eec\u5f97\u5f00\u59cb\u8c03\\..\\..\\..\\.\u7b49\u7b49\uff01<<A<<[CHANGED 2020/07/08]",
               "zh_TW": "\u4ed6\u5011\u4e00\u5b9a\u5728\u5716\u8b00\u4e0d\u8ecc\u3002\\.\u6211\u5011\u5f97\u958b\u59cb\u8abf\\..\\..\\..\\.\u7b49\u7b49\uff01<<A<<[CHANGED 2020/07/09]",
@@ -7339,7 +7340,7 @@
           {
             "message": {
               "en_US": "\\v[lore.title.seeker], one of our Guards urgently needs reinforcements on the \\c[3]Windy Climb\\c[0]!",
-              "pt_BR": "\\v[lore.title.seeker],um de nossos guardas precisa de reforços urgente na \\c[3]Escalada rigorosa\\c[0]!",
+              "pt_BR": "\\v[lore.title.seeker], um dos Guardas precisa urgentemente de reforços em \\c[3]Windy Climb\\c[0]!",
               "de_DE": "Seeker, eine unserer Wachen ben\u00f6tigt dringend Verst\u00e4rkung am \\c[3]Windigen Aufstieg\\c[0]!",
               "zh_CN": "\\v[lore.title.seeker]\uff0c\u6211\u4eec\u5728\\c[3]\u8fce\u98ce\u9661\u5761\\c[0]\u7684\u4e00\u4f4d\u5b88\u536b\u9700\u8981\u7d27\u6025\u589e\u63f4\uff01<<A<<[CHANGED 2020/07/08]",
               "zh_TW": "\\v[lore.title.seeker]\uff0c\u6211\u5011\u5728\\c[3]\u8fce\u98a8\u9661\u5761\\c[0]\u7684\u4e00\u4f4d\u5143\u5b88\u885b\u9700\u8981\u7dca\u6025\u589e\u63f4\uff01<<A<<[CHANGED 2020/07/09]",
@@ -7357,7 +7358,7 @@
           {
             "message": {
               "en_US": "It seems like he ran into a group that tried to smuggle out a huge crate.\\. Please get there quickly!",
-              "pt_BR": "Parece que ele encontrou um grupo que tentou contrabandear uma caixa enorme..\\. Por favor chegue lá rápido",
+              "pt_BR": "Parece que se deparou com um grupo que tentou contrabandear um caixote enorme.\\. Por favor, chegue lá rapidamente!",
               "de_DE": "Er hat wohl eine Gruppe erwischt, die versucht hat, eine riesige Kiste herauszuschmuggeln.\\. Du musst sofort hin!<<A<<[CHANGED 2021/05/22]",
               "zh_CN": "\u4ed6\u597d\u50cf\u9047\u5230\u4e86\u4e00\u7fa4\u60f3\u8981\u8d70\u79c1\u4e00\u4e2a\u5927\u7bb1\u5b50\u7684\u53ef\u7591\u4eba\u5458\u3002\\.\u8bf7\u5c3d\u5feb\u8d76\u53bb\u90a3\u91cc\uff01<<A<<[CHANGED 2021/05/22]",
               "zh_TW": "\u4ed6\u597d\u50cf\u9047\u5230\u4e86\u4e00\u7fa4\u60f3\u8981\u8d70\u79c1\u4e00\u500b\u5927\u7bb1\u5b50\u7684\u53ef\u7591\u4eba\u54e1\u3002\\.\u8acb\u5118\u5feb\u8d95\u53bb\u90a3\u88e1\uff01<<A<<[CHANGED 2021/05/22]",
