@@ -1046,7 +1046,7 @@
                     {
                       "message": {
                         "en_US": "Go to Monk Hasouk to start the first trial.\\. You can find him under this very roof.",
-                        "pt_BR": "Fale com o Monge Hasouk para iniciar a primeira tentativa.\\. Você pode encontrá-lo sob este mesmo teto.",
+                        "pt_BR": "Fale com o Monge Hasouk para iniciar o primeiro teste.\\. Você pode encontrá-lo sob este mesmo teto.",
                         "de_DE": "Gehe zu M\u00f6nch Hasouk, um deine erste Pr\u00fcfung abzulegen.\\. Du findest ihn dort dr\u00fcben unter dem Dach.",
                         "fr_FR": "fr_FR",
                         "langUid": 280,
@@ -1552,6 +1552,7 @@
                 {
                   "message": {
                     "en_US": "Welcome back, \\v[lore.title.seeker]!\\. It is good to see you return to us.",
+                    "pt_BR": "Bem-vinda novamente, \\v[lore.title.seeker]!\\. É bom ver que você retornou.",
                     "de_DE": "Willkommen zur\u00fcck, Seeker!\\. Deine R\u00fcckkehr erfreut mich.",
                     "fr_FR": "fr_FR",
                     "langUid": 314,
@@ -1570,6 +1571,7 @@
                 {
                   "message": {
                     "en_US": "And I do feel a strong power within you.\\. As if you have woven a connection to the Ancients themselves.",
+                    "pt_BR": "E eu sinto um poder forte vindo de você.\\. Como se existisse uma conexão com os próprios anciãos.",
                     "de_DE": "... Ich sp\u00fcre eine starke Kraft in dir.\\. Als wenn du eine Verbindung mit den Ahnen selbst eingegangen w\u00e4rst.",
                     "fr_FR": "fr_FR",
                     "langUid": 405,
@@ -1588,6 +1590,7 @@
                 {
                   "message": {
                     "en_US": "Yes, with this power of Heat, you should be ready for the next step towards ascension.",
+                    "pt_BR": "Sim, com o poder do fogo, você está preparada para o próximo passo em direção á ascensão.",
                     "de_DE": "Ja, mit der Kraft der Hitze solltest du f\u00fcr den n\u00e4chsten Schritt auf dem Weg zur Aszension bereit sein.",
                     "fr_FR": "fr_FR",
                     "langUid": 406,
@@ -1606,6 +1609,7 @@
                 {
                   "message": {
                     "en_US": "...!?",
+                    "pt_BR": "...!?",
                     "de_DE": "...!?",
                     "fr_FR": "fr_FR",
                     "langUid": 407,
@@ -1621,6 +1625,7 @@
                 {
                   "message": {
                     "en_US": "Will you face your next trial?",
+                    "pt_BR": "Você vai encarar a sua próxima prova?",
                     "de_DE": "Wirst du dich deiner n\u00e4chsten Pr\u00fcfung stellen?",
                     "fr_FR": "fr_FR",
                     "langUid": 408,
@@ -1645,6 +1650,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 317,
@@ -1660,6 +1666,7 @@
                     {
                       "message": {
                         "en_US": "Yes, I thought as much.\\. This fire inside you is burning to confront the frost that rules these mountains.",
+                        "pt_BR": "Sim, eu esperava essa resposta.\\. O fogo que reside dentro de você queima para enfrentar o gelo que reina nestas montanhas.",
                         "de_DE": "Ja, das dachte ich mir.\\. Das Feuer in dir brennt darauf, der K\u00e4lte dieser Berge zu trotzen, die sie mit eisigem Griff umklammert.",
                         "fr_FR": "fr_FR",
                         "langUid": 395,
@@ -1678,6 +1685,7 @@
                     {
                       "message": {
                         "en_US": "...!",
+                        "pt_BR": "...!",
                         "de_DE": "...!",
                         "fr_FR": "fr_FR",
                         "langUid": 409,
@@ -1696,6 +1704,7 @@
                     {
                       "message": {
                         "en_US": "Go to the entrance to the Mine.\\. There you will find Monk Aisy who will introduce you to the next trial.",
+                        "pt_BR": "Vá para a entrada da Mina.\\. Ali você irá encontrar a Monja Aisy, que vai te guiar até a próxima prova.",
                         "de_DE": "Gehe zum Eingang der Mine.\\. Dort findest du M\u00f6nch Aisy, der dich in deine n\u00e4chste Pr\u00fcfung einweisen wird.",
                         "fr_FR": "fr_FR",
                         "langUid": 396,
@@ -1714,6 +1723,7 @@
                     {
                       "message": {
                         "en_US": "But know that her meditation on the ice tends to be very strong.\\. You will have to make yourself noticed.",
+                        "pt_BR": "Mas saiba que a meditação dela no gelo tende a ser muito forte.\\. Você terá que fazer algo para chamar a atenção.",
                         "de_DE": "Aber wisse, seine Meditation auf dem Eis kann sehr tief sein.\\. Du wirst dich bemerkbar machen m\u00fcssen.",
                         "fr_FR": "fr_FR",
                         "langUid": 397,
@@ -1732,6 +1742,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 324,
@@ -1747,6 +1758,7 @@
                     {
                       "message": {
                         "en_US": "Bye.",
+                        "pt_BR": "Tchau.",
                         "de_DE": "Bye.",
                         "fr_FR": "fr_FR",
                         "langUid": 394,
@@ -1767,6 +1779,7 @@
                     {
                       "message": {
                         "en_US": "[shakes head]",
+                        "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                         "de_DE": "[sch\u00fcttelt Kopf]",
                         "fr_FR": "fr_FR",
                         "langUid": 303,
@@ -1782,6 +1795,7 @@
                     {
                       "message": {
                         "en_US": "Yes, I thought as much.\\. You should spend more time with our cold lands until you feel ready.",
+                        "pt_BR": "Sim, pensei o mesmo\\. Você deve passar mais tempo nas nossas terras geladas até se sentir preparada.",
                         "de_DE": "Ja, das dachte ich mir.\\. Du solltest mehr Zeit in unserem kalten Land verbringen, bis du dich bereit f\u00fchlst.",
                         "fr_FR": "fr_FR",
                         "langUid": 410,
@@ -1800,6 +1814,7 @@
                     {
                       "message": {
                         "en_US": ".\\..\\..",
+                        "pt_BR": ".\\..\\..",
                         "de_DE": ".\\..\\..",
                         "fr_FR": "fr_FR",
                         "langUid": 305,
@@ -1843,6 +1858,7 @@
               {
                 "name": {
                   "en_US": "Nemuh",
+                  "pt_BR": "Nemuh",
                   "langUid": 432,
                   "zh_CN": "\u5c3c\u59c6",
                   "de_DE": "Nemuh",
@@ -1870,6 +1886,7 @@
               {
                 "message": {
                   "en_US": "Talk to Monk Aisy to start the trial.\\. They can be found at the entrance to the Mine.",
+                  "pt_BR": "Fale com a Monja Aisy para iniciar a prova.\\. Ela pode ser econtrada na entrada da Mina.",
                   "de_DE": "Sprich mit M\u00f6nch Aisy, um die Pr\u00fcfung abzulegen.\\. Du findest ihn am Eingang der Mine.",
                   "fr_FR": "fr_FR",
                   "langUid": 411,
@@ -1888,6 +1905,7 @@
               {
                 "message": {
                   "en_US": "Their meditation on the ice tends to be very strong, though.\\. Making yourself noticed will be the first test.",
+                  "pt_BR": "A meditação dela no gelo tende a ser muito forte, no entanto.\\. Fazer algo para chamar a atenção deve ser o primeiro teste.",
                   "de_DE": "Seine Meditation auf dem Eis kann sehr tief sein.\\. Dich bemerkbar zu machen, wird der erste Test sein.",
                   "fr_FR": "fr_FR",
                   "langUid": 412,
@@ -1917,6 +1935,7 @@
                 {
                   "name": {
                     "en_US": "Nemuh",
+                    "pt_BR": "Nemuh",
                     "langUid": 433,
                     "zh_CN": "\u5c3c\u59c6",
                     "de_DE": "Nemuh",
@@ -1944,6 +1963,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "fr_FR": "fr_FR",
                     "langUid": 425,
@@ -1959,6 +1979,7 @@
                 {
                   "message": {
                     "en_US": "Welcome back. I already knew you were returning, \\v[lore.title.seeker].",
+                    "pt_BR": "Bem-vinda novamente. Eu sabia que você estava retornando, \\v[lore.title.seeker].",
                     "de_DE": "Willkommen zur\u00fcck. Ich wusste, du w\u00fcrdest wiederkehren, Seeker.",
                     "fr_FR": "fr_FR",
                     "langUid": 413,
@@ -1977,6 +1998,7 @@
                 {
                   "message": {
                     "en_US": "...?",
+                    "pt_BR": "...?",
                     "de_DE": "...?",
                     "fr_FR": "fr_FR",
                     "langUid": 414,
@@ -1995,6 +2017,7 @@
                 {
                   "message": {
                     "en_US": "Indeed, your soul's heat could already be felt as you approached our gates.",
+                    "pt_BR": "Claro, o calor da sua alma foi notado assim que você se aproximou dos portões.",
                     "de_DE": "Ich konnte die Hitze deiner Seele bereits sp\u00fcren, als du noch vor unseren Toren standest.",
                     "fr_FR": "fr_FR",
                     "langUid": 415,
@@ -2013,6 +2036,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "langUid": 416,
@@ -2028,6 +2052,7 @@
                 {
                   "message": {
                     "en_US": "With this you have reached another step towards true harmony with the Track.",
+                    "pt_BR": "Com isto, você chegou a mais um passo em direção a uma verdadeira harmonia com a Trilha.",
                     "de_DE": "Damit hast du die n\u00e4chste Stufe auf dem Weg zur wahren Harmonie mit dem Pfad erreicht.",
                     "fr_FR": "fr_FR",
                     "langUid": 417,
@@ -2046,6 +2071,7 @@
                 {
                   "message": {
                     "en_US": "Return to us as your connection to the elements expands and we will help you reach enlightenment.",
+                    "pt_BR": "Retorne a medida que a sua ligação com os elementos se expandir e nós iremos ajudá-la a alcançar o entendimento.",
                     "de_DE": "Komm zur\u00fcck, wenn sich deine Verbindung zu den Elementen verst\u00e4rkt hat und wir werden dir helfen, Erleuchtung zu erlangen.",
                     "fr_FR": "fr_FR",
                     "langUid": 419,
@@ -2064,6 +2090,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 418,
@@ -2079,6 +2106,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "fr_FR": "fr_FR",
                     "langUid": 424,
@@ -2125,6 +2153,7 @@
                 {
                   "name": {
                     "en_US": "Nemuh",
+                    "pt_BR": "Nemuh",
                     "langUid": 470,
                     "zh_CN": "\u5c3c\u59c6<<A<<[CHANGED 2020/06/17]",
                     "de_DE": "Nemuh",
@@ -2152,6 +2181,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "fr_FR": "fr_FR",
                     "langUid": 471,
@@ -2167,6 +2197,7 @@
                 {
                   "message": {
                     "en_US": "\\v[lore.title.seeker], your return has been long awaited.\\. The weight of your experiences lays heavy on your aura.",
+                    "pt_BR": "\\v[lore.title.seeker], seu retorno foi aguardado por muito tempo.\\. O peso das suas experiências pesam na sua aura.",
                     "de_DE": "Seeker, deine R\u00fcckkehr wurde lange ersehnt.\\. Das Gewicht deiner Erfahrung liegt schwer auf deiner Aura.",
                     "zh_CN": "\u6b22\u8fce\u56de\u6765\uff0c\u6211\u5df2\u7ecf\u77e5\u9053\u4f60\u8981\u56de\u6765\u4e86\uff0c\\v[lore.title.seeker]\u3002\\.\u4f60\u8eab\u4e0a\u6563\u53d1\u7740\u6c89\u7740\u4e0e\u8001\u7ec3\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u623b\u3063\u305f\u306a\u3001\\v[lore.title.seeker]\u3088\u3002\n\\.\u541b\u304c\u7d4c\u9a13\u3057\u3066\u304d\u305f\u3053\u3068\u306f\u3001\u541b\u306e\n\u30aa\u30fc\u30e9\u304b\u3089\u3057\u3063\u304b\u308a\u3068\u6ef2\u307f\u51fa\u3066\u3044\u3088\u3046\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2184,6 +2215,7 @@
                 {
                   "message": {
                     "en_US": "Lea...",
+                    "pt_BR": "Lea...",
                     "de_DE": "Lea...",
                     "zh_CN": "\u8389\u4e9a...<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u30ec\u30a2\u2026<<A<<[CHANGED 2020/06/17]",
@@ -2198,6 +2230,7 @@
                 {
                   "message": {
                     "en_US": "Indeed.\\. You have achieved mastery of all the elements passed down by the Ancients.",
+                    "pt_BR": "Certamente.\\. Você consegiu o domíno de todos os elementos transmitidos pelos Antigos.",
                     "de_DE": "F\u00fcrwahr.\\. Du hast alle von den Ahnen \u00fcberlieferten Elemente gemeistert.",
                     "zh_CN": "\u6ca1\u9519\u3002\\.\u4f60\u5df2\u7ecf\u638c\u63e1\u4e86\u5148\u7956\u4f20\u4e0b\u7684\u6240\u6709\u5143\u7d20\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u307e\u3055\u306b\u3002\\.\u53e4\u4ee3\u4eba\u3088\u308a\u4f1d\u3048\u3089\u308c\u305f\n\u3059\u3079\u3066\u306e\u6280\u3092\u3001\u541b\u306f\u305d\u306e\u8eab\u306b\n\u4f1a\u5f97\u3057\u305f\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2215,6 +2248,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "zh_CN": "...!<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "...<<A<<[CHANGED 2020/06/17]",
@@ -2232,6 +2266,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 473,
@@ -2247,6 +2282,7 @@
                 {
                   "message": {
                     "en_US": "With this you are ready to face the last step on your way to enlightenment.\\. Do you feel prepared?",
+                    "pt_BR": "Com isso você está pronta para enfrentar o último estágio da sua jornada rumo ao entendimento.\\. Você está preparada?",
                     "de_DE": "Damit bist du bereit f\u00fcr den letzten Schritt auf deinem Weg zur Erleuchtung.\\. F\u00fchlst du dich vorbereitet?",
                     "zh_CN": "\u4f60\u5df2\u7ecf\u53ef\u4ee5\u6311\u6218\u542f\u8fea\u7684\u6700\u540e\u4e00\u6b65\u4e86\u3002\\.\u4f60\u51c6\u5907\u597d\u4e86\u5417\uff1f<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3053\u308c\u3067\u541b\u306f\u3001\u609f\u308a\u3078\u306e\u6700\u5f8c\u306e\u6249\u3078\n\u5411\u304b\u3046\u6e96\u5099\u304c\u6574\u3063\u305f\u3002\n\\.\u6e96\u5099\u306f\u3088\u3044\u304b\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -2270,6 +2306,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 499,
@@ -2285,6 +2322,7 @@
                     {
                       "message": {
                         "en_US": "An answer as was predestined.\\. You are eager to grasp the light of wisdom.",
+                        "pt_BR": "Uma resposta como foi predestinada.\\. Você anseia alcançar a luz da sabedoria.",
                         "de_DE": "Eine Antwort, wie sie vorherbestimmt war.\\. Du bist bestrebt, das Licht der Weisheit zu erfassen.",
                         "zh_CN": "\u9884\u6599\u4e4b\u5185\u7684\u56de\u7b54\u3002\\.\u4f60\u6e34\u671b\u89e6\u78b0\u667a\u6167\u4e4b\u5149\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u7b54\u3048\u306f\u3059\u3067\u306b\u6c7a\u307e\u3063\u3066\u3044\u3088\u3046\u3002\n\\.\u541b\u306f\u82f1\u77e5\u306e\u5149\u3092\u63b4\u3080\u3053\u3068\u3092\n\u9858\u3063\u3066\u3044\u308b\u3068\u307f\u305f\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2302,6 +2340,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "zh_CN": "\u2026\uff01<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "...<<A<<[CHANGED 2020/06/17]",
@@ -2319,6 +2358,7 @@
                     {
                       "message": {
                         "en_US": "Once again you shall speak with one of my fellow children of the Track.",
+                        "pt_BR": "Novamente você deve falar com um dos meus companheiros na Trilha.",
                         "de_DE": "So sprich noch einmal mit einem von uns Kindern des Pfades.",
                         "zh_CN": "\u4f60\u5c06\u518d\u6b21\u627e\u5230\u4e00\u4f4d\u50e7\u4fa3\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u3082\u3046\u4e00\u5ea6\u3001\u541b\u306f\u6211\u3089\u306e\u8ecc\u8de1\u306e\u5b50\u3068\n\u8a00\u8449\u3092\u4ea4\u308f\u3059\u3053\u3068\u306b\u306a\u308b\u3060\u308d\u3046\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2336,6 +2376,7 @@
                     {
                       "message": {
                         "en_US": "The one you seek is named \\c[3]Cratos\\c[0] and he is meditating not far from here.",
+                        "pt_BR": "Aquele que você procura é chamado de \\c[3]Cratos\\c[0] e ele está meditando não muito longe daqui.",
                         "de_DE": "Jenes, das du suchst, hei\u00dft \\c[3]Cratos\\c[0] und meditiert nicht weit von hier.",
                         "zh_CN": "\u4ed6\u53eb\u505a\\c[3]\u594e\u6258\u65af\\c[0]\uff0c\u5c31\u5728\u79bb\u8fd9\u4e0d\u8fdc\u5904\u51a5\u60f3\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u541b\u306e\u6c42\u3081\u308b\u5b50\u306e\u540d\u306f\\c[3]\u30af\u30e9\u30c8\u30b9\\c[0]\u3002\n\u3053\u3053\u304b\u3089\u305d\u3046\u9060\u304f\u306a\u3044\u5834\u6240\u3067\u7791\u60f3\u3057\u3066\u3044\u308b\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2353,6 +2394,7 @@
                     {
                       "message": {
                         "en_US": "In fact, he is right over there.",
+                        "pt_BR": "Na verdade, ele está bem aqui.",
                         "de_DE": "Genau genommen befindet es sich dort dr\u00fcben.",
                         "zh_CN": "\u5c31\u5728\u90a3\u513f\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u305d\u3046\u3001\u3059\u3050\u305d\u3053\u306b\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2417,6 +2459,7 @@
                     {
                       "name": {
                         "en_US": "Nemuh",
+                        "pt_BR": "Nemuh",
                         "langUid": 504,
                         "zh_CN": "\u5c3c\u59c6<<A<<[CHANGED 2020/06/17]",
                         "de_DE": "Nemuh",
@@ -2447,6 +2490,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "zh_CN": "...<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "...<<A<<[CHANGED 2020/06/17]",
@@ -2461,6 +2505,7 @@
                     {
                       "message": {
                         "en_US": "Talk to him to meet your destiny.",
+                        "pt_BR": "Fale com ele para conhecer o seu destino.",
                         "de_DE": "Sprich mit M\u00f6nch Cratos, um deine Bestimmung zu erf\u00fcllen.",
                         "zh_CN": "\u548c\u4ed6\u8c08\u8c08\uff0c\u8d70\u4e0a\u547d\u8fd0\u4e4b\u8def\u5427\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u30af\u30e9\u30c8\u30b9\u306b\u4f1a\u3044\u3001\r\n\u81ea\u8eab\u306e\u904b\u547d\u3068\u5bfe\u5cd9\u3059\u308b\u3068\u3044\u3044\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2478,6 +2523,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 475,
@@ -2535,6 +2581,7 @@
                     {
                       "name": {
                         "en_US": "Nemuh",
+                        "pt_BR": "Nemuh",
                         "langUid": 506,
                         "zh_CN": "\u5c3c\u59c6<<A<<[CHANGED 2020/06/17]",
                         "de_DE": "Nemuh",
@@ -2565,6 +2612,7 @@
                     {
                       "message": {
                         "en_US": "May the Track favor you.",
+                        "pt_BR": "Que a Trilha lhe favoreça.",
                         "de_DE": "M\u00f6ge der Pfad dir gewogen sein.",
                         "zh_CN": "\u8fdc\u5148\u7956\u4e4b\u8def\u9752\u7750\u4f60\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u8ecc\u8de1\u304c\u541b\u306e\u5473\u65b9\u3067\u3042\u3063\u3066\u304f\u308c\u3093\u3053\u3068\u3092\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2582,6 +2630,7 @@
                     {
                       "message": {
                         "en_US": "Bye.",
+                        "pt_BR": "Tchau.",
                         "de_DE": "Bye.",
                         "fr_FR": "fr_FR",
                         "langUid": 476,
@@ -2602,6 +2651,7 @@
                     {
                       "message": {
                         "en_US": "[shakes head]",
+                        "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                         "de_DE": "[sch\u00fcttelt Kopf]",
                         "fr_FR": "fr_FR",
                         "langUid": 477,
@@ -2617,6 +2667,7 @@
                     {
                       "message": {
                         "en_US": "An answer as was predestined.\\. You are wanting to try your patience before grasping your destiny.\\. Maybe it is wisdom.",
+                        "pt_BR": "Uma resposta como foi predestinada. Você quer testar a sua paciência antes de alcançar o seu destino.\\. Talvez isso seja escolha sábia.",
                         "de_DE": "Eine Antwort, wie sie vorherbestimmt war.\\. Du m\u00f6chtest dich in Geduld fassen, bevor du deine Bestimmung erf\u00fcllst.\\. M\u00f6glicherweise ein weiser Entschluss.",
                         "zh_CN": "\u9884\u6599\u4e4b\u5185\u7684\u56de\u7b54\u3002\\.\u4f60\u60f3\u8981\u5728\u638c\u63e1\u547d\u8fd0\u524d\u953b\u70bc\u8010\u5fc3\u3002\\.\u4e5f\u8bb8\u8fd9\u662f\u660e\u667a\u4e4b\u4e3e\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u7b54\u3048\u306f\u3059\u3067\u306b\u6c7a\u307e\u3063\u3066\u3044\u308b\u3060\u308d\u3046\u3002\n\\.\u305d\u306a\u305f\u306f\u904b\u547d\u3092\u3064\u304b\u307f\u53d6\u308b\u524d\u306b\u3001\n\u5df1\u306e\u5fcd\u8010\u3092\u8a66\u3057\u305f\u3044\u3068\u898b\u3048\u308b\u3002\n\\.\u304a\u305d\u3089\u304f\u82f1\u77e5\u306a\u306e\u3060\u308d\u3046\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2634,6 +2685,7 @@
                     {
                       "message": {
                         "en_US": ".\\..\\..",
+                        "pt_BR": ".\\..\\..",
                         "de_DE": ".\\..\\..",
                         "zh_CN": ".\\..\\..<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": ".\\..\\..<<A<<[CHANGED 2020/06/17]",
@@ -2676,6 +2728,7 @@
               {
                 "name": {
                   "en_US": "Nemuh",
+                  "pt_BR": "Nemuh",
                   "langUid": 479,
                   "zh_CN": "\u5c3c\u59c6<<A<<[CHANGED 2020/06/17]",
                   "de_DE": "Nemuh",
@@ -2703,6 +2756,7 @@
               {
                 "message": {
                   "en_US": "Talk to Monk Cratos to start the last trial.\\. They meditating in our storage chamber, on the other side of this very room.",
+                  "pt_BR": "Fale com o Monge Cratos para iniciar a última prova.\\. Ele está meditando na nossa câmara de armazenamento, do outro lado desta mesma sala.",
                   "de_DE": "Sprich mit M\u00f6nch Cratos, um die letzte Pr\u00fcfung abzulegen.\\. Er meditiert in unserem Lagerraum auf der anderen Seite des Raumes.",
                   "zh_CN": "\u5982\u8981\u5f00\u59cb\u8fd9\u6b21\u8bd5\u70bc\uff0c\u8bf7\u548c\u50e7\u4fa3\u594e\u6258\u65af\u5e0c\u4ea4\u6d41\u3002\\.\u4ed6\u5c31\u5728\u8fd9\u95f4\u623f\u5bf9\u9762\u7684\u4ed3\u5e93\u91cc\u51a5\u60f3\u3002<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u4fee\u884c\u50e7\u30af\u30e9\u30c8\u30b9\u306b\u4f1a\u3044\u3001\n\u6700\u5f8c\u306e\u8a66\u7df4\u306b\u304b\u304b\u308a\u306a\u3055\u3044\u3002\n\\.\u8caf\u8535\u306e\u5c0f\u90e8\u5c4b\u3067\u7791\u60f3\u3057\u3066\u3044\u308b\u3060\u308d\u3046\u3002\n\u3053\u306e\u90e8\u5c4b\u306e\u3061\u3087\u3046\u3069\u53cd\u5bfe\u5074\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2731,6 +2785,7 @@
                 {
                   "name": {
                     "en_US": "Nemuh",
+                    "pt_BR": "Nemuh",
                     "langUid": 482,
                     "zh_CN": "\u5c3c\u59c6<<A<<[CHANGED 2020/06/17]",
                     "de_DE": "Nemuh",
@@ -2758,6 +2813,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "fr_FR": "fr_FR",
                     "langUid": 483,
@@ -2773,6 +2829,7 @@
                 {
                   "message": {
                     "en_US": "\\v[lore.title.seeker], your return has already been expected.\\. I could sense your success in that cave even from here.",
+                    "pt_BR": "\\v[lore.title.seeker], seu retorno era aguardado.\\. Eu pude sentir o vosso sucesso naquela caverna mesmo estando aqui.",
                     "de_DE": "Seeker, deine R\u00fcckkehr wurde bereits erwartet.\\. Ich konnte deinen Erfolg in der H\u00f6hle sogar von hier aus sp\u00fcren.",
                     "zh_CN": "\u6b22\u8fce\u56de\u6765\uff0c\u6211\u5df2\u7ecf\u77e5\u9053\u4f60\u8981\u56de\u6765\u4e86\uff0c\\v[lore.title.seeker]\u3002\\.\u6211\u80fd\u611f\u53d7\u5230\u4f60\u7684\u6210\u529f\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\\v[lore.title.seeker]\u3001\u623b\u308b\u3053\u3068\u306f\u308f\u304b\u3063\u3066\u3044\u305f\u3002\n\\.\u3053\u3053\u306b\u5c45\u3066\u3082\u3001\n\u541b\u306e\u6d1e\u7a9f\u3067\u306e\u6210\u529f\u306f\u4f1d\u308f\u3063\u3066\u304d\u305f\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2790,6 +2847,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "zh_CN": "...<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "...<<A<<[CHANGED 2020/06/17]",
@@ -2804,6 +2862,7 @@
                 {
                   "message": {
                     "en_US": "Now, as you have mastered all of our challenges, you are truly a \\v[lore.title.seeker] that has become one with the Track.",
+                    "pt_BR": "Agora com você superou todos os nossos desafios, você provou ser verdadeiramente uma \\v[lore.title.seeker] que se tornou uma só com a Trilha.",
                     "de_DE": "Nun, da du all unsere Herausforderungen gemeistert hast, bist du ein wahrer Seeker, der eins mit dem Pfad geworden ist.",
                     "zh_CN": "\u73b0\u5728\u4f60\u901a\u8fc7\u4e86\u6211\u4eec\u7684\u6240\u6709\u6311\u6218\uff0c\u4f60\u5df2\u7ecf\u6210\u4e3a\u4e86\u4e00\u4f4d\u4e0e\u5148\u7956\u4e4b\u8def\u4e00\u4f53\u7684\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u541b\u306f\u6211\u3089\u306e\u8a66\u7df4\u3092\u3059\u3079\u3066\u624b\u4e2d\u306b\u53ce\u3081\u3001\n\u4eca\u3001\u771f\u306b\u8ecc\u8de1\u306e\\v[lore.title.seeker]\u3068\n\u306a\u3063\u305f\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2821,6 +2880,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "zh_CN": "\u2026\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u2026\uff01<<A<<[CHANGED 2020/06/17]",
@@ -2835,6 +2895,7 @@
                 {
                   "message": {
                     "en_US": "With this enlightened sense of purpose, you shall go on to uncover all of its secrets, as it is the purpose of your kind.",
+                    "pt_BR": "Com este iluminado senso de propósito, você deve prosseguir em desvendar todos os seus segredos, pois é o destino de sua espécie.",
                     "de_DE": "Mit diesem erleuchteten Zielbewusstsein wirst du alle seine Geheimnisse l\u00fcften, wie es die Bestimmung deiner Art ist.",
                     "zh_CN": "\u660e\u6670\u4e86\u609f\u4e4b\u540e\uff0c\u4f60\u5c06\u63ed\u5f00\u5148\u7956\u4e4b\u8def\u7684\u6240\u6709\u79d8\u5bc6\uff0c\u8fd9\u4e5f\u662f\u4f60\u4eec\u7684\u76ee\u7684\u6240\u5728\u3002<<A<<[CHANGED 2020/07/08]",
                     "ja_JP": "\u3053\u306e\u609f\u308a\u3092\u4f1a\u5f97\u3057\u305f\u4eca\u3001\n\u541b\u306e\u76ee\u7684\u304c\u826f\u304d\u3082\u306e\u3067\u3042\u308c\u3070\u3001\n\u541b\u306f\u3059\u3079\u3066\u306e\u79d8\u5bc6\u3092\n\u660e\u3089\u304b\u306b\u3059\u308b\u3067\u3042\u308d\u3046\u3002<<A<<[CHANGED 2020/07/08]",
@@ -2852,6 +2913,7 @@
                 {
                   "message": {
                     "en_US": "Farewell, wise \\v[lore.title.seeker].\\. May you shine your light into every corner of this world.",
+                    "pt_BR": "Adeus, sábia \\v[lore.title.seeker].\\. Que a sua luz brilhe em todos os cantos desse mundo.",
                     "de_DE": "Gehab dich wohl, weiser Seeker.\\. M\u00f6ge dein Licht jeden Winkel dieser Welt erhellen.",
                     "zh_CN": "\u518d\u89c1\u4e86\uff0c\\v[lore.title.seeker]\u3002\u613f\u4f60\u7684\u5149\u8292\u7167\u4eae\u8fd9\u4e16\u4e0a\u7684\u6bcf\u4e2a\u89d2\u843d\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3055\u3089\u3070\u3060\u3001\u8ce2\u4eba\\v[lore.title.seeker]\u3088\u3002\n\\.\u541b\u306f\u305d\u306e\u5149\u3092\u6301\u3063\u3066\u3001\n\u4e16\u754c\u306e\u9685\u3005\u307e\u3067\u7167\u3089\u3059\u3053\u3068\u304c\u3067\u304d\u308b\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2869,6 +2931,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 490,
@@ -2884,6 +2947,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "fr_FR": "fr_FR",
                     "langUid": 491,
@@ -2929,6 +2993,7 @@
               {
                 "name": {
                   "en_US": "Nemuh",
+                  "pt_BR": "Nemuh",
                   "langUid": 492,
                   "zh_CN": "\u5c3c\u59c6<<A<<[CHANGED 2020/06/17]",
                   "de_DE": "Nemuh",
@@ -2956,6 +3021,7 @@
               {
                 "message": {
                   "en_US": "The Track is quiet at this moment, leaving us time to meditate on its purpose.\\. Why not join us?",
+                  "pt_BR": "A Trilha está tranquila neste momento, deixando-nos tempo para meditar sobre o seu propósito.\\. Porque não juntar-se a nós?",
                   "de_DE": "Der Pfad ist ruhig im Moment, was uns Zeit gibt, \u00fcber seinen Sinn zu meditieren.\\. Magst du dich anschlie\u00dfen?",
                   "fr_FR": "fr_FR",
                   "langUid": 399,
@@ -2974,6 +3040,7 @@
               {
                 "message": {
                   "en_US": "...bye.",
+                  "pt_BR": "...tchau.",
                   "de_DE": "... Bye.",
                   "fr_FR": "fr_FR",
                   "langUid": 400,
@@ -3423,6 +3490,7 @@
         "analyzable": {
           "text": {
             "en_US": "Cratos",
+            "pt_BR": "Cratos",
             "de_DE": "Cratos",
             "fr_FR": "fr_FR",
             "langUid": 295,
@@ -3446,6 +3514,7 @@
               {
                 "name": {
                   "en_US": "Cratos",
+                  "pt_BR": "Cratos",
                   "langUid": 435,
                   "zh_CN": "\u514b\u62c9\u6258\u65af",
                   "de_DE": "Cratos",
@@ -3473,6 +3542,7 @@
               {
                 "message": {
                   "en_US": "...",
+                  "pt_BR": "...",
                   "de_DE": "...",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\u2026",
@@ -3519,6 +3589,7 @@
                 {
                   "name": {
                     "en_US": "Cratos",
+                    "pt_BR": "Cratos",
                     "de_DE": "Cratos",
                     "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -3545,6 +3616,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "fr_FR": "fr_FR",
                     "langUid": 330,
@@ -3577,6 +3649,7 @@
                 {
                   "message": {
                     "en_US": "A \\v[lore.title.seeker].\\. Sent by the wise leader?",
+                    "pt_BR": "Uma \\v[lore.title.seeker].\\. Enviada pelo líder sábio?",
                     "de_DE": "Ein Seeker.\\. Geschickt von unserem Oberhaupt?",
                     "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u662f\u6211\u4eec\u667a\u6167\u7684\u9886\u8896\u8ba9\u4f60\u6765\u7684\uff1f<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\\v[lore.title.seeker]\u3002\n\\.\u8ce2\u304d\u6307\u5c0e\u8005\u304c\u541b\u3092\u5bc4\u3053\u3057\u305f\u306e\u3060\u306a\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -3594,6 +3667,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 319,
@@ -3609,6 +3683,7 @@
                 {
                   "message": {
                     "en_US": "It has been a long time since one of your kind came to seek my trial.",
+                    "pt_BR": "Há muito tempo que um da vossa espécie não veio em busca da minha prova.",
                     "de_DE": "Es ist lange her, dass ein Seeker mich beehrt hat, ihn zu pr\u00fcfen.",
                     "zh_CN": "\u4f60\u4eec\u4e00\u65cf\u5df2\u7ecf\u5f88\u4e45\u6ca1\u6709\u4eba\u6765\u63a5\u53d7\u6211\u7684\u8bd5\u70bc\u4e86\u3002<<A<<[CHANGED 2020/07/08]",
                     "ja_JP": "\u305d\u306e\u6614\u3001\u541b\u3068\u540c\u3058\u7a2e\u306e\u8005\u304c\n\u8a66\u7df4\u3092\u63a2\u3057\u6c42\u3081\u3066\u79c1\u306e\u5143\u3078\u6765\u305f\u3002<<A<<[CHANGED 2020/07/08]",
@@ -3626,6 +3701,7 @@
                 {
                   "message": {
                     "en_US": "The caves are steadfast in their adversity while humans grow ever more complacent.",
+                    "pt_BR": "As cavernas são inabaláveis em sua adversidade, enquanto os humanos se tornam cada vez mais complacentes.",
                     "de_DE": "In Zeiten der Not sind die H\u00f6hlen unersch\u00fctterlich, w\u00e4hrend die Menschen immer selbstgef\u00e4lliger werden.",
                     "zh_CN": "\u6d1e\u7a74\u6c38\u8fdc\u5145\u6ee1\u6311\u6218\uff0c\u800c\u4eba\u7c7b\u5374\u6108\u53d1\u9a84\u50b2\u81ea\u6ee1\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u4eba\u9593\u304c\u3069\u3093\u3069\u3093\u81ea\u5df1\u6e80\u8db3\u306b\u9665\u3063\u3066\u3082\u3001\n\u6d1e\u7a9f\u306f\u9006\u5883\u306e\u4e2d\u3067\u3082\n\u63fa\u308b\u3050\u3053\u3068\u306f\u306a\u304b\u3063\u305f\u3002<<A<<[CHANGED 2020/06/17]",
@@ -3643,6 +3719,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "zh_CN": "...<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "...<<A<<[CHANGED 2020/06/17]",
@@ -3660,6 +3737,7 @@
                 {
                   "message": {
                     "en_US": "You, \\v[lore.title.seeker], have come farther than most.\\. But the steepest challenge is still ahead of you.",
+                    "pt_BR": "Você, \\v[lore.title.seeker], foi mais longe do que a maioria.\\. Mas o desafio mais árduo ainda está à sua frente.",
                     "de_DE": "Du, Seeker, bist weiter gekommen als die meisten.\\. Doch die gr\u00f6\u00dfte Herausforderung liegt noch vor dir.",
                     "zh_CN": "\\v[lore.title.seeker]\uff0c\u4f60\u5df2\u7ecf\u8d70\u7684\u6bd4\u4efb\u4f55\u4eba\u90fd\u8981\u8fdc\u4e86\u3002\\.\u4f46\u771f\u6b63\u7684\u6311\u6218\u8fd8\u5728\u524d\u65b9\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\\v[lore.title.seeker]\u3001\u541b\u306f\u307b\u3068\u3093\u3069\n\u3059\u3079\u3066\u306e\u3082\u306e\u3092\u4e57\u308a\u8d8a\u3048\u3066\u304d\u305f\u3002\n\\.\u3057\u304b\u3057\u3082\u3063\u3068\u3082\u967a\u3057\u3044\u8a66\u7df4\u304c\n\u307e\u3060\u6b8b\u3063\u3066\u304a\u308b\u3002<<A<<[CHANGED 2020/06/17]",
@@ -3677,6 +3755,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "zh_CN": "...!<<A<<[CHANGED 2020/07/08]",
                     "zh_TW": "...!<<A<<[CHANGED 2020/07/09]",
@@ -3789,6 +3868,7 @@
                 {
                   "name": {
                     "en_US": "Cratos",
+                    "pt_BR": "Cratos",
                     "de_DE": "Cratos",
                     "zh_CN": "\u54c8\u7d22\u514b<<A<<[CHANGED 2021/05/04]",
                     "zh_TW": "\u54c8\u7d22\u514b<<A<<[CHANGED 2021/05/04]",
@@ -3815,6 +3895,7 @@
                 {
                   "message": {
                     "en_US": "Enter this teleporter to reach the start of your trial.",
+                    "pt_BR": "Entre neste teleportador para chegar ao ínicio da sua prova.",
                     "de_DE": "Betritt den Teleporter, um deine Pr\u00fcfung zu beginnen.",
                     "zh_CN": "\u8fdb\u5165\u8fd9\u4e2a\u4f20\u9001\u70b9\uff0c\u5f00\u59cb\u4f60\u7684\u8bd5\u70bc\u5427\u3002",
                     "ja_JP": "\u3053\u306e\u30c6\u30ec\u30dd\u30fc\u30bf\u30fc\u306b\u4e57\u308a\u3001\u8a66\u7df4\u3092\u59cb\u3081\u308b\u304c\u3044\u3044\u3002",
@@ -3832,6 +3913,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 493,
@@ -3850,6 +3932,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 325,
@@ -3917,6 +4000,7 @@
               {
                 "name": {
                   "en_US": "Cratos",
+                  "pt_BR": "Cratos",
                   "de_DE": "Cratos",
                   "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -3943,6 +4027,7 @@
               {
                 "message": {
                   "en_US": "Beat the trial by reaching the end the past of the last cave.",
+                  "pt_BR": "Supere a prova ao chegar ao fim do passado da última caverna.",
                   "de_DE": "Meistere die Pr\u00fcfung, indem du das Ende der letzten H\u00f6hle erreichst.",
                   "zh_CN": "\u62b5\u8fbe\u4e0a\u4e2a\u6d1e\u7a74\u7684\u7ec8\u70b9\u6765\u5b8c\u6210\u8bd5\u70bc\u5427\u3002<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u6700\u5f8c\u306e\u6d1e\u7a9f\u306e\u904e\u53bb\u3078\u3068\u9061\u308a\u3001\n\u305d\u306e\u7d42\u7740\u70b9\u3078\u5230\u9054\u3059\u308b\u3053\u3068\u3067\n\u8a66\u7df4\u3092\u6253\u3061\u7834\u308b\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -3960,6 +4045,7 @@
               {
                 "message": {
                   "en_US": "Swift and steady feet alone will not be enough.\\. The heat of passion and waves of spirit will lead you to ascension.",
+                  "pt_BR": "Pés rápidos e firmes por si só não serão suficientes.\\. O calor da paixão e as ondas do espírito vão levá-la à ascensão.",
                   "de_DE": "Ein flinker und fester Tritt allein wird nicht ausreichen.\\. Die Hitze der Leidenschaft und die Wellen des Geistes werden dich zur Aszension f\u00fchren.",
                   "zh_CN": "\u5149\u662f\u654f\u6377\u548c\u7a33\u5b9a\u8fd8\u4e0d\u8db3\u591f\u3002\\.\u8bb0\u4f4f\uff1a\u706b\u7130\u822c\u7684\u70ed\u60c5\u548c\u6ce2\u6d9b\u822c\u7684\u610f\u5fd7\u624d\u80fd\u8ba9\u4f60\u5347\u534e\u3002<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u4fca\u654f\u3067\u51b7\u9759\u306a\u8db3\u306e\u52d5\u304d\u3060\u3051\u3067\u306f\u7834\u308c\u306c\u305e\u3002\n\\.\u60c5\u71b1\u3068\u9b42\u306e\u63fa\u3089\u304e\u304c\u541b\u3092\u5c0e\u304f\u3053\u3068\u306b\u306a\u308d\u3046\u3002<<A<<[CHANGED 2020/06/17]",
@@ -3977,6 +4063,7 @@
               {
                 "message": {
                   "en_US": "[nods]",
+                  "pt_BR": "[acena com a cabeça]",
                   "de_DE": "[nickt]",
                   "fr_FR": "fr_FR",
                   "langUid": 328,
@@ -4037,6 +4124,7 @@
                 {
                   "name": {
                     "en_US": "Cratos",
+                    "pt_BR": "Cratos",
                     "de_DE": "Cratos",
                     "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -4063,6 +4151,7 @@
                 {
                   "message": {
                     "en_US": "Mhm, you are here again.",
+                    "pt_BR": "Mhm, você está aqui novamente.",
                     "de_DE": "Mhm, du bist wieder da.",
                     "zh_CN": "\u5662\uff0c\u4f60\u56de\u6765\u4e86\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u304a\u304a\u3001\u623b\u3063\u305f\u304b\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4080,6 +4169,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "fr_FR": "fr_FR",
                     "langUid": 508,
@@ -4095,6 +4185,7 @@
                 {
                   "message": {
                     "en_US": "Yes, it seems like you even carry the proof of your ascension with you, both in hand and spirit.",
+                    "pt_BR": "Sim, parece que você traz consigo a prova de sua ascensão tanto nas mãos como no espírito.",
                     "de_DE": "Ja, du tr\u00e4gst den Beweis f\u00fcr deine Aszension nicht nur in der Hand, sondern auch im Geiste.",
                     "zh_CN": "\u4f60\u7684\u8eab\u5fc3\u90fd\u643a\u5e26\u7740\u5347\u534e\u7684\u8bc1\u660e\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3088\u3057\u3001\u8d85\u8d8a\u306e\u8a3c\u3092\u6301\u3061\u5e30\u3063\u305f\u3088\u3046\u3060\u306a\u3002\n\u305d\u306e\u624b\u306b\u3001\u305d\u3057\u3066\u305d\u306e\u9b42\u306b\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4112,6 +4203,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 342,
@@ -4127,6 +4219,7 @@
                 {
                   "message": {
                     "en_US": "Good, very good.\\. You have fullfilled your destiny up until the very end.\n",
+                    "pt_BR": "Bom, muito bom.\\. Você cumpriu o seu destino até o fim.\n",
                     "de_DE": "Gut, sehr gut.\\. Damit hast du deine Bestimmung erf\u00fcllt.",
                     "zh_CN": "\u5f88\u597d\u3002\\.\u4f60\u5b8c\u6210\u4e86\u4f60\u7684\u547d\u8fd0\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3088\u3057\u3088\u3057\u3001\u3068\u3066\u3082\u3088\u3044\u305e\u3002\n\\.\u541b\u306f\u6700\u5f8c\u306e\u6700\u5f8c\u307e\u3067\n\u81ea\u3089\u306e\u904b\u547d\u3092\u5168\u3046\u3057\u305f\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4144,6 +4237,7 @@
                 {
                   "message": {
                     "en_US": "Now all that remains is to show yourself before the Wise once again.",
+                    "pt_BR": "Agora tudo o que resta é mostrar-se mais uma vez perante o Sábio",
                     "de_DE": "Suche nun ein letztes Mal den Weisen auf.",
                     "zh_CN": "\u73b0\u5728\u8bf7\u56de\u53bb\u627e\u6211\u4eec\u7684\u667a\u8005\u5427\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3055\u3066\u3001\u518d\u3073\u8ce2\u4eba\u306e\u5143\u3078\u623b\u308b\u524d\u306b\u3001\n\u6700\u5f8c\u306b\u81ea\u3089\u3092\u3055\u3089\u3051\u51fa\u3055\u306d\u3070\u306a\u3089\u3093\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4161,6 +4255,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "fr_FR": "fr_FR",
                     "langUid": 390,
@@ -4229,6 +4324,7 @@
               {
                 "name": {
                   "en_US": "Cratos",
+                  "pt_BR": "Cratos",
                   "de_DE": "Cratos",
                   "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -4255,6 +4351,7 @@
               {
                 "message": {
                   "en_US": "You should now return to the Wise to complete the ascension.",
+                  "pt_BR": "Você deve retornar agora ao Sábio para completar a ascensão.",
                   "de_DE": "Du solltest zum Weisen zur\u00fcckkehren, um die Aszension abzuschlie\u00dfen.",
                   "zh_CN": "\u4f60\u73b0\u5728\u5e94\u8be5\u56de\u5230\u667a\u8005\u90a3\u513f\u5b8c\u6210\u5f00\u609f\u3002<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u4eca\u3053\u305d\u518d\u3073\u8ce2\u4eba\u306e\u5143\u3078\u884c\u304d\u3001\n\u8d85\u8d8a\u3092\u6210\u3057\u9042\u3052\u308b\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4272,6 +4369,7 @@
               {
                 "message": {
                   "en_US": "[nods]",
+                  "pt_BR": "[acena com a cabeça]",
                   "de_DE": "[nickt]",
                   "fr_FR": "fr_FR",
                   "langUid": 344,
@@ -4332,6 +4430,7 @@
                 {
                   "name": {
                     "en_US": "Cratos",
+                    "pt_BR": "Cratos",
                     "de_DE": "Cratos",
                     "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -4358,6 +4457,7 @@
                 {
                   "message": {
                     "en_US": "Hi.",
+                    "pt_BR": "Oi.",
                     "de_DE": "Hi.",
                     "fr_FR": "fr_FR",
                     "langUid": 346,
@@ -4373,6 +4473,7 @@
                 {
                   "message": {
                     "en_US": "\\v[lore.title.seeker], you are truly enlightened.\\. But do you feel like this is the end?",
+                    "pt_BR": "\\v[lore.title.seeker] você está verdadeiramente iluminada.\\. Mas você sente que isto é o fim?",
                     "de_DE": "Seeker, du bist wahrlich erleuchtet.\\. Doch glaubst du, dies sei das Ende?",
                     "zh_CN": "\\v[lore.title.seeker]\uff0c\u4f60\u5df2\u7ecf\u8bc1\u660e\u4e86\u4f60\u7684\u4ef7\u503c\u3002\\.\u4f46\u662f\u6211\u89c9\u5f97\u4f60\u4ecd\u7136\u6709\u8fdb\u6b65\u7684\u7a7a\u95f4\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\\v[lore.title.seeker]\u3088\u3001\u541b\u306f\u771f\u306b\u609f\u308a\u3092\u958b\u3044\u305f\u3002\n\\.\u3057\u304b\u3057\u541b\u306f\u3053\u308c\u304c\u7d42\u308f\u308a\u3060\u3068\u601d\u3046\u304b\u306a\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -4390,6 +4491,7 @@
                 {
                   "message": {
                     "en_US": ".\\..\\..",
+                    "pt_BR": ".\\..\\..",
                     "de_DE": ".\\..\\..",
                     "zh_CN": ".\\..\\..<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": ".\\..\\..<<A<<[CHANGED 2020/06/17]",
@@ -4404,6 +4506,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 348,
@@ -4428,6 +4531,7 @@
                 {
                   "message": {
                     "en_US": "Wrong!\\.\\.\\.\\. Even a \\v[lore.title.seeker]'s light can dim if not rekindled with time!",
+                    "pt_BR": "Errado!\\.\\.\\.\\. Mesmo a luz de uma \\v[lore.title.seeker] pode escurecer se não reacender-se com o tempo!",
                     "de_DE": "Falsch!\\.\\.\\.\\. Selbst das Licht eines Seekers kann verdunkeln, wenn es mit der Zeit nicht wieder aufflammt!",
                     "zh_CN": "\u5373\u4f7f\u662f\\v[lore.title.seeker]\u7684\u5149\u8292\uff0c\u5982\u679c\u4e0d\u591a\u52a0\u78e8\u7ec3\uff0c\u4e5f\u4f1a\u9eef\u6de1\u4e0b\u53bb\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u305d\u3046\u3067\u306f\u306a\u3044\uff01\\.\\.\\.\\.\\v[lore.title.seeker]\u306e\n\u5149\u3067\u3055\u3048\u3001\u6642\u3068\u3068\u3082\u306b\u518d\u3073\u706b\u3092\u4ed8\u3051\u306d\u3070\u3001\n\u8584\u6697\u3044\u5149\u3092\u706f\u3059\u3053\u3068\u3057\u304b\u3067\u304d\u306c\uff01<<A<<[CHANGED 2020/06/17]",
@@ -4445,6 +4549,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "zh_CN": "...<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "...<<A<<[CHANGED 2020/06/17]",
@@ -4459,6 +4564,7 @@
                 {
                   "message": {
                     "en_US": "The caves of the trials have been a place to sharpen one's mind for generations.",
+                    "pt_BR": "As cavernas das provas têm sido um lugar para afiar a mente durante gerações.",
                     "de_DE": "Die H\u00f6hlen der Pr\u00fcfungen sind seit Generationen ein Ort, an dem man seinen Geist sch\u00e4rfen kann.",
                     "zh_CN": "\u591a\u5e74\u4ee5\u6765\uff0c\u8bd5\u70bc\u6d1e\u7a74\u4e00\u76f4\u662f\u953b\u70bc\u7cbe\u795e\u7684\u5730\u65b9\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u8a66\u7df4\u306e\u6d1e\u7a9f\u306f\u3001\u4e16\u4ee3\u3092\u8d85\u3048\u3001\n\u4eba\u306e\u5fc3\u3092\u7814\u304e\u6f84\u307e\u3059\u5834\u6240\u3067\u3042\u3063\u305f\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4476,6 +4582,7 @@
                 {
                   "message": {
                     "en_US": "Are you willing to polish yourself into a shining state of perfection?",
+                    "pt_BR": "Você está disposta a polir-se a si mesma até alcançar um estado brilhante de perfeição?",
                     "de_DE": "Bist du bereit, deinen Geist in den Zustand strahlender Vollkommenheit zu erheben?",
                     "zh_CN": "\u4f60\u613f\u610f\u628a\u81ea\u5df1\u6253\u78e8\u5b8c\u7f8e\u5417\uff1f<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u541b\u306f\u5b8c\u6210\u3055\u308c\u305f\u8f1d\u304d\u3078\u3068\u3001\n\u559c\u3093\u3067\u81ea\u3089\u3092\u78e8\u304d\u4e0a\u3052\u3066\u304a\u308b\u304b\u306a\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -4499,6 +4606,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 523,
@@ -4514,6 +4622,7 @@
                     {
                       "message": {
                         "en_US": "Yes, as expected from one who has beaten the cave before.\\. I will open it again.",
+                        "pt_BR": "Sim, como era esperado de quem já tinha vencido a caverna antes. Vou abri-la novamente.",
                         "de_DE": "Ja, entschlossen wie beim ersten Mal, wie nicht anders zu erwarten.\\. Ich werde sie wieder \u00f6ffnen.",
                         "zh_CN": "\u5f88\u597d\u3002\\.\u6211\u5c06\u4e3a\u4f60\u91cd\u65b0\u6253\u5f00\u901a\u9053\u3002<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u3055\u3059\u304c\u3001\u3059\u3067\u306b\u6d1e\u7a9f\u3092\u7834\u3063\u305f\u3082\u306e\u306e\u8a00\u8449\u3060\u3002\n\\.\u518d\u3073\u3001\u9053\u3092\u958b\u3053\u3046\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4581,6 +4690,7 @@
                       "entity": { "global": true, "name": "trial_cave-3" },
                       "text": {
                         "en_US": "Path reopened!",
+                        "pt_BR": "Caminho reaberto!",
                         "de_DE": "Pfad erneut ge\u00f6ffnet!",
                         "zh_CN": "\u901a\u9053\u91cd\u65b0\u5f00\u542f\uff01",
                         "ja_JP": "\u9053\u304c\u518d\u3073\u958b\u3044\u305f\uff01",
@@ -4648,6 +4758,7 @@
                     {
                       "name": {
                         "en_US": "Cratos",
+                        "pt_BR": "Cratos",
                         "de_DE": "Cratos",
                         "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -4677,6 +4788,7 @@
                     {
                       "message": {
                         "en_US": "Return to me once you have solved the challenges.",
+                        "pt_BR": "Retorne aqui, uma vez que você tenha vencido os desafios.",
                         "de_DE": "Komme wieder, wenn du die Herausforderungen gemeistert hast.",
                         "zh_CN": "\u6311\u6218\u5b8c\u6210\u540e\u518d\u6765\u4e0e\u6211\u4ea4\u8c08\u5427\u3002",
                         "ja_JP": "\u8a66\u7df4\u3092\u7a81\u7834\u3057\u305f\u3089\u79c1\u306e\u3068\u3053\u308d\u306b\u623b\u3063\u3066\u304f\u308b\u3068\u3044\u3044\u3002",
@@ -4694,6 +4806,7 @@
                     {
                       "message": {
                         "en_US": "Bye.",
+                        "pt_BR": "Tchau.",
                         "de_DE": "Bye.",
                         "zh_CN": "\u518d\u89c1\u3002",
                         "ja_JP": "\u3058\u3083\u3042\u306d\u3002",
@@ -4713,6 +4826,7 @@
                     {
                       "message": {
                         "en_US": "[shakes head]",
+                        "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                         "de_DE": "[sch\u00fcttelt Kopf]",
                         "fr_FR": "fr_FR",
                         "langUid": 350,
@@ -4728,6 +4842,7 @@
                     {
                       "message": {
                         "en_US": "So you have already become complacent.\\. Please do not make the same mistake as so many before you!",
+                        "pt_BR": "Então, voCê já se tornou complacente.\\. Por favor, não cometa o mesmo erro de tantos outros que vieram antes de você!",
                         "de_DE": "Du bist also bereits selbstgef\u00e4llig geworden.\\. Mache bitte nicht den gleichen Fehler wie so viele vor dir!",
                         "zh_CN": "\u770b\u6765\u4f60\u5df2\u7ecf\u9a84\u50b2\u81ea\u6ee1\u3002\\.\u4e0d\u8981\u8e0f\u4e0a\u548c\u524d\u4eba\u4e00\u6837\u9519\u8bef\u7684\u9053\u8def\uff01<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u541b\u306f\u81ea\u5df1\u6e80\u8db3\u306b\u9665\u3063\u3066\u304a\u308b\u3002\n\\.\u3053\u308c\u307e\u3067\u3001\u591a\u304f\u306e\u8005\u305f\u3061\u304c\u72af\u3057\u305f\u3088\u3046\u306a\n\u9593\u9055\u3044\u306f\u305b\u3093\u3067\u304f\u308c\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4745,6 +4860,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 364,
@@ -4810,6 +4926,7 @@
               {
                 "name": {
                   "en_US": "Cratos",
+                  "pt_BR": "Cratos",
                   "de_DE": "Cratos",
                   "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -4836,6 +4953,7 @@
               {
                 "message": {
                   "en_US": "Return to the cave and face the challenges.",
+                  "pt_BR": "Retorne à carvena para enfrentar os desafios.",
                   "de_DE": "Kehre zur H\u00f6hle zur\u00fcck und stelle dich den Herausforderungen.",
                   "zh_CN": "\u8bf7\u56de\u5230\u6d1e\u7a74\u63a5\u53d7\u6311\u6218\u3002",
                   "ja_JP": "\u6d1e\u7a9f\u306b\u623b\u308a\u3001\u8a66\u7df4\u306b\u76f4\u9762\u3059\u308b\u304c\u3044\u3044\u3002",
@@ -4858,6 +4976,7 @@
                   {
                     "message": {
                       "en_US": "To solve the extra frosty challenge you have to activate it at the sign inside.",
+                      "pt_BR": "Para resolver o desafio extra gelado, você terâ que ativá-lo no sinal interno.",
                       "de_DE": "Du musst die \"extra frostige\" Herausforderung drinnen am Schild erst aktivieren.",
                       "zh_CN": "\u8981\u901a\u8fc7\u591a\u52a0\u51b0\u6311\u6218\uff0c\u4f60\u5fc5\u987b\u5148\u5728\u91cc\u9762\u7684\u6807\u8bc6\u7248\u91cc\u6fc0\u6d3b\u3002<<A<<[CHANGED 2020/06/17]",
                       "ja_JP": "\u4e2d\u306e\u63b2\u793a\u3067\u305d\u308c\u3092\u6709\u52b9\u306b\u3057\u3001\u8ffd\u52a0\u306e\n\u30a2\u30a4\u30b9\u30c1\u30e3\u30ec\u30f3\u30b8\u306b\u53d6\u308a\u7d44\u307f\u306a\u3055\u308c\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4877,6 +4996,7 @@
               {
                 "message": {
                   "en_US": "[nods]",
+                  "pt_BR": "[acena com a cabeça]",
                   "de_DE": "[nickt]",
                   "fr_FR": "fr_FR",
                   "langUid": 357,
@@ -4937,6 +5057,7 @@
                 {
                   "name": {
                     "en_US": "Cratos",
+                    "pt_BR": "Cratos",
                     "de_DE": "Cratos",
                     "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -4963,6 +5084,7 @@
                 {
                   "message": {
                     "en_US": "You have been successful once again, \\v[lore.title.seeker].",
+                    "pt_BR": "Mais uma vez você obteve sucesso, \\v[lore.title.seeker].",
                     "de_DE": "Ich sehe, du warst erneut erfolgreich, Seeker.",
                     "zh_CN": "\u6211\u77e5\u9053\u4f60\u4f1a\u518d\u4e00\u6b21\u6210\u529f\u7684\uff0c\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2021/02/26]",
                     "zh_TW": "\u6211\u77e5\u9053\u4f60\u6703\u518d\u4e00\u6b21\u6210\u529f\u7684\u3002<<A<<[CHANGED 2021/02/26]",
@@ -4980,6 +5102,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 365,
@@ -4995,6 +5118,7 @@
                 {
                   "message": {
                     "en_US": "Now that you have beaten even the highest of challenges of our order, there is nothing left for me to teach you.",
+                    "pt_BR": "Agora que você superou até mesmo o maior dos desafios da nossa ordem, não me resta mais nada para lhe ensinar.",
                     "de_DE": "Da du nun selbst die h\u00f6chsten Herausforderungen unseres Ordens gemeistert hast, gibt es nichts mehr, was ich dich lehren k\u00f6nnte.",
                     "zh_CN": "\u4f60\u901a\u8fc7\u4e86\u6211\u4eec\u6700\u56f0\u96be\u7684\u6311\u6218\uff0c\u6211\u4eec\u6ca1\u4ec0\u4e48\u53ef\u4ee5\u6559\u7ed9\u4f60\u7684\u4e86\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3053\u308c\u3067\u541b\u306f\u3001\u6211\u3089\u306e\u6301\u3066\u308b\n\u6700\u9ad8\u306e\u6311\u6226\u3092\u3082\u7834\u3063\u305f\u3002\n\u3082\u3046\u541b\u306b\u6559\u3048\u308b\u3053\u3068\u306f\u4f55\u3082\u306a\u3044\u3002<<A<<[CHANGED 2020/06/17]",
@@ -5012,6 +5136,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 355,
@@ -5027,6 +5152,7 @@
                 {
                   "message": {
                     "en_US": "Keep your light in this state of perfection and there will never be a challenge for you to fear.",
+                    "pt_BR": "Mantenha a sua luz neste estado de perfeição e nunca haverá um desafio a temer.",
                     "de_DE": "Halte dein Licht in diesem Zustand der Vollkommenheit und du wirst keine Herausforderung mehr f\u00fcrchten.",
                     "zh_CN": "\u65f6\u523b\u6253\u78e8\u953b\u70bc\u81ea\u5df1\u7684\u5149\u660e\uff0c\u4f60\u5c06\u65e0\u6240\u754f\u60e7\u3002<<A<<[CHANGED 2020/07/08]",
                     "zh_TW": "\u6642\u523b\u6253\u78e8\u935b\u7149\u81ea\u5df1\u7684\u5149\u660e\uff0c\u4f60\u5c07\u7121\u6240\u754f\u61fc\u3002<<A<<[CHANGED 2020/07/09]",
@@ -5044,6 +5170,7 @@
                 {
                   "message": {
                     "en_US": "All our caves will remain open for more practice, if you so desire.\\. But for now, farewell.",
+                    "pt_BR": "Todas as nossas cavernas permanecerão abertas para mais prática, se assim desejar\\. Mas por agora, adeus.",
                     "de_DE": "Jede unserer H\u00f6hlen wird auch weiterhin f\u00fcr dich offen sein, wenn du es w\u00fcnschst.\\. Bis dahin, lebe wohl.",
                     "zh_CN": "\u5982\u679c\u4f60\u60f3\uff0c\u6211\u4eec\u968f\u65f6\u6b22\u8fce\u4f60\u518d\u6b21\u524d\u6765\u953b\u70bc\u3002\\.\u90a3\u4e48\u518d\u89c1\u4e86\u3002<<A<<[CHANGED 2020/07/08]",
                     "zh_TW": "\u5982\u679c\u4f60\u60f3\uff0c\u6211\u5011\u96a8\u6642\u6b61\u8fce\u4f60\u518d\u6b21\u524d\u4f86\u935b\u7149\u3002\\.\u90a3\u9ebc\u518d\u898b\u4e86\u3002<<A<<[CHANGED 2020/07/09]",
@@ -5061,6 +5188,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "fr_FR": "fr_FR",
                     "langUid": 392,
@@ -5110,6 +5238,7 @@
               {
                 "name": {
                   "en_US": "Cratos",
+                  "pt_BR": "Cratos",
                   "de_DE": "Cratos",
                   "zh_CN": "\u594e\u6258\u65af<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u30af\u30e9\u30c8\u30b9<<A<<[CHANGED 2020/06/17]",
@@ -5136,6 +5265,7 @@
               {
                 "message": {
                   "en_US": "...",
+                  "pt_BR": "...",
                   "de_DE": "...",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\u2026<<A<<[CHANGED 2020/06/17]",
@@ -5196,6 +5326,7 @@
         "analyzable": {
           "text": {
             "en_US": "Hasouk",
+            "pt_BR": "Hasouk",
             "de_DE": "Hasouk",
             "fr_FR": "fr_FR",
             "langUid": 316,
@@ -5220,6 +5351,7 @@
               {
                 "name": {
                   "en_US": "Hasouk",
+                  "pt_BR": "Hasouk",
                   "langUid": 436,
                   "zh_CN": "\u54c8\u7d22\u514b",
                   "de_DE": "Hasouk",
@@ -5979,6 +6111,7 @@
                 {
                   "message": {
                     "en_US": "\\v[lore.title.seeker], you may have proven your worth, but I feel that you still have room for refinement.",
+                    "pt_BR": "\\v[lore.title.seeker], você pode ter provado seu valor, mas sinto que ainda há espaço para refinamento.",
                     "de_DE": "Seeker, du magst dein K\u00f6nnen bewiesen haben, doch ich sp\u00fcre, dass es Potential zur Verbesserung gibt.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\\v[lore.title.seeker]\uff0c\u4f60\u5df2\u7ecf\u8bc1\u660e\u4e86\u4f60\u7684\u4ef7\u503c\uff0c\u4f46\u662f\u6211\u89c9\u5f97\u4f60\u4ecd\u7136\u6709\u8fdb\u6b65\u7684\u7a7a\u95f4\u3002",
@@ -5997,6 +6130,7 @@
                 {
                   "message": {
                     "en_US": "Hi?",
+                    "pt_BR": "Oi?",
                     "de_DE": "Hi?",
                     "fr_FR": "fr_FR",
                     "langUid": 360,
@@ -6012,6 +6146,7 @@
                 {
                   "message": {
                     "en_US": "Yes, you have beaten the first trial but that does not mean that you have mastered it.",
+                    "pt_BR": "Yes, você pode ter vencido a primeira prova mas isso não significa que você tenha a dominado.",
                     "de_DE": "Ja, du hast die erste Pr\u00fcfung bestanden, doch das hei\u00dft nicht, dass du sie gemeistert hast.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u662f\u7684\uff0c\u4f60\u5df2\u7ecf\u901a\u8fc7\u4e86\u7b2c\u4e00\u573a\u8bd5\u70bc\uff0c\u4f46\u662f\u5e76\u4e0d\u610f\u5473\u7740\u4f60\u5df2\u7ecf\u638c\u63e1\u5b83\u4e86\u3002",
@@ -6030,6 +6165,7 @@
                 {
                   "message": {
                     "en_US": "For this very purpose, we have prepared some additional challenges in the Cave of Aspiration.",
+                    "pt_BR": "Para este mesmo fim, preparamos alguns desafios adicionais na Caverna da Aspiração.",
                     "de_DE": "Darum haben wir weitere Herausforderungen in der H\u00f6hle der Aspiration vorbereitet.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u51fa\u4e8e\u8fd9\u4e2a\u7279\u6b8a\u7684\u76ee\u7684\uff0c\u6211\u4eec\u5728\u5347\u7075\u6d1e\u7a9f\u51c6\u5907\u4e86\u4e00\u4e9b\u989d\u5916\u7684\u6311\u6218\u3002",
@@ -6054,6 +6190,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena com a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 530,
@@ -6069,6 +6206,7 @@
                     {
                       "message": {
                         "en_US": "Excellent.\\. I will reopen the passage for you.",
+                        "pt_BR": "Excelente.\\. Eu vou abrir a passagem novamente para você.",
                         "de_DE": "Ausgezeichnet.\\. Ich werde die Passage f\u00fcr dich \u00f6ffnen.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u5f88\u597d\u3002\\.\u6211\u5c06\u4e3a\u4f60\u91cd\u65b0\u6253\u5f00\u901a\u9053\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6137,6 +6275,7 @@
                       "entity": { "global": true, "name": "trial_cave-1" },
                       "text": {
                         "en_US": "Path reopened!",
+                        "pt_BR": "Caminho reaberto!",
                         "de_DE": "Pfad erneut ge\u00f6ffnet!",
                         "fr_FR": "fr_FR",
                         "langUid": 532,
@@ -6205,6 +6344,7 @@
                     {
                       "name": {
                         "en_US": "Hasouk",
+                        "pt_BR": "Hasouk",
                         "langUid": 533,
                         "zh_CN": "\u54c8\u7d22\u514b<<A<<[CHANGED 2020/06/17]",
                         "de_DE": "Hasouk",
@@ -6235,6 +6375,7 @@
                     {
                       "message": {
                         "en_US": "Return to me once you have solved the challenges.",
+                        "pt_BR": "Retorne aqui assim que você tenha vencido os desafios.",
                         "de_DE": "Komme wieder, wenn du die Herausforderungen gemeistert hast.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u6311\u6218\u5b8c\u6210\u540e\u518d\u6765\u4e0e\u6211\u4ea4\u8c08\u5427\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6253,6 +6394,7 @@
                     {
                       "message": {
                         "en_US": "Bye.",
+                        "pt_BR": "Tchau",
                         "de_DE": "Bye.",
                         "fr_FR": "fr_FR",
                         "langUid": 535,
@@ -6270,6 +6412,7 @@
                     {
                       "message": {
                         "en_US": "[shakes head]",
+                        "pt_BR": "[balan\u00e7a a cabe\u00e7a]",
                         "de_DE": "[sch\u00fcttelt Kopf]",
                         "fr_FR": "fr_FR",
                         "langUid": 536,
@@ -6285,6 +6428,7 @@
                     {
                       "message": {
                         "en_US": "I see.\\. But remember that self-indulgence leads to arrogance which in turn leads to inadequacy.",
+                        "pt_BR": "Entendo.\\. Mas lembre-se que a presunção conduz à arrogância que, por sua vez conduz à incapacidade.",
                         "de_DE": "Ich verstehe.\\. Doch bedenke, Selbstgef\u00e4lligkeit f\u00fchrt zu Arroganz, und Arroganz f\u00fchrt zu Unzul\u00e4nglichkeit.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u6211\u660e\u767d\u4e86\u3002\\.\u4f46\u662f\u8bb0\u4f4f\uff0c\u653e\u7eb5\u4ea7\u751f\u9a84\u50b2\uff0c\u800c\u9a84\u50b2\u5219\u662f\u5931\u8d25\u4e4b\u6e90\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6303,6 +6447,7 @@
                     {
                       "message": {
                         "en_US": "...",
+                        "pt_BR": "...",
                         "de_DE": "...",
                         "fr_FR": "fr_FR",
                         "langUid": 538,
@@ -6335,6 +6480,7 @@
               {
                 "name": {
                   "en_US": "Hasouk",
+                  "pt_BR": "Hasouk",
                   "langUid": 444,
                   "zh_CN": "\u54c8\u7d22\u514b",
                   "de_DE": "Hasouk",
@@ -6362,6 +6508,7 @@
               {
                 "message": {
                   "en_US": "Return to the cave and face the challenges.",
+                  "pt_BR": "Retorne à carvena e enfrente os desafios.",
                   "de_DE": "Kehre zur H\u00f6hle zur\u00fcck und stell dich den Herausforderungen.",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\u8bf7\u56de\u5230\u6d1e\u7a74\u63a5\u53d7\u6311\u6218\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6385,6 +6532,7 @@
                   {
                     "message": {
                       "en_US": "To solve the challenge without guarding you have to cast your shield away at the sign inside.",
+                      "pt_BR": "Para resolver o desafio sem se proteger, é preciso ativar o escudo a distância no sinal interno.",
                       "de_DE": "Um die Herasuforderung ohne deinen Schild zu bestehen, musst du ihn am Eingang deaktivieren.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u8981\u901a\u8fc7\u65e0\u9632\u5fa1\u6311\u6218\uff0c\u4f60\u5fc5\u987b\u5148\u5728\u91cc\u9762\u7684\u6807\u8bc6\u7248\u91cc\u653e\u5f03\u76fe\u724c\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6405,6 +6553,7 @@
               {
                 "message": {
                   "en_US": "[nods]",
+                  "pt_BR": "[acena com a cabeça]",
                   "de_DE": "[nickt]",
                   "fr_FR": "fr_FR",
                   "langUid": 543,
@@ -6432,6 +6581,7 @@
                 {
                   "name": {
                     "en_US": "Hasouk",
+                    "pt_BR": "Hasouk",
                     "langUid": 445,
                     "zh_CN": "\u54c8\u7d22\u514b",
                     "de_DE": "Hasouk",
@@ -6459,6 +6609,7 @@
                 {
                   "message": {
                     "en_US": "I see you were successful once again.",
+                    "pt_BR": "Vejo que você obteve sucesso novamente.",
                     "de_DE": "Ich sehe, du warst erneut erfolgreich.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u6211\u77e5\u9053\u4f60\u4f1a\u518d\u4e00\u6b21\u6210\u529f\u7684\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6477,6 +6628,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena com a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 546,
@@ -6492,6 +6644,7 @@
                 {
                   "message": {
                     "en_US": "You have now solved every one of my trials.\\. Impressive.",
+                    "pt_BR": "Você completou cada uma das milhas provas.\\. Impressionante.",
                     "de_DE": "Du hast nun alle meine Pr\u00fcfungen bestanden.\\. Beeindruckend.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u73b0\u5728\u5df2\u7ecf\u5b8c\u6210\u4e86\u6211\u7684\u6bcf\u4e00\u573a\u8bd5\u9a8c\u3002\\.\u771f\u662f\u4ee4\u4eba\u5370\u8c61\u6df1\u523b\u3002",
@@ -6510,6 +6663,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 547,
@@ -6525,6 +6679,7 @@
                 {
                   "message": {
                     "en_US": "There is nothing left for me that could challenge you, though the cave will stay open for you to perfect yourself.",
+                    "pt_BR": "Não resta mas nada aqui que possa ser um desafio para você, embora a caverna permaneça aberta para que você possa se aperfeiçoar.",
                     "de_DE": "Ich habe keine Herausforderung mehr f\u00fcr dich. Die H\u00f6hle bleibt aber weiter f\u00fcr dich offen, um deinen Geist zu vervollkommnen.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u6211\u8fd9\u91cc\u5df2\u7ecf\u6ca1\u6709\u4ec0\u4e48\u53ef\u4ee5\u8ba9\u4f60\u6311\u6218\u7684\u4e86\uff0c\u4f46\u662f\u8fd9\u4e9b\u6d1e\u7a74\u4f9d\u7136\u4f1a\u4e3a\u4f60\u5f00\u653e\uff0c\u8ba9\u4f60\u7ee7\u7eed\u5b8c\u5584\u81ea\u8eab\u3002",
@@ -6543,6 +6698,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau",
                     "de_DE": "Bye!",
                     "fr_FR": "fr_FR",
                     "langUid": 548,
@@ -6576,6 +6732,7 @@
               {
                 "name": {
                   "en_US": "Hasouk",
+                  "pt_BR": "Hasouk",
                   "langUid": 446,
                   "zh_CN": "\u54c8\u7d22\u514b",
                   "de_DE": "Hasouk",
@@ -6660,6 +6817,7 @@
             "entity": { "player": true },
             "text": {
               "en_US": "Access denied!",
+              "pt_BR": "Acesso negado!",
               "de_DE": "Zutritt verweigert!",
               "fr_FR": "fr_FR",
               "langUid": 377,
@@ -7278,6 +7436,7 @@
         "analyzable": {
           "text": {
             "en_US": "Guard",
+            "pt_BR": "Guarda",
             "de_DE": "Wache",
             "fr_FR": "fr_FR",
             "langUid": 251,
@@ -7495,6 +7654,7 @@
         "map": "bergen.special.monks-questcave3",
         "teleportLabel": {
           "en_US": "Enter the \\c[3]Cave of Ascension\\c[0]",
+          "pt_BR": "Entre na \\c[3]Caverna da Ascensão\\c[0]",
           "de_DE": "\\c[3]H\u00f6hle der Aszension\\c[0] betreten",
           "zh_CN": "\u8fdb\u5165\\c[3]\u5347\u534e\u6d1e\u7a9f\\c[0]<<A<<[CHANGED 2020/06/17]",
           "ja_JP": "\\c[3]\u8d85\u8d8a\u306e\u6d1e\u7a9f\\c[0]\u306b\u5165\u308b<<A<<[CHANGED 2020/06/17]",
@@ -7519,6 +7679,7 @@
             "entity": { "player": true },
             "text": {
               "en_US": "Access denied!",
+              "pt_BR": "Acesso negado!",
               "de_DE": "Zutritt verweigert!",
               "fr_FR": "fr_FR",
               "langUid": 458,
