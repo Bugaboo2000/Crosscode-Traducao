@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem Título",
+        "pt_BR": "sem Título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "\u672a\u547d\u540d<<A<<[CHANGED 2018\/03\/14]",
@@ -16,6 +16,7 @@
         "level": 0,
         "name": {
             "en_US": "",
+            "pt_BR": "",
             "de_DE": ""
         },
         "tiles": [
@@ -155,7 +156,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Satoshi's Workstation",
-                "pt_BR": "Workstation de Satoshi",
+                "pt_BR": "Estaçâo de Trabalho do Satoshi",
                 "langUid": 8,
                 "de_DE": "Satoshis Arbeitsplatz",
                 "ja_JP": "\u30b5\u30c8\u30b7\u306e\u4f5c\u696d\u90e8\u5c4b<<A<<[CHANGED 2018\/08\/28]",

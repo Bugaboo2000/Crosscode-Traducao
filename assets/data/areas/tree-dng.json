@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem Título",
+        "pt_BR": "sem título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "untitled",
@@ -215,7 +215,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of Trios",
-                "pt_BR": "Teste de Trios",
+                "pt_BR": "Prova de Trios",
                 "de_DE": "Pr\u00fcfung der Trios",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e09\u91cd\u8bd5\u70bc",
@@ -527,7 +527,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Trial of the West",
-                "pt_BR": "Teste do Oeste",
+                "pt_BR": "Prova do Oeste",
                 "de_DE": "Pr\u00fcfung des Westens",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u897f\u90e8\u8bd5\u70bc",
@@ -545,7 +545,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Upstream",
-                "pt_BR": "Upstream",
+                "pt_BR": "Escalada",
                 "de_DE": "Stromaufw\u00e4rts",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u4e0a\u6e38",
@@ -710,7 +710,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Branch Transmit",
-                "pt_BR": "Ramo Transmissão",
+                "pt_BR": "Ramo de Transmissão",
                 "de_DE": "Parallelweg-\u00dcbertragung",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u679d\u5e72\u4f20\u8f93",

@@ -3,7 +3,7 @@
     "name": {
         "en_US": "untitled",
         "de_DE": "unbenannt",
-        "pt_BR": "Sem título",
+        "pt_BR": "sem título",
         "langUid": 1,
         "zh_CN": "\u672a\u547d\u540d",
         "ko_KR": "\ubbf8\uc815",
@@ -138,7 +138,7 @@
             "path": "heat.special.heatadv-questTemple-4-boss",
             "name": {
                 "en_US": "Barren Temple Treasury",
-                "pt_BR": "Tesouro do Templo Estéril",
+                "pt_BR": "Tesouro do Templo Árido",
                 "langUid": 190,
                 "zh_CN": "\u8352\u829c\u795e\u6bbf\u85cf\u5b9d\u5ba4<<A<<[CHANGED 2019\/04\/16]",
                 "ko_KR": "\ud669\ub7c9 \uc0ac\uc6d0 \uae08\uace0<<A<<[CHANGED 2019\/04\/16]",
@@ -456,7 +456,7 @@
             "path": "heat.special.heatadv-questTemple-3",
             "name": {
                 "en_US": "Barren Temple Core",
-                "pt_BR": "Centro Templário Barren",
+                "pt_BR": "Centro do Templo Árido",
                 "langUid": 177,
                 "zh_CN": "\u8352\u829c\u795e\u6bbf\u6838\u5fc3<<A<<[CHANGED 2019\/04\/16]",
                 "ko_KR": "\ud669\ub7c9 \uc0ac\uc6d0 \uc911\uc559<<A<<[CHANGED 2019\/04\/16]",
@@ -555,6 +555,7 @@
         "level": 0,
         "name": {
             "en_US": "",
+            "pt_BR": "",
             "de_DE": ""
         },
         "tiles": [
@@ -837,7 +838,7 @@
             "path": "heat.path-06",
             "name": {
                 "en_US": "Barren Land",
-                "pt_BR": "Ilha Estéril",
+                "pt_BR": "Ilha Árida",
                 "de_DE": "\u00d6dland",
                 "fr_FR": "fr_FR",
                 "langUid": 25,
@@ -854,7 +855,7 @@
             "path": "heat.path-05",
             "name": {
                 "en_US": "Barren Arcs",
-                "pt_BR": "Arcos Estéreis",
+                "pt_BR": "Arcos Áridos",
                 "de_DE": "Kahle B\u00f6gen",
                 "fr_FR": "fr_FR",
                 "langUid": 26,
@@ -1133,7 +1134,7 @@
             "path": "heat.special.heatadv-questTemple-1",
             "name": {
                 "en_US": "Barren Temple Entrance",
-                "pt_BR": "Entrada do Templo Estéril",
+                "pt_BR": "Entrada do Templo Árido",
                 "de_DE": "Verwaister Tempel \/ Eingang",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u8352\u829c\u795e\u6bbf\u5165\u53e3<<A<<[CHANGED 2019\/04\/16]",
@@ -1151,7 +1152,7 @@
             "path": "heat.special.heatadv-questTemple-2",
             "name": {
                 "en_US": "Barren Temple Hall",
-                "pt_BR": "Corredor do Templo Estéril",
+                "pt_BR": "Corredor do Templo Árido",
                 "de_DE": "Verwaister Tempel \/ Halle",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u8352\u829c\u795e\u6bbf\u5927\u5385<<A<<[CHANGED 2019\/04\/16]",
@@ -1187,7 +1188,7 @@
             "path": "heat.caves.cliffs-temple-01",
             "name": {
                 "en_US": "Bone Lair",
-                "pt_BR": "Covil de osso",
+                "pt_BR": "Covil de Osso",
                 "langUid": 128,
                 "zh_CN": "\u767d\u9aa8\u4e4b\u5de2<<A<<[CHANGED 2017\/10\/10]",
                 "de_DE": "Knochengruft",
@@ -1221,7 +1222,7 @@
             "path": "heat.special.glitch-boss",
             "name": {
                 "en_US": "Testing Finale",
-                "pt_BR": "Final do Teste",
+                "pt_BR": "Teste Final",
                 "langUid": 165,
                 "zh_CN": "\u6d4b\u8bd5\u7ed3\u5c40<<A<<[CHANGED 2019\/04\/16]",
                 "ko_KR": "\ud14c\uc2a4\ud2b8 \ud53c\ub0a0\ub808<<A<<[CHANGED 2019\/04\/16]",

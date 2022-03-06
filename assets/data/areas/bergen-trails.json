@@ -96,7 +96,7 @@
             "path": "bergen-trail.lab.room3",
             "name": {
                 "en_US": "Crossing Office",
-                "pt_BR": "Crossing Office",
+                "pt_BR": "Escritório de Travessia",
                 "langUid": 125,
                 "ja_JP": "\u30af\u30ed\u30b9\u30aa\u30d5\u30a3\u30b9<<A<<[CHANGED 2019/07/31]",
                 "zh_CN": "\u8fc7\u6e21\u529e\u516c\u5ba4<<A<<[CHANGED 2019/07/31]",
@@ -888,7 +888,7 @@
             "path": "bergen-trail.path-7-2-1",
             "name": {
                 "en_US": "Lofty Heights",
-                "pt_BR": "Altas Alturas",
+                "pt_BR": "Alturas Elevadas",
                 "langUid": 86,
                 "zh_CN": "\u767d\u96ea\u9ad8\u5cf0<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u7a7a\u4e2d\u9ad8\u53f0<<A<<[CHANGED 2018/07/09]",
@@ -959,7 +959,7 @@
             "path": "bergen-trail.cave.cave-6-3",
             "name": {
                 "en_US": "Pengpeng's Den",
-                "pt_BR": "Ninho de Pingu",
+                "pt_BR": "Ninho do Pingu",
                 "de_DE": "Pengpengs Versteck",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u84ec\u84ec\u7684\u5de2\u7a74",
@@ -976,7 +976,7 @@
         }, {
             "path": "bergen-trail.cave.cave-08-smith",
             "name": {
-                "en_US": "Abandoned Cave ",
+                "en_US": "Abandoned Cave",
                 "pt_BR": "Caverna Abandonada",
                 "langUid": 91,
                 "zh_CN": "\u8352\u5e9f\u7684\u6d1e\u7a9f<<A<<[CHANGED 2018/07/09]",

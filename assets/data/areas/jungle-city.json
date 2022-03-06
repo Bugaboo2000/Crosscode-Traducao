@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem Título",
+        "pt_BR": "sem título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "untitled",
@@ -334,7 +334,7 @@
             "path": "jungle-city.interior.questhub-01",
             "name": {
                 "en_US": "Seeker Hub 1st Floor",
-                "pt_BR": "Centro de Comando 1º Andar",
+                "pt_BR": "Central de Comando 1º Andar",
                 "langUid": 54,
                 "ja_JP": "\u63a2\u7d22\u8005\u30cf\u30d61\u968e<<A<<[CHANGED 2018\/08\/01]",
                 "ko_KR": "\uc2dc\ucee4 \ud5c8\ube0c 1\uce35<<A<<[CHANGED 2018\/08\/01]",
@@ -402,7 +402,7 @@
             "path": "jungle-city.interior.faction-greens-1",
             "name": {
                 "en_US": "Gaia's Gardeners HQ",
-                "pt_BR": "QG Jardineiros de Gaia",
+                "pt_BR": "QG dos Jardineiros de Gaia",
                 "langUid": 72,
                 "ja_JP": "\u30ac\u30a4\u30a2\u30fb\u30ac\u30fc\u30c7\u30ca\u30fc\u30ba\u672c\u90e8<<A<<[CHANGED 2018\/05\/01]",
                 "ko_KR": "\uac00\uc774\uc544\uc758 \uc815\uc6d0\uc0ac \ubcf8\ubd80<<A<<[CHANGED 2018\/05\/01]",
@@ -436,7 +436,7 @@
             "path": "jungle-city.interior.faction-traders-1",
             "name": {
                 "en_US": "Basin Trade Partnership HQ",
-                "pt_BR": "Parceria Comercial de Basin QG",
+                "pt_BR": "QG da Parceria Comercial de Basin",
                 "langUid": 82,
                 "de_DE": "Handelsgesellschaft",
                 "ja_JP": "\u30d9\u30a4\u30b9\u30f3\u4ea4\u6613\u7d44\u5408\u672c\u90e8<<A<<[CHANGED 2018\/08\/01]",
@@ -644,7 +644,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Seeker Hub 2nd Floor",
-                "pt_BR": "Centro de Comando 2º Andar",
+                "pt_BR": "Central Seeker 2º Andar",
                 "langUid": 80,
                 "zh_CN": "\u63a2\u7d22\u8005\u4e2d\u5fc32\u697c<<A<<[CHANGED 2018\/07\/09]",
                 "ja_JP": "\u63a2\u7d22\u8005\u30cf\u30d62\u968e<<A<<[CHANGED 2018\/07\/09]",
@@ -784,7 +784,7 @@
             "path": "jungle-city.special.parrot-hq-2",
             "name": {
                 "en_US": "Papagang HQ Club",
-                "pt_BR": "QG Clube Papagang",
+                "pt_BR": "QG do Clube Papagang",
                 "langUid": 100,
                 "zh_TW": "<<A<<[CHANGED 2021\/02\/24]",
                 "zh_CN": "\u9e66\u9e49\u9ed1\u5e2e\u603b\u90e8\u4ff1\u4e50\u90e8<<A<<[CHANGED 2021\/02\/24]",
@@ -866,7 +866,7 @@
             "path": "jungle-city.special.parrot-hq-rooftop-1",
             "name": {
                 "en_US": "Papagang HQ Roof",
-                "pt_BR": "QG Papagang, Cobertura",
+                "pt_BR": "QG da Papagang, Cobertura",
                 "langUid": 104,
                 "zh_TW": "<<A<<[CHANGED 2021\/02\/24]",
                 "zh_CN": "\u9e66\u9e49\u9ed1\u5e2e\u603b\u90e8\u5c4b\u9876<<A<<[CHANGED 2021\/02\/24]",

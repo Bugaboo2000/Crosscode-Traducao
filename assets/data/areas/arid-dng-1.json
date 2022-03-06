@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem título",
+        "pt_BR": "sem título",
         "de_DE": "unbenannt",
         "langUid": 1,
         "zh_CN": "\u672a\u547d\u540d<<A<<[CHANGED 2018\/03\/14]",
@@ -16,6 +16,7 @@
         "level": 0,
         "name": {
             "en_US": "G",
+            "pt_BR": "G",
             "langUid": 2,
             "zh_CN": "G<<A<<[CHANGED 2018\/03\/14]",
             "ko_KR": "G<<A<<[CHANGED 2018\/03\/14]",
@@ -145,7 +146,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Bombs and Ice",
-                "pt_BR": "Bombas de gelo",
+                "pt_BR": "Bombas de Gelo",
                 "langUid": 39,
                 "de_DE": "Bomben und Eis",
                 "ja_JP": "\u7206\u5f3e\u3068\u6c37\u3068<<A<<[CHANGED 2018\/08\/01]",
@@ -293,7 +294,7 @@
             "path": "arid-dng.first.room-11",
             "name": {
                 "en_US": "INVALID INSTANCE",
-                "pt_BR": "INSTANCIA INVALIDA",
+                "pt_BR": "INSTÂNCIA INVÁLIDA",
                 "langUid": 24,
                 "zh_CN": "INVALID INSTANCE<<A<<[CHANGED 2018\/08\/01]",
                 "ko_KR": "\ube44\uc720\ud6a8 \uac1c\ubcc4 \ubc29<<A<<[CHANGED 2018\/08\/01]",

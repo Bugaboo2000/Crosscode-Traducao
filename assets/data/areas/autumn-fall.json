@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem título",
+        "pt_BR": "sem título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "\u672a\u547d\u540d",
@@ -311,7 +311,7 @@
             "path": "autumn-fall.caves.path-04-cave-01",
             "name": {
                 "en_US": "Lake Cave 1",
-                "pt_BR": "Lake Cave 1",
+                "pt_BR": "Caverna do Lago 1",
                 "de_DE": "Seeh\u00f6hle 1",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u6e56\u7554\u6d1e\u7a741",
@@ -329,7 +329,7 @@
             "path": "autumn-fall.caves.path-04-cave-02",
             "name": {
                 "en_US": "Lake Cave 2",
-                "pt_BR": "Lake Cave 2",
+                "pt_BR": "Caverna do Lago 2",
                 "de_DE": "Seeh\u00f6hle 2",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u6e56\u7554\u6d1e\u7a742",
@@ -347,7 +347,7 @@
             "path": "autumn-fall.caves.path-04-cave-03",
             "name": {
                 "en_US": "Lake Cave 3",
-                "pt_BR": "Lake Cave 3",
+                "pt_BR": "Caverna do Lago 3",
                 "de_DE": "Seeh\u00f6hle 3",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u6e56\u7554\u6d1e\u7a743",
@@ -365,7 +365,7 @@
             "path": "autumn-fall.caves.path-04-cave-04",
             "name": {
                 "en_US": "Lake Cave 4",
-                "pt_BR": "Lake Cave 4",
+                "pt_BR": "Caverna do Lago 4",
                 "de_DE": "Seeh\u00f6hle 4",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u6e56\u7554\u6d1e\u7a744",
@@ -383,7 +383,7 @@
             "path": "autumn-fall.raid.raid-04-cave",
             "name": {
                 "en_US": "Para Island Cave",
-                "pt_BR": "Caverna da ilha Para",
+                "pt_BR": "Caverna da Ilha Para",
                 "de_DE": "Para-Insel \/ H\u00f6hle",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u526f\u672c\u5c9b\u6d1e\u7a74",
@@ -401,7 +401,7 @@
             "path": "autumn-fall.raid.raid-04-cave-right",
             "name": {
                 "en_US": "Para Island Cave",
-                "pt_BR": "Caverna da ilha Para",
+                "pt_BR": "Caverna da Ilha Para",
                 "langUid": 479,
                 "zh_TW": "\u526f\u672c\u5cf6\u6d1e\u7a74<<A<<[CHANGED 2020\/06\/15]",
                 "ko_KR": "\ud30c\ub77c \uc12c \ub3d9\uad74<<A<<[CHANGED 2020\/06\/17]",
@@ -435,7 +435,7 @@
             "path": "autumn.lab.room-2",
             "name": {
                 "en_US": "Central Hub",
-                "pt_BR": "Hub Central",
+                "pt_BR": "Central",
                 "langUid": 361,
                 "ja_JP": "\u4e2d\u592e\u30cf\u30d6<<A<<[CHANGED 2019\/07\/31]",
                 "zh_CN": "\u4e2d\u5fc3\u67a2\u7ebd<<A<<[CHANGED 2019\/07\/31]",
@@ -732,7 +732,7 @@
             "path": "autumn-fall.path-04",
             "name": {
                 "en_US": "Ancient Center",
-                "pt_BR": "Centro ancestral",
+                "pt_BR": "Centro Ancestral",
                 "de_DE": "Ahnenzentrum",
                 "fr_FR": "fr_FR",
                 "langUid": 8,
@@ -786,7 +786,7 @@
             "path": "autumn-fall.path-07",
             "name": {
                 "en_US": "Village Remains",
-                "pt_BR": "Vila arruinada",
+                "pt_BR": "Vila Arruinada",
                 "de_DE": "Dorfruinen",
                 "fr_FR": "fr_FR",
                 "langUid": 21,
@@ -857,7 +857,7 @@
             "path": "autumn-fall.raid.raid-01",
             "name": {
                 "en_US": "Para Island 1",
-                "pt_BR": "Ilhas Para 1",
+                "pt_BR": "Ilha Para 1",
                 "de_DE": "Para-Insel 1",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u526f\u672c\u5c9b1",
@@ -875,7 +875,7 @@
             "path": "autumn-fall.raid.raid-02",
             "name": {
                 "en_US": "Para Island 2",
-                "pt_BR": "Ilhas Para 2",
+                "pt_BR": "Ilha Para 2",
                 "de_DE": "Para-Insel 2",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u526f\u672c\u5c9b2",
@@ -893,7 +893,7 @@
             "path": "autumn-fall.raid.raid-03",
             "name": {
                 "en_US": "Para Island 3",
-                "pt_BR": "Ilhas Para 3",
+                "pt_BR": "Ilha Para 3",
                 "de_DE": "Para-Insel 3",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u526f\u672c\u5c9b2",
@@ -929,7 +929,7 @@
             "path": "autumn-fall.caves.buffelcave-2",
             "name": {
                 "en_US": "Stomping Den",
-                "pt_BR": "Escoderijo pisoteado",
+                "pt_BR": "Escoderijo Pisoteado",
                 "de_DE": "Stampfendes Versteck",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u8df5\u8e0f\u4e4b\u7a9f",
@@ -964,7 +964,7 @@
             "path": "autumn-fall.raid.raid-05",
             "name": {
                 "en_US": "Para Island Top",
-                "pt_BR": "Topo da ilha Para",
+                "pt_BR": "Topo da Ilha Para",
                 "langUid": 530,
                 "de_DE": "Para-Insel \/ Gipfel",
                 "zh_TW": "\u5e15\u62c9\u5cf6\u4e0a\u8863<<A<<[CHANGED 2021\/01\/12]",
@@ -998,7 +998,7 @@
             "path": "autumn-fall.raid.raid-end",
             "name": {
                 "en_US": "Para Island Vista",
-                "pt_BR": "Vista das Ilhas Para",
+                "pt_BR": "Vista da Ilha Para",
                 "langUid": 540,
                 "de_DE": "Para-Insel \/ Ausblick",
                 "zh_TW": "\u5e15\u62c9\u5cf6\u9060\u666f<<A<<[CHANGED 2021\/01\/12]",
