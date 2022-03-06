@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem Título",
+        "pt_BR": "sem título",
         "de_DE": "unbenannt",
         "langUid": 1,
         "zh_CN": "untitled<<A<<[CHANGED 2017\/10\/10]",
@@ -179,6 +179,7 @@
         "level": 0,
         "name": {
             "en_US": "",
+            "pt_BR": "",
             "de_DE": ""
         },
         "tiles": [
@@ -458,7 +459,7 @@
             "path": "forest.caves.path-02-to-08",
             "name": {
                 "en_US": "Eroded Passage",
-                "pt_BR": "Passagem corroída",
+                "pt_BR": "Passagem Corroída",
                 "langUid": 56,
                 "zh_CN": "\u4fb5\u8680\u4e4b\u5f84<<A<<[CHANGED 2017\/10\/10]",
                 "de_DE": "Erodierte Passage",
@@ -475,7 +476,7 @@
             "path": "forest.path-07",
             "name": {
                 "en_US": "Flower Lake",
-                "pt_BR": "Flower Lake",
+                "pt_BR": "Lago de Flores",
                 "langUid": 45,
                 "zh_CN": "\u82b1\u6e56<<A<<[CHANGED 2017\/10\/10]",
                 "de_DE": "Blumensee",
@@ -951,7 +952,7 @@
             "path": "forest.interior.temple-inner",
             "name": {
                 "en_US": "The Rise",
-                "pt_BR": "A escalada",
+                "pt_BR": "A Escalada",
                 "langUid": 263,
                 "de_DE": "Der Aufstieg",
                 "zh_TW": "\u5347\u8d77<<A<<[CHANGED 2021\/01\/12]",

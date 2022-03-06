@@ -125,7 +125,7 @@
             "path": "bergen.inner-questhub-0",
             "name": {
                 "en_US": "Seeker Hub Cellar",
-                "pt_BR": "Seeker Hub - Porão",
+                "pt_BR": "Central Seeker - Porão",
                 "de_DE": "Quest Hub / Keller",
                 "fr_FR": "fr_FR",
                 "langUid": 53,
@@ -143,7 +143,7 @@
             "path": "bergen.special.miners-elevator-quest1",
             "name": {
                 "en_US": "Miner's Elevator B1",
-                "pt_BR": "Elevador B1",
+                "pt_BR": "Elevador dos Mineiros B1",
                 "de_DE": "Fahrkorb / U1",
                 "fr_FR": "fr_FR",
                 "langUid": 55,
@@ -521,7 +521,7 @@
             "path": "bergen.npc-house-1",
             "name": {
                 "en_US": "House 1",
-                "pt_BR": "Casa 2",
+                "pt_BR": "Casa 1",
                 "de_DE": "Haus 1",
                 "fr_FR": "fr_FR",
                 "langUid": 24,
@@ -576,7 +576,7 @@
             },
             "name": {
                 "en_US": "Omni Gilders Base",
-                "pt_BR": "QG dos Omni Gilders",
+                "pt_BR": "Base dos Omni Gilders",
                 "de_DE": "Omni-Gilders",
                 "fr_FR": "fr_FR",
                 "langUid": 33,
@@ -623,7 +623,7 @@
             "path": "bergen.inner-questhub-1",
             "name": {
                 "en_US": "Seeker Hub",
-                "pt_BR": "Seeker Hub",
+                "pt_BR": "Central Seeker",
                 "de_DE": "Quest Hub",
                 "fr_FR": "fr_FR",
                 "langUid": 39,
@@ -662,7 +662,7 @@
             },
             "name": {
                 "en_US": "Digging Mates HQ",
-                "pt_BR": "QG Amigos Mineradores",
+                "pt_BR": "QG dos Amigos Mineradores",
                 "de_DE": "Bergener Buddelkumpels",
                 "fr_FR": "fr_FR",
                 "langUid": 42,
@@ -676,7 +676,7 @@
             "path": "bergen.inner-faction-bergenguard",
             "name": {
                 "en_US": "Bergen Guard HQ",
-                "pt_BR": "QG Guarda de Bergen",
+                "pt_BR": "QG dos Guarda de Bergen",
                 "de_DE": "Bergen-Wache",
                 "fr_FR": "fr_FR",
                 "langUid": 43,
@@ -730,7 +730,7 @@
             "path": "bergen.special.miners-elevator-g",
             "name": {
                 "en_US": "Miner's Elevator G",
-                "pt_BR": "Elevador G",
+                "pt_BR": "Elevador dos Mineiros G",
                 "de_DE": "Fahrkorb / EG",
                 "fr_FR": "fr_FR",
                 "langUid": 54,

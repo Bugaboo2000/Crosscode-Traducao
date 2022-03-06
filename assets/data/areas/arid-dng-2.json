@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem título",
+        "pt_BR": "sem título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "ja_JP": "\u7121\u984c<<A<<[CHANGED 2018\/05\/01]",
@@ -90,7 +90,7 @@
             "path": "arid-dng.second.elevator-down",
             "name": {
                 "en_US": "Elevator Shaft",
-                "pt_BR": "Eixo do elevador",
+                "pt_BR": "Eixo do Elevador",
                 "langUid": 33,
                 "de_DE": "Aufzugschacht",
                 "ja_JP": "\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u30b7\u30e3\u30d5\u30c8<<A<<[CHANGED 2018\/09\/14]",
@@ -107,7 +107,7 @@
             "path": "arid-dng.second.elevator-up",
             "name": {
                 "en_US": "Elevator Shaft",
-                "pt_BR": "Eixo do elevador",
+                "pt_BR": "Eixo do Elevador",
                 "langUid": 35,
                 "de_DE": "Aufzugschacht",
                 "ja_JP": "\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\u30b7\u30e3\u30d5\u30c8<<A<<[CHANGED 2018\/09\/14]",
@@ -235,7 +235,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Blazing Challenge",
-                "pt_BR": "Desafio flamejante",
+                "pt_BR": "Desafio Flamejante",
                 "langUid": 22,
                 "de_DE": "Flammende Pr\u00fcfung",
                 "ja_JP": "\u71c3\u3048\u76db\u308b\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
@@ -252,7 +252,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Freezing Groove",
-                "pt_BR": "Groove congelante",
+                "pt_BR": "Canaleta Congelante",
                 "langUid": 23,
                 "de_DE": "Freezing Groove",
                 "ja_JP": "\u51cd\u3066\u3064\u304f\u5f8b\u52d5<<A<<[CHANGED 2018\/08\/01]",
@@ -441,7 +441,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Shocking Inferno",
-                "pt_BR": "Inferno chocante",
+                "pt_BR": "Inferno Chocante",
                 "langUid": 28,
                 "de_DE": "Schockendes Inferno",
                 "ja_JP": "\u7a32\u5149\u308b\u7344\u708e<<A<<[CHANGED 2018\/08\/01]",
@@ -458,7 +458,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Shocking Challenge",
-                "pt_BR": "Desafio chocante",
+                "pt_BR": "Desafio Chocante",
                 "langUid": 29,
                 "de_DE": "Schockende Pr\u00fcfung",
                 "ja_JP": "\u7a32\u5149\u308b\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
@@ -475,7 +475,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Waving Flames",
-                "pt_BR": "Chamas ondulantes",
+                "pt_BR": "Chamas Ondulantes",
                 "langUid": 30,
                 "de_DE": "Wellende Flammen",
                 "ja_JP": "\u6ce2\u6253\u3064\u706b\u708e<<A<<[CHANGED 2018\/08\/01]",
@@ -492,7 +492,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Waving Inferno",
-                "pt_BR": "Inferno ondulante",
+                "pt_BR": "Inferno Ondulante",
                 "langUid": 31,
                 "de_DE": "Wellendes Inferno",
                 "ja_JP": "\u6ce2\u6253\u3064\u7344\u708e<<A<<[CHANGED 2018\/08\/01]",
@@ -509,7 +509,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Waving Challenge",
-                "pt_BR": "Desafio ondulante",
+                "pt_BR": "Desafio Ondulante",
                 "langUid": 32,
                 "de_DE": "Wellende Pr\u00fcfung",
                 "ja_JP": "\u6ce2\u6253\u3064\u6311\u6226<<A<<[CHANGED 2018\/08\/01]",
@@ -710,7 +710,7 @@
         "level": 5,
         "name": {
             "en_US": "Top",
-            "pt_BR": "Principal",
+            "pt_BR": "Topo",
             "de_DE": "Spitze",
             "zh_CN": "\u6700\u9ad8<<A<<[CHANGED 2018\/08\/01]",
             "ja_JP": "\u9802\u4e0a<<A<<[CHANGED 2018\/08\/01]",
@@ -767,7 +767,7 @@
             "path": "arid-dng.second.f99.boss-1",
             "name": {
                 "en_US": "The Final Arena",
-                "pt_BR": "A última Arena",
+                "pt_BR": "A Arena Final",
                 "langUid": 36,
                 "de_DE": "Die letzte Arena",
                 "ja_JP": "\u6700\u5f8c\u306e\u30a2\u30ea\u30fc\u30ca<<A<<[CHANGED 2018\/09\/16]",
@@ -784,7 +784,7 @@
             "path": "arid-dng.second.f99.boss-2",
             "name": {
                 "en_US": "The Ultimate Experience",
-                "pt_BR": "A experiência final",
+                "pt_BR": "A Experiência Definitiva",
                 "langUid": 37,
                 "de_DE": "Die ultimative Erfahrung",
                 "ja_JP": "\u7a76\u6975\u306e\u7d4c\u9a13<<A<<[CHANGED 2018\/09\/16]",
@@ -818,7 +818,7 @@
             "path": "arid-dng.second.f99.pre-server",
             "name": {
                 "en_US": "Server Room Entrance",
-                "pt_BR": "Entrada da sala dos servidores",
+                "pt_BR": "Entrada da Sala dos Servidores",
                 "langUid": 42,
                 "de_DE": "Serverraum \/ Eingang",
                 "ja_JP": "\u30b5\u30fc\u30d0\u30fc\u30eb\u30fc\u30e0\u306e\u5165\u308a\u53e3<<A<<[CHANGED 2018\/09\/19]",
@@ -835,7 +835,7 @@
             "path": "arid-dng.second.f99.server-room",
             "name": {
                 "en_US": "Server Room",
-                "pt_BR": "Sala dos servidores",
+                "pt_BR": "Sala dos Servidores",
                 "langUid": 43,
                 "de_DE": "Serverraum",
                 "ja_JP": "\u30b5\u30fc\u30d0\u30fc\u30eb\u30fc\u30e0<<A<<[CHANGED 2018\/09\/19]",
