@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem Título",
+        "pt_BR": "sem Título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "untitled",
@@ -172,7 +172,7 @@
             "dungeon": "DUNGEON",
             "name": {
                 "en_US": "Octo Office",
-                "pt_BR": "Octo Escritório",
+                "pt_BR": "Escritório Octo",
                 "langUid": 424,
                 "ja_JP": "\u30aa\u30af\u30c8\u30aa\u30d5\u30a3\u30b9<<A<<[CHANGED 2019\/07\/31]",
                 "zh_CN": "\u5341\u529e\u516c\u5ba4<<A<<[CHANGED 2019\/07\/31]",
@@ -780,6 +780,7 @@
         "level": 0,
         "name": {
             "en_US": "",
+            "pt_BR": "",
             "de_DE": ""
         },
         "tiles": [
@@ -1265,7 +1266,7 @@
             "dungeon": "",
             "name": {
                 "en_US": "Tying Greens",
-                "pt_BR": "Tying Greens",
+                "pt_BR": "Nós Verdes",
                 "de_DE": "Bindendes Gr\u00fcn",
                 "fr_FR": "fr_FR",
                 "langUid": 193,
@@ -1422,7 +1423,7 @@
             "path": "jungle-city.entrance",
             "name": {
                 "en_US": "Basin Keep Entrance",
-                "pt_BR": "Manter Entrada Basin",
+                "pt_BR": "Entrada da Doca Basin",
                 "de_DE": "Burg Bassin \/ Eingang",
                 "fr_FR": "fr_FR",
                 "langUid": 254,
@@ -1458,7 +1459,7 @@
             "path": "jungle.dng.tree-exterior",
             "name": {
                 "en_US": "Grand Krys'kajo Entrance",
-                "pt_BR": "Grand Krys'kajo Entrada",
+                "pt_BR": "Grande Krys'kajo Entrada",
                 "de_DE": "Gro\u00dfer Krys'kajo \/ Eingang",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u5927\u51ef\u65af\u5361\u7f57\u5165\u53e3",

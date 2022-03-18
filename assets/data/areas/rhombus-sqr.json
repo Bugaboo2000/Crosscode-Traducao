@@ -132,7 +132,7 @@
             "path": "rhombus-sqr.interior.arena-00-training",
             "name": {
                 "en_US": "Training Arena",
-                "pt_BR": "Arena de treinamento",
+                "pt_BR": "Arena de Treinamento",
                 "langUid": 270,
                 "zh_CN": "\u8bad\u7ec3\u7ade\u6280\u573a<<A<<[CHANGED 2019/04/16]",
                 "ko_KR": "\ud6c8\ub828 \uacbd\uae30\uc7a5<<A<<[CHANGED 2019/04/16]",
@@ -149,7 +149,7 @@
             "path": "rhombus-sqr.interior.autobahn",
             "name": {
                 "en_US": "Highway Tunnel 1",
-                "pt_BR": "Tunel rodoviário 1",
+                "pt_BR": "Tunel Rodoviário 1",
                 "langUid": 357,
                 "de_DE": "Autobahntunnel 1",
                 "ja_JP": "\u30cf\u30a4\u30a6\u30a7\u30a4\u30c8\u30f3\u30cd\u30eb 1<<A<<[CHANGED 2021/02/09]",
@@ -166,7 +166,7 @@
             "path": "rhombus-sqr.interior.autobahn-boss",
             "name": {
                 "en_US": "Highway Tunnel 2",
-                "pt_BR": "Túnel rodoviário 2",
+                "pt_BR": "Túnel Rodoviário 2",
                 "langUid": 358,
                 "de_DE": "Autobahntunnel 2",
                 "ja_JP": "\u30cf\u30a4\u30a6\u30a7\u30a4\u30c8\u30f3\u30cd\u30eb 2<<A<<[CHANGED 2021/02/09]",
@@ -464,7 +464,7 @@
             "path": "rhombus-sqr.residential-s1",
             "name": {
                 "en_US": "Residential District",
-                "pt_BR": "Distrito residencial",
+                "pt_BR": "Distrito Residencial",
                 "langUid": 176,
                 "zh_CN": "\u5c45\u4f4f\u533a<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u4f4f\u5b85\u5730<<A<<[CHANGED 2018/07/09]",
@@ -498,7 +498,7 @@
             "path": "rhombus-sqr.center-se",
             "name": {
                 "en_US": "Lloyd Passage",
-                "pt_BR": "pasagem Lloyd",
+                "pt_BR": "Pasagem Lloyd",
                 "langUid": 186,
                 "zh_CN": "\u6d1b\u4f0a\u5fb7\u5c0f\u5f84<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u30ed\u30a4\u30c9\u901a\u308a<<A<<[CHANGED 2018/07/09]",
@@ -515,7 +515,7 @@
             "path": "rhombus-sqr.center-e",
             "name": {
                 "en_US": "Garden Boulevard",
-                "pt_BR": "Garden Boulevard",
+                "pt_BR": "Jardim Boulevard",
                 "langUid": 188,
                 "zh_CN": "\u82b1\u56ed\u5927\u9053<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u5ead\u5712\u5927\u901a\u308a<<A<<[CHANGED 2018/07/09]",
@@ -532,7 +532,7 @@
             "path": "rhombus-sqr.shops-1",
             "name": {
                 "en_US": "Shopping District",
-                "pt_BR": "Distrito comercial",
+                "pt_BR": "Distrito Comercial",
                 "langUid": 172,
                 "zh_CN": "\u8d2d\u7269\u533a<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u5546\u5e97\u8857<<A<<[CHANGED 2018/07/09]",
@@ -549,7 +549,7 @@
             "path": "rhombus-sqr.interior.old-smith",
             "name": {
                 "en_US": "Old Smith GF",
-                "pt_BR": "Velho ferreiro GF",
+                "pt_BR": "Velho Ferreiro GF",
                 "langUid": 195,
                 "zh_CN": "\u65e7\u94c1\u5320\u94fa\u5e95\u5c42<<A<<[CHANGED 2018/08/01]",
                 "ja_JP": "\u5e74\u8001\u3044\u305f\u935b\u51b6\u5c4b \u5730\u968e<<A<<[CHANGED 2018/08/01]",
@@ -566,7 +566,7 @@
             "path": "rhombus-sqr.interior.booster",
             "name": {
                 "en_US": "Boost Lounge",
-                "pt_BR": "Boost Lounge",
+                "pt_BR": "Salão Ampliado",
                 "langUid": 220,
                 "de_DE": "Booster Lounge",
                 "ja_JP": "\u30d6\u30fc\u30b9\u30c8\u30e9\u30a6\u30f3\u30b8<<A<<[CHANGED 2018/08/01]",
@@ -583,7 +583,7 @@
             "path": "rhombus-sqr.interior.equipment",
             "name": {
                 "en_US": "Gear Store GF",
-                "pt_BR": "Loja de ferramentas GF",
+                "pt_BR": "Loja de Ferramentas GF",
                 "langUid": 221,
                 "de_DE": "Ausr\u00fcstungsgesch\u00e4ft / EG",
                 "ja_JP": "\u30a2\u30a4\u30c6\u30e0\u30b9\u30c8\u30a2 \u5730\u968e<<A<<[CHANGED 2018/08/28]",
@@ -600,7 +600,7 @@
             "path": "rhombus-sqr.interior.items",
             "name": {
                 "en_US": "Buy Land GF",
-                "pt_BR":"Buy Land GF",
+                "pt_BR": "Comprar Terreno GF",
                 "langUid": 222,
                 "de_DE": "Kaufland / EG",
                 "ja_JP": "\u88c5\u5099\u5c4b \u5730\u968e<<A<<[CHANGED 2018/08/28]",
@@ -617,7 +617,7 @@
             "path": "rhombus-sqr.interior.invest-mansion-eg",
             "name": {
                 "en_US": "Vestorovich Mansion ",
-                "pt_BR": "Vestorovich Mansion",
+                "pt_BR": "Mansão Vestorovich",
                 "langUid": 227,
                 "de_DE": "Villa Vestorovich",
                 "ja_JP": "\u30f4\u30a7\u30b9\u30c8\u30ed\u30d3\u30c3\u30c1\u90b8\u5b85<<A<<[CHANGED 2018/09/02]",
@@ -634,7 +634,7 @@
             "path": "rhombus-sqr.interior.curios",
             "name": {
                 "en_US": "Curios Trinkets",
-                "pt_BR": "Curios Trinkets",
+                "pt_BR": "Bugigangas Curiosas",
                 "langUid": 228,
                 "de_DE": "Kuriose Kinkerlitzchen",
                 "ja_JP": "\u30ec\u30a2\u30a2\u30a4\u30c6\u30e0 & \u305d\u306e\u4ed6<<A<<[CHANGED 2018/09/14]",
@@ -651,7 +651,7 @@
             "path": "rhombus-sqr.interior.arena-cafe-01",
             "name": {
                 "en_US": "Arena Cafe",
-                "pt_BR":"Arena Cafe",
+                "pt_BR": "Café da Arena",
                 "langUid": 241,
                 "de_DE": "Arena-Caf\u00e9",
                 "ja_JP": "\u30a2\u30ea\u30fc\u30ca\u30ab\u30d5\u30a7<<A<<[CHANGED 2018/09/14]",
@@ -685,7 +685,7 @@
             "path": "rhombus-sqr.interior.arena-01",
             "name": {
                 "en_US": "Arena Lobby",
-                "pt_BR": "Arena Lobby",
+                "pt_BR": "Lobby da Arena",
                 "langUid": 264,
                 "de_DE": "Arena / Lobby",
                 "zh_CN": "\u7ade\u6280\u573a\u5927\u5385<<A<<[CHANGED 2019/01/30]",
@@ -719,7 +719,7 @@
             "path": "rhombus-sqr.center-w",
             "name": {
                 "en_US": "Garden Terrace",
-                "pt_BR": "Jardim e terraço",
+                "pt_BR": "Terraço do Jardim",
                 "langUid": 280,
                 "de_DE": "Gartenterrasse",
                 "zh_TW": "\u68af\u7530\u82b1\u5712<<A<<[CHANGED 2020/06/15]",
@@ -753,7 +753,7 @@
             "path": "rhombus-sqr.beach-sw",
             "name": {
                 "en_US": "SW Beach",
-                "pt_BR": "SW Beach",
+                "pt_BR": "Praia SW",
                 "langUid": 310,
                 "de_DE": "SW-Strand",
                 "zh_TW": "\u897f\u5357\u6d77\u7058<<A<<[CHANGED 2021/01/12]",
@@ -770,7 +770,7 @@
             "path": "rhombus-sqr.center-ne",
             "name": {
                 "en_US": "Cliff Exhibition",
-                "pt_BR": "Exibição no penhasco",
+                "pt_BR": "Exibição no Penhasco",
                 "langUid": 321,
                 "de_DE": "Klippenschau",
                 "zh_TW": "\u61f8\u5d16\u77ad\u671b\u53f0<<A<<[CHANGED 2021/01/12]",
@@ -804,7 +804,7 @@
             "path": "rhombus-sqr.interior.questhub",
             "name": {
                 "en_US": "Global Quest Hub",
-                "pt_BR": "Centro Global de missões",
+                "pt_BR": "Central Global de Missões",
                 "langUid": 334,
                 "zh_TW": "\u5168\u7403\u4efb\u52d9\u4e2d\u5fc3<<A<<[CHANGED 2021/01/12]",
                 "zh_CN": "\u5168\u7403\u4efb\u52a1\u4e2d\u5fc3<<A<<[CHANGED 2021/01/12]",
@@ -855,7 +855,7 @@
             "path": "rhombus-sqr.interior.goat-quest-building-1",
             "name": {
                 "en_US": "Rhombus Parks Embassy",
-               "pt_BR": "Rhombus Parks Embassy",
+                "pt_BR": "Embaixada dos Parques de Rhombus",
                 "langUid": 374,
                 "zh_TW": "<<A<<[CHANGED 2021/03/10]",
                 "zh_CN": "\u7f57\u59c6\u5e03\u65af\u516c\u56ed\u4f7f\u9986<<A<<[CHANGED 2021/03/10]",
@@ -872,7 +872,7 @@
             "path": "rhombus-sqr.interior.goat-cafe-01",
             "name": {
                 "en_US": "Caf\u00e9 Goat",
-                "pt_BR": "Caf\u00e9 Goat",
+                "pt_BR": "Caf\u00e9 Cabra",
                 "langUid": 381,
                 "zh_TW": "<<A<<[CHANGED 2021/03/10]",
                 "zh_CN": "\u5c71\u7f8a\u5496\u5561\u5e97<<A<<[CHANGED 2021/03/10]",
@@ -1412,7 +1412,7 @@
             "path": "rhombus-sqr.interior.old-smith-upper",
             "name": {
                 "en_US": "Old Smith 1F",
-                "pt_BR": "velho ferreiro 1F",
+                "pt_BR": "Velho Ferreiro 1F",
                 "langUid": 196,
                 "zh_CN": "\u65e7\u94c1\u5320\u94fa1\u5c42<<A<<[CHANGED 2018/08/01]",
                 "ja_JP": "\u5e74\u8001\u3044\u305f\u935b\u51b6\u5c4b1\u968e<<A<<[CHANGED 2018/08/01]",
@@ -1429,7 +1429,7 @@
             "path": "rhombus-sqr.interior.equipment-f1",
             "name": {
                 "en_US": "Gear Store 1F",
-                "pt_BR": "Loja de ferramentas 1F",
+                "pt_BR": "Loja de Ferramentas 1F",
                 "langUid": 226,
                 "de_DE": "Ausr\u00fcstungsgesch\u00e4ft / 1. OG",
                 "ja_JP": "\u88c5\u5099\u5c4b1\u968e<<A<<[CHANGED 2018/08/01]",
@@ -1446,7 +1446,7 @@
             "path": "rhombus-sqr.interior.arena-cafe-02",
             "name": {
                 "en_US": "Arena Cafe 2nd Floor",
-                "pt_BR": "Arena Café 2nd Andar",
+                "pt_BR": "Café da Arena 2° Andar",
                 "langUid": 242,
                 "de_DE": "Arena-Caf\u00e9 / 2. OG",
                 "ja_JP": "\u30a2\u30ea\u30fc\u30ca\u30ab\u30d5\u30a72\u968e<<A<<[CHANGED 2018/09/14]",
@@ -1463,7 +1463,7 @@
             "path": "rhombus-sqr.interior.items-f1",
             "name": {
                 "en_US": "Buy Land F1",
-                "pt_BR": "Buy Land F1",
+                "pt_BR": "Comprar Terreno F1",
                 "langUid": 378,
                 "de_DE": "Kaufland / 1. OG",
                 "ja_JP": "\u88c5\u5099\u5c4b 1\u968e<<A<<[CHANGED 2021/03/10]",

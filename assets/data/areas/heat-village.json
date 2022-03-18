@@ -2,7 +2,7 @@
     "DOCTYPE": "AREAS_MAP",
     "name": {
         "en_US": "untitled",
-        "pt_BR": "Sem Título",
+        "pt_BR": "sem Título",
         "de_DE": "Unbenannt",
         "langUid": 1,
         "zh_CN": "untitled",
@@ -89,7 +89,7 @@
             "path": "heat-village.interior.quest-hub-cellar",
             "name": {
                 "en_US": "Seeker Hub Cellar",
-                "pt_BR": "Adega,Centro de Comando",
+                "pt_BR": "Adega Celtral Seeker",
                 "de_DE": "Quest Hub \/ Keller",
                 "fr_FR": "fr_FR",
                 "langUid": 16,
@@ -286,7 +286,7 @@
             "path": "heat-village.interior.quest-hub-eg",
             "name": {
                 "en_US": "Seeker Hub",
-                "pt_BR": "Centro de Comando",
+                "pt_BR": "Central Seeker",
                 "de_DE": "Quest Hub",
                 "fr_FR": "fr_FR",
                 "langUid": 8,
@@ -322,7 +322,7 @@
             "path": "heat-village.interior.house-1",
             "name": {
                 "en_US": "Shad Home",
-                "pt_BR": "Casa de Shad",
+                "pt_BR": "Casa do Shad",
                 "de_DE": "Shad-Haus",
                 "fr_FR": "fr_FR",
                 "langUid": 12,
@@ -340,7 +340,7 @@
             "path": "heat-village.interior.faction-bakiadventurers",
             "name": {
                 "en_US": "Arid Breeze HQ",
-                "pt_BR": "QG Brisa Árida",
+                "pt_BR": "QG da Brisa Árida",
                 "de_DE": "W\u00fcstenwind",
                 "fr_FR": "fr_FR",
                 "langUid": 34,
@@ -358,7 +358,7 @@
             "path": "heat-village.interior.faction-bakiguard",
             "name": {
                 "en_US": "Baki Guard HQ",
-                "pt_BR": "Sede Baki Guard",
+                "pt_BR": "QG do Guarda Baki",
                 "de_DE": "Ba'kii-Wache",
                 "fr_FR": "fr_FR",
                 "langUid": 35,
@@ -376,7 +376,7 @@
             "path": "heat-village.interior.tradebuilding-eg",
             "name": {
                 "en_US": "Bazaar House",
-                "pt_BR": "Casa de Bazaar",
+                "pt_BR": "Casa do Bazaar",
                 "de_DE": "Bazarhaus",
                 "fr_FR": "fr_FR",
                 "zh_CN": "\u5e02\u573a\u623f\u5c4b",
@@ -394,8 +394,8 @@
             "path": "heat-village.interior.house-2",
             "name": {
                 "en_US": "Dusty Home",
-                "langUid": 39,
                 "pt_BR": "Casa Empoeirada",
+                "langUid": 39,
                 "zh_CN": "\u6c99\u4e4b\u5c45<<A<<[CHANGED 2017\/10\/10]",
                 "de_DE": "Staubiges Heim",
                 "ko_KR": "\uba3c\uc9c0 \uc313\uc778 \uc9d1<<A<<[CHANGED 2017\/10\/17]",
@@ -411,7 +411,7 @@
             "path": "heat-village.interior.faction-bakigreenies",
             "name": {
                 "en_US": "Children of Shadoon HQ",
-                "pt_BR": "QG Crianças de Shadoon",
+                "pt_BR": "QG das Crianças de Shadoon",
                 "langUid": 41,
                 "de_DE": "Kinder Shadoons",
                 "ja_JP": "\u30c1\u30eb\u30c9\u30ec\u30f3\u30aa\u30d6\u30b7\u30e3\u30c9\u30a5\u30fc\u30f3\u672c\u90e8<<A<<[CHANGED 2018\/09\/14]",
@@ -556,7 +556,7 @@
             "path": "heat-village.interior.quest-hub-og",
             "name": {
                 "en_US": "Seeker Hub 2nd Floor",
-                "pt_BR": "Centro de Comando 2º Andar",
+                "pt_BR": "Central de Comando 2º Andar",
                 "de_DE": "Quest Hub \/ 1. OG",
                 "fr_FR": "fr_FR",
                 "langUid": 33,
