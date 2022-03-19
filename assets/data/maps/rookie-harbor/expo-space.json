@@ -1660,6 +1660,7 @@
           {
             "message": {
               "en_US": "Congratulations, Seeker.",
+              "pt_BR": "Parabéns, Seeker.",
               "de_DE": "Gratulation, Seeker.",
               "zh_CN": "\u63a2\u7d22\u8005\uff0c\u606d\u559c\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3081\u3067\u3068\u3046\u3001\u63a2\u7d22\u8005\u3088\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1674,6 +1675,7 @@
           {
             "message": {
               "en_US": "You collected your \\c[3]second element\\c[0] and reached another milestone of operation \\c[3]Track Walker\\c[0].",
+              "pt_BR": "Você coletou seu \\c[3]segundo elemento\\c[0] e atingiu outro marco de operação \\c[3]Operação Andarilho\\c[0].",
               "de_DE": "Du hast dein \\c[3]zweites Element\\c[0] erlangt und damit einen weiteren Meilenstein von Operation \\c[3]Pfadl\u00e4ufer\\c[0] erreicht.",
               "zh_CN": "\u4f60\u83b7\u5f97\u4e86\\c[3]\u7b2c\u4e8c\u4e2a\u5143\u7d20\\c[0]\uff0c\u62b5\u8fbe\u4e86\\c[3]\u5bfb\u8def\u8005\\c[0]\u884c\u52a8\u7684\u53c8\u4e00\u4e2a\u91cc\u7a0b\u7891\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]2\u3064\u76ee\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\\c[0]\u3092\u624b\u306b\u5165\u308c\u3001\n\u30aa\u30da\u30ec\u30fc\u30b7\u30e7\u30f3\u30fb\\c[3]\u30c8\u30e9\u30c3\u30af\u30a6\u30a9\u30fc\u30ab\u30fc\\c[0]\u306e\n\u6b21\u306a\u308b\u76ee\u6a19\u3092\u9054\u6210\u3057\u305f\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1826,6 +1828,7 @@
           {
             "message": {
               "en_US": "With the \\c[3]\\v[item.230.name]\\c[0] you can now access \\c[3]Autumn's Fall\\c[0] to the northeast of \\c[3]Rookie Harbor\\c[0].",
+              "pt_BR": "Com o \\c[3]\\v[item.230.name]\\c[0] agora você pode acessar \\c[3]Autumn's Fall\\c[0] ao nordeste de \\c[3]Rookie Harbor\\c[0].",
               "de_DE": "Mit der \\c[3]Roten Flammenform\\c[0] erh\u00e4ltst du nun Zugang zu \\c[3]Autumn's Fall\\c[0] nord\u00f6stlich von \\c[3]Rookie Harbor\\c[0].",
               "zh_CN": "\u6709\u4e86\\c[3]\\v[item.230.name]\\c[0]\uff0c\u4f60\u73b0\u5728\u53ef\u4ee5\u524d\u5f80\\c[3]\u65b0\u624b\u6e2f\\c[0]\u4e1c\u5317\u65b9\u5411\u7684\\c[3]\u843d\u79cb\u6797\u5730\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[item.230.name]\\c[0]\u304c\u3042\u308c\u3070\u3001\n\\c[3]\u30eb\u30fc\u30ad\u30fc\u30cf\u30fc\u30d0\u30fc\\c[0]\u306e\u5317\u6771\u306b\u3042\u308b\n\\c[3]\u30aa\u30fc\u30bf\u30e0\u30d5\u30a9\u30fc\u30eb\\c[0]\u306b\u51fa\u5165\u308a\u3067\u304d\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1840,6 +1843,7 @@
           {
             "message": {
               "en_US": "To proceed, seek the \\c[3]ancient statue\\c[0] within Autumn's Fall and accept your next trial.",
+              "pt_BR": "Para prosseguir, procure pela \\c[3]estátua antiga\\c[0] em Autumn's Fall e aceite o seu próximo teste.",
               "de_DE": "Suche die \\c[3]Alte Statue\\c[0] in Autumn's Fall auf und stelle dich deiner n\u00e4chsten Pr\u00fcfung.",
               "zh_CN": "\u8bf7\u524d\u5f80\u843d\u79cb\u6797\u5730\u7684\\c[3]\u53e4\u4ee3\u96d5\u50cf\\c[0]\u5904\u63a5\u53d7\u4e0b\u4e00\u9879\u6311\u6218\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5148\u3078\u9032\u307f\u305f\u304f\u3070\u3001\u30aa\u30fc\u30bf\u30e0\u30d5\u30a9\u30fc\u30eb\u306b\u3042\u308b\n\\c[3]\u53e4\u4ee3\u306e\u50cf\\c[0]\u3092\u63a2\u3057\u3066\u3001\u6b21\u306e\u8a66\u7df4\u3092\u53d7\u3051\u308b\u306e\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1924,6 +1928,7 @@
           {
             "message": {
               "en_US": "Take this reward \nfor your accomplishments.",
+              "pt_BR": "Aceite esta recompensa \npor suas conquistas.",
               "de_DE": "Nimm dies als Anerkennung\nf\u00fcr deine Verdienste entgegen.",
               "zh_CN": "\u5927\u529f\u544a\u6210\uff0c\n\u63a5\u53d7\u5956\u52b1\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u304c\u6210\u3057\u9042\u3052\u305f\u3053\u3068\u3078\u306e\u8912\u7f8e\u306b\u3001\n\u3069\u3046\u304b\u3053\u308c\u3092\u53d7\u3051\u53d6\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1970,6 +1975,7 @@
           {
             "message": {
               "en_US": "Good luck and stay vigilant.",
+              "pt_BR": "Boa sorte e permaneça vigilante.",
               "de_DE": "Viel Gl\u00fcck und bleib wachsam.",
               "zh_CN": "\u795d\u4f60\u597d\u8fd0\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u6cb9\u65ad\u3057\u306a\u3044\u3053\u3068\u3060\u3002\u5e78\u904b\u3092\u7948\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2091,6 +2097,7 @@
           {
             "message": {
               "en_US": "Congratulations, Seeker.",
+              "pt_BR": "Parabéns, Seeker.",
               "de_DE": "Gratulation, Seeker.",
               "zh_CN": "\u63a2\u7d22\u8005\uff0c\u606d\u559c\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3081\u3067\u3068\u3046\u3001\u63a2\u7d22\u8005\u3088\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2243,6 +2250,7 @@
           {
             "message": {
               "en_US": "You acquired the \\c[3]\\v[item.376.name]\\c[0] giving you access to \\c[3]Gaia's Garden\\c[0] to the north.",
+              "pt_BR": "Você adiquiriu o \\c[3]\\v[item.376.name]\\c[0] dando-lhe acesso ao norte do \\c[3]Jardim de Gaia\\c[0].",
               "de_DE": "Du hast die \\c[3]Gr\u00fcne Samenform\\c[0] erhalten, die dir Zugang zu \\c[3]Gaias Garten\\c[0] im Norden gew\u00e4hrt.",
               "zh_CN": "\u4f60\u83b7\u5f97\u7684\\c[3]\\v[item.376.name]\\c[0]\u4e3a\u4f60\u5f00\u542f\u4e86\u901a\u5f80\u5317\u65b9\\c[3]\u76d6\u4e9a\u82b1\u56ed\\c[0]\u7684\u9053\u8def\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]\\v[item.376.name]\\c[0]\u3092\u624b\u306b\u5165\u308c\u305f\u3002\n\u3053\u308c\u3067\u5317\u306b\u3042\u308b\\c[3]\u30ac\u30a4\u30a2\u306e\u5712\\c[0]\u306b\n\u51fa\u5165\u308a\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2257,6 +2265,7 @@
           {
             "message": {
               "en_US": "It is an expansive jungle and home of several temples.",
+              "pt_BR": "É uma selva expansiva e lar de vários templos.",
               "de_DE": "Gaias Garten ist ein weitl\u00e4ufiger Dschungel und beheimatet gleich mehrere Tempel.",
               "zh_CN": "\u90a3\u662f\u4e00\u5ea7\u8302\u5bc6\u7684\u4e1b\u6797\uff0c\u91cc\u9762\u6709\u6570\u5ea7\u795e\u5e99\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5e83\u5927\u306a\u30b8\u30e3\u30f3\u30b0\u30eb\u3068\n3\u3064\u306e\u795e\u6bbf\u304c\u5f85\u3061\u53d7\u3051\u308b\u5834\u6240\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2271,6 +2280,7 @@
           {
             "message": {
               "en_US": "The \\c[3]Zir'vitar temple\\c[0], housing the element \\c[3]Shock\\c[0]...",
+              "pt_BR": "O \\c[3]Templo de Zir'vitar\\c[0], abriga o elemento \\c[3]Choque\\c[0]...",
               "de_DE": "Der \\c[3]Zir'vitar-Tempel\\c[0] beherbergt das Element \\c[3]Schock\\c[0]...",
               "zh_CN": "\u5176\u4e2d\u7684\\c[3]\u9f50\u7ef4\u5854\u795e\u5e99\\c[0]\u91cc\uff0c\u6709\u7740\\c[3]\u7535\\c[0]\u5143\u7d20...<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\u96fb\u6483\\c[0]\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u304c\u5bbf\u308b\n\\c[3]\u30b8\u30eb\u30fb\u30f4\u30a3\u30bf\u30eb\u795e\u6bbf\\c[0]\u3068...<<A<<[CHANGED 2018/07/09]",
@@ -2285,6 +2295,7 @@
           {
             "message": {
               "en_US": "...and the \\c[3]So'najiz temple\\c[0], housing the element \\c[3]Wave\\c[0].",
+              "pt_BR": "...e o \\c[3]Templo de So'najiz\\c[0], abriga o elemento \\c[3]Onda\\c[0].",
               "de_DE": "... und der \\c[3]So'najiz-Tempel\\c[0] beherbergt das Element \\c[3]Welle\\c[0].",
               "zh_CN": "...\u800c\\c[3]\u7d22\u7eb3\u5409\u795e\u5e99\\c[0]\u91cc\u5219\u6709\u7740\\c[3]\u6ce2\\c[0]\u5143\u7d20\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "...\\c[3]\u6ce2\u52d5\\c[0]\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u304c\u5bbf\u308b\n\\c[3]\u30bd\u30fc\u30fb\u30ca\u30a4\u30fc\u30be\u795e\u6bbf\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2299,6 +2310,7 @@
           {
             "message": {
               "en_US": "Your next task is to acquire both of these elements and complete the final trial of the \\c[3]Grand Krys'kajo\\c[0].",
+              "pt_BR": "Sua próxima tarefa é adquirir esses dois elementos e concluir o teste final do \\c[3]Grand Krys'kajo\\c[0].",
               "de_DE": "Deine n\u00e4chste Aufgabe ist, beide Elemente zu erlangen und die letzte Pr\u00fcfung des \\c[3]Gro\u00dfen Krys'kajo\\c[0] zu meistern.",
               "zh_CN": "\u4f60\u7684\u4e0b\u4e00\u9879\u4efb\u52a1\u662f\u83b7\u5f97\u8fd9\u4e24\u4e2a\u5143\u7d20\uff0c\u5e76\u5b8c\u6210\\c[3]\u5927\u51ef\u65af\u5361\u7f57\\c[0]\u7684\u6700\u7ec8\u8bd5\u70bc\u3002<<A<<[CHANGED 2018/08/01]",
               "ja_JP": "\u305d\u3057\u3066\u3001\\c[3]\u30af\u30ea\u30e5\u30b9\u30fb\u30ab\u30fc\u30e8\u5927\u795e\u6bbf\\c[0]\u3002\n\u541b\u306e\u6b21\u306a\u308b\u76ee\u6a19\u306f\u30012\u3064\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u3092\n\u624b\u306b\u5165\u308c\u3001\u5927\u795e\u6bbf\u3067\n\u6700\u5f8c\u306e\u8a66\u7df4\u3092\u53d7\u3051\u308b\u3053\u3068\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2383,6 +2395,7 @@
           {
             "message": {
               "en_US": "Good luck and stay vigilant.",
+              "pt_BR": "Boa sorte e permaneça vigilante.",
               "de_DE": "Viel Gl\u00fcck und bleib wachsam.",
               "zh_CN": "\u795d\u4f60\u597d\u8fd0\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u6cb9\u65ad\u3057\u306a\u3044\u3053\u3068\u3060\u3002\u5e78\u904b\u3092\u7948\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2513,6 +2526,7 @@
           {
             "message": {
               "en_US": "Congratulations, Seeker.",
+              "pt_BR": "Parabéns, Seeker.",
               "de_DE": "Gratulation, Seeker.",
               "zh_CN": "\u63a2\u7d22\u8005\uff0c\u606d\u559c\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3081\u3067\u3068\u3046\u3001\u63a2\u7d22\u8005\u3088\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2527,6 +2541,7 @@
           {
             "message": {
               "en_US": "You collected \\c[3]all 4 elements\\c[0] and mastered the final challenge of the \\c[3]Grand Krys'kajo\\c[0].",
+              "pt_BR": "Você adquiriu \\c[3]todos os 4 elementos\\c[0] e venceu o desafio final do \\c[3]Grand Krys'kajo\\c[0].",
               "de_DE": "Du hast nun \\c[3]alle 4 Elemente\\c[0] erlangt und die letzte Pr\u00fcfung des \\c[3]Gro\u00dfen Krys'kajo\\c[0] gemeistert.",
               "zh_CN": "\u4f60\u6536\u96c6\u4e86\\c[3]\u5168\u90e8\u56db\u79cd\u5143\u7d20\\c[0]\u5e76\u901a\u8fc7\u4e86\\c[3]\u5927\u51ef\u65af\u5361\u7f57\\c[0]\u7684\u6700\u7ec8\u8bd5\u70bc\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]4\u3064\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u3059\u3079\u3066\\c[0]\u3092\n\u624b\u306b\u5165\u308c\u3001\\c[3]\u30af\u30ea\u30e5\u30b9\u30fb\u30ab\u30fc\u30e8\u5927\u795e\u6bbf\\c[0]\u306e\n\u6700\u5f8c\u306e\u8a66\u7df4\u3092\u4e57\u308a\u8d8a\u3048\u305f\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2541,6 +2556,7 @@
           {
             "message": {
               "en_US": "The time has come to enter the final stage of operation \\c[3]Track Walker\\c[0].",
+              "pt_BR": "Chegou o momento de entrar na fase final de operação \\c[3]Andarilho\\c[0].",
               "de_DE": "Damit ist die Zeit reif f\u00fcr die Endphase von Operation \\c[3]Pfadl\u00e4ufer\\c[0].",
               "zh_CN": "\u662f\u65f6\u5019\u8fdb\u5165\\c[3]\u5bfb\u8def\u8005\\c[0]\u884c\u52a8\u7684\u6700\u7ec8\u9636\u6bb5\u4e86\u3002<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u30aa\u30da\u30ec\u30fc\u30b7\u30e7\u30f3\u30fb\\c[3]\u30c8\u30e9\u30c3\u30af\u30a6\u30a9\u30fc\u30ab\u30fc\\c[0]\u306e\n\u6700\u7d42\u6bb5\u968e\u306b\u306e\u305e\u3080\u6642\u304c\u6765\u305f\u3002<<A<<[CHANGED 2018/09/19]",
@@ -2693,6 +2709,7 @@
           {
             "message": {
               "en_US": "With the \\c[3]\\v[item.410.name]\\c[0] you can access \\c[3]Sapphire Ridge\\c[0] to the east of \\c[3]Autumn's Fall\\c[0].",
+              "pt_BR": "Com o \\c[3]\\v[item.410.name]\\c[0] você pode acessar \\c[3]Sapphire Ridge\\c[0] ao leste de \\c[3]Autumn's Fall\\c[0].",
               "de_DE": "Mit der \\c[3]Sternform\\c[0] erh\u00e4ltst du nun Zugang zum \\c[3]Saphirgrat\\c[0] \u00f6stlich von \\c[3]Autumn's Fall\\c[0].",
               "zh_CN": "\u901a\u8fc7\\c[3]\\v[item.410.name]\\c[0]\uff0c\u4f60\u53ef\u4ee5\u524d\u5f80\\c[3]\u843d\u79cb\u6797\u5730\\c[0]\u4e1c\u8fb9\u7684\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[item.410.name]\\c[0]\u304c\u3042\u308c\u3070\u3001\n\\c[3]\u30aa\u30fc\u30bf\u30e0\u30d5\u30a9\u30fc\u30eb\\c[0]\u306e\u6771\u5074\u306b\u3042\u308b\n\\c[3]\u30b5\u30d5\u30a1\u30a4\u30a2\u5cf0\\c[0]\u306b\u5165\u308c\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2707,6 +2724,7 @@
           {
             "message": {
               "en_US": "To proceed, seek the \\c[3]Cave Inn\\c[0] to learn more about your next task.",
+              "pt_BR": "Para prosseguir, procure a \\c[3]Cave Inn\\c[0] para saber mais sobre sua próxima tarefa.",
               "de_DE": "Suche die \\c[3]H\u00f6hlenherberge\\c[0] auf, um weitere Instruktionen zu erhalten.",
               "zh_CN": "\u524d\u5f80\\c[3]\u6d1e\u5929\u65c5\u9986\\c[0]\u83b7\u53d6\u5173\u4e8e\u4e0b\u4e00\u4e2a\u4efb\u52a1\u7684\u4fe1\u606f\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5148\u3078\u9032\u307f\u305f\u304f\u3070\u3001\\c[3]\u6d1e\u7a9f\u5bbf\\c[0]\u3092\u63a2\u3057\u3001\n\u6b21\u306e\u4efb\u52d9\u306b\u3064\u3044\u3066\u5b66\u3076\u3053\u3068\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2791,6 +2809,7 @@
           {
             "message": {
               "en_US": "Take this reward \nfor your accomplishments.",
+              "pt_BR": "Aceite esta recompensa \npor suas conquistas.",
               "de_DE": "Nimm dies als Anerkennung\nf\u00fcr deine Verdienste entgegen.",
               "zh_CN": "\u5927\u529f\u544a\u6210\uff0c\n\u63a5\u53d7\u5956\u52b1\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u304c\u6210\u3057\u9042\u3052\u305f\u3053\u3068\u3078\u306e\u8912\u7f8e\u306b\u3001\n\u3069\u3046\u304b\u3053\u308c\u3092\u53d7\u3051\u53d6\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2837,6 +2856,7 @@
           {
             "message": {
               "en_US": "Good luck and stay vigilant.",
+              "pt_BR": "Boa sorte e permaneça vigilante.",
               "de_DE": "Viel Gl\u00fcck und bleib wachsam.",
               "zh_CN": "\u795d\u4f60\u597d\u8fd0\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u6cb9\u65ad\u3057\u306a\u3044\u3053\u3068\u3060\u3002\u5e78\u904b\u3092\u7948\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2985,6 +3005,7 @@
           {
             "message": {
               "en_US": "You just acquired the \\c[3]Meteor Shade\\c[0].",
+              "pt_BR": "Você adquiriu o \\c[3]Fragmento de Meteoro\\c[0].",
               "de_DE": "Du hast soeben die \\c[3]Meteoritenform\\c[0] erhalten.",
               "zh_CN": "\u4f60\u521a\u521a\u83b7\u5f97\u4e86\\c[3]\u9668\u77f3\u8bc1\u5370\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]\u30e1\u30c6\u30aa\u30b7\u30a7\u30fc\u30c9\\c[0]\u3092\u624b\u306b\u5165\u308c\u305f\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2999,6 +3020,7 @@
           {
             "message": {
               "en_US": "And with this, I am proud to announce that you've reached the very \\c[3]frontier of operation Track Walker\\c[0].",
+              "pt_BR": "E com isto, tenho o orgulho de anunciar que você chegou ao \\c[3]fim da operação Andarilho\\c[0].",
               "de_DE": "So kann ich dir nun mit Stolz verk\u00fcnden, dass du damit buchst\u00e4blich \\c[3]die Grenze von Operation Pfadl\u00e4ufer\\c[0] erreicht hast.",
               "zh_CN": "\u6211\u5728\u6b64\u8363\u5e78\u5ba3\u5e03\uff0c\u4f60\u5df2\u7ecf\u62b5\u8fbe\u4e86\\c[3]\u5bfb\u8def\u8005\u884c\u52a8\u7684\u6700\u524d\u7aef\\c[0]\u3002<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u305d\u308c\u306b\u3068\u3082\u306a\u3044\u3001\u559c\u3070\u3057\u3044\u3053\u3068\u306b\u3001\n\u541b\u306f\\c[3]\u30aa\u30da\u30ec\u30fc\u30b7\u30e7\u30f3\u30fb\u30c8\u30e9\u30c3\u30af\u30a6\u30a9\u30fc\u30ab\u30fc\u306e\n\u6700\u524d\u7dda\\c[0]\u306b\u5230\u9054\u3057\u305f\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3013,6 +3035,7 @@
           {
             "message": {
               "en_US": "This is as far as humankind has walked the Track.",
+              "pt_BR": "Isto é tão longe quanto a humanidade caminhou na Trilha.",
               "de_DE": "Dies ist der \u00e4u\u00dferste Punkt, den die Menschheit auf dem Pfad jemals erreicht hat.",
               "zh_CN": "\u8fd9\u662f\u4eba\u7c7b\u5bf9\u5148\u7956\u4e4b\u8def\u63a2\u7d22\u7684\u6700\u524d\u6cbf\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3053\u3053\u304c\u3001\u73fe\u6642\u70b9\u3067\u4eba\u985e\u304c\u8ecc\u8de1\u3092\n\u8e0f\u7834\u3057\u3066\u3044\u308b\u9650\u754c\u5730\u70b9\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3027,6 +3050,7 @@
           {
             "message": {
               "en_US": "In other words, you successfully completed your objective!",
+              "pt_BR": "Em outras palavras, você completou com sucesso seu objetivo!",
               "de_DE": "Mit anderen Worten: Du hast deine Aufgabe erfolgreich erf\u00fcllt!",
               "zh_CN": "\u6362\u53e5\u8bdd\u8bf4\uff0c\u4f60\u6210\u529f\u7684\u5b8c\u6210\u4e86\u4f60\u7684\u4efb\u52a1\uff01<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3064\u307e\u308a\u3001\u541b\u306f\u76ee\u6a19\u306e\u9054\u6210\u306b\n\u6210\u529f\u3057\u305f\u3068\u3044\u3046\u3053\u3068\u3060\uff01<<A<<[CHANGED 2018/07/09]",
@@ -3041,6 +3065,7 @@
           {
             "message": {
               "en_US": "Congratulations!",
+              "pt_BR": "Parabéns!",
               "de_DE": "Gratulation!",
               "zh_CN": "\u606d\u559c\uff01<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3081\u3067\u3068\u3046\uff01<<A<<[CHANGED 2018/07/09]",
@@ -3070,6 +3095,7 @@
           {
             "message": {
               "en_US": "With every Seeker completing the Track, we feed essential input into the Ancient's system, enabling us to access it further.",
+              "pt_BR": "Com cada Seeker completando a Trilha, uma importante contribuição é feita para abrir ainda mais o Sistema dos Antigos.",
               "de_DE": "Mit jedem Seeker, der den Pfad vollendet, wird ein wichtiger Beitrag geleistet, das System der Ahnen weiter zu erschlie\u00dfen.",
               "zh_CN": "\u6bcf\u6709\u4e00\u4f4d\u63a2\u7d22\u8005\u5b8c\u6210\u5148\u7956\u4e4b\u8def\uff0c\u6211\u4eec\u90fd\u80fd\u5c06\u66f4\u591a\u4fe1\u606f\u8f93\u5165\u5148\u7956\u4e4b\u8def\uff0c\u8ba9\u6211\u4eec\u66f4\u8fdb\u4e00\u6b65\u7684\u5bf9\u5176\u8fdb\u884c\u63a2\u7d22\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u63a2\u7d22\u8005\u305f\u3061\u304c\u8ecc\u8de1\u3092\u8e0f\u7834\u3059\u308b\u3054\u3068\u306b\u3001\n\u6211\u3005\u306f\u91cd\u8981\u306a\u60c5\u5831\u3092\u53e4\u4ee3\u4eba\u306e\u30b7\u30b9\u30c6\u30e0\u306b\n\u5165\u529b\u3057\u3001\u3055\u3089\u306b\u6df1\u304f\u8ecc\u8de1\u306b\n\u30a2\u30af\u30bb\u30b9\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3084,6 +3110,7 @@
           {
             "message": {
               "en_US": "However, we have yet to unlock its final part.",
+              "pt_BR": "No entanto, ainda temos que desbloquear sua parte final.",
               "de_DE": "Den letzten Abschnitt des Pfades haben wir n\u00e4mlich noch freizulegen.",
               "zh_CN": "\u4f46\u662f\uff0c\u6700\u7ec8\u533a\u57df\u6211\u4eec\u8fd8\u6ca1\u6709\u89e3\u9501\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3057\u304b\u3057\u3001\u6700\u5f8c\u306e\u90e8\u5206\u306f\n\u3044\u307e\u3060\u89e3\u653e\u3055\u308c\u3066\u3044\u306a\u3044\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3098,6 +3125,7 @@
           {
             "message": {
               "en_US": "Until that time comes, you are officially freed from your duty!",
+              "pt_BR": "Até esse momento, você está oficialmente liberada de seu dever!",
               "de_DE": "Bis dahin bist du nun offiziell von deiner Pflicht als Seeker entbunden!",
               "zh_CN": "\u5728\u90a3\u4e4b\u524d\uff0c\u4f60\u90fd\u53ef\u4ee5\u81ea\u7531\u884c\u52a8\u4e86\uff01<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u305d\u306e\u6642\u304c\u6765\u308b\u307e\u3067\u3001\u541b\u306f\u6b63\u5f0f\u306b\n\u63a2\u7d22\u8005\u3068\u3057\u3066\u306e\u7fa9\u52d9\u304b\u3089\u89e3\u653e\u3055\u308c\u308b\uff01<<A<<[CHANGED 2018/07/09]",
@@ -3250,6 +3278,7 @@
           {
             "message": {
               "en_US": "As a reward for your accomplishments, you can now access the main city of Rhombus Square.",
+              "pt_BR": "Como recompensa por suas realizações, agora você pode acessar a cidade principal de Rhombus Square.",
               "de_DE": "Als Anerkennung f\u00fcr deine Verdienste erh\u00e4ltst du Zugang zur Stadt von Rhombus Square.",
               "zh_CN": "\u4f5c\u4e3a\u5bf9\u4f60\u6210\u5c31\u7684\u5956\u52b1\uff0c\u4f60\u73b0\u5728\u53ef\u4ee5\u8fdb\u5165\u4e3b\u57ce\u7f57\u59c6\u5e03\u65af\u5e7f\u573a\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u305d\u3057\u3066\u6210\u3057\u3068\u3052\u305f\u3053\u3068\u3078\u306e\u5831\u916c\u3068\u3057\u3066\u3001\n\u541b\u306f\u30ed\u30f3\u30d0\u30b9\u5e83\u5834\u306e\u30e1\u30a4\u30f3\u90e8\u5206\u306b\n\u51fa\u5165\u308a\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3264,6 +3293,7 @@
           {
             "message": {
               "en_US": "This place provides many opportunities to further enhance your skills.",
+              "pt_BR": "Este lugar oferece muitas oportunidades para melhorar ainda mais suas habilidades.",
               "de_DE": "Dieser Ort bietet dir mannigfaltige M\u00f6glichkeiten, deine F\u00e4higkeiten noch weiter auszubauen.",
               "zh_CN": "\u90a3\u91cc\u53ef\u4ee5\u8fdb\u4e00\u6b65\u7684\u63d0\u5347\u4f60\u7684\u6280\u5de7\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u305d\u3053\u306b\u884c\u3051\u3070\u3001\u81ea\u5206\u306e\u8155\u3092\u78e8\u304f\u6a5f\u4f1a\u306b\n\u305f\u304f\u3055\u3093\u51fa\u4f1a\u3048\u308b\u3053\u3068\u3060\u308d\u3046\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3278,6 +3308,7 @@
           {
             "message": {
               "en_US": "And of course, your continued assistance to the community of Shadoon would be greatly appreciated.\n",
+              "pt_BR": "E, claro, sua assistência contínua à comunidade de Shadoon seria muito apreciada.\n",
               "de_DE": "Und nat\u00fcrlich w\u00fcrden wir es sehr begr\u00fc\u00dfen, wenn du die Gemeinschaft von Shadoon weiter unterst\u00fctzen w\u00fcrdest.",
               "zh_CN": "\u5f53\u7136\u4e86\uff0c\u4f60\u5bf9\u6c99\u5fb7\u9686\u4e00\u76f4\u4ee5\u6765\u7684\u652f\u6301\u6211\u4eec\u4e5f\u5c06\u94ed\u8bb0\u5728\u5fc3\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u305d\u308c\u306b\u3082\u3061\u308d\u3093\u3001\u30b7\u30e3\u30c9\u30a5\u30fc\u30f3\u306e\n\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u3092\u7d99\u7d9a\u3057\u3066\u652f\u63f4\u3057\u3066\u304f\u308c\u308c\u3070\n\u5927\u5909\u306b\u3042\u308a\u304c\u305f\u3044\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3362,6 +3393,7 @@
           {
             "message": {
               "en_US": "In addition, you shall receive your usual reward as well.",
+              "pt_BR": "Além disso, você também receberá sua recompensa habitual.",
               "de_DE": "Zus\u00e4tzlich erh\u00e4ltst du die \u00fcbliche Belohnung.",
               "zh_CN": "\u6b64\u5916\uff0c\u4f60\u8fd8\u5c06\u83b7\u5f97\u4f60\u7684\u901a\u5e38\u5956\u52b1\u3002<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u305d\u308c\u306b\u52a0\u3048\u3001\u541b\u306b\u306f\n\u3044\u3064\u3082\u901a\u308a\u306e\u5831\u916c\u3092\u6e21\u305d\u3046\u3002<<A<<[CHANGED 2018/08/28]",
@@ -3408,6 +3440,7 @@
           {
             "message": {
               "en_US": "Seeker, you have our deepest gratitude.",
+              "pt_BR": "Seeker, você tem nossa mais profunda gratidão.",
               "de_DE": "Seeker, ich m\u00f6chte dir unsere tiefste Dankbarkeit aussprechen.",
               "zh_CN": "\u63a2\u7d22\u8005\uff0c\u6211\u5728\u6b64\u5411\u4f60\u8868\u8fbe\u6700\u8bda\u631a\u7684\u611f\u8c22\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u63a2\u7d22\u8005\u3088\u3001\u6211\u3005\u306f\u541b\u306b\n\u5fc3\u304b\u3089\u611f\u8b1d\u3059\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3422,6 +3455,7 @@
           {
             "message": {
               "en_US": "When the time has come to walk the track even further, we will meet again.",
+              "pt_BR": "Quando chegar a hora de caminhar ainda mais adiante na trilha, nos encontraremos novamente.",
               "de_DE": "Wenn die Zeit gekommen ist, den Pfad noch weiter zu beschreiten, werden wir uns wiedersehen.",
               "zh_CN": "\u5f53\u63a2\u7d22\u5148\u7956\u4e4b\u8def\u7684\u673a\u4f1a\u518d\u6b21\u5230\u6765\uff0c\u6211\u4eec\u5c06\u518d\u6b21\u89c1\u9762\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3055\u3089\u306b\u8ecc\u8de1\u3092\u9032\u3081\u308b\u3088\u3046\u306b\u306a\u308b\u6642\u304c\u304f\u308c\u3070\u3001\n\u6211\u3005\u306f\u307e\u305f\u51fa\u4f1a\u3046\u3060\u308d\u3046\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3436,6 +3470,7 @@
           {
             "message": {
               "en_US": "Good bye and as always, stay vigilant.",
+              "pt_BR": "Adeus e, como sempre, permaneça vigilante.",
               "de_DE": "Leb wohl, Seeker, und bleibe weiterhin wachsam.",
               "zh_CN": "\u540e\u4f1a\u6709\u671f\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u305d\u308c\u307e\u3067\u3055\u3089\u3070\u3060\u3002\n\u6c17\u3092\u3086\u308b\u3081\u306a\u3044\u3088\u3046\u306b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3562,6 +3597,7 @@
           {
             "message": {
               "en_US": "Congratulations, Seeker.",
+              "pt_BR": "Parabéns, Seeker.",
               "de_DE": "Gratulation, Seeker.",
               "zh_CN": "\u606d\u559c\uff0c\u63a2\u7d22\u8005\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3081\u3067\u3068\u3046\u3001\u63a2\u7d22\u8005\u3088\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3576,6 +3612,7 @@
           {
             "message": {
               "en_US": "You collected the \\c[3]\\v[item.286.name]\\c[0], one of the two shades required to enter the \\c[3]Grand Krys'kajo\\c[0].",
+              "pt_BR": "Você coletou o \\c[3]\\v[item.286.name]\\c[0], um dos dois fragmentos necessários para entrar no \\c[3]Grand Krys'kajo\\c[0].",
               "de_DE": "Du hast die \\c[3]Azurtropfenform\\c[0] erhalten, eine von zwei Formen, die dir Zugang zum \\c[3]Gro\u00dfen Krys'kajo\\c[0] gew\u00e4hren.",
               "zh_CN": "\u4f60\u83b7\u5f97\u4e86\\c[3]\\v[item.286.name]\\c[0]\uff0c\u8fdb\u5165\\c[3]\u5927\u51ef\u65af\u5361\u7f57\\c[0]\u6240\u9700\u7684\u4e24\u679a\u8bc1\u5370\u4e4b\u4e00\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]\\v[item.286.name]\\c[0]\u3092\n\u624b\u306b\u5165\u308c\u305f\u3002\n\\c[3]\u30af\u30ea\u30e5\u30b9\u30fb\u30ab\u30fc\u30e8\u5927\u795e\u6bbf\\c[0]\u306b\u5165\u308b\u305f\u3081\u306b\n\u5fc5\u8981\u306a2\u3064\u306e\u30b7\u30a7\u30fc\u30c9\u306e\u3046\u3061\u3072\u3068\u3064\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3595,6 +3632,7 @@
               {
                 "message": {
                   "en_US": "Now that you collected both of the Shades it is time to take on the final challenge of Gaia's Garden.",
+                  "pt_BR": "Agora que você coletou os dois Fragmentos, é hora de enfrentar o desafio final do Jardim de Gaia.",
                   "de_DE": "Nun, da du beide Formen erlangt hast, wird es Zeit f\u00fcr die letzte Herausforderung von Gaias Garten.",
                   "zh_CN": "\u73b0\u5728\u4f60\u5df2\u7ecf\u6536\u96c6\u5230\u4e86\u4e24\u679a\u8bc1\u5370\uff0c\u662f\u65f6\u5019\u8fdb\u884c\u76d6\u4e9a\u82b1\u56ed\u7684\u6700\u7ec8\u6311\u6218\u4e86\u3002<<A<<[CHANGED 2018/07/09]",
                   "ja_JP": "\u3053\u308c\u3067\u30012\u3064\u306e\u30b7\u30a7\u30fc\u30c9\u304c\u4e21\u65b9\u624b\u306b\u5165\u3063\u305f\u3002\n\u30ac\u30a4\u30a2\u306e\u5712\u3067\u306e\u6700\u5f8c\u306e\u8a66\u7df4\u306b\u6311\u3080\u6642\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3614,6 +3652,7 @@
           {
             "message": {
               "en_US": "Take this reward \nfor your accomplishments.",
+              "pt_BR": "Aceite esta recompensa \npor suas conquistas.",
               "de_DE": "Nimm dies als Anerkennung\nf\u00fcr deine Verdienste entgegen.",
               "zh_CN": "\u5927\u529f\u544a\u6210\uff0c\n\u63a5\u53d7\u5956\u52b1\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u304c\u6210\u3057\u9042\u3052\u305f\u3053\u3068\u3078\u306e\u8912\u7f8e\u306b\u3001\n\u3069\u3046\u304b\u3053\u308c\u3092\u53d7\u3051\u53d6\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3660,6 +3699,7 @@
           {
             "message": {
               "en_US": "Good luck and stay vigilant.",
+              "pt_BR": "Boa sorte e permaneça vigilante.",
               "de_DE": "Viel Gl\u00fcck und bleib wachsam.",
               "zh_CN": "\u795d\u4f60\u597d\u8fd0\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u6cb9\u65ad\u3057\u306a\u3044\u3053\u3068\u3060\u3002\u5e78\u904b\u3092\u7948\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3785,6 +3825,7 @@
           {
             "message": {
               "en_US": "Congratulations, Seeker.",
+              "pt_BR": "Parabéns, Seeker.",
               "de_DE": "Gratulation, Seeker.",
               "zh_CN": "\u606d\u559c\uff0c\u63a2\u7d22\u8005\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3081\u3067\u3068\u3046\u3001\u63a2\u7d22\u8005\u3088\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3799,6 +3840,7 @@
           {
             "message": {
               "en_US": "You collected the \\c[3]\\v[item.231.name]\\c[0], one of the two shades required to enter the \\c[3]Grand Krys'kajo\\c[0].",
+              "pt_BR": "Você coletou o \\c[3]\\v[item.231.name]\\c[0], um dos dois fragmentos necessários para entrar no \\c[3]Grand Krys'kajo\\c[0].",
               "de_DE": "Du hast die \\c[3]Lila Blitzform\\c[0] erhalten, eine von zwei Formen, die dir Zugang zum \\c[3]Gro\u00dfen Krys'kajo\\c[0] gew\u00e4hren.",
               "zh_CN": "\u4f60\u83b7\u5f97\u4e86\\c[3]\\v[item.231.name]\\c[0]\uff0c\u8fdb\u5165\\c[3]\u5927\u51ef\u65af\u5361\u7f57\\c[0]\u6240\u9700\u7684\u4e24\u679a\u8bc1\u5370\u4e4b\u4e00\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]\\v[item.231.name]\\c[0]\u3092\n\u624b\u306b\u5165\u308c\u305f\u3002\n\\c[3]\u30af\u30ea\u30e5\u30b9\u30fb\u30ab\u30fc\u30e8\u5927\u795e\u6bbf\\c[0]\u306b\u5165\u308b\u305f\u3081\u306b\n\u5fc5\u8981\u306a2\u3064\u306e\u30b7\u30a7\u30fc\u30c9\u306e\u3046\u3061\u3072\u3068\u3064\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3818,6 +3860,7 @@
               {
                 "message": {
                   "en_US": "Now that you've collected both of the Shades, it is time to take on the final challenge of Gaia's Garden.",
+                  "pt_BR": "Agora que você coletou os dois Fragmentos, é hora de enfrentar o desafio final do Jardim de Gaia.",
                   "de_DE": "Nun, da du beide Formen erlangt hast, wird es Zeit f\u00fcr die letzte Herausforderung von Gaias Garten.<<A<<[CHANGED 2021/05/22]",
                   "zh_CN": "\u73b0\u5728\u4f60\u5df2\u7ecf\u6536\u96c6\u5230\u4e86\u4e24\u679a\u8bc1\u5370\uff0c\u662f\u65f6\u5019\u8fdb\u884c\u76d6\u4e9a\u82b1\u56ed\u7684\u6700\u7ec8\u6311\u6218\u4e86\u3002<<A<<[CHANGED 2021/05/22]",
                   "ja_JP": "\u3053\u308c\u3067\u30012\u3064\u306e\u30b7\u30a7\u30fc\u30c9\u304c\u4e21\u65b9\u624b\u306b\u5165\u3063\u305f\u3002\n\u30ac\u30a4\u30a2\u306e\u5712\u3067\u306e\u6700\u5f8c\u306e\u8a66\u7df4\u306b\u6311\u3080\u6642\u3060\u3002<<A<<[CHANGED 2021/05/22]",
@@ -3837,6 +3880,7 @@
           {
             "message": {
               "en_US": "Take this reward \nfor your accomplishments.",
+              "pt_BR": "Aceite esta recompensa \npor suas conquistas.",
               "de_DE": "Nimm dies als Anerkennung\nf\u00fcr deine Verdienste entgegen.",
               "zh_CN": "\u5927\u529f\u544a\u6210\uff0c\n\u63a5\u53d7\u5956\u52b1\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u304c\u6210\u3057\u9042\u3052\u305f\u3053\u3068\u3078\u306e\u8912\u7f8e\u306b\u3001\n\u3069\u3046\u304b\u3053\u308c\u3092\u53d7\u3051\u53d6\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3883,6 +3927,7 @@
           {
             "message": {
               "en_US": "Good luck and stay vigilant.",
+              "pt_BR": "Boa sorte e permaneça vigilante.",
               "de_DE": "Viel Gl\u00fcck und bleib wachsam.",
               "zh_CN": "\u795d\u4f60\u597d\u8fd0\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u6cb9\u65ad\u3057\u306a\u3044\u3053\u3068\u3060\u3002\u5e78\u904b\u3092\u7948\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -4030,6 +4075,7 @@
           {
             "message": {
               "en_US": "You just acquired the \\c[3]Ancient Shade\\c[0].",
+              "pt_BR": "Você adquiriu o \\c[3]Fragmento Antigo\\c[0].",
               "de_DE": "Du hast soeben die \\c[3]Ahnenform\\c[0] erhalten.",
               "zh_CN": "\u4f60\u521a\u521a\u83b7\u5f97\u4e86\\c[3]\u8fdc\u53e4\u8bc1\u5370\\c[0]\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u4f60\u525b\u525b\u7372\u5f97\u4e86\\c[3]\u9695\u77f3\u8b49\u5370\\c[0]\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4044,6 +4090,7 @@
           {
             "message": {
               "en_US": "It is the last prerequisite to access the final part of the Track.",
+              "pt_BR": "É o último pré-requisito para acessar a parte final da Trilha.",
               "de_DE": "Sie ist die letzte Voraussetzung f\u00fcr den Zugang zum letzten Teil des Pfades.",
               "zh_CN": "\u8fd9\u662f\u8bbf\u95ee\u5148\u7956\u4e4b\u8def\u6700\u7ec8\u90e8\u5206\u7684\u524d\u7f6e\u6761\u4ef6\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u6211\u5728\u6b64\u69ae\u5e78\u5ba3\u4f48\uff0c\u4f60\u5df2\u7d93\u62b5\u9054\u4e86\\c[3]\u5c0b\u8def\u8005\u884c\u52d5\u7684\u6700\u524d\u7aef\\c[0]\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4062,6 +4109,7 @@
           {
             "message": {
               "en_US": "The \\c[3]Temple of Ku'lero\\c[0]!",
+              "pt_BR": "O \\c[3]Templo de Ku'lero\\c[0]!",
               "de_DE": "Den \\c[3]Tempel von Ku'lero\\c[0]!",
               "zh_CN": "\u6211\u5728\u6b64\u8363\u5e78\u5ba3\u5e03\uff0c\u4f60\u5df2\u7ecf\u62b5\u8fbe\u4e86\\c[3]\u5bfb\u8def\u8005\u884c\u52a8\u7684\u6700\u524d\u7aef\\c[0]\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u6211\u5728\u6b64\u69ae\u5e78\u5ba3\u4f48\uff0c\u4f60\u5df2\u7d93\u62b5\u9054\u4e86\\c[3]\u5c0b\u8def\u8005\u884c\u52d5\u7684\u6700\u524d\u7aef\\c[0]\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4076,6 +4124,7 @@
           {
             "message": {
               "en_US": "However, be aware the integration of this new location has yet to be finalized.",
+              "pt_BR": "Entretanto, esteja ciente de que a integração deste novo local ainda não foi finalizada.",
               "de_DE": "Beachte jedoch, dass die Integration dieser neuen Standorte noch nicht abgeschlossen ist.",
               "zh_CN": "\u6b64\u65b0\u5730\u533a\u5c1a\u5f00\u653e\u3002<<A<<[CHANGED 2021/03/05]",
               "zh_TW": "\u4f5c\u70ba\u5c0d\u4f60\u6210\u5c31\u7684\u734e\u52f5\uff0c\u4f60\u73fe\u5728\u53ef\u4ee5\u9032\u5165\u4e3b\u57ce\u7f85\u59c6\u5e03\u65af\u5ee3\u5834\u3002<<A<<[CHANGED 2021/03/05]",
@@ -4094,6 +4143,7 @@
           {
             "message": {
               "en_US": "Nevertheless, the preparations should be completed soon.",
+              "pt_BR": "No entanto, os preparativos devem ser concluídos em breve.",
               "de_DE": "Die Vorbereitungen sollten allerdings bald abgeschlossen sein.",
               "zh_CN": "\u4f46\u8ddd\u79bb\u5927\u5bb6\u53ef\u4ee5\u8bbf\u95ee\u4e5f\u4e0d\u4f1a\u592a\u4e45\u4e86\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u4f5c\u70ba\u5c0d\u4f60\u6210\u5c31\u7684\u734e\u52f5\uff0c\u4f60\u73fe\u5728\u53ef\u4ee5\u9032\u5165\u4e3b\u57ce\u7f85\u59c6\u5e03\u65af\u5ee3\u5834\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4246,6 +4296,7 @@
           {
             "message": {
               "en_US": "Once the temple is integrated it can be accessed in the northern part of \\c[3]Sapphire Ridge\\c[0].",
+              "pt_BR": "Uma vez integrado, o templo pode ser acessado na parte norte de \\c[3]Sapphire Ridge\\c[0].",
               "de_DE": "Sobald der Tempel integriert ist, kann er \u00fcber den n\u00f6rdlichen Teil des \\c[3]Saphirgrats\\c[0] erreicht werden.",
               "zh_CN": "\u795e\u5e99\u88ab\u52a0\u5165\u540e\uff0c\u53ef\u4ee5\u4ece\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u5317\u90e8\u8fdb\u5165\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u4f5c\u70ba\u5c0d\u4f60\u6210\u5c31\u7684\u734e\u52f5\uff0c\u4f60\u73fe\u5728\u53ef\u4ee5\u9032\u5165\u4e3b\u57ce\u7f85\u59c6\u5e03\u65af\u5ee3\u5834\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4260,6 +4311,7 @@
           {
             "message": {
               "en_US": "Seeker, make sure you are well prepared.",
+              "pt_BR": "Seeker, certifique-se de estar bem preparada.",
               "de_DE": "Sorge daf\u00fcr, dass du gut vorbereitet bist, Seeker.",
               "zh_CN": "\u63a2\u7d22\u8005\uff0c\u8bf7\u505a\u597d\u4e07\u5168\u51c6\u5907\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u4f5c\u70ba\u5c0d\u4f60\u6210\u5c31\u7684\u734e\u52f5\uff0c\u4f60\u73fe\u5728\u53ef\u4ee5\u9032\u5165\u4e3b\u57ce\u7f85\u59c6\u5e03\u65af\u5ee3\u5834\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4274,6 +4326,7 @@
           {
             "message": {
               "en_US": "This temple will truly pose the ultimate challenge of the track.",
+              "pt_BR": "Este templo representará verdadeiramente o derradeiro desafio da trilha.",
               "de_DE": "Dieser Tempel stellt die ultimative Herausforderung des Pfades dar.",
               "zh_CN": "\u8fd9\u5ea7\u795e\u5e99\u662f\u5148\u7956\u4e4b\u8def\u7684\u6700\u7ec8\u8003\u9a8c\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u4f5c\u70ba\u5c0d\u4f60\u6210\u5c31\u7684\u734e\u52f5\uff0c\u4f60\u73fe\u5728\u53ef\u4ee5\u9032\u5165\u4e3b\u57ce\u7f85\u59c6\u5e03\u65af\u5ee3\u5834\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4358,6 +4411,7 @@
           {
             "message": {
               "en_US": "For all your accomplishments, you shall receive one more reward as well.",
+              "pt_BR": "Por todas as suas realizações, você receberá também mais uma recompensa.",
               "de_DE": "F\u00fcr all deine Leistungen sollst du noch eine weitere Belohnung erhalten.",
               "zh_CN": "\u6b64\u5916\uff0c\u4f60\u8fd8\u5c06\u56e0\u4e3a\u51fa\u8272\u8868\u73b0\u83b7\u5f97\u989d\u5916\u5956\u52b1\u3002<<A<<[CHANGED 2021/01/12]",
               "zh_TW": "\u6b64\u5916\uff0c\u4f60\u9084\u5c07\u7372\u5f97\u4f60\u7684\u901a\u5e38\u734e\u52f5\u3002<<A<<[CHANGED 2021/01/12]",
@@ -4404,6 +4458,7 @@
           {
             "message": {
               "en_US": "Seeker, once the preparations are completed, I'll be expecting you at the entrance of the \\c[3]Ku'lero Temple\\c[0].",
+              "pt_BR": "Seeker, uma vez concluídos os preparativos, estarei esperando por você na entrada do \\c[3]Templo de Ku'lero\\c[0].",
               "de_DE": "Sobald die Vorbereitungen abgeschlossen sind, erwarte ich dich am Eingang des \\c[3]Ku'lero-Tempels\\c[0], Seeker.<<A<<[CHANGED 2021/05/22]",
               "zh_CN": "\u63a2\u7d22\u8005\uff0c\u505a\u597d\u51c6\u5907\u540e\uff0c\u6211\u4f1a\u5728\\c[3]\u5e93\u52d2\u82e5\u795e\u5e99\\c[0]\u524d\u7b49\u7740\u4f60\u3002<<A<<[CHANGED 2021/05/22]",
               "zh_TW": "\u63a2\u7d22\u8005\uff0c\u6211\u5728\u6b64\u5411\u4f60\u8868\u9054\u6700\u8aa0\u646f\u7684\u611f\u8b1d\u3002<<A<<[CHANGED 2021/05/22]",
@@ -4418,6 +4473,7 @@
           {
             "message": {
               "en_US": "Good luck and stay vigilant.",
+              "pt_BR": "Boa sorte e permaneça vigilante.",
               "de_DE": "Leb wohl, Seeker, und bleib wachsam.<<A<<[CHANGED 2021/05/22]",
               "zh_CN": "\u540e\u4f1a\u6709\u671f\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2021/05/22]",
               "zh_TW": "\u5f8c\u6703\u6709\u671f\uff0c\n\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2021/05/22]",
