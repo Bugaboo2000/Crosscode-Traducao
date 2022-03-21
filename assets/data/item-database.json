@@ -1539,6 +1539,7 @@
     {
       "name": {
         "en_US": "Weird Skates",
+        "pt_BR": "Skates Estranhos",
         "de_DE": "Kuriose Rollschuhe",
         "fr_FR": "undefined",
         "zh_CN": "\u5947\u602a\u7684\u6e9c\u51b0\u978b",
@@ -6161,6 +6162,7 @@
       "order": 29,
       "name": {
         "en_US": "Guild Pass",
+        "pt_BR": "Passe da Guilda",
         "de_DE": "Gildenpass",
         "fr_FR": "undefined",
         "zh_CN": "\u7b2c\u4e00\u5b66\u8005\u901a\u884c\u8bc1<<A<<[CHANGED 2018/05/01]",
@@ -6171,6 +6173,7 @@
       },
       "description": {
         "en_US": "Grants access to the \\c[3]guild village\\c[0] and \\c[3]First Scholars home\\c[0] in Autumn's Rise.",
+        "pt_BR": "Garante acesso à \\c[3]vila das guildas\\c[0] e ao \\c[3]First Scholars HQ\\c[0] em Autumn's Rise.",
         "de_DE": "Gew\u00e4hrt Zugang zum \\c[3]Gildendorf\\c[0] und dem Geb\u00e4ude der \\c[3]Ersten Gelehrten\\c[0] in Autumn's Rise.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ef\u4ee5\u62dc\u8bbf\u79cb\u8272\u5c71\u91ce\u7684\\c[3]\u516c\u4f1a\u6751\\c[0]\u548c\\c[3]\u7b2c\u4e00\u5b66\u8005\u4e4b\u5bb6\\c[0]\u4e86\u3002<<A<<[CHANGED 2018/09/17]",
@@ -6718,6 +6721,7 @@
       "order": 65,
       "name": {
         "en_US": "Arid Lumber",
+        "pt_BR": "Madeira árida",
         "de_DE": "D\u00f6rrholz",
         "fr_FR": "undefined",
         "zh_CN": "\u5e72\u71e5\u7684\u6728\u6750",
@@ -7656,6 +7660,7 @@
       "order": 23,
       "name": {
         "en_US": "Desert Sandals",
+        "pt_BR": "Sandálias do Deserto",
         "de_DE": "W\u00fcstensandalen",
         "fr_FR": "undefined",
         "zh_CN": "\u6c99\u6f20\u51c9\u978b",
@@ -7666,6 +7671,7 @@
       },
       "description": {
         "en_US": "Can't be made without Sand, so they're obviously ideal for the desert.",
+        "pt_BR": "Não podem ser feitas sem areia, por isso são obviamente ideais para o deserto.",
         "de_DE": "K\u00f6nnen ohne Sand nicht hergestellt werden, sind f\u00fcr die W\u00fcste also ideal.",
         "fr_FR": "undefined",
         "zh_CN": "\u6ca1\u6709\u6c99\u5b50\u9020\u4e0d\u51fa\u6765\u8fd9\u53cc\u978b\u5b50\uff0c\u6240\u6709\u5b83\u4eec\u663e\u7136\u662f\u6c99\u6f20\u7684\u7406\u60f3\u88c5\u5907\u3002",
@@ -8219,6 +8225,7 @@
       "order": 68,
       "name": {
         "en_US": "Stone of Space",
+        "pt_BR": "Pedra do Espaço",
         "de_DE": "Raumstein",
         "fr_FR": "undefined",
         "zh_CN": "\u7a7a\u95f4\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -9433,6 +9440,7 @@
       "order": 77,
       "name": {
         "en_US": "Progression Proof",
+        "pt_BR": "Prova da Progressão",
         "de_DE": "Fortschrittsbeweis",
         "langUid": 865,
         "zh_CN": "\u8fdb\u5316\u8bc1\u660e",
@@ -9441,7 +9449,8 @@
         "zh_TW": "\u9032\u5316\u8b49\u660e"
       },
       "description": {
-        "en_US": "Some old looking image of a PengPeng, hewn into ice-coated stone from Mt. Bergen. ",
+        "en_US": "Some old looking image of a PengPeng, hewn into ice-coated stone from Mt. Bergen.",
+        "pt_BR": "Uma imagem antiga de um PengPeng, escavado em pedra revestida de gelo do Mt. Bergen.",
         "de_DE": "Ein seltsam aussehendes Bild eines Pengpeng in einem Stein aus Bergen.",
         "fr_FR": "undefined",
         "langUid": 1073,
@@ -11541,6 +11550,7 @@
       "order": 69,
       "name": {
         "en_US": "Stone of Truth",
+        "pt_BR": "Pedra da Verdade",
         "de_DE": "Wahrheitsstein",
         "fr_FR": "undefined",
         "zh_CN": "\u771f\u7406\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -13383,6 +13393,7 @@
       "order": 10,
       "name": {
         "en_US": "Crystal Water",
+        "pt_BR": "Água Cristalina",
         "de_DE": "Kristallwasser",
         "fr_FR": "undefined",
         "zh_CN": "\u6676\u6cc9",
@@ -15630,6 +15641,7 @@
       "order": 70,
       "name": {
         "en_US": "Stone of Spirit",
+        "pt_BR": "Pedra do Espírito",
         "de_DE": "Geiststein",
         "fr_FR": "undefined",
         "zh_CN": "\u7cbe\u795e\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -15708,6 +15720,7 @@
       "order": 71,
       "name": {
         "en_US": "Stone of Ages",
+        "pt_BR": "Pedra das Eras",
         "de_DE": "Zeitstein",
         "fr_FR": "undefined",
         "zh_CN": "\u65f6\u5149\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",

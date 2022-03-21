@@ -8171,6 +8171,7 @@
             "msgType": "ACTIVATED",
             "object": {
               "en_US": "Synopis Menu",
+              "pt_BR": "Synopis Menu",
               "de_DE": "Synopis-Men\u00fc<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 49,
@@ -14749,7 +14750,7 @@
           {
             "message": {
               "en_US": "Hrm, after all that trouble, those buckets of junk can't even get rid of some \\v[lore.title.seeker]s.",
-              "pt_BR": "Argh, depois de todo esse problema, esses monte de lixo n\u00e3o conseguem nem se livrar de alguns \\v[lore.title.seeker]s.",
+              "pt_BR": "Argh, depois de todo esse problema, esse bando de sucatas n\u00e3o conseguem nem se livrar de alguns \\v[lore.title.seeker]s.",
               "de_DE": "Pff! Nach all dem \u00c4rger k\u00f6nnen diese Blechdosen nicht mal mit 'nem Seeker fertig werden.",
               "fr_FR": "fr_FR",
               "langUid": 468,
@@ -15335,7 +15336,7 @@
           {
             "message": {
               "en_US": "He'll be pleased with what you've done here, even if he doesn't show it.",
-              "pt_BR": "le ficar\u00e1 satisfeito com o que voc\u00ea fez aqui, mesmo que n\u00e3o demonstre isso.",
+              "pt_BR": "Ele ficar\u00e1 satisfeito com o que voc\u00ea fez aqui, mesmo que n\u00e3o demonstre isso.",
               "de_DE": "Er wird mit deiner Arbeit hier sehr zufrieden sein, auch wenn er es sich nicht anmerken l\u00e4sst.",
               "fr_FR": "fr_FR",
               "langUid": 495,
@@ -15405,7 +15406,7 @@
           {
             "message": {
               "en_US": "Okay, okay.\\. At least leave a hard-working citizen some dignity.",
-              "pt_BR": "Certo, est\u00e1 bem.\\. Ao menos d\u00ea dignidade a um cidad\u00e3o trabalhador.",
+              "pt_BR": "Certo, est\u00e1 bem.\\. Ao menos d\u00ea um pouco de dignidade a um cidad\u00e3o trabalhador.",
               "de_DE": "Schon gut, schon gut.\\. Lass einem hart arbeitenden B\u00fcrger wenigstens das letzte bisschen Rest an W\u00fcrde.",
               "fr_FR": "fr_FR",
               "langUid": 498,

@@ -963,7 +963,7 @@
                 {
                   "message": {
                     "en_US": "What about you, young \\v[lore.title.seeker]?\\. Do you desire to be tested?",
-                    "pt_BR": "E você, jovem \\v[lore.title.seeker]?\\. Você deseja ser testado?",
+                    "pt_BR": "E você, jovem \\v[lore.title.seeker]?\\. Você deseja ser testada?",
                     "de_DE": "Was ist mit dir, junger Seeker?\\. M\u00f6chtest du dich einer Pr\u00fcfung unterziehen?",
                     "fr_FR": "fr_FR",
                     "langUid": 333,
@@ -4976,7 +4976,7 @@
                   {
                     "message": {
                       "en_US": "To solve the extra frosty challenge you have to activate it at the sign inside.",
-                      "pt_BR": "Para resolver o desafio extra gelado, você terâ que ativá-lo no sinal interno.",
+                      "pt_BR": "Para resolver o desafio extra gélido, você terâ que ativá-lo no painel interno.",
                       "de_DE": "Du musst die \"extra frostige\" Herausforderung drinnen am Schild erst aktivieren.",
                       "zh_CN": "\u8981\u901a\u8fc7\u591a\u52a0\u51b0\u6311\u6218\uff0c\u4f60\u5fc5\u987b\u5148\u5728\u91cc\u9762\u7684\u6807\u8bc6\u7248\u91cc\u6fc0\u6d3b\u3002<<A<<[CHANGED 2020/06/17]",
                       "ja_JP": "\u4e2d\u306e\u63b2\u793a\u3067\u305d\u308c\u3092\u6709\u52b9\u306b\u3057\u3001\u8ffd\u52a0\u306e\n\u30a2\u30a4\u30b9\u30c1\u30e3\u30ec\u30f3\u30b8\u306b\u53d6\u308a\u7d44\u307f\u306a\u3055\u308c\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6146,7 +6146,7 @@
                 {
                   "message": {
                     "en_US": "Yes, you have beaten the first trial but that does not mean that you have mastered it.",
-                    "pt_BR": "Yes, você pode ter vencido a primeira prova mas isso não significa que você tenha a dominado.",
+                    "pt_BR": "Sim, você pode ter vencido a primeira prova mas isso não significa que você tenha a dominado.",
                     "de_DE": "Ja, du hast die erste Pr\u00fcfung bestanden, doch das hei\u00dft nicht, dass du sie gemeistert hast.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u662f\u7684\uff0c\u4f60\u5df2\u7ecf\u901a\u8fc7\u4e86\u7b2c\u4e00\u573a\u8bd5\u70bc\uff0c\u4f46\u662f\u5e76\u4e0d\u610f\u5473\u7740\u4f60\u5df2\u7ecf\u638c\u63e1\u5b83\u4e86\u3002",
@@ -6532,7 +6532,7 @@
                   {
                     "message": {
                       "en_US": "To solve the challenge without guarding you have to cast your shield away at the sign inside.",
-                      "pt_BR": "Para resolver o desafio sem se proteger, é preciso ativar o escudo a distância no sinal interno.",
+                      "pt_BR": "Para resolver o desafio sem se proteger, é preciso ativar o escudo a distância no painel interno.",
                       "de_DE": "Um die Herasuforderung ohne deinen Schild zu bestehen, musst du ihn am Eingang deaktivieren.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u8981\u901a\u8fc7\u65e0\u9632\u5fa1\u6311\u6218\uff0c\u4f60\u5fc5\u987b\u5148\u5728\u91cc\u9762\u7684\u6807\u8bc6\u7248\u91cc\u653e\u5f03\u76fe\u724c\u3002<<A<<[CHANGED 2020/06/17]",
