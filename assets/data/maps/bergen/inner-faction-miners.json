@@ -480,7 +480,7 @@
               {
                 "message": {
                   "en_US": "Talk to \\c[3]Chief Miner Turis\\c[0] back there if you want to help us out.",
-                  "pt_BR": "Fale com o \\c[3Minerador Chefe Turis\\c[0] atrás de mim se você quiser nos ajudar.",
+                  "pt_BR": "Fale com o \\c[3]Minerador Chefe Turis\\c[0] atrás de mim se você quiser nos ajudar.",
                   "de_DE": "Sprich mit \\c[3]Obersteiger Turis\\c[0] da hinten, wenn du uns helfen willst.",
                   "zh_CN": "\u5982\u679c\u4f60\u60f3\u8981\u5e2e\u52a9\u6211\u4eec\uff0c\u8bf7\u5230\u8fd9\u91cc\u548c\\c[3]\u9996\u5e2d\u77ff\u5de5\u56fe\u91cc\u65af\\c[0]\u4ea4\u6d41\u3002",
                   "langUid": 256,
@@ -846,7 +846,7 @@
                 {
                   "message": {
                     "en_US": "A visitor fresh from outside, eh?\\. No need to reply, I feel the sun's warmth still on you, child.",
-                    "pt_BR": "Um visitante recém-chegado, hein?\\. Não diga nada, ainda sinto o calor do sol em você, criança",
+                    "pt_BR": "Uma visitante recém-chegada, hein?\\. Não diga nada, ainda sinto o calor do sol em você, criança",
                     "de_DE": "Ein Besucher von drau\u00dfen, was?\\. Sag nichts, mein Kind, ich sp\u00fcre noch die W\u00e4rme der Sonne auf dir.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u662f\u6765\u81ea\u5916\u9762\u7684\u4e00\u4e2a\u65b0\u6e38\u5ba2\u5427\\.\u54e6\uff0c\u4f60\u4e0d\u9700\u8981\u56de\u7b54\uff0c\u6211\u611f\u89c9\u5230\u4f60\u8eab\u4e0a\u592a\u9633\u7684\u6e29\u6696\u4e86\uff0c\u5b69\u5b50\u3002",
@@ -1796,7 +1796,7 @@
                     {
                       "message": {
                         "en_US": "Go through the \\c[3]door at the back\\c[0] and take the\\c[3] elevator down\\c[0] to the \\c[3]first underground floor\\c[0] to reach the mine.",
-                        "pt_BR": "Passe pela \\c[3]porta na parte de trás\\c[0] e pegue o \\c[3] elevador para baixo\\c[0] para o \\c[3]primeiro andar subterrâneo\\c[0] para alcançar a mina.",
+                        "pt_BR": "Passe pela \\c[3]porta na parte de trás\\c[0] e pegue o \\c[3]elevador para baixo\\c[0] para o \\c[3]primeiro andar subterrâneo\\c[0] para alcançar a mina.",
                         "de_DE": "Gehe zur \\c[3]Hintert\u00fcr\\c[0] und fahre mit dem \\c[3]Fahrkorb\\c[0] in das \\c[3]erste Untergeschoss\\c[0], um den Stollen zu erreichen.",
                         "zh_CN": "\u7a7f\u8fc7\u540e\u9762\u90a3\u6247\u95e8\uff0c\u5750\u4e0a\u53bb\u5730\u4e0b\u4e00\u5c42\u7684\u7535\u68af\uff0c\u5c31\u53ef\u4ee5\u8fbe\u5230\u77ff\u4e95\u4e86\u3002<<A<<[CHANGED 2018/09/14]",
                         "ja_JP": "\\c[3]\u5f8c\u308d\u306e\u30c9\u30a2\\c[0]\u3092\u901a\u3063\u3066\u3001\\c[3]\u30a8\u30ec\u30d9\u30fc\u30bf\u30fc\\c[0]\u3067\n\\c[3]\u5730\u4e0b1\u968e\\c[0]\u307e\u3067\u4e0b\u308a\u308c\u3070\u9271\u5c71\u306b\u3064\u304f\u3002<<A<<[CHANGED 2018/09/14]",

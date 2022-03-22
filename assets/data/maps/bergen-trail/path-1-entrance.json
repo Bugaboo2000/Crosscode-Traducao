@@ -9965,7 +9965,7 @@
                     }, {
                         "message": {
                             "en_US": "Wait... does that mean \\..\\..\\.. you captured it?",
-                            "pt_BR": "Espere... isso significa \\ .. \\ .. \\ .. voc\u00ea o capturou?",
+                            "pt_BR": "Espere... isso significa \\..\\..\\.. voc\u00ea o capturou?",
                             "de_DE": "Warte... Hei\u00dft das\\..\\..\\.. du hast ihn gefangen?",
                             "fr_FR": "fr_FR",
                             "langUid": 350,
@@ -10378,7 +10378,7 @@
                     }, {
                         "message": {
                             "en_US": "Alright, alright\\..\\..\\.. you did it!",
-                            "pt_BR": "Certo, tudo bem\\ .. \\ .. \\ .. voc\u00ea conseguiu!",
+                            "pt_BR": "Certo, tudo bem\\..\\..\\.. voc\u00ea conseguiu!",
                             "de_DE": "Schon gut, schon gut\\..\\..\\.. Du hast ihn gefangen!",
                             "fr_FR": "fr_FR",
                             "langUid": 366,
@@ -11765,7 +11765,7 @@
                 "thenStep": [{
                     "message": {
                         "en_US": "Though I hardly believe there is any reason for you to prepare with \\c[1]your kind of level\\c[0].",
-                        "pt_BR": "Embora eu dificilmente acredite que haja alguma razão para você se preparar com \\ c [1] seu tipo de nível \\ c [0]",
+                        "pt_BR": "Embora eu dificilmente acredite que haja alguma razão para você se preparar com \\c[1]seu nível atual\\c[0]",
                         "de_DE": "Obwohl es keinen Grund gibt, dich bei \\c[1]deinem Level\\c[0] noch vorzubereiten.",
                         "zh_CN": "\u4e0d\u8fc7\u6211\u89c9\u5f97\\c[1]\u4f60\u8fd9\u4e2a\u7b49\u7ea7\\c[0]\u5df2\u7ecf\u4e0d\u9700\u8981\u51c6\u5907\u4e86\u3002<<A<<[CHANGED 2019\/08\/16]",
                         "ja_JP": "\u899a\u609f\u304c\u6c7a\u307e\u3063\u3066\u3001\u6c7a\u95d8\u3059\u308b\u6e96\u5099\u304c\u3067\u304d\u305f\u3089\n\u4ffa\u306b\u58f0\u3092\u304b\u3051\u308d\u3002<<A<<[CHANGED 2019\/08\/16]",
@@ -11788,7 +11788,7 @@
                 }, {
                     "message": {
                         "en_US": "Damn straight!\\. We'll serve you the beating of a lifetime!",
-                        "pt_BR": "Com certeza! \\. Serviremos a você a surra de uma vida!",
+                        "pt_BR": "Com certeza! \\. Daremos a você a maior surra de sua vida!",
                         "de_DE": "Verdammt richtig!\\. Das wird die Klatsche deines Lebens!",
                         "zh_CN": "\u8bf4\u7684\u6ca1\u9519\uff01\\.\u51c6\u5907\u6328\u6253\u5427\uff01<<A<<[CHANGED 2019\/08\/25]",
                         "ja_JP": "\u3093\u306a\u308f\u3051\u306a\u3044\u3067\u3057\u3087\uff01\n\u76ee\u306b\u30e2\u30ce\u898b\u305b\u3066\u3042\u3052\u308b\u3063\u3066\u3070\uff01<<A<<[CHANGED 2019\/08\/25]",
@@ -12119,7 +12119,7 @@
                         }, {
                             "message": {
                                 "en_US": "Yes...\\. beating you with those \\c[1]stats\\c[0] will be very challenging.",
-                                "pt_BR": "Sim...\\. vencê-lo com essas \\ c [1] estatísticas \\ c [0] será muito desafiador",
+                                "pt_BR": "Sim...\\. vencê-la com esses \\c[1]status elevados\\c[0] será muito desafiador",
                                 "de_DE": "Und ja...\\. dich mit diesen \\c[1]Stats\\c[0] zu schlagen wird wahrlich eine Herausforderung.",
                                 "zh_CN": "\u786e\u5b9e...\\.\u6709\u4f60\u8fd9\u6837\u7684\\c[1]\u5c5e\u6027\\c[0]\uff0c\u8981\u51fb\u8d25\u4f60\u662f\u975e\u5e38\u56f0\u96be\u7684\u3002<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u305d\u3046...\\.\u305d\u3093\u306a\\c[1]\u30b9\u30c6\u30fc\u30bf\u30b9\\c[0]\u3092\u6301\u3064\n\u304a\u524d\u3092\u5012\u3059\u306e\u306f\u3001\u5927\u5909\u56f0\u96e3\u306a\n\u6311\u6226\u3060\u3068\u8a00\u3048\u3088\u3046\u3002<<A<<[CHANGED 2019\/08\/16]",
@@ -13662,7 +13662,7 @@
                         }, {
                             "message": {
                                 "en_US": "YOU DIRTY \\c[1]CHEATER\\c[0]! YOU SHOULD BE ASHAMED!!!",
-                                "pt_BR": "SEU SUJO \\c[1]TRAPACEIRO\\c[0]! VOCÊ DEVE FICAR ENVERGONHADO !!!",
+                                "pt_BR": "SUA \\c[1]TRAPACEIRA\\c[0] SUJA! VOCÊ DEVERIA ESTAR ENVERGONHADA!!!",
                                 "de_DE": "DU DRECKIGER \\c[1]CHEATER\\c[0]! DU SOLLTEST DICH SCH\u00c4MEN!!!",
                                 "zh_CN": "\u77e5\u803b\u5427\uff01\\c[1]\u4f5c\u5f0a\u8005\\c[0]\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u3053\u306e\u6c5a\u3089\u308f\u3057\u3044\\c[1]\u30c1\u30fc\u30bf\u30fc\\c[0]\u3081\uff01\n\u6065\u3092\u77e5\u308c\u3063\uff01\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -13722,6 +13722,7 @@
                         }, {
                             "message": {
                                 "en_US": "THIS HAS NOTHING TO DO WITH SKILLS!\\. THIS IS \\c[1]MADNESS\\c[0]!!",
+                                "pt_BR": "ISSO NÂO TEM RELAÇÃO ALGUMA COM HABILIDADE!\\. ISSO É \\c[1]LOUCURA\\c[0]!!",
                                 "de_DE": "DAS HAT NICHTS MIT K\u00d6NNEN ZU TUN!\\. DAS IST \\c[1]WAHNSINN\\c[0]!!",
                                 "zh_CN": "\u8fd9\u5df2\u7ecf\u65e0\u5173\u6280\u672f\u4e86\uff01\\.\u8fd9\u7b80\u76f4\u5c31\u662f\\c[1]\u75af\u72c2\\c[0]\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u3053\u308c\u3067\u306f\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u30b9\u30ad\u30eb\u306a\u3069\n\u4e00\u5207\u95a2\u4fc2\u304c\u306a\u3044\uff01\uff01\uff01\\.\n\u307e\u308b\u3067\\c[1]\u6b63\u6c17\u306e\u6c99\u6c70\u3067\u306f\u306a\u3044\\c[0]\u305e\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14396,7 +14397,7 @@
                     }, {
                         "message": {
                             "en_US": "YOU \\c[1]CHEATER\\c[0]!! YOU'VE BEEN CHEATING!!",
-                            "pt_BR": "SEU \\c[1]TRAPACEIRO\\c[0]!! VOCÊ ESTÁ TRAPACEANDO!!",
+                            "pt_BR": "SUA \\c[1]TRAPACEIRA\\c[0]!! VOCÊ ESTÁ TRAPACEANDO!!",
                             "de_DE": "DU \\c[1]CHEATER\\c[0]!! DU HAST GECHEATET!!",
                             "zh_CN": "\u4f60\\c[1]\u4f5c\u5f0a\\c[0]\u4e86!!<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u3053\u306e\\c[1]\u30c1\u30fc\u30bf\u30fc\\c[0]\u3081\uff01\uff01\n\u305a\u3063\u3068\u30c1\u30fc\u30c8\u3057\u3066\u305f\u3093\u3060\u306a\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14453,7 +14454,7 @@
                     }, {
                         "message": {
                             "en_US": "YOU TOOK A SHORTCUT AND GAINED \\c[3]NOTHING\\c[0]!",
-                            "pt_BR": "VOCÊ TOCOU UM ATALHO E NÃO GANHOU \\c[3]NADA\\ c[0]!",
+                            "pt_BR": "VOCÊ PEGOU UM ATALHO E NÃO GANHOU \\c[3]NADA\\c[0]!",
                             "de_DE": "MIT SOLCH SCH\u00c4BIGEN TRICKS ERREICHST DU \\c[3]GAR NICHTS\\c[0]!",
                             "zh_CN": "\u4f60\u6284\u4e86\u6377\u5f84\uff0c\\c[3]\u4ec0\u4e48\u90fd\u6ca1\u6709\u5f97\u5230\\c[0]!<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u30b7\u30e7\u30fc\u30c8\u30ab\u30c3\u30c8\u3067\n\u5f97\u305f\u3082\u306e\u306a\u3069\u305f\u3060\u306e\\c[3]\u7121\u3060\\c[0]\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14476,7 +14477,7 @@
                     }, {
                         "message": {
                             "en_US": "ALL YOU EXPERIENCED IS A \\c[1]HOLLOW VICTORY\\c[0]!",
-                            "pt_BR": "TUDO QUE VOCÊ EXPERIÊNCIOU É UMA \\c[1]VITÓRIA VAZIA\\c[0]!",
+                            "pt_BR": "TUDO QUE VOCÊ EXPERIÊNCIOU FOI UMA \\c[1]VITÓRIA VAZIA\\c[0]!",
                             "de_DE": "DAS WAR NICHT MEHR ALS EIN \\c[1]SCHEINSIEG\\c[0]!",
                             "zh_CN": "\u4f60\u6240\u83b7\u5f97\u7684\u53ea\u662f\\c[1]\u7a7a\u6d1e\u7684\u80dc\u5229\\c[0]!<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u304a\u524d\u306e\u5473\u308f\u3063\u3066\u304d\u305f\u52dd\u5229\u306f\u5168\u3066\u3001\n\\c[1]\u7a7a\u865a\u306a\u52dd\u5229\\c[0]\u3060\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14493,7 +14494,7 @@
                     }, {
                         "message": {
                             "en_US": "NOTHING was \\c[1]RISKED\\c[0]!\nNOTHING was \\c[1]GAINED\\c[0]!",
-                            "pt_BR": "NADA foi \\c[1]RISCADO\\c[0]!\nNADA foi \\c[1]GANHO\\c[0]!",
+                            "pt_BR": "NADA foi \\c[1]ARRISCADO\\c[0]!\nNADA foi \\c[1]GANHO\\c[0]!",
                             "de_DE": "Du hast NICHTS \\c[1]RISKIERT\\c[0]!\nDu hast NICHTS \\c[1]GEWONNEN\\c[0]!",
                             "zh_CN": "\u6ca1\u6709\u4efb\u4f55\\c[1]\u98ce\u9669\\c[0]!\n\u6ca1\u6709\u4efb\u4f55\\c[1]\u56de\u62a5\\c[0]!<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\\c[1]\u5192\u3057\u305f\u5371\u967a\\c[0]\u306f\u4f55\u3072\u3068\u3064\u306a\u304f\uff01\uff01\n\\c[1]\u5f97\u305f\u3082\u306e\\c[0]\u3082\u4f55\u3072\u3068\u3064\u306a\u3044\uff01\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14510,7 +14511,7 @@
                     }, {
                         "message": {
                             "en_US": "It's \\c[1]SAD\\c[0] that you don't know the difference.",
-                            "pt_BR": "É \\c[1]TRISTE\\c[0] que você não sabe a diferença.",
+                            "pt_BR": "É \\c[1]TRISTE\\c[0] que você não saiba a diferença.",
                             "de_DE": "Es ist \\c[1]TRAURIG\\c[0], dass du den Unterschied nicht kennst.",
                             "zh_CN": "\u800c\u4f60\u65e0\u6cd5\u7406\u89e3\u5176\u4e2d\u539f\u56e0\u624d\u662f\u6700\\c[1]\u53ef\u60b2\\c[0]\u7684\u3002<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u9055\u3044\u304c\u5206\u304b\u3089\u306a\u3044\u3068\u306f\u3001\\c[1]\u54c0\u308c\\c[0]\u3060\u306a\u3002<<A<<[CHANGED 2019\/08\/16]",
@@ -14625,7 +14626,7 @@
                         }, {
                             "message": {
                                 "en_US": "Do you feel any \\c[1]accomplishment\\c[0], over-powered as you are?",
-                                "pt_BR": "Você sente alguma \\c[1]realização\\ c[0], sobrecarregado como você é?",
+                                "pt_BR": "Você sente alguma \\c[1]realização\\ c[0], duelando com o nível acima do normal?",
                                 "de_DE": "Hast du das Gef\u00fchl, hier irgendetwas \\c[1]geleistet zu haben\\c[0]?",
                                 "zh_CN": "\u7528\u8fd9\u4e48\u6ee5\u5f3a\u7684\u5c5e\u6027\u83b7\u5f97\u4e86\u80dc\u5229\u4e4b\u540e\uff0c\u4f60\u6709\\c[1]\u6210\u5c31\u611f\\c[0]\u5417?<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u305d\u306e\u904e\u304e\u305f\u529b\u3067\u3001\n\u306a\u306b\u304b\\c[1]\u9054\u6210\u611f\\c[0]\u3067\u3082\u611f\u3058\u305f\u304b\uff1f<<A<<[CHANGED 2019\/08\/16]",
