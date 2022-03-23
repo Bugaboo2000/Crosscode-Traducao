@@ -8515,6 +8515,7 @@
           {
             "message": {
               "en_US": "Fantastique! Right at the sea, just like they said!",
+              "pt_BR": "Fantastique! Bem no mar, exatamente como eles disseram!",
               "de_DE": "Fantastique! Direkt am Meer, genau wie sie gesagt haben!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 39,
@@ -8621,6 +8622,7 @@
           {
             "message": {
               "en_US": "Look, you can still see Rhombus Square over there.",
+              "pt_BR": "Olhe, você ainda pode ver Rhombus Square de lá.",
               "de_DE": "Guck mal, du kannst immer noch Rhombus Square da dr\u00fcben sehen.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 264,
@@ -8636,6 +8638,7 @@
           {
             "message": {
               "en_US": "The futuristic city is cool, but it's nice to be at the sea for a change, non?",
+              "pt_BR": "A cidade futurista é legal, mas é bom estar no mar para variar, non?",
               "de_DE": "Die futuristische Stadt ist ja ganz nett, ist zur Abwechslung aber auch mal ganz sch\u00f6n, auf See zu sein, non?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 265,
@@ -8720,6 +8723,7 @@
           {
             "message": {
               "en_US": "... Whoa! Would you look at the time.",
+              "pt_BR": "... Uau! Você já viu a hora?",
               "de_DE": "... Woah! Hast du mal auf die Uhr geschaut?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 267,
@@ -8750,6 +8754,7 @@
           {
             "message": {
               "en_US": "Have we been really playing for that long?",
+              "pt_BR": "Estamos realmente jogando por tanto tempo?",
               "de_DE": "Haben wir wirklich schon so lange gespielt?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 268,
@@ -8781,6 +8786,7 @@
           {
             "message": {
               "en_US": "... So yes, I have to logout.",
+              "pt_BR": "... Então sim, eu tenho que sair.",
               "de_DE": "... Wird Zeit, dass ich mich auslogge.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 270,
@@ -8800,6 +8806,7 @@
           {
             "message": {
               "en_US": "Merde!\\. And I was having so much fun.",
+              "pt_BR": "Merde!\\. E eu estava me divertindo tanto.",
               "de_DE": "Merde!\\. Grad jetzt, wo es doch die ganze Zeit so viel Bock macht.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 271,
@@ -8831,6 +8838,7 @@
           {
             "message": {
               "en_US": "It can't be helped.",
+              "pt_BR": "Não tem jeito.",
               "de_DE": "Kann man nichts machen.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 273,
@@ -8846,6 +8854,7 @@
           {
             "message": {
               "en_US": "But hey! Before I leave, we really should share contacts, non?",
+              "pt_BR": "Mas ei! Antes de partir, devemos compartilhar nossos contatos, non?",
               "de_DE": "Aber hey! Bevor ich dich verlasse, sollten wir Kontaktdaten austauschen, non?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 274,
@@ -8907,6 +8916,7 @@
           {
             "message": {
               "en_US": "Next time, let's go out there and beat things up together!",
+              "pt_BR": "Da próxima vez, vamos sair por aí espancando alguns inimigos juntas!",
               "de_DE": "Lass uns n\u00e4chstes Mal da rausgehen und ein paar Monster verkloppen!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 276,
@@ -8938,6 +8948,7 @@
           {
             "message": {
               "en_US": "Au revoir! See you soon!",
+              "pt_BR": "Au revoir! Até breve!",
               "de_DE": "Au revoir! Bis bald!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 278,
@@ -8955,6 +8966,7 @@
             "entity": { "global": true, "name": "emilie" },
             "text": {
               "en_US": "Logout",
+              "pt_BR": "Desconectando",
               "de_DE": "Logout<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 279,
@@ -9030,6 +9042,7 @@
           {
             "message": {
               "en_US": "...So it seems you already made a friend!",
+              "pt_BR": "...Então, parece que você já fez um amigo!",
               "de_DE": "... Sieht so aus, als h\u00e4ttest du eine Freundin gefunden!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 280,
@@ -9061,6 +9074,7 @@
           {
             "message": {
               "en_US": "I was worried that your speech malfunction would isolate you from other players.",
+              "pt_BR": "Eu estava preocupado que seu mau funcionamento da fala a isolasse dos outros jogadores.",
               "de_DE": "Ich hatte schon Sorge, das defekte Sprachmodul k\u00f6nnte dich von anderen Spielern isolieren.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 282,
@@ -9076,6 +9090,7 @@
           {
             "message": {
               "en_US": "It is good to know there are players like Emilie that just overlook that.",
+              "pt_BR": "É bom saber que há jogadores como Emilie que simplesmente ignoram isso.",
               "de_DE": "Es tut gut zu wissen, dass es Spieler wie Emilie da drau\u00dfen gibt, die \u00fcber so etwas hinwegsehen.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 283,
@@ -9091,6 +9106,7 @@
           {
             "message": {
               "en_US": "Though she did not seem to notice it in the first place, did she...",
+              "pt_BR": "Embora ela parecesse não ter notado à princípio, ela...",
               "de_DE": "Wobei sie jetzt nicht unbedingt so wirkte, als ob sie es gemerkt h\u00e4tte...<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 284,
@@ -9122,6 +9138,7 @@
           {
             "message": {
               "en_US": "... Anyway, it has been a really long day, Lea.",
+              "pt_BR": "... Enfim, foi um dia realmente longo, Lea.",
               "de_DE": "... Jedenfalls... Das war ein wirklich langer Tag, Lea.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 286,
@@ -9153,6 +9170,7 @@
           {
             "message": {
               "en_US": "I suggest we log off, too.",
+              "pt_BR": "Sugiro que desconectemos também.",
               "de_DE": "Ich schlage deswegen vor, dass wir uns nun auch ausloggen.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 288,
@@ -9168,6 +9186,7 @@
           {
             "message": {
               "en_US": "I sort of need a break as well, you see?",
+              "pt_BR": "Eu também preciso de uma pausa, entende?",
               "de_DE": "Ich brauche auch einmal eine Pause, verstehst du?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 289,
@@ -9215,6 +9234,7 @@
           {
             "message": {
               "en_US": "Do not worry... We will be back in the game soon enough.",
+              "pt_BR": "Não se preocupe... Em breve estaremos de volta ao jogo.",
               "de_DE": "Mach dir keine Sorgen... Wir werden schon fr\u00fch genug wieder im Spiel sein.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 294,
@@ -9230,6 +9250,7 @@
           {
             "message": {
               "en_US": "Good Night, Lea.",
+              "pt_BR": "Boa noite, Lea.",
               "de_DE": "Gute Nacht, Lea.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 292,
@@ -9248,6 +9269,7 @@
             "entity": { "player": true },
             "text": {
               "en_US": "Logout",
+              "pt_BR": "Desconectando",
               "de_DE": "Logout<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 293,
@@ -9307,6 +9329,7 @@
           {
             "titleText": {
               "en_US": "--- WIP ---",
+              "pt_BR": "--- WIP ---",
               "de_DE": "--- WIP ---<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 295,
@@ -9317,6 +9340,7 @@
             },
             "text": {
               "en_US": "Insert Cutscene here.",
+              "pt_BR": "Insira a cutscene aqui.",
               "de_DE": "Hier Cutscene einf\u00fcgen.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 296,
@@ -9519,6 +9543,7 @@
                 {
                   "message": {
                     "en_US": "Oh... hey...",
+                    "pt_BR": "Oh... ei...",
                     "de_DE": "Oh... Hey...",
                     "fr_FR": "fr_FR",
                     "langUid": 608,
@@ -9553,6 +9578,7 @@
                 {
                   "message": {
                     "en_US": "Sorry, I'm not in the mood for small talk.",
+                    "pt_BR": "Desculpe, não estou com humor para bater papo.",
                     "de_DE": "Tut mir leid, aber ich hab grad keine Lust zu reden.",
                     "fr_FR": "fr_FR",
                     "langUid": 251,
@@ -9571,6 +9597,7 @@
                 {
                   "message": {
                     "en_US": "I just want to sit here alone.",
+                    "pt_BR": "Eu só quero ficar aqui sozinho.",
                     "de_DE": "Ich will einfach nur hier alleine sitzen.",
                     "fr_FR": "fr_FR",
                     "langUid": 252,
@@ -9589,6 +9616,7 @@
                 {
                   "message": {
                     "en_US": "Hi...",
+                    "pt_BR": "Oi...",
                     "de_DE": "Hi...",
                     "fr_FR": "fr_FR",
                     "langUid": 253,
@@ -9604,6 +9632,7 @@
                 {
                   "message": {
                     "en_US": "You probably have a gift for me, right?",
+                    "pt_BR": "Você provavelmente tem um presente para mim, certo?",
                     "de_DE": "Du hast wahrscheinlich ein Geschenk f\u00fcr mich, stimmt's?",
                     "fr_FR": "fr_FR",
                     "langUid": 254,
@@ -9622,6 +9651,7 @@
                 {
                   "message": {
                     "en_US": "It always comes around this time of the year.",
+                    "pt_BR": "Isso sempre acontece nesta época do ano.",
                     "de_DE": "Das kommt immer um diese Jahreszeit.",
                     "fr_FR": "fr_FR",
                     "langUid": 255,
@@ -9656,6 +9686,7 @@
                 {
                   "message": {
                     "en_US": "They're always very sweet presents, really.",
+                    "pt_BR": "São sempre presentes muito agradáveis, na verdade.",
                     "de_DE": "Versteh mich nicht falsch, das sind wirklich immer tolle Geschenke.",
                     "fr_FR": "fr_FR",
                     "langUid": 257,
@@ -9674,6 +9705,7 @@
                 {
                   "message": {
                     "en_US": "This time just reminds me of another player who... \\.\\.\\. is not playing anymore.",
+                    "pt_BR": "Desta vez só me faz lembrar de outro jogador que... \\.\\.\\. não está jogando mais.",
                     "de_DE": "Aber diese Zeit erinnert mich immer an einen anderen Spieler, der...\\.\\.\\. nicht mehr spielt.",
                     "fr_FR": "fr_FR",
                     "langUid": 258,
@@ -9708,6 +9740,7 @@
                 {
                   "message": {
                     "en_US": "Sorry, I'm just unloading my baggage on you. Just leave the present here. ",
+                    "pt_BR": "Perdão, estou apenas desabafando um pouco. Deixe o presente aqui.",
                     "de_DE": "Entschuldige, ich will meine Probleme nicht bei dir abladen. Lass das Geschenk einfach da.",
                     "fr_FR": "fr_FR",
                     "langUid": 260,
@@ -9726,6 +9759,7 @@
                 {
                   "message": {
                     "en_US": "Thanks for bringing it.",
+                    "pt_BR": "Obrigado por trazê-lo.",
                     "de_DE": "Danke f\u00fcrs Vorbeibringen.",
                     "fr_FR": "fr_FR",
                     "langUid": 261,
@@ -9793,6 +9827,7 @@
               {
                 "message": {
                   "en_US": "Thanks a lot for the present.\\. That was really nice.",
+                  "pt_BR": "Muito obrigado pelo presente.\\. Isso foi muito legal.",
                   "de_DE": "Vielen Dank f\u00fcr das Geschenk.\\. Das ist echt nett von dir.",
                   "zh_CN": "\u8c22\u8c22\u4f60\u9001\u7684\u793c\u7269\u3002<<A<<[CHANGED 2018/09/02]",
                   "ja_JP": "\u30d7\u30ec\u30bc\u30f3\u30c8\u3092\u304f\u308c\u3066\u672c\u5f53\u306b\u3042\u308a\u304c\u3068\u3046\u3002\\.\n\u3068\u3066\u3082\u3059\u3066\u304d\u3060\u3063\u305f\u3088\u3002<<A<<[CHANGED 2018/09/02]",
@@ -9938,6 +9973,7 @@
             "text": {
               "de_DE": "Initialisiere Avatar<<C<<IGNORE",
               "en_US": "Initializing avatar",
+              "pt_BR": "Inicializando Avatar",
               "langUid": 297,
               "fr_FR": "Ouioui",
               "zh_CN": "\u6b63\u5728\u521d\u59cb\u5316\u865a\u62df\u4eba\u7269",
@@ -9979,6 +10015,7 @@
           {
             "message": {
               "en_US": "Good morning, Lea!",
+              "pt_BR": "Bom dia, Lea!",
               "de_DE": "Guten Morgen, Lea!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 298,
@@ -10027,6 +10064,7 @@
           {
             "message": {
               "en_US": "...\\. Do you feel alright?",
+              "pt_BR": "...\\. Você se sente bem?",
               "de_DE": "...\\. F\u00fchlst du dich okay?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 301,
@@ -10074,6 +10112,7 @@
           {
             "message": {
               "en_US": "And...\\. you still remember everything from yesterday, right?\\. Meeting Emilie and all that?",
+              "pt_BR": "E...\\. você ainda se lembra de tudo de ontem, certo?\\. Conhecendo Emilie e tudo mais?",
               "de_DE": "Und...\\. und du erinnerst dich noch an alles, was gestern passiert ist?\\. Dass du Emilie getroffen hast und all das?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 304,
@@ -10105,6 +10144,7 @@
           {
             "message": {
               "en_US": "Alright, great!",
+              "pt_BR": "Muito bem, ótimo!",
               "de_DE": "Sehr gut!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 306,
@@ -10136,6 +10176,7 @@
           {
             "message": {
               "en_US": "Oh, by the way!\\. It seems that Emilie is online as-",
+              "pt_BR": "Ah, a propósito!\\. Parece que a Emilie está online també-",
               "de_DE": "Ah, \u00fcbrigens!\\. Emilie scheint gerade online zu sei-<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 308,
@@ -10152,6 +10193,7 @@
           {
             "message": {
               "en_US": "Oh.\\. That must be her.",
+              "pt_BR": "Oh.\\. Deve ser ela.",
               "de_DE": "Ah!\\. Das muss sie sein.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 310,
@@ -10167,6 +10209,7 @@
           {
             "message": {
               "en_US": "...?",
+              "pt_BR": "...?",
               "de_DE": "...?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 311,
@@ -10182,6 +10225,7 @@
           {
             "message": {
               "en_US": "It's like a call. Just take it!",
+              "pt_BR": "É como se fosse uma ligação. Apenas atenda!",
               "de_DE": "Es ist wie ein Anruf. Nimm ihn einfach an!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 312,
@@ -10197,6 +10241,7 @@
           {
             "message": {
               "en_US": "...!",
+              "pt_BR": "...!",
               "de_DE": "...!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 313,
@@ -10243,6 +10288,7 @@
           {
             "message": {
               "en_US": "Hi!",
+              "pt_BR": "Oi!",
               "de_DE": "Hi!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 314,
@@ -10258,6 +10304,7 @@
           {
             "message": {
               "en_US": "This is a direct link!\\. First time you've see it?",
+              "pt_BR": "Isso é um direct link!\\. É a primeira vez que você vê?",
               "de_DE": "Dies ist ein Direkt-Link!\\. Das erste Mal, dass du das nutzt?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 315,
@@ -10289,6 +10336,7 @@
           {
             "message": {
               "en_US": "Really fancy, non?",
+              "pt_BR": "Muito legal, non?",
               "de_DE": "Echt freaky, non?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 317,
@@ -10304,6 +10352,7 @@
           {
             "message": {
               "en_US": "Anyway, I just saw that you came online!",
+              "pt_BR": "Enfim, acabei de ver que você está online!",
               "de_DE": "Jedenfalls hab ich grad gesehen, dass du wieder online bist.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 318,
@@ -10319,6 +10368,7 @@
           {
             "message": {
               "en_US": "I logged in a few minutes ago myself!",
+              "pt_BR": "Eu acabei de me conectar há alguns minutos.!",
               "de_DE": "Ich hab mich vor ein paar Minuten selbst erst eingeloggt.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 319,
@@ -10334,6 +10384,7 @@
           {
             "message": {
               "en_US": "I'm in the city just to the north.\\. Come on, let's meet up!",
+              "pt_BR": "Estou na cidade ao norte.\\. Venha, vamos nos encontrar!",
               "de_DE": "Ich bin in der Stadt, im Norden.\\. Komm, lass uns treffen!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 320,
@@ -10365,6 +10416,7 @@
           {
             "message": {
               "en_US": "Alright, I'll be waiting!",
+              "pt_BR": "Muito bem, eu estarei esperando!",
               "de_DE": "Bon, ich warte auf dich!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 322,
@@ -10380,6 +10432,7 @@
           {
             "message": {
               "en_US": "Aaaaand...\\. Link end...\\. There!",
+              "pt_BR": "Eeeeeee...\\. Link ence...\\. Pronto!",
               "de_DE": "Uuuuund...\\. Link Ende...\\. Da!<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 323,
@@ -10411,6 +10464,7 @@
           {
             "message": {
               "en_US": "See? That was fast, was it not?",
+              "pt_BR": "Viu? Isso foi rápido, não foi?",
               "de_DE": "Siehst du? Das ging fix, nicht wahr?<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 324,
@@ -10426,6 +10480,7 @@
           {
             "message": {
               "en_US": "You should meet her.\\. It is much more fun to explore CrossWorlds with others.",
+              "pt_BR": "Você deve encontrá-la\\. É muito mais divertido explorar CrossWorlds com outros jogadores.",
               "de_DE": "Du solltest sie treffen.\\. Es ist viel sch\u00f6ner, CrossWorlds gemeinsam zu erkunden.<<C<<IGNORE",
               "fr_FR": "fr_FR",
               "langUid": 326,
@@ -10935,6 +10990,7 @@
           {
             "text": {
               "en_US": "Check your \\c[3]accepted and solved quests\\c[0] and read about the game's \\c[3]lore\\c[0]!",
+              "pt_BR": "Confira suas \\c[3]missões aceitas e concluídas\\c[0] e leia sobre a \\c[3]história\\c[0] do jogo!",
               "de_DE": "\u00dcberpr\u00fcfe deine \\c[3]angenommenen und gel\u00f6sten Quests\\c[0] und lies die \\c[3]Hintergrundgeschichte\\c[0] des Spiels!",
               "fr_FR": "fr_FR",
               "langUid": 58,
@@ -11749,6 +11805,7 @@
               {
                 "message": {
                   "en_US": "The crate should be somewhere around here so you better find it!",
+                  "pt_BR": "A caixa deve estar em algum lugar por aqui, então é melhor você encontrá-la!",
                   "de_DE": "Die Kiste muss hier irgendwo sein, mach dich also besser auf die Suche!",
                   "fr_FR": "fr_FR",
                   "langUid": 422,
@@ -11892,6 +11949,7 @@
               {
                 "message": {
                   "en_US": "Well met, \\v[lore.title.seeker]. There has been no further trouble at the docks so far but we should stay vigilant.",
+                  "pt_BR": "Muito bem, \\v[lore.title.seeker]. Até agora, não houve mais problemas nas docas. Mas devemos estar vigilantes.",
                   "de_DE": "Gut gemacht, Seeker. Es gab an den Docks bisher keine Probleme mehr. Aber wir sollten wachsam sein.",
                   "fr_FR": "fr_FR",
                   "langUid": 460,
@@ -15599,6 +15657,7 @@
               {
                 "message": {
                   "en_US": "Sacrebleu! Why would they add a door there?!",
+                  "pt_BR": "Sacrebleu! Por que eles iriam colocar uma porta ali?!",
                   "langUid": 602,
                   "ko_KR": "\uc81c\uae30\ub784! \uc65c \uc5ec\uae30\uc5d0 \ubb38\uc744 \uc124\uce58\ud574 \ub193\uc740 \uac70\uc57c?!<<A<<[CHANGED 2018/09/19]",
                   "ja_JP": "\u307e\u3063\u305f\u304f\u3082\u3046\uff01\u306a\u3093\u3060\u3063\u3066\u3053\u3093\u306a\u5834\u6240\u306b\u30c9\u30a2\u3092\u3064\u3051\u305f\u306e\uff1f\uff01<<A<<[CHANGED 2018/09/19]",
@@ -15625,6 +15684,7 @@
                   {
                     "message": {
                       "en_US": "This door honestly just went where it was supposed to. Very consistent.",
+                      "pt_BR": "Honestamente, esta porta apenas foi para onde deveria ter ido. Muito consistente.",
                       "langUid": 601,
                       "ko_KR": "\uc774 \ubb38\uc740 \uc6d0\ub798 \uc788\uc5b4\uc57c \ud588\ub358 \uacf3\uc73c\ub85c \ub3cc\uc544\uac04 \uac8c \ubd84\uba85\ud574. \uc815\ub9d0 \ub048\uc9c8\uae30\ub124.<<A<<[CHANGED 2017/10/17]",
                       "ja_JP": "\u3053\u306e\u30c9\u30a2\u306f\u3061\u3083\u3093\u3068\u3042\u308b\u3079\u304d\u3068\u3053\u308d\u306b\u5efa\u3066\u3089\u308c\u3066\u307e\u3059\u3088\u3002\u3068\u3066\u3082\u3057\u3063\u304b\u308a\u3057\u3066\u307e\u3059\u3057\u3002<<A<<[CHANGED 2017/11/04]",
@@ -15884,6 +15944,7 @@
                 {
                   "message": {
                     "en_US": "Arr, \\v[lore.title.seeker].\\. You the one they sent to board our proud battleship here?",
+                    "pt_BR": "Arr., \\v[lore.title.seeker].\\. Você é aquela que eles enviaram para embarcar em nosso orgulhoso navio de guerra?",
                     "de_DE": "Arrr, Seekerrr.\\. Bist du die, die sie uns schicken wollten?",
                     "fr_FR": "fr_FR",
                     "langUid": 526,
@@ -15918,6 +15979,7 @@
                 {
                   "message": {
                     "en_US": "Hope a landlubber like you can hold yer own without steady land under yer feet.\\. The sea is a fickle lady, I tell ye.",
+                    "pt_BR": "Vamos ver se uma marinheira de primeira viagem como você pode se segurar sem terra firme.\\. O mar é uma senhora agitada.",
                     "de_DE": "Wollen doch mal sehen, ob sich eine Landrrratte wie du auch ohne festen Boden behaupten kann.\\. Die See ist eine flatterrhafte Dame, sag' ich dirr.",
                     "zh_CN": "\u65f1\u9e2d\u5b50\u6700\u597d\u522b\u79bb\u4e86\u5730\u5c31\u817f\u8f6f\u3002\\.\u5927\u6d77\u53ef\u662f\u65e0\u60c5\u7684\u3002<<A<<[CHANGED 2018/09/19]",
                     "langUid": 552,
@@ -15950,6 +16012,7 @@
                 {
                   "message": {
                     "en_US": "Alright, alright.\\. Just wanted to get you in the mood.\\. Think like a smuggler to catch one, eh?",
+                    "pt_BR": "Muito bem, muito bem.\\, Só queria que você ficasse atenta.\\. Pense como um contrabandista para pegar um, eh?",
                     "de_DE": "Jarrr, jarrr.\\. Wollte dich nurr in Stimmung brringen.\\. Um einen Schmugglerr zu fangen, muss man wie einerr denken, nicht wahrrr?",
                     "zh_CN": "\u597d\u5566\u597d\u5566\u3002\\.\u8fd9\u4e0d\u662f\u8c03\u8282\u4e00\u4e0b\u6c14\u6c1b\u561b\u3002\\.\u8981\u60f3\u6293\u4f4f\u8d70\u79c1\u72af\u5fc5\u987b\u5148\u50cf\u8d70\u79c1\u72af\u4e00\u6837\u601d\u8003\uff0c\u5bf9\u5427\uff1f<<A<<[CHANGED 2017/10/13]",
                     "langUid": 553,
@@ -15986,6 +16049,7 @@
                 {
                   "message": {
                     "en_US": "Got a lot of those criminals these days, sending weapons directly over the sea.",
+                    "pt_BR": "Hoje em dia, muitos desses criminosos enviam armas diretamente sobre o mar.",
                     "de_DE": "Gibt in letzterr Zeit viele davon. Sie verrschiffen ihrre Waffenladungen dirrekt \u00fcberr die See.",
                     "zh_CN": "\u6700\u8fd1\u53ef\u6709\u4e0d\u5c11\u8d70\u79c1\u8d29\u76f4\u63a5\u901a\u8fc7\u6d77\u9762\u8d70\u79c1\u3002<<A<<[CHANGED 2017/10/13]",
                     "langUid": 598,
@@ -16003,6 +16067,7 @@
                 {
                   "message": {
                     "en_US": "Only way to catch them is by intercepting them directly on the sea.\\. This is where you come in, \\v[lore.title.seeker].",
+                    "pt_BR": "A única maneira de capturá-los é interceptá-los diretamente no mar.\\. É aqui que você entra, \\v[lore.title.seeker].",
                     "de_DE": "Die einzige M\u00f6glichkeit, sie zu schnappen, ist, sie dirrekt auf See abzufangen.\\. Hierr kommst du ins Spiel, Seekerrr.",
                     "zh_CN": "\u6293\u5230\u4ed6\u4eec\u7684\u552f\u4e00\u65b9\u6cd5\u5c31\u662f\u5728\u6d77\u9762\u4e0a\u62e6\u622a\u4ed6\u4eec\u3002\\.\u8fd9\u5c31\u5f97\u4f60\u5e2e\u5fd9\u4e86\uff0c\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2017/10/13]",
                     "langUid": 556,
@@ -16113,6 +16178,7 @@
                 {
                   "message": {
                     "en_US": "You will patrol the suspected smuggling routes with our state of the art combat platform here.",
+                    "pt_BR": "Você irá patrulhar as rotas suspeitas de contrabando com nossa plataforma de combate de última geração aqui.",
                     "de_DE": "Du wirrst die verrmuteten Schmugglerrrouten auf unserrer hochmoderrnen Gefechtsplattforrm hierr patrrouillieren.",
                     "zh_CN": "\u4f60\u5c06\u4e58\u7740\u8fd9\u5757\u79d1\u6280\u7ed3\u6676\u7684\u6218\u6597\u5e73\u53f0\u5728\u8d70\u79c1\u8def\u7ebf\u4e0a\u8fdb\u884c\u5de1\u903b\u3002<<A<<[CHANGED 2017/10/13]",
                     "langUid": 559,
@@ -16145,6 +16211,7 @@
                 {
                   "message": {
                     "en_US": "It's equipped with a \\c[3]Naval Protection Cannon\\c[0], or \\c[3]NPC\\c[0] for short, that's linked with your fancy Trackwalker systems.",
+                    "pt_BR": "Está equipado com um \\c[3]Canhão de Proteção Naval\\c[0], ou \\c[3]CPN\\c[0] em resumo, isso está ligado aos seu sistema de rastreio de trilhas extravagantes.",
                     "de_DE": "Sie ist mit einerr \\c[3]Marrineabwehrrkanone\\c[0] ausgerrr\u00fcstet, kurrrz \\c[3]MAK\\c[0], die mit deinem Pfadl\u00e4uferrsystem verrbunden ist.",
                     "zh_CN": "\u5b83\u4e0a\u9762\u88c5\u5907\u7740\\c[3]\u6d77\u9762\u9632\u536b\u5927\u70ae\\c[0]\uff0c\u7b80\u79f0\\c[3]NPC\\c[0]\uff0c\u4e0e\u4f60\u90a3\u4e2a\u5bfb\u8def\u8005\u7cfb\u7edf\u662f\u76f8\u8fde\u7684\u3002<<A<<[CHANGED 2018/01/06]",
                     "langUid": 561,
@@ -16162,6 +16229,7 @@
                 {
                   "message": {
                     "en_US": "So you'll be able to easily mark targets with your \\c[3]charged projectiles\\c[0] and the cannon will do the rest.",
+                    "pt_BR": "Assim você será capaz de marcar alvos facilmente com seus \\c[3]projéteis carregados\\c[0] e o canhão fará o resto.",
                     "de_DE": "Es wirrd also ein Leichtes f\u00fcrr dich sein, das Ziel \u00fcberr deine \\c[3]VRrrrPs\\c[0] anzuvisierren. Die Kanone errrledigt den Rrrest.",
                     "zh_CN": "\u4f60\u53ea\u8981\u4f7f\u7528\\c[3]\u84c4\u529b\u653b\u51fb\\c[0]\u6807\u8bb0\u76ee\u6807\uff0c\u5269\u4e0b\u7684\u4ea4\u7ed9\u5927\u70ae\u5c31\u884c\u3002<<A<<[CHANGED 2017/10/13]",
                     "langUid": 562,
@@ -16179,6 +16247,7 @@
                 {
                   "message": {
                     "en_US": "What's more, your fancy \\c[3]heat\\c[0] and \\c[3]cold\\c[0] elements will give our cannon special properties! ",
+                    "pt_BR": "Além disso, seus elegantes elementos \\c[3]fogo\\c[0] e \\c[3]gelo\\c[0] darão à nossos canhões propriedades especiais!",
                     "de_DE": "Au\u00dferrdem werrden deine schnieken \\c[3]Hitze\\c[0]- und \\c[3]K\u00e4lte\\c[0]-Elemente unserrer Kanone besonderre Effekte verrleihen!",
                     "zh_CN": "\u800c\u4e14\uff0c\u4f60\u7684\\c[3]\u706b\\c[0]\u548c\\c[3]\u51b0\\c[0]\u4e24\u79cd\u5143\u7d20\u8fd8\u80fd\u5f3a\u5316\u6211\u4eec\u7684\u5927\u70ae\uff01<<A<<[CHANGED 2018/11/08]",
                     "ja_JP": "\u305d\u306e\u4e0a\u3001\u3042\u306a\u305f\u306e\u3059\u3070\u3089\u3057\u3044\\c[3]\u706b\u708e\\c[0]\u3068\n\\c[3]\u51b7\u6c17\\c[0]\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u304c\u3001\u79c1\u305f\u3061\u306e\u30ad\u30e3\u30ce\u30f3\u306b\n\u7279\u5225\u306a\u7279\u6027\u3092\u4e0e\u3048\u3066\u304f\u308c\u308b\u3067\u3057\u3087\u3046\uff01<<A<<[CHANGED 2018/11/08]",
@@ -16211,6 +16280,7 @@
                 {
                   "message": {
                     "en_US": "Everything's been set up already, so just talk to me again if you wanna start your patrol.",
+                    "pt_BR": "Tudo está preparado, então fale comigo novamente se quiser começar sua patrulha.",
                     "de_DE": "Es ist alles berrreit. Gib mirr Bescheid, wenn du auf Patrrrouille fahrren willst.",
                     "zh_CN": "\u4e00\u5207\u90fd\u51c6\u5907\u5c31\u7eea\u4e86\uff0c\u4f60\u60f3\u5f00\u59cb\u5de1\u903b\u4e86\u5c31\u8ddf\u6211\u8bf4\u3002<<A<<[CHANGED 2017/10/13]",
                     "langUid": 564,
@@ -16545,6 +16615,7 @@
                     {
                       "message": {
                         "en_US": "Good.\\. The route is already programmed into the ship.\\. Just get aboard.",
+                        "pt_BR": "Bom.\\. A rota já está programada no navio.\\. Basta subir a bordo.",
                         "de_DE": "Gut.\\. Die Rrroute ist im Borrdcomputer schon einprrogrammiert.\\. Geh einfach an Borrd.",
                         "zh_CN": "\u5f88\u597d\u3002\\.\u8def\u7ebf\u5df2\u7ecf\u8f93\u5165\u5230\u8239\u91cc\u4e86\\.\u4e0a\u8239\u5427\u3002<<A<<[CHANGED 2017/10/13]",
                         "langUid": 534,
@@ -16680,6 +16751,7 @@
                     {
                       "message": {
                         "en_US": "Make sure to destroy as many weapons as you can.",
+                        "pt_BR": "Certifique-se de destruir o máximo de armas que puder.",
                         "de_DE": "Sieh zu, dass du so viele Waffen wie m\u00f6glich verrrsenkst!",
                         "zh_CN": "\u8bf7\u4f60\u6467\u6bc1\u5c3d\u53ef\u80fd\u591a\u7684\u6b66\u5668\u3002<<A<<[CHANGED 2017/10/13]",
                         "langUid": 578,
@@ -16697,6 +16769,7 @@
                     {
                       "message": {
                         "en_US": "If \\c[3]too many get through\\c[0] this operation will be considered \\c[3]failed\\c[0].",
+                        "pt_BR": "Se você deixar\\c[3]muitas armas passarem\\c[0] essa operação será considerada um \\c[3]fracasso\\c[0].",
                         "de_DE": "Wenn dirr \\c[3]zu viele durrch die Lappen gehen\\c[0], ist unserre Operration \\c[3]gescheiterrt\\c[0].",
                         "zh_CN": "\u5982\u679c\\c[3]\u6709\u592a\u591a\u6ca1\u6467\u6bc1\\c[0]\u90a3\u4e48\u672c\u6b21\u884c\u52a8\u5c31\u7b97\\c[3]\u5931\u8d25\\c[0]\u4e86\u3002<<A<<[CHANGED 2017/10/13]",
                         "langUid": 579,
@@ -16732,6 +16805,7 @@
                     {
                       "message": {
                         "en_US": "Well, I'm sure you could've guessed that already.",
+                        "pt_BR": "Bem, tenho certeza de que você já deve ter imaginado isso.",
                         "de_DE": "Da w\u00e4rrst du wahrrscheinlich aberr auch so drrauf gekommen.",
                         "zh_CN": "\u6211\u60f3\u4f60\u5e94\u8be5\u4e5f\u80fd\u731c\u51fa\u6765\u5427\u3002<<A<<[CHANGED 2017/10/13]",
                         "langUid": 580,
@@ -16749,6 +16823,7 @@
                     {
                       "message": {
                         "en_US": "Off you go.\\. Good hunting!",
+                        "pt_BR": "Arrr!\\. Boa caçada!",
                         "de_DE": "Arrr!\\. Auf eine gute Jagd, Seekerrr.",
                         "zh_CN": "\u53bb\u5427\u3002\\.\u795d\u4f60\u597d\u8fd0\uff01<<A<<[CHANGED 2017/10/13]",
                         "langUid": 581,
@@ -16863,6 +16938,7 @@
                     {
                       "message": {
                         "en_US": "Don't take too much time.\\. More shipments are arriving every day!",
+                        "pt_BR": "Não demore muito.\\. A cada dia chegam mais e mais cargas!",
                         "de_DE": "Lass dirr nicht zuviel Zeit.\\. Tagt\u00e4glich kommen mehrr und mehrr Ladungen an!",
                         "zh_CN": "\u522b\u82b1\u592a\u591a\u65f6\u95f4\u3002\\.\u6bcf\u5929\u90fd\u6709\u5f88\u591a\u8d70\u79c1\u54c1\u5728\u8fd0\u5165\u5927\u9646\uff01<<A<<[CHANGED 2017/10/13]",
                         "langUid": 575,
@@ -16900,6 +16976,7 @@
                     {
                       "message": {
                         "en_US": "Well, you will patrol the smuggling route and make sure those weapons don't reach the continent.",
+                        "pt_BR": "Bem, você vai patrulhar a rota do contrabando e certificar-se de que essas armas não cheguem ao continente.",
                         "langUid": 540,
                         "de_DE": "Also, du wirrst die Schmugglerrroute patrrouillieren und daf\u00fcrr sorrgen, dass die Waffen den Kontinent nicht errreichen.",
                         "zh_CN": "\u7531\u4f60\u6765\u5728\u8d70\u79c1\u8def\u7ebf\u4e0a\u5de1\u903b\uff0c\u4fdd\u8bc1\u4e0d\u8ba9\u6b66\u5668\u8fd0\u8fdb\u5927\u9646\u3002<<A<<[CHANGED 2017/10/13]",
@@ -16975,6 +17052,7 @@
                     {
                       "message": {
                         "en_US": "To help you, we prepared this masterpiece of naval warfare that is able to fire devastating projectiles.",
+                        "pt_BR": "Para ajudá-la, preparamos esta obra-prima de guerra naval, capaz de disparar projéteis devastadores.",
                         "langUid": 595,
                         "de_DE": "Um dirr zu helfen, haben wirr dieses Meisterrwerrk der Seekrrriegsf\u00fchrrung vorrberreitet, das in derr Lage ist, verrheerrende Prrrojektile abzufeuerrn.",
                         "zh_CN": "\u4e3a\u4e86\u5e2e\u52a9\u4f60\u7684\u884c\u52a8\uff0c\u6211\u4eec\u51c6\u5907\u4e86\u8fd9\u4e2a\u6d77\u6218\u5229\u5668\uff0c\u80fd\u53d1\u5c04\u51fa\u81f4\u547d\u7684\u70ae\u5f39\u3002<<A<<[CHANGED 2017/10/13]",
@@ -16992,6 +17070,7 @@
                     {
                       "message": {
                         "en_US": "To use it, just \\c[3]mark\\c[0] an enemy with a \\c[3]charged projectile\\c[0] when the turret is \\c[3]ready\\c[0].",
+                        "pt_BR": "Para usar isso, apenas \\c[3]marque\\c[0] um inimigo com um \\c[3]tiro carregado\\c[0] quando o canhão estiver \\c[3]pronto\\c[0].",
                         "langUid": 570,
                         "de_DE": "Dazu musst du lediglich einen Feind mit einem \\c[3]geladenen Projektil marrkierren\\c[0], sobald das Gesch\u00fctz \\c[3]berrreit\\c[0] ist.",
                         "zh_CN": "\u53ea\u8981\u7b49\u70ae\u53f0\\c[3]\u51c6\u5907\u5b8c\u6bd5\\c[0]\u540e\u7528\\c[3]\u84c4\u529b\u653b\u51fb\\c[0]\u6765\\c[3]\u6807\u8bb0\u654c\u4eba\\c[0] \u5373\u53ef\u3002<<A<<[CHANGED 2017/10/13]",
@@ -17009,6 +17088,7 @@
                     {
                       "message": {
                         "en_US": "Aside from doing \\c[3]high damage\\c[0] those will also \\c[3]stun\\c[0] and \\c[3]disrupt shields\\c[0].",
+                        "pt_BR": "Além de causar um \\c[3]dano alto\\c[0] esses tiros também irão causar \\c[3]atordoamento\\c[0] e irão \\c[3]romper os escudos\\c[0].",
                         "langUid": 541,
                         "de_DE": "Neben \\c[3]hohem Schaden\\c[0] verrurrrsacht das Geschoss zus\u00e4tzlich \\c[3]L\u00e4hmung\\c[0] und \\c[3]durrchbrrricht dessen Schild\\c[0].",
                         "zh_CN": "\u70ae\u5f39\u4e0d\u4ec5\\c[3]\u4f24\u5bb3\u9ad8\\c[0]\uff0c\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\u8fd8\u4f1a\u88ab\\c[3]\u6655\u7729\\c[0]\u548c\\c[3]\u7834\u76fe\\c[0]\u3002<<A<<[CHANGED 2017/10/13]",
@@ -17026,6 +17106,7 @@
                     {
                       "message": {
                         "en_US": "Also, depending on the \\c[3]element\\c[0] you used to mark the enemy, the type of shot will differ.",
+                        "pt_BR": "Além disso, dependendo do \\c[3]elemento\\c[0] que você usou para marcar o inimigo, o tipo de tiro será diferente.",
                         "langUid": 542,
                         "de_DE": "Abh\u00e4ngig davon, in welchem \\c[3]Element-Modus\\c[0] du dich befindest, varrriiert der Typ des Geschosses.",
                         "zh_CN": "\u800c\u4e14\uff0c\u6839\u636e\u6807\u8bb0\u654c\u4eba\u65f6\u7684\\c[3]\u5143\u7d20\\c[0]\u4e0d\u540c\uff0c\u70ae\u5f39\u7c7b\u578b\u4e5f\u4f1a\u4e0d\u540c\u3002<<A<<[CHANGED 2017/10/13]",
@@ -17043,6 +17124,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Neutral\\c[0] shots are your standard single-target projectile.\\. \\c[3]No special attributes\\c[0] but \\c[3]fast reloading\\c[0].",
+                        "pt_BR": "Tiros \\c[3]Neutros\\c[0] são o seu projétil padrão de alvo único.\\. Eles não possuem \\c[3]atributos especiais\\c[0] mas possuem \\c[3]recarga rápida\\c[0]",
                         "langUid": 543,
                         "de_DE": "\\c[3]Neutrral\\c[0]-Geschosse sind das Standarrd-Prrrojektil f\u00fcr Einzelziele.\\. \\c[3]Keine Besonderrheiten\\c[0] au\u00dfer \\c[3]schnellem Nachladen\\c[0].",
                         "zh_CN": "\\c[3]\u4e2d\u6027\\c[0]\u5c06\u5c04\u51fa\u6807\u51c6\u7684\u5355\u76ee\u6807\u70ae\u5f39\u3002\\.\\c[3]\u6ca1\u6709\u4ec0\u4e48\u7279\u522b\u4e4b\u5904\\c[0]\u4f46\u662f\\c[3]\u88c5\u5f39\u5feb\\c[0]\u3002<<A<<[CHANGED 2017/10/13]",
@@ -17060,6 +17142,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Heat\\c[0] shots cause an \\c[3]explosion\\c[0] on hit, damaging \\c[3]nearby targets\\c[0] as well.",
+                        "pt_BR":"Tiros de \\c[3]Fogo\\c[0] causam uma \\c[3]explosão\\c[0], atingindo \\c[3]inimigos próximos\\c[0] também.",
                         "langUid": 544,
                         "de_DE": "\\c[3]Hitze\\c[0]-Geschosse verrurrrsachen \\c[3]Explosionsschaden\\c[0], der auch \\c[3]benachbarrrte Ziele\\c[0] trifft.",
                         "zh_CN": "\\c[3]\u706b\u5143\u7d20\\c[0]\u70ae\u5f39\u5c06\u5728\u547d\u4e2d\u65f6\\c[3]\u7206\u70b8\\c[0] \uff0c\u4f24\u5bb3\\c[3]\u5468\u56f4\u654c\u4eba\\c[0] \u3002<<A<<[CHANGED 2018/01/06]",
@@ -17077,6 +17160,7 @@
                     {
                       "message": {
                         "en_US": "Lastly, \\c[3]Cold\\c[0] shots are \\c[3]single-target\\c[0] as well, but they are \\c[3]more powerful\\c[0] and also \\c[3]slow down\\c[0] whatever they hit.",
+                        "pt_BR": "E por último, os tiros de \\c[3]Gelo\\c[0] são de \\c[3]alvo único\\c[0] também, mas eles são \\c[3]mais poderosos\\c[0] e causam \\c[3]lentidão\\c[0] no alvo.",
                         "langUid": 545,
                         "de_DE": "\\c[3]K\u00e4lte\\c[0]-Geschosse schaden nur \\c[3]einem Ziel\\c[0], sind daf\u00fcrr \\c[3]krrraftvollerr\\c[0] und \\c[3]verrlangsamen\\c[0] den Feind.",
                         "zh_CN": "\u6700\u540e\uff0c\\c[3]\u51b0\u5143\u7d20\\c[0]\u70ae\u5f39\u4e5f\u662f\\c[3]\u5355\u4f53\\c[0]\u7684\uff0c\u4f46\u662f\\c[3]\u5a01\u529b\u66f4\u5927\\c[0] \u800c\u4e14\u4f1a\u4f7f\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\\c[3]\u51cf\u901f\\c[0]\u3002<<A<<[CHANGED 2018/01/06]",
@@ -17094,6 +17178,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Other Elements\\c[0] are still \\c[3]not implemented\\c[0], so they will just trigger the \\c[3]Neutral projectiles\\c[0].",
+                        "pt_BR":"Os \\c[3]Outros Elementos\\c[0] ainda \\c[3]não foram implementados\\c[0], então eles são como \\c[3]projéteis neutros\\c[0].",
                         "de_DE": "\\c[3]Anderre Elemente\\c[0] sind noch nicht implementierrt. Stattdessen werrden einfach \\c[3]Neutrral-Geschosse\\c[0] verrschossen.",
                         "langUid": 546,
                         "zh_CN": "\\c[3]\u5176\u4ed6\u5143\u7d20\\c[0]\u8fd8\\c[3]\u5c1a\u672a\u5b9e\u88c5\\c[0]\uff0c\u6240\u4ee5\u5b83\u4eec\u53ea\u4f1a\u5c04\u51fa\\c[3]\u4e2d\u6027\u5f39\u836f\\c[0]\u3002<<A<<[CHANGED 2017/12/12]",
@@ -17111,6 +17196,7 @@
                     {
                       "message": {
                         "en_US": "The turret is also pretty sturdy.\\. Though, you should still be careful of \\c[3]explosives\\c[0] and \\c[3]disruption shots\\c[0].",
+                        "pt_BR": "O canhão também é bastante resistente.\\. No entanto, você ainda deve ter cuidado com os \\c[3]explosivos\\c[0] e os \\c[3]tiros inimigos\\c[0].",
                         "langUid": 571,
                         "de_DE": "Das Gesch\u00fctz ist rrrecht schwerrg\u00e4ngig.\\. Verrsuche trrotzdem, \\c[3]Grrranaten\\c[0] und \\c[3]St\u00f6rrgeschossen\\c[0] auszuweichen.",
                         "zh_CN": "\u70ae\u53f0\u4e5f\u662f\u86ee\u575a\u56fa\u7684\u3002\\.\u4e0d\u8fc7\uff0c\u4f60\u5f97\u6ce8\u610f\\c[3]\u7206\u70b8\\c[0]\u548c\\c[3]\u5e72\u6270\u5f39\\c[0]\u3002<<A<<[CHANGED 2017/10/13]",
@@ -17128,6 +17214,7 @@
                     {
                       "message": {
                         "en_US": "Those will do \\c[3]great damage\\c[0] to your ship and also \\c[3]stun\\c[0] it shortly.\\. You won't want it exploding in the ocean, right?",
+                        "pt_BR": "Eles causam um \\c[3]dano alto\\c[0] e também \\c[3]paralisam\\c[0] o canhão por algum tempo\\. Você não vai querer que ele exploda no oceano, certo?",
                         "langUid": 572,
                         "de_DE": "Sie verrurrrsachen n\u00e4mlich \\c[3]schwerren Schaden\\c[0] und kurrzzeitige \\c[3]L\u00e4hmung\\c[0].\\. Zuviele davon und KRRRAWUMM! - derr Kahn fliegt in die Luft!",
                         "zh_CN": "\u90a3\u4e9b\u5c06\u4f1a\u5bf9\u8239\u4f53\u9020\u6210\\c[3]\u5927\u91cf\u4f24\u5bb3\\c[0]\u5e76\u77ed\u6682\\c[3]\u6655\u7729\\c[0]\u5b83\u3002\\.\u4f60\u53ef\u4e0d\u60f3\u8ba9\u8239\u6c89\u4e86\u5427\uff1f<<A<<[CHANGED 2017/10/13]",
@@ -17502,6 +17589,7 @@
               {
                 "message": {
                   "en_US": "Well met, \\v[lore.title.seeker]. There has been no further trouble at the docks so far but we should stay vigilant.",
+                  "pt_BR": "Muito bem, \\v[lore.title.seeker]. Até agora, não houve mais problemas nas docas. Mas devemos estar vigilantes",
                   "de_DE": "Gut gemacht, Seekerrr. Es gab an den Docks bisherr keine Prrobleme mehrr. Aberr wirr sollten wachsam sein.",
                   "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\u6e2f\u53e3\u73b0\u5728\u6ca1\u6709\u5176\u4ed6\u7684\u9ebb\u70e6\uff0c\u4e0d\u8fc7\u6211\u4eec\u5e94\u5f53\u4fdd\u6301\u8b66\u60d5\u3002<<A<<[CHANGED 2017/10/10]",
                   "langUid": 538,
@@ -17557,6 +17645,7 @@
                 {
                   "message": {
                     "en_US": "Hey, \\v[lore.title.seeker].\\. I hear we got you back on board for this cruise?",
+                    "pt_BR": "Ei, \\v[lore.title.seeker].\\. Eu ouvi dizer que você havia retornado.",
                     "de_DE": "Arrr, Seekerrr.\\. Wie ich geh\u00f6rrt habe, bist du wiederr mit von derr Parrrtie?",
                     "zh_CN": "\u563f\uff0c\\v[lore.title.seeker]\u3002\\.\u8fd9\u6b21\u4ed6\u4eec\u53c8\u6d3e\u4f60\u6765\u5566\uff1f<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3084\u3041\u3001\\v[lore.title.seeker]\u3055\u3093\u3088\u3002\n\\.\u3042\u3093\u305f\u3053\u306e\u8857\u306b\u623b\u3063\u3066\u304d\u305f\u3063\u3066\n\u805e\u3044\u305f\u3093\u3060\u304c\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -17590,6 +17679,7 @@
                 {
                   "message": {
                     "en_US": "That's reassuring.\\. It sure beats teaching someone else how to use our battleship.",
+                    "pt_BR": "Isso é reconfortante. Com certeza é melhor do que ensinar outra pessoa a usar nosso \"navio de guerra\".",
                     "de_DE": "Gut zu wissen.\\. Sonst h\u00e4tte ich irrrgend so einen Grrr\u00fcnschnabel neu anlerrrnen m\u00fcssen.",
                     "zh_CN": "\u633a\u597d\u7684\u3002\\.\u603b\u7b97\u4e0d\u7528\u91cd\u65b0\u6559\u90a3\u4e9b\u83dc\u9e1f\u4e86\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u305d\u308a\u3083\u3042\u3088\u304b\u3063\u305f\u3002\\.\u3053\u306e\u6226\u8266\u306e\u4f7f\u3044\u65b9\u3092\n\u4ed6\u306e\u8ab0\u304b\u306b\u6559\u3048\u308b\u306a\u3093\u3056\u3041\u3001\u3081\u3093\u3069\u304f\u305b\u3047\u3002<<A<<[CHANGED 2020/06/17]",
@@ -17622,6 +17712,7 @@
                 {
                   "message": {
                     "en_US": "So, I assume you remember our trusted NPC.",
+                    "pt_BR": "Portanto, presumo que você se lembre de nosso confiável CPN.",
                     "de_DE": "Dann d\u00fcrrfte dirr unserr trrrauter Frrreund hierr noch in besterr Errinnerrung sein.",
                     "zh_CN": "\u4f60\u5e94\u8be5\u8fd8\u8bb0\u5f97\u5982\u4f55\u64cd\u7eb5\u8fd9\u8258\u6218\u8239\u5427\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u4ffa\u3089\u306e\u4fe1\u983c\u306e\u304a\u3051\u308bNPC\u3001\u899a\u3048\u3066\u308b\u3060\u308d\u3002<<A<<[CHANGED 2020/06/17]",
@@ -17714,6 +17805,7 @@
                 {
                   "message": {
                     "en_US": "You will use it to patrol a new smuggling route, again, and take out the incoming weapons.",
+                    "pt_BR": "Você o usará para patrulhar uma nova rota de contrabando, novamente, e retirar as armas que chegam.",
                     "de_DE": "Patrrouillierre die neue Schmugglerrroute und setze zun\u00e4chst den herranrrr\u00fcckenden Feind au\u00dferr Gefecht.",
                     "zh_CN": "\u4f60\u5c06\u4e58\u7740\u8fd9\u5757\u79d1\u6280\u7ed3\u6676\u7684\u6218\u6597\u5e73\u53f0\u5728\u8d70\u79c1\u8def\u7ebf\u4e0a\u8fdb\u884c\u5de1\u903b\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u65b0\u3057\u3044\u5bc6\u8f38\u30eb\u30fc\u30c8\u306e\u30d1\u30c8\u30ed\u30fc\u30eb\u3057\u306a\u304c\u3089\u3001\n\u5165\u3063\u3066\u304f\u308b\u6b66\u5668\u3092\u6392\u9664\u3057\u306a\u3002<<A<<[CHANGED 2020/06/17]",
@@ -17731,6 +17823,7 @@
                 {
                   "message": {
                     "en_US": "However, once you have defeated that wave, we will use their route to locate the position of the coordinator that controls them!",
+                    "pt_BR": "No entanto, uma vez derrotada essa onda, usaremos a rota deles para localizar a posição do coordenador deles!",
                     "de_DE": "Sobald du die Welle errledigt hast, folgen wirr ihrrerr Rrroute, um den Koorrrdinatorr zu orrten!",
                     "zh_CN": "\u4e0d\u8fc7\u8fd9\u6b21\u5de1\u903b\u5b8c\u4e4b\u540e\u6211\u4eec\u4f1a\u76f4\u63d2\u63a7\u5236\u8d70\u79c1\u7684\u534f\u8c03\u673a\u5668\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3060\u304c\u306a\u3001\u4e00\u5ea6\u305d\u306e\u30a6\u30a7\u30fc\u30d6\u3092\u7834\u3063\u3061\u307e\u3048\u3070\u3001\n\u30e4\u30c4\u3089\u306e\u30eb\u30fc\u30c8\u3092\u9ed2\u5e55\u30b3\u30fc\u30c7\u30a3\u30cd\u30fc\u30bf\u30fc\u306e\n\u4f4d\u7f6e\u628a\u63e1\u306b\u4f7f\u3046\u306e\u3055\uff01<<A<<[CHANGED 2020/06/17]",
@@ -17748,6 +17841,7 @@
                 {
                   "message": {
                     "en_US": "Destroying that will halt their operation completely and get us some data on the criminals behind that.",
+                    "pt_BR": "Destruir isso vai interromper completamente sua operação e nos dar alguns dados sobre os criminosos por trás disso.",
                     "de_DE": "Zerrst\u00f6rren wirr ihn, f\u00e4llt derren ganze Operration buchst\u00e4blich ins Wasserr und wirr krriegen Inforrmationen \u00fcberr die Hinterrm\u00e4nnerr.",
                     "zh_CN": "\u6467\u6bc1\u5b83\u5c06\u4f1a\u5b8c\u5168\u7ec8\u6b62\u8d70\u79c1\u884c\u52a8\uff0c\u5e76\u7ed9\u6211\u4eec\u66f4\u591a\u5173\u4e8e\u80cc\u540e\u7f6a\u72af\u7684\u60c5\u62a5\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u7834\u58ca\u3059\u308a\u3083\u30e4\u30c4\u3089\u306e\u52d5\u304d\u3092\u5b8c\u5168\u306b\n\u6b62\u3081\u3089\u308c\u308b\u3002\u3067\u3001\u88cf\u306b\u3042\u308b\u72af\u7f6a\u30c7\u30fc\u30bf\u3082\n\u624b\u306b\u5165\u308b\u3063\u3066\u308f\u3051\u3055\u3002<<A<<[CHANGED 2020/06/17]",
@@ -17780,6 +17874,7 @@
                 {
                   "message": {
                     "en_US": "Well, that's your job. We also upgraded the \\c[3]Naval Protection Cannon\\c[0]'s weaponry a bit.",
+                    "pt_BR": "Bem, esse é o seu trabalho. Nós também atualizamos o armamento do \\c[3]Canhão de Proteção Naval\\c[0].",
                     "de_DE": "So weit zu deinem Auftrrag. Wirr haben die \\c[3]Marrineabwehrrkanone\\c[0] \u00fcbrrigens etwas aufgemotzt.",
                     "zh_CN": "\u4e0d\u8fc7\u8fd9\u662f\u4f60\u7684\u5de5\u4f5c\u4e86\u3002\u53e6\u5916\uff0c\u6211\u4eec\u8fd8\u5347\u7ea7\u4e86\u6b66\u5668\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u305d\u308c\u306f\u3042\u3093\u305f\u306e\u4ed5\u4e8b\u3060\u3002\u4ffa\u3089\u3082\n\\c[3]\u30ca\u30fc\u30d0\u30eb\u30fb\u30d7\u30ed\u30c6\u30af\u30b7\u30e7\u30f3\u30fb\u30ad\u30e3\u30ce\u30f3\\c[0]\u306e\n\u5175\u5668\u985e\u3092\u3061\u3087\u3063\u3068\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9\u3057\u305f\u3093\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -17797,6 +17892,7 @@
                 {
                   "message": {
                     "en_US": "You can now use all your elements, including \\c[3]shock\\c[0] and \\c[3]wave\\c[0], to order special projectiles from the cannon!",
+                    "pt_BR": "Agora você pode usar todos os seus elementos, incluindo \\c[3]choque\\c[0] e \\c[3]onda\\c[0] para ativar projéteis especiais do canhão!",
                     "de_DE": "Du kannst nun all deine Elemente nutzen, auch \\c[3]Schock\\c[0] und \\c[3]Welle\\c[0], um Spezialgeschosse aus derr Kanone zu feuerrn!",
                     "zh_CN": "\u73b0\u5728\u4f60\u53ef\u4ee5\u4f7f\u7528\u5168\u90e8\u56db\u79cd\u5143\u7d20\uff0c\u6765\u547d\u4ee4\u5927\u70ae\u8fdb\u884c\u7279\u6b8a\u653b\u51fb\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3055\u3041\u3001\\c[3]\u96fb\u6483\\c[0]\u3084\\c[3]\u6ce2\u52d5\\c[0]\u3082\u542b\u3081\u3001\n\u5168\u90e8\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u3092\u4f7f\u3063\u3066\u3001\u30ad\u30e3\u30ce\u30f3\u304b\u3089\n\u98db\u3073\u51fa\u3059\u30b9\u30da\u30b7\u30e3\u30eb\u306a\u7832\u5f3e\u3092\u6ce8\u6587\u3067\u304d\u308b\u305c\uff01<<A<<[CHANGED 2020/06/17]",
@@ -17814,6 +17910,7 @@
                 {
                   "message": {
                     "en_US": "Just mark targets with your \\c[3]charged projectiles\\c[0] as before.",
+                    "pt_BR": "Apenas marque os alvos com seus \\c[3tiros carregados\\c[0] como antes.",
                     "de_DE": "Marrrkierre deine Ziele dazu einfach mit \\c[3]geladenen Projektilen\\c[0], wie gehabt.",
                     "zh_CN": "\u548c\u4e4b\u524d\u4e00\u6837\uff0c\u4f60\u53ea\u8981\u4f7f\u7528\\c[3]\u84c4\u529b\u653b\u51fb\\c[0]\u6807\u8bb0\u76ee\u6807\u5c31\u884c\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u524d\u307f\u305f\u3044\u306b\u3001\\c[3]\u30c1\u30e3\u30fc\u30b8\u5f3e\\c[0]\u3067\n\u3057\u3063\u304b\u308a\u7167\u6e96\u3092\u5408\u308f\u305b\u308b\u3093\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -17846,6 +17943,7 @@
                 {
                   "message": {
                     "en_US": "Well, everything is ready to go. Just talk to me again once you wanna start your patrol.",
+                    "pt_BR": "Bem, tudo está pronto. Basta falar comigo novamente quando quiser começar sua patrulha.",
                     "de_DE": "Nun, wirr sind starrtklarr, Seekerr. Auf dein Kommando, arrr!",
                     "zh_CN": "\u4e00\u5207\u90fd\u51c6\u5907\u5c31\u7eea\u4e86\uff0c\u4f60\u60f3\u5f00\u59cb\u5de1\u903b\u4e86\u5c31\u8ddf\u6211\u8bf4\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3059\u3079\u3066\u306e\u6e96\u5099\u306f\u3082\u3046\u5b8c\u4e86\u3057\u3066\u3044\u307e\u3059\u3002\u30d1\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u6e96\u5099\u304c\u3067\u304d\u305f\u3089\u307e\u305f\u8a71\u3057\u304b\u3051\u3066\u304f\u3060\u3055\u3044\u3002<<A<<[CHANGED 2020/06/17]",
@@ -18180,6 +18278,7 @@
                     {
                       "message": {
                         "en_US": "Good.\\. The route is already programmed into the ship.\\. Just get aboard.",
+                        "pt_BR": "Bom.\\. A rota já está programada no navio.\\. Basta subir a bordo.",
                         "de_DE": "Gut.\\. Die Rrroute ist im Borrrdcomputer schon einprrrogrammiert.\\. Geh einfach an Borrrd.",
                         "zh_CN": "\u5f88\u597d\u3002\\.\u8def\u7ebf\u5df2\u7ecf\u8f93\u5165\u5230\u8239\u91cc\u4e86\\.\u4e0a\u8239\u5427\u3002<<A<<[CHANGED 2019/09/13]",
                         "langUid": 634,
@@ -18315,6 +18414,7 @@
                     {
                       "message": {
                         "en_US": "Make sure to destroy as many weapons as you can.",
+                        "pt_BR": "Certifique-se de destruir o máximo de armas que puder.",
                         "de_DE": "Sieh zu, dass du so viele Waffen wie m\u00f6glich verrrsenkst.",
                         "zh_CN": "\u8bf7\u4f60\u6467\u6bc1\u5c3d\u53ef\u80fd\u591a\u7684\u6b66\u5668\u3002<<A<<[CHANGED 2019/09/13]",
                         "langUid": 636,
@@ -18332,6 +18432,7 @@
                     {
                       "message": {
                         "en_US": "If \\c[3]too many get through\\c[0] this operation will be considered \\c[3]failed\\c[0].",
+                        "pt_BR": "Se você deixar\\c[3]muitas armas passarem\\c[0] essa operação será considerada um \\c[3]fracasso\\c[0].",
                         "de_DE": "Wenn dirr \\c[3]zu viele durch die Lappen gehen\\c[0], betrrrachten wirr diese Operration als \\c[3]gescheitert\\c[0].",
                         "zh_CN": "\u5982\u679c\\c[3]\u6709\u592a\u591a\u6ca1\u6467\u6bc1\\c[0]\u90a3\u4e48\u672c\u6b21\u884c\u52a8\u5c31\u7b97\\c[3]\u5931\u8d25\\c[0]\u4e86\u3002<<A<<[CHANGED 2019/09/13]",
                         "langUid": 637,
@@ -18367,6 +18468,7 @@
                     {
                       "message": {
                         "en_US": "Well, I'm sure you could've guessed that already.",
+                        "pt_BR": "Bem, acho que você deve saber o resultado disso.",
                         "de_DE": "Ich verrmute aberr, dass du dirr schon so was gedacht hast.",
                         "zh_CN": "\u6211\u60f3\u4f60\u5e94\u8be5\u4e5f\u80fd\u731c\u51fa\u6765\u5427\u3002<<A<<[CHANGED 2019/09/13]",
                         "langUid": 639,
@@ -18384,6 +18486,7 @@
                     {
                       "message": {
                         "en_US": "Off you go.\\. Good hunting!",
+                        "pt_BR": "Avante Seeker.\\. Boa caçada!",
                         "de_DE": "Arrr!\\. Auf eine gute Jagd, Seekerrr.",
                         "zh_CN": "\u53bb\u5427\u3002\\.\u795d\u4f60\u597d\u8fd0\uff01<<A<<[CHANGED 2019/09/13]",
                         "langUid": 640,
@@ -18498,6 +18601,7 @@
                     {
                       "message": {
                         "en_US": "Don't take too much time.\\. More shipments are arriving every day!",
+                        "pt_BR": "Não demore muito.\\. A cada dia chegam mais e mais cargas!",
                         "de_DE": "Lass dirr nicht zuviel Zeit.\\. Tagt\u00e4glich kommen mehrr und mehrr Ladungen an!",
                         "zh_CN": "\u522b\u82b1\u592a\u591a\u65f6\u95f4\u3002\\.\u6bcf\u5929\u90fd\u6709\u5f88\u591a\u8d70\u79c1\u54c1\u5728\u8fd0\u5165\u5927\u9646\uff01<<A<<[CHANGED 2019/09/13]",
                         "langUid": 644,
@@ -18535,6 +18639,7 @@
                     {
                       "message": {
                         "en_US": "Well, you will patrol the smuggling route and make sure those weapons don't reach the continent.",
+                        "pt_BR": "Bem, você vai patrulhar a rota do contrabando e certificar-se de que essas armas não cheguem ao continente.",
                         "langUid": 646,
                         "de_DE": "Also, du wirrst die Schmugglerrroute patrrouillierren und daf\u00fcrr sorrgen, dass die Waffen den Kontinent nicht errreichen.",
                         "zh_CN": "\u7531\u4f60\u6765\u5728\u8d70\u79c1\u8def\u7ebf\u4e0a\u5de1\u903b\uff0c\u4fdd\u8bc1\u4e0d\u8ba9\u6b66\u5668\u8fd0\u8fdb\u5927\u9646\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18610,6 +18715,7 @@
                     {
                       "message": {
                         "en_US": "To help you, we prepared this masterpiece of naval warfare that is able to fire devastating projectiles.",
+                        "pt_BR": "Para ajudá-la, preparamos esta obra-prima de guerra naval, capaz de disparar projéteis devastadores.",
                         "langUid": 648,
                         "de_DE": "Um dirr zu helfen, haben wirr dieses Meisterrwerrk der Seekrrriegsf\u00fchrrung vorrberrreitet, das in der Lage ist, verrheerrende Prrrojektile abzufeuerrn.",
                         "zh_CN": "\u4e3a\u4e86\u5e2e\u52a9\u4f60\u7684\u884c\u52a8\uff0c\u6211\u4eec\u51c6\u5907\u4e86\u8fd9\u4e2a\u6d77\u6218\u5229\u5668\uff0c\u80fd\u53d1\u5c04\u51fa\u81f4\u547d\u7684\u70ae\u5f39\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18627,6 +18733,7 @@
                     {
                       "message": {
                         "en_US": "To use it, just \\c[3]mark\\c[0] an enemy with a \\c[3]charged projectile\\c[0] when the turret is \\c[3]ready\\c[0].",
+                        "pt_BR": "Para usar isso, apenas \\c[3]marque\\c[0] um inimigo com um \\c[3]tiro carregado\\c[0] quando o canhão estiver \\c[3]pronto\\c[0].",
                         "langUid": 649,
                         "de_DE": "Dazu musst du lediglich einen Feind mit einem \\c[3]geladenen Projektil marrrkierren\\c[0], wenn das Gesch\u00fctz \\c[3]berrreit\\c[0] ist.",
                         "zh_CN": "\u53ea\u8981\u7b49\u70ae\u53f0\\c[3]\u51c6\u5907\u5b8c\u6bd5\\c[0]\u540e\u7528\\c[3]\u84c4\u529b\u653b\u51fb\\c[0]\u6765\\c[3]\u6807\u8bb0\u654c\u4eba\\c[0] \u5373\u53ef\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18644,6 +18751,7 @@
                     {
                       "message": {
                         "en_US": "Aside from doing \\c[3]high damage\\c[0] those will also \\c[3]stun\\c[0] and \\c[3]disrupt shields\\c[0].",
+                        "pt_BR": "Além de causar um \\c[3]dano alto\\c[0] esses tiros também irão causar \\c[3]atordoamento\\c[0] e irão \\c[3]romper os escudos\\c[0].",
                         "langUid": 650,
                         "de_DE": "Neben \\c[3]hohem Schaden\\c[0] verrurrrsacht das Geschoss zus\u00e4tzlich \\c[3]L\u00e4hmung\\c[0] und \\c[3]durrchbrrricht dessen Schild\\c[0].",
                         "zh_CN": "\u70ae\u5f39\u4e0d\u4ec5\\c[3]\u4f24\u5bb3\u9ad8\\c[0]\uff0c\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\u8fd8\u4f1a\u88ab\\c[3]\u6655\u7729\\c[0]\u548c\\c[3]\u7834\u76fe\\c[0]\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18661,6 +18769,7 @@
                     {
                       "message": {
                         "en_US": "Also, depending on the \\c[3]element\\c[0] you used to mark the enemy, the type of shot will differ.",
+                        "pt_BR": "Além disso, dependendo do \\c[3]elemento\\c[0] que você usou para marcar o inimigo, o tipo de tiro será diferente.",
                         "langUid": 651,
                         "de_DE": "Abh\u00e4ngig davon, in welchem \\c[3]Element-Modus\\c[0] du dich befindest, varrriierrt der Typ des Geschosses.",
                         "zh_CN": "\u800c\u4e14\uff0c\u6839\u636e\u6807\u8bb0\u654c\u4eba\u65f6\u7684\\c[3]\u5143\u7d20\\c[0]\u4e0d\u540c\uff0c\u70ae\u5f39\u7c7b\u578b\u4e5f\u4f1a\u4e0d\u540c\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18678,6 +18787,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Neutral\\c[0] shots are your standard single-target projectile.\\. \\c[3]No special attributes\\c[0] but \\c[3]fast reloading\\c[0].",
+                        "pt_BR": "Tiros \\c[3]Neutros\\c[0] são o seu projétil padrão de alvo único.\\. Eles não possuem \\c[3]atributos especiais\\c[0] mas possuem \\c[3]recarga rápida\\c[0]",
                         "langUid": 652,
                         "de_DE": "\\c[3]Neutrral\\c[0]-Geschosse sind dein Standarrrd-Prrrojektil f\u00fcr Einzelziele.\\. \\c[3]Keine Besonderrrheiten\\c[0] au\u00dfer \\c[3]schnellem Nachladen\\c[0].",
                         "zh_CN": "\\c[3]\u4e2d\u6027\\c[0]\u5c06\u5c04\u51fa\u6807\u51c6\u7684\u5355\u76ee\u6807\u70ae\u5f39\u3002\\.\\c[3]\u6ca1\u6709\u4ec0\u4e48\u7279\u522b\u4e4b\u5904\\c[0]\u4f46\u662f\\c[3]\u88c5\u5f39\u5feb\\c[0]\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18695,6 +18805,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Heat\\c[0] shots cause an \\c[3]explosion\\c[0] on hit, damaging \\c[3]nearby targets\\c[0] as well.",
+                        "pt_BR":"Tiros de \\c[3]Fogo\\c[0] causam uma \\c[3]explosão\\c[0], atingindo \\c[3]inimigos próximos\\c[0] também.",
                         "langUid": 653,
                         "de_DE": "\\c[3]Hitze\\c[0]-Geschosse verrurrrsachen \\c[3]Explosionsschaden\\c[0], der auch \\c[3]benachbarrrte Ziele\\c[0] trifft.",
                         "zh_CN": "\\c[3]\u706b\u5143\u7d20\\c[0]\u70ae\u5f39\u5c06\u5728\u547d\u4e2d\u65f6\\c[3]\u7206\u70b8\\c[0] \uff0c\u4f24\u5bb3\\c[3]\u5468\u56f4\u654c\u4eba\\c[0] \u3002<<A<<[CHANGED 2019/09/13]",
@@ -18712,6 +18823,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Cold\\c[0] shots are \\c[3]single-target\\c[0] as well, but they are \\c[3]more powerful\\c[0] and also \\c[3]slow down\\c[0] whatever they hit.",
+                        "pt_BR": "Os tiros de \\c[3]Gelo\\c[0] são de \\c[3]alvo único\\c[0] também, mas eles são \\c[3]mais poderosos\\c[0] e causam \\c[3]lentidão\\c[0] no alvo.",
                         "de_DE": "\\c[3]K\u00e4lte\\c[0]-Geschosse schaden nur \\c[3]einem Ziel\\c[0], sind daf\u00fcrr \\c[3]krrraftvollerr\\c[0] und \\c[3]verrlangsamen\\c[0] den Feind.",
                         "zh_CN": "\u6700\u540e\uff0c\\c[3]\u51b0\u5143\u7d20\\c[0]\u70ae\u5f39\u4e5f\u662f\\c[3]\u5355\u4f53\\c[0]\u7684\uff0c\u4f46\u662f\\c[3]\u5a01\u529b\u66f4\u5927\\c[0] \u800c\u4e14\u4f1a\u4f7f\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\\c[3]\u51cf\u901f\\c[0]\u3002<<A<<[CHANGED 2019/09/13]",
                         "ja_JP": "\\c[3]\u51b7\u6c17\\c[0]\u306e\u30b7\u30e7\u30c3\u30c8\u306f\\c[3]\u5358\u4f53\u306e\u307f\u3092\u653b\u6483\\c[0]\u3059\u308b\u304c\u3001\u3088\u308a\\c[3]\u30d1\u30ef\u30d5\u30eb\u306a\u4e00\u6483\\c[0]\u3067\u3001\u5f53\u305f\u3063\u305f\u6575\u306e\\c[3]\u901f\u5ea6\u3092\u4e0b\u3052\u308b\\c[0]\u3093\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -18729,6 +18841,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Shock\\c[0] shots always \\c[3]hit exactly two targets\\c[0] even if there is a \\c[3]large distance\\c[0] between them.",
+                        "pt_BR": "Tiros de \\c[3]Choque\\c[0] sempre \\c[3]acertam dois alvos\\c[0] mesmo que haja uma \\c[3]distância grande\\c[0] entre eles.",
                         "de_DE": "\\c[3]Schock\\c[0]-Geschosse schaden immerr \\c[3]zwei Zielen\\c[0], \\c[3]egal wie grro\u00df der Abstand\\c[0] zwischen ihnen ist.",
                         "zh_CN": "\u6700\u540e\uff0c\\c[3]\u51b0\u5143\u7d20\\c[0]\u70ae\u5f39\u4e5f\u662f\\c[3]\u5355\u4f53\\c[0]\u7684\uff0c\u4f46\u662f\\c[3]\u5a01\u529b\u66f4\u5927\\c[0] \u800c\u4e14\u4f1a\u4f7f\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\\c[3]\u51cf\u901f\\c[0]\u3002<<A<<[CHANGED 2019/09/13]",
                         "ja_JP": "\\c[3]\u96fb\u6483\\c[0]\u653b\u6483\u306f\u3001\u8907\u6570\u306e\u6a19\u7684\u306e\u8ddd\u96e2\u304c\n\\c[3]\u9060\u304f\u96e2\u308c\u3066\\c[0]\u3044\u3066\u3082\u3001\n\\c[3]\u78ba\u5b9f\u306b2\u3064\u306e\u6a19\u7684\u3092\u653b\u6483\u3059\u308b\\c[0]\u3002<<A<<[CHANGED 2020/06/17]",
@@ -18746,6 +18859,7 @@
                     {
                       "message": {
                         "en_US": "Lastly, \\c[3]Wave\\c[0] shots go in a \\c[3]penetrating straight line\\c[0] through enemies and also \\c[3]cause a useful \\c[1]Mark\\c[3] effect\\c[0].",
+                        "pt_BR": "E por fim, os tiros de \\c[3]Onda\\c[0] \\c[3]vão em uma linha reta penetrante\\c[0] atráves dos inimigos e também \\c[3]causam um feito de \\c[1]Marca\\c[3] bem útil\\c[0].",
                         "de_DE": "\\c[3]Welle\\c[0]-Geschosse \\c[3]schlagen in grrraderr Linie\\c[0] durch die Feinde und \\c[1]marrrkierren\\c[0] sie.",
                         "zh_CN": "\u6700\u540e\uff0c\\c[3]\u51b0\u5143\u7d20\\c[0]\u70ae\u5f39\u4e5f\u662f\\c[3]\u5355\u4f53\\c[0]\u7684\uff0c\u4f46\u662f\\c[3]\u5a01\u529b\u66f4\u5927\\c[0] \u800c\u4e14\u4f1a\u4f7f\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\\c[3]\u51cf\u901f\\c[0]\u3002<<A<<[CHANGED 2019/09/13]",
                         "ja_JP": "\u6700\u5f8c\u306b\u3001\\c[3]\u6ce2\u52d5\\c[0]\u653b\u6483\u306f\n\u6575\u3092\\c[3]\u4e00\u76f4\u7dda\u306b\u8cab\u304d\\c[0]\u3001\n\\c[3]\u30de\u30fc\u30af\\c[1]\u52b9\u679c\u3092\\c[3]\u4e0e\u3048\u308b\\c[0]\u3002<<A<<[CHANGED 2020/06/17]",
@@ -18763,7 +18877,7 @@
                     {
                       "message": {
                         "en_US": "The turret is also pretty sturdy.\\. Though, you should still be careful of \\c[3]explosives\\c[0] and \\c[3]disruption shots\\c[0].",
-                        "pt_BR": "A torre é também bastante firme.\\. Entretanto, você deve ainda tomar cuidado com os \\c[3]explosivos\\c[0] e os \\c[3]tiros de disrupção\\c[0]",
+                        "pt_BR": "O canhão também é bastante resistente.\\. No entanto, você ainda deve ter cuidado com os \\c[3]explosivos\\c[0] e os \\c[3]tiros inimigos\\c[0].",
                         "langUid": 656,
                         "de_DE": "Das Gesch\u00fctz ist rrrecht schwerrg\u00e4ngig.\\. Verrsuche trrotzdem, \\c[3]Grrranaten\\c[0] und \\c[3]St\u00f6rrgeschossen\\c[0] auszuweichen.",
                         "zh_CN": "\u70ae\u53f0\u4e5f\u662f\u86ee\u575a\u56fa\u7684\u3002\\.\u4e0d\u8fc7\uff0c\u4f60\u5f97\u6ce8\u610f\\c[3]\u7206\u70b8\\c[0]\u548c\\c[3]\u5e72\u6270\u5f39\\c[0]\u3002<<A<<[CHANGED 2019/09/13]",
@@ -18781,7 +18895,7 @@
                     {
                       "message": {
                         "en_US": "Those will do \\c[3]great damage\\c[0] to your ship and also \\c[3]stun\\c[0] it shortly.\\. You won't want it exploding in the ocean, right?",
-                        "pt_BR": "Those will do \\c[3]great damage\\c[0] to your ship and also \\c[3]stun\\c[0] it shortly.\\. Você não quer isso explodindo no oceano, certo?",
+                        "pt_BR": "Eles causam um \\c[3]dano alto\\c[0] e também \\c[3]paralisam\\c[0] o canhão por algum tempo\\. Você não vai querer que ele exploda no oceano, certo?",
                         "langUid": 657,
                         "de_DE": "Sie verrurrrsachen n\u00e4mlich \\c[3]schwerren Schaden\\c[0] und kurrzzeitige \\c[3]L\u00e4hmung\\c[0].\\. Zuviele davon und KRRRAWUMM! - derr Kahn fliegt in die Luft!",
                         "zh_CN": "\u90a3\u4e9b\u5c06\u4f1a\u5bf9\u8239\u4f53\u9020\u6210\\c[3]\u5927\u91cf\u4f24\u5bb3\\c[0]\u5e76\u77ed\u6682\\c[3]\u6655\u7729\\c[0]\u5b83\u3002\\.\u4f60\u53ef\u4e0d\u60f3\u8ba9\u8239\u6c89\u4e86\u5427\uff1f<<A<<[CHANGED 2019/09/13]",
@@ -19390,7 +19504,7 @@
           {
             "message": {
               "en_US": "It was also a good testrun for our NPC here.\\. I think it will be very useful defending against future attacks.",
-              "pt_BR": "Foi um bom teste para o nosso NPC aqui.\\. Penso que isso será muito útil na defesa contra futuros ataques.",
+              "pt_BR": "Foi um bom teste para o nosso CPN aqui.\\. Penso que isso será muito útil na defesa contra futuros ataques.",
               "de_DE": "Das warr auch ein guterr Prrrobelauf f\u00fcr unserr MAK-Sch\u00e4tzchen hierr.\\. Die wirrd uns bei derr Verrteidigung zuk\u00fcnftigerr Angrriffe \u00fcberraus n\u00fctzlich sein.",
               "zh_CN": "\u8fd9\u4e5f\u8bc1\u660e\u4e86\u6211\u4eec\u6218\u8230\u7684\u5f3a\u5927\u3002\\.\u6211\u60f3\u5728\u672a\u6765\u7684\u884c\u52a8\u4e2d\u5b83\u4e5f\u4f1a\u6d3e\u4e0a\u5f88\u5927\u7528\u573a\u3002<<A<<[CHANGED 2017/10/13]",
               "langUid": 592,
