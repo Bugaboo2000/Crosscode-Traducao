@@ -4650,6 +4650,7 @@
             "characterName": "cross-worlds.triblader-male-black",
             "displayName": {
                 "en_US": "Ark",
+                "pt_BR": "Ark",
                 "de_DE": "Ark",
                 "fr_FR": "fr_FR",
                 "langUid": 284,
@@ -7101,6 +7102,7 @@
                     }, {
                         "message": {
                             "en_US": "Hello, I'm currently afk. ",
+                            "pt_BR": "Olá, eu estou afk no momento.",
                             "de_DE": "Hallo, ich bin gerade afk.",
                             "fr_FR": "fr_FR",
                             "langUid": 246,
@@ -7118,6 +7120,7 @@
                     }, {
                         "message": {
                             "en_US": "I'm expecting a delivery, so if you have something for me just leave it here.",
+                            "pt_BR": "Estou esperando uma entrega, portanto, se você tem algo para mim, deixe-o aqui.",
                             "de_DE": "Ich erwarte eine Lieferung. Wenn du also etwas f\u00fcr mich hast, lass es einfach hier.",
                             "fr_FR": "fr_FR",
                             "langUid": 247,
@@ -10809,6 +10812,7 @@
                         }, {
                             "message": {
                                 "en_US": "Awww, no trust left because of that one failure?\\. Come on girl, I think we are onto something here!",
+                                "pt_BR": "Awww, não me diga que você não tem mais confiança por causa de um fracasso?\\. Vamos, garota, acho que estamos diante de algo grande aqui!",
                                 "de_DE": "Och n\u00f6\u00f6\u00f6, sag blo\u00df, du hast kein Vertrauen mehr in die Sache?\\. Nur wegen dem einen Fehlschlag?\\. Komm schon, Partner, ich glaube, wir sind hier an einer echt gro\u00dfen Sache dran!",
                                 "fr_FR": "fr_FR",
                                 "langUid": 496,
@@ -10955,6 +10959,7 @@
                     }, {
                         "message": {
                             "en_US": "Hi!",
+                            "pt_BR": "Oi!",
                             "de_DE": "Hi!",
                             "fr_FR": "fr_FR",
                             "langUid": 476,
@@ -10972,6 +10977,7 @@
                     }, {
                         "message": {
                             "en_US": "Yay~, you are back again.\\. And do I smell some nice meat and wood there?",
+                            "pt_BR": "Yay~, você voltou.\\. E eu sinto cheiro de carne e madeira.",
                             "de_DE": "Yay~, du bist wieder zur\u00fcck.\\. Rieche ich da etwa frisches Fleisch und feines Holz?",
                             "fr_FR": "fr_FR",
                             "langUid": 477,
@@ -11025,6 +11031,7 @@
                     }, {
                         "message": {
                             "en_US": "Yes, that looks awesome!\\. Let me have another try right now!",
+                            "pt_BR": "Sim, isso parece fantástico!\\. Deixe-me tentar de novo agora!",
                             "de_DE": "Ja, das sieht super aus!\\. Lass mich direkt einen neuen Versuch starten!",
                             "fr_FR": "fr_FR",
                             "langUid": 479,
@@ -11093,6 +11100,7 @@
                     }, {
                         "message": {
                             "en_US": "Mhmmmm...",
+                            "pt_BR": "Mhmmmm...",
                             "de_DE": "Mhmmmm...",
                             "fr_FR": "fr_FR",
                             "langUid": 480,
@@ -11128,6 +11136,7 @@
                     }, {
                         "message": {
                             "en_US": "This is...",
+                            "pt_BR": "Isto é...",
                             "de_DE": "Das ist..",
                             "fr_FR": "fr_FR",
                             "langUid": 482,
@@ -11163,6 +11172,7 @@
                     }, {
                         "message": {
                             "en_US": "...is...",
+                            "pt_BR": "...é...",
                             "de_DE": "... das ist...",
                             "fr_FR": "fr_FR",
                             "langUid": 484,
@@ -11233,6 +11243,7 @@
                     }, {
                         "message": {
                             "en_US": "...absolutely perfect!!\\.\\.\nThe texture, the aroma!\\. It is the perfect steak!",
+                            "pt_BR": "...absolutamente perfeito!!\\.\\.\nA textura, o aroma!\\. É o bife perfeito!",
                             "de_DE": "... absolut perfekt!!\\.\\. Die Konsistenz, das Aroma!\\. Das ist es! Das perfekte Steak!",
                             "fr_FR": "fr_FR",
                             "langUid": 486,
@@ -11268,6 +11279,7 @@
                     }, {
                         "message": {
                             "en_US": "Thank you so much, girl!\\. It never would've worked without those ingredients you brought me!",
+                            "pt_BR": "Muito obrigada, garota!\\. Isso nunca teria funcionado sem aqueles ingredientes que você me trouxe!",
                             "de_DE": "Tausend Dank!\\. Ohne die Zutaten, die du mir gebracht hast, h\u00e4tte das nie geklappt!",
                             "fr_FR": "fr_FR",
                             "langUid": 488,
@@ -11303,6 +11315,7 @@
                     }, {
                         "message": {
                             "en_US": "Here, I'll give you the first batch of steaks to enjoy.",
+                            "pt_BR": "Aqui, eu vou te dar o primeiro lote de bifes para degustar.",
                             "de_DE": "Hier, die ersten Steaks sind f\u00fcr dich.",
                             "fr_FR": "fr_FR",
                             "langUid": 490,
@@ -11348,6 +11361,7 @@
                     }, {
                         "message": {
                             "en_US": "You can get as many as you want from my booth here, as long as you bring the ingredients!",
+                            "pt_BR": "Você pode conseguir quantos quiser do meu estande aqui, desde que traga os ingredientes!",
                             "de_DE": "Du kriegst so viele von mir wie du willst, solange du mir die n\u00f6tigen Zutaten bringst!",
                             "fr_FR": "fr_FR",
                             "langUid": 491,
@@ -11383,6 +11397,7 @@
                     }, {
                         "message": {
                             "en_US": "Bye!",
+                            "pt_BR": "Tchau!",
                             "de_DE": "Bye!",
                             "fr_FR": "fr_FR",
                             "langUid": 495,
@@ -11443,6 +11458,7 @@
                 }, {
                     "message": {
                         "en_US": "Howdy!\\. Don't you love the smell of steak in the morning?",
+                        "pt_BR": "Olá!\\. Você não adora o cheiro de bife pela manhã?",
                         "de_DE": "Howdy!\\. Liebst du nicht auch den Geruch von Steak am Morgen?",
                         "fr_FR": "fr_FR",
                         "langUid": 428,
@@ -11460,6 +11476,7 @@
                 }, {
                     "message": {
                         "en_US": "Or any other time, really.",
+                        "pt_BR": "Ou, na verdade, também em qualquer outro momento do dia.",
                         "de_DE": "Aber eigentlich auch zu jeder anderen Zeit.",
                         "fr_FR": "fr_FR",
                         "langUid": 453,
@@ -11532,6 +11549,7 @@
                     }, {
                         "message": {
                             "en_US": "Howdy, gal!\\. Did you come by to check how business is going?",
+                            "pt_BR": "Olá, garota!\\. Você passou por aqui para ver como vão os negócios?",
                             "de_DE": "Howdy, Partner!\\. Bist du gekommen, um zu schauen, wie das Gesch\u00e4ft l\u00e4uft?",
                             "zh_CN": "\u4f60\u597d\uff01\\.\u4f60\u662f\u56de\u6765\u770b\u6211\u7684\u5417\uff1f<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u3084\u3063\u307b\u30fc\u3002\\. \u79c1\u306e\u5546\u58f2\u304c\u7e41\u76db\u3057\u3066\u3044\u308b\u304b\u3001\n\u898b\u306b\u6765\u3066\u304f\u308c\u305f\u306e\uff1f<<A<<[CHANGED 2017/12/11]",
@@ -11566,6 +11584,7 @@
                     }, {
                         "message": {
                             "en_US": "Aw, how nice of ya.\\. It's going great!\\. Those steaks really hit the bullseye of people's tastebuds here.",
+                            "pt_BR": "Aw, que simpático da sua parte.\\. Está indo muito bem!\\. Esses bifes realmente são um sucesso.",
                             "de_DE": "Ooh, lieb von dir.\\. Es l\u00e4uft bestens!\\. Die Leute hier fahren echt auf die Steaks ab.",
                             "zh_CN": "\u554a\u5440\uff0c\u4f60\u4eba\u771f\u597d\u3002\\.\u6211\u6700\u8fd1\u751f\u610f\u4e0d\u9519\uff01\\.\u8fd9\u91cc\u7684\u4eba\u90fd\u5f88\u559c\u6b22\u8fd9\u4e9b\u725b\u6392\uff01<<A<<[CHANGED 2018/01/06]",
                             "ja_JP": "\u3046\u308c\u3057\u3044\u306a\u3002\\. \u8abf\u5b50\u3044\u3044\u308f\u3088\uff01\n\\.\u3042\u306e\u30b9\u30c6\u30fc\u30ad\u3001\u3053\u3053\u306e\u4eba\u305f\u3061\u306e\u5473\u899a\u306b\n\u8d85\u30d2\u30c3\u30c8\u3060\u3063\u305f\u307f\u305f\u3044\u3002<<A<<[CHANGED 2018/01/06]",
@@ -11599,6 +11618,7 @@
                     }, {
                         "message": {
                             "en_US": "But I talked to our valued customers and got some ideas to improve my precious meat even more.",
+                            "pt_BR": "Mas eu falei com nossos valiosos clientes e tive algumas idéias para melhorar ainda mais minha preciosa carne.",
                             "de_DE": "Ich habe mich hier auch mit vielen gesch\u00e4tzten Kunden unterhalten, die mir einige neue Impulse gaben, die Steaks noch weiter zu verfeinern.",
                             "zh_CN": "\u4f46\u662f\u6211\u8fd8\u662f\u5f81\u6c42\u4e86\u4e0d\u5c11\u73cd\u8d35\u7684\u5ba2\u6237\u610f\u89c1\uff0c\u60f3\u51fa\u4e86\u7ee7\u7eed\u6539\u8fdb\u725b\u6392\u7684\u529e\u6cd5\uff01<<A<<[CHANGED 2018/10/04]",
                             "ja_JP": "\u3067\u3082\u5927\u4e8b\u306a\u304a\u5ba2\u3055\u3093\u305f\u3061\u3068\n\u3044\u308d\u3044\u308d\u8a71\u3057\u3066\u305f\u3089\u3001\u3055\u3089\u306b\u304a\u8089\u3092\n\u304a\u3044\u3057\u304f\u3059\u308b\u65b9\u6cd5\u3092\u601d\u3044\u3064\u3044\u3061\u3083\u3063\u3066\u3002<<A<<[CHANGED 2018/10/04]",
@@ -11615,6 +11635,7 @@
                     }, {
                         "message": {
                             "en_US": "How about it, gal?\\. You feeling it in you to help me out again?",
+                            "pt_BR": "Que tal, garota?\\. Você pode me ajudar de novo?",
                             "de_DE": "Wie w\u00e4r's, Partner?\\. Magst mir nochmal helfen?",
                             "zh_CN": "\u600e\u4e48\u6837\u59b9\u5b50?\\.\u6709\u6ca1\u6709\u5174\u8da3\u518d\u5e2e\u6211\u4e00\u6b21\uff1f<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u306d\u3048\u3001\u3069\u3046\uff1f\n\\.\u307e\u305f\u624b\u4f1d\u3063\u3066\u304f\u308c\u308b\u6c17\u306f\u306a\u3044\uff1f<<A<<[CHANGED 2017/12/11]",
@@ -11654,6 +11675,7 @@
                         }, {
                             "message": {
                                 "en_US": "Yeehaw, I knew I could count on you, my dear!",
+                                "pt_BR": "Yeehaw, Eu sabia que podia contar com você, minha querida!",
                                 "de_DE": "Yeehaa!\\. Ich wusste, dass ich auf dich z\u00e4hlen kann!",
                                 "zh_CN": "\u592a\u597d\u5566\uff0c\u6211\u5c31\u77e5\u9053\u4f60\u9760\u5f97\u4f4f\uff01<<A<<[CHANGED 2018/09/19]",
                                 "ja_JP": "\u305d\u3046\u3053\u306a\u304d\u3083\uff01\\.\u4eca\u56de\u306f\u5931\u671b\u3055\u305b\u306a\u3044\u304b\u3089\u306d\u3001\n\u4fe1\u7528\u3057\u3066\u3066\uff01<<A<<[CHANGED 2018/09/19]",
@@ -11687,6 +11709,7 @@
                         }, {
                             "message": {
                                 "en_US": "Just like last time, it's all about the ingredients.\\. I've done some research on the precious plants of the East!",
+                                "pt_BR": "Como da última vez, é tudo sobre os ingredientes..\\. Eu fiz algumas pesquisas sobre as preciosas plantas do Oriente!",
                                 "zh_CN": "\u8ddf\u4ee5\u524d\u4e00\u6837\uff0c\u6839\u672c\u8fd8\u662f\u5728\u4e8e\u539f\u6750\u6599\u3002\\.\u6211\u5bf9\u5b9d\u8d35\u7684\u4e1c\u65b9\u6728\u6750\u8fdb\u884c\u4e86\u4e00\u4e9b\u7814\u7a76\u3002<<A<<[CHANGED 2018/09/19]",
                                 "ja_JP": "\u4eca\u56de\u3082\u3001\u5927\u4e8b\u306a\u306e\u306f\u6750\u6599\u3002\n\\.\u6771\u306e\u8cb4\u91cd\u306a\u690d\u7269\u3092\u8abf\u3079\u3066\u307f\u305f\u306e\uff01<<A<<[CHANGED 2018/09/19]",
                                 "ko_KR": "\uc9c0\ub09c\ubc88\ucc98\ub7fc \uc7ac\ub8cc\ub97c \ucc3e\uc544\uc624\uba74 \ub3fc.\\. \ub3d9\ucabd\uc5d0 \uc788\ub294 \uadc0\uc911\ud55c \uc2dd\ubb3c\uc5d0 \ub300\ud574\uc11c \ub0b4\uac00 \uc870\uc0ac \uc880 \ud574\ub1a8\uc9c0!<<A<<[CHANGED 2018/09/19]",
@@ -11709,6 +11732,7 @@
                         }, {
                             "message": {
                                 "en_US": "Once again, I'd like to try some new wood in combination with what we already got.",
+                                "pt_BR": "Mais uma vez, gostaria de experimentar um pouco de madeira nova em combinação com o que já temos.",
                                 "de_DE": "Auf jeden Fall m\u00f6chte ich gerne eine neue Holzsorte mit denen kombinieren, die sich bew\u00e4hrt haben.",
                                 "zh_CN": "\u6211\u60f3\u518d\u8bd5\u8bd5\u65b0\u7684\u6728\u6750\u7ec4\u5408\u6548\u679c\u3002<<A<<[CHANGED 2017/12/12]",
                                 "ja_JP": "\u4eca\u4f7f\u3063\u3066\u3044\u308b\u6728\u306b\u52a0\u3048\u3066\u3001\n\u307e\u305f\u65b0\u3057\u3044\u6728\u3092\u8a66\u3057\u3066\u307f\u305f\u3044\u306e\u3002<<A<<[CHANGED 2017/12/11]",
@@ -11725,6 +11749,7 @@
                         }, {
                             "message": {
                                 "en_US": "So please bring me some \\c[3]old wood\\c[0] from the \\c[3]jungle in the north-east\\c[0].",
+                                "pt_BR": "Então, por favor, traga-me algumas \\c[3]madeiras velhas\\c[0] da \\c[3]selva no nordeste\\c[0]",
                                 "de_DE": "Bring mir also bitte etwas \\c[3]altes Holz\\c[0] aus dem \\c[3]Dschungel im Osten\\c[0].",
                                 "zh_CN": "\u6240\u4ee5\u8bf7\u4ece\\c[3]\u4e1c\u8fb9\u7684\u68ee\u6797\u91cc\\c[0]\u7ed9\u6211\u5e26\u6765\u4e00\u4e9b\\c[3]\u9648\u6728\\c[0]\u3002<<A<<[CHANGED 2018/10/04]",
                                 "ja_JP": "\u3068\u3044\u3046\u308f\u3051\u3067\u3001\\c[3]\u30b8\u30e3\u30f3\u30b0\u30eb\u306e\u897f\\c[0]\u304b\u3089\n\\c[3]\u53e4\u3044\u6728\\c[0]\u3092\u6301\u3063\u3066\u304d\u3066\u304f\u308c\u306a\u3044\u304b\u306a\u3002<<A<<[CHANGED 2018/10/04]",
@@ -11758,6 +11783,7 @@
                         }, {
                             "message": {
                                 "en_US": "I also want to experiment a bit with marinating the meat before grilling.",
+                                "pt_BR": "Também quero experimentar um pouco marinando a carne antes de grelhá-la.",
                                 "de_DE": "Dann m\u00f6chte ich die Steaks diesmal gerne vorher marinieren und damit etwas experimentieren.",
                                 "zh_CN": "\u6211\u8fd8\u60f3\u8bd5\u8bd5\u5728\u70e4\u4e4b\u524d\u5bf9\u8089\u8fdb\u884c\u814c\u5236\u3002<<A<<[CHANGED 2018/01/06]",
                                 "ja_JP": "\u305d\u308c\u3068\u3001\u8089\u3092\u713c\u304f\u524d\u306b\u6f2c\u3051\u8fbc\u3080\u65b9\u6cd5\u3082\n\u5b9f\u9a13\u3057\u3066\u307f\u305f\u304f\u3066\u3002<<A<<[CHANGED 2018/01/06]",
@@ -11774,6 +11800,7 @@
                         }, {
                             "message": {
                                 "en_US": "For that I would love to get my hands on some \\c[3]honey\\c[0] and a bunch of \\c[3]sweet apples\\c[0]!",
+                                "pt_BR": "Para isso eu preciso de um pouco de \\c[3]mel\\c[0] e um monte de \\c[3]maçãs doces\\c[0]!",
                                 "de_DE": "Daf\u00fcr muss ich unbedingt etwas \\c[3]Honig\\c[0] und eine Portion \\c[3]s\u00fc\u00dfe \u00c4pfel\\c[0] ergattern!",
                                 "zh_CN": "\u814c\u6599\u65b9\u9762\u6211\u60f3\u8981\u4e00\u4e9b\\c[3]\u8702\u871c\\c[0]\u548c\u5927\u91cf\u7684\\c[3]\u751c\u82f9\u679c\\c[0]!<<A<<[CHANGED 2017/12/12]",
                                 "ja_JP": "\u305d\u306e\u305f\u3081\u306b\u3001\\c[3]\u30cf\u30c1\u30df\u30c4\\c[0]\u3068\n\\c[3]\u7518\u3044\u30ea\u30f3\u30b4\\c[0]\u304c\u3042\u308b\u3068\u3044\u3044\u3093\u3060\u3051\u3069\u3002<<A<<[CHANGED 2017/12/11]",
@@ -11790,6 +11817,7 @@
                         }, {
                             "message": {
                                 "en_US": "You should find all of that in \\v[area.autumn-fall.name] in the east or that jungle I mentioned!",
+                                "pt_BR":"Você deve encontrar tudo isso em \\v[area.autumn-fall.name] no leste ou naquela selva que mencionei!",
                                 "de_DE": "Du solltest das alles im Osten von Autumn's Fall oder besagtem Dschungel auftreiben k\u00f6nnen!",
                                 "zh_CN": "\u8fd9\u4e9b\u6750\u6599\u90fd\u80fd\u5728\u4e1c\u8fb9\u7684\\v[area.autumn-fall.name]\u6216\u8005\u6211\u521a\u624d\u8bf4\u7684\u68ee\u6797\u91cc\u627e\u5230\uff01<<A<<[CHANGED 2018/01/06]",
                                 "ja_JP": "\u3053\u308c\u306f\u5168\u90e8\u3001\u6771\u306e\\v[area.autumn-fall.name]\u304b\u3001\n\u3055\u3063\u304d\u8a00\u3063\u305f\u30b8\u30e3\u30f3\u30b0\u30eb\u306b\u3042\u308b\u306f\u305a\uff01<<A<<[CHANGED 2018/01/06]",
@@ -11823,6 +11851,7 @@
                         }, {
                             "message": {
                                 "en_US": "As for the meat, I still got a lot of that here to experiment.\\. Is everything else clear?",
+                                "pt_BR":"Quanto à carne, ainda tenho o suficiente para experimentar aqui.\\. Tudo bem até agora?",
                                 "de_DE": "Was das Fleisch betrifft, habe ich noch genug zum Experimentieren hier.\\. Alles klar so weit?",
                                 "zh_CN": "\u81f3\u4e8e\u8089\uff0c\u6211\u8fd9\u91cc\u8fd8\u6709\u4e0d\u5c11\u3002\\.\u90fd\u8bb0\u4f4f\u4e86\u5417\uff1f<<A<<[CHANGED 2017/12/12]",
                                 "ja_JP": "\u8089\u306e\u65b9\u306f\u3001\u5b9f\u9a13\u3059\u308b\u305f\u3081\u306e\u5728\u5eab\u304c\n\u307e\u3060\u305f\u304f\u3055\u3093\u6b8b\u3063\u3066\u308b\u304b\u3089\u3002\\.\u3053\u3093\u306a\u3068\u3053\u308d\u304b\u306a\u3002<<A<<[CHANGED 2017/12/11]",
@@ -11857,6 +11886,7 @@
                         }, {
                             "message": {
                                 "en_US": "Alright!\\. Then give it your all.",
+                                "pt_BR": "Muito bem!\\. Então, dê tudo de si.",
                                 "de_DE": "Sehr gut!\\. Gib alles, Partner!",
                                 "zh_CN": "\u90a3\u597d\uff01\\.\u53bb\u627e\u6750\u6599\u5427\uff01<<A<<[CHANGED 2017/12/12]",
                                 "ja_JP": "\u3084\u3063\u305f\u3042\uff01\\. \u3058\u3083\u3001\u304c\u3093\u3070\u3063\u3066\u306d\u3002<<A<<[CHANGED 2017/12/11]",
@@ -11873,6 +11903,7 @@
                         }, {
                             "message": {
                                 "en_US": "Bye!",
+                                "pt_BR": "Tchau!",
                                 "de_DE": "Bye!",
                                 "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2017/12/12]",
                                 "ja_JP": "...<<A<<[CHANGED 2017/12/11]",
@@ -11908,6 +11939,7 @@
                         }, {
                             "message": {
                                 "en_US": "Awwwww, really?\\. You're already satisfied with what we got?\\. Think of the possibilities!",
+                                "pt_BR": "Awwwww, sério?\\. Você já está satisfeita com o que temos?\\. Pense nas possibilidades!",
                                 "de_DE": "Och n\u00f6\u00f6\u00f6, wirklich nicht?\\. Bist du schon zufrieden mit dem, was wir haben?\\. Denk doch nur an all die M\u00f6glichkeiten, die uns noch offenstehen!",
                                 "zh_CN": "\u5509\uff0c\u522b\u554a\uff01\\.\u96be\u9053\u4f60\u89c9\u5f97\u73b0\u5728\u8fd9\u4e2a\u725b\u6392\u5c31\u591f\u597d\u4e86\u5417\uff1f\\.\u524d\u65b9\u6709\u65e0\u9650\u53ef\u80fd\u6027\u554a\uff01<<A<<[CHANGED 2017/12/12]",
                                 "ja_JP": "\u3048\u3048\uff5e\u3001\u672c\u5f53\u306b\uff1f\n\\. \u4eca\u3042\u308b\u304a\u8089\u3067\u3082\u3046\u6e80\u8db3\u3057\u3061\u3083\u3063\u305f\u306e\uff1f\n\\. \u3069\u3093\u306a\u3059\u3054\u3044\u3082\u306e\u304c\u3067\u304d\u308b\u304b\u3001\n\u8003\u3048\u3066\u307f\u3066\u3088\uff01<<A<<[CHANGED 2017/12/11]",
@@ -11979,6 +12011,7 @@
                 }, {
                     "message": {
                         "en_US": "Get me some \\c[3]old wood\\c[0] from the \\c[3]jungle in the east\\c[0] and some ingredients for the marinade.",
+                        "pt_BR": "Traga-me um poudo de \\c[3]madeira velha\\c[0] da \\c[3]selva no leste\\c[0] e alguns ingredientes para a marinada.",
                         "de_DE": "Bring mir etwas \\c[3]altes Holz\\c[0] aus dem \\c[3]Dschungel im Osten\\c[0] und ein paar Zutaten f\u00fcr die Marinade.",
                         "zh_CN": "\u8bf7\u4ece\\c[3]\u4e1c\u8fb9\u7684\u68ee\u6797\u91cc\\c[0]\u7ed9\u6211\u5e26\u6765\u4e00\u4e9b\\c[3]\u9648\u6728\\c[0]\uff0c\u8fd8\u6709\u505a\u9171\u6599\u7528\u7684\u7d20\u6750\u3002<<A<<[CHANGED 2018/01/06]",
                         "ja_JP": "\\c[3]\u897f\u306e\u30b8\u30e3\u30f3\u30b0\u30eb\\c[0]\u304b\u3089\\c[3]\u53e4\u3044\u6728\\c[0]\u3068\u3001\n\u30de\u30ea\u30cd\u306e\u6750\u6599\u3092\u6301\u3063\u3066\u304d\u3066\u306d\u3002<<A<<[CHANGED 2018/01/06]",
@@ -11995,6 +12028,7 @@
                 }, {
                     "message": {
                         "en_US": "Some \\c[3]honey\\c[0] and a bunch of \\c[3]sweet apples\\c[0] from the East should do nicely!",
+                        "pt_BR": "Uma porção de \\c[3]mel\\c[0] e muitas \\c[3]maçãs doces\\c[0] seria ideal!",
                         "de_DE": "Etwas \\c[3]Honig\\c[0] und eine Portion \\c[3]s\u00fc\u00dfe \u00c4pfel\\c[0] aus dem Osten w\u00e4ren daf\u00fcr ideal!",
                         "zh_CN": "\u814c\u6599\u65b9\u9762\u6211\u60f3\u8981\u4e00\u4e9b\\c[3]\u8702\u871c\\c[0]\u548c\u5927\u91cf\u7684\\c[3]\u751c\u82f9\u679c\\c[0]!<<A<<[CHANGED 2017/12/12]",
                         "ja_JP": "\u6771\u306e\\c[3]\u30cf\u30c1\u30df\u30c4\\c[0]\u3068\\c[3]\u7518\u3044\u30ea\u30f3\u30b4\\c[0]\u304c\n\u3042\u308b\u3068\u3044\u3044\u3093\u3060\u3051\u3069\u306a\u3002<<A<<[CHANGED 2017/12/11]",
@@ -12029,6 +12063,7 @@
                     }, {
                         "name": {
                             "en_US": "Ms. Teak",
+                            "pt_BR": "Ms. Teak",
                             "langUid": 525,
                             "zh_CN": "\u63d0\u514b\u592b\u4eba<<A<<[CHANGED 2017/12/12]",
                             "de_DE": "Ms. Teak",
@@ -12047,6 +12082,7 @@
                     }, {
                         "message": {
                             "en_US": "Hi!",
+                            "pt_BR": "Oi!",
                             "de_DE": "Hi!",
                             "fr_FR": "fr_FR",
                             "langUid": 526,
@@ -12064,6 +12100,7 @@
                     }, {
                         "message": {
                             "en_US": "Gal, you're back!\\. And what is that?\\. Do I see some of the most perfect ingredients that have ever been found?",
+                            "pt_BR": "Garota, você está de volta!\\ E o que é isso?\\. Eu vejo alguns dos ingredientes mais perfeitos que já foram encontrados?",
                             "de_DE": "Ah, du bist wieder zur\u00fcck, Partner!\\. Sehe ich da etwa die einmaligsten Zutaten, die je ein Mensch zu Gesicht bekommen hat?",
                             "zh_CN": "\u59b9\u5b50\u4f60\u6765\u5566\uff01\\.\u563f\uff0c\u6211\u770b\u7684\u6ca1\u9519\u5427\uff1f\\.\u90a3\u4e9b\u662f\u4f60\u7ed9\u6211\u627e\u56de\u6765\u7684\u8d85\u68d2\u6750\u6599\u5417\uff1f<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u3042\u3001\u304a\u304b\u3048\u308a\uff01\\. \u305d\u308c\u306f\u4f55\u304b\u306a\uff1f\n\\.\u3082\u3057\u304b\u3057\u3066\u53f2\u4e0a\u6700\u9ad8\u306e\u6750\u6599\u3092\u6301\u3063\u3066\u304d\u3066\u304f\u308c\u305f\u306e\uff1f<<A<<[CHANGED 2017/12/11]",
@@ -12080,6 +12117,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 528,
@@ -12129,6 +12167,7 @@
                     }, {
                         "message": {
                             "en_US": "Yes, yes!\\. Exactly what I wanted, perfect!\\. Just you wait, I will put it to good use immediately!",
+                            "pt_BR": "Sim, isso!\\. Exatamente o que eu queria, perfeito!\\. Espere, vou usar isso imediatamente!",
                             "de_DE": "Ja!\\. Genau, was ich wollte, perfekt!\\. Warte kurz, ich werd' mich gleich an die Arbeit machen!",
                             "zh_CN": "\u5f88\u597d\uff0c\u592a\u597d\u4e86\uff01\\.\u6b63\u662f\u6211\u60f3\u8981\u7684\uff0c\u5b8c\u7f8e\uff01\\.\u4f60\u7b49\u7b49\uff0c\u6211\u9a6c\u4e0a\u5c31\u5f00\u59cb\u70f9\u996a\uff01<<A<<[CHANGED 2018/01/06]",
                             "ja_JP": "\u305d\u3046\u3001\u3053\u308c\uff01\n\\.\u3061\u3087\u3046\u3069\u3053\u3046\u3044\u3046\u306e\u304c\u6b32\u3057\u304b\u3063\u305f\u306e\uff01\n\\.\u5f85\u3063\u3066\u3066\u3001\u3059\u3050\u306b\u4f7f\u3063\u3066\u307f\u308b\u304b\u3089\uff01<<A<<[CHANGED 2018/01/06]",
@@ -12177,6 +12216,7 @@
                     }, {
                         "name": {
                             "en_US": "Ms. Teak",
+                            "pt_BR": "Ms. Teak",
                             "langUid": 530,
                             "zh_CN": "\u63d0\u514b\u592b\u4eba<<A<<[CHANGED 2017/12/12]",
                             "de_DE": "Ms. Teak",
@@ -12195,6 +12235,7 @@
                     }, {
                         "message": {
                             "en_US": "Mhmmmm...",
+                            "pt_BR": "Mhmmmm...",
                             "de_DE": "Mhmmmm...",
                             "zh_CN": "\u55ef\u2026<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u3046\u3080\u3080\u3080\u3080\u3080...<<A<<[CHANGED 2017/12/11]",
@@ -12211,6 +12252,7 @@
                     }, {
                         "message": {
                             "en_US": ".\\..\\..\\.?",
+                            "pt_BR": ".\\..\\..\\.?",
                             "de_DE": ".\\..\\..\\.?",
                             "fr_FR": "fr_FR",
                             "langUid": 532,
@@ -12228,6 +12270,7 @@
                     }, {
                         "message": {
                             "en_US": "I...",
+                            "pt_BR": "Eu...",
                             "de_DE": "Ich...",
                             "zh_CN": "\u6211\u2026<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u3042\u3001\u3042\u3042....<<A<<[CHANGED 2017/12/11]",
@@ -12244,6 +12287,7 @@
                     }, {
                         "message": {
                             "en_US": ".\\..\\..\\.?",
+                            "pt_BR": ".\\..\\..\\.?",
                             "de_DE": ".\\..\\..\\.?",
                             "fr_FR": "fr_FR",
                             "langUid": 534,
@@ -12261,6 +12305,7 @@
                     }, {
                         "message": {
                             "en_US": "...oh my...",
+                            "pt_BR": "...oh meu...",
                             "de_DE": "... Oh Mann...",
                             "zh_CN": "\u2026\u7684\u2026<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "...\u3046\u3063\u308f\u3042...<<A<<[CHANGED 2017/12/11]",
@@ -12277,6 +12322,7 @@
                     }, {
                         "message": {
                             "en_US": ".\\..\\..\\.?",
+                            "pt_BR": ".\\..\\..\\.?",
                             "de_DE": ".\\..\\..\\.?",
                             "zh_CN": ".\\..\\..\\.?\uff1f<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u30fb\\.\u30fb\\.\u30fb\\.\uff1f<<A<<[CHANGED 2017/12/11]",
@@ -12328,6 +12374,7 @@
                     }, {
                         "message": {
                             "en_US": "By the Ancients!\\. This... this might be the best piece of meat that has ever grazed this planet.",
+                            "pt_BR": "Pelos Antigos!\\. Este... este pode ser o melhor pedaço de carne que já existiu neste planeta.",
                             "de_DE": "Bei den Ahnen!\\. Das... das ist vielleicht das beste St\u00fcck Fleisch, das jemals auf diesem Planeten gegrast hat!",
                             "zh_CN": "\u2026\u5929\u54ea\uff01\uff01\\.\u8fd9...\u8fd9\u53ef\u80fd\u662f\u8fd9\u4e2a\u661f\u7403\u8bde\u751f\u4ee5\u6765\u70e4\u51fa\u6700\u597d\u7684\u725b\u6392\uff01<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u3059\u3054\u3044\u3088\uff01\\. \u3053\u308c\u3063\u3066...\u3053\u308c\u3063\u3066\u3053\u306e\u60d1\u661f\u304c\n\u59cb\u307e\u3063\u3066\u4ee5\u6765\u3001\u6700\u9ad8\u306e\u304a\u8089\u304b\u3082\u3057\u308c\u306a\u3044\uff01<<A<<[CHANGED 2017/12/11]",
@@ -12344,6 +12391,7 @@
                     }, {
                         "message": {
                             "en_US": "...!",
+                            "pt_BR": "...!",
                             "de_DE": "...!",
                             "fr_FR": "fr_FR",
                             "langUid": 538,
@@ -12361,6 +12409,7 @@
                     }, {
                         "message": {
                             "en_US": "Truly gal, I'm serious.\\. You gotta taste some of this.\\. This is perfect.",
+                            "pt_BR": "Estou falando sério garota.\\. Você tem que experimentar um pouco.\\. É delicioso.",
                             "de_DE": "Ich mein's ernst.\\. Du musst was davon probieren.\\. Das ist g\u00f6ttlich.",
                             "zh_CN": "\u6211\u8bf4\u771f\u7684\uff0c\u59b9\u5b50\u3002\\.\u4f60\u4e00\u5b9a\u5f97\u5c1d\u5c1d\u8fd9\u4e2a\u3002\\.\u592a\u5b8c\u7f8e\u4e86\u3002<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u3044\u3084\u3044\u3084\u3001\u672c\u6c17\u3060\u304b\u3089\u3002\n\\.\u3061\u3087\u3063\u3068\u8a66\u3057\u3066\u307f\u3066\u3002\\. \u3053\u308c\u3001\u5b8c\u74a7\u3060\u3088\u3002<<A<<[CHANGED 2017/12/11]",
@@ -12377,6 +12426,7 @@
                     }, {
                         "message": {
                             "en_US": "Here, take a few to enjoy.\\. But make sure to brace yourself when eating!",
+                            "pt_BR": "Aqui, leve alguns para desfrutar.\\. Mas não se esqueça de se preparar ao comer!",
                             "de_DE": "Hier, nimm ein paar davon mit und genie\u00df sie.\\. Aber mach dich auf ein himmlisches Geschmackserlebnis gefasst, wenn du sie isst!",
                             "zh_CN": "\u6765\uff0c\u6211\u7ed9\u4f60\u6253\u5305\u4e86\u4e00\u4e9b\u3002\\.\u5403\u7684\u65f6\u5019\u53ef\u522b\u628a\u820c\u5934\u54ac\u4e86\uff01<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u307b\u3089\u3001\u6570\u679a\u6301\u3063\u3066\u884c\u3063\u3066\u3088\u3002\\. \u3067\u3082\u98df\u3079\u308b\u3068\u304d\u306f\u3001\n\u3076\u3063\u98db\u3070\u306a\u3044\u3088\u3046\u306b\u5fc3\u306e\u6e96\u5099\u3092\u3057\u3066\u306d\uff01<<A<<[CHANGED 2017/12/11]",
@@ -12393,6 +12443,7 @@
                     }, {
                         "message": {
                             "en_US": "...",
+                            "pt_BR": "...",
                             "de_DE": "...",
                             "zh_CN": "...<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "...<<A<<[CHANGED 2017/12/11]",
@@ -12437,6 +12488,7 @@
                     }, {
                         "message": {
                             "en_US": "I will make sure to stock up my booth right now.\\. There'll be as many as you can eat!",
+                            "pt_BR": "Vou me certificar de estocar meu estande agora mesmo.\\. Você vai ver, haverá muito para você!",
                             "de_DE": "Ich werd' gleich noch mehr davon zaubern.\\. Du wirst sehen, es wird reichlich f\u00fcr dich da sein!",
                             "zh_CN": "\u6211\u5f97\u591a\u70e4\u4e00\u4e9b\u6765\u4e0a\u67b6\u3002\\.\u6b22\u8fce\u4f60\u968f\u65f6\u6765\u54c1\u5c1d\uff01<<A<<[CHANGED 2017/12/12]",
                             "ja_JP": "\u79c1\u306e\u5e97\u306b\u30b9\u30c8\u30c3\u30af\u3092\u3044\u3063\u3071\u3044\u4f5c\u3063\u3066\u304a\u304f\u306d\u3002\n\\.\u3042\u306a\u305f\u304c\u597d\u304d\u306a\u3060\u3051\u98df\u3079\u3089\u308c\u308b\u3088\u3046\u306b\uff01<<A<<[CHANGED 2017/12/11]",
@@ -12453,6 +12505,7 @@
                     }, {
                         "message": {
                             "en_US": "Thank you again for all the hard work.\\. I hope to \"meat\" you again, many times in the future.",
+                            "pt_BR": "Obrigada novamente por todo o trabalho árduo.\\. Eu espero ver você novamente, mais vezes no futuro.",
                             "de_DE": "Vielen Dank nochmal f\u00fcr all die harte Arbeit.\\. Wie hei\u00dft's so sch\u00f6n? \"Es bl\u00fcht das Steak nur kurze Zeit, die Freundschaft bl\u00fcht in Ewigkeit.\" In diesem Sinne!",
                             "zh_CN": "\u518d\u6b21\u611f\u8c22\u4f60\u7684\u52aa\u529b\u3002\\.\u5e0c\u671b\u6211\u4eec\u4ee5\u540e\u80fd\u7ee7\u7eed\u5408\u4f5c\u3002<<A<<[CHANGED 2018/09/19]",
                             "ja_JP": "\u3044\u308d\u3044\u308d\u304c\u3093\u3070\u3063\u3066\u304f\u308c\u3066\u3042\u308a\u304c\u3068\u3046\u3002\n\\.\u307e\u305f\u3044\u3064\u3067\u3082\u6765\u3066\u306d\u3002<<A<<[CHANGED 2018/09/19]",
@@ -12469,6 +12522,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
+                            "pt_BR": "[acena com a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 560,
@@ -12486,6 +12540,7 @@
                     }, {
                         "message": {
                             "en_US": "Bye!",
+                            "pt_BR": "Tchau!",
                             "de_DE": "Bye!",
                             "fr_FR": "fr_FR",
                             "langUid": 544,
