@@ -1,0 +1,3933 @@
+{
+  "name": "rookie-harbor/inner-north-trade-upper1",
+  "levels": [{ "height": 0 }],
+  "mapWidth": 65,
+  "mapHeight": 30,
+  "masterLevel": 0,
+  "entities": [
+    {
+      "type": "Prop",
+      "x": 848,
+      "y": 312,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 7,
+        "propType": { "sheet": "rh-interior", "name": "plant4" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 464,
+      "y": 124,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 160, "y": 12 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 40,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 39,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "TeleportStairs",
+      "x": 768,
+      "y": 112,
+      "level": 0,
+      "settings": {
+        "name": "downwards",
+        "stairType": "DOWNWARDS_WEST",
+        "npcRunnerProb": 0,
+        "layer": "object1",
+        "transitionType": "REGULAR",
+        "mapId": 51,
+        "map": "rookie-harbor.inner-north-trade-ground",
+        "marker": "upwards",
+        "blockEventCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 208,
+      "y": 428,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 28 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 2,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 56,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 424,
+      "y": 124,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 85,
+        "propType": { "sheet": "rh-interior", "name": "terminalN" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 276,
+      "y": 336,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 88,
+        "propType": { "sheet": "rh-interior", "name": "terminalE" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 280,
+      "y": 124,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 90,
+        "propType": { "sheet": "rh-interior", "name": "terminalN" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 76,
+      "y": 124,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 8 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 16,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 104,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 136,
+      "y": 140,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 16 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 12,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 105,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 148,
+      "y": 136,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 88 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 6,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 106,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 136,
+      "y": 124,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 96 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 16,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 107,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 688,
+      "y": 280,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 128, "y": 8 },
+        "layer": "object1",
+        "collType": "NONE",
+        "zHeight": 64,
+        "wallY": 0.5,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 149,
+        "hideCondition": "tmp.hide2",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 804,
+      "y": 132,
+      "level": 0,
+      "settings": {
+        "name": "guardperson",
+        "characterName": "business.male-toupee-black",
+        "analyzable": {
+          "text": {
+            "en_US": "Guard",
+            "pt_BR": "Guarda",
+            "de_DE": "Wache",
+            "fr_FR": "fr_FR",
+            "langUid": 2,
+            "zh_CN": "\u5b88\u536b<<A<<[CHANGED 2017/12/12]",
+            "ko_KR": "\uacbd\ube44\uc6d0<<A<<[CHANGED 2017/11/20]",
+            "ja_JP": "\u885b\u5175<<A<<[CHANGED 2017/11/27]",
+            "zh_TW": "\u5b88\u885b<<A<<[CHANGED 2017/12/12]"
+          },
+          "active": ""
+        },
+        "mapId": 152,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "SOUTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "TouchTrigger",
+      "x": 684,
+      "y": 216,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 136, "y": 64 },
+        "type": "WHILE_TOUCH_TRUE",
+        "zHeight": 64,
+        "reactToParty": false,
+        "mapId": 154,
+        "variable": "tmp.hide2"
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 560,
+      "y": 324,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 28 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 2,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 180,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 564,
+      "y": 172,
+      "level": { "level": 0, "offset": 16 },
+      "settings": {
+        "name": "",
+        "mapId": 182,
+        "propType": { "sheet": "trading-autumn", "name": "signHuge" },
+        "propAnim": "map",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 248,
+      "y": 248,
+      "level": 0,
+      "settings": {
+        "name": "business-boss",
+        "characterName": "business.leader-rh-male-wheelchair",
+        "analyzable": {
+          "text": {
+            "en_US": "Chairman Steward",
+            "pt_BR": "Presidente Steward",
+            "de_DE": "Vorstandschef Steward",
+            "zh_CN": "\u65af\u56fe\u4e9a\u7279\u4e3b\u5e2d<<A<<[CHANGED 2017/12/12]",
+            "ko_KR": "\uc2a4\ud29c\uc6cc\ub4dc \ud68c\uc7a5<<A<<[CHANGED 2017/11/20]",
+            "langUid": 247,
+            "ja_JP": "\u30b9\u30c1\u30e5\u30ef\u30fc\u30c9\u8b70\u9577<<A<<[CHANGED 2017/11/27]",
+            "zh_TW": "\u65af\u5716\u4e9e\u7279\u4e3b\u5e2d<<A<<[CHANGED 2017/12/12]"
+          },
+          "active": ""
+        },
+        "mapId": 185,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": [
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "name": {
+                  "en_US": "Steward",
+                  "pt_BR": "Steward",
+                  "de_DE": "Steward",
+                  "zh_CN": "\u65af\u56fe\u4e9a\u7279<<A<<[CHANGED 2017/12/12]",
+                  "ko_KR": "\uc2a4\ud29c\uc6cc\ub4dc<<A<<[CHANGED 2017/11/20]",
+                  "langUid": 430,
+                  "ja_JP": "\u30b9\u30c1\u30e5\u30ef\u30fc\u30c9<<A<<[CHANGED 2017/11/27]",
+                  "zh_TW": "\u65af\u5716\u4e9e\u7279<<A<<[CHANGED 2017/12/12]"
+                },
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "I am sorry, \\v[lore.title.seeker] but the market is hot.\\. Please do not distract me.",
+                  "pt_BR": "Sinto muito, \\v[lore.title.seeker] mas o mercado está aquecido.\\. Por favor, não me distraia.",
+                  "de_DE": "Entschuldigen Sie, Seeker, aber der Markt ist gerade hei\u00df und erfordert daher meine volle Aufmerksamkeit.",
+                  "zh_CN": "\u62b1\u6b49\uff0c\\v[lore.title.seeker]\uff0c\u6211\u6b63\u5fd9\u3002\\.\u8bf7\u4e0d\u8981\u6253\u6270\u6211\u3002<<A<<[CHANGED 2017/12/12]",
+                  "ja_JP": "\\v[lore.title.seeker]\u3055\u3093\u3001\u3059\u307e\u306a\u3044\u304c\n\u5e02\u5834\u306e\u52d5\u304d\u304c\u6fc0\u3057\u304f\u3066\u306a\u3002\n\\.\u4eca\u306f\u8a71\u3057\u304b\u3051\u306a\u3044\u3067\u304f\u308c\u3002<<A<<[CHANGED 2017/12/11]",
+                  "ko_KR": "\ubbf8\uc548\ud558\uc9c0\ub9cc \\v[lore.title.seeker], \uc2dc\uc7a5\uc5d0 \uc0ac\ub78c\uc774 \ubd81\uc801\ubd81\uc801\ud558\ub294\uad70\uc694.\\. \uc808 \ubc29\ud574\ud558\uc9c0 \ub9d0\uc544 \uc8fc\uc168\uc73c\uba74 \ud569\ub2c8\ub2e4.<<A<<TODO 0.9.8",
+                  "langUid": 251,
+                  "zh_TW": "\u62b1\u6b49\uff0c\\v[lore.title.seeker]\uff0c\u6211\u6b63\u5728\u5fd9\u3002\\.\u8acb\u4e0d\u8981\u6253\u64fe\u6211\u3002<<A<<[CHANGED 2017/12/12]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "notify": true,
+                "type": "UNLOCK_LORE_ENTRY",
+                "lore": "faction-shock-main",
+                "entry": "page-01-02"
+              },
+              {
+                "notify": true,
+                "type": "UNLOCK_LORE_ENTRY",
+                "lore": "faction-shock-rookieharbor",
+                "entry": "page-01-02"
+              }
+            ]
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "action": [],
+            "hidden": false,
+            "condition": "quest.rftc-3-metalstuff.task.1 && !quest.rftc-3-metalstuff.solved",
+            "config": "normal",
+            "event": {
+              "quest": [
+                {
+                  "side": "RIGHT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": { "person": "main.lea", "expression": "DEFAULT" }
+                },
+                {
+                  "name": {
+                    "en_US": "Steward",
+                    "pt_BR": "Steward",
+                    "de_DE": "Steward",
+                    "zh_CN": "\u65af\u56fe\u4e9a\u7279<<A<<[CHANGED 2017/12/12]",
+                    "ko_KR": "\uc2a4\ud29c\uc6cc\ub4dc<<A<<[CHANGED 2017/11/20]",
+                    "langUid": 441,
+                    "ja_JP": "\u30b9\u30c1\u30e5\u30ef\u30fc\u30c9<<A<<[CHANGED 2017/11/27]",
+                    "zh_TW": "\u65af\u5716\u4e9e\u7279<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "side": "LEFT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "Hi!",
+                    "pt_BR": "Oi!",
+                    "de_DE": "Hi!",
+                    "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc548\ub155!<<A<<TODO 0.9.8",
+                    "langUid": 473,
+                    "zh_TW": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "PROUD" }
+                },
+                {
+                  "message": {
+                    "en_US": "Ah, good evening, \\v[lore.title.seeker].\\. We have been expecting you.",
+                    "pt_BR": "Ah, boa tarde, \\v[lore.title.seeker].\\. Estávamos esperando por você.",
+                    "de_DE": "Ah, guten Abend, Seeker.\\. Wir haben Sie erwartet.",
+                    "zh_CN": "\u665a\u4e0a\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u6211\u4eec\u6b63\u5728\u7b49\u4f60\u5462\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u304a\u304a\u6765\u305f\u306a\u3001\\v[lore.title.seeker]\u3055\u3093\u3002\n\\.\u541b\u306e\u3053\u3068\u3092\u5f85\u3063\u3066\u3044\u305f\u3088\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc544, \uc548\ub155\ud558\uc138\uc694, \\v[lore.title.seeker].\\. \uae30\ub2e4\ub9ac\uace0 \uc788\uc5c8\uc2b5\ub2c8\ub2e4.<<A<<TODO 0.9.8",
+                    "langUid": 469,
+                    "zh_TW": "\u665a\u4e0a\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u6211\u5011\u6b63\u5728\u7b49\u4f60\u5462\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "Mr. Nomsworth spoke very highly of your abilities.\\. Let us hope that his trust is not misplaced.",
+                    "pt_BR": "O Sr. Nomsworth falou muito bem de suas habilidades.\\. Esperamos que a confiança dele não seja descabida.",
+                    "de_DE": "Herr Nomsworth hat von Ihren F\u00e4higkeiten in den h\u00f6chsten T\u00f6nen gesprochen.\\. Hoffen wir, dass Sie sein Vertrauen nicht entt\u00e4uschen.",
+                    "zh_CN": "\u4f73\u98df\u5148\u751f\u5bf9\u4f60\u8bc4\u4ef7\u751a\u9ad8\u3002\\.\u5e0c\u671b\u4ed6\u4e0d\u8981\u6240\u6258\u975e\u4eba\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u30df\u30b9\u30bf\u30fc\u30fb\u30ce\u30e0\u30ba\u30ef\u30fc\u30b9\u304c\u541b\u306e\u3053\u3068\u3092\n\u5927\u5909\u306b\u8912\u3081\u3066\u3044\u305f\u3088\u3002\\.\u5f7c\u306e\u8a55\u4fa1\u304c\n\u8aa4\u308a\u3067\u306a\u3044\u3053\u3068\u3092\u9858\u304a\u3046\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\ub188\uc2a4\uc6cc\uc4f0 \uc528\uac00 \ub2f9\uc2e0\uc758 \ub2a5\ub825\uc774 \uc544\uc8fc \ub300\ub2e8\ud558\ub2e4\uace0 \ud558\ub354\uad70\uc694.\\. \uadf8\uc758 \ubbff\uc74c\uc744 \uc800\ubc84\ub9ac\uc9c0 \uc54a\uc558\uc73c\uba74 \uc88b\uaca0\uc2b5\ub2c8\ub2e4. <<A<<TODO 0.9.8",
+                    "langUid": 474,
+                    "zh_TW": "\u4f73\u98df\u5148\u751f\u5c0d\u4f60\u8a55\u50f9\u751a\u9ad8\u3002\\.\u5e0c\u671b\u4ed6\u4e0d\u8981\u6240\u6258\u975e\u4eba\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "...",
+                    "pt_BR": "...",
+                    "de_DE": "...",
+                    "zh_CN": "...<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "...<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "...<<A<<TODO 0.9.8",
+                    "langUid": 475,
+                    "zh_TW": "...<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "DETERMINED" }
+                },
+                {
+                  "message": {
+                    "en_US": "As you hopefully know, \\v[area.rookie-harbor.name] is a central settlement with strong connections all over \\v[lore.title.planet].",
+                    "pt_BR": "Como você deve saber, \\v[area.rookie-harbor.name] é um povoado central com fortes conexões por toda \\v[lore.title.planet].",
+                    "de_DE": "Wie Sie hoffentlich wissen, ist Rookie Harbor ein zentraler Knotenpunkt mit weltweiten Verbindungen.",
+                    "zh_CN": "\u4f60\u5e94\u8be5\u4e86\u89e3\uff0c\\v[area.rookie-harbor.name]\u662f\\v[lore.title.planet]\u7684\u4e2d\u5fc3\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u5f53\u7136\u77e5\u3063\u3066\u3044\u308b\u3053\u3068\u3068\u601d\u3046\u304c\u3001\\v[area.rookie-harbor.name]\u306f\n\\v[lore.title.planet]\u306e\u4e2d\u5fc3\u7684\u306a\u5c45\u4f4f\u533a\u3067\u3001\n\u5404\u5730\u3068\u5f37\u304f\u7d50\u3073\u3064\u3044\u3066\u3044\u308b\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc544\uc2dc\uaca0\uc9c0\ub9cc, \\v[area.rookie-harbor.name]\ub294 \\v[lore.title.planet] \uc804\uc5ed\uacfc \uac15\ud558\uac8c \uc5f0\uacb0\ub41c \uc911\uc2ec \ub9c8\uc744\uc785\ub2c8\ub2e4.<<A<<TODO 0.9.8",
+                    "langUid": 476,
+                    "zh_TW": "\u4f60\u61c9\u8a72\u77ad\u89e3\uff0c\\v[area.rookie-harbor.name]\u662f\\v[lore.title.planet]\u7684\u4e2d\u5fc3\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "There is barely a commodity that cannot be found on our mighty venues of capitalism.",
+                    "pt_BR": "Mal existe uma mercadoria que não possa ser encontrada em nossos poderosos estabelecimentos do capitalismo.",
+                    "de_DE": "Es gibt kaum eine Ware, die wir nicht durch unsere starken Handelsbeziehungen auftreiben k\u00f6nnen.",
+                    "zh_CN": "\u5728\u8fd9\u4e2a\u5546\u4e1a\u8981\u5730\uff0c\u51e0\u4e4e\u6ca1\u6709\u627e\u4e0d\u5230\u7684\u5546\u54c1\u3002<<A<<[CHANGED 2018/09/19]",
+                    "ja_JP": "\u3044\u308f\u3070\u3001\u5e02\u5834\u7d4c\u6e08\u306e\u4e2d\u67a2\u3060\u3002\u3053\u3053\u3067\u624b\u306b\u5165\u3089\u306a\u3044\u54c1\u7269\u306f\u307b\u307c\u306a\u3044\u3060\u308d\u3046\u3002<<A<<[CHANGED 2018/09/19]",
+                    "ko_KR": "\uc774 \uac15\ub825\ud55c \uc790\ubcf8\uc8fc\uc758\uc758 \uc911\uc2ec\uc9c0\uc5d0\uc11c \ucc3e\uc744 \uc218 \uc5c6\ub294 \uc0c1\ud488\uc740 \uac70\uc758 \uc5c6\ub2e4\uace0 \ubcfc \uc218 \uc788\uc8e0.<<A<<[CHANGED 2018/09/19]",
+                    "langUid": 477,
+                    "zh_TW": "\u5728\u9019\u500b\u5546\u696d\u8981\u5730\uff0c\u5e7e\u4e4e\u6c92\u6709\u627e\u4e0d\u5230\u7684\u5546\u54c1\u3002<<A<<[CHANGED 2018/09/19]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "...!",
+                    "pt_BR": "...!",
+                    "de_DE": "...!",
+                    "zh_CN": "...!<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "...\uff01<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "...!<<A<<TODO 0.9.8",
+                    "langUid": 478,
+                    "zh_TW": "...!<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "ASTONISHED" }
+                },
+                {
+                  "message": {
+                    "en_US": "Despite this, we still lack the capacity to acquire high-quality metal without relying on the other settlements.",
+                    "pt_BR": "Apesar disso, ainda nos falta a capacidade de adquirir metal de alta qualidade sem contar com os outros povoados.",
+                    "de_DE": "Und doch fehlen uns noch immer die Kapazit\u00e4ten f\u00fcr eine hochwertige Metallproduktion aus eigener Hand.<<A<<[CHANGED 2021/05/22]",
+                    "zh_CN": "\u4f46\u662f\uff0c\u6211\u4eec\u5bf9\u4e8e\u9ad8\u8d28\u91cf\u91d1\u5c5e\u7684\u9700\u6c42\u5374\u8981\u4f9d\u8d56\u5176\u4ed6\u9a7b\u5730\u3002<<A<<[CHANGED 2021/05/22]",
+                    "ja_JP": "\u305f\u3060\u3001\u9ad8\u54c1\u8cea\u306e\u30e1\u30bf\u30eb\u306b\u3064\u3044\u3066\u306f\n\u4eca\u3082\u4ed6\u306e\u5c45\u4f4f\u533a\u306b\u983c\u3063\u3066\u3044\u308b\u3002<<A<<[CHANGED 2021/05/22]",
+                    "ko_KR": "\uadf8\ub807\uc9c0\ub9cc \ub2e4\ub978 \ub9c8\uc744\uc5d0 \uc758\uc874\ud558\uc9c0 \uc54a\uace0 \uace0\uae09 \uae08\uc18d\uc744 \uc0dd\uc131\ud560 \uc218 \uc788\ub294 \uc5ed\ub7c9\uc740 \uc5ec\uc804\ud788 \ubd80\uc871\ud569\ub2c8\ub2e4.<<A<<[CHANGED 2018/01/05]",
+                    "langUid": 479,
+                    "zh_TW": "\u4f46\u662f\uff0c\u6211\u5011\u5c0d\u65bc\u9ad8\u54c1\u8cea\u91d1\u5c6c\u7684\u9700\u6c42\u537b\u8981\u4f9d\u8cf4\u5176\u4ed6\u99d0\u5730\u3002<<A<<[CHANGED 2021/05/22]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "It will be your most urgent task to remedy this.\\. I hope we can still count on your assistance?",
+                    "pt_BR": "Será sua tarefa mais urgente para remediar isto.\\. Espero que ainda possamos contar com a sua ajuda.",
+                    "de_DE": "Es wird daher Ihre h\u00f6chst dringliche Aufgabe sein, dem Abhilfe zu schaffen.\\. Ich hoffe, wir k\u00f6nnen nach wie vor mit Ihrer Unterst\u00fctzung rechnen?",
+                    "zh_CN": "\u6539\u53d8\u8fd9\u70b9\u662f\u6211\u4eec\u7684\u7b2c\u4e00\u8981\u52a1\u3002\\.\u76f8\u4fe1\u4f60\u53ef\u4ee5\u5bf9\u6b64\u6709\u6240\u5e2e\u52a9\uff1f<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u305d\u308c\u3092\u541b\u306b\u4e00\u523b\u3082\u65e9\u304f\u89e3\u6d88\u3057\u3066\u307b\u3057\u3044\u306e\u3060\u3002\n\\.\u529b\u306b\u306a\u3063\u3066\u304f\u308c\u308b\u3060\u308d\u3046\u304b\uff1f<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc774\ub97c \ud574\uacb0\ud558\ub294 \uac83\uc774 \ub2f9\uc2e0\uc758 \ucd5c\uc6b0\uc120 \uacfc\uc81c\uac00 \ub420 \uac81\ub2c8\ub2e4.\\. \uae30\ub300\ud574 \ubd10\ub3c4 \ub418\uaca0\uc8e0?<<A<<TODO 0.9.8",
+                    "langUid": 480,
+                    "zh_TW": "\u6539\u8b8a\u9019\u9ede\u662f\u6211\u5011\u7684\u7b2c\u4e00\u8981\u52d9\u3002\\.\u76f8\u4fe1\u4f60\u53ef\u4ee5\u5c0d\u6b64\u6709\u6240\u5e6b\u52a9\uff1f<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
+                    "de_DE": "[nickt]",
+                    "fr_FR": "fr_FR",
+                    "langUid": 408,
+                    "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2017/12/12]",
+                    "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2017/11/20]",
+                    "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2017/11/27]",
+                    "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NOD" }
+                },
+                {
+                  "message": {
+                    "en_US": "Excellent.\\. Then go to \\v[area.bergen.name] and visit their trader of metalworks.",
+                    "pt_BR": "Excelente.\\. Então vá para \\v[area.bergen.name] e visite o comerciante de metalurgia",
+                    "de_DE": "Ausgezeichnet.\\. Gehen Sie nach Bergen und sprechen Sie dort mit dem Metallh\u00e4ndler.",
+                    "zh_CN": "\u592a\u597d\u4e86\u3002\\.\u8bf7\u524d\u5f80\\v[area.bergen.name]\u62dc\u8bbf\u5f53\u5730\u91d1\u5c5e\u5546\u4eba\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3088\u3057\u3002\\. \u305d\u308c\u3067\u306f\\v[area.bergen.name]\u3078\u884c\u304d\u3001\u30e1\u30bf\u30eb\u52a0\u5de5\u54c1\u306e\u30c8\u30ec\u30fc\u30c0\u30fc\u306b\u4f1a\u3063\u3066\u304d\u3066\u307b\u3057\u3044\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc88b\uc2b5\ub2c8\ub2e4.\\. \uadf8\ub7fc \uc774\uc81c \\v[area.bergen.name]\ub85c \uc774\ub3d9\ud574 \uae08\uc18d \uac00\uacf5 \uc0c1\uc778\uc774 \uc788\ub294 \uacf3\uc744 \ubc29\ubb38\ud558\uc2ed\uc2dc\uc624.<<A<<TODO 0.9.8",
+                    "langUid": 481,
+                    "zh_TW": "\u592a\u597d\u4e86\u3002\\.\u8acb\u524d\u5f80\\v[area.bergen.name]\u62dc\u8a2a\u7576\u5730\u91d1\u5c6c\u5546\u4eba\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "We have already negotiated a satisfying arrangement.\\. You will fulfill our end of the bargain.",
+                    "pt_BR": "Já negociamos um acordo satisfatório.\\. Você cumprirá nossa parte do acordo.",
+                    "de_DE": "Wir haben bereits eine f\u00fcr beide Seiten zufriedenstellende Vereinbarung getroffen.\\. Sie werden diesen Handel abschlie\u00dfen.",
+                    "zh_CN": "\u6211\u4eec\u5df2\u7ecf\u8c08\u59a5\u4e86\u76f8\u5173\u4e8b\u5b9c\u3002\\.\u800c\u4f60\u5c06\u4ee3\u66ff\u6211\u4eec\u5b8c\u6210\u5408\u7ea6\u3002<<A<<[CHANGED 2018/01/06]",
+                    "ja_JP": "\u3059\u3067\u306b\u3001\u53d6\u5f15\u306f\u7d0d\u5f97\u306e\u3044\u304f\u6761\u4ef6\u3067\u7de0\u7d50\u6e08\u307f\u3060\u3002\n\\. \u541b\u306b\u306f\u3001\u3053\u3061\u3089\u5074\u304c\u7d04\u675f\u3057\u305f\u53d6\u5f15\u306e\u6761\u4ef6\u3092\n\u679c\u305f\u3057\u3066\u307b\u3057\u3044\u3002<<A<<[CHANGED 2018/01/06]",
+                    "ko_KR": "\ub9cc\uc871\ud560 \ub9cc\ud55c \ub300\uac00\ub294 \uc774\ubbf8 \ud611\uc0c1\ud574 \ub450\uc5c8\uc2b5\ub2c8\ub2e4.\\. \ub2f9\uc2e0\uc774 \uc6b0\ub9ac \ucabd \ub300\uac00\ub97c \uce58\ub974\uac8c \ub420 \uac83\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2018/01/05]",
+                    "langUid": 482,
+                    "zh_TW": "\u6211\u5011\u5df2\u7d93\u8ac7\u59a5\u4e86\u76f8\u95dc\u4e8b\u5b9c\u3002\\.\u800c\u4f60\u5c07\u4ee3\u66ff\u6211\u5011\u5b8c\u6210\u5408\u7d04\u3002<<A<<[CHANGED 2018/01/06]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
+                    "de_DE": "[nickt]",
+                    "fr_FR": "fr_FR",
+                    "langUid": 483,
+                    "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2017/12/12]",
+                    "ko_KR": "[\ub044\ub355]<<A<<TODO 0.9.8",
+                    "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2017/12/11]",
+                    "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NOD" }
+                },
+                {
+                  "message": {
+                    "en_US": "Good.\\. Now go and carry out your task.",
+                    "pt_BR": "Ótimo.\\. Agora vá e cumpra sua tarefa.",
+                    "de_DE": "Gut.\\. Gehen Sie und f\u00fchren den Auftrag aus.",
+                    "zh_CN": "\u5f88\u597d\u3002\\.\u53bb\u529e\u4e8b\u5427\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3088\u3057\u3002\\. \u3067\u306f\u3055\u3063\u305d\u304f\u53d6\u308a\u304b\u304b\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc88b\uc2b5\ub2c8\ub2e4.\\. \uc774\uc81c \uac00\uc11c \uacfc\uc81c\ub97c \uc218\ud589\ud558\uc2ed\uc2dc\uc624.<<A<<TODO 0.9.8",
+                    "langUid": 484,
+                    "zh_TW": "\u5f88\u597d\u3002\\.\u53bb\u8fa6\u4e8b\u5427\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
+                    "de_DE": "Bye!",
+                    "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3058\u3083\u3042\u306d\uff01<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc798 \uac00!<<A<<TODO 0.9.8",
+                    "langUid": 485,
+                    "zh_TW": "\u518d\u898b\uff01<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "PROUD" }
+                },
+                {
+                  "type": "SOLVE_QUEST_CONDITION",
+                  "quest": {
+                    "quest": "rftc-3-metalstuff",
+                    "label": "talk-boss"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "action": [],
+            "hidden": false,
+            "condition": "(quest.rftc-3-metalstuff.currentTask >= 2) && !quest.rftc-3-metalstuff.solved",
+            "config": "normal",
+            "event": [
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "name": {
+                  "en_US": "Steward",
+                  "pt_BR": "Steward",
+                  "de_DE": "Steward",
+                  "zh_CN": "\u65af\u56fe\u4e9a\u7279<<A<<[CHANGED 2017/12/12]",
+                  "ko_KR": "\uc2a4\ud29c\uc6cc\ub4dc<<A<<[CHANGED 2017/11/20]",
+                  "langUid": 472,
+                  "ja_JP": "\u30b9\u30c1\u30e5\u30ef\u30fc\u30c9<<A<<[CHANGED 2017/11/27]",
+                  "zh_TW": "\u65af\u5716\u4e9e\u7279<<A<<[CHANGED 2017/12/12]"
+                },
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Go to \\c[3]\\v[area.bergen.name]\\c[0] and talk to their \\c[3]trader of metalworks\\c[0] in the \\c[3]Trader's Den\\c[0].",
+                  "pt_BR": "Vá para \\c[3]\\v[area.bergen.name]\\c[0] e fale com o \\c[3]trader of metalworks\\c[0] na \\c[3]Cabana do Comerciante\\c[0].",
+                  "de_DE": "Gehen Sie nach \\c[3]Bergen\\c[0] und sprechen Sie dort mit dem \\c[3]Metallh\u00e4ndler\\c[0] in der \\c[3]H\u00e4ndlerh\u00fctte\\c[0].",
+                  "zh_CN": "\u524d\u5f80\\c[3]\\v[area.bergen.name]\\c[0]\uff0c\u5728\\c[3]\u5546\u8d29\u5c45\u6240\\c[0]\u548c\\c[3]\u91d1\u5c5e\u5546\u4eba\\c[0]\u4ea4\u8c08\u3002<<A<<[CHANGED 2017/12/12]",
+                  "ja_JP": "\\c[3]\\v[area.bergen.name]\\c[0]\u3078\u884c\u3063\u3066\u3001\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\u306e\u96a0\u308c\u5bb6\\c[0]\u306b\u3044\u308b\\c[3]\u30e1\u30bf\u30eb\u52a0\u5de5\u54c1\u306e\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]\u3068\u8a71\u3057\u3066\u304f\u308c\u3002<<A<<[CHANGED 2017/12/11]",
+                  "ko_KR": "\\c[3]\\v[area.bergen.name]\\c[0]\ub85c \uc774\ub3d9\ud574 \\c[3]\uc0c1\uc778\uc758 \uc18c\uad74\\c[0]\uc5d0 \uc788\ub294 \\c[3]\uae08\uc18d \uac00\uacf5\uc758 \uc0c1\uc778\\c[0]\uc5d0\uac8c \ub9d0\uc744 \uac70\uc2ed\uc2dc\uc624.<<A<<TODO 0.9.8",
+                  "langUid": 486,
+                  "zh_TW": "\u524d\u5f80\\c[3]\\v[area.bergen.name]\\c[0]\uff0c\u5728\\c[3]\u5546\u8ca9\u5c45\u6240\\c[0]\u548c\\c[3]\u91d1\u5c6c\u5546\u4eba\\c[0]\u4ea4\u8ac7\u3002<<A<<[CHANGED 2017/12/12]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "He will have a task for you to fulfill.",
+                  "pt_BR": "Ele terá uma tarefa para você cumprir.",
+                  "de_DE": "Er wird eine Aufgabe f\u00fcr Sie haben, die Sie erledigen sollen.",
+                  "zh_CN": "\u4ed6\u4f1a\u7ed9\u4f60\u4e00\u4e2a\u4efb\u52a1\u3002<<A<<[CHANGED 2017/12/12]",
+                  "ja_JP": "\u5f7c\u306e\u8a00\u3046\u30bf\u30b9\u30af\u3092\u5b9f\u884c\u3057\u3066\u307b\u3057\u3044\u3002<<A<<[CHANGED 2017/12/11]",
+                  "ko_KR": "\uadf8\uac00 \ub2f9\uc2e0\uc774 \uc218\ud589\ud574\uc57c \ud560 \uacfc\uc81c\ub97c \uc904 \uac83\uc785\ub2c8\ub2e4.<<A<<TODO 0.9.8",
+                  "langUid": 487,
+                  "zh_TW": "\u4ed6\u6703\u7d66\u4f60\u4e00\u500b\u4efb\u52d9\u3002<<A<<[CHANGED 2017/12/12]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              }
+            ]
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "action": [],
+            "hidden": false,
+            "condition": "quest.rftc-3-metalstuff.task.5",
+            "config": "normal",
+            "event": {
+              "quest": [
+                {
+                  "side": "RIGHT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": { "person": "main.lea", "expression": "DEFAULT" }
+                },
+                {
+                  "name": {
+                    "en_US": "Steward",
+                    "pt_BR": "Steward",
+                    "de_DE": "Steward",
+                    "zh_CN": "\u65af\u56fe\u4e9a\u7279<<A<<[CHANGED 2017/12/12]",
+                    "ko_KR": "\uc2a4\ud29c\uc6cc\ub4dc<<A<<[CHANGED 2017/11/20]",
+                    "langUid": 470,
+                    "ja_JP": "\u30b9\u30c1\u30e5\u30ef\u30fc\u30c9<<A<<[CHANGED 2017/11/27]",
+                    "zh_TW": "\u65af\u5716\u4e9e\u7279<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "side": "LEFT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "Hi!",
+                    "pt_BR": "Oi!",
+                    "de_DE": "Hi!",
+                    "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc548\ub155!<<A<<TODO 0.9.8",
+                    "langUid": 490,
+                    "zh_TW": "\u4f60\u597d\uff01<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "PROUD" }
+                },
+                {
+                  "message": {
+                    "en_US": "\\v[lore.title.seeker], welcome back!\\. The necessary tools have already arrived and they work splendidly.",
+                    "pt_BR": "Bem-vinda de volta, \\v[lore.title.seeker]!\\. As ferramentas necessárias já chegaram e funcionam de forma esplêndida.",
+                    "de_DE": "Willkommen zur\u00fcck, Seeker!\\. Die Ger\u00e4te sind bereits eingetroffen und sie arbeiten hervorragend.",
+                    "zh_CN": "\\v[lore.title.seeker]\uff0c\u6b22\u8fce\u56de\u6765\uff01\\.\u5de5\u5177\u5df2\u7ecf\u9001\u8fbe\uff0c\u8fd0\u884c\u5341\u5206\u987a\u5229\u3002<<A<<[CHANGED 2017/12/14]",
+                    "ja_JP": "\\v[lore.title.seeker]\u3055\u3093\u3001\u3088\u304f\u623b\u3063\u3066\u304d\u305f\u306a\uff01\n\\.\u5fc5\u8981\u306a\u5de5\u5177\u304c\u5c4a\u3044\u3066\u3044\u308b\u3088\u3002\u3068\u3066\u3082\u3044\u3044\u5177\u5408\u3060\u3002\n<<A<<[CHANGED 2017/12/14]",
+                    "ko_KR": "\\v[lore.title.seeker], \uc624\uc168\uad70\uc694!\\. \ud544\uc694\ud55c \ub3c4\uad6c\ub294 \uc774\ubbf8 \ub3c4\ucc29\ud588\uace0, \uc798 \uc791\ub3d9\ub418\uace0 \uc788\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2017/12/13]",
+                    "langUid": 406,
+                    "zh_TW": "\\v[lore.title.seeker]\uff0c\u6b61\u8fce\u56de\u4f86\uff01\\.\u5de5\u5177\u5df2\u7d93\u9001\u9054\uff0c\u904b\u884c\u5341\u5206\u9806\u5229\u3002<<A<<[CHANGED 2017/12/14]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "...!",
+                    "pt_BR": "...!",
+                    "de_DE": "...!",
+                    "zh_CN": "...!<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "...\uff01<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "...!<<A<<TODO 0.9.8",
+                    "langUid": 491,
+                    "zh_TW": "...!<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "EXCITED" }
+                },
+                {
+                  "message": {
+                    "en_US": "From now on, we will be able to trade higher quality metal directly in \\v[area.rookie-harbor.name].",
+                    "pt_BR": "De agora em diante, seremos capazes de comercializar metal de maior qualidade diretamente do \\v[area.rookie-harbor.name].",
+                    "de_DE": "Von nun an k\u00f6nnen wir h\u00f6herwertiges Metall direkt in Rookie Harbor handeln.",
+                    "zh_CN": "\u73b0\u5728\uff0c\u6211\u4eec\u53ef\u4ee5\u76f4\u63a5\u5728\\v[area.rookie-harbor.name]\u4ea4\u6613\u9ad8\u7ea7\u91d1\u5c5e\u4e86\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3053\u308c\u3067\u3001\u9ad8\u54c1\u8cea\u306e\u30e1\u30bf\u30eb\u3082\\v[area.rookie-harbor.name]\u3067\n\u76f4\u63a5\u53d6\u308a\u5f15\u304d\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308b\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc774\uc81c\ubd80\ud130\ub294 \\v[area.rookie-harbor.name] \ub0b4\uc5d0\uc11c \uace0\uae09 \uae08\uc18d\uc744 \uc9c1\uc811 \uac70\ub798\ud560 \uc218 \uc788\uaca0\uad70\uc694.<<A<<TODO 0.9.8",
+                    "langUid": 492,
+                    "zh_TW": "\u73fe\u5728\uff0c\u6211\u5011\u53ef\u4ee5\u76f4\u63a5\u5728\\v[area.rookie-harbor.name]\u4ea4\u6613\u9ad8\u7d1a\u91d1\u5c6c\u4e86\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "You have been a great help.\\. Nomsworth really deserves a pat on the back for picking you.",
+                    "pt_BR": "Você foi de grande ajuda.\\. Nomsworth realmente merece um tapinha nas costas por ter escolhido você.",
+                    "de_DE": "Sie waren eine gro\u00dfe Hilfe.\\. Nomsworth kann sich wirklich selbst auf die Schulter klopfen, dass er Sie ausgew\u00e4hlt hat.",
+                    "zh_CN": "\u4f60\u7684\u5e2e\u52a9\u4e0d\u5bb9\u5c0f\u89c6\u3002\\.\u4f73\u98df\u5148\u751f\u9009\u4f60\u786e\u5b9e\u6ca1\u9519\uff0c\u5e94\u5f53\u53d7\u8d4f\u3002<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3088\u304f\u3084\u3063\u3066\u304f\u308c\u305f\u3002\\. \u541b\u3092\u9078\u3093\u3060\u30ce\u30e0\u30ba\u30ef\u30fc\u30b9\u306f\u3001\n\u672c\u5f53\u306b\u79f0\u8cdb\u306b\u5024\u3059\u308b\u3002<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc815\ub9d0 \ub9ce\uc740 \ub3c4\uc6c0\uc774 \ub418\uc5c8\uc2b5\ub2c8\ub2e4.\\. \ub2f9\uc2e0\uc744 \ubcf4\ub0b4\uc900 \ub188\uc2a4\uc6cc\uc4f0 \uc528\ub97c \uce6d\ucc2c\ud574 \uc8fc\uc5b4\uc57c\uaca0\uad70\uc694.<<A<<TODO 0.9.8",
+                    "langUid": 493,
+                    "zh_TW": "\u4f60\u7684\u5e6b\u52a9\u4e0d\u5bb9\u5c0f\u8996\u3002\\.\u4f73\u98df\u5148\u751f\u9078\u4f60\u78ba\u5be6\u6c92\u932f\uff0c\u61c9\u7576\u53d7\u8cde\u3002<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "And you will also get your reward, of course.\\. We should stay in contact for future deals.",
+                    "pt_BR": "E você também receberá sua recompensa, é claro.\\. Vamos permanecer em contato para futuros negócios.",
+                    "de_DE": "Und auch Sie bekommen nat\u00fcrlich Ihre Belohnung.\\. Wir bleiben in Kontakt?",
+                    "zh_CN": "\u5f53\u7136\u4e86\uff0c\u4e5f\u5c11\u4e0d\u4e86\u4f60\u7684\u5956\u52b1\u3002\\.\u5e0c\u671b\u6211\u4eec\u672a\u6765\u80fd\u518d\u6b21\u5408\u4f5c\u3002<<A<<[CHANGED 2018/10/04]",
+                    "ja_JP": "\u3082\u3061\u308d\u3093\u541b\u306b\u3082\u5831\u916c\u3092\u7528\u610f\u3057\u3066\u3042\u308b\u3002\n\\.\u4eca\u5f8c\u3082\u3088\u308d\u3057\u304f\u983c\u3080\u3002<<A<<[CHANGED 2018/10/04]",
+                    "ko_KR": "\ub2f9\uc2e0\uc5d0\uac8c\ub294 \ubcf4\uc0c1\uc744 \ub4dc\ub824\uc57c\uc9c0\uc694.\\. \ub098\uc911\uc744 \uc704\ud574 \uc5f0\ub77d\ud558\uba70 \uc9c0\ub0c5\uc2dc\ub2e4.<<A<<[CHANGED 2018/10/04]",
+                    "langUid": 494,
+                    "zh_TW": "\u7576\u7136\u4e86\uff0c\u4e5f\u5c11\u4e0d\u4e86\u4f60\u7684\u734e\u52f5\u3002\\.\u5e0c\u671b\u6211\u5011\u672a\u4f86\u80fd\u518d\u6b21\u5408\u4f5c\u3002<<A<<[CHANGED 2018/10/04]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "business.leader-rh-male-wheelchair",
+                    "expression": "DEFAULT"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
+                    "de_DE": "[nickt]",
+                    "fr_FR": "fr_FR",
+                    "langUid": 488,
+                    "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2017/12/12]",
+                    "ko_KR": "[\ub044\ub355]<<A<<TODO 0.9.8",
+                    "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2017/12/11]",
+                    "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NOD" }
+                },
+                {
+                  "message": {
+                    "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
+                    "de_DE": "Bye!",
+                    "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2017/12/12]",
+                    "ja_JP": "\u3058\u3083\u3042\u306d\uff01<<A<<[CHANGED 2017/12/11]",
+                    "ko_KR": "\uc798 \uac00!<<A<<TODO 0.9.8",
+                    "langUid": 495,
+                    "zh_TW": "\u518d\u898b\uff01<<A<<[CHANGED 2017/12/12]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "PROUD" }
+                },
+                {
+                  "type": "SOLVE_QUEST_CONDITION",
+                  "quest": { "quest": "rftc-3-metalstuff", "label": "done" }
+                }
+              ]
+            }
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "action": [],
+            "hidden": false,
+            "condition": "quest.rftc-3-metalstuff.solved",
+            "config": "normal",
+            "event": [
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "name": {
+                  "en_US": "Steward",
+                  "pt_BR": "Steward",
+                  "de_DE": "Steward",
+                  "zh_CN": "\u65af\u56fe\u4e9a\u7279<<A<<[CHANGED 2017/12/12]",
+                  "ko_KR": "\uc2a4\ud29c\uc6cc\ub4dc<<A<<[CHANGED 2017/11/20]",
+                  "langUid": 471,
+                  "ja_JP": "\u30b9\u30c1\u30e5\u30ef\u30fc\u30c9<<A<<[CHANGED 2017/11/27]",
+                  "zh_TW": "\u65af\u5716\u4e9e\u7279<<A<<[CHANGED 2017/12/12]"
+                },
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "I am sorry \\v[lore.title.seeker], but the market is hot.\\. Please do not distract me.",
+                  "pt_BR": "Sinto muito \\v[lore.title.seeker], mas o mercado está aquecido. Por favor, não me distraia.",
+                  "de_DE": "Entschuldigen Sie, Seeker, aber der Markt ist gerade hei\u00df und erfordert daher meine volle Aufmerksamkeit.",
+                  "zh_CN": "\u62b1\u6b49\uff0c\\v[lore.title.seeker]\uff0c\u6211\u6b63\u5fd9\u3002\\.\u8bf7\u4e0d\u8981\u6253\u6270\u6211\u3002<<A<<[CHANGED 2018/09/19]",
+                  "ja_JP": "\\v[lore.title.seeker]\u3055\u3093\u3001\u3059\u307e\u306a\u3044\u304c\u5e02\u5834\u306e\u52d5\u304d\u304c\u6fc0\u3057\u304f\u3066\u306a\u3002\\. \u4eca\u306f\u8a71\u3057\u304b\u3051\u306a\u3044\u3067\u304f\u308c\u3002<<A<<[CHANGED 2018/09/19]",
+                  "ko_KR": "\ubbf8\uc548\ud558\uc9c0\ub9cc \\v[lore.title.seeker], \uc2dc\uc7a5\uc774 \ub9e4\uc6b0 \ubc14\uc058\uac8c \ub3cc\uc544\uac00\uace0 \uc788\uc2b5\ub2c8\ub2e4.\\. \uc808 \ubc29\ud574\ud558\uc9c0 \ub9d0\uc544 \uc8fc\uc168\uc73c\uba74 \ud569\ub2c8\ub2e4.<<A<<[CHANGED 2018/09/19]",
+                  "langUid": 489,
+                  "zh_TW": "\u62b1\u6b49\uff0c\\v[lore.title.seeker]\uff0c\u6211\u6b63\u5fd9\u3002\\.\u8acb\u4e0d\u8981\u6253\u64fe\u6211\u3002<<A<<[CHANGED 2018/09/19]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "business.leader-rh-male-wheelchair",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "notify": true,
+                "type": "UNLOCK_LORE_ENTRY",
+                "lore": "faction-shock-main",
+                "entry": "page-01-02"
+              },
+              {
+                "notify": true,
+                "type": "UNLOCK_LORE_ENTRY",
+                "lore": "faction-shock-rookieharbor",
+                "entry": "page-01-02"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 264,
+      "y": 224,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 208, "y": 64 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 8,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 186,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 300,
+      "y": 268,
+      "level": { "level": 0, "offset": 24 },
+      "settings": {
+        "name": "",
+        "mapId": 188,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "news",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 340,
+      "y": 268,
+      "level": { "level": 0, "offset": 24 },
+      "settings": {
+        "name": "",
+        "mapId": 189,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "sandwich",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 420,
+      "y": 268,
+      "level": { "level": 0, "offset": 24 },
+      "settings": {
+        "name": "",
+        "mapId": 190,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "stats",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 380,
+      "y": 268,
+      "level": { "level": 0, "offset": 24 },
+      "settings": {
+        "name": "",
+        "mapId": 191,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "iceCream",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 288,
+      "y": 336,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 192,
+        "propType": { "sheet": "rh-interior", "name": "terminalW" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 500,
+      "y": 336,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 193,
+        "propType": { "sheet": "rh-interior", "name": "terminalE" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 512,
+      "y": 336,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 194,
+        "propType": { "sheet": "rh-interior", "name": "terminalW" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 352,
+      "y": 340,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 28 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 2,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 195,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 416,
+      "y": 340,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 28 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 2,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 196,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 356,
+      "y": 348,
+      "level": { "level": 0, "offset": 16 },
+      "settings": {
+        "name": "",
+        "mapId": 197,
+        "propType": { "sheet": "trading-autumn", "name": "signHuge" },
+        "propAnim": "news",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 420,
+      "y": 348,
+      "level": { "level": 0, "offset": 16 },
+      "settings": {
+        "name": "",
+        "mapId": 198,
+        "propType": { "sheet": "trading-autumn", "name": "signHuge" },
+        "propAnim": "enemy",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "TeleportStairs",
+      "x": 208,
+      "y": 112,
+      "level": 0,
+      "settings": {
+        "name": "upwards",
+        "stairType": "UPWARDS_EAST",
+        "blockEvent": [{ "ignoreSlowDown": false, "type": "WAIT", "time": 0 }],
+        "npcRunnerProb": 0,
+        "layer": "object1",
+        "transitionType": "REGULAR",
+        "mapId": 199,
+        "map": "rookie-harbor.inner-north-trade-ground",
+        "marker": "upwards",
+        "blockEventCondition": "true"
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 560,
+      "y": 164,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 28 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 2,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 200,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 680,
+      "y": 320,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 144, "y": 48 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 8,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 201,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 640,
+      "y": 128,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 202,
+        "propType": { "sheet": "rh-interior", "name": "terminalN" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 640,
+      "y": 176,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 203,
+        "propType": { "sheet": "rh-interior", "name": "terminalW" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 852,
+      "y": 176,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 204,
+        "propType": { "sheet": "rh-interior", "name": "terminalE" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 648,
+      "y": 384,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 208, "y": 8 },
+        "layer": "object1",
+        "collType": "NPBLOCK",
+        "zHeight": 6,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 205,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 640,
+      "y": 392,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 224, "y": 8 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 16,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 206,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 640,
+      "y": 340,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 52 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 16,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 207,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 856,
+      "y": 340,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 52 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 16,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 208,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 648,
+      "y": 332,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 52 },
+        "layer": "object1",
+        "collType": "NPBLOCK",
+        "zHeight": 6,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 209,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 848,
+      "y": 332,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 52 },
+        "layer": "object1",
+        "collType": "NPBLOCK",
+        "zHeight": 6,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 210,
+        "spawnCondition": "",
+        "hideCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 704,
+      "y": 172,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 14 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 11,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 211,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 704,
+      "y": 236,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 14 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 11,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 212,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 704,
+      "y": 184,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 54 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 11,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 213,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 784,
+      "y": 184,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 54 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 11,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 214,
+        "hideCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 564,
+      "y": 332,
+      "level": { "level": 0, "offset": 16 },
+      "settings": {
+        "name": "",
+        "mapId": 215,
+        "propType": { "sheet": "trading-autumn", "name": "signHuge" },
+        "propAnim": "news",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 444,
+      "y": 204,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 216,
+        "propType": { "sheet": "rh-interior", "name": "chair-down" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 284,
+      "y": 212,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 217,
+        "propType": { "sheet": "rh-interior", "name": "chair-down" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 324,
+      "y": 200,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 218,
+        "propType": { "sheet": "rh-interior", "name": "chair-down" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 364,
+      "y": 204,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 219,
+        "propType": { "sheet": "rh-interior", "name": "chair-down" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 404,
+      "y": 208,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 220,
+        "propType": { "sheet": "rh-interior", "name": "chair-down" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 284,
+      "y": 292,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 221,
+        "propType": { "sheet": "rh-interior", "name": "chair-up" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 320,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 222,
+        "propType": { "sheet": "rh-interior", "name": "chair-up" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 360,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 223,
+        "propType": { "sheet": "rh-interior", "name": "chair-up" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 400,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 224,
+        "propType": { "sheet": "rh-interior", "name": "chair-up" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 444,
+      "y": 292,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 225,
+        "propType": { "sheet": "rh-interior", "name": "chair-up" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 476,
+      "y": 232,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 226,
+        "propType": { "sheet": "rh-interior", "name": "chair-left" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 480,
+      "y": 264,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 227,
+        "propType": { "sheet": "rh-interior", "name": "chair-left" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Door",
+      "x": 208,
+      "y": 112,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "doorType": "DEFAULT",
+        "dir": "SOUTH",
+        "transitionType": "REGULAR",
+        "mapId": 228,
+        "map": "",
+        "marker": false,
+        "hideCondition": "",
+        "blockEventCondition": "",
+        "variation": "",
+        "condition": "false"
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 216,
+      "y": 376,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 230,
+        "propType": { "sheet": "rh-interior", "name": "plant1" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 184,
+      "y": 368,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 231,
+        "propType": { "sheet": "rh-interior", "name": "plant2" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 176,
+      "y": 240,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 232,
+        "propType": { "sheet": "rh-interior", "name": "shelfE" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 180,
+      "y": 280,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 233,
+        "propType": { "sheet": "rh-interior", "name": "plant3" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 180,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 234,
+        "propType": { "sheet": "rh-interior", "name": "plant3" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 192,
+      "y": 380,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 235,
+        "propType": { "sheet": "rh-interior", "name": "plant4" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 176,
+      "y": 344,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 236,
+        "propType": { "sheet": "rh-interior", "name": "plant4" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 744,
+      "y": 336,
+      "level": { "level": 0, "offset": 8 },
+      "settings": {
+        "name": "",
+        "mapId": 237,
+        "propType": { "sheet": "rh-interior", "name": "plant5" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 204,
+      "y": 368,
+      "level": { "level": 0, "offset": 8 },
+      "settings": {
+        "name": "",
+        "mapId": 238,
+        "propType": { "sheet": "rh-interior", "name": "plant6" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 324,
+      "y": 212,
+      "level": 0,
+      "settings": {
+        "name": "boardperson1",
+        "characterName": "business.female-hat-white",
+        "mapId": 239,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "SOUTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 404,
+      "y": 212,
+      "level": 0,
+      "settings": {
+        "name": "boardperson2",
+        "characterName": "business.heat-male-fullhair",
+        "mapId": 240,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "SOUTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 360,
+      "y": 284,
+      "level": 0,
+      "settings": {
+        "name": "boardperson3",
+        "characterName": "business.female-shorthair-black",
+        "mapId": 241,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 284,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "boardperson4",
+        "characterName": "business.male-sidecut-black",
+        "mapId": 242,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 444,
+      "y": 212,
+      "level": 0,
+      "settings": {
+        "name": "boardperson5",
+        "characterName": "bergen.female-tall-fancy-hat",
+        "mapId": 243,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "SOUTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 260,
+      "y": 348,
+      "level": 0,
+      "settings": {
+        "name": "officeperson1",
+        "characterName": "business.female-hat-black",
+        "mapId": 244,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 748,
+      "y": 192,
+      "level": 0,
+      "settings": {
+        "name": "receptionist",
+        "characterName": "business.male-toupee-white",
+        "analyzable": {
+          "text": {
+            "en_US": "Receptionist",
+            "pt_BR": "Recepcionista",
+            "de_DE": "Rezeptionist",
+            "zh_CN": "\u5b88\u536b<<A<<[CHANGED 2017/12/14]",
+            "ja_JP": "\u885b\u5175<<A<<[CHANGED 2017/12/14]",
+            "ko_KR": "\uc811\uc218\uc6d0<<A<<[CHANGED 2017/12/13]",
+            "langUid": 498,
+            "zh_TW": "\u5b88\u885b<<A<<[CHANGED 2017/12/14]"
+          },
+          "active": ""
+        },
+        "mapId": 245,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 648,
+      "y": 140,
+      "level": 0,
+      "settings": {
+        "name": "officeperson2",
+        "characterName": "business.male-sidecut-white",
+        "mapId": 246,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 848,
+      "y": 148,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 247,
+        "propType": { "sheet": "rh-interior", "name": "plant6" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 844,
+      "y": 129.5,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 248,
+        "propType": { "sheet": "rh-interior", "name": "plant3" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 640,
+      "y": 160,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 249,
+        "propType": { "sheet": "rh-interior", "name": "plant4" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    }
+  ],
+  "layer": [
+    {
+      "id": 0,
+      "type": "Background",
+      "name": "Background",
+      "level": "0",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 225, 195, 195, 195, 195, 195, 195, 35,
+          35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35,
+          35, 35, 35, 35, 226, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195,
+          195, 195, 195, 195, 227, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 257, 31, 16, 17, 18, 19, 30, 8, 5, 5, 5,
+          11, 5, 5, 8, 5, 5, 5, 5, 11, 5, 8, 5, 5, 5, 5, 11, 8, 5, 258, 31, 20,
+          15, 15, 15, 15, 20, 16, 17, 18, 19, 15, 15, 30, 259, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 257, 63, 48, 49, 50, 51, 62, 40, 37, 37,
+          37, 43, 37, 37, 40, 37, 37, 37, 37, 43, 37, 40, 37, 37, 37, 37, 43,
+          40, 37, 258, 63, 52, 47, 47, 47, 47, 52, 48, 49, 50, 51, 47, 47, 62,
+          259, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 257, 95, 80, 81, 82, 83, 94, 72, 73, 69,
+          74, 75, 69, 69, 72, 73, 69, 69, 74, 75, 69, 72, 73, 69, 69, 74, 75,
+          72, 73, 258, 95, 84, 47, 47, 47, 47, 84, 80, 81, 82, 83, 47, 79, 94,
+          259, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 257, 127, 112, 113, 114, 115, 126, 100,
+          105, 101, 106, 102, 101, 101, 100, 105, 101, 101, 106, 102, 101, 100,
+          105, 101, 101, 106, 102, 100, 105, 258, 127, 116, 111, 111, 111, 111,
+          116, 112, 113, 114, 115, 111, 111, 126, 259, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 289, 1, 2, 1, 2, 1, 2, 145, 144, 144,
+          144, 144, 144, 144, 144, 144, 144, 144, 177, 2, 2, 1, 2, 2, 2, 1, 2,
+          2, 2, 290, 2, 2, 2, 2, 2, 2, 2, 145, 140, 140, 177, 2, 2, 2, 291, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 1, 2, 1, 2, 178, 176, 176, 176,
+          173, 140, 140, 174, 176, 176, 176, 179, 2, 2, 1, 2, 2, 2, 146, 147, 2,
+          2, 322, 2, 2, 2, 2, 2, 2, 2, 178, 176, 176, 179, 2, 2, 2, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 1, 2, 2, 2, 1, 2, 1, 2, 178,
+          173, 174, 179, 2, 2, 1, 2, 1, 2, 2, 1, 2, 146, 141, 142, 147, 2, 32,
+          2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 178,
+          179, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 178, 173, 174, 179, 2, 64, 2, 2, 2,
+          1, 2, 140, 140, 140, 140, 2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 178, 179, 2, 2, 96, 2, 2, 2, 1, 2,
+          140, 140, 140, 140, 1, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 128, 2, 2, 2, 1, 2,
+          140, 140, 140, 140, 1, 2, 1, 2, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 140,
+          140, 140, 140, 2, 2, 1, 2, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 1, 2, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 33, 2, 2, 2, 34, 33,
+          34, 33, 34, 33, 34, 33, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 1,
+          2, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 146, 147, 2, 2, 3, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 146,
+          144, 144, 144, 144, 144, 144, 147, 2, 2, 2, 1, 2, 146, 141, 142, 147,
+          2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 145,
+          140, 140, 140, 140, 140, 140, 177, 2, 2, 2, 1, 2, 178, 173, 174, 179,
+          2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 145,
+          140, 140, 140, 140, 140, 140, 177, 2, 2, 2, 1, 2, 2, 178, 179, 2, 2,
+          3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 2, 2, 1, 2, 2, 2, 2, 1, 178,
+          176, 176, 176, 176, 176, 176, 179, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 3, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 33, 34, 33, 34, 33, 34, 33, 34, 33,
+          34, 33, 33, 33, 33, 33, 34, 33, 34, 33, 34, 33, 34, 33, 34, 33, 34,
+          33, 33, 3, 34, 33, 34, 33, 34, 33, 34, 33, 34, 33, 33, 34, 33, 34, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Background",
+      "name": "Details",
+      "level": "0",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 149,
+          150, 151, 152, 153, 148, 149, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 150, 151, 152, 153, 0, 0, 0, 0, 0, 148, 149, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 180, 181,
+          182, 183, 184, 185, 180, 181, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 182, 183, 184, 185, 0, 0, 0, 0, 0, 180, 181, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 214,
+          215, 216, 217, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 214,
+          215, 216, 217, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 231,
+          0, 0, 231, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 231,
+          0, 0, 231, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 168, 168, 201, 168, 168, 168, 168,
+          265, 168, 168, 233, 168, 168, 233, 168, 168, 265, 168, 168, 168, 168,
+          168, 168, 168, 201, 233, 168, 168, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0,
+          0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 264, 231, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 168, 168,
+          233, 168, 0, 168, 168, 168, 168, 0, 168, 233, 168, 168, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 168, 168, 233, 168, 169, 0, 0, 0, 0,
+          0, 231, 0, 0, 264, 168, 168, 168, 168, 168, 168, 168, 168, 168, 168,
+          168, 233, 168, 168, 168, 168, 168, 234, 0, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231, 0,
+          0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231, 0,
+          0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231, 0,
+          0, 231, 0, 0, 231, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 232,
+          168, 168, 265, 168, 168, 265, 168, 168, 234, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200, 234, 0, 0, 0, 0, 0, 231,
+          0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 168, 168, 265, 168, 168, 168, 0, 168,
+          168, 168, 233, 201, 201, 168, 168, 201, 201, 168, 168, 168, 168, 168,
+          168, 168, 265, 233, 168, 168, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0,
+          231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 168, 233, 168,
+          168, 168, 168, 168, 168, 168, 168, 233, 168, 168, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231, 0, 0,
+          0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 231, 0, 0,
+          0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Background",
+      "name": "Shadow",
+      "level": "0",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior-shadow.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 168, 168, 168, 16, 16, 16, 168, 168,
+          168, 171, 136, 136, 136, 136, 136, 136, 136, 136, 136, 170, 168, 168,
+          168, 168, 168, 168, 168, 168, 168, 168, 171, 136, 136, 136, 136, 136,
+          136, 136, 136, 136, 136, 136, 170, 168, 171, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 164, 182, 187, 150, 152, 149, 186, 184,
+          184, 187, 132, 150, 152, 152, 152, 149, 132, 132, 132, 186, 184, 181,
+          182, 184, 184, 184, 184, 181, 164, 164, 185, 132, 150, 152, 152, 149,
+          150, 152, 152, 152, 152, 149, 186, 181, 185, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 164, 185, 150, 155, 0, 154, 149, 132,
+          150, 152, 152, 16, 0, 0, 0, 154, 152, 152, 152, 149, 132, 186, 187,
+          132, 132, 132, 132, 186, 181, 182, 187, 150, 155, 0, 0, 154, 155, 0,
+          0, 0, 0, 154, 149, 186, 185, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 164, 185, 153, 0, 0, 0, 154, 152, 155,
+          0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 154, 149, 132, 132, 150, 152, 152, 149,
+          132, 186, 187, 150, 155, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 154, 149, 180,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 184, 187, 153, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 154, 152, 152, 155, 0, 0, 154, 149, 132,
+          132, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 132, 132, 153, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 154, 149, 132, 153, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 132, 132, 153, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 132, 153, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 132, 132, 134, 139, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 154, 152, 155,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 132, 132, 132, 153, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 132, 132, 132, 153, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 149, 132, 150, 155, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 150, 155, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 138, 133, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 137, 170, 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138, 136,
+          136, 136, 136, 136, 136, 136, 136, 139, 137, 186, 187, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 134, 139, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138, 136, 139, 0,
+          154, 0, 0, 0, 0, 0, 0, 0, 0, 155, 154, 149, 153, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 132, 134, 139, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 132, 134, 139,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 171, 132, 153, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 132, 132, 153,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 185, 132, 134, 139, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 132, 132,
+          153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 153, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 166, 171, 132, 153, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 137, 132, 132,
+          153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138, 136, 133, 153, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 164, 166, 171, 134, 139, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138, 133, 132,
+          132, 134, 139, 0, 0, 0, 0, 0, 0, 0, 138, 133, 170, 168, 171, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 164, 164, 166, 171, 134, 136, 136,
+          136, 136, 136, 139, 0, 138, 136, 136, 139, 0, 138, 136, 136, 136, 136,
+          136, 136, 136, 136, 133, 170, 168, 168, 171, 134, 136, 136, 139, 0,
+          138, 136, 136, 133, 170, 165, 164, 185, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 169, 164, 164, 164, 166, 168, 168, 168,
+          168, 171, 132, 134, 136, 133, 170, 171, 134, 136, 133, 132, 170, 168,
+          168, 171, 132, 132, 170, 168, 165, 164, 164, 185, 132, 132, 132, 134,
+          136, 133, 132, 132, 180, 184, 184, 184, 187, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 186, 184, 184, 184, 184, 184, 184, 184,
+          184, 187, 152, 152, 152, 152, 186, 187, 152, 152, 152, 152, 186, 184,
+          184, 187, 152, 152, 186, 184, 184, 184, 184, 187, 152, 152, 152, 152,
+          152, 152, 152, 152, 152, 152, 152, 152, 155, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Collision",
+      "name": "Collision",
+      "level": "0",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 2, 2,
+          2, 2, 2, 2, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Navigation",
+      "name": "Navigation",
+      "level": "0",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/pathmap-tiles.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 3, 0,
+          0, 3, 1, 3, 0, 0, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 2, 0, 3, 0,
+          0, 3, 0, 3, 0, 0, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 3, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 3, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 3, 3, 3, 0, 0, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 2, 0, 2, 0,
+          0, 2, 0, 2, 0, 0, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1,
+          1, 1, 0, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2,
+          2, 2, 2, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 2, 2, 2,
+          2, 2, 2, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 2, 2, 2,
+          2, 2, 2, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1,
+          2, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "type": "Background",
+      "name": "OBJ1",
+      "level": "object1",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 49, 50, 51, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 48, 138, 139, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 83, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 80, 0, 0, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 112, 0, 0, 115, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 112, 0, 0, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 441, 442, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 473, 474, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 385, 386,
+          386, 386, 386, 386, 386, 387, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 15,
+          15, 15, 15, 15, 15, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 47,
+          47, 47, 47, 47, 47, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 47,
+          47, 47, 47, 47, 47, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 127, 111,
+          111, 111, 111, 111, 111, 126, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 441, 442, 0, 0, 0, 374, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 376, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 441,
+          442, 0, 0, 441, 442, 0, 0, 0, 0, 0, 0, 0, 473, 474, 0, 0, 0, 406, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 408, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 473,
+          474, 0, 0, 473, 474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 406, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 408, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 502, 567, 567, 567,
+          567, 567, 567, 567, 567, 567, 567, 567, 567, 504, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534, 599, 599, 599,
+          599, 599, 599, 599, 599, 599, 599, 599, 599, 536, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Background",
+      "name": "OBJ1_2",
+      "level": "object1",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 431, 432, 431, 432, 431, 432, 431, 432, 431, 432, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 628, 629, 630, 631, 628, 629, 630, 631, 628, 629, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 662, 663, 662, 663, 660, 661, 660, 661, 660, 661, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 527, 528, 527, 528, 527, 528, 527, 528, 527, 528, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148, 149,
+          150, 151, 152, 153, 148, 149, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 180, 181,
+          182, 183, 184, 185, 180, 181, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 214,
+          215, 216, 217, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Background",
+      "name": "OBJ1_Shadows",
+      "level": "object1",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior-shadow.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 150, 155, 0, 154, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 154,
+          152, 152, 152, 152, 155, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Background",
+      "name": "OBJ2",
+      "level": "object2",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 292,
+          295, 295, 295, 295, 293, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 420,
+          327, 327, 327, 327, 420, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 420, 0,
+          0, 0, 0, 420, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 345, 346, 346, 346,
+          346, 346, 346, 346, 346, 346, 346, 346, 346, 347, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 420, 0, 0, 0, 0, 420, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 377, 378, 378, 378,
+          378, 378, 378, 378, 378, 378, 378, 378, 378, 379, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 324, 295, 393, 394, 294, 325, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 377, 378, 378, 378,
+          378, 378, 378, 378, 378, 378, 378, 378, 378, 379, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 356, 327, 357, 0, 326, 357, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 377, 378, 378, 378,
+          378, 378, 378, 378, 378, 378, 378, 378, 378, 379, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 409, 410, 410, 410,
+          410, 410, 410, 410, 410, 410, 410, 410, 410, 411, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 345, 346,
+          346, 346, 346, 346, 346, 346, 346, 347, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 377, 378,
+          378, 378, 378, 378, 378, 378, 378, 379, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 377, 378,
+          378, 378, 378, 378, 378, 378, 378, 379, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 409, 410,
+          410, 410, 410, 410, 410, 410, 410, 411, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Background",
+      "name": "OBJ2_2",
+      "level": "object2",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          582, 583, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Light",
+      "name": "Light",
+      "level": "last",
+      "width": 65,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/lightmap-tiles.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0,
+          0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    }
+  ],
+  "attributes": {
+    "cameraInBounds": false,
+    "saveMode": "",
+    "map-sounds": "",
+    "volume": 1,
+    "bgm": "rookieHarbor",
+    "mapStyle": "rookie-harbor-interior",
+    "weather": "ROOKIE_HARBOR_INNER",
+    "area": "rookie-harbor",
+    "npcRunners": ""
+  },
+  "screen": { "x": 365, "y": -114 }
+}
