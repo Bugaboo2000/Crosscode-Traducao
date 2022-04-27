@@ -620,7 +620,7 @@
               {
                 "message": {
                   "en_US": "Greetings from the \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
-                  "pt_BR": "Saudações da \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
+                  "pt_BR": "Saudações da \\c[3]Guarda de Bergen\\c[0], \\v[lore.title.seeker].",
                   "de_DE": "Gr\u00fc\u00dfe von der \\c[3]Bergen-Wache\\c[0], Seeker.",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\\c[3]\u4ffe\u5c14\u6839\u5b88\u536b\\c[0]\u5411\u60a8\u95ee\u597d\uff0c\\v[lore.title.seeker]\u3002",
@@ -3668,7 +3668,7 @@
               {
                 "message": {
                   "en_US": "\\v[lore.title.seeker], I hear the locale of the assigment has now shifted to \\v[area.rhombus-sqr.name]?",
-                  "pt_BR": "\\v[lore.title.seeker], Ouvi dizer que o local da missão mudou para \\v[area.rhombus-sqr.name]?",
+                  "pt_BR": "\\v[lore.title.seeker], Ouvi dizer que o local da missão mudou para a \\v[area.rhombus-sqr.name]?",
                   "de_DE": "Seeker, wie ich h\u00f6re, hat sich der Ort des Geschehens jetzt auf Rhombus Square verlagert?",
                   "zh_CN": "\u53bb\\v[area.jungle-city.name]\u627e\\c[3]\u5f53\u5730\u5b88\u536b\\c[0]\u5e76\u4e0e\\c[3]\u5e03\u6717\u5de6\u4e2d\u5c09\\c[0]\u8c08\u8c08\u3002<<A<<[CHANGED 2021/03/10]",
                   "zh_TW": "\u4ec0\u9ebc\uff1f\\.\\.\u9019\u500b\u5192\u5145\u8005\u88ab\u4ed6\u81ea\u5df1\u7684\u5c71\u7f8a\u5974\u96b7\u8e22\u4e86\u4e00\u8173\uff0c\u8dcc\u843d\u5c71\u5d16\u4e86\uff1f<<A<<[CHANGED 2021/03/10]",
@@ -3885,7 +3885,7 @@
                 {
                   "message": {
                     "en_US": "Well, whatever the case, it is now in the hands of \\v[area.rhombus-sqr.name].",
-                    "pt_BR": "Bem, seja qual for o caso, isso está agora nas mãos de \\v[area.rhombus-sqr.name].",
+                    "pt_BR": "Bem, seja qual for o caso, isso está agora nas mãos da \\v[area.rhombus-sqr.name].",
                     "de_DE": "Wie dem auch sei, es liegt nun in den H\u00e4nden von Rhombus Square.",
                     "zh_CN": "\u5269\u4e0b\u7684\u5c31\u4ea4\u7ed9\\v[area.rhombus-sqr.name]\u53bb\u5904\u7406\u5427\u3002<<A<<[CHANGED 2021/02/24]",
                     "zh_TW": "\\v[lore.title.seeker]\uff0c\u6211\u5011\u7b49\u8457\u4f60\u5462\u3002\\.\u6211\u4e00\u770b\u5c31\u77e5\u9053\u4f60\u9806\u5229\u5b8c\u6210\u4e86\u4efb\u52d9\u3002<<A<<[CHANGED 2021/02/24]",
@@ -4026,7 +4026,7 @@
               {
                 "message": {
                   "en_US": "Greetings from the \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
-                  "pt_BR": "Saudações da \\c[3]Bergen Guard\\c[0], \\v[lore.title.seeker].",
+                  "pt_BR": "Saudações da \\c[3]Guarda de Bergen\\c[0], \\v[lore.title.seeker].",
                   "de_DE": "Ich gr\u00fc\u00dfe dich im Namen der \\c[3]Bergen-Wache\\c[0], Seeker.",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\\c[3]\u4ffe\u5c14\u6839\u5b88\u536b\\c[0]\u5411\u60a8\u95ee\u597d\uff0c\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2020/06/17]",

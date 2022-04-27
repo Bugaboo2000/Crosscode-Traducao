@@ -4538,7 +4538,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "\\i[arrow-nw] Old Temple Mine\n\\i[arrow-w] Bergen Railway\n\\i[arrow-se] Bergen Trail",
-            "pt_BR": "\\i[arrow-nw] Templo da Mina\n\\i[arrow-w] Trilhos Aer\u00e9os Bergen\n\\i[arrow-se] Trilha de Bergen",
+            "pt_BR": "\\i[arrow-nw] Mina do Templo\n\\i[arrow-w] Trilhos Aer\u00e9os Bergen\n\\i[arrow-se] Trilha de Bergen",
             "de_DE": "\\i[arrow-nw] Alte Tempelmine\n\\i[arrow-w] Bergener Bahn\n\\i[arrow-se] Bergen-Trail",
             "fr_FR": "fr_FR",
             "langUid": 18,
@@ -14088,7 +14088,7 @@
               {
                 "message": {
                   "en_US": "Uhm, what was the name...?\\. Right, the \\c[3]First Scholars\\c[0]!",
-                  "pt_BR": "Uhm, qual era o nome...?\\. Lembrei, o nome da guilda é \\c[3]First Scholars\\c[0]!",
+                  "pt_BR": "Uhm, qual era o nome...?\\. Lembrei, o nome da guilda é \\c[3]Os Primeiros Estudiosos\\c[0]!",
                   "de_DE": "\u00c4hm, wie war nochmal der Name...?\\. Genau, die \\c[3]Ersten Gelehrten\\c[0]!",
                   "fr_FR": "fr_FR",
                   "langUid": 143,
@@ -14187,7 +14187,7 @@
               {
                 "message": {
                   "en_US": "We should meet in \\c[3]\\v[area.autumn-area.name]\\c[0] at the \\c[3]Old Obelisk\\c[0].",
-                  "pt_BR": "Nós devemos nos encontrar em \\c[3]\\v[area.autumn-area.name]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
+                  "pt_BR": "Nós devemos nos encontrar no \\c[3]\\v[area.autumn-area.name]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
                   "de_DE": "Wir treffen uns in \\c[3]Autumn's Rise\\c[0] am \\c[3]Alten Obelisken\\c[0].",
                   "fr_FR": "fr_FR",
                   "langUid": 129,
@@ -14413,7 +14413,7 @@
               {
                 "message": {
                   "en_US": "I'm here to cordially invite you to the headquarters of the\\c[3] First Scholars\\c[0]!",
-                  "pt_BR": "Estou aqui para vos convidar cordialmente \u00e0 sede dos \\c[3]First Scholars\\c[0]!",
+                  "pt_BR": "Estou aqui para vos convidar cordialmente \u00e0 sede dos \\c[3]Primeiros Estudiosos\\c[0]!",
                   "de_DE": "Ich m\u00f6chte euch n\u00e4mlich ganz herzlich in das Hauptquartier der \\c[3]Ersten Gelehrten\\c[0] einladen!",
                   "fr_FR": "fr_FR",
                   "langUid": 150,
@@ -14451,7 +14451,7 @@
               {
                 "message": {
                   "en_US": "The \\c[3]First Scholars\\c[0], that's my guild.",
-                  "pt_BR": "\\c[3]First Scholars\\c[0], essa \u00e9 a minha guilda.",
+                  "pt_BR": "\\c[3]Os Primeiros Estudiosos\\c[0], essa \u00e9 a minha guilda.",
                   "de_DE": "Die \\c[3]Ersten Gelehrten\\c[0], das ist meine Gilde.",
                   "fr_FR": "fr_FR",
                   "langUid": 152,
@@ -14626,7 +14626,7 @@
               {
                 "message": {
                   "en_US": "Great!\\. Let's meet in \\c[3]\\v[area.autumn-area.name]\\c[0] at the \\c[3]Old Obelisk\\c[0].",
-                  "pt_BR": "Excelente!\\. Vamos nos encontrar em \\c[3]\\v[area.autumn-area.name]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
+                  "pt_BR": "Excelente!\\. Vamos nos encontrar no \\c[3]\\v[area.autumn-area.name]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
                   "de_DE": "Fein!\\. Treffen wir uns in \\c[3]Autumn's Rise\\c[0] am \\c[3]Alten Obelisken\\c[0].",
                   "fr_FR": "fr_FR",
                   "langUid": 162,
@@ -15159,7 +15159,7 @@
           {
             "task": {
               "en_US": "Meet \\c[3]Schneider\\c[0] in \\c[3]Autumn Rise\\c[0] at the \\c[3]Old Obelisk\\c[0].",
-              "pt_BR": "Encontre \\c[3]Schneider\\c[0] em \\c[3]Autumn Rise\\c[0]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
+              "pt_BR": "Encontre \\c[3]Schneider\\c[0] no \\c[3]Nascer do Outono\\c[0]\\c[0] no \\c[3]Obelisco Antigo\\c[0].",
               "de_DE": "Triff \\c[3]Schneider\\c[0] in \\c[3]Autumn's Rise\\c[0] am \\c[3]Alten Obelisken\\c[0].",
               "fr_FR": "fr_FR",
               "langUid": 171,
