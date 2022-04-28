@@ -5712,7 +5712,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\i[arrow-w] Autumn's Rise\n\\i[arrow-e] Market Plaza",
-                    "pt_BR": "\\i[arrow-w] Autumn's Rise\n\\i[arrow-e] Centro Comercial",
+                    "pt_BR": "\\i[arrow-w] Nascer do Outono\n\\i[arrow-e] Centro Comercial",
                     "de_DE": "\\i[arrow-w] Autumn's Rise\n\\i[arrow-e] Marktplatz",
                     "fr_FR": "fr_FR",
                     "langUid": 4,
@@ -7576,7 +7576,7 @@
             }, {
                 "message": {
                     "en_US": "And when you continue to the west from here you'll enter \\c[3]Autumn's Rise\\c[0].",
-                    "pt_BR": "E quando você continuar para o oeste daqui, você entrará em \\c[3]Autumn's Rise\\c[0].",
+                    "pt_BR": "E quando você continuar para o oeste daqui, você entrará no \\c[3]Nascer do Outono\\c[0].",
                     "de_DE": "Und wenn ihr von hier aus weiter nach Westen geht, werdet ihr \\c[3]Autumn's Rise\\c[0] erreichen.",
                     "fr_FR": "fr_FR",
                     "langUid": 301,
@@ -8635,7 +8635,7 @@
             }, {
                 "message": {
                     "en_US": "Alright, let's head to \\c[3]Autumn's Rise\\c[0]!",
-                    "pt_BR": "Tudo bem, vamos para \\c[3]Autumn's Rise\\c[0]!",
+                    "pt_BR": "Tudo bem, vamos para o \\c[3]Nascer do Outono\\c[0]!",
                     "de_DE": "Also dann, auf nach \\c[3]Autumn's Rise\\c[0]!",
                     "fr_FR": "fr_FR",
                     "langUid": 288,
@@ -9916,7 +9916,7 @@
                         }, {
                             "message": {
                                 "en_US": "Anyway, I definitely need some nice \\c[3]Raw Meat\\c[0] of course.\\. The \\c[3]Bovines\\c[0] in \\v[area.autumn-area.name] should do nicely!",
-                                "pt_BR": "De qualquer forma, eu definitivamente preciso de uma boa \\c[3]Carne Crua\\c[0] é claro.\\. Os \\c[3]Bovinos\\c[0] em \\v[area.autumn-area.name] devem servir bem!",
+                                "pt_BR": "De qualquer forma, eu definitivamente preciso de uma boa \\c[3]Carne Crua\\c[0] é claro.\\. Os \\c[3]Bovinos\\c[0] do \\v[area.autumn-area.name] devem servir bem!",
                                 "de_DE": "Auf alle F\u00e4lle brauche ich nat\u00fcrlich erst einmal richtig gutes \\c[3]Rohes Fleisch\\c[0].\\. Die \\c[3]Rinder\\c[0] in Autumn's Rise sollten sich daf\u00fcr am besten eignen.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 439,
@@ -11817,7 +11817,7 @@
                         }, {
                             "message": {
                                 "en_US": "You should find all of that in \\v[area.autumn-fall.name] in the east or that jungle I mentioned!",
-                                "pt_BR":"Você deve encontrar tudo isso em \\v[area.autumn-fall.name] no leste ou naquela selva que mencionei!",
+                                "pt_BR":"Você deve encontrar tudo isso no \\v[area.autumn-fall.name] no leste ou naquela selva que mencionei!",
                                 "de_DE": "Du solltest das alles im Osten von Autumn's Fall oder besagtem Dschungel auftreiben k\u00f6nnen!",
                                 "zh_CN": "\u8fd9\u4e9b\u6750\u6599\u90fd\u80fd\u5728\u4e1c\u8fb9\u7684\\v[area.autumn-fall.name]\u6216\u8005\u6211\u521a\u624d\u8bf4\u7684\u68ee\u6797\u91cc\u627e\u5230\uff01<<A<<[CHANGED 2018/01/06]",
                                 "ja_JP": "\u3053\u308c\u306f\u5168\u90e8\u3001\u6771\u306e\\v[area.autumn-fall.name]\u304b\u3001\n\u3055\u3063\u304d\u8a00\u3063\u305f\u30b8\u30e3\u30f3\u30b0\u30eb\u306b\u3042\u308b\u306f\u305a\uff01<<A<<[CHANGED 2018/01/06]",
@@ -12117,7 +12117,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
-                            "pt_BR": "[acena com a cabeça]",
+                            "pt_BR": "[acena a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 528,
@@ -12522,7 +12522,7 @@
                     }, {
                         "message": {
                             "en_US": "[nods]",
-                            "pt_BR": "[acena com a cabeça]",
+                            "pt_BR": "[acena a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 560,

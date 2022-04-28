@@ -1,0 +1,4105 @@
+{
+  "name": "rookie-harbor/inner-tala",
+  "levels": [{ "height": 16 }],
+  "mapWidth": 50,
+  "mapHeight": 40,
+  "masterLevel": 0,
+  "entities": [
+    {
+      "type": "Door",
+      "x": 384,
+      "y": 384,
+      "level": 0,
+      "settings": {
+        "name": "entrance",
+        "doorType": "DEFAULT",
+        "dir": "NORTH",
+        "transitionType": "REGULAR",
+        "mapId": 1,
+        "map": "rookie-harbor.north",
+        "marker": "tala",
+        "hideCondition": "",
+        "blockEventCondition": "",
+        "variation": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 272,
+      "y": 250,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 24,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 316,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Ground-1",
+        "indest": true,
+        "mapId": 25
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 300,
+      "y": 232,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Ground-2",
+        "indest": true,
+        "mapId": 26
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 288,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Water-1",
+        "indest": true,
+        "mapId": 27
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 280,
+      "y": 232,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Water-2",
+        "indest": true,
+        "mapId": 28
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 180,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Fall-Ground-1",
+        "indest": true,
+        "mapId": 29
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 188,
+      "y": 232,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Fall-Ground-2",
+        "indest": true,
+        "mapId": 30
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 212,
+      "y": 236,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Fall-Water-2",
+        "indest": true,
+        "mapId": 31
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 220,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Autumn-Fall-Water-1",
+        "indest": true,
+        "mapId": 32
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 316,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantA-1",
+        "indest": true,
+        "mapId": 37
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 296,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantA-2",
+        "indest": true,
+        "mapId": 38
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 276,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantB-1",
+        "indest": true,
+        "mapId": 39
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 252,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantB-2",
+        "indest": true,
+        "mapId": 40
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 188,
+      "y": 304,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantA-1-Snow",
+        "indest": true,
+        "mapId": 41
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 180,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantA-2-Snow",
+        "indest": true,
+        "mapId": 42
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 180,
+      "y": 320,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantB-1-Snow",
+        "indest": true,
+        "mapId": 43
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 184,
+      "y": 340,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-PlantB-2-Snow",
+        "indest": true,
+        "mapId": 44
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 312,
+      "y": 364,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Bergen-Snow-Crystal",
+        "indest": true,
+        "mapId": 47
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 184,
+      "y": 368,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Cold-Dng-Egg-1",
+        "indest": true,
+        "mapId": 48
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 204,
+      "y": 364,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Cold-Dng-Egg-2",
+        "indest": true,
+        "mapId": 49
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 248,
+      "y": 364,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Cold-Dng-Egg-3",
+        "indest": true,
+        "mapId": 50
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 220,
+      "y": 360,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Cold-Dng-Egg-4",
+        "indest": true,
+        "mapId": 51
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 240,
+      "y": 312,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 54,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 240,
+      "y": 286,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 55,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 176,
+      "y": 250,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 56,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 176,
+      "y": 286,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 57,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 208,
+      "y": 350,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 58,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 304,
+      "y": 350,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 60,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 466,
+      "y": 268,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Dry-Cactus-2",
+        "indest": true,
+        "mapId": 61
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 468,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Dry-Cactus-1",
+        "indest": true,
+        "mapId": 62
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 484,
+      "y": 252,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Dry-Bush-1",
+        "indest": true,
+        "mapId": 63
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 496,
+      "y": 266,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Dry-Bush-2",
+        "indest": true,
+        "mapId": 64
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 524,
+      "y": 264,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Hill-1",
+        "indest": true,
+        "mapId": 65
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 544,
+      "y": 252,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Hill-2",
+        "indest": true,
+        "mapId": 66
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 552,
+      "y": 268,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Bones-1",
+        "indest": true,
+        "mapId": 67
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 572,
+      "y": 256,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Bones-2",
+        "indest": true,
+        "mapId": 68
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 496,
+      "y": 282,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 69,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 464,
+      "y": 314,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 70,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 536,
+      "y": 332,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Cactus-1",
+        "indest": true,
+        "mapId": 71
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 528,
+      "y": 360,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Cactus-2",
+        "indest": true,
+        "mapId": 72
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 500,
+      "y": 360,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Palmapple-1",
+        "indest": true,
+        "mapId": 73
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 472,
+      "y": 356,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Heat-Palmapple-2",
+        "indest": true,
+        "mapId": 74
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 464,
+      "y": 378,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 75,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 528,
+      "y": 318,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 76,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 464,
+      "y": 350,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 77,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 504,
+      "y": 424,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Flower-1",
+        "indest": true,
+        "mapId": 78
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 524,
+      "y": 416,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Flower-2",
+        "indest": true,
+        "mapId": 79
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 568,
+      "y": 452,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Bees-3",
+        "indest": true,
+        "mapId": 82
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 571,
+      "y": 444,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Bees-1",
+        "indest": true,
+        "mapId": 83
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 544,
+      "y": 428,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Waterplant-Closed-2",
+        "indest": true,
+        "mapId": 84
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 568,
+      "y": 420,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Waterplant-Closed-1",
+        "indest": true,
+        "mapId": 85
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 572,
+      "y": 468,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Flower-Dotted-1",
+        "indest": true,
+        "mapId": 86
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 568,
+      "y": 488,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Flower-Dotted-2",
+        "indest": true,
+        "mapId": 87
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 571,
+      "y": 504,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Waterplant-1",
+        "indest": true,
+        "mapId": 89
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 569,
+      "y": 524,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Waterplant-2",
+        "indest": true,
+        "mapId": 90
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 571,
+      "y": 540,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Shroom-1",
+        "indest": true,
+        "mapId": 91
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 568,
+      "y": 559,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Jungle-Shroom-2",
+        "indest": true,
+        "mapId": 92
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 496,
+      "y": 414,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 94,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 496,
+      "y": 442,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 95,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 468,
+      "y": 500,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Sapphire-Bush-1",
+        "indest": true,
+        "mapId": 96
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 472,
+      "y": 516,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Sapphire-Bush-2",
+        "indest": true,
+        "mapId": 97
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 504,
+      "y": 488,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Sapphire-Bamboo-1",
+        "indest": true,
+        "mapId": 98
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 480,
+      "y": 484,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Sapphire-Bamboo-2",
+        "indest": true,
+        "mapId": 99
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 468,
+      "y": 536,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Sapphire-Cobalt-2",
+        "indest": true,
+        "mapId": 100
+      }
+    },
+    {
+      "type": "ItemDestruct",
+      "x": 472,
+      "y": 556,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "desType": "Sapphire-Cobalt-1",
+        "indest": true,
+        "mapId": 101
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 464,
+      "y": 478,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 102,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 496,
+      "y": 506,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 4 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 103,
+        "propConfig": {
+          "sheet": "dungeon-ar",
+          "name": "blockWallHCollSmall",
+          "ends": null
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 360,
+      "y": 364,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 104,
+        "propType": { "sheet": "rh-interior", "name": "plant3" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 428,
+      "y": 364,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 105,
+        "propType": { "sheet": "rh-interior", "name": "plant3" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 396,
+      "y": 300,
+      "level": 0,
+      "settings": {
+        "name": "tala",
+        "characterName": "greenies.female-researcher",
+        "mapId": 110,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "SOUTH",
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": []
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "SOUTH",
+            "action": [
+              { "value": 0.3, "type": "SET_RELATIVE_SPEED" },
+              { "type": "WAIT", "time": 1 },
+              {
+                "target": { "x": 316, "y": 268, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              {
+                "face": "NORTH",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              { "type": "WAIT", "time": 5 },
+              {
+                "target": { "x": 224, "y": 336, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              {
+                "face": "WEST",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              { "type": "WAIT", "time": 7 },
+              {
+                "target": { "x": 508, "y": 548, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              {
+                "face": "WEST",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              { "type": "WAIT", "time": 4 },
+              {
+                "target": { "x": 548, "y": 544, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              {
+                "face": "EAST",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              { "type": "WAIT", "time": 4 },
+              {
+                "target": { "x": 544, "y": 300, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              {
+                "face": "NORTH",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              { "type": "WAIT", "time": 7 }
+            ],
+            "hidden": false,
+            "condition": "quest.botanics.solved",
+            "config": "normal",
+            "event": [
+              {
+                "name": {
+                  "en_US": "Talatu Lips",
+                  "pt_BR": "Talatu Lips",
+                  "langUid": 18,
+                  "zh_CN": "\u5854\u62c9\u56fe\u00b7\u83b1\u666e\u65af<<A<<[CHANGED 2018/07/09]",
+                  "ja_JP": "\u30bf\u30e9\u30c1\u30e5\u30fb\u30ea\u30c3\u30d7\u30b9<<A<<[CHANGED 2018/07/09]",
+                  "ko_KR": "\ud0c8\ub77c\ud22c \ub9bd\uc2a4<<A<<[CHANGED 2018/07/09]",
+                  "de_DE": "Talatu Lips",
+                  "zh_TW": "\u5854\u62c9\u5716\u00b7\u840a\u666e\u65af<<A<<[CHANGED 2018/07/09]"
+                },
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": {
+                  "person": "greenies.female-researcher",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "message": {
+                  "en_US": "Hey there darlin'!",
+                  "pt_BR": "Olá, querida!",
+                  "langUid": 19,
+                  "zh_CN": "\u59b9\u5b50\u4f60\u597d\uff01<<A<<[CHANGED 2018/09/19]",
+                  "ja_JP": "\u3053\u3093\u3061\u308f\u3001\u5b22\u3061\u3083\u3093\uff01<<A<<[CHANGED 2018/09/19]",
+                  "ko_KR": "\uc774\ubd10, \uc544\uac00\uc528!<<A<<[CHANGED 2018/09/19]",
+                  "de_DE": "Hallole, M\u00e4dle!",
+                  "zh_TW": "\u7f8e\u5973\u4f60\u597d\uff01<<A<<[CHANGED 2018/09/19]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "greenies.female-researcher",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Hi!",
+                  "pt_BR": "Oi!",
+                  "langUid": 46,
+                  "zh_CN": "\u4f60\u597d!<<A<<[CHANGED 2018/07/09]",
+                  "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2018/07/09]",
+                  "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2018/07/09]",
+                  "de_DE": "Hi!",
+                  "zh_TW": "\u4f60\u597d!<<A<<[CHANGED 2018/07/09]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "EXCITED" }
+              },
+              {
+                "message": {
+                  "en_US": "Thanks again fer helpin' me with them plants!",
+                  "pt_BR": "Obrigado mais uma vez por me ajudar com essas plantas!",
+                  "langUid": 47,
+                  "zh_CN": "\u8c22\u8c22\u4f60\u5e2e\u6211\u6536\u96c6\u690d\u7269\u8d44\u6599\uff01<<A<<[CHANGED 2018/09/19]",
+                  "ja_JP": "\u690d\u7269\u306e\u3053\u3068\u3067\n\u307e\u305f\u624b\u4f1d\u3063\u3066\u304f\u308c\u3066\u304a\u304a\u304d\u306b\u306a\uff01<<A<<[CHANGED 2018/09/19]",
+                  "ko_KR": "\uc2dd\ubb3c \ubc1c\uacac\ud558\ub294 \uac78 \ub3c4\uc640\uc918\uc11c \uace0\ub9c8\uc6cc!<<A<<[CHANGED 2018/09/19]",
+                  "de_DE": "Dankschee nomml fir dei Hilf midde Gew\u00e4ggse!",
+                  "zh_TW": "\u8b1d\u8b1d\u4f60\u5e6b\u6211\u6536\u96c6\u690d\u7269\u8cc7\u6599\uff01<<A<<[CHANGED 2018/09/19]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "greenies.female-researcher",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "It's been a pleasure takin' care o' them so far.",
+                  "pt_BR": "Tem sido um prazer cuidar delas até agora.",
+                  "langUid": 48,
+                  "zh_CN": "\u7167\u987e\u5b83\u4eec\u662f\u4e00\u4ef6\u4e50\u4e8b\u3002<<A<<[CHANGED 2018/09/19]",
+                  "ja_JP": "\u690d\u7269\u306e\u4e16\u8a71\u304c\u3067\u304d\u3066\n\u5b09\u3057\u3044\u308f\u3042\u3002<<A<<[CHANGED 2018/09/19]",
+                  "ko_KR": "\uc9c0\uae08\uae4c\uc9c0 \uc5f4\uc2ec\ud788 \uc77c\ud574\uc918\uc11c \ub108\ubb34 \uae30\ubed0.<<A<<[CHANGED 2018/09/19]",
+                  "de_DE": "Es isch so schee sich um dia zu kimmern.",
+                  "zh_TW": "\u7167\u9867\u5b83\u5011\u662f\u4e00\u4ef6\u6a02\u4e8b\u3002<<A<<[CHANGED 2018/09/19]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "greenies.female-researcher",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Thanks to some modern techno doodads Ah can keep 'em on display like that.",
+                  "pt_BR": "Graças a esses dispositivos modernos de alta tecnologia, eu posso mantê-las em exposição assim.",
+                  "langUid": 49,
+                  "zh_CN": "\u591a\u4e8f\u4e86\u73b0\u4ee3\u79d1\u6280\u9b54\u6cd5\uff0c\u6211\u53ef\u4ee5\u628a\u5b83\u4eec\u8fd9\u6837\u5c55\u793a\u51fa\u6765\u3002<<A<<[CHANGED 2018/09/19]",
+                  "ja_JP": "\u73fe\u4ee3\u306e\u9b54\u8853\u306e\u304a\u304b\u3052\u3067\u3001\n\u3053\u3046\u3084\u3063\u3066\u690d\u7269\u305f\u3061\u3092\n\u5c55\u793a\u3067\u304d\u308b\u3093\u3084\u3002<<A<<[CHANGED 2018/09/19]",
+                  "ko_KR": "\ud604\ub300 \ubd80\ub450\uad50\ub97c \uc9c0\uc6d0\ud574\uc918\uc11c \uace0\ub9d9\uace0 \uacc4\uc18d \uc800\ub807\uac8c \uc804\uc2dc\ud574 \ub193\uc744\uac8c.<<A<<[CHANGED 2018/09/19]",
+                  "de_DE": "Dank de moderne dechnische Gribesgrabes ko I dia \u00e4wwl im \u00c4ugle behalde.",
+                  "zh_TW": "\u591a\u8667\u4e86\u73fe\u4ee3\u79d1\u6280\u9b54\u6cd5\uff0c\u6211\u53ef\u4ee5\u628a\u5b83\u5011\u9019\u6a23\u5c55\u793a\u51fa\u4f86\u3002<<A<<[CHANGED 2018/09/19]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "greenies.female-researcher",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "...!",
+                  "pt_BR": "...!",
+                  "langUid": 50,
+                  "zh_CN": "...!<<A<<[CHANGED 2018/07/09]",
+                  "ja_JP": "...\uff01<<A<<[CHANGED 2018/07/09]",
+                  "ko_KR": "...!<<A<<[CHANGED 2018/07/09]",
+                  "de_DE": "...!",
+                  "zh_TW": "...!<<A<<[CHANGED 2018/07/09]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "ASTONISHED" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 304,
+      "y": 424,
+      "level": 0,
+      "settings": {
+        "name": "final_final_V2_final_scene",
+        "eventType": "CUTSCENE",
+        "endCondition": "false",
+        "event": [
+          {
+            "alpha": 1,
+            "time": 0,
+            "lighter": false,
+            "type": "SET_OVERLAY",
+            "color": "black"
+          },
+          {
+            "entity": { "player": true },
+            "action": [
+              { "value": 0.3, "type": "SET_RELATIVE_SPEED" },
+              {
+                "target": { "x": 400, "y": 336, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              }
+            ],
+            "repeating": false,
+            "wait": false,
+            "keepState": false,
+            "immediately": false,
+            "type": "DO_ACTION"
+          },
+          {
+            "alpha": 0,
+            "time": 2,
+            "lighter": false,
+            "type": "SET_OVERLAY",
+            "color": "black"
+          },
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 1.3 },
+          {
+            "name": {
+              "en_US": "Talatu Lips",
+              "pt_BR": "Talatu Lips",
+              "langUid": 1,
+              "zh_CN": "\u5854\u62c9\u56fe\u00b7\u83b1\u666e\u65af<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u30bf\u30e9\u30c1\u30e5\u30fb\u30ea\u30c3\u30d7\u30b9<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\ud0c8\ub77c\ud22c \ub9bd\uc2a4<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "Talatu Lips",
+              "zh_TW": "\u5854\u62c9\u5716\u00b7\u840a\u666e\u65af<<A<<[CHANGED 2018/07/09]"
+            },
+            "side": "LEFT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "side": "RIGHT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": { "person": "main.lea", "expression": "DEFAULT" }
+          },
+          {
+            "message": {
+              "en_US": "Welcome to mah cozy greenhouse y'all!",
+              "pt_BR": "Bem-vinda à minha aconchegante estufa!",
+              "langUid": 3,
+              "zh_CN": "\u6b22\u8fce\u6765\u5230\u6211\u7684\u5c0f\u6e29\u5ba4\uff01<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3042\u305f\u3057\u306e\u5feb\u9069\u306a\u6e29\u5ba4\u3078\u3088\u3046\u3053\u305d\uff01<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc544\ub291\ud55c \ub0b4 \uc628\uc2e4\uc5d0 \uc628 \uac78 \ud658\uc601\ud574!<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Gria\u00df die! Des isch mein gmiadliche Gew\u00e4ggsh\u00e4usle!",
+              "zh_TW": "\u6b61\u8fce\u4f86\u5230\u6211\u7684\u5c0f\u6eab\u5ba4\uff01<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "...?",
+              "pt_BR": "...?",
+              "langUid": 4,
+              "zh_CN": "...?<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "...\uff1f<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "...?<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "...?",
+              "zh_TW": "...?<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "SURPRISED_AWAY" }
+          },
+          {
+            "message": {
+              "en_US": "Don't be shy now, darlin'. Here's where all yer hard workin' pays off.",
+              "pt_BR": "Não seja tímida, querida. Todo o trabalho duro valeu a pena!.",
+              "langUid": 5,
+              "zh_CN": "\u4e0d\u7528\u5ba2\u6c14\u3002\u8fd9\u90fd\u8981\u611f\u8c22\u4f60\u7684\u52aa\u529b\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u6065\u305a\u304b\u3057\u304c\u3089\u3093\u3068\u3044\u3066\u3001\u304a\u5b22\u3061\u3083\u3093\u3002\n\u3055\u3042\u3001\u3042\u3093\u305f\u306e\u50cd\u304d\u306b\u5bfe\u3059\u308b\u5831\u916c\u3084\u3067\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc6b0\ucb50\ud574\ud574\ub3c4 \ub3fc, \uc544\uac00\uc528. \ub124\uac00 \uc5f4\uc2ec\ud788 \ud55c \uc77c\uc758 \uacb0\uacfc\uac00 \uc5ec\uae30 \ub2e4 \uc788\uc73c\ub2c8\uae4c.<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Nedd so vrdruggd, M\u00e4dle. All des harde Schaffe hodd sich ausjezahlt!",
+              "zh_TW": "\u4e0d\u7528\u5ba2\u6c23\u3002\u9019\u90fd\u8981\u611f\u8b1d\u4f60\u7684\u52aa\u529b\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          { "side": "ALL", "type": "CLEAR_MSG" },
+          {
+            "entity": { "global": true, "name": "tala" },
+            "action": [
+              {
+                "entity": { "player": true },
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE_TO_ENTITY"
+              }
+            ],
+            "repeating": true,
+            "wait": false,
+            "keepState": false,
+            "immediately": false,
+            "type": "DO_ACTION"
+          },
+          {
+            "entity": { "player": true },
+            "action": [
+              {
+                "target": { "x": 288, "y": 332, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              { "type": "WAIT", "time": 0.1 },
+              {
+                "face": "NORTH",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              { "type": "WAIT", "time": 0.5 },
+              {
+                "jumpHeight": "M",
+                "wait": true,
+                "ignoreSounds": false,
+                "type": "JUMP"
+              },
+              {
+                "jumpHeight": "M",
+                "wait": true,
+                "ignoreSounds": false,
+                "type": "JUMP"
+              },
+              {
+                "target": { "x": 512, "y": 336, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              { "type": "WAIT", "time": 0.1 },
+              {
+                "face": "SOUTH",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              {
+                "offsetX": 0,
+                "offsetY": 128,
+                "speed": "NORMAL",
+                "transition": "EASE_IN_OUT",
+                "wait": true,
+                "waitSkip": 0,
+                "zoom": 1,
+                "focusType": "SELF",
+                "type": "FOCUS_CAMERA"
+              },
+              { "type": "WAIT", "time": 0.5 },
+              {
+                "speed": "NORMAL",
+                "transition": "EASE_IN_OUT",
+                "wait": false,
+                "waitSkip": 0.3,
+                "type": "RESET_CAMERA"
+              },
+              {
+                "jumpHeight": "M",
+                "wait": true,
+                "ignoreSounds": false,
+                "type": "JUMP"
+              },
+              {
+                "jumpHeight": "M",
+                "wait": true,
+                "ignoreSounds": false,
+                "type": "JUMP"
+              },
+              {
+                "target": { "x": 400, "y": 336, "lvl": "0" },
+                "maxTime": 0,
+                "distance": 0,
+                "precise": true,
+                "planOnly": false,
+                "teleportOnFail": false,
+                "type": "NAVIGATE_TO_POINT"
+              },
+              {
+                "face": "NORTH",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              },
+              {
+                "jumpHeight": "M",
+                "wait": true,
+                "ignoreSounds": false,
+                "type": "JUMP"
+              }
+            ],
+            "repeating": false,
+            "wait": false,
+            "keepState": false,
+            "immediately": false,
+            "type": "DO_ACTION"
+          },
+          { "entity": { "player": true }, "type": "WAIT_UNTIL_ACTION_DONE" },
+          {
+            "entity": { "global": true, "name": "tala" },
+            "action": [
+              {
+                "face": "SOUTH",
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE"
+              }
+            ],
+            "repeating": false,
+            "wait": false,
+            "keepState": false,
+            "immediately": false,
+            "type": "DO_ACTION"
+          },
+          {
+            "name": {
+              "en_US": "Talatu Lips",
+              "pt_BR": "Talatu Lips",
+              "langUid": 6,
+              "zh_CN": "\u5854\u62c9\u56fe\u00b7\u83b1\u666e\u65af<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u30bf\u30e9\u30c1\u30e5\u30fb\u30ea\u30c3\u30d7\u30b9<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\ud0c8\ub77c\ud22c \ub9bd\uc2a4<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "Talatu Lips",
+              "zh_TW": "\u5854\u62c9\u5716\u00b7\u840a\u666e\u65af<<A<<[CHANGED 2018/07/09]"
+            },
+            "side": "LEFT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "side": "RIGHT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": { "person": "main.lea", "expression": "DEFAULT" }
+          },
+          {
+            "message": {
+              "en_US": "Y'all like it?",
+              "pt_BR": "Você gostou?",
+              "langUid": 7,
+              "zh_CN": "\u559c\u6b22\u5417\uff1f<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u6c17\u306b\u5165\u3063\u305f\u304b\u3044\uff1f<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\ub9c8\uc74c\uc5d0 \ub4e4\uc5b4?<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Mogscht des?",
+              "zh_TW": "\u559c\u6b61\u55ce\uff1f<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "[nods]",
+              "pt_BR": "[acena a cabeça]",
+              "langUid": 8,
+              "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "[nickt]",
+              "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "NOD_HAPPY" }
+          },
+          {
+            "message": {
+              "en_US": "Y'all did all the hard work, really.",
+              "pt_BR": "Isso só foi possível graças a você!",
+              "langUid": 9,
+              "zh_CN": "\u8fd9\u90fd\u591a\u4e8f\u4e86\u4f60\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u305c\u3093\u3076\u3042\u3093\u305f\u306e\u304a\u304b\u3052\u3084\u3067\u3001\n\u307b\u3093\u307e\u306b\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\ub2e4 \ub124 \ub355\ubd84\uc774\uc57c, \uc815\ub9d0\ub85c.<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Desch isch blo\u00df dank dir meeglich gewese!",
+              "zh_TW": "\u9019\u90fd\u591a\u8667\u4e86\u4f60\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "Ah was able to preserve all o' them precious flora y'all kept hittin'.",
+              "pt_BR": "Consegui preservar toda essa preciosa flora que você coletou.",
+              "langUid": 10,
+              "zh_CN": "\u4f60\u7838\u7684\u90a3\u4e9b\u73cd\u8d35\u7684\u690d\u7269\u90fd\u88ab\u5236\u6210\u4e86\u6807\u672c\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3042\u3093\u305f\u304c\u5208\u308a\u7d9a\u3051\u3066\u304f\u308c\u305f\u8cb4\u91cd\u306a\u690d\u7269\u3092\n\u307f\u3093\u306a\u4fdd\u5b58\u3067\u304d\u308b\u3093\u3084\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\ub124\uac00 \uacc4\uc18d \uce58\uace0 \ub2e4\ub2cc \ub355\ubd84\uc5d0 \uadc0\uc911\ud55c \uc2dd\ubb3c\uc0c1\uc744 \ubcf4\uc874\ud560 \uc218 \uc788\uac8c \ub418\uc5c8\uc5b4.<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "I konnd dia all hie gschd\u00e4d konserviere und uffbaue.",
+              "zh_TW": "\u4f60\u7838\u7684\u90a3\u4e9b\u73cd\u8cb4\u7684\u690d\u7269\u90fd\u88ab\u88fd\u6210\u4e86\u6a19\u672c\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "Even them weird ones...",
+              "pt_BR": "Mesmo as mais esquisitinhas...",
+              "langUid": 11,
+              "zh_CN": "\u5f53\u7136\u8fde\u90a3\u4e9b\u5947\u602a\u7684\u4e5f\u4e0d\u4f8b\u5916...<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u305d\u308c\u304c\u30d8\u30f3\u306a\u3084\u3064\u3067\u3082\u306a...<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\uc0ac\uc774\uc5d0 \uc774\uc0c1\ud55c \uac83\ub4e4\ub3c4 \uc788\uae34 \ud558\uc9c0\ub9cc...<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "Au dia merkw\u00fcrdigle...",
+              "zh_TW": "\u7576\u7136\u9023\u90a3\u4e9b\u5947\u602a\u7684\u4e5f\u4e0d\u4f8b\u5916...<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "...",
+              "pt_BR": "...",
+              "langUid": 12,
+              "zh_CN": "...<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "...<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "...<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "...",
+              "zh_TW": "...<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "SMILE" }
+          },
+          {
+            "message": {
+              "en_US": "What Ah'm try'na say is: Thanks, Seeker.",
+              "pt_BR": "O que eu realmente quero dizer a você é: Obrigado, querida!",
+              "langUid": 13,
+              "zh_CN": "\u6211\u60f3\u8bf4\u7684\u662f\uff1a\u8c22\u8c22\u4f60\uff0c\u63a2\u7d22\u8005\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u306a\u306b\u304c\u8a00\u3044\u305f\u3044\u304b\u3068\u3044\u3046\u3068\u3001\n\u304a\u304a\u304d\u306b\u306a\u3001\u63a2\u7d22\u8005\u3055\u3093\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc544\ubb34\ud2bc \ub0b4\uac00 \ub9d0\ud558\uace0\uc790 \ud558\ub294 \uac74 \uace0\ub9c8\uc6cc, \uc2dc\ucee4.<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Was I dia eigendlich damidd saga will: Dankschee, Seeker!",
+              "zh_TW": "\u6211\u60f3\u8aaa\u7684\u662f\uff1a\u8b1d\u8b1d\u4f60\uff0c\u63a2\u7d22\u8005\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "Y'all helped me fulfill mah dream and words can't say how much that means to me.",
+              "pt_BR": "Você me ajudou a realizar o meu sonho e não tenho palavras para expressar o quanto isso significa para mim.",
+              "langUid": 14,
+              "zh_CN": "\u4f60\u5e2e\u6211\u5b8c\u6210\u4e86\u6211\u7684\u68a6\u60f3\uff0c\u5bf9\u6b64\u6211\u771f\u7684\u65e0\u4ee5\u8a00\u8c22\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3042\u3093\u305f\u306e\u304a\u304b\u3052\u3067\u5922\u3092\u9054\u6210\u3067\u304d\u305f\u3093\u3084\u3002\n\u3042\u305f\u3057\u306b\u3068\u3063\u3066\u305d\u308c\u304c\u3069\u308c\u3060\u3051\u91cd\u8981\u306a\u3053\u3068\u304b\u3001\n\u8a00\u304a\u3046\u306b\u3082\u8a00\u3044\u5c3d\u304f\u305b\u3093\u308f\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\ub0b4 \uafc8\uc744 \uc774\ub8f0 \uc218 \uc788\uac8c \ub3c4\uc640\uc92c\uc796\uc544. \uadf8\uac8c \uc5bc\ub9c8\ub098 \ub0b4\uac8c \ud070 \uc758\ubbf8\uc778\ub370.<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Du hosch mir so sehr geholfe mei Draum zu erf\u00fclle, I ko dir gar nedd saga, wie viel mir des bedeuded.",
+              "zh_TW": "\u4f60\u5e6b\u6211\u5b8c\u6210\u4e86\u6211\u7684\u5922\u60f3\uff0c\u5c0d\u6b64\u6211\u771f\u7684\u7121\u4ee5\u8a00\u8b1d\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "...",
+              "pt_BR": "...",
+              "langUid": 15,
+              "zh_CN": "...<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "...<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "...<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "...",
+              "zh_TW": "...<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "CHARMED" }
+          },
+          {
+            "message": {
+              "en_US": "Well, guess it's time ta give that strawhat one last upgrade, dont'cher think?",
+              "pt_BR": "Bem, acho que está na hora de fazer uma última atualização naquele chapéu de palha, não acha?",
+              "langUid": 16,
+              "zh_CN": "\u6211\u89c9\u5f97\u662f\u65f6\u5019\u7ed9\u90a3\u9876\u8349\u5e3d\u6765\u4e00\u6b21\u6700\u540e\u7684\u5347\u7ea7\u4e86\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3055\u3066\u3001\u9ea6\u308f\u3089\u5e3d\u5b50\u306b\u6700\u5f8c\u306e\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9\u3092\n\u307b\u3069\u3053\u3059\u6642\u304c\u304d\u305f\u306a\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc790, \uc774\uc81c \uadf8 \ubc00\uc9da\ubaa8\uc790\uc5d0 \ub9c8\uc9c0\ub9c9 \uc5c5\uadf8\ub808\uc774\ub4dc\ub97c \ub354\ud574 \ubcfc\uae4c? \uc5b4\ub54c?<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "I kenna dir amol a Upgrade fir dei H\u00fctle von letztamol verpasse, meinsch nedd au?",
+              "zh_TW": "\u6211\u89ba\u5f97\u662f\u6642\u5019\u7d66\u90a3\u9802\u8349\u5e3d\u4f86\u4e00\u6b21\u6700\u5f8c\u7684\u5347\u7d1a\u4e86\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "...?",
+              "pt_BR": "...?",
+              "langUid": 17,
+              "zh_CN": "...?<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "...\uff1f<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "...?<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "...?",
+              "zh_TW": "...?<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "SURPRISED" }
+          },
+          { "side": "ALL", "type": "CLEAR_MSG" },
+          { "item": "468", "amount": 2, "type": "REMOVE_ITEM" },
+          {
+            "msgType": "OBTAINED",
+            "object": {
+              "en_US": "\\i[item-helm-unique]\\v[item.469.name]",
+              "pt_BR": "\\i[item-helm-unique]\\v[item.469.name]",
+              "de_DE": "\\i[item-helm-unique]Letzter Strohhut",
+              "zh_CN": "\\i[item-helm-unique]\\v[item.469.name]<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\\i[item-helm-unique]\\v[item.469.name]<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\\i[item-helm-unique]\\v[item.469.name]<<A<<[CHANGED 2018/07/09]",
+              "langUid": 41,
+              "zh_TW": "\\i[item-helm-unique]\\v[item.469.name]<<A<<[CHANGED 2018/07/09]"
+            },
+            "type": "SHOW_GET_MSG"
+          },
+          {
+            "name": {
+              "en_US": "Talatu Lips",
+              "pt_BR": "Talatu Lips",
+              "langUid": 42,
+              "zh_CN": "\u5854\u62c9\u56fe\u00b7\u83b1\u666e\u65af<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u30bf\u30e9\u30c1\u30e5\u30fb\u30ea\u30c3\u30d7\u30b9<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\ud0c8\ub77c\ud22c \ub9bd\uc2a4<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "Talatu Lips",
+              "zh_TW": "\u5854\u62c9\u5716\u00b7\u840a\u666e\u65af<<A<<[CHANGED 2018/07/09]"
+            },
+            "side": "LEFT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "side": "RIGHT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": { "person": "main.lea", "expression": "DEFAULT" }
+          },
+          {
+            "withElse": true,
+            "type": "IF",
+            "condition": "lea.words.thanks",
+            "thenStep": [
+              {
+                "message": {
+                  "en_US": "Thanks!",
+                  "pt_BR": "Obrigada!",
+                  "langUid": 43,
+                  "zh_CN": "\u8c22\u8c22\uff01<<A<<[CHANGED 2018/07/09]",
+                  "ja_JP": "\u3042\u308a\u304c\u3068\u3046\uff01<<A<<[CHANGED 2018/07/09]",
+                  "ko_KR": "\uace0\ub9c8\uc6cc!<<A<<[CHANGED 2018/07/09]",
+                  "de_DE": "Danke!",
+                  "zh_TW": "\u8b1d\u8b1d\uff01<<A<<[CHANGED 2018/07/09]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "EXCITED" }
+              }
+            ],
+            "elseStep": [
+              {
+                "message": {
+                  "en_US": "...!",
+                  "pt_BR": "...!",
+                  "de_DE": "...!",
+                  "zh_CN": "...!<<A<<[CHANGED 2018/09/14]",
+                  "ja_JP": "...\uff01<<A<<[CHANGED 2018/09/14]",
+                  "ko_KR": "...!<<A<<[CHANGED 2018/09/14]",
+                  "langUid": 51,
+                  "zh_TW": "...!<<A<<[CHANGED 2018/09/14]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "EXCITED" }
+              }
+            ]
+          },
+          {
+            "message": {
+              "en_US": "Oh and take this too, will ya.",
+              "pt_BR": "Ah, leve isso com você também.",
+              "langUid": 44,
+              "zh_CN": "\u54e6\u5bf9\u4e86\uff0c\u7ed9\u4f60\u8fd9\u4e2a\u3002<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u305d\u3046\u3084\u3001\u3053\u308c\u3082\u6301\u3063\u3066\u3044\u304d\u3002<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\ucc38, \uc774\uac83\ub3c4 \uac00\uc838\uac00.<<A<<[CHANGED 2018/07/09]",
+              "de_DE": "Ond nimmsch des au no midd, ja?",
+              "zh_TW": "\u54e6\u5c0d\u4e86\uff0c\u7d66\u4f60\u9019\u500b\u3002<<A<<[CHANGED 2018/07/09]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          {
+            "message": {
+              "en_US": "Y'all drop in whenever ya feel like!",
+              "pt_BR": "Apareça aqui sempre que quiser!",
+              "langUid": 45,
+              "zh_CN": "\u6b22\u8fce\u968f\u65f6\u6765\u5bd2\u820d\u62dc\u8bbf\uff01<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3044\u3064\u3067\u3082\u597d\u304d\u306a\u6642\u306b\n\u6765\u3066\u304f\u308c\u3066\u3048\u3048\u304b\u3089\u306a\uff01<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\ub4e4\ub974\uace0 \uc2f6\uc73c\uba74 \uc5b8\uc81c\ub4e0\uc9c0 \ub180\ub7ec\uc640\ub3c4 \ub3fc!<<A<<[CHANGED 2018/09/19]",
+              "de_DE": "Ond komm amol vorbei, wenn de in de Gegend bisch!",
+              "zh_TW": "\u6b61\u8fce\u96a8\u6642\u4f86\u5bd2\u820d\u62dc\u8a2a\uff01<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "greenies.female-researcher",
+              "expression": "DEFAULT"
+            }
+          },
+          { "side": "ALL", "type": "CLEAR_MSG" },
+          {
+            "item": "468",
+            "amount": 99,
+            "unequip": true,
+            "type": "REMOVE_ITEM"
+          },
+          {
+            "type": "SOLVE_QUEST_CONDITION",
+            "quest": {
+              "quest": "botanics",
+              "label": "fullyDone_final_V2_final"
+            }
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 111
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 360,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 48, "y": 8 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 12,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 113
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 352,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 36 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 12,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 114
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 368,
+      "y": 228,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 40, "y": 8 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 8,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 115
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 360,
+      "y": 228,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 32 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 8,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 116
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 352,
+      "y": 260,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 8,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 117
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 408,
+      "y": 220,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 16 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 8,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 118
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 416,
+      "y": 304,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 12 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 14,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 119
+      }
+    },
+    {
+      "type": "Door",
+      "x": 416,
+      "y": 208,
+      "level": 0,
+      "settings": {
+        "name": "dd",
+        "doorType": "DEFAULT",
+        "dir": "SOUTH",
+        "transitionType": "REGULAR",
+        "mapId": 120,
+        "map": "",
+        "marker": false,
+        "variation": "wood",
+        "condition": "false"
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 432,
+      "y": 276,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 40 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 14,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 121
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 368,
+      "y": 304,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 12 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 14,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 122
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 352,
+      "y": 276,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 40 },
+        "layer": "object2",
+        "collType": "BLOCK",
+        "zHeight": 14,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 123
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 372,
+      "y": 196,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 124,
+        "propType": { "sheet": "rh-interior", "name": "picture" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 176,
+      "y": 264,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 125,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamWest" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 576,
+      "y": 428,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 126,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamEast" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 576,
+      "y": 500,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 127,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamEast" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 176,
+      "y": 340,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 128,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamWest" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 464,
+      "y": 432,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 129,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamWest" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 464,
+      "y": 508,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 130,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamWest" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 464,
+      "y": 552,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 131,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamWest" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 576,
+      "y": 552,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 132,
+        "propType": { "sheet": "rh-interior", "name": "lightbeamEast" },
+        "propAnim": "default",
+        "condAnims": []
+      }
+    }
+  ],
+  "layer": [
+    {
+      "id": 0,
+      "type": "Background",
+      "name": "Background",
+      "level": "0",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 65, 35, 35, 35, 35, 35, 35, 35, 66, 35,
+          35, 67, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 97, 24, 26, 154, 154, 154, 154, 154,
+          154, 27, 30, 99, 8, 5, 5, 11, 13, 14, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 97, 56, 58, 186, 186, 186, 186, 186,
+          186, 59, 62, 99, 40, 37, 37, 43, 45, 46, 3, 35, 35, 35, 35, 35, 35,
+          35, 35, 67, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 97, 88, 90, 218, 218, 218, 218, 218,
+          218, 91, 94, 99, 72, 73, 74, 75, 77, 78, 3, 24, 26, 154, 154, 154,
+          154, 27, 30, 99, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 97, 120, 122, 250, 250, 250, 250, 250,
+          250, 123, 126, 99, 101, 101, 101, 102, 109, 110, 66, 56, 58, 186, 186,
+          186, 186, 59, 62, 99, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 129, 773, 773, 773, 773, 140, 140, 773,
+          773, 773, 773, 99, 196, 197, 197, 198, 140, 140, 98, 88, 90, 218, 218,
+          218, 218, 91, 94, 99, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 773, 773, 773, 773, 140, 140, 773,
+          773, 773, 773, 419, 228, 229, 229, 230, 176, 179, 419, 120, 122, 250,
+          250, 250, 250, 123, 126, 99, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 140, 140, 140, 140, 140, 140, 140,
+          140, 140, 140, 32, 260, 261, 261, 262, 2, 2, 32, 236, 237, 236, 239,
+          245, 209, 209, 209, 131, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 140, 140, 140, 140, 140, 140, 140,
+          140, 140, 140, 64, 2, 2, 145, 177, 2, 2, 64, 237, 236, 236, 236, 245,
+          209, 209, 209, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 205, 207, 140, 140, 208, 208, 208,
+          208, 208, 208, 96, 2, 2, 145, 177, 2, 2, 96, 236, 236, 140, 140, 140,
+          140, 140, 140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 204, 205, 140, 140, 208, 208, 208,
+          208, 208, 208, 128, 2, 146, 140, 140, 147, 2, 128, 236, 237, 140, 140,
+          140, 140, 140, 140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 206, 206, 140, 140, 140, 140, 140,
+          140, 140, 140, 140, 140, 140, 140, 140, 140, 140, 140, 140, 140, 140,
+          140, 240, 240, 140, 140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 204, 204, 140, 140, 140, 140, 140,
+          140, 140, 140, 140, 176, 140, 140, 140, 140, 176, 140, 140, 140, 140,
+          140, 240, 240, 140, 140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 206, 204, 213, 211, 211, 211, 140,
+          140, 204, 204, 33, 2, 178, 145, 177, 179, 1, 33, 240, 240, 240, 240,
+          240, 240, 140, 140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 204, 205, 213, 211, 211, 211, 140,
+          140, 204, 207, 3, 2, 2, 145, 177, 2, 2, 3, 240, 240, 240, 240, 240,
+          240, 140, 140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 33, 33, 33, 33, 33, 34, 34, 34,
+          34, 3, 34, 34, 3, 3, 34, 34, 3, 140, 140, 140, 140, 140, 140, 140,
+          140, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 140, 140, 140, 140, 140, 140, 140, 140, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 140, 140, 269, 268, 270, 269, 268, 270, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 140, 140, 268, 268, 269, 268, 270, 271, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 140, 140, 140, 144, 140, 140, 269, 269, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 140, 140, 140, 176, 140, 140, 269, 269, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 241, 242, 241, 242, 140, 140, 269, 269, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 241, 241, 242, 241, 140, 140, 269, 269, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 243, 243, 140, 140, 140, 140, 269, 269, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 276, 276, 140, 140, 140, 140, 269, 269, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 210, 210, 140, 140, 140, 140, 275, 273, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 210, 210, 140, 140, 140, 140, 273, 272, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ],
+        [
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Background",
+      "name": "Details",
+      "level": "0",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 417, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 417, 0,
+          0, 0, 0, 0, 0, 449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 771, 266, 232, 769, 0, 0, 0,
+          449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 802, 802, 802, 778, 168, 266, 777,
+          802, 802, 802, 0, 0, 649, 0, 679, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 264, 168, 168, 266, 0, 0, 264, 233,
+          168, 168, 0, 0, 0, 713, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 775, 802, 802, 802, 802, 802, 802, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 738, 746, 201, 201, 745, 738, 738,
+          738, 738, 738, 0, 0, 0, 0, 0, 0, 0, 0, 0, 771, 0, 0, 231, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 771, 265, 265, 777, 802, 802, 802,
+          802, 802, 0, 0, 0, 0, 0, 0, 0, 0, 802, 778, 0, 0, 231, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 771, 0, 0, 200, 234, 0, 0, 232,
+          202, 0, 0, 0, 0, 0, 0, 0, 0, 264, 234, 0, 0, 745, 746, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 771, 0, 0, 232, 266, 0, 0, 264,
+          234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 769, 771, 202, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 807, 738, 738, 738, 746, 168, 168,
+          745, 738, 0, 0, 0, 0, 0, 0, 0, 0, 738, 738, 738, 738, 808, 771, 264,
+          168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 771, 0, 0, 769, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 802, 802, 802, 802, 802, 778, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 231, 200, 745, 738, 738, 738, 738, 738, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 266, 231, 777, 802, 802, 802, 776, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 200, 769, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 231, 0, 0, 0, 231, 769, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 738, 738, 738, 746, 168, 266, 769, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 775, 802, 778, 0, 0, 769, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 771, 0, 0, 0, 0, 769, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 771, 168, 201, 202, 0, 769, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 771, 0, 264, 265, 168, 769, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 771, 0, 0, 0, 0, 769, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Background",
+      "name": "Shadow",
+      "level": "0",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior-shadow.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Collision",
+      "name": "Collision",
+      "level": "0",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Navigation",
+      "name": "Navigation",
+      "level": "0",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/pathmap-tiles.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1,
+          1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1,
+          1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 0, 1,
+          1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 0, 1,
+          1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 2, 2, 0, 0, 0, 0, 0, 1, 1, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 2, 2, 0, 0, 0, 0, 0, 1, 1, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 1, 1, 2, 2, 3, 1,
+          1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 1, 1, 2, 2, 3, 1,
+          1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
+          0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
+          0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "type": "Background",
+      "name": "OBJ1",
+      "level": "object1",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 439,
+          311, 311, 312, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 471,
+          343, 343, 344, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 438,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 470,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Background",
+      "name": "OBJ2",
+      "level": "object2",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 388,
+          0, 0, 0, 0, 388, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 420,
+          0, 0, 0, 0, 420, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 324,
+          296, 0, 0, 294, 325, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 356,
+          328, 0, 0, 326, 357, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Background",
+      "name": "OBJ2Details",
+      "level": "object2",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/rh-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 615,
+          0, 0, 0, 0, 648, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 646,
+          0, 0, 0, 0, 647, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Light",
+      "name": "Light",
+      "level": "last",
+      "width": 50,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/lightmap-tiles.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    }
+  ],
+  "attributes": {
+    "saveMode": "",
+    "volume": 1,
+    "bgm": "silence",
+    "cameraInBounds": false,
+    "map-sounds": "",
+    "mapStyle": "rookie-harbor-interior",
+    "weather": "DUSTY",
+    "npcRunners": "",
+    "area": "rookie-harbor"
+  },
+  "screen": { "x": -169, "y": 27 }
+}
