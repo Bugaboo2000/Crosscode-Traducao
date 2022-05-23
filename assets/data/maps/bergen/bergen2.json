@@ -15527,18 +15527,20 @@
                   "y": 1336,
                   "lvl": { "level": "5", "offset": 16 }
                 },
-                "maxTime": 0,
+                "maxTime": 5,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
                 "target": { "x": 744, "y": 1344, "lvl": "6" },
-                "maxTime": 0,
+                "maxTime": 3,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
@@ -15623,7 +15625,7 @@
               },
               {
                 "target": { "x": 704, "y": 1912, "lvl": "3" },
-                "maxTime": 0,
+                "maxTime": 5,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
@@ -15632,7 +15634,7 @@
               },
               {
                 "target": { "x": 576, "y": 1936, "lvl": "3" },
-                "maxTime": 0,
+                "maxTime": 5,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
@@ -15659,11 +15661,11 @@
               },
               {
                 "target": { "x": 608, "y": 1988, "lvl": "4" },
-                "maxTime": 0,
+                "maxTime": 5,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
-                "teleportOnFail": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               { "type": "WAIT_UNTIL_ON_GROUND" },
@@ -15706,28 +15708,33 @@
               {
                 "entity": { "global": true, "name": "pet-goat" },
                 "maxTime": 0.8,
+                "forceTime": false,
                 "distance": 16,
                 "ignoreBelow": 0,
-                "stayBehind": false,
                 "planOnly": false,
+                "precise": false,
+                "assistSlow": false,
+                "stayBehind": false,
                 "type": "NAVIGATE_TO_ENTITY"
               },
               { "time": 1.1, "type": "WAIT" },
               { "value": 1, "type": "SET_RELATIVE_SPEED" },
               {
                 "target": { "x": 744, "y": 1264, "lvl": "5" },
-                "maxTime": 0,
+                "maxTime": 3,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": false,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
                 "target": { "x": 680, "y": 1272, "lvl": "5" },
-                "maxTime": 0,
+                "maxTime": 3,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": false,
                 "type": "NAVIGATE_TO_POINT"
               },
               { "time": 0.2, "type": "WAIT" },
@@ -15741,10 +15748,11 @@
               { "time": 0.3, "type": "WAIT" },
               {
                 "target": { "x": 680, "y": 1380, "lvl": "5" },
-                "maxTime": 0,
+                "maxTime": 3,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               }
             ],
@@ -15813,7 +15821,7 @@
             "type": "SOLVE_QUEST_CONDITION",
             "quest": { "quest": "bg-1-lost_pet", "label": "find-pet1" }
           },
-          { "type": "RESET_NPC", "npc": { "global": true, "name": "pet-goat" } }
+          { "npc": { "global": true, "name": "pet-goat" }, "type": "RESET_NPC" }
         ],
         "triggerType": "ONCE",
         "mapId": 2956,
@@ -52702,5 +52710,5 @@
     "area": "bergen",
     "npcRunners": "CROWDED"
   },
-  "screen": { "x": 335, "y": 315 }
+  "screen": { "x": 296, "y": 962 }
 }
