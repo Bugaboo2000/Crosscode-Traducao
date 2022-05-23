@@ -11639,7 +11639,7 @@
                     {
                       "message": {
                         "en_US": "But in each area it's always a \\c[3]Triblader\\c[0], \\c[3]Hexacast\\c[0], \\c[3]Pentafist\\c[0] and \\c[3]Quadroguard\\c[0].",
-                        "pt_BR": "Mas em cada área sempre tem \\c[3]Tricorte\\c[0], \\c[3]Hexamagia\\c[0], \\c[3]Pentapunho\\c[0] e um \\c[3]Quadroguarda\\c[0].",
+                        "pt_BR": "Mas em cada área sempre tem \\c[3]Triblader\\c[0], \\c[3]Hexacast\\c[0], \\c[3]Pentafist\\c[0] e um \\c[3]Quadroguard\\c[0].",
                         "de_DE": "Aber in jedem Gebiet ist es immer ein \\c[3]Triblader\\c[0], \\c[3]Hexacast\\c[0], \\c[3]Pentafist\\c[0] und ein \\c[3]Quadroguard\\c[0].",
                         "fr_FR": "fr_FR",
                         "langUid": 58,
@@ -15648,12 +15648,12 @@
     },
     {
       "type": "TouchTrigger",
-      "x": 576,
-      "y": 800,
+      "x": 580,
+      "y": 804,
       "level": 7,
       "settings": {
         "name": "touch-petGoat",
-        "size": { "x": 96, "y": 80 },
+        "size": { "x": 88, "y": 72 },
         "type": "SET_TRUE",
         "zHeight": 64,
         "reactToParty": false,
@@ -15704,10 +15704,11 @@
             "action": [
               {
                 "target": { "x": 660, "y": 848, "lvl": "7" },
-                "maxTime": 0,
+                "maxTime": 5,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
@@ -15728,10 +15729,11 @@
             "action": [
               {
                 "target": { "x": 656, "y": 828, "lvl": "7" },
-                "maxTime": 0,
+                "maxTime": 5,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
@@ -15757,10 +15759,11 @@
                   "y": 872,
                   "lvl": { "level": "7", "offset": 16 }
                 },
-                "maxTime": 0,
+                "maxTime": 3,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
@@ -15813,11 +15816,11 @@
               },
               {
                 "target": { "x": 1200, "y": 1456, "lvl": "1" },
-                "maxTime": 0,
+                "maxTime": 10,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
-                "teleportOnFail": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               { "time": 0.8, "type": "WAIT" },
@@ -15848,11 +15851,11 @@
               { "value": 0.5, "type": "SET_RELATIVE_SPEED" },
               {
                 "target": { "x": 1200, "y": 1416, "lvl": "1" },
-                "maxTime": 0,
+                "maxTime": 10,
                 "distance": 0,
                 "precise": false,
                 "planOnly": false,
-                "teleportOnFail": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               {
@@ -15891,15 +15894,16 @@
               },
               { "time": 0.7, "type": "WAIT" },
               { "value": 0.2, "type": "SET_RELATIVE_SPEED" },
-              { "time": 0.3, "type": "MOVE_FORWARD" },
+              { "time": 0.3, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
               { "time": 1.2, "type": "WAIT" },
               { "value": 1, "type": "SET_RELATIVE_SPEED" },
               {
                 "target": { "x": 584, "y": 872, "lvl": "7" },
-                "maxTime": 0,
+                "maxTime": 2,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               },
               { "time": 0.2, "type": "WAIT" },
@@ -15912,10 +15916,11 @@
               { "time": 0.3, "type": "WAIT" },
               {
                 "target": { "x": 656, "y": 872, "lvl": "7" },
-                "maxTime": 0,
+                "maxTime": 3,
                 "distance": 0,
                 "precise": true,
                 "planOnly": false,
+                "teleportOnFail": true,
                 "type": "NAVIGATE_TO_POINT"
               }
             ],
@@ -15984,7 +15989,7 @@
             "type": "SOLVE_QUEST_CONDITION",
             "quest": { "quest": "bg-1-lost_pet", "label": "find-pet2" }
           },
-          { "type": "RESET_NPC", "npc": { "global": true, "name": "pet-goat" } }
+          { "npc": { "global": true, "name": "pet-goat" }, "type": "RESET_NPC" }
         ],
         "triggerType": "ONCE",
         "mapId": 2071,
@@ -17173,14 +17178,14 @@
                 },
                 {
                   "message": {
-                    "en_US": "For that reason we always need to get ourself properly equipped with the best military hardware.",
+                    "en_US": "For that reason we always need to get ourselves properly equipped with the best military hardware.",
                     "pt_BR": "Por esse motivo, precisamos sempre nos equipar adequadamente com o melhor equipamento militar.",
                     "de_DE": "Aus diesem Grund m\u00fcssen wir stets mit der besten milit\u00e4rischen Ausr\u00fcstung gewappnet sein.",
                     "zh_CN": "\u56e0\u6b64\uff0c\u6211\u4eec\u6c38\u8fdc\u9700\u8981\u4fdd\u6301\u6b66\u88c5\u5148\u8fdb\u3002<<A<<[CHANGED 2019/07/31]",
+                    "zh_TW": "\u56e0\u6b64\uff0c\u6211\u5011\u6c38\u9060\u9700\u8981\u4fdd\u6301\u6b66\u88dd\u5148\u9032\u3002<<A<<[CHANGED 2019/07/31]",
                     "ja_JP": "\u3060\u304b\u3089\u3053\u305d\u6211\u3005\u306f\u5e38\u306b\u3001\u5341\u5206\u306a\u5175\u5668\u3067\n\u6b66\u88c5\u3057\u3066\u304a\u304f\u5fc5\u8981\u304c\u3042\u308b\u306e\u3060\u3002<<A<<[CHANGED 2019/07/31]",
                     "ko_KR": "\uadf8\ub807\uae30 \ub54c\ubb38\uc5d0 \uc6b0\ub9ac\ub294 \ud56d\uc0c1 \ucd5c\uace0\uc758 \uad70\uc0ac\uc7a5\ube44\ub97c \uc81c\ub300\ub85c \uac16\ucd94\uc5b4\uc57c \ud558\uc9c0.<<A<<[CHANGED 2019/07/31]",
-                    "langUid": 449,
-                    "zh_TW": "\u56e0\u6b64\uff0c\u6211\u5011\u6c38\u9060\u9700\u8981\u4fdd\u6301\u6b66\u88dd\u5148\u9032\u3002<<A<<[CHANGED 2019/07/31]"
+                    "langUid": 449
                   },
                   "autoContinue": false,
                   "type": "SHOW_MSG",
@@ -17704,7 +17709,7 @@
                 },
                 {
                   "message": {
-                    "en_US": "It will help to create many amazing weapons and save many lifes. ",
+                    "en_US": "It will help to create many amazing weapons and save many lives. ",
                     "pt_BR": "Isso ajudará a criar muitas armas incríveis e salvará muitas vidas.",
                     "de_DE": "Sie werden uns dabei helfen, viele erstaunliche Waffen herzustellen und viele Leben zu retten.",
                     "zh_CN": "\u6211\u4eec\u80fd\u5236\u9020\u51fa\u5f88\u597d\u7684\u6b66\u5668\uff0c\u62ef\u6551\u65e0\u6570\u751f\u547d\u3002<<A<<[CHANGED 2019/07/31]",
