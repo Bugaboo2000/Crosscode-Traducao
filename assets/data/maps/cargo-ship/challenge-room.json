@@ -1,0 +1,2910 @@
+{
+  "name": "cargo-ship/challenge-room",
+  "levels": [
+    { "height": 0 },
+    { "height": 32 },
+    { "height": 64 },
+    { "height": 128 }
+  ],
+  "mapWidth": 47,
+  "mapHeight": 40,
+  "masterLevel": 0,
+  "entities": [
+    {
+      "type": "Prop",
+      "x": 544,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 1
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 48,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 2
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 80,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 3
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 368,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 4
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 336,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 5
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 400,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 6
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 176,
+      "y": 144,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 7
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 64,
+      "y": 148,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 8
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 544,
+      "y": 160,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 9
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 96,
+      "y": 160,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 10
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 480,
+      "y": 172,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 11
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 592,
+      "y": 172,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 12
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 544,
+      "y": 176,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 13
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 608,
+      "y": 184,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 14
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 592,
+      "y": 204,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 15
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 260,
+      "y": 212,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 3",
+        "mapId": 16
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 608,
+      "y": 216,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 17
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 144,
+      "y": 224,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 18
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 304,
+      "y": 228,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 19
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 496,
+      "y": 236,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 20
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 360,
+      "y": 236,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 2",
+        "mapId": 21
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 16,
+      "y": 240,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 22
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 388,
+      "y": 240,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 23
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 252,
+      "y": 244,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 24
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 608,
+      "y": 248,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 25
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 228,
+      "y": 268,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 2",
+        "mapId": 26
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -16,
+      "y": 272,
+      "level": 0,
+      "settings": {
+        "name": "start_battle",
+        "eventType": "CUTSCENE",
+        "startCondition": "tmp.startBattle",
+        "endCondition": "tmp.wave >= 1",
+        "event": [
+          { "name": "info", "type": "REMOVE_GUI" },
+          {
+            "varName": "tmp.arenaClosed",
+            "changeType": "set",
+            "value": true,
+            "type": "CHANGE_VAR_BOOL"
+          },
+          {
+            "pos": { "x": 328, "y": 368 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0.3,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "bgm": "challenge",
+            "volume": 1,
+            "mode": "MEDIUM_OUT",
+            "type": "PUSH_BGM"
+          },
+          {
+            "varName": "tmp.wave",
+            "changeType": "set",
+            "value": 1,
+            "type": "CHANGE_VAR_NUMBER"
+          },
+          { "time": 0.3, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "task": {
+              "de_DE": "\u00dcberlebe Welle 1!",
+              "en_US": "Survive Wave 1!",
+              "pt_BR": "Sobreviva à Onda 1!",
+              "langUid": 1,
+              "zh_CN": "\u633a\u8fc7\u7b2c\u4e00\u6ce2\uff01",
+              "ja_JP": "\u30a6\u30a7\u30fc\u30d61\u3092\u751f\u304d\u6b8b\u308c\uff01",
+              "ko_KR": "\uccab \ubc88\uc9f8 \ud30c\uc0c1 \uacf5\uaca9\uc5d0\uc11c \uc0b4\uc544\ub0a8\uc73c\uc138\uc694!",
+              "zh_TW": "\u6490\u904e\u7b2c\u4e00\u6ce2\uff01"
+            },
+            "type": "SET_TASK"
+          },
+          { "time": 0.5, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "speed": "FAST",
+            "transition": "EASE_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "mapId": 27
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 428,
+      "y": 272,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 28
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 16,
+      "y": 272,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box1" },
+        "mapId": 29
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 16,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 30
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 280,
+      "y": 288,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 1",
+        "mapId": 31
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 196,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 32
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -16,
+      "y": 296,
+      "level": 0,
+      "settings": {
+        "name": "wave2",
+        "eventType": "PARALLEL",
+        "startCondition": "tmp.remaining <= 23",
+        "endCondition": "tmp.wave >= 2",
+        "event": [
+          { "name": "info", "type": "REMOVE_GUI" },
+          { "time": 1, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "task": {
+              "de_DE": "\u00dcberlebe Welle 2!",
+              "en_US": "Survive Wave 2!",
+              "pt_BR": "Sobreviva à Onda 2!",
+              "langUid": 2,
+              "zh_CN": "\u633a\u8fc7\u7b2c\u4e8c\u6ce2\uff01",
+              "ja_JP": "\u30a6\u30a7\u30fc\u30d62\u3092\u751f\u304d\u6b8b\u308c\uff01",
+              "ko_KR": "\ub450 \ubc88\uc9f8 \ud30c\uc0c1 \uacf5\uaca9\uc5d0\uc11c \uc0b4\uc544\ub0a8\uc73c\uc138\uc694!",
+              "zh_TW": "\u6490\u904e\u7b2c\u4e8c\u6ce2\uff01"
+            },
+            "type": "SET_TASK"
+          },
+          {
+            "pos": { "x": 328, "y": 368 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0.1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "varName": "tmp.wave",
+            "changeType": "set",
+            "value": 2,
+            "type": "CHANGE_VAR_NUMBER"
+          },
+          { "time": 0.4, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "speed": "FAST",
+            "transition": "EASE_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "mapId": 33
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 344,
+      "y": 300,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 3",
+        "mapId": 34
+      }
+    },
+    {
+      "type": "TouchTrigger",
+      "x": 144,
+      "y": 304,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 128 },
+        "variable": "tmp.startBattle",
+        "type": "SET_TRUE",
+        "zHeight": "64",
+        "mapId": 35
+      }
+    },
+    {
+      "type": "WallVertical",
+      "x": 120,
+      "y": 304,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 128 },
+        "topEnd": "STOP",
+        "bottomEnd": "STOP",
+        "condition": "tmp.arenaClosed && !tmp.allDone",
+        "collType": "BLOCK",
+        "wallZHeight": 64,
+        "mapId": 36
+      }
+    },
+    {
+      "type": "WallVertical",
+      "x": 528,
+      "y": 304,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 128 },
+        "topEnd": "STOP",
+        "bottomEnd": "STOP",
+        "condition": "tmp.arenaClosed && !tmp.allDone",
+        "collType": "BLOCK",
+        "wallZHeight": 64,
+        "mapId": 37
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 460,
+      "y": 308,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 2",
+        "mapId": 38
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -16,
+      "y": 320,
+      "level": 0,
+      "settings": {
+        "name": "wave3",
+        "eventType": "PARALLEL",
+        "startCondition": "tmp.remaining <= 18",
+        "endCondition": "tmp.wave >= 3",
+        "event": [
+          { "name": "info", "type": "REMOVE_GUI" },
+          { "time": 1, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "task": {
+              "de_DE": "\u00dcberlebe Welle 3!",
+              "en_US": "Survive Wave 3!",
+              "pt_BR": "Sobreviva à Onda 3!",
+              "langUid": 3,
+              "zh_CN": "\u633a\u8fc7\u7b2c\u4e09\u6ce2\uff01",
+              "ja_JP": "\u30a6\u30a7\u30fc\u30d63\u3092\u751f\u304d\u6b8b\u308c\uff01",
+              "ko_KR": "\uc138 \ubc88\uc9f8 \ud30c\uc0c1 \uacf5\uaca9\uc5d0\uc11c \uc0b4\uc544\ub0a8\uc73c\uc138\uc694!",
+              "zh_TW": "\u6490\u904e\u7b2c\u4e09\u6ce2\uff01"
+            },
+            "type": "SET_TASK"
+          },
+          {
+            "pos": { "x": 328, "y": 368 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0.1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "varName": "tmp.wave",
+            "changeType": "set",
+            "value": 3,
+            "type": "CHANGE_VAR_NUMBER"
+          },
+          { "time": 0.4, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "speed": "FAST",
+            "transition": "EASE_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "mapId": 39
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 452,
+      "y": 324,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 40
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 400,
+      "y": 332,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 1",
+        "mapId": 41
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -16,
+      "y": 344,
+      "level": 0,
+      "settings": {
+        "name": "wave4",
+        "eventType": "PARALLEL",
+        "startCondition": "tmp.remaining <= 12",
+        "endCondition": "tmp.wave >= 4",
+        "event": [
+          { "name": "info", "type": "REMOVE_GUI" },
+          { "time": 1, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "task": {
+              "de_DE": "\u00dcberlebe die letzte Welle!",
+              "en_US": "Survive the final wave!",
+              "pt_BR": "Sobreviva à Onda final!",
+              "langUid": 4,
+              "zh_CN": "\u633a\u8fc7\u6700\u540e\u4e00\u6ce2",
+              "ja_JP": "\u6700\u7d42\u30a6\u30a7\u30fc\u30d6\u3092\u751f\u304d\u6b8b\u308c\uff01",
+              "ko_KR": "\ub9c8\uc9c0\ub9c9 \ud30c\uc0c1 \uacf5\uaca9\uc5d0\uc11c \uc0b4\uc544\ub0a8\uc73c\uc138\uc694!",
+              "zh_TW": "\u6490\u904e\u6700\u5f8c\u4e00\u6ce2"
+            },
+            "type": "SET_TASK"
+          },
+          {
+            "pos": { "x": 328, "y": 368 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0.1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "varName": "tmp.wave",
+            "changeType": "set",
+            "value": 4,
+            "type": "CHANGE_VAR_NUMBER"
+          },
+          { "time": 0.4, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "speed": "FAST",
+            "transition": "EASE_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          },
+          { "time": 4, "ignoreSlowDown": false, "type": "WAIT" },
+          {
+            "name": "info",
+            "guiInfo": {
+              "type": "Information",
+              "settings": {
+                "text": {
+                  "de_DE": "DIE ZEIT DER RACHE IST GEKOMMEN!",
+                  "en_US": "THE TIME FOR REVENGE IS NIGH!",
+                  "pt_BR": "A HORA DA VINGANÇA ESTÁ PRÓXIMA!",
+                  "langUid": 5,
+                  "zh_CN": "\u590d\u4ec7\u4e4b\u65e5\u4e0d\u8fdc\u4e86\uff01",
+                  "ja_JP": "\u30ea\u30d9\u30f3\u30b8\u306e\u6642\u3001\u8fd1\u3057\uff01",
+                  "ko_KR": "\ubcf5\uc218\uc758 \uc2dc\uac04\uc774 \ub2e4\uac00\uc654\ub2e4!",
+                  "zh_TW": "\u5fa9\u4ec7\u4e4b\u65e5\u4e0d\u9060\u4e86\uff01"
+                },
+                "taskTitle": { "de_DE": "", "en_US": "" },
+                "maxCount": 0,
+                "variable": ""
+              }
+            },
+            "type": "ADD_GUI"
+          }
+        ],
+        "mapId": 42
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 248,
+      "y": 352,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 3",
+        "mapId": 43
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 472,
+      "y": 352,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 3",
+        "mapId": 44
+      }
+    },
+    {
+      "type": "EnemyCounter",
+      "x": 312,
+      "y": 356,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyGroup": "wave1",
+        "enemyCount": 26,
+        "preVariable": "tmp.wavePre",
+        "postVariable": "tmp.wavePost",
+        "countVariable": "tmp.remaining",
+        "mapId": 45
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 348,
+      "y": 368,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 164, "y": 8 },
+        "condition": "tmp.wavePost",
+        "mapId": 46
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 196,
+      "y": 368,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 47
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -16,
+      "y": 372,
+      "level": 0,
+      "settings": {
+        "name": "allDone",
+        "eventType": "PARALLEL",
+        "startCondition": "tmp.wavePre",
+        "endCondition": "tmp.allDone",
+        "event": [
+          { "name": "info", "type": "REMOVE_GUI" },
+          { "name": "task", "type": "REMOVE_GUI" },
+          {
+            "varName": "tmp.wave",
+            "changeType": "set",
+            "value": 5,
+            "type": "CHANGE_VAR_NUMBER"
+          },
+          {
+            "eventCall": {
+              "path": "puzzle",
+              "name": "focusEnemyCounter",
+              "input": {
+                "counterPos": { "x": 328, "y": 368 },
+                "targetPos": { "x": 532, "y": 368 },
+                "postCondition": "tmp.wavePos",
+                "variable": "tmp.allDone"
+              }
+            },
+            "type": "CALL_EVENT_FROM_SHEET"
+          },
+          { "mode": "SLOW", "type": "POP_BGM" },
+          {
+            "bgm": "lolfanfare",
+            "volume": 1,
+            "mode": "MEDIUM",
+            "type": "PLAY_IN_BETWEEN_BGM"
+          },
+          {
+            "name": "info",
+            "guiInfo": {
+              "type": "Information",
+              "settings": {
+                "text": {
+                  "de_DE": "Gro\u00dfartig! Du hast die letzte Herausforderung gemeistert!\nDas war's erst einmal.\nVielen Dank f\u00fcrs Spielen!",
+                  "en_US": "Awesome! You mastered the final challenge! \nThis is all for now. \nThanks for playing!",
+                  "pt_BR": "Fantástico! Você venceu o desafio final! \nIsso é tudo por hora. \nObrigado por jogar!",
+                  "langUid": 6,
+                  "zh_CN": "\u592a\u68d2\u4e86\uff01\u4f60\u5df2\u7ecf\u901a\u8fc7\u4e86\u6700\u7ec8\u7684\u6311\u6218\uff01 \u73b0\u5728\u6682\u65f6\u5c31\u8fd9\u6837\u5427\u3002 \u611f\u8c22\u4f60\u7684\u6e38\u73a9\uff01",
+                  "ja_JP": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u6700\u7d42\u30c1\u30e3\u30ec\u30f3\u30b8\u3092\u30af\u30ea\u30a2\u3057\u307e\u3057\u305f\uff01 \u73fe\u5728\u904a\u3079\u308b\u30b3\u30f3\u30c6\u30f3\u30c4\u306f\u4ee5\u4e0a\u3067\u3059\u3002 \u904a\u3093\u3067\u304f\u308c\u3066\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01",
+                  "ko_KR": "\uba4b\uc9c0\uad70\uc694! \ub9c8\uc9c0\ub9c9 \ucc4c\ub9b0\uc9c0\ub97c \ub9c8\uc2a4\ud130\ud588\uc2b5\ub2c8\ub2e4!\n\uac8c\uc784\uc740 \uc5ec\uae30\uae4c\uc9c0\uc785\ub2c8\ub2e4.\n\ud50c\ub808\uc774\ud574 \uc8fc\uc154\uc11c \uac10\uc0ac\ud569\ub2c8\ub2e4!",
+                  "zh_TW": "\u592a\u68d2\u4e86\uff01\u4f60\u5df2\u7d93\u901a\u904e\u4e86\u6700\u7d42\u7684\u6311\u6230\uff01 \u73fe\u5728\u66ab\u6642\u5c31\u9019\u6a23\u5427\u3002 \u611f\u8b1d\u4f60\u7684\u904a\u73a9\uff01"
+                },
+                "taskTitle": { "de_DE": "", "en_US": "" },
+                "maxCount": 0,
+                "variable": ""
+              }
+            },
+            "type": "ADD_GUI"
+          }
+        ],
+        "mapId": 48
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 448,
+      "y": 388,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 49
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -12,
+      "y": 408,
+      "level": 0,
+      "settings": {
+        "name": "enterRoom2",
+        "eventType": "PARALLEL",
+        "startCondition": "map.entered || true",
+        "endCondition": "tmp.entered",
+        "event": [
+          { "name": "task", "type": "REMOVE_GUI" },
+          {
+            "task": {
+              "de_DE": "Mach dich bereit f\u00fcrs Finale!",
+              "en_US": "Get ready for the final challenge!",
+              "pt_BR": "Prepare-se para o desafio final!",
+              "langUid": 7,
+              "zh_CN": "\u51c6\u5907\u8fce\u63a5\u6700\u7ec8\u7684\u6311\u6218\uff01",
+              "ja_JP": "\u6700\u7d42\u30c1\u30e3\u30ec\u30f3\u30b8\u306b\u6311\u6226\u3057\u307e\u3057\u3087\u3046\uff01",
+              "ko_KR": "\ub9c8\uc9c0\ub9c9 \ucc4c\ub9b0\uc9c0\ub97c \uc900\ube44\ud558\uc138\uc694!",
+              "zh_TW": "\u6e96\u5099\u8fce\u63a5\u6700\u7d42\u7684\u6311\u6230\uff01"
+            },
+            "type": "SET_TASK"
+          },
+          {
+            "varName": "tmp.entered",
+            "changeType": "set",
+            "value": true,
+            "type": "CHANGE_VAR_BOOL"
+          }
+        ],
+        "mapId": 50
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 356,
+      "y": 408,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 3",
+        "mapId": 51
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 224,
+      "y": 412,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 2",
+        "mapId": 52
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 292,
+      "y": 424,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 1",
+        "mapId": 53
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 608,
+      "y": 424,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 54
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": -12,
+      "y": 428,
+      "level": 0,
+      "settings": {
+        "name": "enterRoom",
+        "eventType": "CUTSCENE",
+        "startCondition": "false",
+        "endCondition": "map.entered",
+        "event": [
+          { "name": "task", "type": "REMOVE_GUI" },
+          { "name": "info", "type": "REMOVE_GUI" },
+          { "color": "black", "alpha": 1, "time": 0, "type": "SET_OVERLAY" },
+          {
+            "name": "credits",
+            "guiInfo": {
+              "type": "CreditsScreen",
+              "settings": {
+                "variable": "map.creditsDone",
+                "taskTitle": { "de_DE": "", "en_US": "" },
+                "maxCount": 0
+              }
+            },
+            "type": "ADD_GUI"
+          },
+          { "condition": "map.creditsDone", "type": "WAIT_UNTIL_TRUE" },
+          {
+            "titleText": {
+              "de_DE": "Vielen Dank!",
+              "en_US": "Thanks!",
+              "pt_BR": "Obrigado!",
+              "langUid": 8,
+              "zh_CN": "\u8c22\u8c22\uff01",
+              "ja_JP": "Thank you!",
+              "ko_KR": "\uac10\uc0ac\ud569\ub2c8\ub2e4!",
+              "zh_TW": "\u8b1d\u8b1d\uff01"
+            },
+            "text": {
+              "de_DE": "Vielen Dank f\u00fcrs Durchspielen der TechDemo von CrossCode!\nWenn dir das hier gefallen hat, erz\u00e4hl es doch weiter!\nWir w\u00fcrden uns \u00fcber mehr Bekanntheit freuen! :D\nAu\u00dferdem findest du uns auf Facebook und Twitter!",
+              "en_US": "Thanks a lot for completing this tech demo of CrossCode!\nIf you like what you saw, please tell your friends!\nWe'd like to get word around! :D\nAlso, follow us on Facebook and Twitter!\n\n",
+              "pt_BR": "Muito obrigado por completar esta demo do CrossCode!\n Se você gostou, por favor, conte aos seus amigos!\nSiga-nos no Facebook e Twitter!",
+              "langUid": 9,
+              "zh_CN": "\u975e\u5e38\u611f\u8c22\u60a8\u5b8c\u6210\u300a\u8fdc\u661f\u7269\u8bed\u300b\u7684\u6280\u672f\u6f14\u793a\uff01 \u5982\u679c\u559c\u6b22\u7684\u8bdd\uff0c\u8bf7\u8f6c\u544a\u4f60\u7684\u670b\u53cb\u4eec\u5427\uff01 \u6211\u4eec\u5f88\u4e50\u610f\u770b\u5230\u6d88\u606f\u4f20\u51fa\u53bb\uff01:D \u53e6\u5916\uff0c\u8bf7\u5728Facebook\u548cTwitter\u4e0a\u5173\u6ce8\u6211\u4eec\uff01",
+              "ja_JP": "CrossCode\u306e\u6280\u8853\u30c7\u30e2\u3092\u6700\u5f8c\u307e\u3067\u904a\u3093\u3067\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01 \u3082\u3057\u3053\u306e\u30b2\u30fc\u30e0\u3092\u6c17\u306b\u5165\u3063\u305f\u3089\u3001\u304a\u53cb\u3060\u3061\u306b\u3082\u7d39\u4ecb\u3057\u3066\u307f\u3066\u304f\u3060\u3055\u3044\uff01 \u3042\u306a\u305f\u306e\u53e3\u30b3\u30df\u3001\u697d\u3057\u307f\u306b\u3057\u3066\u3044\u307e\u3059\uff01:D\u516c\u5f0fFacebook\u3084Twitter\u306e\u30d5\u30a9\u30ed\u30fc\u3082\u305c\u3072\u304a\u9858\u3044\u3057\u307e\u3059\uff01",
+              "ko_KR": "\ud06c\ub85c\uc2a4\ucf54\ub4dc\uc758 \uae30\uc220 \ub370\ubaa8 \ubc84\uc804\uc744 \uc644\ub8cc\ud574 \uc8fc\uc154\uc11c \uac10\uc0ac\ud569\ub2c8\ub2e4!\n\uc7ac\ubc0c\uac8c \ud50c\ub808\uc774\ud558\uc168\ub2e4\uba74, \uce5c\uad6c\ub4e4\uc5d0\uac8c \ucd94\ucc9c\ud574 \uc8fc\uc138\uc694!\n\uc88b\uc740 \uc18c\uc2dd\uc744 \ub4e3\uace0 \uc2f6\ub124\uc694 :D\n\ud398\uc774\uc2a4\ubd81\uacfc \ud2b8\uc704\ud130\uc5d0\uc11c \ud314\ub85c\uc6b0\ub3c4 \ud574\uc8fc\uc138\uc694!",
+              "zh_TW": "\u975e\u5e38\u611f\u8b1d\u60a8\u5b8c\u6210\u300a\u9060\u661f\u7269\u8a9e\u300b\u7684\u6280\u8853\u6f14\u793a\uff01 \u5982\u679c\u559c\u6b61\u7684\u8a71\uff0c\u8acb\u8f49\u544a\u4f60\u7684\u670b\u53cb\u5011\u5427\uff01 \u6211\u5011\u5f88\u6a02\u610f\u770b\u5230\u6d88\u606f\u50b3\u51fa\u53bb\uff01:D \u53e6\u5916\uff0c\u8acb\u5728Facebook\u548cTwitter\u4e0a\u95dc\u6ce8\u6211\u5011\uff01"
+            },
+            "type": "SHOW_CENTER_MSG"
+          },
+          {
+            "titleText": {
+              "de_DE": "Die letzte Herausforderung!",
+              "en_US": "The final challenge!",
+              "pt_BR": "O desafio final!",
+              "langUid": 10,
+              "zh_CN": "\u6700\u7ec8\u6311\u6218\uff01",
+              "ja_JP": "\u6700\u7d42\u30c1\u30e3\u30ec\u30f3\u30b8\uff01",
+              "ko_KR": "\ub9c8\uc9c0\ub9c9 \ucc4c\ub9b0\uc9c0!",
+              "zh_TW": "\u6700\u7d42\u6311\u6230\uff01"
+            },
+            "text": {
+              "de_DE": "Halt, das war noch nicht alles!\nAb hier haben wir noch eine kleine Herausforderung f\u00fcr dich, wenn du noch ein paar Gegner verm\u00f6beln willst!\nViel Spa\u00df!",
+              "en_US": "Wait, we're not done yet!\nFrom here on we have a small challenge for you to master, if you like to bash some more enemies. \nHave fun!",
+              "pt_BR": "Espere, ainda não terminamos!\nA partir daqui, temos um pequeno desafio para você, se você quiser esmagar mais alguns inimigos.\nDivirta-se!",
+              "langUid": 11,
+              "zh_CN": "\u7b49\u4e0b\uff0c\u6211\u4eec\u8fd8\u6ca1\u5b8c\u6210\u5462\uff01 \u4ece\u8fd9\u91cc\u5f00\u59cb\uff0c\u5982\u679c\u4f60\u559c\u6b22\u518d\u75db\u6bb4\u70b9\u654c\u4eba\u7684\u8bdd\uff0c\u6211\u4eec\u4e3a\u4f60\u51c6\u5907\u4e86\u4e00\u9879\u5c0f\u6311\u6218\u3002 \u73a9\u5f97\u6109\u5feb\uff01",
+              "ja_JP": "\u304a\u3063\u3068\u3001\u307e\u3060\u7d42\u308f\u308a\u3058\u3083\u3042\u308a\u307e\u305b\u3093\u3088\uff01\n  \u3082\u3063\u3068\u6226\u3044\u305f\u3044\u3042\u306a\u305f\u306e\u305f\u3081\u306b\u3001\u3055\u3089\u306a\u308b\u30c1\u30e3\u30ec\u30f3\u30b8\u3092\u7528\u610f\u3057\u307e\u3057\u305f\uff01\n  \u304a\u697d\u3057\u307f\u304f\u3060\u3055\u3044\uff01",
+              "ko_KR": "\uc7a0\uae50, \uc544\uc9c1 \ub05d\ub098\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4!\n\uc5ec\uae30\uc11c\ubd80\ud130\ub294 \uc5ec\ub7ec\ubd84\uc774 \ub9c8\uc2a4\ud130\ud574\uc57c \ud560 \uc791\uc740 \ucc4c\ub9b0\uc9c0\uac00 \uc788\uc2b5\ub2c8\ub2e4. \ub354 \ub9ce\uc740 \uc801\uc744 \ucc98\uce58\ud558\uace0 \uc2f6\ub2e4\uba74\uc694.\n\uc7ac\ubc0c\uac8c \ud558\uc138\uc694!",
+              "zh_TW": "\u7b49\u4e00\u4e0b\uff0c\u6211\u5011\u9084\u6c92\u5b8c\u6210\u5462\uff01 \u5f9e\u9019\u88e1\u958b\u59cb\uff0c\u5982\u679c\u4f60\u559c\u6b61\u518d\u75db\u6bc6\u4e00\u4e9b\u6575\u4eba\u7684\u8a71\uff0c\u6211\u5011\u70ba\u4f60\u6e96\u5099\u4e86\u4e00\u9805\u5c0f\u6311\u6230\u3002 \u73a9\u5f97\u6109\u5feb\uff01"
+            },
+            "type": "SHOW_CENTER_MSG"
+          },
+          { "color": "black", "alpha": 0, "time": 1, "type": "SET_OVERLAY" },
+          {
+            "varName": "map.entered",
+            "changeType": "set",
+            "value": true,
+            "type": "CHANGE_VAR_BOOL"
+          },
+          { "type": "SAVE" }
+        ],
+        "mapId": 55
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 396,
+      "y": 432,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 2",
+        "mapId": 56
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 16,
+      "y": 436,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 57
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 244,
+      "y": 436,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 58
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 424,
+      "y": 436,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 59
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 300,
+      "y": 456,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 60
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 360,
+      "y": 460,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": {
+          "type": "killer-mouse-bot",
+          "group": "wave1",
+          "attribs": {}
+        },
+        "spawnCondition": "tmp.wave = 4",
+        "mapId": 61
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 144,
+      "y": 460,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 62
+      }
+    },
+    {
+      "type": "Enemy",
+      "x": 260,
+      "y": 472,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "enemyInfo": { "type": "default", "group": "wave1", "attribs": {} },
+        "spawnCondition": "tmp.wave = 3",
+        "mapId": 63
+      }
+    },
+    {
+      "type": "Marker",
+      "x": 48,
+      "y": 496,
+      "level": 0,
+      "settings": { "name": "start", "dir": "NORTH", "mapId": 64 }
+    },
+    {
+      "type": "Door",
+      "x": 48,
+      "y": 528,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "condition": "",
+        "dir": "NORTH",
+        "map": "cargo-ship.puzzle-challenge",
+        "marker": "end",
+        "mapId": 65
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 144,
+      "y": 544,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 66
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 464,
+      "y": 560,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box2" },
+        "mapId": 67
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 252,
+      "y": 576,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box1" },
+        "mapId": 68
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 144,
+      "y": 576,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box1" },
+        "mapId": 69
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 344,
+      "y": 576,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "propType": { "sheet": "cargo-hold", "name": "cargo-box1" },
+        "mapId": 70
+      }
+    }
+  ],
+  "layer": [
+    {
+      "id": 0,
+      "type": "Background",
+      "name": "ground",
+      "level": "0",
+      "width": 47,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/cargo-ship-inner.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9,
+          9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 8, 40, 13, 41, 41, 14, 41, 41, 13, 41, 41, 14, 41, 41, 13, 41, 41,
+          41, 14, 41, 41, 41, 13, 41, 41, 14, 41, 41, 41, 13, 41, 41, 14, 41,
+          41, 15, 42, 10, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          39, 12, 72, 45, 73, 73, 46, 73, 73, 45, 73, 73, 46, 73, 73, 45, 73,
+          73, 73, 46, 73, 73, 73, 45, 73, 73, 46, 73, 73, 73, 45, 73, 73, 46,
+          73, 73, 47, 74, 16, 43, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          71, 44, 104, 77, 105, 105, 78, 131, 132, 77, 105, 105, 78, 105, 105,
+          77, 105, 105, 105, 78, 105, 105, 105, 77, 105, 105, 78, 105, 105, 105,
+          77, 105, 131, 132, 105, 105, 79, 106, 48, 75, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          71, 76, 136, 109, 137, 137, 110, 163, 164, 109, 137, 137, 110, 137,
+          137, 109, 137, 137, 137, 110, 137, 137, 137, 109, 137, 137, 110, 137,
+          137, 137, 109, 137, 163, 164, 137, 137, 111, 138, 80, 75, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          71, 108, 168, 141, 169, 169, 142, 195, 196, 257, 258, 169, 142, 169,
+          169, 141, 169, 169, 169, 142, 169, 169, 169, 141, 169, 169, 355, 356,
+          357, 358, 359, 360, 195, 196, 169, 169, 143, 170, 112, 75, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          71, 140, 200, 173, 201, 201, 174, 227, 228, 289, 290, 201, 174, 201,
+          201, 173, 201, 201, 201, 174, 201, 201, 201, 173, 201, 201, 387, 388,
+          389, 390, 391, 392, 227, 228, 201, 201, 175, 202, 144, 75, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          71, 172, 236, 3, 3, 33, 33, 259, 260, 321, 322, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 419, 420, 421, 422, 423, 424, 259, 260, 3, 3,
+          33, 240, 176, 75, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          71, 204, 3, 2, 3, 3, 33, 131, 132, 353, 354, 3, 66, 2, 2, 1, 34, 2, 2,
+          2, 1, 1, 1, 2, 2, 2, 451, 452, 453, 454, 455, 456, 131, 132, 3, 3, 3,
+          2, 208, 75, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          296, 33, 2, 2, 2, 3, 3, 163, 164, 385, 386, 3, 34, 1, 1, 1, 1, 1, 2,
+          34, 34, 34, 1, 1, 1, 1, 3, 3, 3, 3, 2, 3, 163, 164, 3, 3, 2, 2, 2,
+          267, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 3, 2, 2, 34, 2, 3, 195, 196, 417, 418, 3, 1, 1, 1, 1, 1, 66, 2, 34,
+          1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 195, 196, 3, 2, 2, 2, 3, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 3, 2, 66, 1, 34, 3, 227, 228, 449, 450, 3, 1, 1, 1, 1, 66, 2, 3,
+          34, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 34, 3, 227, 228, 3, 2, 1, 2, 3, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 3, 2, 1, 1, 1, 3, 259, 260, 3, 3, 66, 1, 1, 1, 1, 34, 34, 34, 34,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 259, 260, 3, 2, 1, 1, 3, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 3, 2, 1, 1, 1, 3, 291, 292, 3, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 291, 292, 3, 2, 1, 1, 3, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 3, 66, 1, 1, 1, 3, 323, 324, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 66, 2, 2, 3, 323, 324, 3, 1, 1, 1, 3, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 2, 34, 1, 1, 1, 3, 417, 418, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 2, 66, 2, 3, 417, 418, 3, 1, 1, 1, 3, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 3, 2, 1, 1, 1, 3, 449, 450, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2,
+          34, 1, 1, 1, 1, 66, 66, 1, 1, 2, 449, 450, 2, 1, 1, 1, 3, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 3, 2, 1, 1, 1, 34, 3, 3, 66, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          34, 34, 1, 1, 1, 1, 1, 1, 1, 34, 2, 2, 66, 1, 1, 1, 3, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 3, 3, 2, 1, 1, 1, 34, 66, 1, 1, 1, 1, 1, 34, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 34, 1, 1, 1, 1, 1, 1, 1, 34, 66, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 3, 2, 2, 1, 1, 66, 1, 1, 1, 1, 1, 1, 34, 2, 34, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 34, 2, 2, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 66, 3, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 2, 2, 1, 1, 1, 1, 131, 132, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 131, 132, 1, 1, 1, 2, 3, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 2, 34, 1, 1, 1, 1, 163, 164, 1, 1, 1, 1, 1, 34, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 163, 164, 1, 1, 1, 2, 3, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 2, 1, 1, 1, 1, 1, 195, 196, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 66, 195, 196, 34, 1, 1, 2, 3, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 3, 1, 1, 1, 1, 66, 227, 228, 34, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 66, 3, 3, 227, 228, 2, 1, 1, 2, 3, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 3, 1, 1, 1, 1, 3, 259, 260, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 34, 34, 1, 1, 66, 3, 3, 3, 259, 260, 3, 1, 1, 2, 3, 9, 9, 9, 9,
+          9, 9, 43, 0
+        ],
+        [
+          0, 3, 1, 1, 1, 1, 3, 131, 132, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 34, 1, 34, 34, 2, 2, 3, 3, 131, 132, 3, 34, 1, 1, 3, 13, 41, 41,
+          41, 41, 15, 75, 0
+        ],
+        [
+          0, 3, 1, 1, 1, 1, 3, 163, 164, 3, 34, 1, 1, 1, 1, 1, 34, 34, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 34, 1, 2, 2, 3, 163, 164, 3, 2, 1, 2, 2, 45, 73, 73,
+          73, 73, 47, 75, 0
+        ],
+        [
+          0, 3, 34, 1, 1, 66, 3, 195, 196, 3, 34, 1, 1, 1, 1, 34, 2, 2, 2, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 34, 2, 257, 258, 195, 196, 3, 2, 1, 2, 3, 77,
+          105, 105, 105, 105, 79, 75, 0
+        ],
+        [
+          0, 3, 3, 34, 66, 3, 3, 227, 228, 3, 34, 34, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 3, 289, 290, 227, 228, 3, 2, 1, 1, 3, 109,
+          137, 137, 137, 137, 111, 75, 0
+        ],
+        [
+          0, 3, 3, 3, 3, 3, 3, 259, 260, 3, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 3, 321, 322, 259, 260, 3, 2, 1, 1, 2, 141, 169,
+          133, 134, 169, 143, 75, 0
+        ],
+        [
+          0, 297, 297, 225, 226, 297, 297, 291, 292, 3, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 353, 354, 291, 292, 3, 1, 1, 1, 3,
+          173, 201, 165, 166, 201, 175, 75, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 323, 324, 3, 2, 34, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 66, 66, 1, 1, 1, 66, 3, 385, 386, 323, 324, 3, 1, 1, 1, 34, 2, 66,
+          1, 1, 3, 3, 267, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 417, 418, 3, 2, 2, 2, 34, 34, 1, 1, 1, 1, 1, 1,
+          1, 2, 2, 2, 34, 34, 34, 34, 3, 417, 418, 417, 418, 3, 2, 1, 1, 1, 1,
+          1, 1, 1, 3, 272, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 449, 450, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+          3, 3, 3, 3, 3, 3, 3, 3, 449, 450, 449, 450, 3, 3, 3, 2, 2, 2, 2, 2, 3,
+          272, 298, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297,
+          297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297,
+          297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 297, 298, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "type": "Collision",
+      "name": "collision",
+      "level": "0",
+      "width": 47,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 9, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 9, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Background",
+      "name": "upper1",
+      "level": "1",
+      "width": 45,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/cargo-ship-inner.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 257, 258, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 355, 356, 357, 358, 359, 360, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 289, 290, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 387, 388, 389, 390, 391, 392, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 321, 322, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 353, 354, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 385, 386, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 257, 258, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 289, 290, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 321, 322, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 353, 354, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 385, 386, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Collision",
+      "name": "collision",
+      "level": "1",
+      "width": 47,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 9, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 9, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Background",
+      "name": "upper2",
+      "level": "2",
+      "width": 45,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/cargo-ship-inner.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 131, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 163, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 196, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 227, 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 259, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Collision",
+      "name": "collision",
+      "level": "2",
+      "width": 47,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Background",
+      "name": "ceiling",
+      "level": "3",
+      "width": 45,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/cargo-ship-inner.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 19, 0, 0, 0, 0, 0, 17, 18, 19, 0, 0,
+          0, 0, 0, 17, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 49, 50, 51, 0, 0, 0, 0, 0, 49, 50, 51, 0, 0,
+          0, 0, 0, 49, 50, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0
+        ],
+        [
+          0, 0, 0, 17, 18, 19, 0, 0, 81, 82, 83, 0, 0, 0, 0, 0, 81, 82, 83, 0,
+          0, 0, 0, 0, 81, 82, 83, 0, 0, 0, 0, 0, 0, 0, 17, 18, 19, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 49, 50, 51, 0, 0, 113, 114, 115, 0, 0, 0, 0, 0, 113, 114,
+          115, 0, 0, 0, 0, 0, 113, 114, 115, 0, 0, 0, 0, 0, 0, 0, 49, 50, 51, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 81, 82, 83, 0, 0, 145, 146, 147, 0, 0, 0, 0, 0, 145, 146,
+          147, 0, 0, 0, 0, 0, 145, 146, 147, 0, 0, 0, 0, 0, 0, 0, 81, 82, 83, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 113, 114, 115, 0, 0, 177, 178, 179, 0, 0, 0, 0, 0, 177, 178,
+          179, 0, 0, 0, 0, 0, 177, 178, 179, 0, 0, 0, 0, 0, 0, 0, 113, 114, 115,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 145, 146, 147, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 146, 147, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 177, 178, 179, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 177, 178, 179, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 178, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 17, 18, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 49, 50, 50, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 81, 82, 82, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 18, 18, 19,
+          0
+        ],
+        [
+          0, 0, 113, 114, 114, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 50, 50,
+          51, 0
+        ],
+        [
+          0, 0, 145, 146, 146, 147, 0, 0, 0, 17, 18, 19, 0, 0, 0, 0, 0, 17, 18,
+          19, 0, 0, 0, 0, 17, 18, 19, 0, 0, 0, 0, 0, 0, 17, 18, 19, 0, 0, 0, 0,
+          81, 82, 82, 83, 0
+        ],
+        [
+          0, 0, 177, 178, 178, 179, 0, 0, 0, 49, 50, 51, 0, 0, 0, 0, 0, 49, 50,
+          51, 0, 0, 0, 0, 49, 50, 51, 0, 0, 0, 0, 0, 0, 49, 50, 51, 0, 0, 0, 0,
+          113, 114, 114, 115, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 81, 82, 83, 0, 0, 0, 0, 0, 81, 82, 83, 0,
+          0, 0, 0, 81, 82, 83, 0, 0, 0, 0, 0, 0, 81, 82, 83, 0, 0, 0, 0, 145,
+          146, 146, 147, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 114, 115, 0, 0, 0, 0, 0, 113, 114,
+          115, 0, 0, 0, 0, 113, 114, 115, 0, 0, 0, 0, 0, 0, 113, 114, 115, 0, 0,
+          0, 0, 177, 178, 178, 179, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 145, 146, 147, 0, 0, 0, 0, 0, 145, 146,
+          147, 0, 0, 0, 0, 145, 146, 147, 0, 0, 0, 0, 0, 0, 145, 146, 147, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 177, 178, 179, 0, 0, 0, 0, 0, 177, 178,
+          179, 0, 0, 0, 0, 177, 178, 179, 0, 0, 0, 0, 0, 0, 177, 178, 179, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Background",
+      "name": "ironbars",
+      "level": "3",
+      "width": 45,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/cargo-ship-inner.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 218, 0, 153, 0, 152, 184, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 183, 151, 0, 153, 0, 217, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 183, 151, 150, 152, 184, 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 183, 151, 150, 152, 184,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 215, 183, 156, 184, 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 183, 156, 184, 216, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 149, 149, 149, 155, 149, 149, 149, 149, 149, 149, 149, 149, 149,
+          149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149,
+          149, 149, 149, 149, 149, 149, 149, 155, 149, 149, 149, 0, 0, 0, 0, 0,
+          0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 149, 149, 149, 155, 149, 149, 182, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152, 184
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 213, 149, 149, 149, 149, 149, 149, 149, 149, 149,
+          149, 149, 149, 155, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149,
+          149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 149, 123, 216
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Light",
+      "name": "lightmap",
+      "level": "last",
+      "width": 47,
+      "height": 40,
+      "visible": 1,
+      "tilesetName": "media/map/lightmap-tiles.png",
+      "repeat": false,
+      "distance": "1",
+      "tilesize": 16,
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0,
+          0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+          0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0,
+          0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0,
+          0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ]
+      ]
+    }
+  ],
+  "attributes": {
+    "saveMode": "",
+    "map-sounds": "CARGO_SHIP_AMBIENT_F",
+    "bgm": "cargoChallenge",
+    "cameraInBounds": false,
+    "mapStyle": "",
+    "weather": "NONE",
+    "area": "autumn-area"
+  },
+  "screen": { "x": -49, "y": 172 }
+}
