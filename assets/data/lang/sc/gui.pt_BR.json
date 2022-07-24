@@ -184,7 +184,7 @@
       "atk": "ATQ",
       "def": "DEF",
       "foc": "FOC",
-      "lvl": "LVL"
+      "lvl": "NÍVEL"
     },
     "msg": {
       "private": "Direct Link",
@@ -1091,7 +1091,7 @@
         "chapter": "Capítulo",
         "chapter0": "Prólogo",
         "chapterLast": "Epílogo",
-        "level": "lvl",
+        "level": "Nível",
         "playtime": "Tempo de Jogo",
         "credit": "créditos",
         "noAuto": "- Nenhum arquivo de salvamento automático ainda -",
@@ -1188,7 +1188,7 @@
           "DASH_SPECIAL": "Esquiva",
           "GUARD_SPECIAL": "Escudo"
         },
-        "lvl": "LVL",
+        "lvl": "Nível",
         "sp": "SP",
         "dmgType": "DMG",
         "damageTypes": ["Corpo a Copo", "À Distância", "Nenhum", "Misturado"],
@@ -1822,10 +1822,10 @@
                 "!!min=66",
                 "--\\c[3]Capítulo\\c[0]:-- Reflete o progresso da história por meio do capítulo em que você está e um pequeno gráfico.",
                 "--\\c[3]Level\\c[0]:-- O level que você tem nesse arquivo salvo.",
-                "--\\c[3]Localização\\c[0]:-- A área e o mapa em que você salvou.",
+                "--\\c[3]Localização\\c[0]: -> A área e o mapa em que você salvou.",
                 "--\\c[3]Elemento\\c[0]:-- Os elementos que você tem neste arquivo salvo.",
                 "--\\c[3]Versão\\c[0]:-- Exibido no canto inferior direito. Mostra a versão do jogo com a qual esse arquivo foi criado pela primeira vez.",
-                "--\\c[3]Tempo de Jogo\\c[0]:-- O tempo total de jogo nesse arquivo salvo. ",
+                "--\\c[3]Tempo de Jogo\\c[0]: -> O tempo total de jogo nesse arquivo salvo.",
                 "--\\c[3]Crédito\\c[0]:-- O Crédito que você acumulou.",
                 "!!min=-1"
               ]
