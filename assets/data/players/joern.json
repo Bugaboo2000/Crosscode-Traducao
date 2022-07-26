@@ -2058,7 +2058,7 @@
       "ATTACK_SPECIAL1": {
         "name": {
           "en_US": "Gravity Taunt",
-          "pt_BR": "Gravity Taunt",
+          "pt_BR": "Provocação de Gravidade",
           "de_DE": "Proximity Blast",
           "zh_CN": "\u91cd\u529b\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u91cd\u529b\u5632\u8bbd<<A<<[JULY 9]",
@@ -2233,7 +2233,7 @@
       "THROW_SPECIAL1": {
         "name": {
           "en_US": "Gravity Taunt",
-          "pt_BR": "Gravity Taunt",
+          "pt_BR": "Provocação de Gravidade",
           "de_DE": "Proximity Blast",
           "zh_CN": "\u91cd\u529b\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u91cd\u529b\u5632\u8bbd<<A<<[JULY 9]",
@@ -2397,7 +2397,7 @@
       "GUARD_SPECIAL1": {
         "name": {
           "en_US": "Kinetic Shield",
-          "pt_BR": "Kinetic Shield",
+          "pt_BR": "Escudo Cinético",
           "de_DE": "Guard Sphere",
           "zh_CN": "\u52a8\u80fd\u62a4\u76fe<<A<<[JULY 9]",
           "zh_TW": "\u52a8\u80fd\u62a4\u76fe<<A<<[JULY 9]",
@@ -2462,7 +2462,7 @@
       "ATTACK_SPECIAL1": {
         "name": {
           "en_US": "Heat Taunt",
-          "pt_BR": "Heat Taunt",
+          "pt_BR": "Provocação de Fogo",
           "de_DE": "Hitzetrotz",
           "zh_CN": "\u70ed\u80fd\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u70ed\u80fd\u5632\u8bbd<<A<<[JULY 9]",
@@ -2637,7 +2637,7 @@
       "THROW_SPECIAL1": {
         "name": {
           "en_US": "Heat Taunt",
-          "pt_BR": "Heat Taunt",
+          "pt_BR": "Provocação de Fogo",
           "de_DE": "Hitzetrotz",
           "zh_CN": "\u70ed\u80fd\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u70ed\u80fd\u5632\u8bbd<<A<<[JULY 9]",
@@ -2801,7 +2801,7 @@
       "GUARD_SPECIAL1": {
         "name": {
           "en_US": "Heatshield",
-          "pt_BR": "Heatshield",
+          "pt_BR": "Escudo de Fogo",
           "de_DE": "Hitzeschild",
           "zh_CN": "\u70ed\u529b\u62a4\u76fe<<A<<[JULY 9]",
           "zh_TW": "\u70ed\u529b\u62a4\u76fe<<A<<[JULY 9]",
@@ -2924,7 +2924,7 @@
       "ATTACK_SPECIAL1": {
         "name": {
           "en_US": "Cold Taunt",
-          "pt_BR": "Cold Taunt",
+          "pt_BR": "Provocação de Gelo",
           "de_DE": "K\u00e4ltetrotz",
           "zh_CN": "\u51b0\u51b7\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u51b0\u51b7\u5632\u8bbd<<A<<[JULY 9]",
@@ -3099,7 +3099,7 @@
       "THROW_SPECIAL1": {
         "name": {
           "en_US": "Cold Taunt",
-          "pt_BR": "Cold Taunt",
+          "pt_BR": "Provocação de Gelo",
           "de_DE": "K\u00e4ltetrotz",
           "zh_CN": "\u51b0\u51b7\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u51b0\u51b7\u5632\u8bbd<<A<<[JULY 9]",
@@ -3263,7 +3263,7 @@
       "GUARD_SPECIAL1": {
         "name": {
           "en_US": "Coldshield",
-          "pt_BR": "Coldshield",
+          "pt_BR": "Escudo de Gelo",
           "de_DE": "K\u00e4lteschild",
           "zh_CN": "\u51b0\u51b7\u62a4\u76fe<<A<<[JULY 9]",
           "zh_TW": "\u51b0\u51b7\u62a4\u76fe<<A<<[JULY 9]",
@@ -3386,7 +3386,7 @@
       "ATTACK_SPECIAL1": {
         "name": {
           "en_US": "Shock Taunt",
-          "pt_BR": "Shock Taunt",
+          "pt_BR": "Provocação de Choque",
           "de_DE": "Schocktrotz",
           "zh_CN": "\u7535\u529b\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u7535\u529b\u5632\u8bbd<<A<<[JULY 9]",
@@ -3561,7 +3561,7 @@
       "THROW_SPECIAL1": {
         "name": {
           "en_US": "Shock Taunt",
-          "pt_BR": "Shock Taunt",
+          "pt_BR": "Provocação de Choque",
           "de_DE": "Schocktrotz",
           "zh_CN": "\u7535\u529b\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u7535\u529b\u5632\u8bbd<<A<<[JULY 9]",
@@ -3725,7 +3725,7 @@
       "GUARD_SPECIAL1": {
         "name": {
           "en_US": "Shockshield",
-          "pt_BR": "Shockshield",
+          "pt_BR": "Escudo de Choque",
           "de_DE": "Schockschild",
           "zh_CN": "\u95ea\u7535\u62a4\u76fe<<A<<[JULY 9]",
           "zh_TW": "\u95ea\u7535\u62a4\u76fe<<A<<[JULY 9]",
@@ -3848,7 +3848,7 @@
       "ATTACK_SPECIAL1": {
         "name": {
           "en_US": "Wave Taunt",
-          "pt_BR": "Wave Taunt",
+          "pt_BR": "Provocação de Onda",
           "de_DE": "Welletrotz",
           "zh_CN": "\u6ce2\u6d9b\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u6ce2\u6d9b\u5632\u8bbd<<A<<[JULY 9]",
@@ -4023,7 +4023,7 @@
       "THROW_SPECIAL1": {
         "name": {
           "en_US": "Wave Taunt",
-          "pt_BR": "Wave Taunt",
+          "pt_BR": "Provocação de Onda",
           "de_DE": "Welletrotz",
           "zh_CN": "\u6ce2\u6d9b\u5632\u8bbd<<A<<[JULY 9]",
           "zh_TW": "\u6ce2\u6d9b\u5632\u8bbd<<A<<[JULY 9]",
@@ -4187,7 +4187,7 @@
       "GUARD_SPECIAL1": {
         "name": {
           "en_US": "Waveshield",
-          "pt_BR": "Waveshield",
+          "pt_BR": "Escudo de Onda",
           "de_DE": "Welleschild",
           "zh_CN": "\u6ce2\u6d6a\u62a4\u76fe<<A<<[JULY 9]",
           "zh_TW": "\u6ce2\u6d6a\u62a4\u76fe<<A<<[JULY 9]",
