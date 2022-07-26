@@ -1,0 +1,4476 @@
+{
+  "character": "main.shizuka",
+  "sheet": "shizuka",
+  "headIdx": 1,
+  "class": "SPHEROMANCER",
+  "stats": {
+    "hp": {
+      "base": 200,
+      "increase": 2000,
+      "variance": 0.1
+    },
+    "attack": {
+      "base": 20,
+      "increase": 200,
+      "variance": 0.9
+    },
+    "defense": {
+      "base": 20,
+      "increase": 200,
+      "variance": 0.5
+    },
+    "focus": {
+      "base": 20,
+      "increase": 200,
+      "variance": 0.3
+    }
+  },
+  "combatStyle": {
+    "comboCount": 4,
+    "throwCount": 0,
+    "throwProb": 0.4,
+    "sidewaySpeed": 0,
+    "normDistance": 0,
+    "meleeDistance": 0,
+    "minDistance": 0,
+    "foodSprites": [
+      "BEAR_BEER",
+      "GRAB_MEAD",
+      "FOX_SAKE"
+    ]
+  },
+  "walkAnims": null,
+  "autoequip": [
+    {
+      "level": 3,
+      "HEAD": 23,
+      "LEFT_ARM": 24,
+      "RIGHT_ARM": 24,
+      "TORSO": 26,
+      "FEET": 25
+    },
+    {
+      "level": 6,
+      "HEAD": 31,
+      "LEFT_ARM": 29,
+      "RIGHT_ARM": 29,
+      "TORSO": 30,
+      "FEET": 32
+    },
+    {
+      "level": 10,
+      "HEAD": 116,
+      "LEFT_ARM": 56,
+      "RIGHT_ARM": 37,
+      "TORSO": 41,
+      "FEET": 44
+    },
+    {
+      "level": 13,
+      "HEAD": 116,
+      "LEFT_ARM": 57,
+      "RIGHT_ARM": 111,
+      "TORSO": 47,
+      "FEET": 44
+    },
+    {
+      "level": 16,
+      "HEAD": 118,
+      "LEFT_ARM": 113,
+      "RIGHT_ARM": 113,
+      "TORSO": 122,
+      "FEET": 121
+    },
+    {
+      "level": 20,
+      "HEAD": 119,
+      "LEFT_ARM": 114,
+      "RIGHT_ARM": 8,
+      "TORSO": 123,
+      "FEET": 120
+    },
+    {
+      "level": 23,
+      "HEAD": 208,
+      "LEFT_ARM": 209,
+      "RIGHT_ARM": 8,
+      "TORSO": 210,
+      "FEET": 211
+    },
+    {
+      "level": 27,
+      "HEAD": 204,
+      "LEFT_ARM": 205,
+      "RIGHT_ARM": 205,
+      "TORSO": 206,
+      "FEET": 207
+    },
+    {
+      "level": 30,
+      "HEAD": 213,
+      "LEFT_ARM": 222,
+      "RIGHT_ARM": 223,
+      "TORSO": 215,
+      "FEET": 220
+    },
+    {
+      "level": 34,
+      "HEAD": 264,
+      "LEFT_ARM": 266,
+      "RIGHT_ARM": 266,
+      "TORSO": 268,
+      "FEET": 270
+    },
+    {
+      "level": 38,
+      "HEAD": 293,
+      "LEFT_ARM": 302,
+      "RIGHT_ARM": 266,
+      "TORSO": 307,
+      "FEET": 309
+    },
+    {
+      "level": 42,
+      "HEAD": 265,
+      "LEFT_ARM": 267,
+      "RIGHT_ARM": 267,
+      "TORSO": 269,
+      "FEET": 271
+    },
+    {
+      "level": 46,
+      "HEAD": 296,
+      "LEFT_ARM": 300,
+      "RIGHT_ARM": 303,
+      "TORSO": 305,
+      "FEET": 310
+    },
+    {
+      "level": 50,
+      "HEAD": 393,
+      "LEFT_ARM": 394,
+      "RIGHT_ARM": 394,
+      "TORSO": 395,
+      "FEET": 396
+    },
+    {
+      "level": 56,
+      "HEAD": 365,
+      "LEFT_ARM": 412,
+      "RIGHT_ARM": 394,
+      "TORSO": 416,
+      "FEET": 418
+    },
+    {
+      "level": 59,
+      "HEAD": 397,
+      "LEFT_ARM": 398,
+      "RIGHT_ARM": 398,
+      "TORSO": 399,
+      "FEET": 400
+    },
+    {
+      "level": 63,
+      "HEAD": 473,
+      "LEFT_ARM": 476,
+      "RIGHT_ARM": 351,
+      "TORSO": 477,
+      "FEET": 481
+    },
+    {
+      "level": 69,
+      "HEAD": 568,
+      "LEFT_ARM": 567,
+      "RIGHT_ARM": 567,
+      "TORSO": 569,
+      "FEET": 570,
+      "condition": "plot.line >= 40000"
+    },
+    {
+      "level": 74,
+      "HEAD": 576,
+      "LEFT_ARM": 577,
+      "RIGHT_ARM": 581,
+      "TORSO": 604,
+      "FEET": 611,
+      "condition": "plot.line >= 40000"
+    }
+  ],
+  "DOCTYPE": "PLAYER",
+  "proxies": {
+    "defaultNeutral": {
+      "effects": "ball",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "NEUTRAL",
+        "damageFactor": 0.6,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ],
+      "type": "BALL"
+    },
+    "chargedNeutral": {
+      "effects": "ball",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": true,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "NEUTRAL",
+        "damageFactor": 1.3,
+        "reverse": false,
+        "spFactor": 1,
+        "hints": [
+          "CHARGED"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "special1": {
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 120
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "effects": "ball-special",
+      "maxBounce": 3,
+      "timer": 1.5,
+      "effectKeys": {
+        "bounce": "steelBounce",
+        "wall": "steelWall",
+        "air": "steelAir",
+        "trail": "steelTrail"
+      },
+      "attack": {
+        "type": "HEAVY",
+        "damageFactor": 3,
+        "spFactor": 0,
+        "skillBonus": "RANGED_DMG",
+        "hints": [
+          "CHARGED"
+        ]
+      },
+      "speed": 600,
+      "trail": true,
+      "multiHit": true
+    },
+    "specialSmall": {
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "effects": "ball",
+      "maxBounce": 0,
+      "timer": 1,
+      "attack": {
+        "type": "MEDIUM",
+        "damageFactor": 0.8,
+        "spFactor": 0,
+        "skillBonus": "RANGED_DMG"
+      },
+      "speed": 550
+    },
+    "defaultHeat": {
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "effects": "ball-heat",
+      "maxBounce": 0,
+      "timer": 1,
+      "attack": {
+        "type": "LIGHT",
+        "damageFactor": 0.6,
+        "element": "HEAT",
+        "skillBonus": "RANGED_DMG"
+      },
+      "speed": 550
+    },
+    "chargedHeat": {
+      "effects": "ball-heat",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": true,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "HEAT",
+        "damageFactor": 1.3,
+        "reverse": false,
+        "status": 1,
+        "hints": [
+          "CHARGED"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "powerball": {
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "effects": "ball-heat",
+      "maxBounce": 3,
+      "timer": 1.5,
+      "attack": {
+        "type": "MEDIUM",
+        "damageFactor": 1,
+        "element": "HEAT",
+        "skillBonus": "RANGED_DMG",
+        "hints": [
+          "CHARGED"
+        ]
+      },
+      "speed": 600,
+      "trail": true
+    },
+    "flame": {
+      "size": {
+        "x": 16,
+        "y": 16,
+        "z": 16
+      },
+      "effects": "specials.heat",
+      "effectKeys": {
+        "wall": "flameKill"
+      },
+      "speed": 400,
+      "maxBounce": 0,
+      "timer": 0.8,
+      "trail": false,
+      "multiHit": true,
+      "light": "XL",
+      "noLightGlow": true,
+      "type": "BALL",
+      "effect": "ar",
+      "maxBounds": 0,
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/effects\/heat.png",
+          "xCount": 6,
+          "offX": 0,
+          "offY": 0,
+          "width": 48,
+          "height": 48
+        },
+        "guiSprites": true,
+        "time": 0.07,
+        "repeat": false,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "HEAT",
+        "damageFactor": 0.45,
+        "reverse": false,
+        "spFactor": 0,
+        "status": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "behaviors": [
+        {
+          "type": "SLOW_DOWN",
+          "speedFactor": 0,
+          "fadeOut": 0.15,
+          "pause": 5,
+          "fadeIn": 0.2,
+          "startWait": 0.3,
+          "fadeOutVary": 0.15
+        }
+      ],
+      "timeBoni": null
+    },
+    "flameRing": {
+      "copyOwnerAnims": false,
+      "breakType": "COMBATANT",
+      "action": [
+        {
+          "face": "SOUTH",
+          "rotate": false,
+          "rotateSpeed": 3,
+          "type": "SET_FACE"
+        },
+        {
+          "value": true,
+          "type": "SET_FACE_FIX"
+        },
+        {
+          "duration": -1,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.heat",
+            "name": "flameRing"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "align": "BOTTOM",
+          "radius": 32,
+          "yScale": 0,
+          "zHeight": 32,
+          "expandRadius": 0,
+          "alwaysFull": false,
+          "clockwise": false,
+          "flipLeftFace": false,
+          "rectangular": false,
+          "type": "CIRCLE_ATTACK",
+          "attack": {
+            "type": "NONE",
+            "visualType": "LIGHT",
+            "element": "HEAT",
+            "damageFactor": 0.3,
+            "spFactor": 0,
+            "skillBonus": "RANGED_DMG"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "centralAngle": 20,
+          "duration": 6
+        },
+        {
+          "time": 6,
+          "type": "WAIT"
+        },
+        {
+          "type": "CLEAR_EFFECTS"
+        }
+      ],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "OWNER",
+      "stickFaceAlign": false,
+      "group": "",
+      "type": "GENERIC",
+      "size": {
+        "x": 24,
+        "y": 24,
+        "z": 32
+      },
+      "config": {
+        "collType": "NONE"
+      }
+    },
+    "mine": {
+      "animation": {
+        "SUB": [
+          {
+            "name": "default",
+            "shapeType": "Y_FLAT",
+            "offset": {
+              "x": 0,
+              "y": -24,
+              "z": 0
+            },
+            "sheet": {
+              "src": "media\/entity\/effects\/bomb-explo.png",
+              "offX": 0,
+              "offY": 32,
+              "width": 24,
+              "height": 16
+            },
+            "time": 0.05,
+            "repeat": true,
+            "frames": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "copyOwnerAnims": false,
+      "breakType": "NEVER",
+      "action": [
+        {
+          "duration": -1,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.heat",
+            "name": "mineBlink"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "value": 0,
+          "type": "SET_SPEED"
+        },
+        {
+          "time": 0.3,
+          "type": "WAIT"
+        },
+        {
+          "time": 5,
+          "cancelOnHit": true,
+          "type": "TACKLE",
+          "attack": {
+            "type": "LIGHT",
+            "element": "HEAT"
+          }
+        },
+        {
+          "duration": 0,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": true,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.heat",
+            "name": "mineExplosion"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "align": "BOTTOM",
+          "radius": 16,
+          "yScale": 0,
+          "zHeight": 32,
+          "centralAngle": 0,
+          "duration": 0.2,
+          "expandRadius": 32,
+          "alwaysFull": true,
+          "clockwise": false,
+          "flipLeftFace": false,
+          "rectangular": false,
+          "type": "CIRCLE_ATTACK",
+          "attack": {
+            "type": "HEAVY",
+            "element": "HEAT",
+            "damageFactor": 3.5,
+            "spFactor": 0,
+            "skillBonus": "RANGED_DMG"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "type": "CLEAR_EFFECTS"
+        },
+        {
+          "time": 0.3,
+          "type": "WAIT"
+        }
+      ],
+      "invisible": true,
+      "hp": 0,
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "",
+      "size": {
+        "x": 64,
+        "y": 64,
+        "z": 32
+      },
+      "config": {
+        "collType": "IGNORE"
+      },
+      "type": "GENERIC"
+    },
+    "defaultCold": {
+      "effects": "ball-cold",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 48
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "COLD",
+        "damageFactor": 0.6,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "chargedCold": {
+      "effects": "ball-cold",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": true,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 48
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "COLD",
+        "damageFactor": 1.3,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "defaultShock": {
+      "effects": "ball-shock",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 72
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "SHOCK",
+        "damageFactor": 0.6,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "chargedShock": {
+      "effects": "ball-shock",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": true,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 72
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "attack": {
+        "type": "MEDIUM",
+        "element": "SHOCK",
+        "damageFactor": 1.3,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "defaultWave": {
+      "effects": "ball-wave",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 96
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "WAVE",
+        "damageFactor": 0.6,
+        "reverse": false,
+        "spFactor": 1,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "chargedWave": {
+      "effects": "ball-wave",
+      "speed": 600,
+      "maxBounce": 3,
+      "timer": 1.5,
+      "trail": true,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 96
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "attack": {
+        "type": "MEDIUM",
+        "element": "WAVE",
+        "damageFactor": 1.3,
+        "reverse": false,
+        "spFactor": 1,
+        "status": 1,
+        "hints": [
+          "CHARGED"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "flameWall": {
+      "copyOwnerAnims": false,
+      "breakType": "COMBATANT",
+      "action": [
+        {
+          "duration": -1,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "fixPos": false,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.heat",
+            "name": "flameWall"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "align": "BOTTOM",
+          "radius": 32,
+          "yScale": 0,
+          "zHeight": 32,
+          "centralAngle": 1,
+          "duration": 0.3,
+          "expandRadius": 0,
+          "alwaysFull": true,
+          "clockwise": false,
+          "flipLeftFace": 0,
+          "rectangular": false,
+          "repeat": true,
+          "uniformHitDir": false,
+          "fixPos": false,
+          "checkCollision": true,
+          "type": "CIRCLE_ATTACK",
+          "attack": {
+            "type": "NONE",
+            "visualType": "LIGHT",
+            "element": "HEAT",
+            "damageFactor": 0.3,
+            "reverse": false,
+            "spFactor": 0,
+            "status": 1,
+            "guardable": "",
+            "skillBonus": "RANGED_DMG"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "time": 5,
+          "type": "WAIT"
+        },
+        {
+          "type": "CLEAR_EFFECTS"
+        }
+      ],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "wall",
+      "type": "GENERIC",
+      "size": {
+        "x": 24,
+        "y": 24,
+        "z": 32
+      },
+      "config": {
+        "collType": "NONE"
+      }
+    },
+    "iceSpecialSmall": {
+      "effects": "ball",
+      "speed": 550,
+      "maxBounce": 1,
+      "timer": 1.5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/effects\/icicles.png",
+          "offX": 144,
+          "offY": 16,
+          "width": 16,
+          "height": 24
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "MEDIUM",
+        "element": "COLD",
+        "damageFactor": 0.45,
+        "reverse": false,
+        "spFactor": 0,
+        "status": 0.75,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+        {
+          "type": "SLOW_DOWN",
+          "speedFactor": 0.05,
+          "fadeOut": 0.1,
+          "pauseVary": 0.1,
+          "pause": 0.1,
+          "fadeIn": 0.2
+        }
+      ]
+    },
+    "iceSnowball": {
+      "effects": "ball-cold",
+      "speed": 600,
+      "maxBounce": 0,
+      "timer": 1.5,
+      "trail": true,
+      "multiHit": false,
+      "noLightGlow": false,
+      "destroyProxy": "iceSnowExplode",
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/effects\/cold.png",
+          "offX": 192,
+          "offY": 0,
+          "width": 16,
+          "height": 16
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "COLD",
+        "damageFactor": 0,
+        "reverse": false,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "iceSnowExplode": {
+      "copyOwnerAnims": false,
+      "breakType": "NEVER",
+      "action": [
+        {
+          "duration": 0,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "fixPos": false,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.cold",
+            "name": "coldExplode"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "align": "BOTTOM",
+          "radius": 32,
+          "yScale": 0,
+          "zHeight": 4,
+          "centralAngle": 1,
+          "duration": 0.2,
+          "expandRadius": 32,
+          "alwaysFull": true,
+          "clockwise": false,
+          "flipLeftFace": 0,
+          "rectangular": false,
+          "repeat": false,
+          "uniformHitDir": false,
+          "fixPos": false,
+          "checkCollision": true,
+          "type": "CIRCLE_ATTACK",
+          "attack": {
+            "type": "HEAVY",
+            "element": "COLD",
+            "damageFactor": 3,
+            "fly": "LIGHT",
+            "reverse": false,
+            "status": 1,
+            "hints": [
+              "CHARGED"
+            ],
+            "guardable": "",
+            "skillBonus": "RANGED_DMG",
+            "limiter": ""
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "time": 0.2,
+          "type": "WAIT"
+        },
+        {
+          "sticking": false,
+          "group": "wall",
+          "keepCount": 16,
+          "type": "REMOVE_PROXIES"
+        },
+        {
+          "align": "BOTTOM",
+          "centralAngle": 1,
+          "angleVary": 0,
+          "startDist": 48,
+          "startDistCollide": "DROP",
+          "limitRangeOnColl": true,
+          "random": false,
+          "count": 8,
+          "duration": 0,
+          "clockwise": false,
+          "flipLeftFace": 0,
+          "circularArea": false,
+          "uniformDir": 0,
+          "delay": 0,
+          "repeat": false,
+          "maxGroundDistance": 24,
+          "type": "SHOOT_PROXY_RANGE",
+          "proxy": "icicleSmall",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "time": 0.1,
+          "type": "WAIT"
+        }
+      ],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "",
+      "startAnim": "",
+      "size": {
+        "x": 16,
+        "y": 16,
+        "z": 16
+      },
+      "config": {
+        "zGravityFactor": 0
+      },
+      "type": "GENERIC"
+    },
+    "icicleSmall": {
+      "animation": {
+        "shapeType": "Y_FLAT",
+        "wallY": 1,
+        "frames": [
+          0
+        ],
+        "SUB": [
+          {
+            "name": "default",
+            "pivot": {
+              "x": 20,
+              "y": 40
+            },
+            "offset": {
+              "x": 0,
+              "y": -4,
+              "z": 0
+            },
+            "gfxOffset": {
+              "x": 0,
+              "y": 8
+            },
+            "sheet": {
+              "src": "media\/entity\/effects\/icicles.png  ",
+              "offX": 88,
+              "offY": 0,
+              "width": 40,
+              "height": 56
+            }
+          },
+          {
+            "name": "alt",
+            "pivot": {
+              "x": 20,
+              "y": 40
+            },
+            "sheet": {
+              "src": "media\/entity\/effects\/icicles.png  ",
+              "offX": 88,
+              "offY": 56,
+              "width": 48,
+              "height": 40
+            }
+          }
+        ]
+      },
+      "copyOwnerAnims": false,
+      "breakType": "COMBATANT",
+      "action": [
+        {
+          "type": "SHOW_RANDOM_ANIMATION",
+          "randAnims": [
+            "default",
+            "alt"
+          ]
+        },
+        {
+          "duration": 0,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "fixPos": false,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.icicles",
+            "name": "smallAppear"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "value": 0,
+          "type": "SET_SPEED"
+        },
+        {
+          "time": 0.3,
+          "type": "WAIT"
+        },
+        {
+          "time": 5,
+          "cancelOnHit": true,
+          "orthoDirFactor": 0,
+          "ignoreLastHit": false,
+          "type": "TACKLE",
+          "attack": {
+            "type": "MEDIUM",
+            "element": "COLD",
+            "damageFactor": 0.75,
+            "reverse": false,
+            "spFactor": 0,
+            "status": 1,
+            "guardable": "",
+            "skillBonus": "MELEE_DMG"
+          }
+        }
+      ],
+      "invisible": true,
+      "hp": 0.5,
+      "killEffect": {
+        "sheet": "specials.icicles",
+        "name": "icicleExplodeSmall"
+      },
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "wall",
+      "startAnim": "",
+      "size": {
+        "x": 24,
+        "y": 24,
+        "z": 24
+      },
+      "config": {
+        "collType": "IGNORE"
+      },
+      "type": "GENERIC"
+    },
+    "shockHoming": {
+      "effects": "ball-shock",
+      "speed": 550,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media\/entity\/balls\/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 72
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          4
+        ]
+      },
+      "attack": {
+        "type": "LIGHT",
+        "element": "SHOCK",
+        "damageFactor": 0.5,
+        "reverse": false,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+        {
+          "type": "FOLLOW_TARGET",
+          "steerDegree": 0.6,
+          "adjustTime": 0.3
+        },
+        {
+          "type": "SLOW_DOWN",
+          "speedFactor": 0.1,
+          "fadeOut": 0.033,
+          "pause": 0.3,
+          "fadeIn": 0.2
+        }
+      ]
+    },
+    "shockDashLine": {
+      "copyOwnerAnims": false,
+      "breakType": "ACTION",
+      "action": [
+        {
+          "attribName": "id",
+          "changeType": "set",
+          "proxyOwner": false,
+          "type": "SET_ATTRIB_NUMBER",
+          "value": {
+            "varName": "entity.ownerAttrib.id"
+          }
+        },
+        {
+          "selectType": "PROXY_SOURCE",
+          "type": "SET_PROXY_TEMP_TARGET"
+        },
+        {
+          "duration": -1,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "target2": "TARGET",
+          "target2Offset": {
+            "x": 0,
+            "y": 0,
+            "z": 12
+          },
+          "fixPos": false,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.shock",
+            "name": "dashLine"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 12
+          }
+        },
+        {
+          "type": "WAIT_UNTIL",
+          "condition": "entity.ownerAttrib.flash >= entity.attrib.id"
+        },
+        {
+          "type": "CLEAR_EFFECTS"
+        },
+        {
+          "duration": 0.4,
+          "align": "BOTTOM",
+          "rotateFace": 0,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "target2": "TARGET",
+          "target2Offset": {
+            "x": 0,
+            "y": 0,
+            "z": 12
+          },
+          "fixPos": true,
+          "type": "SHOW_EFFECT",
+          "effect": {
+            "sheet": "specials.shock",
+            "name": "dashLightning"
+          },
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 12
+          }
+        },
+        {
+          "value": 0.0001,
+          "type": "SET_BOUNCINESS"
+        },
+        {
+          "value": 3000,
+          "type": "SET_SPEED"
+        },
+        {
+          "value": false,
+          "immediately": true,
+          "type": "FACE_TO_TARGET"
+        },
+        {
+          "time": 1,
+          "missReactTime": 0,
+          "cancelOnHit": false,
+          "orthoDirFactor": 1,
+          "ignoreLastHit": false,
+          "type": "TACKLE",
+          "attack": {
+            "type": "MASSIVE",
+            "element": "SHOCK",
+            "damageFactor": 3,
+            "fly": "MASSIVE",
+            "reverse": false,
+            "status": 1,
+            "guardable": "",
+            "skillBonus": "MELEE_DMG",
+            "limiter": ""
+          }
+        },
+        {
+          "type": "STOP_XY"
+        },
+        {
+          "time": 1,
+          "type": "WAIT"
+        }
+      ],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "",
+      "startAnim": "",
+      "size": {
+        "x": 40,
+        "y": 40,
+        "z": 32
+      },
+      "config": {
+        "collType": "TRIGGER",
+        "zGravityFactor": 0
+      },
+      "type": "GENERIC"
+    },
+    "waveGun": {
+      "size": {
+        "x": 16,
+        "y": 16,
+        "z": 8
+      },
+      "effects": "specials.wave",
+      "effectKeys": {
+        "trail": "waveGun",
+        "wall": "waveGunXplode",
+        "air": "waveGunXplode"
+      },
+      "speed": 1200,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": true,
+      "multiHit": true,
+      "light": "XL",
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "gfxOffset": {
+          "x": 0,
+          "y": -4
+        },
+        "sheet": {
+          "src": "media\/entity\/effects\/lighter-particle.png",
+          "offX": 144,
+          "offY": 0,
+          "width": 16,
+          "height": 16
+        },
+        "renderMode": "lighter",
+        "time": 0.05,
+        "repeat": true,
+        "frames": [
+          0
+        ]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "WAVE",
+        "damageFactor": 4,
+        "reverse": false,
+        "spFactor": 0,
+        "hints": [
+          "CHARGED"
+        ],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+      ]
+    },
+    "waveDashStun": {
+      "copyOwnerAnims": false,
+      "breakType": "COMBATANT",
+      "action": [
+        {
+          "selectType": "TARGET",
+          "hitDir": "TOWARD",
+          "align": "BOTTOM",
+          "hitCount": 5,
+          "hitDelay": 0.15,
+          "type": "DIRECT_HIT",
+          "attack": {
+            "type": "HEAVY",
+            "visualType": "LIGHT",
+            "element": "WAVE",
+            "damageFactor": 0.5,
+            "reverse": false,
+            "spFactor": 0,
+            "stunSteps": [
+              {
+                "type": "START_LOCK"
+              },
+              {
+                "type": "BLOCK_XY"
+              }
+            ],
+            "status": 1.25,
+            "guardable": "",
+            "skillBonus": "MELEE_DMG"
+          }
+        },
+        {
+          "time": 0.9,
+          "type": "WAIT"
+        }
+      ],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "",
+      "startAnim": "",
+      "size": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "config": {
+        "zGravityFactor": 0
+      },
+      "type": "GENERIC"
+    }
+  },
+  "actions": {
+    "BASE": {
+      "ATTACK": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 0.21,
+              "move": 0.3,
+              "reaim": 0.4
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "attackEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "attack",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "sweepType": "SPHEROMANCER",
+            "reversed": false,
+            "faceCount": 8,
+            "flipLeftFace": false,
+            "type": "COMBAT_SWEEP"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "baseStrength": 0.8,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "time": 0.45,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "ATTACK_REV": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.21,
+              "move": 0.3,
+              "reaim": 0.4
+            }
+          },
+          {
+            "followUp": "attackEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "attackRev"
+          },
+          {
+            "sweepType": "SPHEROMANCER",
+            "reversed": true,
+            "faceCount": 8,
+            "flipLeftFace": false,
+            "type": "COMBAT_SWEEP"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          },
+          {
+            "baseStrength": 0.8,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "time": 0.45,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "ATTACK_FINISHER": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "charge": 0.3,
+              "action": 0.7,
+              "move": 0.8,
+              "reaim": 0.9
+            }
+          },
+          {
+            "followUp": "attackEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "attackFinisher"
+          },
+          {
+            "sweepType": "SPHEROMANCER_FINISHER",
+            "reversed": false,
+            "faceCount": 8,
+            "flipLeftFace": false,
+            "type": "COMBAT_SWEEP"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "time": 0.15,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "value": 50,
+            "type": "SET_SPEED"
+          },
+          {
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "baseStrength": 2,
+            "type": "SPAWN_ASSAULT"
+          },
+          {
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "time": 0.65,
+            "type": "WAIT"
+          },
+          {
+            "followUp": "idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "preIdle"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "AIM_START": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "followUp": "aim",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "startAim"
+          },
+          {
+            "time": 0.14,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "CHARGING": [
+        {
+          "type": "SHOW_ANIMATION",
+          "anim": "startCharge",
+          "followUp": "charge"
+        },
+        {
+          "type": "WAIT",
+          "time": -1
+        }
+      ],
+      "THROW_NORMAL": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.18,
+              "move": 0.3,
+              "reaim": 0.4
+            }
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "elementProxy": "QUICK",
+            "type": "SHOOT_PROXY_PLAYER"
+          },
+          {
+            "followUp": "throwEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwShort"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "type": "WAIT",
+            "time": 0.4
+          }
+        ]
+      },
+      "THROW_NORMAL_REV": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.18,
+              "move": 0.3,
+              "reaim": 0.4
+            }
+          },
+          {
+            "charged": false,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "elementProxy": "QUICK",
+            "type": "SHOOT_PROXY_PLAYER"
+          },
+          {
+            "followUp": "throwEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwShortRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "type": "WAIT",
+            "time": 0.4
+          }
+        ]
+      },
+      "THROW_CHARGED": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.2,
+              "move": 0.3,
+              "reaim": 0.4
+            }
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "elementProxy": "CHARGED",
+            "type": "SHOOT_PROXY_PLAYER"
+          },
+          {
+            "followUp": "throwEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throw"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "type": "WAIT",
+            "time": 0.4
+          }
+        ]
+      },
+      "THROW_CHARGED_REV": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.2,
+              "move": 0.3,
+              "reaim": 0.4
+            }
+          },
+          {
+            "charged": true,
+            "type": "SHOW_THROW_FX"
+          },
+          {
+            "elementProxy": "CHARGED",
+            "type": "SHOOT_PROXY_PLAYER"
+          },
+          {
+            "followUp": "throwEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwRev"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "type": "WAIT",
+            "time": 0.4
+          }
+        ]
+      },
+      "DASH": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "volume": 0.9,
+            "global": false,
+            "loop": false,
+            "type": "PLAY_SOUND",
+            "sound": "media\/sound\/battle\/dash-3.ogg"
+          },
+          {
+            "factor": 1,
+            "type": "SET_PLAYER_INVINCIBLE"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "idle"
+          },
+          {
+            "followUp": "aimMove",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 320,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "value": "IGNORE",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "duration": 0.2,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "dust",
+              "name": "line"
+            },
+            "offset": {
+              "x": 0,
+              "y": 3,
+              "z": 6
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "value": "VIRTUAL",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.11,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "type": "WAIT",
+            "time": 0.2
+          }
+        ]
+      },
+      "DASH_SLOW": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "idle"
+          },
+          {
+            "followUp": "aimMove",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 160,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.12,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "type": "WAIT",
+            "time": 0.24
+          }
+        ]
+      },
+      "GUARD": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "followUp": "guard",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "preIdle"
+          },
+          {
+            "actionDetached": false,
+            "type": "ADD_SHIELD",
+            "shield": {
+              "type": "PLAYER",
+              "settings": {
+                "baseFactor": 1,
+                "range": 0.5
+              }
+            }
+          },
+          {
+            "type": "WAIT",
+            "time": -1
+          }
+        ]
+      },
+      "PERFECT_GUARD": {
+        "dmgType": "",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "guard"
+          },
+          {
+            "duration": 0,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "guard",
+              "name": "perfectGuardStart"
+            }
+          },
+          {
+            "actionDetached": false,
+            "perfectGuardTime": 0.1,
+            "type": "ADD_SHIELD",
+            "shield": {
+              "type": "PLAYER",
+              "settings": {
+                "baseFactor": 1,
+                "range": 0.5
+              }
+            }
+          },
+          {
+            "type": "WAIT",
+            "time": -1
+          }
+        ]
+      }
+    },
+    "NEUTRAL": {
+      "ATTACK_SPECIAL1_A": {
+        "name": {
+          "en_US": "Spin Dance",
+          "pt_BR": "Spin Dance",
+          "de_DE": "Spin Dance",
+          "zh_CN": "\u65cb\u821e<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u65cb\u821e<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u30b9\u30d4\u30f3\u30c0\u30f3\u30b9<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\uc2a4\ud540 \ub304\uc2a4<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 77
+        },
+        "description": {
+          "en_US": "A wide-ranged spinning move hitting many nearby enemies.",
+          "pt_BR": "A wide-ranged spinning move hitting many nearby enemies.",
+          "de_DE": "Eine weitreichende Drehattacke, die viele nahe Gegner trifft.",
+          "zh_CN": "\u5927\u8303\u56f4\u65cb\u8f6c\u62db\u5f0f\uff0c\u51fb\u4e2d\u9644\u8fd1\u6240\u6709\u654c\u4eba\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u5927\u7bc4\u570d\u65cb\u8f49\u62db\u5f0f\uff0c\u64ca\u4e2d\u9644\u8fd1\u6240\u6709\u6575\u4eba\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u5e83\u7bc4\u56f2\u306e\u56de\u8ee2\u653b\u6483\u3067\u3001\u8fd1\u304f\u306e\u6575\u3092\u591a\u304f\u5dfb\u304d\u8fbc\u3080\u3053\u3068\u304c\u3067\u304d\u308b\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\uadfc\ucc98\uc758 \ub9ce\uc740 \uc801\uc744 \uacf5\uaca9\ud558\ub294 \ub113\uc740 \ubc94\uc704\uc758 \uc2a4\ud540 \uacf5\uaca9\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 78
+        },
+        "dmgType": "MELEE",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 0.55,
+              "move": 0.64,
+              "reaim": 0.74
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "specialSwirlEndBottom",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "specialSwirlLongRev",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "duration": 0,
+            "align": "CENTER",
+            "rotateFace": 6,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "effect": {
+              "sheet": "special-neutral",
+              "name": "largeSweep"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "SHOW_EFFECT"
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 40,
+            "yScale": 0,
+            "zHeight": 16,
+            "centralAngle": 2.5,
+            "startAngle": -0.25,
+            "duration": 0.5,
+            "expandRadius": 0,
+            "alwaysFull": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "attack": {
+              "type": "HEAVY",
+              "element": "NEUTRAL",
+              "damageFactor": 1.35,
+              "reverse": false,
+              "spFactor": 0,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG",
+              "limiter": ""
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "CIRCLE_ATTACK"
+          },
+          {
+            "value": 200,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "time": 0.35,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "time": 0.49,
+            "type": "WAIT"
+          },
+          {
+            "followUp": "idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "preIdle",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_SPECIAL1_A": {
+        "name": {
+          "en_US": "Bullet Rain",
+          "pt_BR": "Bullet Rain",
+          "de_DE": "Bullet Rain",
+          "zh_CN": "\u98de\u5f39\u4e4b\u96e8<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u98db\u5f48\u4e4b\u96e8<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u30d0\u30ec\u30c3\u30c8\u30fb\u30ec\u30a4\u30f3<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ube57\ubc1c\uce58\ub294 \ucd1d\uc54c<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 73
+        },
+        "description": {
+          "en_US": "Fire a mass of small shots in a narrow angle.",
+          "pt_BR": "Fire a mass of small shots in a narrow angle.",
+          "de_DE": "Feuere einen Hagel kleiner Geschosse in schmalem Winkel ab.",
+          "zh_CN": "\u5728\u5f88\u7a84\u7684\u8303\u56f4\u5185\u53d1\u5c04\u51fa\u5927\u91cf\u5c0f\u578b\u98de\u5f39\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u5728\u5f88\u7a84\u7684\u7bc4\u570d\u5167\u767c\u5c04\u51fa\u5927\u91cf\u5c0f\u578b\u98db\u5f48\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u72ed\u3044\u5c04\u89d2\u5185\u306b\u5c0f\u3055\u306a\u5f3e\u4e38\u3092\u5927\u91cf\u306b\u767a\u5c04\u3059\u308b\u653b\u6483\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\uc881\uc740 \uac01\ub3c4\ub85c \ub300\ub7c9\uc758 \uc791\uc740 \ucd1d\uc54c\uc744 \ubc1c\uc0ac\ud569\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 74
+        },
+        "dmgType": "RANGED",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.5,
+              "action": 0.8,
+              "move": 0.92,
+              "reaim": 1.02
+            }
+          },
+          {
+            "time": 0,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "followUp": "meleeEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0.02,
+            "angleVary": 0,
+            "startDistCollide": "",
+            "random": false,
+            "clockwise": true,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "count": 3,
+            "duration": 0.1,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "specialSmall",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          },
+          {
+            "time": 0,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "followUp": "meleeEndRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShortRev"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0.03,
+            "angleVary": 0,
+            "startDistCollide": "",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "count": 2,
+            "duration": 0.1,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "specialSmall",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          },
+          {
+            "time": 0,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "followUp": "meleeEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "spinShort"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0.02,
+            "angleVary": 0,
+            "startDistCollide": "",
+            "random": false,
+            "clockwise": true,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "count": 3,
+            "duration": 0.1,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "specialSmall",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.72,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "DASH_SPECIAL1_B": {
+        "name": {
+          "en_US": "First Cut",
+          "pt_BR": "First Cut",
+          "de_DE": "First Cut",
+          "zh_CN": "\u9ad8\u80fd\u5207\u5272",
+          "zh_TW": "\u9ad8\u80fd\u5207\u5272",
+          "ja_JP": "\u30d5\u30a1\u30fc\u30b9\u30c8\u30ab\u30c3\u30c8",
+          "ko_KR": "\ud37c\uc2a4\ud2b8 \ucef7",
+          "langUid": 84
+        },
+        "description": {
+          "en_US": "A very powerful attack that will hit exactly one enemy.",
+          "pt_BR": "A very powerful attack that will hit exactly one enemy.",
+          "de_DE": "Ein sehr starker Angriff, der genau einen Gegner trifft.",
+          "zh_CN": "\u5bf9\u5355\u4e2a\u654c\u4eba\u7684\u5f3a\u5927\u653b\u51fb\u3002",
+          "zh_TW": "\u5c0d\u55ae\u500b\u6575\u4eba\u7684\u5f37\u5927\u653b\u64ca\u3002",
+          "ja_JP": "\u6575\u5358\u4f53\u306e\u307f\u306b\u30d2\u30c3\u30c8\u3059\u308b\u3001\u3068\u3066\u3082\u5f37\u529b\u306a\u653b\u6483\u3002",
+          "ko_KR": "\uc815\ud655\ud788 \ud558\ub098\uc758 \uc801\uc744 \uac15\ud558\uac8c \uacf5\uaca9\ud569\ub2c8\ub2e4.",
+          "langUid": 85
+        },
+        "dmgType": "MELEE",
+        "stunType": "LOCK",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 1.5,
+              "action": 1.5,
+              "move": 1.5,
+              "reaim": 1.5
+            }
+          },
+          {
+            "volume": 0.9,
+            "global": false,
+            "loop": false,
+            "type": "PLAY_SOUND",
+            "sound": "media\/sound\/battle\/dash-3.ogg"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 450,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "value": "IGNORE",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "duration": 0.5,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "dust",
+              "name": "line"
+            },
+            "offset": {
+              "x": 0,
+              "y": 3,
+              "z": 6
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "type": "SET_FACE_TO_DIR"
+          },
+          {
+            "value": 0.4,
+            "type": "SET_INVINCIBLE"
+          },
+          {
+            "time": 0.4,
+            "cancelOnHit": true,
+            "orthoDirFactor": 0,
+            "ignoreLastHit": false,
+            "collideSlip": false,
+            "type": "TACKLE",
+            "attack": {
+              "type": "MASSIVE",
+              "visualType": "HEAVY",
+              "damageFactor": 1,
+              "skillBonus": "MELEE_DMG",
+              "spFactor": 0,
+              "stunSteps": [
+                {
+                  "type": "START_LOCK"
+                },
+                {
+                  "type": "BLOCK_XY"
+                }
+              ]
+            }
+          },
+          {
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "attackMirrEnd"
+          },
+          {
+            "value": "VIRTUAL",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "time": 0.5,
+            "type": "WAIT"
+          },
+          {
+            "selectType": "PREVIOUSLY_HIT",
+            "hitDir": "AWAY",
+            "align": "BOTTOM",
+            "hitCount": 1,
+            "hitDelay": 0,
+            "type": "DIRECT_HIT",
+            "attack": {
+              "type": "MASSIVE",
+              "element": "NEUTRAL",
+              "damageFactor": 4.5,
+              "fly": "MASSIVE+",
+              "spFactor": 0,
+              "stunSteps": [
+                {
+                  "type": "END_LOCK"
+                }
+              ],
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            }
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          },
+          {
+            "followUp": "idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "preIdle"
+          },
+          {
+            "time": 0.1,
+            "type": "WAIT"
+          }
+        ]
+      }
+    },
+    "HEAT": {
+      "ATTACK_SPECIAL1_A": {
+        "name": {
+          "en_US": "Fire Whirl",
+          "pt_BR": "Fire Whirl",
+          "de_DE": "Fire Whirl",
+          "zh_CN": "\u706b\u65cb\u98ce<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u706b\u65cb\u98a8<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u30d5\u30a1\u30a4\u30a2\u30c8\u30eb\u30cd\u30fc\u30c9<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ubd88\uaf43 \uc18c\uc6a9\ub3cc\uc774<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 92
+        },
+        "description": {
+          "en_US": "Performs a fierce whirl attack, engulfing your enemies in flames.",
+          "pt_BR": "Performs a fierce whirl attack, engulfing your enemies in flames.",
+          "de_DE": "Ein heftiger Wirbelangriff, der deine Feinde in Flammen verschlingt.",
+          "zh_CN": "\u65bd\u5c55\u4e00\u6b21\u5f3a\u5927\u7684\u65cb\u8f6c\u653b\u51fb\uff0c\u7528\u706b\u7130\u6253\u51fb\u654c\u4eba\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u65bd\u5c55\u4e00\u6b21\u5f37\u5927\u7684\u65cb\u8f49\u653b\u64ca\uff0c\u7528\u706b\u7130\u6253\u64ca\u6575\u4eba\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u524d\u65b9\u306b\u5f37\u529b\u306a\u56de\u8ee2\u653b\u6483\u3092\u3057\u3001\u6575\u3092\u708e\u306e\u6e26\u306b\u5305\u307f\u8fbc\u3080\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ub9f9\ub82c\ud55c \uc18c\uc6a9\ub3cc\uc774 \uacf5\uaca9\uc73c\ub85c \uc801\uc744 \ubd88\uc5d0 \ud729\uc4f8\ub9ac\uac8c \ud569\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 93
+        },
+        "dmgType": "MELEE",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 0.55,
+              "move": 0.64,
+              "reaim": 0.74
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "specialSwirlEndBottom",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "specialSwirlLongRev",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "duration": 0.5,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "effect": {
+              "sheet": "specials.heat",
+              "name": "redTrail"
+            },
+            "type": "SHOW_EFFECT"
+          },
+          {
+            "duration": 0,
+            "align": "CENTER",
+            "rotateFace": 6,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "effect": {
+              "sheet": "specials.heat",
+              "name": "mediumSweep"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "SHOW_EFFECT"
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 56,
+            "yScale": 0,
+            "zHeight": 0,
+            "centralAngle": 2.5,
+            "startAngle": -0.25,
+            "duration": 0.5,
+            "expandRadius": 0,
+            "alwaysFull": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "attack": {
+              "type": "HEAVY",
+              "element": "HEAT",
+              "damageFactor": 1.35,
+              "reverse": false,
+              "spFactor": 0,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG",
+              "limiter": ""
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "CIRCLE_ATTACK"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 240,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "time": 0.35,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "time": 0.44,
+            "type": "WAIT"
+          },
+          {
+            "followUp": "idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "preIdle",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_SPECIAL1_A": {
+        "name": {
+          "en_US": "Burn!",
+          "pt_BR": "Burn!",
+          "de_DE": "Burn!",
+          "zh_CN": "\u707c\u70e7\uff01<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u707c\u71d2\uff01<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u30d0\u30fc\u30b9\u30c8\uff01<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ud654\uc0c1!<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 100
+        },
+        "description": {
+          "en_US": "A controllable blazing burst of fire that deals damage over a small area.",
+          "pt_BR": "A controllable blazing burst of fire that deals damage over a small area.",
+          "de_DE": "Ein kontrollierbarer lodernder Feuersto\u00df, der auf kleiner Fl\u00e4che Schaden verursacht.",
+          "zh_CN": "\u5728\u4e00\u5c0f\u5757\u533a\u57df\u5185\u65bd\u653e\u706b\u7130\u5e76\u9020\u6210\u4f24\u5bb3\u3002\u4ea7\u751f\\c[3]\u71c3\u70e7\\c[0]\u6548\u679c\u3002\u53ef\u4ee5\u63a7\u5236\u65b9\u5411\uff01<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u5728\u4e00\u5c0f\u584a\u5340\u57df\u5167\u65bd\u653e\u706b\u7130\u4e26\u9020\u6210\u50b7\u5bb3\u3002\u7522\u751f\\c[3]\u71c3\u71d2\\c[0]\u6548\u679c\u3002\u53ef\u4ee5\u63a7\u5236\u65b9\u5411\uff01<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u64cd\u4f5c\u53ef\u80fd\u306a\u706b\u708e\u3092\u653e\u5c04\u3057\u3001\u5c0f\u7bc4\u56f2\u306b\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\uc791\uc740 \ubc94\uc704\uc5d0 \ub300\ubbf8\uc9c0\ub97c \uc785\ud788\ub294 \uc870\uc885 \uac00\ub2a5\ud55c \ubd88\ud0c0\ub294 \ud3ed\ubc1c\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 101
+        },
+        "dmgType": "RANGED",
+        "stunType": "",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.5,
+              "move": 0.6,
+              "reaim": 0.65
+            }
+          },
+          {
+            "followUp": "throwRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throw"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0.03,
+            "angleVary": 0,
+            "startDist": 24,
+            "startDistCollide": "CLOSER",
+            "random": true,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": false,
+            "duration": 0.5,
+            "count": 15,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "flame",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 8
+            }
+          },
+          {
+            "time": 0.55,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwEnd"
+          }
+        ]
+      },
+      "DASH_SPECIAL1_A": {
+        "name": {
+          "en_US": "Crimson Strike",
+          "pt_BR": "Crimson Strike",
+          "de_DE": "Crimson Strike",
+          "zh_CN": "\u70c8\u7130\u7a81\u88ad<<A<<[JULY 9]",
+          "zh_TW": "\u70c8\u7130\u7a81\u88ad<<A<<[JULY 9]",
+          "ja_JP": "\u30af\u30ea\u30e0\u30be\u30f3\u30b9\u30c8\u30e9\u30a4\u30af<<A<<[JULY 9]",
+          "ko_KR": "\uc9c4\ud64d\uc0c9 \ud0c0\uaca9<<A<<[JULY 9]",
+          "langUid": 106
+        },
+        "description": {
+          "en_US": "Dash through your enemies while leaving a trail of fire.",
+          "pt_BR": "Dash through your enemies while leaving a trail of fire.",
+          "de_DE": "Fege durch deine Feinde hindurch und hinterlasse eine Flammenspur.",
+          "zh_CN": "\u4ece\u654c\u4eba\u4e2d\u95f4\u51b2\u523a\u800c\u8fc7\uff0c\u7559\u4e0b\u4e00\u9053\u706b\u7130\u8f68\u8ff9\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u4ece\u654c\u4eba\u4e2d\u95f4\u51b2\u523a\u800c\u8fc7\uff0c\u7559\u4e0b\u4e00\u9053\u706b\u7130\u8f68\u8ff9\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u6575\u306e\u4e2d\u3092\u30c0\u30c3\u30b7\u30e5\u3067\u7a81\u304d\u629c\u3051\u3001\u708e\u306e\u8de1\u3092\u80cc\u5f8c\u306b\u6b8b\u3059\u3002<<A<<[JULY 9]",
+          "ko_KR": "\ubd88\uae38\uc744 \ub0a8\uae30\uba70 \uc801\uc744 \ud5a5\ud574 \ub300\uc2dc\ud569\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 107
+        },
+        "dmgType": "MELEE",
+        "stunType": "",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.6,
+              "action": 0.5,
+              "move": 0.6,
+              "reaim": 0.6
+            }
+          },
+          {
+            "volume": 0.9,
+            "global": false,
+            "loop": false,
+            "type": "PLAY_SOUND",
+            "sound": "media\/sound\/battle\/dash-3.ogg"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 450,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "value": "IGNORE",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "duration": 0.5,
+            "align": "CENTER",
+            "rotateFace": 8,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.heat",
+              "name": "flameDash"
+            }
+          },
+          {
+            "duration": 0.5,
+            "align": "CENTER",
+            "rotateFace": 8,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.heat",
+              "name": "flameDashCircle"
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "type": "SET_FACE_TO_DIR"
+          },
+          {
+            "value": 0.4,
+            "type": "SET_INVINCIBLE"
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 32,
+            "yScale": 0,
+            "zHeight": 0,
+            "centralAngle": 0,
+            "duration": 0.4,
+            "expandRadius": 0,
+            "alwaysFull": true,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "type": "CIRCLE_ATTACK",
+            "attack": {
+              "type": "HEAVY",
+              "element": "HEAT",
+              "damageFactor": 2.75,
+              "fly": "MASSIVE",
+              "reverse": false,
+              "spFactor": 0,
+              "status": 1.25,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "time": 0.4,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "value": "VIRTUAL",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      }
+    },
+    "COLD": {
+      "ATTACK_SPECIAL1_A": {
+        "name": {
+          "en_US": "Ice Twirl",
+          "pt_BR": "Ice Twirl",
+          "de_DE": "Ice Twirl",
+          "zh_CN": "\u51b0\u65cb\u98ce<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u51b0\u65cb\u98a8<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u30a2\u30a4\u30b9\u30c8\u30ef\u30fc\u30eb<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\uc5bc\uc74c \uc18c\uc6a9\ub3cc\uc774<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 112
+        },
+        "description": {
+          "en_US": "Performs a stationary ice whirl attack with wide range and strong knockback.",
+          "pt_BR": "Performs a stationary ice whirl attack with wide range and strong knockback.",
+          "de_DE": "Ein stehender Eiswirbelschlag mit gro\u00dfer Reichweite und starkem R\u00fccksto\u00df.",
+          "zh_CN": "\u65bd\u5c55\u4e00\u6b21\u56fa\u5b9a\u7684\u51b0\u7cfb\u65cb\u98ce\u65a9\uff0c\u8303\u56f4\u5927\u51fb\u9000\u529b\u5f3a\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u65bd\u5c55\u4e00\u6b21\u56fa\u5b9a\u7684\u51b0\u7cfb\u65cb\u98a8\u65ac\uff0c\u7bc4\u570d\u5927\u64ca\u9000\u529b\u5f37\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u305d\u306e\u5834\u3067\u6c37\u306e\u56de\u8ee2\u653b\u6483\u3092\u3059\u308b\u3002\u653b\u6483\u7bc4\u56f2\u304c\u5e83\u304f\u3001\u30ce\u30c3\u30af\u30d0\u30c3\u30af\u3082\u5927\u304d\u3044\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\uc81c\uc790\ub9ac\uc5d0\uc11c \ub113\uc740 \ubc94\uc704\uc758 \uc5bc\uc74c \uc18c\uc6a9\ub3cc\uc774 \uacf5\uaca9\uacfc \ud568\uaed8 \uc801\uc744 \uac15\ud558\uac8c \ubc00\uce69\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 113
+        },
+        "dmgType": "MELEE",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "charge": -1,
+              "action": -1,
+              "move": -1,
+              "reaim": -1
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "specialSwirlEndBottom",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "specialSwirlLongRev",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "duration": 0,
+            "align": "BOTTOM",
+            "rotateFace": 6,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "effect": {
+              "sheet": "specials.cold",
+              "name": "mediumSweep"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "SHOW_EFFECT"
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 72,
+            "yScale": 0,
+            "zHeight": 0,
+            "centralAngle": 1.5,
+            "startAngle": -0.25,
+            "duration": 0.3,
+            "expandRadius": 0,
+            "alwaysFull": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "attack": {
+              "type": "HEAVY",
+              "element": "COLD",
+              "damageFactor": 2.1,
+              "fly": "MASSIVE",
+              "reverse": false,
+              "spFactor": 0,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "CIRCLE_ATTACK",
+            "skillBonus": "MELEE_DMG"
+          },
+          {
+            "time": 0.65,
+            "type": "WAIT"
+          },
+          {
+            "blockData": {
+              "dash": 0,
+              "charge": 0,
+              "action": 0,
+              "move": 0,
+              "reaim": 0
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "preIdle",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_SPECIAL1_A": {
+        "name": {
+          "en_US": "Snow Flawke",
+          "pt_BR": "Snow Flawke",
+          "de_DE": "Snow Flawke",
+          "zh_CN": "\u96ea\u7403\u7206\u88c2",
+          "zh_TW": "\u96ea\u7403\u7206\u88c2",
+          "ja_JP": "\u30b9\u30ce\u30fc\u30d5\u30ec\u30fc\u30af",
+          "ko_KR": "\ub208\uc1a1\uc774",
+          "langUid": 142
+        },
+        "description": {
+          "en_US": "Hit enemies with a big snow explosion, caging them within icicles.",
+          "pt_BR": "Hit enemies with a big snow explosion, caging them within icicles.",
+          "de_DE": "Triff deine Feinde mit einer wuchtigen Schnee-Explosion, die sie in Eiskristalle f\u00e4ngt.",
+          "zh_CN": "\u7528\u96ea\u7403\u7206\u70b8\u5bf9\u654c\u4eba\u9020\u6210\u4f24\u5bb3\uff0c\u5e76\u4f7f\u5176\u56f0\u4e8e\u51b0\u67f1\u4e4b\u4e2d\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u7528\u96ea\u7403\u7206\u70b8\u5c0d\u6575\u4eba\u9020\u6210\u50b7\u5bb3\uff0c\u4e26\u4f7f\u5176\u56f0\u65bc\u51b0\u67f1\u4e4b\u4e2d\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u96ea\u306e\u7206\u767a\u3092\u8d77\u3053\u3057\u3001\u5f53\u305f\u3063\u305f\u6575\u3092\u3064\u3089\u3089\u306e\u6abb\u306b\u9589\u3058\u8fbc\u3081\u308b\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ud070 \ub208 \ud3ed\ubc1c\ub85c \uc801\uc744 \uacf5\uaca9\ud558\uace0 \uace0\ub4dc\ub984 \uc548\uc5d0 \uac00\ub461\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 143
+        },
+        "dmgType": "RANGED",
+        "stunType": "",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.2,
+              "action": 0.5,
+              "move": 0.5,
+              "reaim": 0.5
+            }
+          },
+          {
+            "time": 0,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "followUp": "throwRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throw"
+          },
+          {
+            "align": "BOTTOM",
+            "type": "SHOOT_PROXY",
+            "proxy": "iceSnowball",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.5,
+            "type": "WAIT"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwEnd"
+          }
+        ]
+      },
+      "THROW_SPECIAL1_NO": {
+        "name": {
+          "en_US": "Hail Flurry",
+          "pt_BR": "Hail Flurry",
+          "de_DE": "Hail Flurry",
+          "zh_CN": "\u51b0\u523a\u4e4b\u96e8<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u51b0\u523a\u4e4b\u96e8<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u30d8\u30a4\u30eb\u30d6\u30e9\u30b9\u30c8<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ud718\ub0a0\ub9ac\ub294 \uc6b0\ubc15<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 114
+        },
+        "description": {
+          "en_US": "Quickly shoots a mass of icy spikes.",
+          "pt_BR": "Quickly shoots a mass of icy spikes.",
+          "de_DE": "Feuere eine schnelle Eisspeer-Salve.",
+          "zh_CN": "\u5feb\u901f\u5c04\u51fa\u4e00\u8fde\u4e32\u51b0\u523a\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "zh_TW": "\u5feb\u901f\u5c04\u51fa\u4e00\u9023\u4e32\u51b0\u523a\u3002\u9020\u6210\\c[3]\u5bd2\u51b7\\c[0]\u6548\u679c\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ja_JP": "\u5927\u91cf\u306e\u3064\u3089\u3089\u3092\u7d20\u65e9\u304f\u6295\u3052\u3064\u3051\u308b\u3002<<A<<[CHANGED 2018\/03\/14]",
+          "ko_KR": "\ub300\ub7c9\uc758 \uc5bc\uc74c\uc1a1\uacf3\uc744 \ube60\ub974\uac8c \uc3e9\ub2c8\ub2e4.<<A<<[CHANGED 2018\/03\/14]",
+          "langUid": 115
+        },
+        "dmgType": "RANGED",
+        "stunType": "",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.2,
+              "action": 0.5,
+              "move": 0.5,
+              "reaim": 0.5
+            }
+          },
+          {
+            "time": 0,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "followUp": "throwRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throw"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0.5,
+            "angleVary": 0,
+            "startDist": 12,
+            "startDistCollide": "CLOSER",
+            "random": false,
+            "clockwise": true,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 1,
+            "delay": 0,
+            "repeat": false,
+            "duration": 0,
+            "count": 12,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "iceSpecialSmall",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.5,
+            "type": "WAIT"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwEnd"
+          }
+        ]
+      },
+      "DASH_SPECIAL1_A": {
+        "name": {
+          "en_US": "Indigo Strike",
+          "pt_BR": "Indigo Strike",
+          "de_DE": "Indigo Strike",
+          "zh_CN": "\u975b\u8272\u7a81\u88ad<<A<<[JULY 9]",
+          "zh_TW": "\u975b\u8272\u7a81\u88ad<<A<<[JULY 9]",
+          "ja_JP": "\u30a4\u30f3\u30c7\u30a3\u30b4\u30b9\u30c8\u30e9\u30a4\u30af<<A<<[JULY 9]",
+          "ko_KR": "\ub0a8\uc0c9 \ud0c0\uaca9<<A<<[JULY 9]",
+          "langUid": 118
+        },
+        "description": {
+          "en_US": "Dash with high speed, leaving a trail of icicles behind you, damaging enemies on contact.",
+          "pt_BR": "Dash with high speed, leaving a trail of icicles behind you, damaging enemies on contact.",
+          "de_DE": "Ein schneller Dash, der Eiskristalle hinterl\u00e4sst, die Gegner bei Kontakt verwunden.",
+          "zh_CN": "\u9ad8\u901f\u51b2\u523a\uff0c\u5728\u51b2\u523a\u8def\u7ebf\u4e0a\u7559\u4e0b\u4e00\u9053\u51b0\u67f1\uff0c\u5e76\u5bf9\u63a5\u89e6\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u9ad8\u901f\u51b2\u523a\uff0c\u5728\u51b2\u523a\u8def\u7ebf\u4e0a\u7559\u4e0b\u4e00\u9053\u51b0\u67f1\uff0c\u5e76\u5bf9\u63a5\u89e6\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u9ad8\u901f\u3067\u30c0\u30c3\u30b7\u30e5\u3057\u3001\u901a\u3063\u305f\u5f8c\u306b\u3064\u3089\u3089\u3092\u6b8b\u3059\u3002\u3064\u3089\u3089\u306b\u89e6\u308c\u305f\u6575\u306f\u30c0\u30e1\u30fc\u30b8\u3092\u53d7\u3051\u308b\u3002<<A<<[JULY 9]",
+          "ko_KR": "\uace0\uc18d\uc73c\ub85c \ub300\uc2dc\ud558\uace0 \ub4a4\uc5d0 \uace0\ub4dc\ub984 \uae38\uc744 \ub0a8\uaca8 \uc774\uc5d0 \ub2ff\ub294 \uc801\uc5d0\uac8c \ub300\ubbf8\uc9c0\ub97c \uac00\ud569\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 119
+        },
+        "dmgType": "MIXED",
+        "stunType": "",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.6,
+              "action": 0.5,
+              "move": 0.6,
+              "reaim": 0.6
+            }
+          },
+          {
+            "volume": 0.9,
+            "global": false,
+            "loop": false,
+            "type": "PLAY_SOUND",
+            "sound": "media\/sound\/battle\/dash-3.ogg"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 450,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "value": "IGNORE",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "duration": 0.5,
+            "align": "CENTER",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.cold",
+              "name": "dashTrail"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "type": "SET_FACE_TO_DIR"
+          },
+          {
+            "value": 0.4,
+            "type": "SET_INVINCIBLE"
+          },
+          {
+            "sticking": false,
+            "group": "wall",
+            "ignoreSelf": false,
+            "type": "REMOVE_PROXIES"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0,
+            "angleVary": 0,
+            "startDistCollide": false,
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "circularArea": false,
+            "uniformDir": 0,
+            "delay": 0,
+            "repeat": true,
+            "duration": 0.1,
+            "count": 3,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "icicleSmall",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 24,
+            "yScale": 0,
+            "zHeight": 0,
+            "centralAngle": 0,
+            "duration": 0.5,
+            "expandRadius": 0,
+            "alwaysFull": true,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": true,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "type": "CIRCLE_ATTACK",
+            "attack": {
+              "type": "HEAVY",
+              "element": "COLD",
+              "damageFactor": 1.25,
+              "fly": "MEDIUM",
+              "reverse": false,
+              "spFactor": 0,
+              "status": 1,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "time": 0.4,
+            "collideCancel": 0.125,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "value": "VIRTUAL",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "pointingBrake"
+          },
+          {
+            "time": 0.1,
+            "collideCancel": 0.125,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "type": "STOP_REPEATING_FORCE"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          }
+        ]
+      }
+    },
+    "SHOCK": {
+      "ATTACK_SPECIAL1": {
+        "name": {
+          "en_US": "Tesla Twist",
+          "pt_BR": "Tesla Twist",
+          "de_DE": "Tesla Twist",
+          "zh_CN": "\u7279\u65af\u62c9\u8fc5\u51fb<<A<<[JULY 9]",
+          "zh_TW": "\u7279\u65af\u62c9\u8fc5\u51fb<<A<<[JULY 9]",
+          "ja_JP": "\u30c6\u30b9\u30e9\u30fb\u30c4\u30a4\u30b9\u30c8<<A<<[JULY 9]",
+          "ko_KR": "\ud14c\uc2ac\ub77c \ud2b8\uc704\uc2a4\ud2b8<<A<<[JULY 9]",
+          "langUid": 120
+        },
+        "description": {
+          "en_US": "Attack with a series of multiple fast spin attacks within a small radius.",
+          "pt_BR": "Attack with a series of multiple fast spin attacks within a small radius.",
+          "de_DE": "Greife mit einer Reihe schneller Wirbelattacken mit kleinem Radius an.",
+          "zh_CN": "\u65bd\u5c55\u4e00\u7cfb\u5217\u5c0f\u8303\u7684\u5feb\u901f\u65cb\u8f6c\u653b\u51fb\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u65bd\u5c55\u4e00\u7cfb\u5217\u5c0f\u8303\u7684\u5feb\u901f\u65cb\u8f6c\u653b\u51fb\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u9ad8\u901f\u306a\u56de\u8ee2\u653b\u6483\u3067\u6575\u306b\u591a\u6bb5\u30d2\u30c3\u30c8\u3059\u308b\u3002\u653b\u6483\u7bc4\u56f2\u306f\u5c0f\u3055\u3044\u3002<<A<<[JULY 9]",
+          "ko_KR": "\uc801\uc740 \ubc18\uacbd\uc5d0\uc11c \ub2e4\uc218\uc758 \ube60\ub978 \uc2a4\ud540 \uacf5\uaca9\uc73c\ub85c \uacf5\uaca9\ud569\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 121
+        },
+        "dmgType": "MELEE",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": -1,
+              "move": -1,
+              "reaim": -1
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "specialSwirlEndBottom",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "specialSwirlLongRev",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "duration": 0.8,
+            "align": "CENTER",
+            "rotateFace": 8,
+            "flipLeftFace": true,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "effect": {
+              "sheet": "specials.shock",
+              "name": "swirlFast"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "SHOW_EFFECT"
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 40,
+            "yScale": 0,
+            "zHeight": 24,
+            "centralAngle": 5.5,
+            "startAngle": -0.25,
+            "duration": 0.8,
+            "expandRadius": 0,
+            "alwaysFull": false,
+            "clockwise": false,
+            "flipLeftFace": 8,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "attack": {
+              "type": "MEDIUM",
+              "element": "SHOCK",
+              "damageFactor": 0.75,
+              "reverse": false,
+              "spFactor": 0,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "CIRCLE_ATTACK"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 180,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.7,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.1,
+            "type": "WAIT"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "attackEndRev",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "time": 0.29,
+            "type": "WAIT"
+          },
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 0.1,
+              "move": 0.1,
+              "reaim": 0.1
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "followUp": "idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "preIdle",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_SPECIAL1": {
+        "name": {
+          "en_US": "Homing Wisp",
+          "pt_BR": "Homing Wisp",
+          "de_DE": "Homing Wisp",
+          "zh_CN": "\u8ddf\u8e2a\u98de\u5f39<<A<<[JULY 9]",
+          "zh_TW": "\u8ddf\u8e2a\u98de\u5f39<<A<<[JULY 9]",
+          "ja_JP": "\u30db\u30fc\u30df\u30f3\u30b0\u30a6\u30a3\u30b9\u30d7<<A<<[JULY 9]",
+          "ko_KR": "\uc790\ub3d9 \uc720\ub3c4 \uc704\uc2a4\ud504<<A<<[JULY 9]",
+          "langUid": 140
+        },
+        "description": {
+          "en_US": "Shoot an array of small homing projectiles.",
+          "pt_BR": "Shoot an array of small homing projectiles.",
+          "de_DE": "Feuere eine Salve zielsuchender Projektile.",
+          "zh_CN": "\u5c04\u51fa\u4e00\u8fde\u4e32\u5c0f\u578b\u8ddf\u8e2a\u98de\u5f39\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u5c04\u51fa\u4e00\u8fde\u4e32\u5c0f\u578b\u8ddf\u8e2a\u98de\u5f39\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u30db\u30fc\u30df\u30f3\u30b0\u6027\u80fd\u3092\u6301\u3064\u5c0f\u3055\u306a\u96fb\u6483\u3092\u5927\u91cf\u306b\u653e\u3064\u653b\u6483\u3002<<A<<[JULY 9]",
+          "ko_KR": "\uc791\uc740 \uc790\ub3d9 \uc720\ub3c4 \ubc1c\uc0ac\uccb4\ub97c \uc3e9\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 141
+        },
+        "dmgType": "RANGED",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.2,
+              "action": 0.5,
+              "move": 0.5,
+              "reaim": 0.5
+            }
+          },
+          {
+            "time": 0,
+            "type": "PLAYER_ADJUST_FACE"
+          },
+          {
+            "followUp": "throwRev",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throw"
+          },
+          {
+            "searchType": "IN_VIEW",
+            "ignoreCurrentTarget": false,
+            "prevHitBehavior": "NONE",
+            "type": "SET_CLOSE_TEMP_TARGET"
+          },
+          {
+            "align": "BOTTOM",
+            "centralAngle": 0.5,
+            "angleVary": 0,
+            "startDist": 12,
+            "startDistCollide": "CLOSER",
+            "random": true,
+            "clockwise": true,
+            "flipLeftFace": 8,
+            "circularArea": false,
+            "uniformDir": 0.25,
+            "delay": 0,
+            "repeat": false,
+            "duration": 0.3,
+            "count": 11,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "shockHoming",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.8,
+            "type": "WAIT"
+          },
+          {
+            "wait": true,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throwEnd"
+          }
+        ]
+      },
+      "DASH_SPECIAL1_B": {
+        "name": {
+          "en_US": "Thunder Dart",
+          "pt_BR": "Thunder Dart",
+          "de_DE": "Thunder Dart",
+          "zh_CN": "\u9707\u8361\u51b2\u523a<<A<<[JULY 9]",
+          "zh_TW": "\u9707\u8361\u51b2\u523a<<A<<[JULY 9]",
+          "ja_JP": "\u30b5\u30f3\u30c0\u30fc\u30c0\u30fc\u30c4<<A<<[JULY 9]",
+          "ko_KR": "\ucc9c\ub465 \ud654\uc0b4<<A<<[JULY 9]",
+          "langUid": 138
+        },
+        "description": {
+          "en_US": "Dash through enemies leaving a shocking trail of lightning.",
+          "pt_BR": "Dash through enemies leaving a shocking trail of lightning.",
+          "de_DE": "Ein Dash, der eine schockende Blitzspur hinterl\u00e4sst.",
+          "zh_CN": "\u4ece\u654c\u4eba\u4e2d\u95f4\u51b2\u523a\u800c\u8fc7\uff0c\u7559\u4e0b\u4e00\u9053\u95ea\u7535\u8f68\u8ff9\u3002\u9020\u6210\\c[3]\u7535\u51fb\\c[0]\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u4ece\u654c\u4eba\u4e2d\u95f4\u51b2\u523a\u800c\u8fc7\uff0c\u7559\u4e0b\u4e00\u9053\u95ea\u7535\u8f68\u8ff9\u3002\u9020\u6210\\c[3]\u7535\u51fb\\c[0]\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u30c0\u30c3\u30b7\u30e5\u3067\u6575\u3092\u901a\u308a\u629c\u3051\u3001\u80cc\u5f8c\u306b\u96fb\u6483\u3092\u767a\u751f\u3055\u305b\u308b\u653b\u6483\u3002<<A<<[JULY 9]",
+          "ko_KR": "\uc801\uc744 \ud5a5\ud574 \ub300\uc2dc\ud558\uba70 \ubc88\uac1c\uc758 \uae38\uc744 \ub0a8\uae41\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 139
+        },
+        "dmgType": "RANGED",
+        "stunType": "INTERRUPT",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": -1,
+              "action": -1,
+              "move": -1,
+              "reaim": -1
+            }
+          },
+          {
+            "volume": 0.9,
+            "global": false,
+            "loop": false,
+            "type": "PLAY_SOUND",
+            "sound": "media\/sound\/battle\/dash-3.ogg"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 600,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2.5,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "value": "IGNORE",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "duration": 0.4,
+            "align": "BOTTOM",
+            "rotateFace": -1,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "group": "dash",
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.shock",
+              "name": "dashLightningTrail"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "type": "SET_FACE_TO_DIR"
+          },
+          {
+            "value": 0.4,
+            "type": "SET_INVINCIBLE"
+          },
+          {
+            "changeType": "set",
+            "attribName": "flash",
+            "proxyOwner": false,
+            "type": "SET_ATTRIB_NUMBER",
+            "value": 0
+          },
+          {
+            "changeType": "set",
+            "attribName": "id",
+            "proxyOwner": false,
+            "type": "SET_ATTRIB_NUMBER",
+            "value": 1
+          },
+          {
+            "align": "BOTTOM",
+            "type": "SHOOT_PROXY",
+            "proxy": "shockDashLine",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 32,
+            "yScale": 0,
+            "zHeight": 0,
+            "centralAngle": 0,
+            "duration": 0.4,
+            "expandRadius": 0,
+            "alwaysFull": true,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "type": "CIRCLE_ATTACK",
+            "attack": {
+              "type": "HEAVY",
+              "element": "SHOCK",
+              "damageFactor": 1,
+              "reverse": false,
+              "stunSteps": [
+                {
+                  "type": "START_LOCK"
+                },
+                {
+                  "type": "BLOCK_XY"
+                }
+              ],
+              "status": 1,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "value": 0.001,
+            "type": "SET_BOUNCINESS"
+          },
+          {
+            "time": 0.4,
+            "stopBeforeEdge": true,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "value": "VIRTUAL",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "type": "STOP_XY"
+          },
+          {
+            "time": 0.2,
+            "type": "WAIT"
+          },
+          {
+            "type": "CLEAR_STUN_LOCKED"
+          },
+          {
+            "changeType": "set",
+            "attribName": "flash",
+            "proxyOwner": false,
+            "type": "SET_ATTRIB_NUMBER",
+            "value": 1
+          },
+          {
+            "duration": 0.4,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.shock",
+              "name": "dashLightningeEnd"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            }
+          },
+          {
+            "time": 0.3,
+            "type": "WAIT"
+          },
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0,
+              "move": 0,
+              "reaim": 0
+            }
+          },
+          {
+            "type": "CLEAR_EFFECTS"
+          },
+          {
+            "time": 0.1,
+            "type": "WAIT"
+          }
+        ]
+      }
+    },
+    "WAVE": {
+      "ATTACK_SPECIAL1_A": {
+        "name": {
+          "en_US": "Ki Thrust",
+          "pt_BR": "Ki Thrust",
+          "de_DE": "Ki Thrust",
+          "zh_CN": "\u94c1\u638c\u731b\u51fb<<A<<[JULY 9]",
+          "zh_TW": "\u94c1\u638c\u731b\u51fb<<A<<[JULY 9]",
+          "ja_JP": "\u30bf\u30aa\u30fb\u30b9\u30e9\u30b9\u30c8<<A<<[JULY 9]",
+          "ko_KR": "\uae30 \uacf5\uaca9<<A<<[JULY 9]",
+          "langUid": 132
+        },
+        "description": {
+          "en_US": "Frontal attack with high damage, sending all hit enemies flying.",
+          "pt_BR": "Frontal attack with high damage, sending all hit enemies flying.",
+          "de_DE": "Starker Frontalangriff, der alle getroffenen Feinde weit wegst\u00f6\u00dft.",
+          "zh_CN": "\u9762\u5411\u524d\u65b9\u7684\u9ad8\u4f24\u5bb3\u653b\u51fb\uff0c\u53ef\u5c06\u6240\u6709\u547d\u4e2d\u7684\u654c\u4eba\u51fb\u98de\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u9762\u5411\u524d\u65b9\u7684\u9ad8\u4f24\u5bb3\u653b\u51fb\uff0c\u53ef\u5c06\u6240\u6709\u547d\u4e2d\u7684\u654c\u4eba\u51fb\u98de\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u524d\u65b9\u306e\u6575\u3092\u9060\u304f\u306b\u5439\u304d\u98db\u3070\u3059\u3001\u9ad8\u30c0\u30e1\u30fc\u30b8\u306e\u653b\u6483\u3002<<A<<[JULY 9]",
+          "ko_KR": "\ub192\uc740 \ub300\ubbf8\uc9c0\uc758 \uc815\uba74 \uacf5\uaca9\uc73c\ub85c, \uacf5\uaca9\ubc1b\uc740 \ubaa8\ub4e0 \uc801\uc744 \ub0a0\ub824\ubc84\ub9bd\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 133
+        },
+        "dmgType": "MELEE",
+        "stunType": "INTERRUPT",
+        "status": true,
+        "steps": [
+          {
+            "blockData": {
+              "dash": 0,
+              "action": 1.2,
+              "move": 1.2,
+              "reaim": 1.2
+            },
+            "type": "SET_PLAYER_ACTION_BLOCK"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "attack",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 300,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 3,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "time": 0.05,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "duration": 0.3,
+            "align": "BOTTOM",
+            "rotateFace": 8,
+            "flipLeftFace": true,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "effect": {
+              "sheet": "specials.wave",
+              "name": "wavePunch"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 12
+            },
+            "type": "SHOW_EFFECT"
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 64,
+            "yScale": 0,
+            "zHeight": 16,
+            "centralAngle": 0.4,
+            "duration": 0.3,
+            "expandRadius": 0,
+            "alwaysFull": true,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "attack": {
+              "type": "MASSIVE",
+              "element": "WAVE",
+              "damageFactor": 4,
+              "fly": "MASSIVE++",
+              "reverse": false,
+              "spFactor": 0,
+              "status": 1,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "type": "CIRCLE_ATTACK"
+          },
+          {
+            "time": 0.5,
+            "type": "WAIT"
+          },
+          {
+            "followUp": "Idle",
+            "wait": false,
+            "viaWalkConfig": false,
+            "anim": "attackEnd",
+            "type": "SHOW_ANIMATION"
+          },
+          {
+            "time": 0.05,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "THROW_SPECIAL1_A": {
+        "name": {
+          "en_US": "Fae Round",
+          "pt_BR": "Fae Round",
+          "de_DE": "Fae Round",
+          "zh_CN": "\u70ae\u5c04\u98de\u5f39",
+          "zh_TW": "\u70ae\u5c04\u98db\u5f48",
+          "ja_JP": "\u30d5\u30a7\u30a2\u30ea\u30fc\u30e9\u30a6\u30f3\u30c9",
+          "ko_KR": "\uc694\uc815 \ud0c4\ud658",
+          "langUid": 128
+        },
+        "description": {
+          "en_US": "Shoots a super fast projectile penetrating a line of enemies.",
+          "pt_BR": "Shoots a super fast projectile penetrating a line of enemies.",
+          "de_DE": "Feuere ein extrem schnelles Projektil, welches alle Ziele auf einer Linie durchschl\u00e4gt.",
+          "zh_CN": "\u5c04\u51fa\u4e00\u9053\u901f\u5ea6\u6781\u5feb\u7684\u98de\u5f39\uff0c\u7a7f\u900f\u4e00\u6761\u7ebf\u4e0a\u7684\u654c\u4eba\u3002",
+          "zh_TW": "\u5c04\u51fa\u4e00\u9053\u901f\u5ea6\u6975\u5feb\u7684\u98db\u5f48\uff0c\u7a7f\u900f\u4e00\u689d\u7dda\u4e0a\u7684\u6575\u4eba\u3002",
+          "ja_JP": "\u8d85\u9ad8\u901f\u306e\u5f3e\u3067\u6575\u306e\u5217\u3092\u8cab\u901a\u3059\u308b\u653b\u6483\u3002",
+          "ko_KR": "\uc801 \ud55c \uc904\uc744 \uad00\ud1b5\ud558\ub294 \ub9e4\uc6b0 \ube60\ub978 \ubc1c\uc0ac\uccb4\ub97c \uc3e9\ub2c8\ub2e4.",
+          "langUid": 129
+        },
+        "dmgType": "RANGED",
+        "stunType": "",
+        "status": false,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0,
+              "action": 0.5,
+              "move": 0.5,
+              "reaim": 0.52
+            }
+          },
+          {
+            "proxy": "waveGun",
+            "type": "SHOOT_PROXY_PLAYER"
+          },
+          {
+            "followUp": "throwEnd",
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "throw"
+          },
+          {
+            "value": 80,
+            "type": "SET_SPEED"
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_TO_DIR"
+          },
+          {
+            "time": 0.52,
+            "type": "WAIT"
+          }
+        ]
+      },
+      "DASH_SPECIAL1_A": {
+        "name": {
+          "en_US": "Verdant Strike",
+          "pt_BR": "Verdant Strike",
+          "de_DE": "Verdant Strike",
+          "zh_CN": "\u7fe0\u7eff\u95ea\u7535<<A<<[JULY 9]",
+          "zh_TW": "\u7fe0\u7eff\u95ea\u7535<<A<<[JULY 9]",
+          "ja_JP": "\u30f4\u30a7\u30eb\u30c0\u30f3\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30af<<A<<[JULY 9]",
+          "ko_KR": "\ub179\uc0c9 \ud0c0\uaca9<<A<<[JULY 9]",
+          "langUid": 154
+        },
+        "description": {
+          "en_US": "Dash with high speed, damaging and stunning enemies along the way.",
+          "pt_BR": "Dash with high speed, damaging and stunning enemies along the way.",
+          "de_DE": "Sehr schneller Dash, der alle getroffenen Gegner schadet und l\u00e4hmt.",
+          "zh_CN": "\u9ad8\u901f\u51b2\u523a\uff0c\u5bf9\u89e6\u78b0\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u548c\u7729\u6655\u6548\u679c\u3002<<A<<[JULY 9]",
+          "zh_TW": "\u9ad8\u901f\u51b2\u523a\uff0c\u5bf9\u89e6\u78b0\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3\u548c\u7729\u6655\u6548\u679c\u3002<<A<<[JULY 9]",
+          "ja_JP": "\u9ad8\u901f\u30c0\u30c3\u30b7\u30e5\u3057\u3001\u5f53\u305f\u3063\u305f\u6575\u3092\u6c17\u7d76\u3055\u305b\u308b\u653b\u6483\u3002<<A<<[JULY 9]",
+          "ko_KR": "\uace0\uc18d\uc73c\ub85c \ub300\uc2dc\ud558\uba70 \uac00\ub294 \uae38\ubaa9\uc5d0 \uc788\ub294 \uc801\uc5d0\uac8c \ub300\ubbf8\uc9c0\ub97c \uc785\ud788\uace0 \uae30\uc808\uc2dc\ud0b5\ub2c8\ub2e4.<<A<<[JULY 9]",
+          "langUid": 155
+        },
+        "dmgType": "MELEE",
+        "stunType": "",
+        "status": true,
+        "steps": [
+          {
+            "type": "SET_PLAYER_ACTION_BLOCK",
+            "blockData": {
+              "dash": 0.6,
+              "action": 0.5,
+              "move": 0.6,
+              "reaim": 0.6
+            }
+          },
+          {
+            "volume": 0.9,
+            "global": false,
+            "loop": false,
+            "type": "PLAY_SOUND",
+            "sound": "media\/sound\/battle\/dash-3.ogg"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "dash"
+          },
+          {
+            "value": false,
+            "type": "SET_JUMPING"
+          },
+          {
+            "value": 450,
+            "type": "SET_SPEED"
+          },
+          {
+            "value": 2.5,
+            "type": "SET_ACCEL_SPEED"
+          },
+          {
+            "value": "IGNORE",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "duration": -1,
+            "align": "CENTER",
+            "rotateFace": 8,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.wave",
+              "name": "waveDashTrail"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "duration": -1,
+            "align": "CENTER",
+            "rotateFace": 8,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "group": "ripple",
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "specials.wave",
+              "name": "waveDashRipple"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "dir": {
+              "actorAttrib": "dashDir"
+            },
+            "type": "SET_FACE_TO_DIR"
+          },
+          {
+            "value": 0.4,
+            "type": "SET_INVINCIBLE"
+          },
+          {
+            "posType": "SELF",
+            "align": "BOTTOM",
+            "type": "SET_HIT_PROXY",
+            "proxy": "waveDashStun",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "align": "BOTTOM",
+            "radius": 32,
+            "yScale": 0,
+            "zHeight": 0,
+            "centralAngle": 0,
+            "duration": 0.4,
+            "expandRadius": 0,
+            "alwaysFull": true,
+            "clockwise": false,
+            "flipLeftFace": 0,
+            "rectangular": false,
+            "repeat": false,
+            "uniformHitDir": false,
+            "fixPos": false,
+            "checkCollision": true,
+            "type": "CIRCLE_ATTACK",
+            "attack": {
+              "type": "NONE",
+              "element": "WAVE",
+              "damageFactor": 0,
+              "reverse": false,
+              "spFactor": 0,
+              "status": 1,
+              "guardable": "",
+              "skillBonus": "MELEE_DMG"
+            },
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "time": 0.4,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "value": "VIRTUAL",
+            "type": "SET_COLL_TYPE"
+          },
+          {
+            "time": 0.1,
+            "stopBeforeEdge": false,
+            "type": "MOVE_FORWARD"
+          },
+          {
+            "group": "ripple",
+            "type": "CLEAR_EFFECTS"
+          },
+          {
+            "time": 0.1,
+            "type": "WAIT"
+          },
+          {
+            "type": "CLEAR_EFFECTS"
+          },
+          {
+            "time": 0.1,
+            "type": "WAIT"
+          }
+        ]
+      }
+    }
+  },
+  "skillRanking": [
+    {
+      "0": " ",
+      "skill": "ATTACK_SPECIAL_A"
+    },
+    {
+      "0": " ",
+      "skill": "THROW_SPECIAL_A"
+    },
+    {
+      "0": " ",
+      "skill": "DASH_SPECIAL_A"
+    },
+    {
+      "0": " ",
+      "skill": "GUARD_SPECIAL_A"
+    },
+    {
+      "0": " ",
+      "skill": "ATK"
+    },
+    {
+      "0": " ",
+      "skill": "DEF"
+    },
+    {
+      "0": " ",
+      "skill": "FOC"
+    },
+    {
+      "0": " ",
+      "skill": "ALL_ELEMENT_RES"
+    },
+    {
+      "0": " ",
+      "skill": "MAXHP"
+    },
+    {
+      "0": " ",
+      "skill": "MELEE_DAMAGE"
+    }
+  ]
+}
