@@ -2265,7 +2265,7 @@
       "hp-bars": {
         "name": "Barra de Status do Grupo",
         "description": "Alterar quais barras de status dos membros do grupo são mostradas. ",
-        "group": ["Todos", "Todos Menos Lea", "Nenhum"]
+        "group": ["Todos", "Todos - Lea", "Nenhum"]
       },
       "party-combat-arts": {
         "name": "Estilo de Combate do Grupo",
