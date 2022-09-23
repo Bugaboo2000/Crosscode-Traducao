@@ -3306,6 +3306,7 @@
           {
             "task": {
               "en_US": "Final Wave incoming!!!",
+              "pt_BR": "Onda final chegando!!!",
               "de_DE": "Letzte Welle kommt!!!",
               "zh_CN": "\u6700\u540e\u4e00\u6ce2\u653b\u51fb\u6765\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u6700\u7d42\u30a6\u30a7\u30fc\u30d6\u63a5\u8fd1\uff01\uff01\uff01<<A<<[CHANGED 2018/03/14]",
@@ -3874,6 +3875,7 @@
             "entity": { "global": true, "name": "td-EnemyGoal" },
             "text": {
               "en_US": "Defense successful!",
+              "pt_BR": "Defesa sucedida!",
               "de_DE": "Verteidigung erfolgreich!",
               "zh_CN": "\u5df2\u6210\u529f\u9632\u5b88\uff01<<A<<[CHANGED 2018/05/01]",
               "ja_JP": "\u9632\u885b\u6210\u529f\uff01<<A<<[CHANGED 2018/05/01]",
@@ -3951,6 +3953,7 @@
           {
             "message": {
               "en_US": "Good job, \\v[lore.title.seeker].\\. \\c[3]Come back here\\c[0], so we can review the results!",
+              "pt_BR": "Bom trabalho, \\v[lore.title.seeker].\\. \\c[3]Volte aqui\\c[0], para que possamos analisar os resultados!",
               "de_DE": "Gute Arbeit, Seeker.\\. \\c[3]Komm hierher\\c[0] und wir besprechen die Ergebnisse!",
               "zh_CN": "\u5e72\u5f97\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\\c[3]\u8fc7\u6765\u8fd9\u91cc\\c[0]\uff0c\u8ba9\u6211\u4eec\u770b\u770b\u7ed3\u679c\u5982\u4f55\u3002<<A<<[CHANGED 2018/05/01]",
               "ja_JP": "\u304a\u75b2\u308c\u69d8\u3001\\v[lore.title.seeker]\u3055\u3093\u3002\\.\n\\c[3]\u3053\u3053\u306b\u623b\u3063\u3066\u304d\u3066\\c[0]\u3002\n\u305d\u3057\u305f\u3089\u7d50\u679c\u304c\u898b\u3089\u308c\u308b\u304b\u3089\uff01<<A<<[CHANGED 2018/05/01]",
@@ -4092,6 +4095,7 @@
             "entity": { "global": true, "name": "td-targetEntity-doorOpener" },
             "text": {
               "en_US": "About to blow!!!",
+              "pt_BR": "Prestes a explodir!!!",
               "de_DE": "Kurz vorm Explodieren!!!",
               "zh_CN": "\u5373\u5c06\u7206\u70b8\uff01\uff01\uff01<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u7206\u767a\u5bf8\u524d\u3060\uff01<<A<<[CHANGED 2018/03/14]",
@@ -4209,6 +4213,7 @@
             "entity": { "global": true, "name": "td-targetEntity-doorOpener" },
             "text": {
               "en_US": "Pathhacker destroyed!",
+              "pt_BR": "Pathhacker destruído!",
               "de_DE": "Pfadhacker zerst\u00f6rt!",
               "zh_CN": "\u7834\u8def\u8005\u5df2\u6467\u6bc1\uff01<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u30d1\u30b9\u30cf\u30c3\u30ab\u30fc\u306f\u58ca\u3055\u308c\u3066\u3057\u307e\u3063\u305f\uff01<<A<<[CHANGED 2018/03/14]",
@@ -4260,6 +4265,7 @@
           {
             "text": {
               "en_US": "\\c[1]QUEST FAILED\\c[0]\n\nRestart task to try again",
+              "pt_BR": "\\c[1]FALHA NA QUEST\\c[0]\n\nRecomece a tarefa para tentar novamente",
               "de_DE": "\\c[1]QUEST GESCHEITERT\\c[0]\n\nVersuch's nochmal!",
               "fr_FR": "fr_FR",
               "langUid": 176,
@@ -4317,6 +4323,7 @@
           {
             "task": {
               "en_US": "Wave 1 incoming!",
+              "pt_BR": "Onda 1 chegando!",
               "de_DE": "1. Welle kommt!",
               "zh_CN": "\u7b2c1\u6ce2\u6765\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u30a6\u30a7\u30fc\u30d61 \u63a5\u8fd1\uff01<<A<<[CHANGED 2018/03/14]",
@@ -4620,6 +4627,7 @@
         "analyzable": {
           "text": {
             "en_US": "Pathfinder",
+            "pt_BR": "Pathfinder",
             "de_DE": "Pfadfinder",
             "zh_CN": "\u5bfb\u8def\u8005<<A<<[CHANGED 2018/03/14]",
             "ja_JP": "\u30d1\u30b9\u30d5\u30a1\u30a4\u30f3\u30c0\u30fc<<A<<[CHANGED 2018/03/14]",
@@ -4660,6 +4668,7 @@
                   "side": "LEFT",
                   "message": {
                     "en_US": "[ Greetings customer of our TURRET Inc. defensive product line. ]",
+                    "pt_BR": "[ Saudações, usuário da nossa linha de produtos defensivos da Corp. TURRE. ]",
                     "langUid": 825,
                     "zh_CN": "[ \u6b22\u8fce\u4f7f\u7528\u70ae\u53f0\u516c\u53f8\u9632\u5fa1\u4ea7\u54c1\u3002 ]<<A<<[CHANGED 2019/07/31]",
                     "ko_KR": "[ \ud3ec\ud0d1 \uc8fc\uc2dd\ud68c\uc0ac \ubc29\uc5b4 \uc81c\ud488 \ub77c\uc778 \uace0\uac1d \uc5ec\ub7ec\ubd84 \uc5b4\uc11c \uc624\uc2ed\uc2dc\uc624. ]<<A<<[CHANGED 2019/07/31]",
@@ -4673,6 +4682,7 @@
                 {
                   "message": {
                     "en_US": "... h-hi?",
+                    "pt_BR": "... o-oi?",
                     "de_DE": "... Hi.",
                     "zh_CN": "...\u4f60-\u4f60\u597d?<<A<<[CHANGED 2019/04/16]",
                     "ja_JP": "...\u3084\u3001\u3084\u3041\uff1f<<A<<[CHANGED 2019/04/16]",
@@ -4688,6 +4698,7 @@
                   "side": "LEFT",
                   "message": {
                     "en_US": "[ Since you have already successfully used our products, are you interested in their advanced recreational functionality? ]",
+                    "pt_BR": "[ Já que você já utilizou nossos produtos com sucesso, você está interessado na funcionalidade recreativa avançada deles? ]",
                     "langUid": 819,
                     "zh_CN": "[ \u60a8\u5df2\u7ecf\u6210\u529f\u7684\u4f7f\u7528\u4e86\u6211\u4eec\u7684\u4ea7\u54c1\uff0c\u8bf7\u95ee\u662f\u5426\u611f\u5174\u8da3\u5c1d\u8bd5\u4e00\u4e0b\u5176\u9ad8\u7ea7\u5a31\u4e50\u529f\u80fd\uff1f ]<<A<<[CHANGED 2019/04/16]",
                     "ko_KR": "[ \uc774\ubbf8 \uc131\uacf5\uc801\uc73c\ub85c \uc800\ud76c \uc81c\ud488\uc744 \uc0ac\uc6a9\ud558\uc168\uc73c\ub2c8, \ud574\ub2f9 \uc81c\ud488\uc758 \uace0\uae09 \uc624\ub77d \uae30\ub2a5\uc744 \uc0ac\uc6a9\ud574 \ubcf4\uc2dc\uaca0\uc2b5\ub2c8\uae4c? ]<<A<<[CHANGED 2019/04/16]",
@@ -4719,6 +4730,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 406,
@@ -4735,6 +4747,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ CHALLENGE ACCEPTED. Choose \\c[3]Challenge Mode\\c[0] to start. ]",
+                        "pt_BR": "[ DESAFIO ACEITO. Escolha o \\c[3]Modo de Desafio\\c[0] para iniciar. ]",
                         "langUid": 820,
                         "zh_CN": "[ \u63a5\u53d7\u6311\u6218\u3002\u8bf7\u9009\u62e9\\c[3]\u6311\u6218\u6a21\u5f0f\\c[0]\u5e76\u5f00\u59cb\u3002 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \ucc4c\ub9b0\uc9c0\uac00 \uc218\ub77d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc2dc\uc791\ud558\ub824\uba74 \\c[3]\ucc4c\ub9b0\uc9c0 \ubaa8\ub4dc\\c[0]\ub97c \uc120\ud0dd\ud558\uc2ed\uc2dc\uc624. ]<<A<<[CHANGED 2019/04/16]",
@@ -4749,6 +4762,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ Using this device in such a manner will collect energy from the Track and convert it into \\c[3]special tokens\\c[0]. ]",
+                        "pt_BR": "[ A utilização deste dispositivo permitirá a coleta da energia da Trilha e a converterá em \\c[3]tokens especiais\\c[0].]",
                         "langUid": 830,
                         "zh_CN": "[ \u4ee5\u8be5\u6a21\u5f0f\u4f7f\u7528\u6b64\u88c5\u7f6e\u5c06\u6536\u96c6\u5148\u7956\u4e4b\u8def\u7684\u80fd\u91cf\u5e76\u5c06\u5176\u8f6c\u5316\u4e3a\\c[3]\u7279\u6b8a\u4ee3\u5e01\\c[0]\u3002 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \uc774 \uc7a5\uce58\ub97c \uc0ac\uc6a9\ud558\uba74 \uace0\ub300\uc778\uc758 \uae38\uc5d0\uc11c \uc5d0\ub108\uc9c0\ub97c \ubaa8\uc544 \\c[3]\ud2b9\ubcc4 \ud1a0\ud070\\c[0]\uc73c\ub85c \uc804\ud658\ub429\ub2c8\ub2e4. ]<<A<<[CHANGED 2019/04/16]",
@@ -4763,6 +4777,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ Those can be \\c[3]exchanged for valuable items\\c[0] directly at this device. ]",
+                        "pt_BR": "[ Estes podem ser \\c[3]trocados por itens valiosos\\c[0] diretamente neste dispositivo. ]",
                         "langUid": 831,
                         "zh_CN": "[ \u4ee3\u5e01\u53ef\u4ee5\u901a\u8fc7\u6b64\u88c5\u7f6e\u76f4\u63a5\\c[3]\u5151\u6362\u7269\u54c1\\c[0]\u3002 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \ud2b9\ubcc4 \ud1a0\ud070\uc740 \uc774 \uc7a5\uce58\uc5d0\uc11c \ubc14\ub85c \\c[3]\uc911\uc694\ud55c \uc544\uc774\ud15c\uc73c\ub85c \uad50\ud658\\c[0]\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. ]<<A<<[CHANGED 2019/04/16]",
@@ -4776,6 +4791,7 @@
                     {
                       "message": {
                         "en_US": "...!",
+                        "pt_BR": "...!",
                         "de_DE": "...!",
                         "zh_CN": "...!<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "...\uff01<<A<<[CHANGED 2019/04/16]",
@@ -4794,6 +4810,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ Thank you for using TURRET products! ]",
+                        "pt_BR": "[ Obrigado por utilizar os produtos TURRE!]",
                         "langUid": 821,
                         "zh_CN": "[ \u611f\u8c22\u60a8\u4f7f\u7528\u70ae\u53f0\u516c\u53f8\u4ea7\u54c1\uff01 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \ud3ec\ud0d1 \uc81c\ud488\uc744 \uc774\uc6a9\ud574 \uc8fc\uc154\uc11c \uac10\uc0ac\ud569\ub2c8\ub2e4! ]<<A<<[CHANGED 2019/04/16]",
@@ -4807,6 +4824,7 @@
                     {
                       "message": {
                         "en_US": "... bye.",
+                        "pt_BR": "... tchau.",
                         "de_DE": "... Bye.",
                         "zh_CN": "...\u518d\u89c1\u3002<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "...\u3058\u3083\u3042\u306d\u3002<<A<<[CHANGED 2019/04/16]",
@@ -4823,6 +4841,7 @@
                     {
                       "message": {
                         "en_US": "[shakes head]",
+                        "pt_BR": "[balança a cabeça]",
                         "de_DE": "[sch\u00fcttelt Kopf]",
                         "fr_FR": "fr_FR",
                         "langUid": 414,
@@ -4839,6 +4858,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ CHALLENGE DENIED. Please come back when you make up your mind. ]",
+                        "pt_BR": "[ DESAFIO RECUSADO. Por favor, volte quando você se decidir. ]",
                         "langUid": 823,
                         "zh_CN": "[ \u62d2\u7edd\u6311\u6218\u3002\u968f\u65f6\u6b22\u8fce\u56de\u6765\u3002 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \ucc4c\ub9b0\uc9c0\uac00 \uac70\ubd80\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ud560 \ub9c8\uc74c\uc774 \uc0dd\uacbc\uc744 \ub54c \ub2e4\uc2dc \ub3cc\uc544\uc624\uc2ed\uc2dc\uc624. ]<<A<<[CHANGED 2019/04/16]",
@@ -4852,6 +4872,7 @@
                     {
                       "message": {
                         "en_US": ".\\..\\..",
+                        "pt_BR": ".\\..\\..",
                         "de_DE": ".\\..\\..",
                         "zh_CN": ".\\..\\..<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "\u30fb\\.\u30fb\\.\u30fb<<A<<[CHANGED 2019/04/16]",
@@ -4892,6 +4913,7 @@
                   {
                     "text": {
                       "en_US": "\\s[0]Challenge Highscore:\n\\c[3]\\v[map.tdHighScore] Points on Wave \\v[map.tdHighWave]\\c[0] ",
+                      "pt_BR": "\\s[0]Pontuação Máxima do Desafio:\n\\c[3]\\v[map.tdHighScore] Pontos de Onda\\v[map.tdHighWave]\\c[0]",
                       "de_DE": "\\s[0]Rekord:\n\\c[3]\\v[map.tdHighScore] Punkte bei Welle \\v[map.tdHighWave]\\c[0] \n",
                       "zh_CN": "\\s[0]\u6311\u6218\u9ad8\u5206: \n\\c[3]\\v[map.tdHighScore]\u70b9\u4e8e\\v[map.tdHighWave]\u6ce2\\c[0] <<A<<[CHANGED 2019/04/30]",
                       "ja_JP": "\\s[0]\u30c1\u30e3\u30ec\u30f3\u30b8\u30cf\u30a4\u30b9\u30b3\u30a2\uff1a\n\\c[3]\\v[map.tdHighWave]\u30a6\u30a7\u30fc\u30d6\u5230\u9054\u3001\\v[map.tdHighScore]\u30dd\u30a4\u30f3\u30c8\\c[0]<<A<<[CHANGED 2019/04/30]",
@@ -4926,6 +4948,7 @@
                       {
                         "message": {
                           "en_US": "[nods normally]",
+                          "pt_BR": "[acena normalmente]",
                           "de_DE": "[nickt normal]",
                           "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2018/10/22]",
                           "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2018/10/22]",
@@ -5122,6 +5145,7 @@
                               "settings": {
                                 "taskTitle": {
                                   "en_US": "Wave",
+                                  "pt_BR": "Onda",
                                   "de_DE": "Welle",
                                   "zh_CN": "\u6ce2\u6570<<A<<[CHANGED 2019/04/16]",
                                   "ja_JP": "\u30a6\u30a7\u30fc\u30d6<<A<<[CHANGED 2019/04/16]",
@@ -5146,6 +5170,7 @@
                               "settings": {
                                 "taskTitle": {
                                   "en_US": "Score",
+                                  "pt_BR": "Pontuação",
                                   "de_DE": "Punkte",
                                   "zh_CN": "\u5206\u6570<<A<<[CHANGED 2018/10/22]",
                                   "ja_JP": "\u30a8\u30cd\u30eb\u30ae\u30fc<<A<<[CHANGED 2018/10/22]",
@@ -5170,6 +5195,7 @@
                           "settings": {
                             "taskTitle": {
                               "en_US": "Energy",
+                              "pt_BR": "Energia",
                               "de_DE": "Energie",
                               "zh_CN": "\u80fd\u91cf<<A<<[CHANGED 2018/10/22]",
                               "ja_JP": "\u30a8\u30cd\u30eb\u30ae\u30fc<<A<<[CHANGED 2018/10/22]",
@@ -5192,6 +5218,7 @@
                           "settings": {
                             "text": {
                               "en_US": "Life",
+                              "pt_BR": "Vida",
                               "de_DE": "Leben",
                               "zh_CN": "\u751f\u547d<<A<<[CHANGED 2018/10/22]",
                               "ja_JP": "\u4f53\u529b<<A<<[CHANGED 2018/10/22]",
@@ -5206,6 +5233,7 @@
                             "splits": [0.2, 0.4, 0.6, 0.8],
                             "taskTitle": {
                               "en_US": "Energy",
+                              "pt_BR": "Energia",
                               "langUid": 754,
                               "ko_KR": "\uc5d0\ub108\uc9c0<<A<<[CHANGED 2018/10/22]",
                               "ja_JP": "\u30a8\u30cd\u30eb\u30ae\u30fc<<A<<[CHANGED 2018/10/22]",
@@ -5279,6 +5307,7 @@
                       {
                         "message": {
                           "en_US": "[nods challengingly]",
+                          "pt_BR": "[acena sem hesitar]",
                           "de_DE": "[nickt herausfordernd]",
                           "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2018/10/22]",
                           "ja_JP": "[\u5927\u80c6\u306b\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2018/10/22]",
@@ -5298,6 +5327,7 @@
                       {
                         "message": {
                           "en_US": "How?",
+                          "pt_BR": "Como?",
                           "de_DE": "Wie?",
                           "zh_CN": "\u600e\u4e48\u529e\uff1f<<A<<[CHANGED 2018/03/14]",
                           "langUid": 569,
@@ -5316,6 +5346,7 @@
                         "side": "LEFT",
                         "message": {
                           "en_US": "[ Replaying instruction recording ]",
+                          "pt_BR": "[ Repetindo a instrução gravada ] ",
                           "langUid": 813,
                           "zh_CN": "[ \u6b63\u5728\u91cd\u64ad\u6559\u5b66 ]<<A<<[CHANGED 2019/04/16]",
                           "ko_KR": "[ \ub179\uc74c \uc548\ub0b4\ubb38\uc744 \uc7ac\uc0dd\ud569\ub2c8\ub2e4 ]<<A<<[CHANGED 2019/04/16]",
@@ -5329,6 +5360,7 @@
                       {
                         "name": {
                           "en_US": "Mika",
+                          "pt_BR": "Mika",
                           "de_DE": "Mika",
                           "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                           "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -5348,6 +5380,7 @@
                       {
                         "message": {
                           "en_US": "Alright, I will give you a short briefing as to how this will work out.",
+                          "pt_BR": "Muito bem, vou dar um breve resumo de como isto vai funcionar.",
                           "de_DE": "Ich gebe dir eine kleine Einf\u00fchrung, wie das Ganze funktioniert.",
                           "zh_CN": "\u597d\u5427\uff0c\u6211\u4f1a\u7b80\u5355\u544a\u8bc9\u4f60\u73b0\u5728\u7684\u60c5\u51b5\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u3088\u3057\u3001\u3069\u3046\u3084\u3063\u305f\u3089\u3044\u3044\u306e\u304b\n\u624b\u77ed\u306b\u8aac\u660e\u3057\u3088\u3046\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5365,6 +5398,7 @@
                       {
                         "message": {
                           "en_US": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
+                          "pt_BR": "Depois de eu ativar nosso Pathhacker aqui, os inimigos irão \\c[3]atacar em ondas\\c[0].",
                           "de_DE": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0].",
                           "zh_CN": "\u5982\u679c\u6211\u6fc0\u6d3b\u4e86\u6211\u4eec\u7684\u7834\u8def\u8005\uff0c\u654c\u4eba\u4f1a\u53d1\u52a8\\c[3]\u6570\u6ce2\u653b\u51fb\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u3053\u3053\u306b\u3042\u308b\u4ffa\u305f\u3061\u306e\n\u30d1\u30b9\u30cf\u30c3\u30ab\u30fc\u3092\u8d77\u52d5\u3059\u308b\u3068\u3001\n\u6575\u304c\\c[3]\u653b\u6483\u3092\u3057\u304b\u3051\u3066\u304f\u308b\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5382,6 +5416,7 @@
                       {
                         "message": {
                           "en_US": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
+                          "pt_BR": "Você tem que derrotá-los, \\c[3]antes que eles cheguem neste ponto\\c[0] e danifiquem nossa preciosa máquina aqui.",
                           "de_DE": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Sch\u00e4tzchen hier demolieren k\u00f6nnen.",
                           "zh_CN": "\u4f60\u9700\u8981\u62b5\u6321\u5b83\u4eec\u7684\u8fdb\u653b\uff0c\\c[3]\u963b\u6b62\u4ed6\u4eec\u63a5\u8fd1\u8fd9\u91cc\\c[0]\u6467\u6bc1\u6211\u4eec\u5b9d\u8d35\u7684\u673a\u5668\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u541b\u306f\u6575\u304c\\c[3]\u3053\u306e\u30dd\u30a4\u30f3\u30c8\u307e\u3067\n\u3084\u3063\u3066\u304f\u308b\u524d\\c[0]\u306b\u5012\u3057\u3066\u3001\n\u3053\u306e\u8cb4\u91cd\u306a\u30de\u30b7\u30f3\u3092\u5b88\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5399,6 +5434,7 @@
                       {
                         "message": {
                           "en_US": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
+                          "pt_BR": "Mas cuidado, porque todos eles possuem \\c[3]escudos que refletem dano\\c[0].\\. Portanto, atacar de forma aleatória não será uma opção.",
                           "de_DE": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option.",
                           "zh_CN": "\u4f60\u9700\u8981\u5c0f\u5fc3\uff0c\u56e0\u4e3a\u5b83\u4eec\u90fd\u62e5\u6709\u53ef\u4ee5\\c[3]\u53cd\u5c04\u4f24\u5bb3\u7684\u62a4\u76fe\\c[0]\u3002\\.\u76f2\u76ee\u7684\u4e71\u5c04\u662f\u4e0d\u884c\u7684\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u3067\u3082\u6c17\u3092\u3064\u3051\u3066\u304f\u308c\u3001\u6575\u306f\\c[3]\u653b\u6483\u3092\n\u8df3\u306d\u8fd4\u3059\u30b7\u30fc\u30eb\u30c9\\c[0]\u3092\u5f35\u3063\u3066\u3044\u308b\u3002\\.\n\u3084\u307f\u304f\u3082\u306b\u653b\u6483\u3057\u3066\u3082\u52b9\u679c\u306f\u306a\u3044\u305e\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5416,6 +5452,7 @@
                       {
                         "message": {
                           "en_US": "...!",
+                          "pt_BR": "...!",
                           "de_DE": "...!",
                           "zh_CN": "...!<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "...\uff01<<A<<[CHANGED 2018/03/14]",
@@ -5433,6 +5470,7 @@
                       {
                         "message": {
                           "en_US": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
+                          "pt_BR": "Felizmente, preparamos algumas \\c[3]torretas defensivas\\c[0] aqui.",
                           "de_DE": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgesch\u00fctze\\c[0] vorbereitet.",
                           "zh_CN": "\u4e0d\u8fc7\u6211\u4eec\u51c6\u5907\u4e86\u53ef\u4ee5\u81ea\u52a8\u5c04\u51fb\u7684\\c[3]\u9632\u5fa1\u70ae\u5854\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u5e78\u3044\u306a\u3053\u3068\u306b\u3001\u3053\u3063\u3061\u306b\u306f\n\u81ea\u52d5\\c[3]\u9632\u885b\u30bf\u30ec\u30c3\u30c8\\c[0]\u3092\u7528\u610f\u3057\u3066\u3042\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5450,6 +5488,7 @@
                       {
                         "message": {
                           "en_US": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
+                          "pt_BR": "Para ativar uma torreta, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
                           "de_DE": "Um ein Gesch\u00fctz zu aktivieren, \\c[3]schie\u00df ein paarmal darauf\\c[0] und feuere dann einen \\c[3]geladenen Schuss\\c[0]!",
                           "zh_CN": "\u8981\u6fc0\u6d3b\u70ae\u5854\u3002\u4f60\u9700\u8981\u5148c[3]\u653b\u51fb\u5b83\u6570\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3059\u308b\u306b\u306f\u3001\n\\c[3]\u4f55\u56de\u304b\u653b\u6483\u3092\u5f53\u3066\u305f\\c[0]\u5f8c\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/03/14]",
@@ -5467,6 +5506,7 @@
                       {
                         "message": {
                           "en_US": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
+                          "pt_BR": "Quando ativadas com o \\c[3]elemento neutro\\c[0], elas \\c[3]romperão os escudos\\c[0] com cada acerto.",
                           "de_DE": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0].",
                           "zh_CN": "\u5982\u679c\u4f60\u4f7f\u7528c[3]\u4e2d\u6027\u5c5e\u6027\\c[0]\u6fc0\u6d3b\u70ae\u5854\uff0c\u90a3\u5b83\u4eec\u4f1a\u6bcf\u6b21\u653b\u51fb\u90fd\u4f1a\\c[3]\u524a\u51cf\u654c\u4eba\u7684\u62a4\u76fe\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\\c[3]\u7121\u5c5e\u6027\\c[0]\u306e\u653b\u6483\u3067\u8d77\u52d5\u3059\u308b\u3068\u3001\n\u30bf\u30ec\u30c3\u30c8\u306f\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\u89e3\u9664\u3059\u308b\\c[0]\n\u5f3e\u3092\u653e\u3064\u305e\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5484,6 +5524,7 @@
                       {
                         "message": {
                           "en_US": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
+                          "pt_BR": "Mais tarde também vou desbloquear os \\c[3]modos elementais\\c[0] que causarão mais dano em vez de romper os escudos.",
                           "de_DE": "Sp\u00e4ter werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde aufl\u00f6sen\\c[0].",
                           "zh_CN": "\u4e4b\u540e\u6211\u4f1a\u4e3a\u4f60\u89e3\u9501\\c[3]\u5143\u7d20\u653b\u51fb\u6a21\u5f0f\\c[0]\uff0c\u867d\u7136\u5b83\u4eec\\c[3]\u4e0d\u80fd\u524a\u5f31\u62a4\u76fe\uff0c\u4f46\u662f\u4f24\u5bb3\u4f1a\u66f4\u9ad8\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u3057\u3070\u3089\u304f\u7d4c\u3063\u305f\u3089\u3001\\c[3]\u5c5e\u6027\u653b\u6483\u30e2\u30fc\u30c9\\c[0]\u3092\n\u30a2\u30f3\u30ed\u30c3\u30af\u3059\u308b\u3002\u3053\u308c\u306f\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\n\u89e3\u9664\u3067\u304d\u306a\u3044\u304c\u3001\u4ee3\u308f\u308a\u306b\n\u5927\u304d\u306a\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3089\u308c\u308b\\c[0]\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5501,6 +5542,7 @@
                       {
                         "message": {
                           "en_US": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
+                          "pt_BR": "Cada torreta consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
                           "de_DE": "Jedes Gesch\u00fctz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier t\u00f6test, und nach jeder Gegnerwelle\\c[0].",
                           "zh_CN": "\u6bcf\u4e2a\u6fc0\u6d3b\u7684\u70ae\u53f0\u4f1a\u6d88\u8017\\c[3]25\u80fd\u91cf\\c[0]\u3002\\.\u6d88\u706d\u654c\u4eba\u548c\u6bcf\u6ce2\u653b\u51fb\u7ed3\u675f\u540e\u4f60\u90fd\u4f1a\u5f97\u5230\u989d\u5916\u7684\u80fd\u91cf\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u305d\u308c\u305e\u308c\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u8d77\u52d5\u3059\u308b\u306e\u306b\n\\c[3]\u30a8\u30cd\u30eb\u30ae\u30fc\u309225\\c[0]\u6d88\u8cbb\u3059\u308b\u3002\\.\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u3001\n\\c[3]\u52d5\u7269\u3092\u5012\u3057\u305f\u308a\u30a6\u30a7\u30fc\u30d6\u304c\u7d42\u308f\u3063\u305f\u308a\\c[0]\n\u3059\u308b\u3054\u3068\u306b\u624b\u306b\u5165\u308b\u304b\u3089\u306a\u3002<<A<<[CHANGED 2018/03/14]",
@@ -5533,6 +5575,7 @@
                       {
                         "text": {
                           "en_US": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
+                          "pt_BR": "\\c[3]- Descrição geral da torreta -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
                           "de_DE": "\\c[3]- Merkblatt zum Gesch\u00fctz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, h\u00e4ufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]",
                           "langUid": 792,
                           "zh_CN": "\\c[3]- \u70ae\u53f0\u603b\u89c8 -\\c[0]\n\n\\i[element-neutral] \\c[3]\u4e2d\u6027\\c[0]:\n\u5355\u76ee\u6807\u5c04\u51fb\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4e2d\u548c\u62a4\u76fe\uff0c\u9891\u7e41\u653b\u51fb\uff0c\u5a01\u529b\u5f31\u3002\n\\c[1]\u4f7f\u7528\u65e0\u5143\u7d20\u65f6\u7684\u9ed8\u8ba4\u6a21\u5f0f\uff01\\c[0]<<A<<[CHANGED 2018/11/28]",
@@ -5547,6 +5590,7 @@
                       {
                         "text": {
                           "en_US": "\\i[element-heat] \\c[3]Heat\\c[0]:\nPenetrating flamethrower, large area, short range, powerful, causes Burn.\n\n\\i[element-cold] \\c[3]Cold\\c[0]:\nExplosive shot, light homing, creates icicles, slows enemies, causes Chill.",
+                          "pt_BR": "\\i[element-heat] \\c[3]Fogo\\c[0]:\nLança-chamas penetrante, grande área, curto alcance, potente, causa queimadura.\n\n\\i[element-cold] \\c[3]Gelo\\c[0]:\nTiro explosivo, levemente teleguiado, cria estalactites, desacelera os inimigos, causa congelamento.",
                           "de_DE": "\\i[element-heat] \\c[3]Hitze\\c[0]:\nDurchschlagender Flammenwerfer, gro\u00dfer Radius, kurze Reichweite, stark, verursacht Brand.\n\n\\i[element-cold] \\c[3]K\u00e4lte\\c[0]:\nExplosionsschuss, semi-zielsuchend, erzeugt Eiskristalle, verlangsamt Gegner, verursacht Frost.",
                           "langUid": 797,
                           "zh_CN": "\\i[element-heat] \\c[3]\u706b\\c[0]:\n\u7a7f\u900f\u578b\u706b\u7130\u55b7\u5c04\u5668\uff0c\u5927\u8303\u56f4\uff0c\u77ed\u8ddd\u79bb\uff0c\u5a01\u529b\u5f3a\uff0c\u9020\u6210\u71c3\u70e7\u3002\n\n\\i[element-cold] \\c[3]\u51b0\\c[0]:\n\u7206\u7834\u5f39\u836f\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4ea7\u751f\u51b0\u67f1\uff0c\u51cf\u901f\u654c\u4eba\uff0c\u9020\u6210\u51b0\u51bb\u3002<<A<<[CHANGED 2018/11/28]",
@@ -5561,6 +5605,7 @@
                       {
                         "text": {
                           "en_US": "\\c[1]Shock and Wave are not unlocked and will be defaulted to Neutral!\\c[0]",
+                          "pt_BR": "\\c[1]Choque e Onda não são desbloqueados e serão padronizados para Neutro!\\c[0]",
                           "de_DE": "\\c[1]Schock und Welle sind nicht freigeschaltet und werden als Neutral behandelt!\\c[0]",
                           "langUid": 798,
                           "zh_CN": "\\c[1]\u7535\u4e0e\u6ce2\u5c1a\u672a\u89e3\u9501\uff0c\u5c06\u8bbe\u4e3a\u4e2d\u6027\uff01\\c[0]<<A<<[CHANGED 2018/11/28]",
@@ -5575,6 +5620,7 @@
                       {
                         "text": {
                           "en_US": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
+                          "pt_BR": "Todas as torretas custam \\c[3]\\v[tmp.tdCostTurret1] de Energia\\c[0] para ativar, independente do elemento.\n\nPor \\c[3]\\v[tmp.tdUpgradeCost]de Energia\\c[0] todas os torretas irão aumentar seu poder de ataque. Isso acontecerá automaticamente ao atingir essa quantidade.",
                           "de_DE": "Alle Gesch\u00fctze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabh\u00e4ngig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Gesch\u00fctze.",
                           "langUid": 887,
                           "ko_KR": "\ubaa8\ub4e0 \ud3ec\ud0d1\uc740 \uc18d\uc131\uacfc \uc0c1\uad00\uc5c6\uc774 \ud65c\uc131\ud654\ud558\ub294 \ub370 \\c[3]\\v[tmp.tdCostTurret1] \uc5d0\ub108\uc9c0\\c[0]\uac00 \ub4ed\ub2c8\ub2e4.\n\n\\c[3]\\v[tmp.tdUpgradeCost] \uc5d0\ub108\uc9c0\\c[0]\ub97c \uc0ac\uc6a9\ud558\uba74 \ud3ec\ud0d1\uc758 \uacf5\uaca9\ub825\uc774 \uc99d\uac00\ud569\ub2c8\ub2e4. \uc774\ub294 \uc774 \uc5d0\ub108\uc9c0\uc5d0 \ub3c4\ub2ec\ud588\uc744 \uacbd\uc6b0, \uc790\ub3d9\uc73c\ub85c \uc218\ud589\ub429\ub2c8\ub2e4.<<A<<[CHANGED 2019/04/30]",
@@ -5611,6 +5657,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Normal Mode (8 waves, enemy levels start at 40)",
+                          "pt_BR": "Modo Normal (8 ondas, nível incial dos inigmigos a partir de 40)",
                           "de_DE": "Normal (8 Wellen, Gegner starten auf Level 40)",
                           "zh_CN": "\u666e\u901a\u6a21\u5f0f(8\u6ce2\uff0c\u654c\u4eba\u8d77\u59cb\u7b49\u7ea740)<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30ce\u30fc\u30de\u30eb\u30e2\u30fc\u30c9(8W\u3001EL40)<<A<<[CHANGED 2019/04/16]",
@@ -5623,6 +5670,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Challenge Mode (Infinite survival, enemy levels start at player level, minimum 42)",
+                          "pt_BR": "Modo de Desafio (Sobrevivência infinita, nível dos inimigos igual ao do jogador",
                           "de_DE": "Herausforderung (\u00dcberlebenskampf, Gegner starten auf Spielerlevel, Minimum 42)",
                           "zh_CN": "\u6311\u6218\u6a21\u5f0f(\u65e0\u9650\u751f\u5b58\uff0c\u654c\u4eba\u8d77\u59cb\u7b49\u7ea7\u4e0e\u73a9\u5bb6\u76f8\u540c\uff0c\u6700\u4f4e42)<<A<<[CHANGED 2019/02/02]",
                           "ja_JP": "\u30c1\u30e3\u30ec\u30f3\u30b8\u30e2\u30fc\u30c9(\u7121\u9650\u30b5\u30d0\u30a4\u30d0\u30eb)<<A<<[CHANGED 2019/02/02]",
@@ -5635,6 +5683,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Detailed Instructions",
+                          "pt_BR": "Instruções detalhadas",
                           "langUid": 548,
                           "de_DE": "Genaue Instruktionen",
                           "zh_CN": "\u8be6\u7ec6\u8bf4\u660e<<A<<[CHANGED 2018/03/14]",
@@ -5647,6 +5696,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Turret Data",
+                          "pt_BR": "Dados da Torreta",
                           "de_DE": "Gesch\u00fctzdaten",
                           "langUid": 793,
                           "zh_CN": "\u70ae\u53f0\u6570\u636e<<A<<[CHANGED 2018/11/28]",
@@ -5659,6 +5709,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "\\c[3]Trade for Tokens\\c[0]",
+                          "pt_BR": "\\c[3]Trocar Tokens\\c[0]",
                           "de_DE": "\\c[3]Spezialmarken umtauschen\\c[0]",
                           "zh_CN": "\\c[3]\u5151\u6362\u4ee3\u5e01\\c[0]<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\\c[3]\u30c8\u30fc\u30af\u30f3\u3068\u4ea4\u63db\u3059\u308b\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -5671,6 +5722,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "\\c[1]Cancel\\c[0]",
+                          "pt_BR": "\\c[1]Cancelar\\c[0]",
                           "de_DE": "\\c[1]Abbrechen\\c[0]",
                           "zh_CN": "\\c[1]\u53d6\u6d88\\c[0]<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\\c[1]\u30ad\u30e3\u30f3\u30bb\u30eb\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -5707,6 +5759,7 @@
                   {
                     "text": {
                       "en_US": "\\s[0]Challenge Highscore:\n\\c[3]\\v[map.tdHighScore] Points on Wave \\v[map.tdHighWave]\\c[0] ",
+                      "pt_BR": "\\s[0]Pontuação Máxima do Desafio:\n\\c[3]\\v[map.tdHighScore] Pontos de Onda \\v[map.tdHighWave]\\c[0]",
                       "de_DE": "\\s[0]Rekord:\n\\c[3]\\v[map.tdHighScore] Punkte bei Welle \\v[map.tdHighWave]\\c[0] \n",
                       "zh_CN": "\\s[0]\u6311\u6218\u9ad8\u5206: \n\\c[3]\\v[map.tdHighScore]\u70b9\u4e8e\\v[map.tdHighWave]\u6ce2\\c[0] <<A<<[CHANGED 2019/04/30]",
                       "ja_JP": "\\s[0]\u30c1\u30e3\u30ec\u30f3\u30b8\u30cf\u30a4\u30b9\u30b3\u30a2\uff1a\n\\c[3]\\v[map.tdHighWave]\u30a6\u30a7\u30fc\u30d6\u5230\u9054\u3001\\v[map.tdHighScore]\u30dd\u30a4\u30f3\u30c8\\c[0]<<A<<[CHANGED 2019/04/30]",
@@ -5741,6 +5794,7 @@
                       {
                         "message": {
                           "en_US": "[nods normally]",
+                          "pt_BR": "[acena normalmente]",
                           "de_DE": "[nickt normal]",
                           "zh_CN": "[\u666e\u901a\u70b9\u5934]<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "[\u666e\u901a\u306b\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/04/16]",
@@ -5937,6 +5991,7 @@
                               "settings": {
                                 "taskTitle": {
                                   "en_US": "Wave",
+                                  "pt_BR": "Onda",
                                   "de_DE": "Welle",
                                   "zh_CN": "\u6ce2\u6570<<A<<[CHANGED 2019/04/16]",
                                   "ja_JP": "\u30a6\u30a7\u30fc\u30d6<<A<<[CHANGED 2019/04/16]",
@@ -5961,6 +6016,7 @@
                               "settings": {
                                 "taskTitle": {
                                   "en_US": "Score",
+                                  "pt_BR": "Puntuação",
                                   "de_DE": "Punkte",
                                   "zh_CN": "\u5206\u6570<<A<<[CHANGED 2019/04/16]",
                                   "ja_JP": "\u30b9\u30b3\u30a2<<A<<[CHANGED 2019/04/16]",
@@ -5985,6 +6041,7 @@
                           "settings": {
                             "taskTitle": {
                               "en_US": "Energy",
+                              "pt_BR": "Energia",
                               "de_DE": "Energie",
                               "zh_CN": "\u80fd\u91cf<<A<<[CHANGED 2019/04/16]",
                               "ja_JP": "\u30a8\u30cd\u30eb\u30ae\u30fc<<A<<[CHANGED 2019/04/16]",
@@ -6007,6 +6064,7 @@
                           "settings": {
                             "text": {
                               "en_US": "Life",
+                              "pt_BR": "Vida",
                               "de_DE": "Leben",
                               "zh_CN": "\u751f\u547d<<A<<[CHANGED 2019/04/16]",
                               "ja_JP": "\u4f53\u529b<<A<<[CHANGED 2019/04/16]",
@@ -6021,6 +6079,7 @@
                             "splits": [0.2, 0.4, 0.6, 0.8],
                             "taskTitle": {
                               "en_US": "Energy",
+                              "pt_BR": "Energia",
                               "langUid": 838,
                               "ko_KR": "\uc5d0\ub108\uc9c0<<A<<[CHANGED 2019/04/16]",
                               "ja_JP": "\u30a8\u30cd\u30eb\u30ae\u30fc<<A<<[CHANGED 2019/04/16]",
@@ -6094,6 +6153,7 @@
                       {
                         "message": {
                           "en_US": "[nods challengingly]",
+                          "pt_BR": "[acena sem hesitar]",
                           "de_DE": "[nickt herausfordernd]",
                           "zh_CN": "[\u6311\u6218\u70b9\u5934]<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "[\u5927\u80c6\u306b\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/04/16]",
@@ -6113,6 +6173,7 @@
                       {
                         "message": {
                           "en_US": "How?",
+                          "pt_BR": "Como?",
                           "de_DE": "Wie?",
                           "zh_CN": "\u600e\u4e48\u529e\uff1f<<A<<[CHANGED 2019/04/16]",
                           "langUid": 840,
@@ -6131,6 +6192,7 @@
                         "side": "LEFT",
                         "message": {
                           "en_US": "[ Replaying instruction recording ]",
+                          "pt_BR": "[ Repetindo a instrução gravada ]",
                           "langUid": 841,
                           "zh_CN": "[ \u6b63\u5728\u91cd\u64ad\u6559\u5b66 ]<<A<<[CHANGED 2019/04/16]",
                           "ko_KR": "[ \ub179\uc74c \uc548\ub0b4\ubb38\uc744 \uc7ac\uc0dd\ud569\ub2c8\ub2e4 ]<<A<<[CHANGED 2019/04/16]",
@@ -6144,6 +6206,7 @@
                       {
                         "name": {
                           "en_US": "Mika",
+                          "pt_BR": "Mika",
                           "de_DE": "Mika",
                           "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2019/04/16]",
@@ -6163,6 +6226,7 @@
                       {
                         "message": {
                           "en_US": "Alright, I will give you a short briefing as to how this will work out.",
+                          "pt_BR": "Muito bem, vou dar um breve resumo de como isto vai funcionar.",
                           "de_DE": "Ich gebe dir eine kleine Einf\u00fchrung, wie das Ganze funktioniert.",
                           "zh_CN": "\u597d\u5427\uff0c\u6211\u4f1a\u7b80\u5355\u544a\u8bc9\u4f60\u73b0\u5728\u7684\u60c5\u51b5\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u3088\u3057\u3001\u3069\u3046\u3084\u3063\u305f\u3089\u3044\u3044\u306e\u304b\n\u624b\u77ed\u306b\u8aac\u660e\u3057\u3088\u3046\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6180,6 +6244,7 @@
                       {
                         "message": {
                           "en_US": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
+                          "pt_BR": "Depois de eu ativar nosso Pathhacker aqui, os inimigos irão \\c[3]atacar em ondas\\c[0].",
                           "de_DE": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0].",
                           "zh_CN": "\u5982\u679c\u6211\u6fc0\u6d3b\u4e86\u6211\u4eec\u7684\u7834\u8def\u8005\uff0c\u654c\u4eba\u4f1a\u53d1\u52a8\\c[3]\u6570\u6ce2\u653b\u51fb\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u3053\u3053\u306b\u3042\u308b\u4ffa\u305f\u3061\u306e\n\u30d1\u30b9\u30cf\u30c3\u30ab\u30fc\u3092\u8d77\u52d5\u3059\u308b\u3068\u3001\n\u6575\u304c\\c[3]\u653b\u6483\u3092\u3057\u304b\u3051\u3066\u304f\u308b\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6197,6 +6262,7 @@
                       {
                         "message": {
                           "en_US": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
+                          "pt_BR": "Você tem que derrotá-los, \\c[3]antes que eles cheguem neste ponto\\c[0] e danifiquem nossa preciosa máquina aqui.",
                           "de_DE": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Sch\u00e4tzchen hier demolieren k\u00f6nnen.",
                           "zh_CN": "\u4f60\u9700\u8981\u62b5\u6321\u5b83\u4eec\u7684\u8fdb\u653b\uff0c\\c[3]\u963b\u6b62\u4ed6\u4eec\u63a5\u8fd1\u8fd9\u91cc\\c[0]\u6467\u6bc1\u6211\u4eec\u5b9d\u8d35\u7684\u673a\u5668\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u541b\u306f\u6575\u304c\\c[3]\u3053\u306e\u30dd\u30a4\u30f3\u30c8\u307e\u3067\n\u3084\u3063\u3066\u304f\u308b\u524d\\c[0]\u306b\u5012\u3057\u3066\u3001\n\u3053\u306e\u8cb4\u91cd\u306a\u30de\u30b7\u30f3\u3092\u5b88\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6214,6 +6280,7 @@
                       {
                         "message": {
                           "en_US": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
+                          "pt_BR": "Mas cuidado, porque todos eles possuem \\c[3]escudos que refletem dano\\c[0].\\. Portanto, atacar de forma aleatória não será uma opção.",
                           "de_DE": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option.",
                           "zh_CN": "\u4f60\u9700\u8981\u5c0f\u5fc3\uff0c\u56e0\u4e3a\u5b83\u4eec\u90fd\u62e5\u6709\u53ef\u4ee5\\c[3]\u53cd\u5c04\u4f24\u5bb3\u7684\u62a4\u76fe\\c[0]\u3002\\.\u76f2\u76ee\u7684\u4e71\u5c04\u662f\u4e0d\u884c\u7684\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u3067\u3082\u6c17\u3092\u3064\u3051\u3066\u304f\u308c\u3001\u6575\u306f\\c[3]\u653b\u6483\u3092\n\u8df3\u306d\u8fd4\u3059\u30b7\u30fc\u30eb\u30c9\\c[0]\u3092\u5f35\u3063\u3066\u3044\u308b\u3002\\.\n\u3084\u307f\u304f\u3082\u306b\u653b\u6483\u3057\u3066\u3082\u52b9\u679c\u306f\u306a\u3044\u305e\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6231,6 +6298,7 @@
                       {
                         "message": {
                           "en_US": "...!",
+                          "pt_BR": "...!",
                           "de_DE": "...!",
                           "zh_CN": "...!<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "...\uff01<<A<<[CHANGED 2019/04/16]",
@@ -6248,6 +6316,7 @@
                       {
                         "message": {
                           "en_US": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
+                          "pt_BR": "Felizmente, preparamos algumas \\c[3]torretas defensivas\\c[0] aqui.",
                           "de_DE": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgesch\u00fctze\\c[0] vorbereitet.",
                           "zh_CN": "\u4e0d\u8fc7\u6211\u4eec\u51c6\u5907\u4e86\u53ef\u4ee5\u81ea\u52a8\u5c04\u51fb\u7684\\c[3]\u9632\u5fa1\u70ae\u5854\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u5e78\u3044\u306a\u3053\u3068\u306b\u3001\u3053\u3063\u3061\u306b\u306f\n\u81ea\u52d5\\c[3]\u9632\u885b\u30bf\u30ec\u30c3\u30c8\\c[0]\u3092\u7528\u610f\u3057\u3066\u3042\u308b\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6265,6 +6334,7 @@
                       {
                         "message": {
                           "en_US": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
+                          "pt_BR": "Para ativar uma torreta, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
                           "de_DE": "Um ein Gesch\u00fctz zu aktivieren, \\c[3]schie\u00df ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!",
                           "zh_CN": "\u8981\u6fc0\u6d3b\u70ae\u5854\u3002\u4f60\u9700\u8981\u5148\\c[3]\u653b\u51fb\u5b83\u6570\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3059\u308b\u306b\u306f\u3001\n\\c[3]\u4f55\u56de\u304b\u653b\u6483\u3092\u5f53\u3066\u305f\\c[0]\u5f8c\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\u304f\u308c\uff01<<A<<[CHANGED 2019/04/16]",
@@ -6282,6 +6352,7 @@
                       {
                         "message": {
                           "en_US": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
+                          "pt_BR": "Quando ativadas com o \\c[3]elemento neutro\\c[0], elas \\c[3]romperão os escudos\\c[0] com cada acerto.",
                           "de_DE": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0].",
                           "zh_CN": "\u5982\u679c\u4f60\u4f7f\u7528\\c[3]\u4e2d\u6027\u5c5e\u6027\\c[0]\u6fc0\u6d3b\u70ae\u5854\uff0c\u90a3\u5b83\u4eec\u4f1a\u6bcf\u6b21\u653b\u51fb\u90fd\u4f1a\\c[3]\u524a\u51cf\u654c\u4eba\u7684\u62a4\u76fe\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\\c[3]\u7121\u5c5e\u6027\\c[0]\u306e\u653b\u6483\u3067\u8d77\u52d5\u3059\u308b\u3068\u3001\n\u30bf\u30ec\u30c3\u30c8\u306f\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\u89e3\u9664\u3059\u308b\\c[0]\n\u5f3e\u3092\u653e\u3064\u305e\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6299,6 +6370,7 @@
                       {
                         "message": {
                           "en_US": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
+                          "pt_BR": "Mais tarde também vou desbloquear os \\c[3]modos elementais\\c[0] que causarão mais dano em vez de romper os escudos.",
                           "de_DE": "Sp\u00e4ter werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde aufl\u00f6sen\\c[0].",
                           "zh_CN": "\u4e4b\u540e\u6211\u4f1a\u4e3a\u4f60\u89e3\u9501\\c[3]\u5143\u7d20\u653b\u51fb\u6a21\u5f0f\\c[0]\uff0c\u867d\u7136\u5b83\u4eec\\c[3]\u4e0d\u80fd\u524a\u5f31\u62a4\u76fe\uff0c\u4f46\u662f\u4f24\u5bb3\u4f1a\u66f4\u9ad8\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u3057\u3070\u3089\u304f\u7d4c\u3063\u305f\u3089\u3001\\c[3]\u5c5e\u6027\u653b\u6483\u30e2\u30fc\u30c9\\c[0]\u3092\n\u30a2\u30f3\u30ed\u30c3\u30af\u3059\u308b\u3002\u3053\u308c\u306f\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\n\u89e3\u9664\u3067\u304d\u306a\u3044\u304c\u3001\u4ee3\u308f\u308a\u306b\n\u5927\u304d\u306a\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3089\u308c\u308b\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6316,6 +6388,7 @@
                       {
                         "message": {
                           "en_US": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
+                          "pt_BR": "Cada torreta consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
                           "de_DE": "Jedes Gesch\u00fctz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier t\u00f6test, und nach jeder Gegnerwelle\\c[0].",
                           "zh_CN": "\u6bcf\u4e2a\u6fc0\u6d3b\u7684\u70ae\u53f0\u4f1a\u6d88\u8017\\c[3]25\u80fd\u91cf\\c[0]\u3002\\.\u6d88\u706d\u654c\u4eba\u548c\u6bcf\u6ce2\u653b\u51fb\u7ed3\u675f\u540e\u4f60\u90fd\u4f1a\u5f97\u5230\u989d\u5916\u7684\u80fd\u91cf\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u305d\u308c\u305e\u308c\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u8d77\u52d5\u3059\u308b\u306e\u306b\n\\c[3]\u30a8\u30cd\u30eb\u30ae\u30fc\u309225\\c[0]\u6d88\u8cbb\u3059\u308b\u3002\\.\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u3001\n\\c[3]\u52d5\u7269\u3092\u5012\u3057\u305f\u308a\u30a6\u30a7\u30fc\u30d6\u304c\u7d42\u308f\u3063\u305f\u308a\\c[0]\n\u3059\u308b\u3054\u3068\u306b\u624b\u306b\u5165\u308b\u304b\u3089\u306a\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6348,6 +6421,7 @@
                       {
                         "text": {
                           "en_US": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
+                          "pt_BR": "\\c[3]- Descrição geral da torreta -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
                           "de_DE": "\\c[3]- Merkblatt zum Gesch\u00fctz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, h\u00e4ufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]",
                           "langUid": 856,
                           "zh_CN": "\\c[3]- \u70ae\u53f0\u603b\u89c8 -\\c[0]\n\n\\i[element-neutral] \\c[3]\u4e2d\u6027\\c[0]:\n\u5355\u76ee\u6807\u5c04\u51fb\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4e2d\u548c\u62a4\u76fe\uff0c\u9891\u7e41\u653b\u51fb\uff0c\u5a01\u529b\u5f31\u3002\n\\c[1]\u4f7f\u7528\u65e0\u5143\u7d20\u65f6\u7684\u9ed8\u8ba4\u6a21\u5f0f\uff01\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -6362,6 +6436,7 @@
                       {
                         "text": {
                           "en_US": "\\i[element-heat] \\c[3]Heat\\c[0]:\nPenetrating flamethrower, large area, short range, powerful, causes Burn.\n\n\\i[element-cold] \\c[3]Cold\\c[0]:\nExplosive shot, light homing, creates icicles, slows enemies, causes Chill.",
+                          "pt_BR": "\\i[element-heat] \\c[3]Fogo\\c[0]:\nLança-chamas penetrante, grande área, curto alcance, potente, causa queimadura.\n\n\\i[element-cold] \\c[3]Gelo\\c[0]:\nTiro explosivo, levemente teleguiado, cria estalactites, desacelera os inimigos, causa congelamento.",
                           "de_DE": "\\i[element-heat] \\c[3]Hitze\\c[0]:\nDurchschlagender Flammenwerfer, gro\u00dfer Radius, kurze Reichweite, stark, verursacht Brand.\n\n\\i[element-cold] \\c[3]K\u00e4lte\\c[0]:\nExplosionsschuss, semi-zielsuchend, erzeugt Eiskristalle, verlangsamt Gegner, verursacht Frost.",
                           "langUid": 857,
                           "zh_CN": "\\i[element-heat] \\c[3]\u706b\\c[0]:\n\u7a7f\u900f\u578b\u706b\u7130\u55b7\u5c04\u5668\uff0c\u5927\u8303\u56f4\uff0c\u77ed\u8ddd\u79bb\uff0c\u5a01\u529b\u5f3a\uff0c\u9020\u6210\u71c3\u70e7\u3002\n\n\\i[element-cold] \\c[3]\u51b0\\c[0]:\n\u7206\u7834\u5f39\u836f\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4ea7\u751f\u51b0\u67f1\uff0c\u51cf\u901f\u654c\u4eba\uff0c\u9020\u6210\u51b0\u51bb\u3002<<A<<[CHANGED 2019/04/16]",
@@ -6376,6 +6451,7 @@
                       {
                         "text": {
                           "en_US": "\\c[1]Shock and Wave are not unlocked and will be defaulted to Neutral!\\c[0]",
+                          "pt_BR": "\\c[1]Choque e Onda não são desbloqueados e serão padronizados para Neutro!\\c[0]",
                           "de_DE": "\\c[1]Schock und Welle sind nicht freigeschaltet und werden als Neutral behandelt!\\c[0]",
                           "langUid": 858,
                           "zh_CN": "\\c[1]\u7535\u4e0e\u6ce2\u5c1a\u672a\u89e3\u9501\uff0c\u5c06\u8bbe\u4e3a\u4e2d\u6027\uff01\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -6390,6 +6466,7 @@
                       {
                         "text": {
                           "en_US": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
+                          "pt_BR": "Todas as torretas custam \\c[3]\\v[tmp.tdCostTurret1] de Energia\\c[0] para ativar, independente do elemento.\n\nPor \\c[3]\\v[tmp.tdUpgradeCost]de Energia\\c[0] todas os torretas irão aumentar seu poder de ataque. Isso acontecerá automaticamente ao atingir essa quantidade.",
                           "de_DE": "Alle Gesch\u00fctze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabh\u00e4ngig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Gesch\u00fctze.",
                           "langUid": 888,
                           "ko_KR": "\ubaa8\ub4e0 \ud3ec\ud0d1\uc740 \uc18d\uc131\uacfc \uc0c1\uad00\uc5c6\uc774 \ud65c\uc131\ud654\ud558\ub294 \ub370 \\c[3]\\v[tmp.tdCostTurret1] \uc5d0\ub108\uc9c0\\c[0]\uac00 \ub4ed\ub2c8\ub2e4.\n\n\\c[3]\\v[tmp.tdUpgradeCost] \uc5d0\ub108\uc9c0\\c[0]\ub97c \uc0ac\uc6a9\ud558\uba74 \ud3ec\ud0d1\uc758 \uacf5\uaca9\ub825\uc774 \uc99d\uac00\ud569\ub2c8\ub2e4. \uc774\ub294 \uc774 \uc5d0\ub108\uc9c0\uc5d0 \ub3c4\ub2ec\ud588\uc744 \uacbd\uc6b0, \uc790\ub3d9\uc73c\ub85c \uc218\ud589\ub429\ub2c8\ub2e4.<<A<<[CHANGED 2019/04/30]",
@@ -6426,6 +6503,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Normal Mode (8 waves, enemy levels start at 40)",
+                          "pt_BR": "Modo Normal (8 ondas, nível incial dos inigmigos a partir de 40)",
                           "de_DE": "Normal (8 Wellen, Gegner starten auf Level 40)",
                           "zh_CN": "\u666e\u901a\u6a21\u5f0f(8\u6ce2\u654c\u4eba\u8d77\u59cb\u7b49\u7ea740)<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30ce\u30fc\u30de\u30eb\u30e2\u30fc\u30c9(8W\u3001EL40)<<A<<[CHANGED 2019/04/16]",
@@ -6438,6 +6516,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Challenge Mode (Infinite survival, enemy levels start at player level, minimum 42)",
+                          "pt_BR": "Modo de Desafio (Sobrevivência infinita, nível incial dos inimigos é semelhante ao nível do jogador, mínimo: 42)",
                           "de_DE": "Herausforderung (\u00dcberlebenskampf, Gegner starten auf Spielerlevel, Minimum 42)",
                           "zh_CN": "\u6311\u6218\u6a21\u5f0f(\u65e0\u9650\u751f\u5b58\uff0c\u654c\u4eba\u8d77\u59cb\u7b49\u7ea7\u4e0e\u73a9\u5bb6\u76f8\u540c\uff0c\u6700\u4f4e42)<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30c1\u30e3\u30ec\u30f3\u30b8\u30e2\u30fc\u30c9(\u7121\u9650\u30b5\u30d0\u30a4\u30d0\u30eb)<<A<<[CHANGED 2019/04/16]",
@@ -6450,6 +6529,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Detailed Instructions",
+                          "pt_BR": "Instruções detalhadas",
                           "langUid": 861,
                           "de_DE": "Genaue Instruktionen",
                           "zh_CN": "\u8be6\u7ec6\u8bf4\u660e<<A<<[CHANGED 2019/04/16]",
@@ -6462,6 +6542,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Turret Data",
+                          "pt_BR": "Dados da Torreta",
                           "de_DE": "Gesch\u00fctzdaten",
                           "langUid": 862,
                           "zh_CN": "\u70ae\u53f0\u6570\u636e<<A<<[CHANGED 2019/04/16]",
@@ -6474,6 +6555,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "\\c[3]Trade for Tokens\\c[0]",
+                          "pt_BR": "\\c[3]Trocar Tokens\\c[0]",
                           "de_DE": "\\c[3]Spezialmarken umtauschen\\c[0]",
                           "zh_CN": "\\c[3]\u5151\u6362\u4ee3\u5e01\\c[0]<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\\c[3]\u30c8\u30fc\u30af\u30f3\u3068\u4ea4\u63db\u3059\u308b\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -6486,6 +6568,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "\\c[1]Cancel\\c[0]",
+                          "pt_BR": "\\c[1]Cancelar\\c[0]",
                           "de_DE": "\\c[1]Abbrechen\\c[0]",
                           "zh_CN": "\\c[1]\u53d6\u6d88\\c[0]<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\\c[1]\u30ad\u30e3\u30f3\u30bb\u30eb\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -6535,6 +6618,7 @@
         "analyzable": {
           "text": {
             "en_US": "Mika",
+            "pt_BR": "Mika",
             "de_DE": "Mika",
             "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
             "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -6564,6 +6648,7 @@
               {
                 "name": {
                   "en_US": "Mika",
+                  "pt_BR": "Mika",
                   "de_DE": "Mika",
                   "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/10/22]",
                   "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/10/22]",
@@ -6583,6 +6668,7 @@
               {
                 "message": {
                   "en_US": "Hey, \\v[lore.title.seeker].\\. Please don't disturb my work!",
+                  "pt_BR": "Ei, \\v[lore.title.seeker].\\. Por favor, não atrapalhe meu trabalho!",
                   "de_DE": "Hey, Seeker. St\u00f6r mich bitte nicht bei der Arbeit!",
                   "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u8bf7\u4e0d\u597d\u6253\u6270\u6211\u5de5\u4f5c\uff01<<A<<[CHANGED 2018/05/01]",
                   "ja_JP": "\u3061\u3087\u3063\u3068\u3001\\v[lore.title.seeker]\u3055\u3093\u3002\\.\n\u3053\u3063\u3061\u306e\u4ed5\u4e8b\u3092\u90aa\u9b54\u3057\u306a\u3044\u3067\u3088\uff01<<A<<[CHANGED 2018/05/01]",
@@ -6628,6 +6714,7 @@
                 {
                   "message": {
                     "en_US": "Hi.",
+                    "pt_BR": "Oi.",
                     "de_DE": "Hi.",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3084\u3041\u3002<<A<<[CHANGED 2018/03/14]",
@@ -6643,6 +6730,7 @@
                 {
                   "message": {
                     "en_US": ".\\..\\..\\.",
+                    "pt_BR": ".\\..\\..\\.",
                     "de_DE": ".\\..\\..\\.",
                     "zh_CN": ".\\..\\..\\.<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u30fb\\.\u30fb\\.\u30fb\\.<<A<<[CHANGED 2018/03/14]",
@@ -6657,6 +6745,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2018/03/14]",
@@ -6688,6 +6777,7 @@
                 {
                   "name": {
                     "en_US": "Mika",
+                    "pt_BR": "Mika",
                     "de_DE": "Mika",
                     "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -6707,6 +6797,7 @@
                 {
                   "message": {
                     "en_US": "Ah, there you are.\\. Finally, I thought that would-be thespian would never let you through.",
+                    "pt_BR": "Ah, aí está você.\\. Finalmente, eu pensei que aquele cebeça oca nunca deixaria você passar.",
                     "de_DE": "Da bist du ja!\\. Dachte schon, der M\u00f6chtegern-Mime h\u00e4tte dich totgequatscht.",
                     "zh_CN": "\u554a\uff0c\u4f60\u6765\u4e86\u3002\\.\u6211\u8fd8\u4ee5\u4e3a\u90a3\u5bb6\u4f19\u6c38\u8fdc\u4e0d\u4f1a\u653e\u4f60\u8fc7\u6765\u3002<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u3042\u3042\u3001\u6765\u305f\u306e\u304b\u3002\\.\u3088\u3046\u3084\u304f\u3060\u306a\u3002\n\u3042\u306e\u5f79\u8005\u6c17\u53d6\u308a\u304c\u541b\u306e\u3053\u3068\u3092\n\u96e2\u3055\u306a\u3044\u3093\u3058\u3083\u306a\u3044\u304b\u3068\u601d\u3063\u305f\u3088\u3002<<A<<[CHANGED 2018/08/28]",
@@ -6724,6 +6815,7 @@
                 {
                   "message": {
                     "en_US": "Hi!",
+                    "pt_BR": "Oi!",
                     "de_DE": "Hi!",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2018/03/14]",
@@ -6738,6 +6830,7 @@
                 {
                   "message": {
                     "en_US": "So, you have come to help us open this door here, right?",
+                    "pt_BR": "Então, você veio para nos ajudar a abrir esta porta aqui, certo?",
                     "de_DE": "Also, du bist hier, um uns dabei zu helfen, diese T\u00fcr hier zu \u00f6ffnen, oder?",
                     "zh_CN": "\u4f60\u662f\u6765\u5e2e\u52a9\u6211\u4eec\u6253\u5f00\u8fd9\u6247\u95e8\u7684\u5bf9\u5427\uff1f<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u305d\u308c\u3067\u3001\u541b\u306f\u3053\u306e\u30c9\u30a2\u3092\u958b\u3051\u308b\u306e\u3092\n\u624b\u4f1d\u3044\u306b\u6765\u3066\u304f\u308c\u305f\u3093\u3060\u308d\u3046\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -6755,6 +6848,7 @@
                 {
                   "message": {
                     "en_US": "...?",
+                    "pt_BR": "...?",
                     "de_DE": "...?",
                     "zh_CN": "...\uff1f<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "...\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -6772,6 +6866,7 @@
                 {
                   "message": {
                     "en_US": "How?",
+                    "pt_BR": "Como?",
                     "de_DE": "Wie?",
                     "zh_CN": "\u600e\u4e48\u529e\uff1f<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3069\u3046\u3084\u3063\u3066\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -6786,6 +6881,7 @@
                 {
                   "message": {
                     "en_US": "Don't worry, we will leave the complicated part to this technical marvel here.",
+                    "pt_BR": "Não se preocupe, vamos deixar a parte complicada para esta maravilha técnica aqui.",
                     "de_DE": "Keine Sorge, den komplizierten Teil \u00fcbernimmt unser technisches Wunder hier.",
                     "zh_CN": "\u522b\u62c5\u5fc3\uff0c\u6280\u672f\u95ee\u9898\u4ea4\u7ed9\u6211\u4eec\u5c31\u884c\u3002<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u5fc3\u914d\u3059\u308b\u306a\u3001\u6280\u8853\u7684\u306a\u96e2\u308c\u696d\u306e\n\u3084\u3084\u3053\u3057\u3044\u90e8\u5206\u3092\u307e\u304b\u305b\u308b\u6c17\u306f\u306a\u3044\u304b\u3089\u3055\u3002<<A<<[CHANGED 2018/08/28]",
@@ -6867,6 +6963,7 @@
                 {
                   "name": {
                     "en_US": "Mika",
+                    "pt_BR": "Mika",
                     "de_DE": "Mika",
                     "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -6886,6 +6983,7 @@
                 {
                   "message": {
                     "en_US": "You, \\v[lore.title.seeker], will simply defend it against the incoming wave of enemies.",
+                    "pt_BR": "Você, \\v[lore.title.seeker], só precisa defende-lâ contra a onda de inimigos que se aproxima.",
                     "de_DE": "Du, Seeker, wirst es ganz einfach vor einlaufenden Gegnern besch\u00fctzen.",
                     "zh_CN": "\u4f60\uff0c\\v[lore.title.seeker]\uff0c\u53ea\u9700\u8981\u9632\u5b88\u6765\u72af\u7684\u654c\u4eba\u3002<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\\v[lore.title.seeker]\u3067\u3042\u308b\u541b\u306f\u5358\u7d14\u306b\u3001\n\u3084\u3063\u3066\u304f\u308b\u6575\u304b\u3089\n\u3053\u3063\u3061\u3092\u5b88\u3063\u3066\u304f\u308c\u308c\u3070\u3044\u3044\u3002<<A<<[CHANGED 2018/03/14]",
@@ -6903,6 +7001,7 @@
                 {
                   "message": {
                     "en_US": "For that purpose you can use the Trackwalker-compatible defensive system we prepared.",
+                    "pt_BR": "Para isso você pode usar o sistema defensivo que preparamos.",
                     "de_DE": "Zu diesem Zweck kannst du das Pfadl\u00e4ufer-kompatible Abwehrsystem hier nutzen.",
                     "zh_CN": "\u6211\u4eec\u4e3a\u4f60\u51c6\u5907\u4e86\u4e0e\u5bfb\u8def\u8005\u517c\u5bb9\u7684\u9632\u5fa1\u7cfb\u7edf\u3002<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u9632\u885b\u306e\u305f\u3081\u306b\u3001\u541b\u306f\u3053\u3063\u3061\u304c\u7528\u610f\u3057\u305f\n\u63a2\u7d22\u8005\u7528\u9632\u885b\u30b7\u30b9\u30c6\u30e0\u3092\u4f7f\u3048\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -6920,6 +7019,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "zh_CN": "\u2026<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "...<<A<<[CHANGED 2018/03/14]",
@@ -6992,6 +7092,7 @@
                 {
                   "name": {
                     "en_US": "Mika",
+                    "pt_BR": "Mika",
                     "de_DE": "Mika",
                     "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -7011,6 +7112,7 @@
                 {
                   "message": {
                     "en_US": "It's just the one for now, but we will spawn more over time.",
+                    "pt_BR": "É apenas uma por enquanto, mas vamos adicionar outras com o tempo.",
                     "de_DE": "Im Moment ist's nur ein Gesch\u00fctz, wir werden aber nach und nach mehr heranschaffen.",
                     "zh_CN": "\u73b0\u5728\u53ea\u6709\u4e00\u53f0\uff0c\u4f46\u4e00\u4f1a\u513f\u4f1a\u8d8a\u6765\u8d8a\u591a\u3002<<A<<[CHANGED 2021/03/05]",
                     "ja_JP": "\u4eca\u306f\u3072\u3068\u3064\u3060\u3051\u3060\u304c\u3001\u6642\u9593\u304c\u7d4c\u3063\u305f\u3089\n\u8a2d\u7f6e\u3059\u308b\u6570\u3092\u5897\u3084\u3059\u3064\u3082\u308a\u3060\u3002<<A<<[CHANGED 2021/03/05]",
@@ -7028,6 +7130,7 @@
                 {
                   "message": {
                     "en_US": "They will automatically attack incoming enemies once you've activated them.",
+                    "pt_BR": "Elas atacarão automaticamente os inimigos se aproximam, depois que você as tiver ativado.",
                     "de_DE": "Sie greifen ankommende Gegner automatisch an, sobald du sie aktiviert hast.",
                     "zh_CN": "\u53ea\u8981\u4f60\u6fc0\u6d3b\u4e86\u5b83\uff0c\u5b83\u5c31\u80fd\u81ea\u52a8\u653b\u51fb\u6765\u72af\u7684\u654c\u4eba\u3002<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u30b7\u30b9\u30c6\u30e0\u306f\u4e00\u5ea6\u8d77\u52d5\u3059\u308c\u3070\u3001\n\u3084\u3063\u3066\u304f\u308b\u6575\u3092\u81ea\u52d5\u3067\u653b\u6483\u3057\u3066\u304f\u308c\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -7045,6 +7148,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "zh_CN": "...\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "...\uff01<<A<<[CHANGED 2018/03/14]",
@@ -7059,6 +7163,7 @@
                 {
                   "message": {
                     "en_US": "Talk to me again once you want to start.\\. You will learn the rest on the go.",
+                    "pt_BR": "Fale comigo novamente quando quiser começar.\\. Você aprenderá o resto na prática. ",
                     "de_DE": "Rede mit mir, sobald du bereit bist.\\. Den Rest lernst du dann in der Praxis.",
                     "zh_CN": "\u5982\u679c\u4f60\u60f3\u8981\u5f00\u59cb\u5c31\u8ddf\u6211\u8bf4\u3002\\.\u8fb9\u505a\u8fb9\u5b66\u3002<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u306f\u3058\u3081\u305f\u304f\u306a\u3063\u305f\u3089\u8a71\u3057\u304b\u3051\u3066\u304f\u308c\u3002\\.\n\u3042\u3068\u306f\u5b9f\u969b\u306b\u3084\u3063\u3066\u307f\u308c\u3070\n\u30b3\u30c4\u304c\u308f\u304b\u308b\u3060\u308d\u3046\u3002<<A<<[CHANGED 2018/03/14]",
@@ -7076,6 +7181,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 46,
@@ -7125,6 +7231,7 @@
                 {
                   "name": {
                     "en_US": "Mika",
+                    "pt_BR": "Mika",
                     "de_DE": "Mika",
                     "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -7144,6 +7251,7 @@
                 {
                   "message": {
                     "en_US": "Hello, \\v[lore.title.seeker].\\. Ready to defend against the incoming waves?",
+                    "pt_BR": "Olá, \\v[lore.title.seeker].\\. Pronta para se defender contra as ondas que virão?",
                     "de_DE": "Hey, Seeker.\\. Bist du bereit, es mit wahren Horden von Gegnern aufzunehmen?",
                     "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u51c6\u5907\u597d\u9632\u5fa1\u654c\u4eba\u8fdb\u653b\u4e86\u5417\uff1f<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3084\u3042\u3001\\v[lore.title.seeker]\u3055\u3093\u3002\\.\n\u6575\u304b\u3089\u3053\u3053\u3092\u9632\u885b\u3059\u308b\n\u6e96\u5099\u306f\u3044\u3044\u304b\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -7168,6 +7276,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 565,
@@ -7183,6 +7292,7 @@
                     {
                       "message": {
                         "en_US": "Alright.\\. I will start up our generator here in a second.",
+                        "pt_BR": "Muito bem.\\. Vou ligar nosso gerador aqui num segundo.",
                         "de_DE": "Alles klar.\\. Ich starte den Generator hier, einen Augenblick.",
                         "zh_CN": "\u597d\u7684\u3002\\.\u6211\u4eec\u9a6c\u4e0a\u5c31\u542f\u52a8\u53d1\u7535\u673a\u3002<<A<<[CHANGED 2018/03/14]",
                         "ja_JP": "\u308f\u304b\u3063\u305f\u3002\\.\u3053\u3053\u306e\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u30fc\u3092\n\u3059\u3050\u306b\u8d77\u52d5\u3059\u308b\u3002<<A<<[CHANGED 2018/03/14]",
@@ -7256,6 +7366,7 @@
                     {
                       "name": {
                         "en_US": "Mika",
+                        "pt_BR": "Mika",
                         "de_DE": "Mika",
                         "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                         "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -7275,6 +7386,7 @@
                     {
                       "message": {
                         "en_US": "But first, activate that turret by \\c[3]hitting it a few\\c[0] times and then using a \\c[3]charged projectile on it\\c[0]!",
+                        "pt_BR": "Mas antes, ative aquela torreta com \\c[3]alguns ataques\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
                         "de_DE": "Aktiviere aber zuerst das Gesch\u00fctz, indem du \\c[3]ein paarmal darauf schie\u00dft\\c[0] und es dann mit einem \\c[3]geladenen Schuss startest\\c[0]!",
                         "zh_CN": "\u4f46\u9996\u5148\uff0c\\c[3]\u653b\u51fb\u70ae\u5854\u51e0\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0] \u6765\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2018/03/14]",
                         "ja_JP": "\u3067\u3082\u305d\u306e\u524d\u306b\u3001\\c[3]\u653b\u6483\u3092\u6570\u56de\u5f53\u3066\u3066\\c[0]\u304b\u3089\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\n\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3057\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/03/14]",
@@ -7292,6 +7404,7 @@
                     {
                       "message": {
                         "en_US": "[nods]",
+                        "pt_BR": "[acena a cabeça]",
                         "de_DE": "[nickt]",
                         "fr_FR": "fr_FR",
                         "langUid": 710,
@@ -7354,6 +7467,7 @@
                     {
                       "task": {
                         "en_US": "Hit \\c[3]the turret\\c[0] first with \\c[3]repeated shots\\c[0] and lastly with a \\c[3]charged shot\\c[0] to activate it",
+                        "pt_BR": "Ataque \\c[3]a torreta\\c[0] primeiro com \\c[3]tiros repetidos\\c[0] e depois use um \\c[3]tiro carregado\\c[0] para ativá-la",
                         "langUid": 712,
                         "zh_CN": "\u4f7f\u7528\\c[3]\u8fde\u7eed\u5c04\u51fb\\c[0]\u6765\u51fb\u4e2d\\c[3]\u70ae\u5854\\c[0]\uff0c\u6700\u540e\u518d\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6765\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2018/03/14]",
                         "ko_KR": "\\c[3]\ud3ec\ud0d1\\c[0]\uc744 \ud65c\uc131\ud654\ud558\ub824\uba74 \\c[3]\ubc18\ubcf5 \uc0f7\\c[0]\uc73c\ub85c \uba87 \ubc88 \ud0c0\uaca9\ud55c \ub4a4, \ub9c8\uc9c0\ub9c9\uc5d0 \\c[3]\ucda9\uc804 \uc0f7\\c[0]\uc744 \uc3d8\uba74 \ub429\ub2c8\ub2e4.<<A<<[CHANGED 2018/03/14]",
@@ -7381,6 +7495,7 @@
                     {
                       "message": {
                         "en_US": "[shakes head]",
+                        "pt_BR": "[balança a cabeça]",
                         "de_DE": "[sch\u00fcttelt Kopf]",
                         "fr_FR": "fr_FR",
                         "langUid": 50,
@@ -7396,6 +7511,7 @@
                     {
                       "message": {
                         "en_US": "Okay, but please make up your mind soon.\\. We want to be finished here at some point.",
+                        "pt_BR": "Está bem, mas, por favor, decida-se logo.\\. Queremos terminar isso aqui em breve.",
                         "de_DE": "Okay, aber entscheide dich bitte bald.\\. Wir wollen hier bald fertig werden.",
                         "zh_CN": "\u597d\u7684\uff0c\u4f60\u53ef\u4ee5\u5148\u60f3\u60f3\u3002\\.\u51c6\u5907\u597d\u4e86\u5c31\u544a\u8bc9\u6211\u3002<<A<<[CHANGED 2018/03/14]",
                         "ja_JP": "\u308f\u304b\u3063\u305f\u3088\u3001\u3067\u3082\u65e9\u304f\u5fc3\u3092\u6c7a\u3081\u3066\u304f\u308c\u3088\u3002\\.\n\u3044\u3064\u304b\u306f\u7d42\u308f\u3089\u305b\u306a\u304d\u3083\u3044\u3051\u306a\u3044\u3093\u3060\u304b\u3089\u3002<<A<<[CHANGED 2018/03/14]",
@@ -7415,6 +7531,7 @@
                     {
                       "message": {
                         "en_US": "How?",
+                        "pt_BR": "Como?",
                         "de_DE": "Wie?",
                         "zh_CN": "\u600e\u4e48\u529e\uff1f<<A<<[CHANGED 2018/10/22]",
                         "langUid": 759,
@@ -7432,6 +7549,7 @@
                     {
                       "message": {
                         "en_US": "Alright, I will give you a short briefing as to how this will work out.",
+                        "pt_BR": "Muito bem, vou dar um breve resumo de como isto vai funcionar.",
                         "de_DE": "Ich gebe dir eine kleine Einf\u00fchrung, wie das Ganze funktioniert.",
                         "zh_CN": "\u597d\u5427\uff0c\u6211\u4f1a\u7b80\u5355\u544a\u8bc9\u4f60\u73b0\u5728\u7684\u60c5\u51b5\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u3088\u3057\u3001\u3069\u3046\u3084\u3063\u305f\u3089\u3044\u3044\u306e\u304b\n\u624b\u77ed\u306b\u8aac\u660e\u3057\u3088\u3046\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7449,6 +7567,7 @@
                     {
                       "message": {
                         "en_US": "After I properly activate our Pathhacker here, enemies will \\c[3]attack in waves\\c[0].",
+                        "pt_BR": "Depois de eu ativar nosso Pathhacker aqui, os inimigos irão \\c[3]atacar em ondas\\c[0].",
                         "de_DE": "Sobald ich unseren Pfadhacker hier aktiviere, werden uns die Gegner \\c[3]in Wellen angreifen\\c[0].",
                         "zh_CN": "\u5982\u679c\u6211\u6fc0\u6d3b\u4e86\u6211\u4eec\u7684\u7834\u8def\u8005\uff0c\u654c\u4eba\u4f1a\u53d1\u52a8\\c[3]\u6570\u6ce2\u653b\u51fb\\c[0]\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u3053\u3053\u306b\u3042\u308b\u4ffa\u305f\u3061\u306e\n\u30d1\u30b9\u30cf\u30c3\u30ab\u30fc\u3092\u8d77\u52d5\u3059\u308b\u3068\u3001\n\u6575\u304c\\c[3]\u653b\u6483\u3092\u3057\u304b\u3051\u3066\u304f\u308b\\c[0]\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7466,6 +7585,7 @@
                     {
                       "message": {
                         "en_US": "You gotta defeat them, \\c[3]before they reach this point\\c[0] and damage our precious machine here.",
+                        "pt_BR": "Você tem que derrotá-los, \\c[3]antes que eles cheguem neste ponto\\c[0] e danifiquem nossa preciosa máquina aqui.",
                         "de_DE": "Du musst sie plattmachen, \\c[3]bevor sie diesen Punkt hier erreichen\\c[0] und unser Sch\u00e4tzchen hier demolieren k\u00f6nnen.",
                         "zh_CN": "\u4f60\u9700\u8981\u62b5\u6321\u5b83\u4eec\u7684\u8fdb\u653b\uff0c\\c[3]\u963b\u6b62\u4ed6\u4eec\u63a5\u8fd1\u8fd9\u91cc\\c[0]\u6467\u6bc1\u6211\u4eec\u5b9d\u8d35\u7684\u673a\u5668\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u541b\u306f\u6575\u304c\\c[3]\u3053\u306e\u30dd\u30a4\u30f3\u30c8\u307e\u3067\n\u3084\u3063\u3066\u304f\u308b\u524d\\c[0]\u306b\u5012\u3057\u3066\u3001\n\u3053\u306e\u8cb4\u91cd\u306a\u30de\u30b7\u30f3\u3092\u5b88\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7483,6 +7603,7 @@
                     {
                       "message": {
                         "en_US": "Careful though, because they'll all have \\c[3]shields that reflect damage\\c[0].\\. So just attacking blindly won't be an option.",
+                        "pt_BR": "Mas cuidado, porque todos eles possuem \\c[3]escudos que refletem dano\\c[0].\\. Portanto, atacar de forma aleatória não será uma opção.",
                         "de_DE": "Aber Vorsicht, sie haben alle \\c[3]einen Schild, der Schaden reflektiert\\c[0].\\. Einfach drauflosballern ist also nicht die cleverste Option.",
                         "zh_CN": "\u4f60\u9700\u8981\u5c0f\u5fc3\uff0c\u56e0\u4e3a\u5b83\u4eec\u90fd\u62e5\u6709\u53ef\u4ee5\\c[3]\u53cd\u5c04\u4f24\u5bb3\u7684\u62a4\u76fe\\c[0]\u3002\\.\u76f2\u76ee\u7684\u4e71\u5c04\u662f\u4e0d\u884c\u7684\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u3067\u3082\u6c17\u3092\u3064\u3051\u3066\u304f\u308c\u3001\u6575\u306f\\c[3]\u653b\u6483\u3092\n\u8df3\u306d\u8fd4\u3059\u30b7\u30fc\u30eb\u30c9\\c[0]\u3092\u5f35\u3063\u3066\u3044\u308b\u3002\\.\n\u3084\u307f\u304f\u3082\u306b\u653b\u6483\u3057\u3066\u3082\u52b9\u679c\u306f\u306a\u3044\u305e\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7500,6 +7621,7 @@
                     {
                       "message": {
                         "en_US": "...!",
+                        "pt_BR": "...!",
                         "de_DE": "...!",
                         "zh_CN": "...!<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "...\uff01<<A<<[CHANGED 2018/10/22]",
@@ -7578,6 +7700,7 @@
                     {
                       "name": {
                         "en_US": "Mika",
+                        "pt_BR": "Mika",
                         "de_DE": "Mika",
                         "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/10/22]",
@@ -7597,6 +7720,7 @@
                     {
                       "message": {
                         "en_US": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
+                        "pt_BR": "Felizmente, preparamos algumas \\c[3]torretas defensivas\\c[0] aqui.",
                         "de_DE": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgesch\u00fctze\\c[0] vorbereitet.",
                         "zh_CN": "\u4e0d\u8fc7\u6211\u4eec\u51c6\u5907\u4e86\u53ef\u4ee5\u81ea\u52a8\u5c04\u51fb\u7684\\c[3]\u9632\u5fa1\u70ae\u5854\\c[0]\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u5e78\u3044\u306a\u3053\u3068\u306b\u3001\u3053\u3063\u3061\u306b\u306f\n\u81ea\u52d5\\c[3]\u9632\u885b\u30bf\u30ec\u30c3\u30c8\\c[0]\u3092\u7528\u610f\u3057\u3066\u3042\u308b\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7614,6 +7738,7 @@
                     {
                       "message": {
                         "en_US": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
+                        "pt_BR": "Para ativar uma torreta, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
                         "de_DE": "Um ein Gesch\u00fctz zu aktivieren, \\c[3]schie\u00df ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!",
                         "zh_CN": "\u8981\u6fc0\u6d3b\u70ae\u5854\u3002\u4f60\u9700\u8981\u5148c[3]\u653b\u51fb\u5b83\u6570\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3059\u308b\u306b\u306f\u3001\n\\c[3]\u4f55\u56de\u304b\u653b\u6483\u3092\u5f53\u3066\u305f\\c[0]\u5f8c\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/10/22]",
@@ -7631,6 +7756,7 @@
                     {
                       "message": {
                         "en_US": "When activated with the \\c[3]neutral element\\c[0] they will \\c[3]disrupt the shields\\c[0] with each hit.",
+                        "pt_BR": "Quando ativadas com o \\c[3]elemento neutro\\c[0], elas \\c[3]romperão os escudos\\c[0] com cada acerto.",
                         "de_DE": "Wenn sie mit dem \\c[3]Neutral-Element\\c[0] geladen sind, werden sie \\c[3]die Schilde mit jedem Treffer neutralisieren\\c[0].",
                         "zh_CN": "\u5982\u679c\u4f60\u4f7f\u7528c[3]\u4e2d\u6027\u5c5e\u6027\\c[0]\u6fc0\u6d3b\u70ae\u5854\uff0c\u90a3\u5b83\u4eec\u4f1a\u6bcf\u6b21\u653b\u51fb\u90fd\u4f1a\\c[3]\u524a\u51cf\u654c\u4eba\u7684\u62a4\u76fe\\c[0]\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\\c[3]\u7121\u5c5e\u6027\\c[0]\u306e\u653b\u6483\u3067\u8d77\u52d5\u3059\u308b\u3068\u3001\n\u30bf\u30ec\u30c3\u30c8\u306f\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\u89e3\u9664\u3059\u308b\\c[0]\n\u5f3e\u3092\u653e\u3064\u305e\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7648,6 +7774,7 @@
                     {
                       "message": {
                         "en_US": "Later I'll also unlock \\c[3]elemental modes\\c[0] that will \\c[3]cause more damage instead of disrupting the shields\\c[0].",
+                        "pt_BR": "Mais tarde também vou desbloquear os \\c[3]modos elementais\\c[0] que causarão mais dano em vez de romper os escudos.",
                         "de_DE": "Sp\u00e4ter werde ich auch \\c[3]Elementar-Modi\\c[0] freischalten, die \\c[3]mehr Schaden verursachen, aber keine Schilde aufl\u00f6sen\\c[0].",
                         "zh_CN": "\u4e4b\u540e\u6211\u4f1a\u4e3a\u4f60\u89e3\u9501\\c[3]\u5143\u7d20\u653b\u51fb\u6a21\u5f0f\\c[0]\uff0c\u867d\u7136\u5b83\u4eec\\c[3]\u4e0d\u80fd\u524a\u5f31\u62a4\u76fe\uff0c\u4f46\u662f\u4f24\u5bb3\u4f1a\u66f4\u9ad8\\c[0]\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u3057\u3070\u3089\u304f\u7d4c\u3063\u305f\u3089\u3001\\c[3]\u5c5e\u6027\u653b\u6483\u30e2\u30fc\u30c9\\c[0]\u3092\n\u30a2\u30f3\u30ed\u30c3\u30af\u3059\u308b\u3002\u3053\u308c\u306f\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\n\u89e3\u9664\u3067\u304d\u306a\u3044\u304c\u3001\u4ee3\u308f\u308a\u306b\n\u5927\u304d\u306a\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u3089\u308c\u308b\\c[0]\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7665,6 +7792,7 @@
                     {
                       "message": {
                         "en_US": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
+                        "pt_BR": "Cada torreta consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
                         "de_DE": "Jedes Gesch\u00fctz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier t\u00f6test, und nach jeder Gegnerwelle\\c[0].",
                         "zh_CN": "\u6bcf\u4e2a\u6fc0\u6d3b\u7684\u70ae\u53f0\u4f1a\u6d88\u8017\\c[3]25\u80fd\u91cf\\c[0]\u3002\\.\u6d88\u706d\u654c\u4eba\u548c\u6bcf\u6ce2\u653b\u51fb\u7ed3\u675f\u540e\u4f60\u90fd\u4f1a\u5f97\u5230\u989d\u5916\u7684\u80fd\u91cf\u3002<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u305d\u308c\u305e\u308c\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u8d77\u52d5\u3059\u308b\u306e\u306b\n\\c[3]\u30a8\u30cd\u30eb\u30ae\u30fc\u309225\\c[0]\u6d88\u8cbb\u3059\u308b\u3002\\.\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u3001\n\\c[3]\u52d5\u7269\u3092\u5012\u3057\u305f\u308a\u30a6\u30a7\u30fc\u30d6\u304c\u7d42\u308f\u3063\u305f\u308a\\c[0]\n\u3059\u308b\u3054\u3068\u306b\u624b\u306b\u5165\u308b\u304b\u3089\u306a\u3002<<A<<[CHANGED 2018/10/22]",
@@ -7701,6 +7829,7 @@
                     {
                       "name": {
                         "en_US": "Mika",
+                        "pt_BR": "Mika",
                         "de_DE": "Mika",
                         "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/10/22]",
@@ -7720,6 +7849,7 @@
                     {
                       "message": {
                         "en_US": "Anyway, can we start this up already?",
+                        "pt_BR": "Enfim, podemos inicar essa bagaça?",
                         "de_DE": "Klar so weit? K\u00f6nnen wir loslegen?",
                         "zh_CN": "\u603b\u4e4b\uff0c\u51c6\u5907\u597d\u5f00\u59cb\u4e86\u5417\uff1f<<A<<[CHANGED 2018/10/22]",
                         "ja_JP": "\u305d\u308c\u3058\u3083\u3042\u3001\u306f\u3058\u3081\u3066\u3082\u3044\u3044\u304b\uff1f<<A<<[CHANGED 2018/10/22]",
@@ -7740,6 +7870,7 @@
                     {
                       "message": {
                         "en_US": "How?!",
+                        "pt_BR": "Como?!",
                         "de_DE": "Wie?!",
                         "zh_CN": "\u600e\u4e48\u529e\uff1f<<A<<[CHANGED 2018/11/28]",
                         "ja_JP": "\u3069\u3046\u3084\u3063\u3066\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -7757,6 +7888,7 @@
                     {
                       "message": {
                         "en_US": "Wow, you really want to dig into the details, eh?\\. Very admirable, I gotta say.",
+                        "pt_BR": "Uau, você realmente quer saber todos os detalhes, não é?\\. Muito admirável, tenho que admitir.",
                         "de_DE": "Wow, jetzt willst du's aber wirklich wissen, he?\\. Sehr lobenswert, muss ich sagen.",
                         "langUid": 791,
                         "zh_CN": "\u8fd9\u4e48\u6263\u7ec6\u8282?\\. \u4ee4\u4eba\u94a6\u4f69\u5462\u3002<<A<<[CHANGED 2018/11/28]",
@@ -7774,6 +7906,7 @@
                     {
                       "message": {
                         "en_US": "Here, take a look at this sheet that came with the manual.\\. It should give you a good overview.",
+                        "pt_BR": "Aqui, dê uma olhada nessa folha que veio com o manual.\\. Ele deve lhe dar uma boa visão geral.",
                         "de_DE": "Hier, schau dir diese Seite aus der Anleitung an.\\. Die sollte dir einen guten \u00dcberblick geben.",
                         "langUid": 795,
                         "zh_CN": "\u4f60\u6765\u770b\u770b\u8fd9\u4efd\u624b\u518c\u4e0a\u7684\u8bf4\u660e\u5427\u3002\\. \u770b\u5b8c\u5e94\u8be5\u5c31\u660e\u767d\u4e86\u3002<<A<<[CHANGED 2018/11/28]",
@@ -7792,6 +7925,7 @@
                     {
                       "text": {
                         "en_US": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
+                        "pt_BR": "\\c[3]- Descrição geral da torreta -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
                         "de_DE": "\\c[3]- Merkblatt zum Gesch\u00fctz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, h\u00e4ufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]",
                         "langUid": 799,
                         "zh_CN": "\\c[3]- \u70ae\u53f0\u603b\u89c8 -\\c[0]\n\n\\i[element-neutral] \\c[3]\u4e2d\u6027\\c[0]:\n\u5355\u76ee\u6807\u5c04\u51fb\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4e2d\u548c\u62a4\u76fe\uff0c\u9891\u7e41\u653b\u51fb\uff0c\u5a01\u529b\u5f31\u3002\n\\c[1]\u4f7f\u7528\u65e0\u5143\u7d20\u65f6\u7684\u9ed8\u8ba4\u6a21\u5f0f\uff01\\c[0]<<A<<[CHANGED 2018/11/28]",
@@ -7806,6 +7940,7 @@
                     {
                       "text": {
                         "en_US": "\\i[element-heat] \\c[3]Heat\\c[0]:\nPenetrating flamethrower, large area, short range, powerful, causes Burn.\n\n\\i[element-cold] \\c[3]Cold\\c[0]:\nExplosive shot, light homing, creates icicles, slows enemies, causes Chill.",
+                        "pt_BR": "\\i[element-heat] \\c[3]Fogo\\c[0]:\nLança-chamas penetrante, grande área, curto alcance, potente, causa queimadura.\n\n\\i[element-cold] \\c[3]Gelo\\c[0]:\nTiro explosivo, levemente teleguiado, cria estalactites, desacelera os inimigos, causa congelamento.",
                         "de_DE": "\\i[element-heat] \\c[3]Hitze\\c[0]:\nDurchschlagender Flammenwerfer, gro\u00dfer Radius, kurze Reichweite, stark, verursacht Brand.\n\n\\i[element-cold] \\c[3]K\u00e4lte\\c[0]:\nExplosionsschuss, semi-zielsuchend, erzeugt Eiskristalle, verlangsamt Gegner, verursacht Frost.",
                         "langUid": 800,
                         "zh_CN": "\\i[element-heat] \\c[3]\u706b\\c[0]:\n\u7a7f\u900f\u578b\u706b\u7130\u55b7\u5c04\u5668\uff0c\u5927\u8303\u56f4\uff0c\u77ed\u8ddd\u79bb\uff0c\u5a01\u529b\u5f3a\uff0c\u9020\u6210\u71c3\u70e7\u3002\n\n\\i[element-cold] \\c[3]\u51b0\\c[0]:\n\u7206\u7834\u5f39\u836f\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4ea7\u751f\u51b0\u67f1\uff0c\u51cf\u901f\u654c\u4eba\uff0c\u9020\u6210\u51b0\u51bb\u3002<<A<<[CHANGED 2018/11/28]",
@@ -7820,6 +7955,7 @@
                     {
                       "text": {
                         "en_US": "\\c[1]Shock and Wave are not unlocked and will be defaulted to Neutral!\\c[0]",
+                        "pt_BR": "\\c[1]Choque e Onda não são desbloqueados e serão padronizados para Neutro!\\c[0]",
                         "de_DE": "\\c[1]Schock und Welle sind nicht freigeschaltet und werden als Neutral behandelt!\\c[0]",
                         "langUid": 801,
                         "zh_CN": "\\c[1]\u7535\u548c\u6ce2\u5c1a\u672a\u89e3\u9501\uff0c\u9ed8\u8ba4\u4e3a\u4e2d\u6027!\\c[0]<<A<<[CHANGED 2018/11/28]",
@@ -7840,6 +7976,7 @@
                       "0": " ",
                       "label": {
                         "en_US": "Yes, start the waves",
+                        "pt_BR": "Sim, inicie as ondas",
                         "de_DE": "Ja, lass sie kommen!",
                         "zh_CN": "\u662f\u7684\uff0c\u5f00\u59cb\u5427<<A<<[CHANGED 2018/03/14]",
                         "ja_JP": "\u306f\u3044<<A<<[CHANGED 2018/03/14]",
@@ -7852,6 +7989,7 @@
                       "0": " ",
                       "label": {
                         "en_US": "No",
+                        "pt_BR": "Não",
                         "langUid": 547,
                         "de_DE": "Nein",
                         "zh_CN": "\u7b49\u7b49<<A<<[CHANGED 2018/03/14]",
@@ -7864,6 +8002,7 @@
                       "0": " ",
                       "label": {
                         "en_US": "Detailed Instructions",
+                        "pt_BR": "Instruções detalhadas",
                         "langUid": 775,
                         "de_DE": "Genaue Instruktionen",
                         "zh_CN": "\u8be6\u7ec6\u8bf4\u660e<<A<<[CHANGED 2018/10/22]",
@@ -7876,6 +8015,7 @@
                       "0": " ",
                       "label": {
                         "en_US": "Turret Data",
+                        "pt_BR": "Dados da Torreta",
                         "de_DE": "Gesch\u00fctzdaten",
                         "langUid": 790,
                         "zh_CN": "\u70ae\u53f0\u60c5\u62a5<<A<<[CHANGED 2018/11/28]",
@@ -7917,6 +8057,7 @@
                 {
                   "name": {
                     "en_US": "Mika",
+                    "pt_BR": "Mika",
                     "de_DE": "Mika",
                     "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -7936,6 +8077,7 @@
                 {
                   "message": {
                     "en_US": "Hi.",
+                    "pt_BR": "Oi.",
                     "de_DE": "Hi.",
                     "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3084\u3041\u3002<<A<<[CHANGED 2018/03/14]",
@@ -7950,6 +8092,7 @@
                 {
                   "message": {
                     "en_US": "Good job, \\v[lore.title.seeker]!\\. We neutralized the energy field of the door and there are no more waves on the radar.",
+                    "pt_BR": "Bom trabalho, \\v[lore.title.seeker].\\. Neutralizamos o campo de energia da porta e não há mais ondas no nosso radar.",
                     "de_DE": "Gute Arbeit, Seeker!\\. Wir haben das Energiefeld der T\u00fcr neutralisiert. Die Gegnerwellen sind auf dem Radar verschwunden.",
                     "zh_CN": "\u5e72\u5f97\u597d\uff0c\\v[lore.title.seeker]\uff01\u3002\\.\u6211\u4eec\u5df2\u7ecf\u5c06\u5927\u95e8\u7684\u80fd\u91cf\u573a\u65e0\u6548\u5316\uff0c\u96f7\u8fbe\u4e0a\u4e5f\u6ca1\u6709\u654c\u4eba\u4e86\u3002<<A<<[CHANGED 2018/05/01]",
                     "ja_JP": "\u3088\u304f\u3084\u3063\u3066\u304f\u308c\u305f\u3001\\v[lore.title.seeker]\u3055\u3093\uff01\\.\n\u3053\u3063\u3061\u306f\u30c9\u30a2\u306e\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\n\u89e3\u9664\u3067\u304d\u305f\u3057\u3001 \u6575\u306e\u5f71\u3082\n\u30ec\u30fc\u30c0\u30fc\u306b\u306f\u6620\u3063\u3066\u3044\u306a\u3044\u3002<<A<<[CHANGED 2018/05/01]",
@@ -7967,6 +8110,7 @@
                 {
                   "message": {
                     "en_US": "Now we just need to unlock the door-mechanism itself.\\. Your job here is done.",
+                    "pt_BR": "Agora só precisamos destravar o mecanismo de porta.\\. Seu trabalho aqui terminou.",
                     "de_DE": "Jetzt m\u00fcssen wir nur noch den T\u00fcrmechanismus knacken.\\. Deine Arbeit ist damit erledigt.",
                     "zh_CN": "\u73b0\u5728\u6211\u4eec\u53ea\u8981\u6253\u5f00\u95e8\u9501\u5c31\u884c\u4e86\u3002\\.\u4f60\u5728\u8fd9\u91cc\u7684\u5de5\u4f5c\u5df2\u7ecf\u5b8c\u6210\u4e86\u3002<<A<<[CHANGED 2018/05/01]",
                     "ja_JP": "\u3053\u308c\u3067\u3001\u3042\u3068\u306f\u30c9\u30a2\u306e\u6a5f\u69cb\u3092\n\u89e3\u9664\u3059\u308b\u3060\u3051\u3060\u3002\\.\n\u541b\u306e\u4ed5\u4e8b\u306f\u7d42\u308f\u308a\u3060\u3088\u3002<<A<<[CHANGED 2018/05/01]",
@@ -7984,6 +8128,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "zh_CN": "...\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "...\uff01<<A<<[CHANGED 2018/03/14]",
@@ -7998,6 +8143,7 @@
                 {
                   "message": {
                     "en_US": "Report back at our headquarters to get your reward.",
+                    "pt_BR": "Reporte-se em nossa sede para receber sua recompensa.",
                     "de_DE": "Melde dich im Hauptquartier, um deine Belohnung zu erhalten.",
                     "zh_CN": "\u56de\u62a5\u6211\u4eec\u7684\u603b\u90e8\uff0c\u53bb\u90a3\u91cc\u9886\u53d6\u5956\u52b1\u5427\u3002<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u672c\u90e8\u306b\u623b\u3063\u3066\u5831\u544a\u3057\u3001\n\u5831\u916c\u3092\u53d7\u3051\u3068\u3063\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/03/14]",
@@ -8015,6 +8161,7 @@
                 {
                   "message": {
                     "en_US": "Bye!",
+                    "pt_BR": "Tchau!",
                     "de_DE": "Bye!",
                     "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3058\u3083\u3042\u306d\uff01<<A<<[CHANGED 2018/03/14]",
@@ -8055,6 +8202,7 @@
               {
                 "name": {
                   "en_US": "Mika",
+                  "pt_BR": "Mika",
                   "de_DE": "Mika",
                   "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
                   "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -8074,6 +8222,7 @@
               {
                 "message": {
                   "en_US": "Greetings \\v[lore.title.seeker]. We're still working on opening that door.",
+                  "pt_BR": "Saudações \\v[lore.title.seeker]. Ainda estamos trabalhando na abertura daquela porta.",
                   "de_DE": "Gr\u00fc\u00df dich, Seeker. Wir arbeiten noch daran, die T\u00fcr zu \u00f6ffnen.",
                   "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\u95e8\u6211\u4eec\u8fd8\u6ca1\u6253\u5f00\u3002<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u3084\u3042\u3001\\v[lore.title.seeker]\u3055\u3093\u3002\n\u3053\u3063\u3061\u306f\u307e\u3060\u30c9\u30a2\u3092\n\u958b\u3051\u3088\u3046\u3068\u3057\u3066\u308b\u3068\u3053\u308d\u3060\u3088\u3002<<A<<[CHANGED 2018/03/14]",
@@ -8305,6 +8454,7 @@
           {
             "name": {
               "en_US": "Taio",
+              "pt_BR": "Taio",
               "de_DE": "Taio",
               "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/03/14]",
@@ -8324,6 +8474,7 @@
           {
             "message": {
               "en_US": "Halt!\\. Who so darest to enter this cave?",
+              "pt_BR": "Alto!\\. Quem ousa adentrar esta caverna?",
               "de_DE": "Halt!\\. Wer waget es, hier einzutreten? So sprechet!",
               "zh_CN": "\u6b62\u6b65\uff01\\.\u5b70\u4eba\u80c6\u6562\u95ef\u5165\u6b64\u6d1e\uff1f<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u6b62\u307e\u308c\u3063\uff01\\.\u3053\u306e\u6d1e\u7a9f\u306b\n\u5165\u3063\u3066\u304f\u308b\u3068\u306f\u3001\u3044\u3063\u305f\u3044\u4f55\u8005\u3067\u3042\u308b\u304b\uff1f<<A<<[CHANGED 2018/08/28]",
@@ -8341,6 +8492,7 @@
           {
             "message": {
               "en_US": "Hi. Lea.",
+              "pt_BR": "Oi. Lea.",
               "de_DE": "Hi. Lea.",
               "zh_CN": "\u4f60\u597d\uff0c\u8389\u4e9a\u3002<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u3084\u3041\u3002\u30ec\u30a2\u3002<<A<<[CHANGED 2018/03/14]",
@@ -8355,6 +8507,7 @@
           {
             "message": {
               "en_US": "Aha!\\. At last, yon mighty \\v[lore.title.seeker] we requested hath reached us!\\. But wilt thou provest worthy?",
+              "pt_BR": "Aha!\\. Por fim, tu chegastes \\v[lore.title.seeker]\\. Mas será que estás a altura desta tarefa?",
               "de_DE": "Sehet! Endlich gesellet sich jener m\u00e4chtige Seeker zu uns, den wir ansuchten!\\. Wird er sich seiner als w\u00fcrdig erweisen?",
               "zh_CN": "\u554a\u54c8\uff01\\.\u52c7\u6562\u7684\\v[lore.title.seeker]\u524d\u6765\u5e2e\u52a9\u6211\u4eec \\.\u6c5d\u7b49\u53ef\u5426\u62c5\u6b64\u91cd\u4efb\uff1f<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u306f\u306f\u3042\uff01\\.\u6211\u3005\u304c\u5f85\u3061\u671b\u3093\u3067\u3044\u305f\\v[lore.title.seeker]\u304c\n\u3088\u3046\u3084\u304f\u6765\u305f\u306e\u3067\u3042\u308b\u306a\uff01\\.\n\u3060\u304c\u3001\u305d\u308c\u3060\u3051\u306e\u8cc7\u8cea\u304c\u3042\u308b\u3068\u793a\u305b\u308b\u304b\u306a\uff1f<<A<<[CHANGED 2018/08/28]",
@@ -8372,6 +8525,7 @@
           {
             "message": {
               "en_US": "...",
+              "pt_BR": "...",
               "de_DE": "...",
               "zh_CN": "\u2026<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "...<<A<<[CHANGED 2018/03/14]",
@@ -8386,6 +8540,7 @@
           {
             "message": {
               "en_US": "[nods]",
+              "pt_BR": "[acena a cabeça]",
               "de_DE": "[nickt]",
               "fr_FR": "fr_FR",
               "langUid": 680,
@@ -8401,6 +8556,7 @@
           {
             "message": {
               "en_US": "We shall see!!\\. By custom of olde, thyne ability shall be tested by trial of...!",
+              "pt_BR": "Veremos!!\\. De acordo com a tradição dos Antigos, tu deves provar tuas habilidades em um teste deveras árduo...!",
               "de_DE": "Dies bleibt abzuwarten!\\. Nach alter Sitte der Altvorderen m\u00f6get Ihr Eure F\u00e4higkeiten unter Bewei-...!",
               "zh_CN": "\u8d70\u7740\u77a7\u5427\\.\u4f9d\u7167\u4f20\u7edf\uff0c\u6c5d\u4e4b\u80fd\u529b\u9700\u53d7\u8bd5\u70bc\u8003\u9a8c\uff01<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u898b\u305b\u3066\u3082\u3089\u304a\u3046\u3067\u306f\u306a\u3044\u304b\uff01\\.\n\u53e4\u304f\u304b\u3089\u306e\u7fd2\u308f\u3057\u306b\u5f93\u3044\u3001\n\u3053\u306e\u8a66\u7df4\u3092\u3082\u3063\u3066\u304a\u4e3b\u306e\u624d\u899a\u3092...\uff01<<A<<[CHANGED 2018/08/28]",
@@ -8455,6 +8611,7 @@
           {
             "name": {
               "en_US": "Mika",
+              "pt_BR": "Mika",
               "de_DE": "Mika",
               "zh_CN": "\u7c73\u5361<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u30df\u30ab<<A<<[CHANGED 2018/08/28]",
@@ -8481,6 +8638,7 @@
           {
             "message": {
               "en_US": "BY THE ANCIENTS, STOP MAKING NOISE AND SEND HER DOWN HERE ALREADY!",
+              "pt_BR": "PELOS ANTIGOS, PARE DE FAZER PAPEL DE PALHAÇO E MANDE ELA VIR AQUI AGORA!",
               "de_DE": "BEI DEN AHNEN, H\u00d6R AUF ZU QUATSCHEN UND SCHICK SIE ENDLICH HIER RUNTER!",
               "zh_CN": "\u5148\u7956\u5728\u4e0a\uff0c\u522b\u804a\u4e86\u8d76\u7d27\u628a\u5979\u5f04\u4e0b\u6765\uff01<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u53e4\u4ee3\u4eba\u306e\u540d\u306b\u304b\u3051\u3066\u3001\u304a\u3057\u3083\u3079\u308a\u306f\u3044\u3044\u304b\u3089\n\u5f7c\u5973\u3092\u3053\u3053\u307e\u3067\u3088\u3053\u3057\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/03/14]",
@@ -8558,6 +8716,7 @@
           {
             "name": {
               "en_US": "Taio",
+              "pt_BR": "Taio",
               "de_DE": "Taio",
               "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/03/14]",
@@ -8577,6 +8736,7 @@
           {
             "message": {
               "en_US": "A-alright.\\..\\..\\. Thou hast heard the voice.\\. Procedest down and to thy left.",
+              "pt_BR": "C-certamente.\\..\\..\\. Ouvistes a súplica.\\ Siga em frente e depois vire à esquerda.",
               "de_DE": "A-Also gut.\\.\\.\\. Der Seeker hat die Worte vernommen.\\. Er m\u00f6ge voranschreiten.",
               "zh_CN": "\u597d-\u597d\u5427\u3002\\.. \\.. \\.\u4f60\u542c\u5230\u4e86\u3002\\.\u8bf7\u7ee7\u7eed\u5f80\u4e0b\u7136\u540e\u5de6\u8f6c\u3002<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u3057\u3087\u3001\u627f\u77e5\u3057\u305f\u30fb\\.\u30fb\\.\u30fb\\.\u304a\u4e3b\u306b\u3082\n\u805e\u3053\u3048\u305f\u3067\u3042\u308d\u3046\u3002\\.\u4e0b\u306b\u964d\u308a\u305f\u3089\u3001\n\u5de6\u306b\u9032\u3093\u3067\u304f\u308c\u3002<<A<<[CHANGED 2018/08/28]",
@@ -8594,6 +8754,7 @@
           {
             "message": {
               "en_US": "...",
+              "pt_BR": "...",
               "de_DE": "...",
               "zh_CN": "\u2026<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "...<<A<<[CHANGED 2018/03/14]",
@@ -8648,6 +8809,7 @@
         "analyzable": {
           "text": {
             "en_US": "Taio",
+            "pt_BR": "Taio",
             "de_DE": "Taio",
             "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/03/14]",
             "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/03/14]",
@@ -8677,6 +8839,7 @@
               {
                 "name": {
                   "en_US": "Taio",
+                  "pt_BR": "Taio",
                   "de_DE": "Taio",
                   "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/03/14]",
@@ -8696,6 +8859,7 @@
               {
                 "message": {
                   "en_US": "Speaketh to comrade Mika deep in this denne.\\. She shall enlighten thee.",
+                  "pt_BR": "Fale com a camarada Mika no fundo deste recinto.\\. Ela te esclarecerá.",
                   "de_DE": "Sprechet mit Kameradin Mika.\\. Sie m\u00f6ge Euch aufkl\u00e4ren. ",
                   "zh_CN": "\u4e0e\u7c73\u8fbe\u540c\u5fd7\u4ea4\u8c08\u3002\\.\u4ed6\u5c06\u4e3a\u4f60\u8bf4\u660e\u3002<<A<<[CHANGED 2018/09/19]",
                   "ja_JP": "\u3053\u306e\u5148\u306e\u6df1\u307f\u306b\u3044\u308b\u30df\u30ab\u3068\n\u8a71\u3059\u304c\u3088\u3044\u3002\\.\u5f7c\u304c\u304a\u4e3b\u3092\u5c0e\u304f\u3067\u3042\u308d\u3046\u3002<<A<<[CHANGED 2018/09/19]",
@@ -8730,6 +8894,7 @@
               {
                 "name": {
                   "en_US": "Taio",
+                  "pt_BR": "Taio",
                   "de_DE": "Taio",
                   "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/03/14]",
@@ -8749,6 +8914,7 @@
               {
                 "message": {
                   "en_US": "Splendid work, \\v[lore.title.seeker].\\. I beseech thee to give the most verily regardes to our liege.",
+                  "pt_BR": "Esplêndido trabalho, \\v[lore.title.seeker].\\. Peço-lhe que dê a mais sincera mesura ao nosso senhor feudal[???].",
                   "de_DE": "Exquisite Arbeit, Seeker.\\. Ich ersuche Euch, meine Lehnsfrau hochachtungsvoll zu gr\u00fc\u00dfen.",
                   "zh_CN": "\u6770\u51fa\u4e4b\u4f5c\uff0c\\v[lore.title.seeker]\u3002\\.\u543e\u732e\u4e8e\u4f60\u6700\u8bda\u631a\u4e4b\u611f\u8c22\u3002<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u3059\u3070\u3089\u3057\u3044\u50cd\u304d\u3067\u3042\u3063\u305f\u3001\\v[lore.title.seeker]\u6bbf\u3002\\.\n\u305c\u3072\u3068\u3082\u3001\u6211\u3089\u304c\u9996\u9818\u306b\n\u3088\u308d\u3057\u304f\u4f1d\u3048\u3066\u307b\u3057\u3044\u3002<<A<<[CHANGED 2018/03/14]",
@@ -8766,6 +8932,7 @@
               {
                 "message": {
                   "en_US": "...bye.",
+                  "pt_BR": "...tchau.",
                   "langUid": 687,
                   "zh_CN": "...\u518d\u89c1\uff01<<A<<[CHANGED 2018/03/14]",
                   "ko_KR": "...\uc798 \uac00.<<A<<[CHANGED 2018/03/14]",
@@ -8797,6 +8964,7 @@
               {
                 "name": {
                   "en_US": "Taio",
+                  "pt_BR": "Taio",
                   "de_DE": "Taio",
                   "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/03/14]",
@@ -8816,6 +8984,7 @@
               {
                 "message": {
                   "en_US": "Hail, \\v[lore.title.seeker].\\. Thyne presence is most welcome in thise denne.",
+                  "pt_BR": "Salve, \\v[lore.title.seeker].\\. Tua presença é bem vinda neste recinto.",
                   "de_DE": "Ich gr\u00fc\u00dfe Euch, Seeker.\\. Eure Pr\u00e4senz ist mehr als willkommen hier.",
                   "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u6b64\u5730\u968f\u65f6\u606d\u8fce\u6c5d\u3002<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u3054\u304d\u3052\u3093\u3088\u3046\u3001\\v[lore.title.seeker]\u6bbf\u3002\\.\n\u305d\u306e\u8f1d\u304b\u3057\u304d\u59ff\u3001\n\u307e\u3055\u306b\u3053\u306e\u5834\u306b\u3075\u3055\u308f\u3057\u3044\u3002<<A<<[CHANGED 2018/03/14]",
@@ -8850,6 +9019,7 @@
               {
                 "name": {
                   "en_US": "Taio",
+                  "pt_BR": "Taio",
                   "de_DE": "Taio",
                   "zh_CN": "\u5854\u5965<<A<<[CHANGED 2018/08/28]",
                   "ja_JP": "\u30bf\u30a4\u30aa<<A<<[CHANGED 2018/08/28]",
@@ -8869,6 +9039,7 @@
               {
                 "message": {
                   "en_US": "Hail, \\v[lore.title.seeker].\\. Thyne presence is most welcome in thise denne.",
+                  "pt_BR": "Salve, \\v[lore.title.seeker].\\. Tua presença é bem vinda neste recinto.",
                   "de_DE": "Ich gr\u00fc\u00dfe Euch, Seeker.\\. Eure Pr\u00e4senz ist mehr als willkommen hier.",
                   "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u6b64\u5730\u968f\u65f6\u606d\u8fce\u6c5d\u3002<<A<<[CHANGED 2018/08/28]",
                   "ja_JP": "\u3054\u304d\u3052\u3093\u3088\u3046\u3001\\v[lore.title.seeker]\u6bbf\u3002\\.\n\u305d\u306e\u8f1d\u304b\u3057\u304d\u59ff\u3001\n\u307e\u3055\u306b\u3053\u306e\u5834\u306b\u3075\u3055\u308f\u3057\u3044\u3002<<A<<[CHANGED 2018/08/28]",
@@ -8975,6 +9146,7 @@
                   {
                     "message": {
                       "en_US": "The barrier is down!\\. Another hit and we're done for!",
+                      "pt_BR": "A barreira foi derrubada!\\. Mais um golpe e estamos arrumados!",
                       "langUid": 726,
                       "zh_CN": "\u62a4\u76fe\u53d7\u635f\u4e86\uff01\\.\u518d\u53d7\u5230\u4e00\u6b21\u653b\u51fb\u6211\u4eec\u5c31\u5b8c\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
                       "ko_KR": "\ubc29\ubcbd\uc774 \ud30c\uad34\ub410\uc5b4!\\. \ud55c \ubc88\ub9cc \ub354 \uacf5\uaca9\ubc1b\uc73c\uba74 \uc6b0\ub9b0 \ub05d\uc774\uc57c!<<A<<[CHANGED 2018/03/14]",
@@ -8994,6 +9166,7 @@
                 "entity": { "global": true, "name": "td-defenseWall" },
                 "text": {
                   "en_US": "[BARRIER DOWN!]",
+                  "pt_BR": "[BARREIRA DESTRUÍDA!]",
                   "de_DE": "[BARRIERE DURCHBROCHEN!]",
                   "zh_CN": "[\u62a4\u76fe\u5df2\u88ab\u7834\u574f\uff01]<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "[\u30d0\u30ea\u30a2\u30c0\u30a6\u30f3\uff01]<<A<<[CHANGED 2018/03/14]",
@@ -9022,6 +9195,7 @@
                       {
                         "message": {
                           "en_US": "Hey \\v[lore.title.seeker], you let one through!",
+                          "pt_BR": "Ei, \\v[lore.title.seeker], você deixou um passar!",
                           "langUid": 728,
                           "zh_CN": "\u563f\uff0c\\v[lore.title.seeker]\uff0c\u4f60\u653e\u4e86\u4e2a\u654c\u4eba\u8fc7\u6765\uff01<<A<<[CHANGED 2018/03/14]",
                           "ko_KR": "\uc774\ubd10, \\v[lore.title.seeker]. \ud558\ub098 \ub193\ucce4\uc796\uc544!<<A<<[CHANGED 2018/03/14]",
@@ -9045,6 +9219,7 @@
                       {
                         "message": {
                           "en_US": "Our barrier has taken some heavy hits!\\. Better step up your game, \\v[lore.title.seeker]!",
+                          "pt_BR": "Nossa barreira sofreu grandes danos!\\. Melhor prestar mais atenção, \\v[lore.title.seeker]!",
                           "langUid": 729,
                           "zh_CN": "\u6211\u4eec\u7684\u62a4\u76fe\u53d7\u5230\u4e25\u91cd\u653b\u51fb\uff01\\.\u6ce8\u610f\u4f60\u7684\u9632\u5b88\uff0c\\v[lore.title.seeker]\uff01<<A<<[CHANGED 2018/03/14]",
                           "ko_KR": "\uc6b0\ub9ac \ubc29\ubcbd\uc774 \uc0c1\ub2f9\ud55c \uacf5\uaca9\uc744 \ubc1b\uc558\uc5b4!\\. \uc774\uc81c \ub354 \uc9d1\uc911\ud574\uc11c \ud558\ub294 \uac8c \uc88b\uc744 \uac70\uc57c, \\v[lore.title.seeker]!<<A<<[CHANGED 2018/03/14]",
@@ -9068,6 +9243,7 @@
                       {
                         "message": {
                           "en_US": "Barrier is almost down!\\. Keep it together, \\v[lore.title.seeker]!",
+                          "pt_BR": "A barreira está quase destruída!\\. aguente firme, \\v[lore.title.seeker]!",
                           "langUid": 730,
                           "zh_CN": "\u62a4\u76fe\u5373\u5c06\u88ab\u7834\u574f\uff01\\.\u8bf7\u5168\u529b\u9632\u5fa1\uff0c\\v[lore.title.seeker]\uff01<<A<<[CHANGED 2018/03/14]",
                           "ko_KR": "\ubc29\ubcbd\uc774 \uac70\uc758 \ud30c\uad34\ub410\uc5b4!\\. \ubb34\ub108\uc9c0\uba74 \uc548 \ub3fc, \\v[lore.title.seeker]!<<A<<[CHANGED 2018/03/14]",
@@ -9089,6 +9265,7 @@
                 "entity": { "global": true, "name": "td-defenseWall" },
                 "text": {
                   "en_US": "[Barrier damaged!]",
+                  "pt_BR": "[Barreira danificada!]",
                   "de_DE": "[Barriere besch\u00e4digt!]",
                   "zh_CN": "[\u62a4\u76fe\u53d7\u635f\uff01]<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "[\u30d0\u30ea\u30a2\u306b\u30c0\u30e1\u30fc\u30b8\uff01]<<A<<[CHANGED 2018/03/14]",
@@ -10300,6 +10477,7 @@
             "entity": { "player": true },
             "text": {
               "en_US": "[Waves starting]",
+              "pt_BR": "[Iniciando Ondas]",
               "langUid": 776,
               "ja_JP": "[\u30a6\u30a7\u30fc\u30d6\u958b\u59cb]<<A<<[CHANGED 2018/10/22]",
               "ko_KR": "[\ud30c\uc0c1 \uacf5\uaca9 \uc2dc\uc791]<<A<<[CHANGED 2018/10/22]",
@@ -10330,6 +10508,7 @@
           {
             "task": {
               "en_US": "Wave \\v[tmp.tdWave] incoming!",
+              "pt_BR": "Onda \\v[tmp.tdWave] chegando!",
               "de_DE": "\\v[tmp.tdWave]. Welle kommt!",
               "zh_CN": "\u7b2c\\v[tmp.tdWave]\u6ce2\u6765\u4e86\uff01<<A<<[CHANGED 2018/11/08]",
               "ja_JP": "\u30a6\u30a7\u30fc\u30d61 \u63a5\u8fd1\uff01<<A<<[CHANGED 2018/11/08]",
@@ -10522,6 +10701,7 @@
                 "entity": { "player": true },
                 "text": {
                   "en_US": "[Wave Score Bonus +\\v[tmp.tempScoreGain]!]",
+                  "pt_BR": "[Bônus de Puntuação de Onda +\\v[tmp.tempScoreGain]!]",
                   "langUid": 787,
                   "zh_CN": "[\u6ce2\u6570\u5206\u6570\u5956\u52b1 +\\v[tmp.tempScoreGain]!]<<A<<[CHANGED 2018/11/15]",
                   "ko_KR": "[\ud30c\uc0c1 \uc810\uc218 \ubcf4\ub108\uc2a4 +\\v[tmp.tempScoreGain]!]<<A<<[CHANGED 2018/11/15]",
@@ -10577,6 +10757,7 @@
               {
                 "task": {
                   "en_US": "Wave \\v[tmp.tdWave] incoming!",
+                  "pt_BR": "Onda \\v[tmp.tdWave] chegando!",
                   "de_DE": "\\v[tmp.tdWave]. Welle kommt!",
                   "zh_CN": "\u7b2c\\v[tmp.tdWave]\u6ce2\u6765\u4e86\uff01<<A<<[CHANGED 2018/11/08]",
                   "ja_JP": "\u30a6\u30a7\u30fc\u30d61 \u63a5\u8fd1\uff01<<A<<[CHANGED 2018/11/08]",
@@ -10741,6 +10922,7 @@
                 "entity": { "player": true },
                 "text": {
                   "en_US": "[Wave Score Bonus +\\v[tmp.tempScoreGain]!]",
+                  "pt_BR": "[Bônus de Puntuação de Onda +\\v[tmp.tempScoreGain]!]",
                   "langUid": 810,
                   "zh_CN": "[\u6ce2\u6570\u5206\u6570\u5956\u52b1 +\\v[tmp.tempScoreGain]!]<<A<<[CHANGED 2019/04/16]",
                   "ko_KR": "[\ud30c\uc0c1 \uc810\uc218 \ubcf4\ub108\uc2a4 +\\v[tmp.tempScoreGain]!]<<A<<[CHANGED 2019/04/16]",
@@ -10796,6 +10978,7 @@
               {
                 "task": {
                   "en_US": "Wave \\v[tmp.tdWave] incoming!",
+                  "pt_BR": "Onda \\v[tmp.tdWave] chegando!",
                   "de_DE": "\\v[tmp.tdWave]. Welle kommt!",
                   "zh_CN": "\u7b2c\\v[tmp.tdWave]\u6ce2\u6765\u4e86\uff01<<A<<[CHANGED 2018/11/08]",
                   "ja_JP": "\u30a6\u30a7\u30fc\u30d61 \u63a5\u8fd1\uff01<<A<<[CHANGED 2018/11/08]",
@@ -11063,6 +11246,7 @@
                 "entity": { "player": true },
                 "text": {
                   "en_US": "[Wave Score Bonus +\\v[tmp.tempScoreGain]!]",
+                  "pt_BR": "[Bônus de Pontuação de Onda +\\v[tmp.tempScoreGain]!]",
                   "langUid": 811,
                   "zh_CN": "[\u6ce2\u6570\u5206\u6570\u5956\u52b1 +\\v[tmp.tempScoreGain]!]<<A<<[CHANGED 2019/04/16]",
                   "ko_KR": "[\ud30c\uc0c1 \uc810\uc218 \ubcf4\ub108\uc2a4 +\\v[tmp.tempScoreGain]!]<<A<<[CHANGED 2019/04/16]",
@@ -11099,6 +11283,7 @@
               {
                 "task": {
                   "en_US": "Wave \\v[tmp.tdWave] incoming!",
+                  "pt_BR": "Onda \\v[tmp.tdWave] chegando!",
                   "de_DE": "\\v[tmp.tdWave]. Welle kommt!",
                   "zh_CN": "\u7b2c\\v[tmp.tdWave]\u6ce2\u6765\u4e86\uff01<<A<<[CHANGED 2018/11/08]",
                   "ja_JP": "\u30a6\u30a7\u30fc\u30d61 \u63a5\u8fd1\uff01<<A<<[CHANGED 2018/11/08]",
@@ -11182,6 +11367,7 @@
                         "entity": { "player": true },
                         "text": {
                           "en_US": "(Cycle \\v[tmp.spawnCycle]: Spawn Slimey-Group!)",
+                          "pt_BR": "(Ciclo \\v[tmp.spawnCycle]: Invoca Grupo de Slimes!)",
                           "langUid": 786,
                           "ja_JP": "(\u30b5\u30a4\u30af\u30eb \\v[tmp.spawnCycle]: \u30b9\u30e9\u30a4\u30e0\u51fa\u73fe\uff01)<<A<<[CHANGED 2018/11/08]",
                           "ko_KR": "(\\v[tmp.spawnCycle]\ubc88\uc9f8 \uadf8\ub8f9: \uc2ac\ub77c\uc784 \ub4f1\uc7a5!)<<A<<[CHANGED 2018/11/08]",
@@ -11334,6 +11520,7 @@
                         "entity": { "player": true },
                         "text": {
                           "en_US": "(Cycle \\v[tmp.spawnCycle]: Spawn Plant-Group!)",
+                          "pt_BR": "(Ciclo \\v[tmp.spawnCycle]: Invoca Grupo de Plantas!)",
                           "langUid": 785,
                           "ja_JP": "(\u30b5\u30a4\u30af\u30eb \\v[tmp.spawnCycle]: \u690d\u7269\u51fa\u73fe\uff01)<<A<<[CHANGED 2018/11/08]",
                           "ko_KR": "(\\v[tmp.spawnCycle]\ubc88\uc9f8 \uadf8\ub8f9: \uc2dd\ubb3c \ub4f1\uc7a5!)<<A<<[CHANGED 2018/11/08]",
@@ -11454,6 +11641,7 @@
                         "entity": { "player": true },
                         "text": {
                           "en_US": "(Cycle \\v[tmp.spawnCycle]: Spawn Fish-Group!)",
+                          "pt_BR": "(Ciclo \\v[tmp.spawnCycle]: Invoca Grupo de Peixes!)",
                           "langUid": 784,
                           "ja_JP": "(\u30b5\u30a4\u30af\u30eb \\v[tmp.spawnCycle]: \u304a\u9b5a\u51fa\u73fe\uff01)<<A<<[CHANGED 2018/11/08]",
                           "ko_KR": "(\\v[tmp.spawnCycle]\ubc88\uc9f8 \uadf8\ub8f9: \ubb3c\uace0\uae30 \ub4f1\uc7a5!)<<A<<[CHANGED 2018/11/08]",
@@ -11808,6 +11996,7 @@
             "entity": { "global": true, "name": "td-targetEntity-doorOpener" },
             "text": {
               "en_US": "SIMULATION OVER!",
+              "pt_BR": "FIM DA SIMULAÇÃO!",
               "de_DE": "SIMULATION BEENDET!",
               "zh_CN": "\u6a21\u62df\u7ed3\u675f\uff01<<A<<[CHANGED 2019/04/16]",
               "ja_JP": "\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3\u7d42\u4e86\uff01<<A<<[CHANGED 2019/04/16]",
@@ -11910,6 +12099,7 @@
                   {
                     "text": {
                       "en_US": "\\c[3]Survived \\v[tmp.tdWave] waves!\\c[0]\n\nGain \\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!",
+                      "pt_BR": "\\c[3]Subreviveu por \\v[tmp.tdWave] ondas!\\c[0]\n\nGanhou \\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!",
                       "de_DE": "\\c[3]\\v[tmp.tdWave] Wellen \u00fcberlebt!\\c[0]\n\n\\c[3]\\v[tmp.tdRewards] Gesch\u00fctzmarke(n)\\c[0] erhalten!",
                       "zh_CN": "\\c[3]\u751f\u5b58\\v[tmp.tdWave]\u6ce2\uff01\\c[0]\n\n\u83b7\u5f97\\c[3]\\v[tmp.tdRewards]\u4e2a\\v[item.517.name]\\c[0]!<<A<<[CHANGED 2019/04/16]",
                       "ja_JP": "\\c[3]\u30a6\u30a7\u30fc\u30d6\\v[tmp.tdWave]\u307e\u3067\u751f\u304d\u6b8b\u3063\u305f\uff01\\c[0]\n\n\\c[3]\\v[tmp.tdRewards]\u3001\\v[item.517.name]\\c[0]\u3092\u7372\u5f97\u3057\u305f\uff01<<A<<[CHANGED 2019/04/16]",
@@ -11938,6 +12128,7 @@
                   {
                     "text": {
                       "en_US": "\\c[1]Failure on Wave \\v[tmp.tdWave]!\\c[0]",
+                      "pt_BR": "\\c[1]Derrota na Onda \\v[tmp.tdWave]!\\c[0]",
                       "de_DE": "\\c[1]Gescheitert bei Welle \\v[tmp.tdWave]!\\c[0]",
                       "zh_CN": "\\c[1]\u5931\u8d25\u4e8e\u7b2c\\v[tmp.tdWave]\u6ce2!\\c[0]<<A<<[CHANGED 2019/04/16]",
                       "ja_JP": "\\c[1]\u30a6\u30a7\u30fc\u30d6\\v[tmp.tdWave]\u3067\u5931\u6557\u3057\u305f\uff01\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -11957,6 +12148,7 @@
                 "changeType": "set",
                 "value": {
                   "en_US": " ",
+                  "pt_BR": " ",
                   "de_DE": "<<C<<IGNORE",
                   "zh_CN": " <<A<<[CHANGED 2019/04/16]",
                   "ja_JP": "<<A<<[CHANGED 2019/04/16]",
@@ -11988,6 +12180,7 @@
                     "changeType": "set",
                     "value": {
                       "en_US": "New record!",
+                      "pt_BR": "Novo recorde!",
                       "ko_KR": "\uc2e0\uaddc \uae30\ub85d!<<A<<[CHANGED 2019/04/16]",
                       "langUid": 804,
                       "ja_JP": "\u65b0\u8a18\u9332\uff01<<A<<[CHANGED 2019/04/16]",
@@ -12027,6 +12220,7 @@
               {
                 "text": {
                   "en_US": "Survived till \\c[3]Wave \\v[tmp.tdWave]\\c[0].\n\\c[3]Score: \\v[tmp.tdScore]\\c[0]\n\\c[2]\\v[tmp.recordString]\\c[0]\n\nGain \\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!",
+                  "pt_BR": "Sobreviveu até a \\c[3]Onda \\v[tmp.tdWave]\\c[0].\n\\c[3]Pontuação: \\v[tmp.tdScore]\\c[0]\n\\c[2]\\v[tmp.recordString]\\c[0]\n\nGanhou \\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!",
                   "de_DE": "\u00dcberlebt bis \\c[3]Welle \\v[tmp.tdWave]\\c[0].\n\\c[3]Punkte: \\v[tmp.tdScore]\\c[0]\n\\c[2]\\v[tmp.recordString]\\c[0]\n\n\\c[3]\\v[tmp.tdRewards] Gesch\u00fctzmarke(n)\\c[0] erhalten!",
                   "zh_CN": "\u751f\u5b58\u81f3\\c[3]\u7b2c \\v[tmp.tdWave]\u6ce2\\c[0]\u3002\n\\c[3]\u5f97\u5206: \\v[tmp.tdScore]\\c[0]\n\\c[2]\\v[tmp.recordString]\\c[0]\n\n\u83b7\u5f97\\c[3]\\v[tmp.tdRewards] \\v[item.517.name]\\c[0]!<<A<<[CHANGED 2019/04/30]",
                   "ja_JP": "\\c[3]\u30a6\u30a7\u30fc\u30d6\\v[tmp.tdWave]\\c[0]\u307e\u3067\u751f\u304d\u6b8b\u3063\u305f\uff01\n\\c[3]\u30b9\u30b3\u30a2\uff1a\\v[tmp.tdScore]\\c[0]\r\n\\c[2]\\v[tmp.recordString]\\c[0]\r\n\r\n\\c[3]\\v[tmp.tdRewards]\u3001\\v[item.517.name]\\c[0]\u3092\u7372\u5f97\u3057\u305f\uff01<<A<<[CHANGED 2019/04/30]",
@@ -12273,6 +12467,7 @@
             "entity": { "global": true, "name": "td-targetEntity-doorOpener" },
             "text": {
               "en_US": "[ Turrets Upgrade, -\\v[tmp.tdUpgradeCost] Energy ]",
+              "pt_BR": "[ Atualização das Torretas, -\\v[tmp.tdUpgradeCost] Energia ]",
               "langUid": 866,
               "ko_KR": "[ \ud3ec\ud0d1 \uc5c5\uadf8\ub808\uc774\ub4dc, -\\v[tmp.tdUpgradeCost] \uc5d0\ub108\uc9c0 ]<<A<<[CHANGED 2019/04/30]",
               "zh_CN": "[ \u70ae\u53f0\u5347\u7ea7, -\\v[tmp.tdUpgradeCost] \u80fd\u91cf ]<<A<<[CHANGED 2019/04/30]",
@@ -12369,6 +12564,7 @@
         "map": "jungle-city.interior.faction-adv-1",
         "teleportLabel": {
           "en_US": "Enter \\c[3]Woodland Vanguard HQ\\c[0]",
+          "pt_BR": "Entar no \\c[3]QG da Vanguarda Florestal\\c[0]",
           "de_DE": "Zur \\c[3]Waldland-Avantgarde\\c[0]",
           "zh_CN": "\u8fdb\u5165\\c[3]\u6797\u5730\u5148\u950b\u603b\u90e8\\c[0]<<A<<[CHANGED 2019/05/06]",
           "ja_JP": "\\c[3]\u30a6\u30c3\u30c9\u30e9\u30f3\u30c9\u5148\u99c6\u968a\u672c\u90e8\\c[0]\u306b\u5165\u308b<<A<<[CHANGED 2019/05/06]",
