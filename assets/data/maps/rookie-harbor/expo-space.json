@@ -2250,7 +2250,7 @@
           {
             "message": {
               "en_US": "You acquired the \\c[3]\\v[item.376.name]\\c[0] giving you access to \\c[3]Gaia's Garden\\c[0] to the north.",
-              "pt_BR": "Você adiquiriu o \\c[3]\\v[item.376.name]\\c[0] dando-lhe acesso ao norte do \\c[3]Jardim de Gaia\\c[0].",
+              "pt_BR": "Você obteve o \\c[3]\\v[item.376.name]\\c[0] dando-lhe acesso ao \\c[3]Jardim de Gaia\\c[0] localizado ao norte.",
               "de_DE": "Du hast die \\c[3]Gr\u00fcne Samenform\\c[0] erhalten, die dir Zugang zu \\c[3]Gaias Garten\\c[0] im Norden gew\u00e4hrt.",
               "zh_CN": "\u4f60\u83b7\u5f97\u7684\\c[3]\\v[item.376.name]\\c[0]\u4e3a\u4f60\u5f00\u542f\u4e86\u901a\u5f80\u5317\u65b9\\c[3]\u76d6\u4e9a\u82b1\u56ed\\c[0]\u7684\u9053\u8def\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u541b\u306f\\c[3]\\v[item.376.name]\\c[0]\u3092\u624b\u306b\u5165\u308c\u305f\u3002\n\u3053\u308c\u3067\u5317\u306b\u3042\u308b\\c[3]\u30ac\u30a4\u30a2\u306e\u5712\\c[0]\u306b\n\u51fa\u5165\u308a\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3002<<A<<[CHANGED 2018/07/09]",

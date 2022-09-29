@@ -419,7 +419,7 @@
                 {
                   "message": {
                     "en_US": "A \\v[lore.title.seeker] recruit?\\. You better get your faction-briefing at \\c[3]\\v[lore.title.seeker]-Central\\c[0] first, before going sightseeing.",
-                    "pt_BR": "Um \\v[lore.title.seeker] recruta?\\. É melhor você obter as instruções da facção no \\c[3]\\v[lore.title.seeker] Hub\\c[0] primeiro, antes de passeios turísticos. ",
+                    "pt_BR": "Um \\v[lore.title.seeker] recruta?\\. É melhor você obter as instruções da facção no \\c[3]\\v[lore.title.seeker]-Hub\\c[0] primeiro, antes de passeios turísticos.",
                     "de_DE": "Ein Seeker-Rekrut?\\. Du solltest erst deine Fraktionseinweisung im \\c[3]Seeker Hub\\c[0] abschlie\u00dfen, bevor du die Stadt erkundest.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4e00\u4f4d\\v[lore.title.seeker]\u65b0\u5175\uff1f\\.\u4f60\u6700\u597d\u5728\u53bb\u89c2\u5149\u4e4b\u524d\uff0c\u5148\u5230\\c[3]\\v[lore.title.seeker]\u4e2d\u5fc3\\c[0]\u90a3\u91cc\u83b7\u5f97\u6d3e\u7cfb\u7b80\u62a5\u3002",
@@ -1710,7 +1710,7 @@
                     {
                       "message": {
                         "en_US": "He will give you a more detailed briefing and send you in the right direction.\\. Now get going, \\v[lore.title.seeker]!",
-                        "pt_BR": "Ele lhe dará um briefing mais detalhado e a enviará na direção certa.\\. Agora vá andando, \\v[lore.title.seeker]!",
+                        "pt_BR": "Ele lhe dará instruções mais detalhadas e a enviará na direção certa.\\. Agora vá andando, \\v[lore.title.seeker]!",
                         "de_DE": "Er wird dir unseren Plan erl\u00e4utern und dir den Weg zeigen.\\. Ans Werk, Seeker!",
                         "zh_CN": "\u4ed6\u4f1a\u7ed9\u4f60\u8be6\u7ec6\u60c5\u62a5\u548c\u540e\u7eed\u6307\u793a\u7684\u3002\\.\u53bb\u5427\uff0c\\v[lore.title.seeker]\uff01<<A<<[CHANGED 2017/10/13]",
                         "langUid": 328,
