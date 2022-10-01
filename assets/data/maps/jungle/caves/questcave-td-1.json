@@ -4777,7 +4777,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ Those can be \\c[3]exchanged for valuable items\\c[0] directly at this device. ]",
-                        "pt_BR": "[ Estes podem ser \\c[3]trocados por itens valiosos\\c[0] diretamente neste dispositivo. ]",
+                        "pt_BR": "[ Que podem ser \\c[3]trocados por itens valiosos\\c[0] diretamente neste dispositivo. ]",
                         "langUid": 831,
                         "zh_CN": "[ \u4ee3\u5e01\u53ef\u4ee5\u901a\u8fc7\u6b64\u88c5\u7f6e\u76f4\u63a5\\c[3]\u5151\u6362\u7269\u54c1\\c[0]\u3002 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \ud2b9\ubcc4 \ud1a0\ud070\uc740 \uc774 \uc7a5\uce58\uc5d0\uc11c \ubc14\ub85c \\c[3]\uc911\uc694\ud55c \uc544\uc774\ud15c\uc73c\ub85c \uad50\ud658\\c[0]\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. ]<<A<<[CHANGED 2019/04/16]",
@@ -6516,7 +6516,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Challenge Mode (Infinite survival, enemy levels start at player level, minimum 42)",
-                          "pt_BR": "Modo de Desafio (Sobrevivência infinita, nível incial dos inimigos é semelhante ao nível do jogador, mínimo: 42)",
+                          "pt_BR": "Modo de Desafio (Sobrevivência infinita, nível equivalente ao do jogador, mínimo 42)",
                           "de_DE": "Herausforderung (\u00dcberlebenskampf, Gegner starten auf Spielerlevel, Minimum 42)",
                           "zh_CN": "\u6311\u6218\u6a21\u5f0f(\u65e0\u9650\u751f\u5b58\uff0c\u654c\u4eba\u8d77\u59cb\u7b49\u7ea7\u4e0e\u73a9\u5bb6\u76f8\u540c\uff0c\u6700\u4f4e42)<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30c1\u30e3\u30ec\u30f3\u30b8\u30e2\u30fc\u30c9(\u7121\u9650\u30b5\u30d0\u30a4\u30d0\u30eb)<<A<<[CHANGED 2019/04/16]",
