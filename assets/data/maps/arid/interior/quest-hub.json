@@ -1762,7 +1762,7 @@
             }, {
                 "message": {
                     "en_US": "Tja.",
-                    "pt_BR": "Tja.",
+                    "pt_BR": "Aff.",
                     "de_DE": "Tja.",
                     "zh_CN": "\u5567\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 14,
@@ -1816,7 +1816,7 @@
             }, {
                 "task": {
                     "en_US": "Solve the quest \\c[3]The Southern Trial Building\\c[0] together with Lukas.",
-                    "pt_BR": "Resolva a missão \\c[3]O Edifício Jurídico Sul\\c[0] junto com Lukas",
+                    "pt_BR": "Resolva a missão \\c[3]O Edifício de Teste Sul\\c[0] junto com Lukas",
                     "langUid": 859,
                     "zh_CN": "\u4e0e\u5362\u5361\u65af\u4e00\u8d77\u5b8c\u6210\\c[3]\u5357\u90e8\u8bd5\u7ec3\u573a\\c[0]\u7684\u4efb\u52a1\u3002<<A<<[CHANGED 2018\/03\/14]",
                     "ko_KR": "\ub8e8\uce74\uc2a4\uc640 \ud568\uaed8 \\c[3]\ub0a8\ubd80 \uc2dc\ud5d8\uc758 \uac74\ubb3c\\c[0] \ud018\uc2a4\ud2b8\ub97c \ud574\uacb0\ud558\uc138\uc694.<<A<<[CHANGED 2018\/03\/14]",
@@ -2482,7 +2482,7 @@
             }, {
                 "message": {
                     "en_US": "What is this?\\. Some kind of prison?",
-                    "pt_BR": "O que é isso?\\. Algum tipo de prisão",
+                    "pt_BR": "O que é isso?\\. Algum tipo de prisão?",
                     "de_DE": "Was ist das hier?\\. Ein Gef\u00e4ngnis?",
                     "zh_CN": "\u4ec0\u4e48\u9b3c\uff1f\\.\u8fd9\u91cc\u662f\u76d1\u72f1\u5417\uff1f<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 36,
@@ -2516,7 +2516,7 @@
             }, {
                 "message": {
                     "en_US": "This is stupid.\\. You know what?\\. I'll just log off.\\. Right now.",
-                    "pt_BR": "Isso é estúpido.\\. Você sabe o porquê?\\. Vou fazer logoff.\\. Agora mesmo.",
+                    "pt_BR": "Isso é estúpido.\\. Você sabe o por que?\\. Vou deslogar.\\. Agora mesmo.",
                     "de_DE": "N\u00e4h, das ist mir zu doof.\\. Wei\u00dft du was?\\. Ich logg mich jetzt einfach aus.",
                     "zh_CN": "\u592a\u8fc7\u5206\u4e86\u3002\\.\u4f60\u731c\u600e\u4e48\u7740\uff1f\\.\u6211\u5c31\u76f4\u63a5\u4e0b\u7ebf\u4e86\u3002\\.\u9a6c\u4e0a\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 38,
@@ -2601,7 +2601,7 @@
             }, {
                 "message": {
                     "en_US": "Bye.",
-                    "pt_BR": "Tchau",
+                    "pt_BR": "Tchau.",
                     "de_DE": "Bye.",
                     "zh_CN": "\u518d\u89c1\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 43,
@@ -2630,7 +2630,7 @@
                 },
                 "text": {
                     "en_US": "Logout",
-                    "pt_BR": "Logout",
+                    "pt_BR": "Deslogando",
                     "de_DE": "Logout",
                     "zh_CN": "\u767b\u51fa<<A<<[CHANGED 2017\/10\/10]",
                     "ja_JP": "\u30ed\u30b0\u30a2\u30a6\u30c8<<A<<[CHANGED 2017\/11\/04]",
@@ -2862,7 +2862,7 @@
                 },
                 "text": {
                     "en_US": "Logout",
-                    "pt_BR": "Logout",
+                    "pt_BR": "Deslogando",
                     "de_DE": "Logout",
                     "zh_CN": "\u767b\u51fa<<A<<[CHANGED 2017\/10\/10]",
                     "ja_JP": "\u30ed\u30b0\u30a2\u30a6\u30c8<<A<<[CHANGED 2017\/11\/04]",
@@ -2993,7 +2993,7 @@
             }, {
                 "message": {
                     "en_US": "Is the system broken?\\. I'll just remove the...",
-                    "pt_BR": "O sistema está quebrado?\\. só vou retirar...",
+                    "pt_BR": "O sistema está quebrado?\\. Só vou tirar...",
                     "de_DE": "Spinnt das System wieder rum? Ich werd einfach die...",
                     "zh_CN": "\u6e38\u620f\u51fa\u95ee\u9898\u4e86\uff1f\\.\u90a3\u6211\u76f4\u63a5\u8131...<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 512,
@@ -3078,7 +3078,7 @@
             }, {
                 "message": {
                     "en_US": "...I can't...\\. remove the Cross Gear.",
-                    "pt_BR": "...Eu não posso...\\. remover a Cross Gear",
+                    "pt_BR": "...Eu não posso...\\. remover o Cross Gear",
                     "de_DE": "... Ich kann...\\. das Cross Gear nicht ausziehen.",
                     "zh_CN": "...\u8fdc\u661f\u88c5\u5907...\\.\u6211\u62ff\u4e0d\u4e0b\u6765\u4e86\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 517,
@@ -3132,7 +3132,7 @@
             }, {
                 "message": {
                     "en_US": "W-What is going on here...",
-                    "pt_BR": "Q-quê está acontecendo aqui...",
+                    "pt_BR": "O-o que está acontecendo aqui...",
                     "de_DE": "Wa-Was ist hier los...?",
                     "zh_CN": "\u5230\u5e95\u662f\u600e\u4e48\u56de\u4e8b...<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 519,
@@ -3157,7 +3157,7 @@
             }, {
                 "message": {
                     "en_US": "Am I stuck in the game now, or what?!",
-                    "pt_BR": "Agora eu estou preso no jogo, ou o quê?!",
+                    "pt_BR": "Agora eu estou preso no jogo, ou o que?!",
                     "de_DE": "Steck ich jetzt im Spiel fest, oder was?!",
                     "zh_CN": "\u6211\u5c31\u8fd9\u4e48\u88ab\u56f0\u5728\u6e38\u620f\u91cc\u4e86\uff1f\uff01<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 520,
@@ -3865,7 +3865,7 @@
             }, {
                 "message": {
                     "en_US": "Oh Junge...",
-                    "pt_BR": "Ah Junge...",
+                    "pt_BR": "Ah cara...",
                     "de_DE": "Oh Junge...",
                     "zh_CN": "\u5509...<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 527,
@@ -3882,7 +3882,7 @@
             }, {
                 "message": {
                     "en_US": "Seriously, this \"campaign\" is the worst.",
-                    "pt_BR": "Sério, essa \"campanha\" é a pior",
+                    "pt_BR": "Sério, essa \"campanha\" é a pior.",
                     "de_DE": "Diese \"Kampagne\" ist echt das Letzte.",
                     "zh_CN": "\u8fd9\u4e2a\"\u652f\u7ebf\"\u7b80\u76f4\u70c2\u7206\u4e86\u3002<<A<<[CHANGED 2018\/10\/04]",
                     "langUid": 528,
@@ -4310,7 +4310,7 @@
             }, {
                 "message": {
                     "en_US": "Okay...\\. time to enter space again.",
-                    "pt_BR": "Okay...\\ hora de entrar no espaço de novo",
+                    "pt_BR": "Ok...\\. hora de entrar no espaço de novo.",
                     "langUid": 534,
                     "zh_CN": "\u597d\u5427...\\.\u51c6\u5907\u63a5\u53d7\u4efb\u52a1\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Okay...\\. Auf in den Weltraum.",
@@ -4623,7 +4623,7 @@
             }, {
                 "message": {
                     "en_US": "Dust-dry as usual.",
-                    "pt_BR":"Drena-areia como de costume",
+                    "pt_BR":"Seco como de costume.",
                     "de_DE": "Furztrocken wie immer.",
                     "zh_CN": "\u8fd8\u662f\u90a3\u4e48\u67af\u71e5\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 535,
@@ -4810,7 +4810,7 @@
             }, {
                 "message": {
                     "en_US": "Okay...",
-                    "pt_BR": "Okay...",
+                    "pt_BR": "Ok...",
                     "de_DE": "O-kay...",
                     "zh_CN": "\u597d\u5427...<<A<<[CHANGED 2017\/10\/10]",
                     "langUid": 538,
@@ -4830,7 +4830,7 @@
             }, {
                 "task": {
                     "en_US": "Solve the quest \\c[3]The Northern Trial Building\\c[0] together with Lukas.",
-                    "pt_BR": "Resolva a missão \\c[3]O Edifício Jurídico Norte\\c[0] junto com Lukas.",
+                    "pt_BR": "Resolva a missão \\c[3]O Edifício de Teste Norte\\c[0] junto com Lukas.",
                     "langUid": 29,
                     "zh_CN": "\u4e0e\u5362\u5361\u65af\u4e00\u8d77\u5b8c\u6210\\c[3]\u5317\u90e8\u8bd5\u7ec3\u573a\\c[0]\u7684\u4efb\u52a1\u3002<<A<<[CHANGED 2018\/03\/14]",
                     "ko_KR": "\ub8e8\uce74\uc2a4\uc640 \ud568\uaed8 \\c[3]\ubd81\ubd80 \uc2dc\ud5d8\uc758 \uac74\ubb3c\\c[0] \ud018\uc2a4\ud2b8\ub97c \ud574\uacb0\ud558\uc138\uc694.<<A<<[CHANGED 2018\/03\/14]",
@@ -4977,7 +4977,7 @@
             }, {
                 "message": {
                     "en_US": "Here we go.",
-                    "pt_BR": "Lá vamos nós",
+                    "pt_BR": "Lá vamos nós.",
                     "de_DE": "Auf geht's.",
                     "zh_CN": "\u884c\u4e86\u3002<<A<<[CHANGED 2017\/12\/12]",
                     "ja_JP": "\u884c\u304f\u304b\u3002<<A<<[CHANGED 2017\/12\/11]",
@@ -5293,7 +5293,7 @@
             }, {
                 "message": {
                     "en_US": "Thanks, Chief.",
-                    "pt_BR": "Obrigado, Chief",
+                    "pt_BR": "Obrigado, Chefe.",
                     "de_DE": "Danke, Chef.",
                     "zh_CN": "\u8c22\u4e86\u3002<<A<<[CHANGED 2017\/12\/12]",
                     "ja_JP": "\u3042\u308a\u304c\u3068\u3088\u3001\u30c1\u30fc\u30d5\u3002<<A<<[CHANGED 2017\/12\/11]",
@@ -5310,7 +5310,7 @@
             }, {
                 "message": {
                     "en_US": "Bye.",
-                    "pt_BR": "Tchau",
+                    "pt_BR": "Tchau.",
                     "de_DE": "Bye.",
                     "zh_CN": "\u518d\u89c1\u3002<<A<<[CHANGED 2017\/12\/12]",
                     "ja_JP": "\u3058\u3083\u3042\u306d\u3002<<A<<[CHANGED 2017\/12\/11]",
@@ -5496,7 +5496,7 @@
             }, {
                 "message": {
                     "en_US": "Alright then, let's head to the dormitory. One last time.",
-                    "pt_BR": "Tudo bem então, vamos para o dormitório. Uma última vez.",
+                    "pt_BR": "Tudo bem então, vamos para o dormitório. Pela última vez.",
                     "de_DE": "Gut, also zur\u00fcck zu unseren Zimmern. Ein letztes Mal.",
                     "zh_CN": "\u597d\u5427\uff0c\u90a3\u6211\u4eec\u53bb\u5bbf\u820d\u3002\u6700\u540e\u4e00\u6b21\u3002<<A<<[CHANGED 2018\/03\/14]",
                     "ja_JP": "\u3088\u3057\u3001\u305d\u308c\u3058\u3083\u3042\u5bbf\u820e\u306b\u623b\u308d\u3046\u3002\n\u3053\u308c\u3067\u6700\u5f8c\u3060\u3002<<A<<[CHANGED 2018\/03\/14]",
