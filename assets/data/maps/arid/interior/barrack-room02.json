@@ -423,7 +423,7 @@
             "event": [{
                 "message": {
                     "en_US": "Right corridor?",
-                    "pt_BR": "Corredor Direito?",
+                    "pt_BR": "Corredor direito?",
                     "langUid": 7,
                     "zh_CN": "\u53f3\u8fb9\uff1f<<A<<[CHANGED 2020\/06\/17]",
                     "de_DE": "Rechter Flur?",
@@ -684,7 +684,7 @@
             }, {
                 "message": {
                     "en_US": "Uhm... Good morning.",
-                    "pt_BR": "Hum... bom dia",
+                    "pt_BR": "Hum... Bom dia.",
                     "langUid": 13,
                     "zh_CN": "\u5443...\u65e9\u4e0a\u597d\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "\u00d6hm... Guten Morgen.",
@@ -939,7 +939,7 @@
             }, {
                 "message": {
                     "en_US": "Okay...",
-                    "pt_BR": "Okay...",
+                    "pt_BR": "Ok...",
                     "langUid": 28,
                     "zh_CN": "\u597d\u5427...<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Okay...",
@@ -964,7 +964,7 @@
             }, {
                 "task": {
                     "en_US": "Go to the \\c[3]Quest Hub\\c[0] in \\c[3]Vermillion Wasteland - West Town\\c[0] together with Lukas.",
-                    "pt_BR": "Vá para o \\c[3]Centro de missões\\c[0] em \\c[3]Vermillion Wasteland - Torre Oeste\\[0] junto com Lukas",
+                    "pt_BR": "Vá para o \\c[3]Centro de Missões\\c[0] em \\c[3]Torre Oeste - Deserto Carmesim\\[0] junto com Lukas.",
                     "langUid": 29,
                     "zh_CN": "\u4e0e\u5362\u5361\u65af\u4e00\u8d77\u524d\u5f80\\c[3]\u6731\u7ea2\u5e9f\u571f - \u897f\u57ce\\c[0]\u7684\\c[3]\u4efb\u52a1\u4e2d\u5fc3\\c[0]\u3002<<A<<[CHANGED 2018\/03\/14]",
                     "ko_KR": "\ub8e8\uce74\uc2a4\uc640 \ud568\uaed8 \\c[3]\uc8fc\ud64d\uc758 \ud669\ubb34\uc9c0 - \uc11c\ucabd \ub9c8\uc744\\c[0]\uc5d0 \uc788\ub294 \\c[3]\ud018\uc2a4\ud2b8 \ud5c8\ube0c\\c[0]\ub85c \uc774\ub3d9\ud558\uc138\uc694.<<A<<[CHANGED 2018\/03\/14]",

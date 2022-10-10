@@ -702,7 +702,7 @@
             }, {
                 "message": {
                     "en_US": "I see.\\. Let's try to rest and meet up tomorrow. We'll see what happens.",
-                    "pt_BR": "Eu vejo.\\. Vamos tentar descansar e nos encontrarmos amanhã. Veremos o que acontece.",
+                    "pt_BR": "Entendo.\\. Vamos tentar descansar e nos encontrarmos amanhã. Veremos o que acontece.",
                     "langUid": 6,
                     "zh_CN": "\u77e5\u9053\u4e86\u3002\\.\u6211\u4eec\u5148\u4f11\u606f\u4e00\u4e0b\uff0c\u660e\u5929\u518d\u89c1\u3002\u5230\u65f6\u5019\u770b\u60c5\u51b5\u518d\u8bf4\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Verstehe.\\. Lass uns versuchen, zu schlafen. Wir treffen uns morgen fr\u00fch wieder und schauen, was passiert.",
@@ -1060,7 +1060,7 @@
             }, {
                 "message": {
                     "en_US": "Alright, guess that's all for today.",
-                    "pt_BR": "Tudo bem, acho que é tudo por hoje",
+                    "pt_BR": "Tudo bem, acho que é tudo por hoje.",
                     "langUid": 10,
                     "zh_CN": "\u597d\u5427\uff0c\u4eca\u5929\u5c31\u8fd9\u6837\u4e86\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Tjoa, dann war's das f\u00fcr heute.",
@@ -1077,7 +1077,7 @@
             }, {
                 "message": {
                     "en_US": "See you soon!",
-                    "pt_BR": "Vejo você em breve",
+                    "pt_BR": "Vejo você em breve!",
                     "langUid": 11,
                     "zh_CN": "\u56de\u89c1\uff01<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Bis morgen!",
@@ -1111,7 +1111,7 @@
             }, {
                 "message": {
                     "en_US": "Good night!",
-                    "pt_BR": "Boa Noite!",
+                    "pt_BR": "Boa noite!",
                     "langUid": 13,
                     "zh_CN": "\u665a\u5b89\uff01<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Gute Nacht!",
@@ -1663,7 +1663,7 @@
             }, {
                 "task": {
                     "en_US": "Just... walk outside.",
-                    "pt_BR": "Apenas... ande lá fora",
+                    "pt_BR": "Apenas... ande lá fora.",
                     "langUid": 41,
                     "zh_CN": "...\u53bb\u5916\u9762\u5427\u3002<<A<<[CHANGED 2018\/03\/14]",
                     "ko_KR": "\ubc16\uc73c\ub85c... \ub098\uac00\uc138\uc694.<<A<<[CHANGED 2018\/03\/14]",
@@ -2159,7 +2159,7 @@
             }, {
                 "message": {
                     "en_US": "Will you be okay by yourself?",
-                    "pt_BR": "Você vai ficar bem sozinho?",
+                    "pt_BR": "Você vai ficar bem sozinha?",
                     "langUid": 21,
                     "zh_CN": "\u4f60\u4e00\u4e2a\u4eba\u6ca1\u95ee\u9898\u5427\uff1f<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Kommst du alleine klar?",
@@ -2349,7 +2349,7 @@
             }, {
                 "message": {
                     "en_US": "Things will work out.",
-                    "pt_BR": "As coisas irão funcionar",
+                    "pt_BR": "As coisas irão funcionar.",
                     "langUid": 23,
                     "zh_CN": "\u4f1a\u597d\u8d77\u6765\u7684\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "Das wird schon wieder.",
@@ -2548,7 +2548,7 @@
             }, {
                 "message": {
                     "en_US": "...Bye.",
-                    "pt_BR": "...Tchau",
+                    "pt_BR": "...Tchau.",
                     "langUid": 28,
                     "zh_CN": "...\u518d\u89c1\u3002<<A<<[CHANGED 2017\/10\/10]",
                     "de_DE": "... Bye.",
@@ -2838,7 +2838,7 @@
             }, {
                 "message": {
                     "en_US": "Okay then... ",
-                    "pt_BR": "Okay então...",
+                    "pt_BR": "Ok então...",
                     "de_DE": "Also dann...",
                     "zh_CN": "\u597d\u5427... <<A<<[CHANGED 2017\/12\/12]",
                     "ja_JP": "\u3088\u3057\u3001\u305d\u308c\u3058\u3083...<<A<<[CHANGED 2017\/12\/11]",
@@ -2889,7 +2889,7 @@
             }, {
                 "message": {
                     "en_US": "Make sure you're well rested for tomorrow.",
-                    "pt_BR": "Certifique-se de estar bem descansado para amanhã.",
+                    "pt_BR": "Certifique-se de estar bem descansada para amanhã.",
                     "de_DE": "Ruh dich gut aus, damit du fit f\u00fcr morgen bist.",
                     "zh_CN": "\u597d\u597d\u4f11\u606f\u5427\u3002<<A<<[CHANGED 2017\/12\/12]",
                     "ja_JP": "\u660e\u65e5\u306e\u305f\u3081\u306b\n\u3088\u304f\u4f11\u3093\u3067\u304a\u3051\u3088\u3002<<A<<[CHANGED 2017\/12\/11]",
@@ -2906,7 +2906,7 @@
             }, {
                 "message": {
                     "en_US": "Good night!",
-                    "pt_BR": "Boa Noite!",
+                    "pt_BR": "Boa noite!",
                     "de_DE": "Gute Nacht!",
                     "zh_CN": "\u665a\u5b89\uff01<<A<<[CHANGED 2017\/12\/12]",
                     "ja_JP": "\u304a\u3084\u3059\u307f\uff01<<A<<[CHANGED 2017\/12\/11]",

@@ -5568,7 +5568,7 @@
             }, {
                 "message": {
                     "en_US": "It's where you realize...\\. that this place is actually pretty small.",
-                    "pt_BR": "É onde você percebe...\\. que esse lugar é realmente muito pequeno",
+                    "pt_BR": "É onde você percebe que...\\. esse lugar é realmente muito pequeno.",
                     "langUid": 129,
                     "zh_CN": "\u4ed4\u7ec6\u60f3\u60f3...\\.\u8fd9\u5730\u65b9\u5176\u5b9e\u633a\u5c0f\u7684\u3002<<A<<[CHANGED 2017\/10\/13]",
                     "de_DE": "Sp\u00e4testens hier stellst du fest...\\. dass dieser ganze Ort hier eigentlich recht klein ist.",
@@ -5661,7 +5661,7 @@
             }, {
                 "task": {
                     "en_US": "Talk to Lukas in \\c[3]Vermillion Wasteland - Spiral Cliff\\c[0] to proceed with his tour.",
-                    "pt_BR": "Fale com Lukas em \\c[3]Vermillion Wasteland - Spiral Cliff\\c[0] para prosseguir com seu passeio.",
+                    "pt_BR": "Fale com Lukas em \\c[3]Penhasco Espiral - Deserto Carmesim\\c[0] para prosseguir com sua excursão.",
                     "langUid": 157,
                     "zh_CN": "\u5728\\c[3]\u6731\u7ea2\u5e9f\u571f - \u87ba\u65cb\u5d16\\c[0]\u4e8e\u5362\u5361\u65af\u5bf9\u8bdd\u6765\u7ee7\u7eed\u4ed6\u7684\u65c5\u884c\u3002<<A<<[CHANGED 2018\/03\/14]",
                     "ko_KR": "\\c[3]\uc8fc\ud64d\uc758 \ud669\ubb34\uc9c0 - \ub098\uc120 \uc808\ubcbd\\c[0]\uc5d0 \uc788\ub294 \ub8e8\uce74\uc2a4\uc5d0\uac8c \ub9d0\uc744 \uac78\uc5b4 \ud22c\uc5b4\ub97c \uacc4\uc18d\ud558\uc138\uc694.<<A<<[CHANGED 2018\/03\/14]",
@@ -5976,7 +5976,7 @@
                     }, {
                         "message": {
                             "en_US": "I didn't plan to end the tour on such a depressing note.",
-                            "pt_BR": "Eu não planejava terminar a turnê com uma nota tão deprimente.",
+                            "pt_BR": "Eu não planejava terminar a excursão com uma nota tão deprimente.",
                             "langUid": 152,
                             "zh_CN": "\u6211\u53ef\u6ca1\u60f3\u5c31\u8fd9\u4e48\u7ed3\u675f\u3002<<A<<[CHANGED 2017\/10\/10]",
                             "de_DE": "War nicht meine Absicht, die Tour mit so einer deprimierenden Erkenntnis zu beenden.",
@@ -6027,7 +6027,7 @@
                     }, {
                         "message": {
                             "en_US": "We'll have to run back all the way to the \\c[3]East Town\\c[0], though.",
-                            "pt_BR": "Teremos que correr de volta para o \\c[3]Torre Leste\\c[0], embora.",
+                            "pt_BR": "Teremos que correr de volta para a \\c[3]Torre Leste\\c[0], vamos lá.",
                             "de_DE": "Daf\u00fcr m\u00fcssen wir zur\u00fcck zur \\c[3]Oststadt\\c[0], also den ganzen Weg wieder zur\u00fcck.",
                             "zh_CN": "\u4e0d\u8fc7\uff0c\u6211\u4eec\u5f97\u4e00\u8def\u8dd1\u56de\\c[3]\u4e1c\u57ce\\c[0]\u4e86\u3002<<A<<[CHANGED 2018\/03\/14]",
                             "ja_JP": "\\c[3]\u6771\u306e\u753a\\c[0]\u307e\u3067\u3001\n\u8d70\u3063\u3066\u623b\u308b\u5fc5\u8981\u304c\u3042\u308b\u3051\u3069\u306a\u3002<<A<<[CHANGED 2018\/03\/14]",
@@ -6102,7 +6102,7 @@
                     }, {
                         "task": {
                             "en_US": "Go back to \\c[3]Vermillion Wasteland - East Town\\c[0] to conclude Lukas' tour.",
-                            "pt_BR": "Volte para \\c[3]Vermillion Wasteland - Torre Leste\\c[0] para concluir o passeio de Lukas.",
+                            "pt_BR": "Volte para \\c[3]Torre Leste - Deserto Carmesim\\c[0] para concluir a excursçao do Lukas.",
                             "langUid": 158,
                             "zh_CN": "\u8fd4\u56de\\c[3]\u6731\u7ea2\u5e9f\u571f - \u4e1c\u57ce\\c[0]\u6765\u8d70\u5b8c\u5362\u5361\u65af\u7684\u65c5\u884c\u3002<<A<<[CHANGED 2018\/03\/14]",
                             "ko_KR": "\\c[3]\uc8fc\ud64d\uc758 \ud669\ubb34\uc9c0 - \ub3d9\ucabd \ub9c8\uc744\\c[0]\ub85c \ub2e4\uc2dc \ub3cc\uc544\uac00 \ub8e8\uce74\uc2a4\uc758 \ud22c\uc5b4\ub97c \ub05d\ub9c8\uce58\uc138\uc694.<<A<<[CHANGED 2018\/03\/14]",
@@ -8570,7 +8570,7 @@
                     "1": [],
                     "text": {
                         "en_US": "Do you want to skip ahead to the Vermillion Dungeon?",
-                        "pt_BR": "Você quer pular para a masmorra de Vermillion?",
+                        "pt_BR": "Você quer ir logo para a Dungeon Carmesim?",
                         "de_DE": "Willst du diesen Teil bis zum Vermillon-Dungeon \u00fcberspringen?",
                         "zh_CN": "\u76f4\u63a5\u8df3\u8fc7\u5230\u6731\u7ea2\u5730\u7262\u5417\uff1f<<A<<[CHANGED 2018\/10\/22]",
                         "ja_JP": "\u6731\u67d3\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u307e\u3067\u30b9\u30ad\u30c3\u30d7\u3057\u307e\u3059\u304b\uff1f<<A<<[CHANGED 2018\/10\/22]",
@@ -10476,7 +10476,7 @@
             }, {
                 "message": {
                     "en_US": "The barrier is down! Time to split, everyone!",
-                    "pt_BR": "A barreira caiu! Hora de dividir, pessoal!",
+                    "pt_BR": "A barreira caiu! Hora de se dividir, pessoal!",
                     "langUid": 188,
                     "zh_CN": "\u5c01\u9501\u89e3\u9664\uff01\u5927\u5bb6\u5206\u5934\u884c\u52a8\uff01<<A<<[CHANGED 2018\/07\/09]",
                     "ja_JP": "\u30d0\u30ea\u30a2\u304c\u30c0\u30a6\u30f3\u3057\u305f\uff01\n\u30c1\u30fc\u30e0\u306b\u5206\u304b\u308c\u308b\u3093\u3060\u3001\u307f\u3093\u306a\uff01<<A<<[CHANGED 2018\/07\/09]",
@@ -10510,7 +10510,7 @@
             }, {
                 "message": {
                     "en_US": "Onwards!!",
-                    "pt_BR": "Adiante!!",
+                    "pt_BR": "Avante!!",
                     "langUid": 189,
                     "zh_CN": "\u524d\u8fdb\uff01\uff01<<A<<[CHANGED 2018\/07\/09]",
                     "ja_JP": "\u884c\u304f\u3088\uff01\uff01<<A<<[CHANGED 2018\/07\/09]",
