@@ -180,7 +180,7 @@
       "collect": "Itens Coletados [[x]] / [[y]]"
     },
     "status-hud": {
-      "maxhp": "HP MAX",
+      "maxhp": "PV MAX",
       "atk": "ATQ",
       "def": "DEF",
       "foc": "FOC",
@@ -914,7 +914,7 @@
         "rightarm": "braço direito",
         "torso": "quadril",
         "feet": "pernas",
-        "maxhp": "HP Máximo",
+        "maxhp": "PV Máximo",
         "player": "Jogador",
         "atk": "Ataque",
         "def": "Defesa",
@@ -2200,7 +2200,7 @@
         "APPETITE": "Desbloqueia \\c[3]um\\c[0] slot de buff adicional.",
         "SPIKE_DAMAGE": "Enquanto defende, reflete \\c[3][xyz]%\\c[0] do dano total absorvido de volta ao inimigo.",
         "CROSS_COUNTER": "Aumenta o dano em inimigos que estão atacando ou carregando em \\c[3][xyz]%\\c[0].",
-        "BERSERKER": "Aumenta o dano em \\c[3][xyz]%\\c[0] quando está em estado critico. (Abaixo de 33% do HP Máximo)",
+        "BERSERKER": "Aumenta o dano em \\c[3][xyz]%\\c[0] quando está em estado critico. (Abaixo de 33% do PV Máximo)",
         "BREAK_DMG": "Increases Damage on enemies that are stunned, weak or in break state by \\c[3][xyz]%\\c[0].",
         "ONCE_MORE": "Sobreviva exatamente a \\c[3]um ataque\\c[0] que normalmente o mataria.",
         "GUARD_SP": "Restaura SP em ao defender com equivalente a \\c[3][xyz]%\\c[0] do poder de ataque. (O \\c[3]Dobro\\c[0] para uma Defesa Perfeita)",

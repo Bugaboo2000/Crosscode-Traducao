@@ -1562,6 +1562,7 @@
       },
       "description": {
         "en_US": "Footwear with some mysterious, thus unrealized power.",
+        "pt_BR": "Calçado com algum poder misterioso, de tal forma não percebido.",
         "de_DE": "Schuhwerk mit einer r\u00e4tselhaften, noch unentdeckten Kraft.",
         "fr_FR": "undefined",
         "zh_CN": "\u5e26\u7740\u51e0\u5206\u795e\u79d8\u7684\u978b\u5b50\uff0c\u5177\u6709\u672a\u88ab\u5bdf\u89c9\u7684\u529b\u91cf\u3002",
@@ -3268,6 +3269,7 @@
       "order": 85,
       "name": {
         "en_US": "Giga Spiral Drill",
+        "pt_BR": "Broca Espiral Gigante",
         "de_DE": "Gigaspiralbohrer",
         "fr_FR": "undefined",
         "zh_CN": "\u5343\u5146\u87ba\u65cb\u94bb",
@@ -3278,6 +3280,7 @@
       },
       "description": {
         "en_US": "Said to be able to pierce through the heavens themselves.",
+        "pt_BR": "Dizem ser capaz de atravessar os próprios céus.",
         "de_DE": "Kann Legenden zufolge selbst den Himmel durchbohren.",
         "fr_FR": "undefined",
         "zh_CN": "\u636e\u8bf4\u5b83\u8fde\u5929\u5802\u90fd\u80fd\u4e00\u6c14\u8d2f\u7a7f\u3002<<A<<[CHANGED 2018/10/04]",
@@ -4090,6 +4093,7 @@
       },
       "description": {
         "en_US": "Ice fresh from Bergen Trail.",
+        "pt_BR": "Gelo fresco da Trilha de Bergen.",
         "de_DE": "Eis, frisch vom Bergen-Trail.",
         "fr_FR": "undefined",
         "zh_CN": "\u4ea7\u81ea\u4ffe\u5c14\u6839\u4e4b\u8def\u7684\u65b0\u9c9c\u51b0\u5757\u3002",
@@ -5471,6 +5475,7 @@
       "order": 20,
       "name": {
         "en_US": "Yellow Sand Shade",
+        "pt_BR": "Fragmento da Areia",
         "de_DE": "Gelbe Sandform",
         "langUid": 297,
         "zh_CN": "\u9ec4\u6c99\u8bc1\u5370",
@@ -5480,6 +5485,7 @@
       },
       "description": {
         "en_US": "Provides access to \\c[3]Faj'ro Temple\\c[0].",
+        "pt_BR": "Fornece acesso ao \\c[3]Templo Faj'ro\\c[0]",
         "de_DE": "Gew\u00e4hrt Zugang zum \\c[3]Faj'ro-Tempel\\c[0].",
         "fr_FR": "undefined",
         "langUid": 649,
@@ -6765,6 +6771,7 @@
       },
       "description": {
         "en_US": "A piece of wood so sturdy that it can survive without water for centuries.",
+        "pt_BR": "Um pedaço de madeira tão robusto que pode sobreviver sem água por séculos.",
         "de_DE": "Ein St\u00fcck Holz, so robust, dass es Jahrhunderte ohne Wasser \u00fcberstehen kann.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u575a\u56fa\u7684\u6728\u5934\uff0c\u5b83\u80fd\u5728\u65e0\u6c34\u7684\u60c5\u51b5\u4e0b\u5b58\u6d3b\u51e0\u4e2a\u4e16\u7eaa\u3002",
@@ -7292,6 +7299,7 @@
       },
       "description": {
         "en_US": "Does not cure death despite popular belief. But it does look nice.",
+        "pt_BR": "Não cura a morte apesar da crença popular. Mas tem boa aparência.",
         "de_DE": "Heilt zwar nicht wie allgemein angenommen den Tod, sieht aber immerhin h\u00fcbsch aus.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0e\u5927\u4f17\u6982\u5ff5\u4e0d\u540c\uff0c\u8fd9\u4e1c\u897f\u5e76\u4e0d\u80fd\u8ba9\u4eba\u6b7b\u800c\u590d\u751f\u3002\u4f46\u662f\u770b\u8d77\u6765\u4e0d\u9519\u3002",
@@ -8282,6 +8290,7 @@
       "order": 29,
       "name": {
         "en_US": "Steak, rare",
+        "pt_BR": "Bife, raro",
         "de_DE": "Seltenes Steak",
         "fr_FR": "undefined",
         "zh_CN": "\u4e09\u6210\u719f\u725b\u6392",
@@ -8292,6 +8301,7 @@
       },
       "description": {
         "en_US": "A fine, lightly cooked piece of meat that is supposedly not very common.",
+        "pt_BR": "Um pedaço de carne fina, levemente cozida, que supostamente não é muito comum.",
         "de_DE": "Ein k\u00f6stliches, leicht gegrilltes St\u00fcck Fleisch mit Seltenheitswert.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u672a\u70e4\u81f3\u5168\u719f\u7684\u7f8e\u5473\u8089\u6392\u3002",
@@ -8327,6 +8337,7 @@
       },
       "description": {
         "en_US": "One of the \\c[3]Origin Stones\\c[0]. Emits strange sparks when touched.",
+        "pt_BR": "Uma das \\c[3]Pedras Originais\\c[0]. Emite faíscas estranhas quando tocada.",
         "de_DE": "Einer der \\c[3]Ursteine\\c[0]. Verspr\u00fcht seltsame Funken bei Ber\u00fchrung.",
         "fr_FR": "undefined",
         "zh_CN": " \\c[3]\u8d77\u6e90\u5b9d\u77f3\\c[0]\u4e4b\u4e00\uff0c\u89e6\u6478\u65f6\u4f1a\u53d1\u51fa\u5947\u5f02\u5149\u8f89\u3002<<A<<[CHANGED 2018/07/09]",
@@ -8617,7 +8628,7 @@
       "order": 31,
       "name": {
         "en_US": "Maroon Cave Pass",
-        "pt_BR": "Passe da Caverna Castanha",
+        "pt_BR": "Passe da Caverna",
         "de_DE": "Maronenh\u00f6hlenpass",
         "langUid": 732,
         "zh_CN": "\u8910\u7ea2\u6d1e\u7a74\u901a\u884c\u8bc1",
@@ -8646,6 +8657,7 @@
       "order": 52,
       "name": {
         "en_US": "Shiny Orb",
+        "pt_BR": "Orbe Brilhante",
         "de_DE": "Gl\u00e4nzende Kugel",
         "langUid": 734,
         "zh_CN": "\u95ea\u5149\u7403",
@@ -8655,6 +8667,7 @@
       },
       "description": {
         "en_US": "A shiny orb that is indeed very shiny. The statue in \\c[3]Ba'kii Kum\\c[0] should react to it.",
+        "pt_BR": "Uma esfera brilhante que é de fato muito brilhante. A estátua em Ba'kii Kum deve reagir a ela.",
         "de_DE": "Eine tats\u00e4chlich sehr gl\u00e4nzende Kugel. Die Statue in \\c[3]Ba'kii Kum\\c[0] sollte darauf reagieren.",
         "fr_FR": "undefined",
         "langUid": 735,
@@ -10814,6 +10827,7 @@
       },
       "description": {
         "en_US": "According to a translator it means \"honor\". In any case it keeps the wielder healthy.",
+        "pt_BR": "Segundo um tradutor, isso significa \"honra\". Em qualquer caso, mantém o portador saudável.",
         "de_DE": "Eine ehrbare Waffe, die den Tr\u00e4ger sehr effektiv am Leben h\u00e4lt.",
         "fr_FR": "undefined",
         "zh_CN": "\u636e\u4e00\u540d\u7ffb\u8bd1\u8bf4\uff0c\u8fd9\u540d\u5b57\u7684\u610f\u601d\u662f\u201c\u8363\u8a89\u201d\u3002\u603b\u4e4b\uff0c\u8fd9\u4ef6\u88c5\u5907\u80fd\u5b88\u62a4\u7a7f\u6234\u8005\u3002",
@@ -11557,6 +11571,7 @@
       "order": 79,
       "name": {
         "en_US": "Aged Travelguide",
+        "pt_BR": "Guia de viagem Antigo",
         "de_DE": "Ahnen-Reisef\u00fchrer",
         "langUid": 1084,
         "zh_CN": "\u8fdc\u53e4\u65c5\u6e38\u6307\u5357",
@@ -11566,6 +11581,7 @@
       },
       "description": {
         "en_US": "An ancient guide to important Ancient places was engraved into this old stone.",
+        "pt_BR": "Um antigo guia de lugares importantes dos Antigos foi gravado nesta antiga pedra.",
         "de_DE": "Ein uralter Reisef\u00fchrer zu Kultst\u00e4tten der Ahnen wurde in diesen alten Stein gehauen.",
         "fr_FR": "undefined",
         "langUid": 1182,
@@ -12663,6 +12679,7 @@
       },
       "description": {
         "en_US": "A flat roll filled with meat and vegetables.",
+        "pt_BR": "Uma espécia de panqueca cheia de carne e legumes.",
         "de_DE": "Eine flache Rolle, die mit Fleisch und Gem\u00fcse gef\u00fcllt ist.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u88f9\u6709\u7f8a\u8089\u548c\u852c\u83dc\u7684\u5377\u3002<<A<<[CHANGED 2017/07/11]",
@@ -12984,6 +13001,7 @@
       "order": 51,
       "name": {
         "en_US": "Ti'im Residue",
+        "pt_BR": "Resíduo de Ti'im",
         "de_DE": "Ti'im-Residuum",
         "langUid": 1314,
         "zh_CN": "\u5927\u63d0\u59c6\u7684\u6b8b\u4f59",
@@ -12993,6 +13011,7 @@
       },
       "description": {
         "en_US": "Unique Residue left behind by a Ti'im.",
+        "pt_BR": "Resíduo único deixado por um Ti'im",
         "de_DE": "Einzigartiges Residuum eines Ti'im.",
         "fr_FR": "undefined",
         "zh_CN": "\u5927\u63d0\u59c6\u7559\u4e0b\u7684\u7279\u6b8a\u6b8b\u4f59\u7269\u3002",
@@ -14371,6 +14390,7 @@
       "order": 82,
       "name": {
         "en_US": "Cursed Coin",
+        "pt_BR": "Moeda Amaldiçoada",
         "de_DE": "Verfluchte M\u00fcnze",
         "fr_FR": "undefined",
         "zh_CN": "\u8bc5\u5492\u786c\u5e01<<A<<[CHANGED 2017/10/10]",
@@ -14381,6 +14401,7 @@
       },
       "description": {
         "en_US": "A coin with a skull engraving. ",
+        "pt_BR": "Uma moeda com uma caveira gravada nela.",
         "de_DE": "Eine M\u00fcnze mit einem eingravierten Sch\u00e4del.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0a\u9762\u96d5\u523b\u7740\u9ab7\u9ac5\u7684\u786c\u5e01\u3002<<A<<[CHANGED 2017/10/10]",
@@ -14400,6 +14421,7 @@
       "order": 22,
       "name": {
         "en_US": "Broken Sword",
+        "pt_BR": "Espada quebrada",
         "de_DE": "Kaputtes Schwert",
         "fr_FR": "undefined",
         "zh_CN": "\u7834\u635f\u4e4b\u5251<<A<<[CHANGED 2017/10/10]",
@@ -14410,6 +14432,7 @@
       },
       "description": {
         "en_US": "Rusty and dented in various spots.",
+        "pt_BR": "Enferrujada e amassada em vários pontos.",
         "de_DE": "Rostig und an mehreren Stellen besch\u00e4digt.",
         "fr_FR": "undefined",
         "zh_CN": "\u9508\u8ff9\u6591\u6591\uff0c\u5404\u5904\u90fd\u6709\u7834\u635f\u3002<<A<<[CHANGED 2018/10/22]",
@@ -14863,6 +14886,7 @@
       },
       "description": {
         "en_US": "Footwear sewn together from some of the sturdiest plants of nature.",
+        "pt_BR": "Calçados costurados juntos de algumas das plantas mais robustas da natureza.",
         "de_DE": "Kr\u00e4ftig-klobige Stiefel, aus st\u00e4mmigen Bambuspflanzen zusammengen\u00e4ht.",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u575a\u5b9e\u7684\u5929\u7136\u6750\u6599\u7f1d\u5236\u7684\u978b\u5b50\u3002<<A<<[CHANGED 2017/10/13]",
@@ -15807,6 +15831,7 @@
       },
       "description": {
         "en_US": "One of the \\c[3]Origin Stones\\c[0]. Ever shifting between the realms.",
+        "pt_BR": "Uma das \\c[3]Pedras Originais\\c[0]. Sempre mudando entre as dimensões.",
         "de_DE": "Einer der \\c[3]Ursteine\\c[0]. Ewig zwischen den Welten wandelnd.",
         "fr_FR": "undefined",
         "zh_CN": "\\c[3]\u8d77\u6e90\u5b9d\u77f3\\c[0]\u4e4b\u4e00\uff0c\u5728\u5404\u4e2a\u7ef4\u5ea6\u4e4b\u95f4\u53d8\u6362\u3002 <<A<<[CHANGED 2018/07/09]",
@@ -15886,6 +15911,7 @@
       },
       "description": {
         "en_US": "One of the \\c[3]Origin Stones\\c[0]. Often used to read the future or the past.",
+        "pt_BR": "Uma das \\c[3]Pedras Originais\\c[0]. Muitas vezes usada para ler o futuro ou o passado.",
         "de_DE": "Einer der \\c[3]Ursteine\\c[0]. Kann die Zukunft oder Vergangenheit lesen.",
         "fr_FR": "undefined",
         "zh_CN": "\\c[3]\u8d77\u6e90\u5b9d\u77f3\\c[0]\u4e4b\u4e00\uff0c\u7528\u4e8e\u5ba1\u89c6\u8fc7\u53bb\uff0c\u9884\u8a00\u672a\u6765\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16731,6 +16757,7 @@
       "order": 56,
       "name": {
         "en_US": "Dried Grass Hat",
+        "pt_BR": "Chapéu de Grama Seca",
         "de_DE": "Trockener Grashut",
         "fr_FR": "undefined",
         "zh_CN": "\u5e72\u8349\u5e3d<<A<<[CHANGED 2018/07/09]",
@@ -16741,6 +16768,7 @@
       },
       "description": {
         "en_US": "An upgraded version of the \\c[3]\\v[item.287.name]\\c[0]. It's bigger and better.",
+        "pt_BR": "Uma versão melhorada do \\c[3]\\v[item.287.name]\\c[0]. É maior e melhor.",
         "de_DE": "Eine verbesserte Version des \\c[3]Strohhuts\\c[0]. Er ist gr\u00f6\u00dfer und besser.",
         "fr_FR": "undefined",
         "zh_CN": "\u5347\u7ea7\u7248\u7684\\c[3]\\v[item.287.name]\\c[0]\u3002\u6bd4\u539f\u7248\u66f4\u5927\u66f4\u597d\u3002<<A<<[CHANGED 2018/09/19]",
