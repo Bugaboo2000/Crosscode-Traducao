@@ -3792,6 +3792,7 @@
       "order": 42,
       "name": {
         "en_US": "Gunner's Trigger",
+        "pt_BR": "Gatilho de Atirador",
         "de_DE": "Richtsch\u00fctze",
         "fr_FR": "undefined",
         "zh_CN": "\u67aa\u624b\u7684\u67aa",
@@ -3802,6 +3803,7 @@
       },
       "description": {
         "en_US": "Ranged weapon, ideal to defend a fortified border against hostile neighbors.",
+        "pt_BR": "Arma de longo alcance, ideal para defender uma fronteira fortificada contra vizinhos hostis.",
         "de_DE": "Ideal, um einen Grenzwall gegen feindselige Nachbarn zu verteidigen.",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u7a0b\u6b66\u5668\uff0c\u4fdd\u536b\u8fb9\u5883\u3001\u62b5\u5fa1\u90bb\u56fd\u8fdb\u653b\u7684\u7406\u60f3\u6b66\u5668\u3002<<A<<[CHANGED 2017/12/12]",
@@ -7496,6 +7498,7 @@
       "order": 40,
       "name": {
         "en_US": "Steel Edge",
+        "pt_BR": "Lâmina de Aço",
         "de_DE": "Stahlschneide",
         "fr_FR": "undefined",
         "zh_CN": "\u94a2\u4e4b\u5203",
@@ -7506,6 +7509,7 @@
       },
       "description": {
         "en_US": "A powerful weapon crafted from a highly tempered alloy of iron and carbon.",
+        "pt_BR": "Uma arma poderosa fabricada a partir de uma liga altamente temperada de ferro e carbono.",
         "de_DE": "Eine m\u00e4chtige Waffe, geschmiedet mit einer Legierung aus Eisen und Carbon.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4ef6\u5f3a\u5927\u7684\u6b66\u5668\uff0c\u7531\u9ad8\u78b3\u94a2\u953b\u9020\u6dec\u706b\u800c\u6210\u3002",
@@ -7528,6 +7532,7 @@
     {
       "name": {
         "en_US": "Steel Mail",
+        "pt_BR": "Armadura de Aço",
         "de_DE": "Stahlharnisch",
         "fr_FR": "undefined",
         "zh_CN": "\u94a2\u5236\u76d4\u7532",
@@ -7538,6 +7543,7 @@
       },
       "description": {
         "en_US": "Fine body armor from reinforced steel. Sadly also popular with criminals.",
+        "pt_BR": "Armadura leve de aço reforçado. Infelizmente, também é popular entre os criminosos.",
         "de_DE": "Feiner Brustharnisch aus verst\u00e4rktem Stahl. Leider auch bei Kriminellen sehr beliebt.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4ef6\u7531\u94a2\u6750\u5236\u6210\u7684\u7ed3\u5b9e\u8eab\u4f53\u76d4\u7532\u3002\u53ef\u60b2\u7684\u662f\uff0c\u636e\u8bf4\u7f6a\u72af\u5e38\u7a7f\u8fd9\u4e2a\u3002",
@@ -7561,6 +7567,7 @@
     {
       "name": {
         "en_US": "Steel Boots",
+        "pt_BR": "Botas de Aço",
         "de_DE": "Stahlstiefel",
         "fr_FR": "undefined",
         "zh_CN": "\u94a2\u9774",
@@ -7571,6 +7578,7 @@
       },
       "description": {
         "en_US": "Very robust but still as light as possible. Even blisters are a rare occurrence.",
+        "pt_BR": "Muito robustas, mas ainda assim muito leves. Mesmo as bolhas são uma ocorrência rara.",
         "de_DE": "Sehr robust und dabei so leicht wie m\u00f6glich. Selbst Blasen sind eine Seltenheit.",
         "fr_FR": "undefined",
         "zh_CN": "\u8f7b\u4fbf\u7a33\u5065\uff0c\u7a7f\u4e0a\u751a\u81f3\u5f88\u5c11\u4f1a\u8d77\u6c34\u6ce1\u3002",
@@ -7599,6 +7607,7 @@
     {
       "name": {
         "en_US": "Fin Cap",
+        "pt_BR": "Touca de Barbatana",
         "de_DE": "Flossenkappe",
         "fr_FR": "undefined",
         "zh_CN": "\u9ccd\u5e3d",
@@ -7609,6 +7618,7 @@
       },
       "description": {
         "en_US": "A huge fin attached to a cap. Helps to keep balance and grants a predatory aura.",
+        "pt_BR": "Uma enorme barbatana presa a uma touca. Ajuda a manter o equilíbrio e garante uma aura predatória.",
         "de_DE": "Kappe mit riesiger Flosse. Verbessert Balance und gew\u00e4hrt die Aura eines J\u00e4gers.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u9ad8\u811a\u5e3d\u5b50\u4e0a\u88c5\u9970\u7740\u4e00\u4e2a\u5de8\u5927\u9ccd\u3002\u6709\u52a9\u4e8e\u4fdd\u6301\u5e73\u8861\uff0c\u5e76\u7ed9\u4eba\u4ee5\u63a0\u98df\u8005\u7684\u611f\u89c9\u3002",
@@ -7636,7 +7646,7 @@
     },
     {
       "name": {
-        "en_US": "Rapier Carrot",
+        "en_US": "Sabre Cenoura",
         "de_DE": "Rapierkarotte",
         "fr_FR": "undefined",
         "zh_CN": "\u5251\u5f62\u80e1\u841d\u535c",
@@ -7647,6 +7657,7 @@
       },
       "description": {
         "en_US": "A long, self-regrowing carrot. Its vitamins give life, the pointy end takes it away.",
+        "pt_BR": "Uma cenoura longa e auto-regenerativa. Suas vitaminas dão vida, a ponta pontiaguda a tira.",
         "de_DE": "Lange, stetig nachwachsende Karrotte. Die Vitamine beleben. Die Spitze vernichtet.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u682a\u5177\u6709\u81ea\u6211\u518d\u751f\u80fd\u529b\u7684\u957f\u80e1\u841d\u535c\u3002\u7ef4\u4ed6\u547d\u6240\u7ed9\u4e88\u7684\u751f\u547d\uff0c\u90fd\u5c06\u88ab\u5176\u5c16\u7aef\u6240\u63a0\u593a\u3002<<A<<[CHANGED 2018/09/19]",
@@ -7790,6 +7801,7 @@
     {
       "name": {
         "en_US": "Chilling Veil",
+        "pt_BR": "Véu Frio",
         "de_DE": "K\u00e4lteschleier",
         "fr_FR": "undefined",
         "zh_CN": "\u51b0\u51b7\u9762\u7eb1",
@@ -7800,6 +7812,7 @@
       },
       "description": {
         "en_US": "A fine headscarf blessed with cooling protection to withstand even scorching heat.",
+        "pt_BR": "Um fino lenço de cabeça abençoado com proteção de resfriamento para resistir até mesmo ao calor abrasador.",
         "de_DE": "Ein eiskaltes Kopftuch, welches selbst sengender Hitze widerstehen kann.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4ef6\u7cbe\u81f4\u7684\u9762\u7eb1\uff0c\u5177\u6709\u51b7\u5374\u4fdd\u62a4\u529f\u80fd\uff0c\u53ef\u4ee5\u62b5\u5fa1\u708e\u70ed\u7684\u7099\u70e4\u3002",
@@ -7828,6 +7841,7 @@
     {
       "name": {
         "en_US": "Shiny Glasses",
+        "pt_BR": "Óculos Brilhantes",
         "de_DE": "Gl\u00e4nzende Brille",
         "fr_FR": "undefined",
         "zh_CN": "\u53d1\u5149\u773c\u955c",
@@ -7838,6 +7852,7 @@
       },
       "description": {
         "en_US": "Polished glasses that give off a threatening glare. In need of regular readjustment.",
+        "pt_BR": "Óculos polidos que emitem um brilho ameaçador. Necessitando de um reajuste regular.",
         "de_DE": "Poliertes Glas, gew\u00e4hrt den absoluten Durchblick. Damit siehst du klar!",
         "fr_FR": "undefined",
         "zh_CN": "\u629b\u5149\u540e\u7684\u773c\u955c\uff0c\u6563\u53d1\u51fa\u80c1\u8feb\u7684\u7729\u5149\u3002\u9700\u8981\u5b9a\u671f\u8c03\u6574\u3002",
@@ -7861,6 +7876,7 @@
     {
       "name": {
         "en_US": "Magic Robe",
+        "pt_BR": "Túnica mágica",
         "de_DE": "Magierrobe",
         "fr_FR": "undefined",
         "zh_CN": "\u9b54\u6cd5\u957f\u888d",
@@ -7871,6 +7887,7 @@
       },
       "description": {
         "en_US": "Shad-crafted flowing robes, blessed by the Ancient power of the elements.",
+        "pt_BR": "Túnicas fluidas criadas pelos Shad, abençoadas pelo poder ancestral dos elementos.",
         "de_DE": "Von Shad gewebte Robe, gesegnet mit elementaren Kr\u00e4ften der Ahnen.",
         "fr_FR": "undefined",
         "zh_CN": "\u6c99\u5fb7\u5de5\u827a\u5236\u4f5c\u7684\u6d41\u52a8\u957f\u888d\uff0c\u53d7\u5148\u7956\u5143\u7d20\u529b\u91cf\u7684\u795d\u798f\u3002",
@@ -7899,6 +7916,7 @@
     {
       "name": {
         "en_US": "Assassin Garb",
+        "pt_BR": "Traje de Assassino",
         "de_DE": "Meuchlergewand",
         "fr_FR": "undefined",
         "zh_CN": "\u523a\u5ba2\u670d\u88c5",
@@ -7909,6 +7927,7 @@
       },
       "description": {
         "en_US": "Light clothes for covert operations that are made to look strikingly inconspicuous.",
+        "pt_BR": "Roupas leves para operações secretas, que são feitas para parecerem impressionantemente discretas.",
         "de_DE": "V\u00f6llig unverd\u00e4chtig wirkende, leichte Kleidung f\u00fcr verdeckte Operationen.",
         "fr_FR": "undefined",
         "zh_CN": "\u8f7b\u4fbf\u7684\u8863\u670d\uff0c\u9002\u7528\u4e8e\u9690\u853d\u884c\u52a8\uff0c\u5341\u5206\u975e\u5e38\u4e0d\u663e\u773c\u3002",
@@ -7937,6 +7956,7 @@
     {
       "name": {
         "en_US": "Crystal Plate",
+        "pt_BR": "Placa de Cristal",
         "de_DE": "Kristallpanzer",
         "fr_FR": "undefined",
         "zh_CN": "\u6c34\u6676\u677f\u7532",
@@ -7947,6 +7967,7 @@
       },
       "description": {
         "en_US": "Heavy plate, reinforced with crystals and gems that actively defend against harm.",
+        "pt_BR": "Placa pesada, reforçada com cristais e pedras preciosas que tem proteção ativa contra danos.",
         "de_DE": "Schwere Plattenr\u00fcstung, verst\u00e4rkt mit Kristallen und Diamanten.",
         "fr_FR": "undefined",
         "zh_CN": "\u91cd\u578b\u677f\u7532\uff0c\u7528\u6c34\u6676\u548c\u5b9d\u77f3\u5f3a\u5316\uff0c\u53ef\u4ee5\u4e3b\u52a8\u62b5\u5fa1\u4fb5\u5bb3\u3002",
@@ -8056,6 +8077,7 @@
       "order": 28,
       "name": {
         "en_US": "Carpet Runners",
+        "pt_BR": "Corredores de Tapete",
         "de_DE": "Teppichl\u00e4ufer",
         "fr_FR": "undefined",
         "zh_CN": "\u9b54\u6bef\u8dd1\u978b",
@@ -8093,6 +8115,7 @@
     {
       "name": {
         "en_US": "Hidden Blade",
+        "pt_BR": "Lâmina Oculta",
         "de_DE": "Nebelklinge",
         "fr_FR": "undefined",
         "zh_CN": "\u8896\u5251",
@@ -8103,6 +8126,7 @@
       },
       "description": {
         "en_US": "Small, surprising and deadly. The preferred weapon of spies and assassins.",
+        "pt_BR": "Pequena, surpreendente e mortífera. A arma preferida dos espiões e assassinos.",
         "de_DE": "Klein, \u00fcberraschend und t\u00f6dlich. Die Lieblingswaffe der Assassinen.",
         "fr_FR": "undefined",
         "zh_CN": "\u5c0f\u4e14\u81f4\u547d\uff0c\u95f4\u8c0d\u548c\u523a\u5ba2\u7684\u9996\u9009\u6b66\u5668\u3002",
