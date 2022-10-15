@@ -1,5 +1,5 @@
 {
-  "name": "heat/dng-expo-space",
+  "name": "jungle/dng/shock-expo-space",
   "levels": [{ "height": -32 }, { "height": 0 }],
   "mapWidth": 50,
   "mapHeight": 50,
@@ -48,11 +48,11 @@
     {
       "type": "NPC",
       "x": 380,
-      "y": 388,
+      "y": 380,
       "level": 1,
       "settings": {
         "name": "hologramNPC",
-        "characterName": "gods.triblader",
+        "characterName": "gods.penta",
         "mapId": 135,
         "npcStates": [
           {
@@ -73,7 +73,7 @@
       "y": 460,
       "level": 1,
       "settings": {
-        "name": "expoScene",
+        "name": "",
         "eventType": "CUTSCENE",
         "endCondition": "false",
         "event": [
@@ -129,15 +129,14 @@
           },
           {
             "text": {
-              "en_US": "The everlasting sun \nshines strongest on these lands.",
-              "pt_BR": "O sol eterno \nbrilha com toda força nestas terras.",
-              "de_DE": "Die immerw\u00e4hrende Sonne\nscheint voller Kraft auf diese Lande.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u6c38\u6052\u7099\u9633\uff0c\n\u6563\u64ad\u5149\u8f89\u3002",
-              "ja_JP": "\u3053\u306e\u5927\u5730\u306b\u306f\u7d76\u3048\u308b\u3053\u3068\u306a\u304f\n\u529b\u5f37\u3044\u967d\u306e\u5149\u304c\u964d\u308a\u6ce8\u3044\u3067\u3044\u308b\u3002<<A<<[CHANGED 2017/08/03]",
+              "en_US": "A little spark can grant life\nto any creature of this world.",
+              "pt_BR": "Uma pequena faísca pode dar vida a qualquer criatura deste mundo.",
+              "de_DE": "Ein kleiner Funke kann\njedem Gesch\u00f6pf dieser Welt das Leben schenken.",
+              "zh_CN": "\u4e00\u679a\u661f\u706b\n\u4fbf\u53ef\u8ba9\u751f\u547d\u6210\u957f\u3002\n<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u5c0f\u3055\u306a\u706b\u82b1\u306f\u3001\u3053\u306e\u4e16\u754c\u306e\u3042\u3089\u3086\u308b\u751f\u304d\u7269\u306b\n\u547d\u3092\u4e0e\u3048\u308b\u53ef\u80fd\u6027\u3092\u79d8\u3081\u3066\u3044\u308b\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc791\uc740 \ubc88\uac2f\ubd88\uc774 \uc774 \uc138\uacc4\uc758\n\uc0dd\ubb3c\ub4e4\uc5d0\uac8c \uc0b6\uc744 \ubd80\uc5ec\ud569\ub2c8\ub2e4.<<A<<[CHANGED 2018/09/19]",
               "langUid": 2,
-              "ko_KR": "\uc601\uc6d0\ud55c \ud0dc\uc591\uc774\n\uc774 \ub545\uc5d0 \uac00\uc7a5 \uac15\ud558\uac8c \ube44\ucda5\ub2c8\ub2e4.",
-              "zh_TW": "\u6c38\u6046\u7099\u967d\uff0c\r\n\u6563\u64ad\u5149\u8f1d\u3002"
+              "zh_TW": "\u4e00\u679a\u661f\u706b\r\n\u4fbf\u53ef\u8b93\u751f\u547d\u6210\u9577\u3002\r\n<<A<<[CHANGED 2018/09/19]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -146,32 +145,14 @@
           },
           {
             "text": {
-              "en_US": "Its flaming glory bearing\nlife and death alike.",
-              "pt_BR": "Sua glória flamejante, carrega \ntanto a vida quanto a morte.",
-              "de_DE": "Ihre flammende Pracht\nbringt Leben und Tod zugleich.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u7ed9\u4e0e\u751f\u547d\uff0c\n\u5e26\u8d70\u7075\u9b42\u3002",
-              "ja_JP": "\u305d\u306e\u71c3\u3048\u76db\u308b\u6075\u307f\u306f\n\u751f\u8005\u3068\u6b7b\u8005\u3092\u554f\u308f\u305a\u306b\u4e0e\u3048\u3089\u308c\u308b\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 24,
-              "ko_KR": "\uc774 \ud0c0\ub294\ub4ef\ud55c \uc7a5\uad00\uc5d0\ub294\n\uc0b6\uacfc \uc8fd\uc74c\uc774 \uc788\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2017/07/21]",
-              "zh_TW": "\u7d66\u8207\u751f\u547d\uff0c\r\n\u5e36\u8d70\u9748\u9b42\u3002<<A<<[CHANGED 2017/07/07]"
-            },
-            "entity": { "global": true, "name": "hologramNPC" },
-            "posType": "TOP",
-            "offset": { "x": 0, "y": 0 },
-            "type": "SHOW_DREAM_MSG"
-          },
-          {
-            "text": {
-              "en_US": "On this unforgiving path \nyou stayed persistent.",
-              "pt_BR": "Neste caminho imperdoável, \nvocê permaneceu persistente.",
-              "de_DE": "Auf diesem unerbitterlichen Pfad\nhast du Beharrlichkeit bewiesen.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u4e8e\u6b64\u9669\u8def\uff0c\n\u6c5d\u5fc3\u575a\u5b9a\u3002",
-              "ja_JP": "\u3053\u306e\u7121\u6148\u60b2\u306a\u9053\u306e\u308a\u306e\u4e2d\u3067\u3082\n\u6c5d\u306f\u305d\u306e\u610f\u601d\u3092\u8cab\u3044\u305f\u3002<<A<<[CHANGED 2017/08/03]",
+              "en_US": "Yet a most furious thunder\nwill humble those creatures in awe.",
+              "pt_BR": "No entanto, um trovão mais furioso\nhumilha essas criaturas com temor.",
+              "de_DE": "Doch ein w\u00fctender Donner kann\ndiese Gesch\u00f6pfe auch in Schrecken versetzen.",
+              "zh_CN": "\u4e00\u9053\u96f7\u9706\n\u4fbf\u53ef\u5e26\u53bb\u542f\u8fea\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u4e00\u65b9\u3067\u3001\u6012\u308c\u308b\u5049\u5927\u306a\u96f7\u306f\n\u305d\u306e\u751f\u304d\u7269\u305f\u3061\u306b\u754f\u656c\u306e\u5ff5\u3092\u690d\u3048\u4ed8\u3051\u308b\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uac00\uc7a5 \uc0ac\ub098\uc6b4 \ucc9c\ub465\uc774 \uadf8 \uc0dd\ubb3c\ub4e4\uc744\n\ub450\ub824\uc6c0\uc5d0 \ub5a8\uac8c \ud560 \uac83\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2018/09/19]",
               "langUid": 25,
-              "ko_KR": "\uc774 \uc6a9\uc11c\ud560 \uc218 \uc5c6\ub294 \uae38\uc5d0\uc11c\ub3c4\n\ub2f9\uc2e0\uc740 \uacac\ub38c\ub0b4\uc168\uad70\uc694.",
-              "zh_TW": "\u65bc\u6b64\u96aa\u8def\uff0c\r\n\u6c5d\u5fc3\u5805\u5b9a\u3002"
+              "zh_TW": "\u4e00\u9053\u96f7\u9706\r\n\u4fbf\u53ef\u5e36\u53bb\u555f\u8fea\u3002<<A<<[CHANGED 2018/09/19]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -180,15 +161,30 @@
           },
           {
             "text": {
-              "en_US": "With frozen sweeps and strokes\nyou crossed the scorching grounds.",
-              "pt_BR": "Com golpes gélidos, \nvocê cruzou o solo escaldante.",
-              "de_DE": "Mit eisigen Streichen und Hieben\nhast du die gl\u00fchenden Gr\u00fcnde \u00fcberquert.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u624b\u9a6d\u51b0\u971c\uff0c\n\u8db3\u8de8\u7126\u571f\u3002",
-              "ja_JP": "\u51cd\u3066\u3064\u304f\u6d41\u308c\u3068\u4e00\u9583\u3067\n\u6c5d\u306f\u3053\u306e\u7126\u3052\u4ed8\u304f\u5730\u3092\u4e57\u308a\u8d8a\u3048\u305f\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 26,
-              "ko_KR": "\ub2f9\uc2e0\uc740 \uc5bc\uc5b4\ubd99\ub294 \ub4ef\ud55c \ucc38\uaca9\uacfc \ud0c0\uaca9\uc73c\ub85c\n\ubd88\ud0c0\ub294 \ub545\uc744 \ud1b5\uacfc\ud588\uc2b5\ub2c8\ub2e4.",
-              "zh_TW": "\u624b\u99ad\u51b0\u971c\uff0c\r\n\u8db3\u8de8\u7126\u571f\u3002"
+              "en_US": "Among the fiercest of lightning\nyou stayed persistent.",
+              "pt_BR": "Entre os mais ferozes dos relâmpagos\nvocê permaneceu persistente.",
+              "de_DE": "Trotz erbittertster Blitzschl\u00e4ge\nhast du Beharrlichkeit bewiesen.",
+              "zh_CN": "\u5728\u72c2\u6012\u5730\u95ea\u7535\u4e2d\n\u4f60\u5e73\u9759\u5e94\u5bf9\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u8352\u3005\u3057\u3044\u96f7\u96fb\u306e\u4e2d\u306b\u3042\u3063\u3066\u3082\u3001\n\u6c5d\u306f\u4e0d\u5c48\u3092\u3064\u3089\u306c\u3044\u305f\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uac00\uc7a5 \ub9f9\ub82c\ud55c \ubc88\uac1c \uc0ac\uc774\uc5d0\uc11c\ub3c4\n\ub2f9\uc2e0\uc740 \ub048\uae30 \uc788\uac8c \ubc84\ud17c\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2018/09/19]",
+              "langUid": 27,
+              "zh_TW": "\u5728\u72c2\u6012\u5730\u9583\u96fb\u4e2d\r\n\u4f60\u5e73\u975c\u61c9\u5c0d\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "entity": { "global": true, "name": "hologramNPC" },
+            "posType": "TOP",
+            "offset": { "x": 0, "y": 0 },
+            "type": "SHOW_DREAM_MSG"
+          },
+          {
+            "text": {
+              "en_US": "With calm and calculated waves,\nyou phased through electric discord.",
+              "pt_BR": "Com ondas calmas e calculadas,\nvocê passou por uma discórdia elétrica.",
+              "de_DE": "Mit ruhigen und platzierten Wellen\nhast du das elektrische Chaos durchdrungen.",
+              "zh_CN": "\u5728\u53e0\u53e0\u7684\u6ce2\u6d6a\u4e2d\uff0c\n\u4f60\u52c7\u5f80\u76f4\u524d\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u51b7\u9759\u306b\u8a08\u7b97\u3055\u308c\u305f\u6ce2\u52d5\u3092\u3082\u3063\u3066\u3001\n\u96fb\u6483\u306e\u4e0d\u548c\u3092\u7a81\u7834\u3057\u305f\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc804\uae30\uc758 \ubd88\ud654 \uc18d\uc5d0\uc11c \ucc28\ubd84\ud558\uace0\n\uacc4\uc0b0\uc801\uc778 \ud30c\ub3d9\uc73c\ub85c \ub2e8\uacc4\ub97c \ud1b5\uacfc\ud588\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2018/09/19]",
+              "langUid": 30,
+              "zh_TW": "\u5728\u758a\u758a\u7684\u6ce2\u6d6a\u4e2d\uff0c\r\n\u4f60\u52c7\u5f80\u76f4\u524d\u3002<<A<<[CHANGED 2018/09/19]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -200,12 +196,11 @@
               "en_US": "You, the traveler, \nthe envoy of change.",
               "pt_BR": "Você, viajante, \nenviada da mudança.",
               "de_DE": "Du, der Reisende,\nder Gesandte des Wandels.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u65c5\u884c\u8005\u554a\uff0c\n\u4f60\u662f\u53d8\u9769\u7684\u4f7f\u8005\u3002",
-              "ja_JP": "\u6c5d\u3001\u65c5\u4eba\u3088\u3001\n\u5909\u5316\u3092\u53f8\u308b\u4f7f\u8005\u3088\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 27,
-              "ko_KR": "\uc5ec\ud589\uc790\uc5ec,\n\ubcc0\ud654\uc758 \uc0ac\uc808\ub2e8\uc774\uc5ec.",
-              "zh_TW": "\u65c5\u884c\u8005\u554a\uff0c\r\n\u4f60\u662f\u8b8a\u9769\u7684\u4f7f\u8005\u3002"
+              "zh_CN": "\u65c5\u884c\u8005\uff0c\n\u4f60\u662f\u53d8\u9769\u7684\u4f7f\u8005\u3002<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u6c5d\u3001\u65c5\u4eba\u3088\u3002\n\u5909\u5316\u3092\u53f8\u308b\u4f7f\u8005\u3088\u3002<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\uc5ec\ud589\uc790\uc5ec,\n\ubcc0\ud654\uc758 \uc0ac\uc808\ub2e8\uc774\uc5ec.<<A<<[CHANGED 2018/07/09]",
+              "langUid": 28,
+              "zh_TW": "\u65c5\u884c\u8005\uff0c\r\n\u4f60\u662f\u8b8a\u9769\u7684\u4f7f\u8005\u3002<<A<<[CHANGED 2018/07/09]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -217,12 +212,11 @@
               "en_US": "You have proven yourself worthy.",
               "pt_BR": "Você se provou digna.",
               "de_DE": "Du hast dich als w\u00fcrdig erwiesen.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u4f60\u5df2\u7ecf\u8bc1\u660e\u4e86\u81ea\u5df1\u3002",
-              "ja_JP": "\u6c5d\u306f\u81ea\u3089\u306e\u4fa1\u5024\u3092\u8a3c\u660e\u3057\u305f\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 28,
-              "ko_KR": "\ub2f9\uc2e0\uc740 \uc2a4\uc2a4\ub85c \uac00\uce58\ub97c \uc99d\uba85\ud588\uc2b5\ub2c8\ub2e4.",
-              "zh_TW": "\u4f60\u5df2\u7d93\u8b49\u660e\u4e86\u81ea\u5df1\u3002"
+              "zh_CN": "\u4f60\u8bc1\u660e\u4e86\u81ea\u5df1\u7684\u4ef7\u503c\u3002<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u6c5d\u306f\u81ea\u3089\u306e\u4fa1\u5024\u3092\u8a3c\u660e\u3057\u305f\u3002<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\ub2f9\uc2e0\uc740 \uc2a4\uc2a4\ub85c \uac00\uce58\ub97c \uc99d\uba85\ud588\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2018/07/09]",
+              "langUid": 29,
+              "zh_TW": "\u4f60\u8b49\u660e\u4e86\u81ea\u5df1\u7684\u50f9\u503c\u3002<<A<<[CHANGED 2018/07/09]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -231,15 +225,14 @@
           },
           {
             "text": {
-              "en_US": "Take this Shade \nto open the path to the east.",
-              "pt_BR": "Tome este fragmento \npara abrir o caminho para o leste.",
-              "de_DE": "Nimm diese Form\nund schreite gen Osten.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u63a5\u8fc7\u8bc1\u5370\uff0c\n\u5411\u4e1c\u524d\u8fdb\u3002",
-              "ja_JP": "\u3053\u306e\u30b7\u30a7\u30fc\u30c9\u3092\u624b\u306b\u53d6\u308a\n\u6771\u3078\u306e\u9053\u3092\u958b\u304f\u304c\u3088\u3044\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 29,
-              "ko_KR": "\ub3d9\ucabd\uc73c\ub85c\uc758 \uae38\uc744 \uc5f4\uc5b4\uc904\n\uc774 \uc170\uc774\ub4dc\ub97c \uac00\uc838\uac00\uc2ed\uc2dc\uc624.",
-              "zh_TW": "\u63a5\u904e\u8b49\u5370\uff0c\r\n\u5411\u6771\u524d\u9032\u3002"
+              "en_US": "Take this Shade, one of a pair,\nto reach the grand tree.",
+              "pt_BR": "Pegue este Fragmento, um de um par,\npara chegar à grande árvore.",
+              "de_DE": "Nimm diese Form, eine von zweien,\num zum Gro\u00dfen Baum zu gelangen.",
+              "zh_CN": "\u8fd9\u662f\u53cc\u5370\u4e4b\u4e00\uff0c\n\u5e26\u4e0a\u5b83\u524d\u5f80\u5de8\u6811\u3002<<A<<[CHANGED 2018/07/09]",
+              "ja_JP": "\u3053\u306e\u30b7\u30a7\u30fc\u30c9\u3092\u30012\u3064\u306e\u3046\u3061\u306e\u7247\u5272\u308c\u3092\n\u624b\u306b\u53d6\u308a\u3001\u5927\u6a39\u3078\u306e\u9053\u3092\u958b\u304f\u304c\u3088\u3044\u3002<<A<<[CHANGED 2018/07/09]",
+              "ko_KR": "\uc30d\ub465\uc774 \uc170\uc774\ub4dc \uc911 \uc774\uac83\uc744 \ubc1b\uc544\n\uac70\ub300\ud55c \ub098\ubb34\uc5d0 \ub3c4\ub2ec\ud558\uc2ed\uc2dc\uc624.<<A<<[CHANGED 2018/07/09]",
+              "langUid": 26,
+              "zh_TW": "\u9019\u662f\u96d9\u5370\u4e4b\u4e00\uff0c\r\n\u5e36\u4e0a\u5b83\u524d\u5f80\u5de8\u6a39\u3002<<A<<[CHANGED 2018/07/09]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -254,7 +247,7 @@
             "wait": false,
             "waitSkip": 0,
             "type": "SHOW_EFFECT",
-            "effect": { "sheet": "map.rh-quest-hub", "name": "redFlame" },
+            "effect": { "sheet": "map.rh-quest-hub", "name": "purpleBold" },
             "offset": { "x": 0, "y": 0, "z": 48 }
           },
           {
@@ -273,239 +266,24 @@
             "type": "CLEAR_EFFECTS"
           },
           { "ignoreSlowDown": false, "type": "WAIT", "time": 0.4 },
-          { "item": "230", "amount": 1, "skip": true, "type": "GIVE_ITEM" },
+          { "item": "231", "amount": 1, "skip": true, "type": "GIVE_ITEM" },
           {
             "msgType": "OBTAINED",
             "object": {
-              "en_US": "\\v[item.230.name]",
-              "pt_BR": "\\v[item.230.name]",
-              "de_DE": "Rote Flammenform",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\\v[item.230.name]",
-              "ja_JP": "\\v[item.230.name]<<A<<[CHANGED 2017/08/03]",
+              "en_US": "\\v[item.231.name]",
+              "pt_BR": "\\v[item.231.name]",
+              "de_DE": "Lila Blitzform",
+              "zh_CN": "\\v[item.231.name]<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\\v[item.231.name]<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\\v[item.231.name]<<A<<[CHANGED 2018/03/14]",
               "langUid": 22,
-              "ko_KR": "\\v[item.230.name]",
-              "zh_TW": "\\v[item.230.name]"
+              "zh_TW": "\\v[item.231.name]<<A<<[CHANGED 2018/03/14]"
             },
             "type": "SHOW_GET_MSG"
           },
           {
             "pos": { "x": 400, "y": 380 },
-            "speed": "NORMAL",
-            "transition": "EASE_IN_OUT",
-            "wait": true,
-            "waitSkip": 0,
-            "zoom": 1,
-            "type": "SET_CAMERA_POS"
-          },
-          {
-            "text": {
-              "en_US": "Your resolve is evident\nand deserving a gift of strength.",
-              "pt_BR": "Sua determinação é evidente \ne merecedora de um dom de força.",
-              "de_DE": "Deine Entschlossenheit ist bewiesen\nund verdient ein Geschenk der St\u00e4rke.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u53ef\u656c\u53ef\u754f\uff0c\n\u4ee5\u793c\u4faf\u4e4b\u3002",
-              "ja_JP": "\u6c5d\u306e\u6c7a\u610f\u306f\u660e\u3089\u304b\u306b\n\u529b\u3092\u8d08\u3089\u308c\u308b\u306b\u5024\u3059\u308b\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 23,
-              "ko_KR": "\ub2f9\uc2e0\uc758 \uacb0\uc2ec\uc740 \ud655\uace0\ud558\uba70\n\ud798\uc758 \uc120\ubb3c\uc744 \ubc1b\uc744 \uc790\uaca9\uc744 \uac16\ucd94\uc5c8\uc2b5\ub2c8\ub2e4.",
-              "zh_TW": "\u53ef\u656c\u53ef\u754f\uff0c\r\n\u4ee5\u79ae\u4faf\u4e4b\u3002"
-            },
-            "entity": { "global": true, "name": "hologramNPC" },
-            "posType": "TOP",
-            "offset": { "x": 0, "y": 0 },
-            "type": "SHOW_DREAM_MSG"
-          },
-          {
-            "text": {
-              "en_US": "Let me add to your inner flame\nto make its warmth long lasting.",
-              "pt_BR": "Deixe-me fortalecer sua chama interior \npara manter seu calor constante.",
-              "de_DE": "Lass mich deine innere Flamme st\u00e4rken,\num ihre W\u00e4rme best\u00e4ndig zu erhalten.",
-              "fr_FR": "fr_FR",
-              "zh_CN": "\u4e3a\u5fc3\u6dfb\u708e\uff0c\n\u4e0d\u706d\u660e\u706f\u3002",
-              "ja_JP": "\u6211\u304c\u708e\u3092\u6c5d\u306e\u5185\u306a\u308b\u708e\u306b\u52a0\u3048\n\u305d\u306e\u6696\u304b\u3055\u3092\u9577\u304f\u7d9a\u304b\u305b\u3088\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 30,
-              "ko_KR": "\ub2f9\uc2e0 \uc548\uc5d0 \uc788\ub294 \ubd88\uaf43\uc5d0 \ucd94\uac00\ud574\n\ub354 \uc624\ub7ab\ub3d9\uc548 \ub530\ub73b\ud568\uc744 \uc720\uc9c0\ud558\uac8c \ud574\ub4dc\ub9ac\uc8e0.",
-              "zh_TW": "\u70ba\u5fc3\u6dfb\u708e\uff0c\r\n\u4e0d\u6ec5\u660e\u71c8\u3002"
-            },
-            "entity": { "global": true, "name": "hologramNPC" },
-            "posType": "TOP",
-            "offset": { "x": 0, "y": 0 },
-            "type": "SHOW_DREAM_MSG"
-          },
-          { "mode": "SLOW_OUT", "type": "PAUSE_BGM" },
-          {
-            "entity": { "player": true },
-            "action": [
-              { "value": 12, "type": "SET_FLOAT_HEIGHT" },
-              { "time": 0.5, "type": "WAIT" },
-              {
-                "face": "SOUTH",
-                "rotate": true,
-                "rotateSpeed": 1,
-                "type": "SET_FACE"
-              }
-            ],
-            "repeating": false,
-            "wait": false,
-            "keepState": true,
-            "immediately": false,
-            "type": "DO_ACTION"
-          },
-          {
-            "pos": { "x": 400, "y": 468 },
             "speed": "SLOW",
-            "transition": "EASE_IN_OUT",
-            "wait": true,
-            "waitSkip": 0,
-            "zoom": 1,
-            "type": "SET_CAMERA_POS"
-          },
-          {
-            "entity": { "player": true },
-            "action": [
-              {
-                "face": "SOUTH",
-                "rotate": true,
-                "rotateSpeed": 3,
-                "type": "SET_FACE"
-              },
-              {
-                "wait": false,
-                "type": "SHOW_EXTERN_ANIM",
-                "anim": { "sheet": "player-poses", "name": "floatEyeClosed" }
-              }
-            ],
-            "repeating": false,
-            "wait": false,
-            "keepState": true,
-            "immediately": false,
-            "type": "DO_ACTION"
-          },
-          {
-            "zoom": 1.5,
-            "duration": 2,
-            "transition": "EASE_IN_OUT",
-            "type": "SET_CAMERA_ZOOM"
-          },
-          {
-            "zoomType": "LIGHT",
-            "fadeIn": 3,
-            "duration": -1,
-            "fadeOut": 1,
-            "name": "blurr",
-            "type": "SET_ZOOM_BLUR"
-          },
-          {
-            "entity": { "player": true },
-            "duration": 0,
-            "align": "BOTTOM",
-            "group": "glow",
-            "wait": true,
-            "waitSkip": 0,
-            "type": "SHOW_EFFECT",
-            "effect": { "sheet": "scene.upgrade", "name": "chargeFast" },
-            "offset": { "x": 0, "y": 4, "z": 12 }
-          },
-          {
-            "entity": { "player": true },
-            "duration": 0,
-            "align": "BOTTOM",
-            "group": "glow",
-            "wait": false,
-            "waitSkip": 0,
-            "type": "SHOW_EFFECT",
-            "effect": { "sheet": "scene.upgrade", "name": "chargeBlowFast" },
-            "offset": { "x": 0, "y": 4, "z": 12 }
-          },
-          { "name": "blurr", "fadeOut": 0.2, "type": "FADE_OUT_ZOOM_BLUR" },
-          {
-            "zoomType": "MEDIUM",
-            "fadeIn": 0.2,
-            "duration": 0.2,
-            "fadeOut": 0.3,
-            "type": "SET_ZOOM_BLUR"
-          },
-          { "ignoreSlowDown": false, "type": "WAIT", "time": 1.8 },
-          {
-            "entity": { "player": true },
-            "action": [
-              { "value": 0, "type": "SET_FLOAT_HEIGHT" },
-              { "type": "WAIT_UNTIL_ON_GROUND" },
-              {
-                "wait": false,
-                "type": "SHOW_EXTERN_ANIM",
-                "anim": { "sheet": "player-poses", "name": "landOnGround" }
-              }
-            ],
-            "repeating": false,
-            "wait": false,
-            "keepState": true,
-            "immediately": false,
-            "type": "DO_ACTION"
-          },
-          {
-            "speed": "NORMAL",
-            "transition": "EASE_IN_OUT",
-            "wait": true,
-            "waitSkip": 0,
-            "type": "RESET_CAMERA"
-          },
-          { "level": "2", "type": "SET_PLAYER_SP_LEVEL" },
-          {
-            "member": "Emilie",
-            "level": "2",
-            "type": "SET_PARTY_MEMBER_SP_LEVEL"
-          },
-          {
-            "member": "Glasses",
-            "level": "2",
-            "type": "SET_PARTY_MEMBER_SP_LEVEL"
-          },
-          {
-            "msgType": "EXTENDED",
-            "object": {
-              "en_US": "SP Bar",
-              "pt_BR": "Barra de SP",
-              "de_DE": "SP-Leiste",
-              "fr_FR": "fr_FR",
-              "langUid": 3,
-              "zh_CN": "SP\u6761",
-              "ja_JP": "SP\u30d0\u30fc<<A<<[CHANGED 2017/08/03]",
-              "ko_KR": "SP \ubc14",
-              "zh_TW": "SP\u689d"
-            },
-            "type": "SHOW_GET_MSG"
-          },
-          { "mode": "SLOW", "type": "RESUME_BGM" },
-          {
-            "entity": { "player": true },
-            "action": [{ "type": "CLEAR_ANIMATION" }],
-            "repeating": false,
-            "wait": false,
-            "keepState": false,
-            "immediately": false,
-            "type": "DO_ACTION"
-          },
-          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.2 },
-          {
-            "entity": { "player": true },
-            "action": [
-              {
-                "face": "NORTH",
-                "rotate": true,
-                "rotateSpeed": 3,
-                "type": "SET_FACE"
-              }
-            ],
-            "repeating": false,
-            "wait": false,
-            "keepState": false,
-            "immediately": false,
-            "type": "DO_ACTION"
-          },
-          {
-            "pos": { "x": 400, "y": 380 },
-            "speed": "NORMAL",
             "transition": "EASE_IN_OUT",
             "wait": true,
             "waitSkip": 0,
@@ -515,14 +293,14 @@
           {
             "text": {
               "en_US": "Let your every step\nform the path of your growth.",
-              "pt_BR": "Deixe que todos os seus passos \nformem o caminho de seu crescimento.",
+              "pt_BR": "Deixe que todos os seus passos\nformem o caminho de seu crescimento.",
               "de_DE": "M\u00f6ge jeder deiner Schritte\nden Pfad deines Wachstums ebnen.",
               "fr_FR": "fr_FR",
-              "zh_CN": "\u7ea4\u7ea4\u884c\u8def\uff0c\n\u6b65\u6b65\u9ad8\u5347\u3002",
-              "ja_JP": "\u4e00\u6b69\u4e00\u6b69\u9032\u3080\u3054\u3068\u306b\n\u6210\u9577\u306e\u3042\u3068\u3092\u6b8b\u3057\u3066\u3086\u304f\u304c\u3088\u3044\u3002<<A<<[CHANGED 2017/08/03]",
-              "langUid": 31,
-              "ko_KR": "\ubaa8\ub4e0 \uac78\uc74c\uc774\n\uc131\uc7a5\uc758 \ubc1c\ud310\uc774 \ub418\uae30\ub97c.",
-              "zh_TW": "\u7e96\u7e96\u884c\u8def\uff0c\r\n\u6b65\u6b65\u9ad8\u5347\u3002"
+              "zh_CN": "\u7ea4\u7ea4\u884c\u8def\uff0c\n\u6b65\u6b65\u9ad8\u5347\u3002<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u4e00\u6b69\u4e00\u6b69\u9032\u3080\u3054\u3068\u306b\n \u6210\u9577\u306e\u3042\u3068\u3092\u6b8b\u3057\u3066\u3086\u304f\u304c\u3088\u3044\u3002<<A<<[CHANGED 2018/03/14]",
+              "langUid": 8,
+              "ko_KR": "\ubaa8\ub4e0 \uac78\uc74c\uc774\n\uc131\uc7a5\uc758 \ubc1c\ud310\uc774 \ub418\uae30\ub97c.<<A<<[CHANGED 2018/03/14]",
+              "zh_TW": "\u7e96\u7e96\u884c\u8def\uff0c\r\n\u6b65\u6b65\u9ad8\u5347\u3002<<A<<[CHANGED 2018/03/14]"
             },
             "entity": { "global": true, "name": "hologramNPC" },
             "posType": "TOP",
@@ -561,17 +339,10 @@
           },
           { "ignoreSlowDown": false, "type": "WAIT", "time": 2 },
           {
-            "withElse": false,
-            "type": "IF",
-            "condition": "plot.line < 6600",
-            "thenStep": [
-              {
-                "changeType": "set",
-                "type": "CHANGE_VAR_NUMBER",
-                "varName": "plot.line",
-                "value": 6600
-              }
-            ]
+            "changeType": "set",
+            "type": "CHANGE_VAR_NUMBER",
+            "varName": "plot.shockLine",
+            "value": 700
           },
           { "lighter": true, "type": "SET_TELEPORT_COLOR", "color": "white" },
           {
@@ -2214,15 +1985,14 @@
     }
   ],
   "attributes": {
-    "cameraInBounds": true,
     "saveMode": "",
+    "bgm": "",
+    "cameraInBounds": true,
     "map-sounds": "",
-    "bgm": "hideout",
-    "volume": 1,
     "mapStyle": "",
     "weather": "EXPO_SPACE",
-    "npcRunners": "",
-    "area": "heat-area"
+    "area": "autumn-area",
+    "npcRunners": ""
   },
-  "screen": { "x": -57, "y": 137 }
+  "screen": { "x": -22, "y": 366 }
 }
