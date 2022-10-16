@@ -635,6 +635,7 @@
           {
             "message": {
               "en_US": "You need to reach to the \\c[3]other side\\c[0] of this room. To the \\c[3]east\\c[0]!",
+              "pt_BR": "Você precisa chegar ao \\c[3]outro lado\\c[0] desta sala. Para o \\c[3]leste\\c[0]!",
               "langUid": 854,
               "zh_CN": "\u53bb\u623f\u95f4\u7684\\c[3]\u53e6\u4e00\u8fb9\\c[0]\u3002\u5f80\\c[3]\u4e1c\\c[0]\u8d70!<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc774 \ubc29 \\c[3]\uac74\ub108\ud3b8\\c[0]\uc73c\ub85c \uac00\uc57c \ud574. \\c[3]\ub3d9\ucabd\\c[0]\uc73c\ub85c!<<A<<[CHANGED 2018/03/14]",
@@ -707,6 +708,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "Take off.",
+            "pt_BR": "Decolar.",
             "de_DE": "Auf und davon!",
             "zh_CN": "\u8131\u79bb\u3002<<A<<[CHANGED 2018/03/14]",
             "zh_TW": "\u812b\u96e2\u3002<<A<<[CHANGED 2018/03/14]",
@@ -1093,6 +1095,7 @@
               {
                 "message": {
                   "en_US": "\\c[1]...!\\c[0]",
+                  "pt_BR": "\\c[1]...!\\c[0]",
                   "langUid": 856,
                   "ja_JP": "\\c[1]...\uff01\\c[0]<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\\c[1]...!\\c[0]<<A<<[CHANGED 2019/08/16]",
@@ -1106,6 +1109,7 @@
               {
                 "message": {
                   "en_US": "Stop this at once!!",
+                  "pt_BR": "Pare com isso de uma vez!!",
                   "langUid": 855,
                   "ja_JP": "\u4eca\u3059\u3050\u3084\u3081\u308d\uff01\uff01<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\u505c\u4e0b!!<<A<<[CHANGED 2019/08/16]",
@@ -1124,6 +1128,7 @@
               {
                 "message": {
                   "en_US": "More!!",
+                  "pt_BR": "Mais!!",
                   "langUid": 857,
                   "ja_JP": "\u884c\u3051\u3063\uff01\uff01<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\u518d\u6765!!<<A<<[CHANGED 2019/08/16]",
