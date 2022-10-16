@@ -228,6 +228,7 @@
           {
             "message": {
               "en_US": "Alright! That worked.",
+              "pt_BR": "Tudo bem! Isso funcionou.",
               "langUid": 23,
               "zh_CN": "\u8fd9\u4e0b\u6210\u4e86\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc88b\uc544! \uc81c\ub300\ub85c \ub410\uc5b4.<<A<<[CHANGED 2018/03/14]",
@@ -242,6 +243,7 @@
           {
             "message": {
               "en_US": "Okay... where next again?",
+              "pt_BR": "Ok... onde é o próximo?",
               "langUid": 25,
               "zh_CN": "\u55ef...\u4e0b\u4e00\u4e2a\u51fa\u53e3\u5728\u54ea\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uadf8\ub7fc... \ub2e4\uc74c\uc5d4 \uc5b4\ub514\uc600\ub354\ub77c?<<A<<[CHANGED 2018/03/14]",
@@ -283,6 +285,7 @@
           {
             "text": {
               "en_US": "Help me....",
+              "pt_BR": "Me ajude....",
               "langUid": 24,
               "zh_CN": "\u6551\u6211....<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub3c4\uc640\uc918...<<A<<[CHANGED 2018/03/14]",
@@ -340,6 +343,7 @@
           {
             "text": {
               "en_US": "Please...",
+              "pt_BR": "Por favor...",
               "langUid": 26,
               "zh_CN": "\u6c42\u6c42\u4f60...<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc81c\ubc1c...<<A<<[CHANGED 2018/03/14]",
@@ -384,6 +388,7 @@
           {
             "text": {
               "en_US": "Help me...",
+              "pt_BR": "Me ajude...",
               "langUid": 27,
               "zh_CN": "\u6551\u6211...<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub3c4\uc640\uc918...<<A<<[CHANGED 2018/03/14]",
@@ -415,6 +420,7 @@
           {
             "message": {
               "en_US": "H-Hi?!",
+              "pt_BR": "O-Oi?!",
               "langUid": 28,
               "zh_CN": "\u4f60-\u4f60\u597d?!<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc544, \uc548\ub155?!<<A<<[CHANGED 2018/03/14]",
@@ -436,6 +442,7 @@
           {
             "message": {
               "en_US": "Wha...\\. What the heck is this?!",
+              "pt_BR": "O q...\\. Que diabos é isso?!",
               "langUid": 29,
               "zh_CN": "\u600e...\\.\u600e\u4e48\u56de\u4e8b?!<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc774\uac8c...\\. \uc774\uac8c \ub300\uccb4 \ubb50\uc9c0?!<<A<<[CHANGED 2018/03/14]",
@@ -607,6 +614,7 @@
           {
             "message": {
               "en_US": "...!!",
+              "pt_BR": "...!!",
               "langUid": 33,
               "zh_CN": "...!!<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "...!!<<A<<[CHANGED 2018/03/14]",
@@ -621,6 +629,7 @@
           {
             "message": {
               "en_US": "There you are!",
+              "pt_BR": "Aí está você!",
               "langUid": 32,
               "zh_CN": "\u627e\u5230\u4f60\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc5ec\uae30 \uc788\uc5c8\uad70!<<A<<[CHANGED 2018/03/14]",
@@ -638,6 +647,7 @@
           {
             "message": {
               "en_US": "This was certainly not meant to be seen by the likes of you.",
+              "pt_BR": "Isso certamente não era para ser visto por gente como você.",
               "langUid": 34,
               "zh_CN": "\u8fd9\u672c\u4e0d\u8be5\u8ba9\u4f60\u770b\u5230\u7684\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub108 \uac19\uc740 \ub140\uc11d\uc5d0\uac8c \ub4e4\ud0ac \uc0dd\uac01\uc740 \uc544\ub2c8\uc5c8\ub294\ub370.<<A<<[CHANGED 2018/03/14]",
@@ -655,6 +665,7 @@
           {
             "message": {
               "en_US": "In this tower you shall abide to the constraints laid in front of you.",
+              "pt_BR": "Nesta torre, você deve cumprir as restrições colocadas à sua frente.",
               "langUid": 35,
               "zh_CN": "\u8fd9\u5ea7\u5854\u662f\u4f60\u7684\u56da\u7b3c\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc774 \ud0d1 \uc548\uc5d0\uc11c\ub294 \ub124 \uc55e\uc5d0 \uc788\ub294 \uc81c\uc57d\ub9cc\uc744 \ub530\ub77c\uc57c\ub9cc \ud55c\ub2e4.<<A<<[CHANGED 2018/03/14]",
@@ -672,6 +683,7 @@
           {
             "message": {
               "en_US": "Not break through the walls as you please.",
+              "pt_BR": "Não atravesse as paredes como bem entender.",
               "langUid": 36,
               "zh_CN": "\u4e0d\u80fd\u8ba9\u4f60\u968f\u4fbf\u7834\u574f\u5462\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub124 \ub9c8\uc74c\ub300\ub85c \ubcbd\uc744 \uae68\uc9c0 \uc54a\uace0.<<A<<[CHANGED 2018/03/14]",
@@ -689,6 +701,7 @@
           {
             "message": {
               "en_US": "We won't tolerate behavior like this!",
+              "pt_BR": "Não vamos tolerar esse tipo de comportamento!",
               "langUid": 37,
               "zh_CN": "\u6211\u4eec\u53ef\u4e0d\u4f1a\u5bb9\u5fcd\u8fd9\u6837\u7684\u884c\u4e3a\uff01<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc6b0\ub9ac\ub294 \uc774\ub7f0 \ud589\ub3d9\uc744 \ucc38\uc9c0 \uc54a\uc744 \uac83\uc774\ub2e4!<<A<<[CHANGED 2018/03/14]",
@@ -836,6 +849,7 @@
           {
             "message": {
               "en_US": "Your little journey will end now!",
+              "pt_BR": "Sua pequena jornada terminará agora!",
               "langUid": 38,
               "zh_CN": "\u4f60\u7684\u9003\u4ea1\u5230\u6b64\u4e3a\u6b62\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc774\uc81c \ub124 \uc791\uc740 \uc5ec\uc815\uc740 \uc5ec\uae30\uae4c\uc9c0\ub2e4!<<A<<[CHANGED 2018/03/14]",
@@ -890,6 +904,7 @@
           {
             "message": {
               "en_US": "Shoot...",
+              "pt_BR": "Caramba...",
               "de_DE": "Verdammt...",
               "zh_CN": "\u5567...<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u304f\u305d\u3063...<<A<<[CHANGED 2018/03/14]",
@@ -904,6 +919,7 @@
           {
             "message": {
               "en_US": "He found out sooner than I had hoped.",
+              "pt_BR": "Ele descobriu mais cedo do que eu esperava.",
               "de_DE": "Er hat es fr\u00fcher herausgefunden, als ich gehofft hatte.",
               "zh_CN": "\u4ed6\u53d1\u73b0\u7684\u6bd4\u6211\u6599\u60f3\u7684\u8fd8\u5feb\u3002<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u601d\u3063\u305f\u3088\u308a\u65e9\u304f\n\u898b\u3064\u304b\u3063\u3066\u3057\u307e\u3063\u305f\u307f\u305f\u3044\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -918,6 +934,7 @@
           {
             "message": {
               "en_US": "Lea, you must not be caught up in one of his battles, we have to escape!",
+              "pt_BR": "Lea, você não deve se envolver em uma de suas batalhas, temos que escapar!",
               "de_DE": "Lea, du darfst dich auf keinen Fall in einen Kampf verwickeln lassen, wir m\u00fcssen fliehen!",
               "zh_CN": "\u8389\u4e9a\uff0c\u4f60\u53ef\u522b\u88ab\u6218\u6597\u7f20\u4f4f\u4e86\uff0c\u6211\u4eec\u5f97\u9003\u8dd1\uff01<<A<<[CHANGED 2018/10/04]",
               "ja_JP": "\u30ec\u30a2\u3001\u3084\u3064\u306e\u6226\u3044\u306b\u4e57\u3063\u3061\u3083\u30c0\u30e1\u3060\u3002\n\u9003\u3052\u51fa\u3055\u306a\u3044\u3068\uff01<<A<<[CHANGED 2018/10/04]",
@@ -932,6 +949,7 @@
           {
             "message": {
               "en_US": "Run to the next symbol as fast as possible!",
+              "pt_BR": "Corra para o próximo símbolo o mais rápido possível!",
               "de_DE": "Renne so schnell du kannst zum n\u00e4chsten Ausgang!",
               "zh_CN": "\u5c3d\u5feb\u8dd1\u5230\u4e0b\u4e00\u4e2a\u51fa\u53e3\u6807\u8bb0\uff01<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u6b21\u306e\u30b7\u30f3\u30dc\u30eb\u307e\u3067\u8d70\u308b\u3093\u3060\uff01\n\u3067\u304d\u308b\u3060\u3051\u901f\u304f\uff01<<A<<[CHANGED 2018/03/14]",
@@ -1531,6 +1549,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "Take off.",
+            "pt_BR": "Decolar.",
             "de_DE": "Auf und davon!",
             "zh_CN": "\u8131\u79bb\u3002<<A<<[CHANGED 2018/03/14]",
             "zh_TW": "\u812b\u96e2\u3002<<A<<[CHANGED 2018/03/14]",
@@ -1881,6 +1900,7 @@
               {
                 "message": {
                   "en_US": "\\c[1]Lea!\\c[0]",
+                  "pt_BR": "\\c[1]Lea!\\c[0]",
                   "langUid": 856,
                   "ja_JP": "\\c[1]\u30ec\u30a2\uff01\\c[0]<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\\c[1]\u8389\u4e9a!\\c[0]<<A<<[CHANGED 2019/08/16]",
@@ -1894,6 +1914,7 @@
               {
                 "message": {
                   "en_US": "Preposterous!\\. Is there any end to your damage?!",
+                  "pt_BR": "Absurdo!\\. Existe algum limite para o seu dano?!",
                   "langUid": 855,
                   "ja_JP": "\u3042\u308a\u5f97\u306a\u3044\uff01\u8cb4\u69d8\u3001\u305d\u306e\u30c0\u30e1\u30fc\u30b8\u91cf\n\u307e\u308b\u3067\u9650\u754c\u304c\u306a\u3044\u3067\u306f\u306a\u3044\u304b\uff1f\uff01<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\u8352\u5510!\\.\u8fd9\u7a76\u7adf\u662f\u4ec0\u4e48\u4f24\u5bb3?!<<A<<[CHANGED 2019/08/16]",
@@ -1912,6 +1933,7 @@
               {
                 "message": {
                   "en_US": "We have plenty more of those to spare!",
+                  "pt_BR": "Temos muito mais desses de sobra!",
                   "langUid": 854,
                   "ja_JP": "\u99d2\u306e\u4ee3\u3048\u306a\u3089\u3070\u3044\u304f\u3089\u3067\u3082\u304d\u304f\u305e\uff01<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\u8fd8\u6ca1\u5b8c\u5462!<<A<<[CHANGED 2019/08/16]",
