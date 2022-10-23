@@ -563,7 +563,7 @@
                 {
                   "message": {
                     "en_US": "It will be your most urgent task to remedy this.\\. I hope we can still count on your assistance?",
-                    "pt_BR": "Será sua tarefa mais urgente para remediar isto.\\. Espero que ainda possamos contar com a sua ajuda.",
+                    "pt_BR": "Remediar isso será sua tarefa mais urgente.\\. Espero que ainda possamos contar com a sua ajuda.",
                     "de_DE": "Es wird daher Ihre h\u00f6chst dringliche Aufgabe sein, dem Abhilfe zu schaffen.\\. Ich hoffe, wir k\u00f6nnen nach wie vor mit Ihrer Unterst\u00fctzung rechnen?",
                     "zh_CN": "\u6539\u53d8\u8fd9\u70b9\u662f\u6211\u4eec\u7684\u7b2c\u4e00\u8981\u52a1\u3002\\.\u76f8\u4fe1\u4f60\u53ef\u4ee5\u5bf9\u6b64\u6709\u6240\u5e2e\u52a9\uff1f<<A<<[CHANGED 2017/12/12]",
                     "ja_JP": "\u305d\u308c\u3092\u541b\u306b\u4e00\u523b\u3082\u65e9\u304f\u89e3\u6d88\u3057\u3066\u307b\u3057\u3044\u306e\u3060\u3002\n\\.\u529b\u306b\u306a\u3063\u3066\u304f\u308c\u308b\u3060\u308d\u3046\u304b\uff1f<<A<<[CHANGED 2017/12/11]",
@@ -727,7 +727,7 @@
               {
                 "message": {
                   "en_US": "Go to \\c[3]\\v[area.bergen.name]\\c[0] and talk to their \\c[3]trader of metalworks\\c[0] in the \\c[3]Trader's Den\\c[0].",
-                  "pt_BR": "Vá para \\c[3]\\v[area.bergen.name]\\c[0] e fale com o \\c[3]trader of metalworks\\c[0] na \\c[3]Cabana do Comerciante\\c[0].",
+                  "pt_BR": "Vá para \\c[3]\\v[area.bergen.name]\\c[0] e fale com o \\c[3]comerciante de metais\\c[0] no \\c[3]Lar dos Comerciantes\\c[0].",
                   "de_DE": "Gehen Sie nach \\c[3]Bergen\\c[0] und sprechen Sie dort mit dem \\c[3]Metallh\u00e4ndler\\c[0] in der \\c[3]H\u00e4ndlerh\u00fctte\\c[0].",
                   "zh_CN": "\u524d\u5f80\\c[3]\\v[area.bergen.name]\\c[0]\uff0c\u5728\\c[3]\u5546\u8d29\u5c45\u6240\\c[0]\u548c\\c[3]\u91d1\u5c5e\u5546\u4eba\\c[0]\u4ea4\u8c08\u3002<<A<<[CHANGED 2017/12/12]",
                   "ja_JP": "\\c[3]\\v[area.bergen.name]\\c[0]\u3078\u884c\u3063\u3066\u3001\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\u306e\u96a0\u308c\u5bb6\\c[0]\u306b\u3044\u308b\\c[3]\u30e1\u30bf\u30eb\u52a0\u5de5\u54c1\u306e\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]\u3068\u8a71\u3057\u3066\u304f\u308c\u3002<<A<<[CHANGED 2017/12/11]",
