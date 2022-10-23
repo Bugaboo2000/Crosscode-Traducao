@@ -5417,6 +5417,7 @@
       "order": 40,
       "name": {
         "en_US": "Faj'ro Key",
+        "pt_BR": "Chave Faj'ro",
         "de_DE": "Faj'ro-Schl\u00fcssel",
         "fr_FR": "undefined",
         "zh_CN": "\u6cd5\u52a0\u7f57\u94a5\u5319",
@@ -5427,6 +5428,7 @@
       },
       "description": {
         "en_US": "A regular key for \\c[3]Faj'ro Temple\\c[0].",
+        "pt_BR": "Um chave comum do \\c[3]Templo Faj'ro\\c[0].",
         "de_DE": "Ein gew\u00f6hnlicher Schl\u00fcssel f\u00fcr den \\c[3]Faj\u2019ro-Tempel\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u628a\u5f00\u542f\\c[3]\u6cd5\u52a0\u7f57\u795e\u5e99\\c[0]\u7684\u666e\u901a\u94a5\u5319\u3002<<A<<[CHANGED 2018/09/17]",
@@ -5446,6 +5448,7 @@
       "order": 41,
       "name": {
         "en_US": "Faj'ro Master Key",
+        "pt_BR": "Chave Mestra Faj'ro",
         "de_DE": "Glutschl\u00fcssel",
         "fr_FR": "undefined",
         "zh_CN": "\u6cd5\u52a0\u7f57\u4e3b\u94a5\u5319",
@@ -5456,6 +5459,7 @@
       },
       "description": {
         "en_US": "The Master Key of the \\c[3]Faj'ro Temple\\c[0].",
+        "pt_BR": "A Chave Mestra do \\c[3]Templo Faj'ro\\c[0].",
         "de_DE": "Der goldene Schl\u00fcssel des \\c[3]Faj'ro-Tempels\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\\c[3]\u6cd5\u52a0\u7f57\u795e\u5e99\\c[0]\u7684\u4e3b\u94a5\u5319<<A<<[CHANGED 2018/09/17]",
@@ -5680,6 +5684,7 @@
       "order": 4,
       "name": {
         "en_US": "White Key",
+        "pt_BR": "Chave Branca",
         "de_DE": "Wei\u00dfer Schl\u00fcssel",
         "langUid": 311,
         "zh_CN": "\u767d\u94f6\u94a5\u5319",
@@ -5689,6 +5694,7 @@
       },
       "description": {
         "en_US": "A silver key so bright it appears white. Opens silver chests.",
+        "pt_BR": "Uma chave prateada tão brilhante que parece branca. Abre baús prateados.",
         "de_DE": "Ein silberner Schl\u00fcssel, so hell, dass er wei\u00df erscheint. \u00d6ffnet Silbertruhen.",
         "langUid": 312,
         "zh_CN": "\u4e00\u628a\u94f6\u8272\u7684\u94a5\u5319\uff0c\u95ea\u4eae\u5230\u770b\u4f3c\u767d\u8272\u3002\u53ef\u4ee5\u6253\u5f00\u767d\u94f6\u7bb1\u5b50\u3002",
@@ -6970,6 +6976,7 @@
       "order": 31,
       "name": {
         "en_US": "Precious Metal",
+        "pt_BR": "Metal Precioso",
         "de_DE": "Kostbares Metall",
         "fr_FR": "undefined",
         "zh_CN": "\u8d35\u91d1\u5c5e",
@@ -6980,6 +6987,7 @@
       },
       "description": {
         "en_US": "High quality metal created by melting refined metal parts.",
+        "pt_BR": "Metal de alta qualidade criado pela fusão de peças metálicas refinadas.",
         "de_DE": "Hochwertiges Metall, das durch Schmelzung veredelter Metalle gewonnen wird.",
         "fr_FR": "undefined",
         "zh_CN": "\u7531\u7cbe\u70bc\u91d1\u5c5e\u518d\u6b21\u63d0\u70bc\u5f97\u5230\u7684\u9ad8\u8d28\u91cf\u91d1\u5c5e\u3002",
@@ -8425,7 +8433,7 @@
       "order": 22,
       "name": {
         "en_US": "Red Flame Shade",
-        "pt_BR": "Fragmento de Fogo",
+        "pt_BR": "Fragmento do Fogo",
         "de_DE": "Rote Flammenform",
         "fr_FR": "undefined",
         "zh_CN": "\u8d64\u706b\u8bc1\u5370",
@@ -12069,6 +12077,7 @@
       "order": 35,
       "name": {
         "en_US": "Cold Platter",
+        "pt_BR": "Prato frio",
         "de_DE": "Kalte Platte",
         "fr_FR": "undefined",
         "zh_CN": "\u51b7\u76d8\u6742\u70e9",
@@ -12079,6 +12088,7 @@
       },
       "description": {
         "en_US": "A great variety of dishes, served cold on a large plate. \\c[1]Slow\\c[0].",
+        "pt_BR": "Uma grande variedade de pratos, servidos frios em um prato grande. \\c[1]Lento\\c[0].",
         "de_DE": "\u00dcppige Auswahl von kalten Speisen auf einer gro\u00dfen Platte. \\c[1]Langsam\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u7f8e\u98df\u5927\u6742\u70e9\uff0c\u51b7\u76d8\u76db\u88c5\u3002\\c[1]\u7f13\u6162\\c[0]\u3002<<A<<[CHANGED 2017/07/07]",
@@ -12705,6 +12715,7 @@
       "order": 12,
       "name": {
         "en_US": "Wrap Roll",
+        "pt_BR": "Rolo de Embrulho",
         "de_DE": "Teigrollenrolle",
         "fr_FR": "undefined",
         "zh_CN": "\u5377\u4e2d\u5377",
@@ -12715,6 +12726,7 @@
       },
       "description": {
         "en_US": "A wrap inside a roll which is a wrap too. Confusing but tasty nonetheless.",
+        "pt_BR": "Um embrulho dentro de um rolo que também é um embrulho. Confuso, mas saboroso, no entanto.",
         "de_DE": "Eine Teigrolle in einer Teigrolle. Klingt kompliziert, ist aber lecker.",
         "fr_FR": "undefined",
         "zh_CN": "\u5377\u91cc\u9762\u8fd8\u6709\u4e2a\u5377\u3002\u867d\u7136\u9020\u578b\u5947\u602a\uff0c\u4f46\u5f88\u597d\u5403\u3002",
@@ -12775,6 +12787,7 @@
       "order": 15,
       "name": {
         "en_US": "Shrimp Risotto",
+        "pt_BR": "Risoto de Camarão",
         "de_DE": "Shrimp-Risotto",
         "fr_FR": "undefined",
         "zh_CN": "\u867e\u4ec1\u7117\u996d",
@@ -12785,6 +12798,7 @@
       },
       "description": {
         "en_US": "This risotto has been spiced up with chili and shrimp.",
+        "pt_BR": "Este risoto foi temperado com pimentão e camarão.",
         "de_DE": "Dieses Risotto wurde mit Chili und Shrimps aufgepeppt.",
         "fr_FR": "undefined",
         "zh_CN": "\u6df7\u642d\u4e86\u8fa3\u6912\u548c\u867e\u4ec1\u7684\u7117\u996d\u3002<<A<<[CHANGED 2018/09/19]",
@@ -12880,6 +12894,7 @@
       "order": 50,
       "name": {
         "en_US": "Tattered Satchel",
+        "pt_BR": "Bolsa Esfarrapada",
         "de_DE": "Fransige Tasche",
         "fr_FR": "undefined",
         "zh_CN": "\u7834\u70c2\u7684\u836f\u5305",
@@ -12890,6 +12905,7 @@
       },
       "description": {
         "en_US": "A pretty beat-up satchel used to store medicine and herbs.",
+        "pt_BR": "Uma bela bolsa usada para armazenar remédios e ervas.",
         "de_DE": "Abgenutzte Tasche, die man zum Verstauen von Medizin und Kr\u00e4utern nutzen kann.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u7528\u6765\u88c5\u836f\u7269\u548c\u8349\u836f\u7684\u7834\u65e7\u5305\u88f9\u3002",
@@ -13461,7 +13477,7 @@
       "order": 23,
       "name": {
         "en_US": "Green Seed Shade",
-        "pt_BR": "Fragmento de Semente Verde",
+        "pt_BR": "Fragmento da Semente",
         "de_DE": "Gr\u00fcne Samenform",
         "langUid": 1365,
         "zh_CN": "\u7eff\u79cd\u8bc1\u5370",
@@ -13616,6 +13632,7 @@
       "order": 167,
       "name": {
         "en_US": "Tremor Engine",
+        "pt_BR": "Motor de Tremor",
         "de_DE": "Tremormotor",
         "fr_FR": "undefined",
         "zh_CN": "\u98a4\u52a8\u5f15\u64ce<<A<<[CHANGED 2017/07/01]",
@@ -13626,6 +13643,7 @@
       },
       "description": {
         "en_US": "An unpowered mechanical device. Shaking it will make a rattling sound.",
+        "pt_BR": "Um dispositivo mecânico sem energia. Agitá-lo fará um som de chocalhar.",
         "de_DE": "Ein mechanisches Ger\u00e4t ohne Antrieb. Rattert, wenn man es sch\u00fcttelt.",
         "fr_FR": "undefined",
         "zh_CN": "\u672a\u63a5\u901a\u7535\u6e90\u7684\u4e00\u53f0\u673a\u68b0\u88c5\u7f6e\u3002\u6643\u4e00\u6643\u7684\u8bdd\u4f1a\u6709\u5494\u55d2\u58f0\u3002<<A<<[CHANGED 2017/07/01]",
@@ -15332,6 +15350,7 @@
       "order": 81,
       "name": {
         "en_US": "Smelter Parts",
+        "pt_BR": "Peças de Fundição",
         "de_DE": "Schmelzofenteile",
         "fr_FR": "undefined",
         "zh_CN": "\u7194\u7089\u90e8\u4ef6<<A<<[CHANGED 2017/12/12]",
@@ -15342,6 +15361,7 @@
       },
       "description": {
         "en_US": "Hot parts of a generator that was presumably even hotter. Vital for advanced metalwork.",
+        "pt_BR": "Partes quentes de um gerador que, presumivelmente, estava ainda mais quente. Vital para trabalhos avançados em metal.",
         "de_DE": "Hei\u00dfe Bauteile aus einem wohl noch hei\u00dferen Generator. F\u00fcr Metallverarbeitung.",
         "fr_FR": "undefined",
         "zh_CN": "\u67d0\u4e2a\u9ad8\u70ed\u53d1\u7535\u673a\u7684\u6eda\u70eb\u96f6\u90e8\u4ef6\u3002\u5bf9\u4e8e\u9ad8\u7ea7\u51b6\u70bc\u6765\u8bf4\u5fc5\u4e0d\u53ef\u5c11\u3002<<A<<[CHANGED 2018/08/28]",
@@ -17572,6 +17592,7 @@
       "order": 24,
       "name": {
         "en_US": "Golden Bars",
+        "pt_BR": "Barras de Ouro",
         "de_DE": "Goldbarren",
         "fr_FR": "undefined",
         "zh_CN": "\u91d1\u6761<<A<<[CHANGED 2018/08/01]",
@@ -17582,6 +17603,7 @@
       },
       "description": {
         "en_US": "A stack of golden bars. They should be worth quite a lot.",
+        "pt_BR": "Uma pilha de barras de ouro. Elas devem valer muito.",
         "de_DE": "Ein Stapel Goldbarren. Sollten ein kleines Verm\u00f6gen wert sein.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5806\u91d1\u6761\u3002\u6050\u6015\u503c\u4e0d\u5c11\u94b1\u3002<<A<<[CHANGED 2018/08/01]",

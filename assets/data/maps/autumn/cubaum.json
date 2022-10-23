@@ -9781,7 +9781,7 @@
                             },
                             "message": {
                                 "en_US": "Alright, just like before.\\. Knock our device onto the Powerspot and then defeat all the enemies that might appear!",
-                                "pt_BR": "Muito bem, como aconteceu antes.\\. Derrube nosso dispositivo no Powerspot e depois derrote todos os inimigos que possam aparecer!",
+                                "pt_BR": "Muito bem, como aconteceu antes.\\. Derrube nosso dispositivo no Ponto de Poder e depois derrote todos os inimigos que possam aparecer!",
                                 "ja_JP": "\u3088\u3057\u3001\u3084\u308a\u65b9\u306f\u3055\u3063\u304d\u3068\u540c\u3058\u3060\u3002\\.\u30c7\u30d0\u30a4\u30b9\u3092\u30b9\u30dd\u30c3\u30c8\u306e\u4e0a\u306b\u4e57\u305b\u3066\u3001\u51fa\u73fe\u3059\u308b\u6575\u3092\u305c\u3093\u3076\u3084\u3063\u3064\u3051\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/09/19]",
                                 "langUid": 707,
                                 "zh_CN": "\u55ef\uff0c\u8ddf\u4ee5\u524d\u4e00\u6837\u3002\\.\u628a\u88c5\u7f6e\u63a8\u5230\u70b9\u4e0a\uff0c\u7136\u540e\u6253\u8d25\u6240\u6709\u654c\u4eba\uff01<<A<<[CHANGED 2018/09/19]",
@@ -9927,7 +9927,7 @@
                             },
                             "message": {
                                 "en_US": "Be prepared to readjust the probe during the operation in case the Powerspots move around.",
-                                "pt_BR": "Esteja preparada para reajusatar a sonda durante a operação, caso os Powerspots se movimentem",
+                                "pt_BR": "Esteja preparada para reajusatar a sonda durante a operação, caso os Pontos de poder se movimentem",
                                 "ja_JP": "\u4f5c\u6226\u4e2d\u306b\u30d1\u30ef\u30fc\u30b9\u30dd\u30c3\u30c8\u306e\u4f4d\u7f6e\u304c\u5909\u308f\u3063\u305f\u6642\u306b\n\u5099\u3048\u3066\u3001\u30d7\u30ed\u30fc\u30d6\u306e\u4f4d\u7f6e\u3092\u518d\u8abf\u6574\u3059\u308b\n\u6e96\u5099\u306f\u3057\u3066\u304a\u3044\u3066\u304f\u308c\u3088\u3002<<A<<[CHANGED 2017/11/04]",
                                 "langUid": 776,
                                 "zh_CN": "\u80fd\u91cf\u70b9\u79fb\u52a8\u4e86\u7684\u8bdd\u8981\u53ca\u65f6\u8c03\u6574\u63a2\u6d4b\u5668\u4f4d\u7f6e\u3002<<A<<[CHANGED 2017/10/10]",
@@ -9985,7 +9985,7 @@
                         }, {
                             "task": {
                                 "en_US": "Knock the \\c[3]Probe\\c[0] on the \\c[3]Powerpoints\\c[0].\n\\c[3]Heat\\c[0]:More knockback\n\\c[3]Cold\\c[0]:Stabilize",
-                                "pt_BR": "Acerte a \\c[3]Sonda\\c[0] nos \\c[3]Powerpoints\\c[0].\n\\c[3]Fogo\\c[0]:Mais recuo\n\\c[3]Gelo\\c[0]:Estabiliza",
+                                "pt_BR": "Acerte a \\c[3]Sonda\\c[0] nos \\c[3]Powerpoints\\c[0].\n\\c[3]Fogo\\c[0]: Mais recuo\n\\c[3]Gelo\\c[0]: Estabiliza",
                                 "langUid": 749,
                                 "zh_CN": "\u628a\\c[3]\u63a2\u6d4b\u5668\\c[0]\u79fb\u52a8\u5230\\c[3]\u80fd\u91cf\u70b9\\c[0]\u4e0a\u3002\n\\c[3\u706b\\c[0]:\u5f3a\u529b\u63a8\u8fdb\n\\c[3]\u51b0\\c[0]:\u7a33\u5b9a<<A<<[CHANGED 2017/10/10]",
                                 "de_DE": "Sto\u00dfe die \\c[3]Sonde\\c[0] auf die \\c[3]Kraftpunkte\\c[0].\n\\c[3]Hitze\\c[0]:gr\u00f6\u00dfere Sto\u00dfkraft\n\\c[3]K\u00e4lte\\c[0]:stabilisieren",
