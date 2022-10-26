@@ -5567,6 +5567,7 @@
       "order": 75,
       "name": {
         "en_US": "Hermit Repairkit",
+        "pt_BR": "Kit de reparo do Eremita",
         "de_DE": "Reparaturset",
         "langUid": 303,
         "zh_CN": "\u9690\u58eb\u4fee\u7406\u5305",
@@ -5576,6 +5577,7 @@
       },
       "description": {
         "en_US": "A repair kit for the generator in the basement of the Hermit's House.",
+        "pt_BR": "Um kit de reparo para o gerador no subsolo da Cabana do Eremita.",
         "de_DE": "Ein Reparaturset f\u00fcr den Generator im Keller der Eremitenh\u00fctte.",
         "fr_FR": "undefined",
         "langUid": 832,
@@ -9587,6 +9589,7 @@
     {
       "name": {
         "en_US": "Silver Goggles",
+        "pt_BR": "Óculos de Prata",
         "de_DE": "Silberbrille",
         "fr_FR": "undefined",
         "zh_CN": "\u94f6\u8d28\u62a4\u76ee\u955c",
@@ -9597,6 +9600,7 @@
       },
       "description": {
         "en_US": "Both silver frames and the flawless glass are giving off an impressive shine.",
+        "pt_BR": "Tanto as molduras prateadas quanto o vidro impecável dão um brilho impressionante.",
         "de_DE": "Der silberne Rahmen und die makellosen Gl\u00e4ser verleihen einen beeindruckenden Glanz.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e24\u4e2a\u94f6\u8272\u7684\u6846\u67b6\uff0c\u65e0\u6687\u7684\u73bb\u7483\u4e0a\u95ea\u8000\u7740\u96be\u4ee5\u78e8\u706d\u7684\u5149\u8292\u3002<<A<<[CHANGED 2018/09/19]",
@@ -9654,6 +9658,7 @@
       "order": 45,
       "name": {
         "en_US": "Silver Edge",
+        "pt_BR": "Lâmina de Prata",
         "de_DE": "Silberschneide",
         "fr_FR": "undefined",
         "zh_CN": "\u94f6\u5203",
@@ -9664,6 +9669,7 @@
       },
       "description": {
         "en_US": "Said to be effective against the unnatural. Works just fine against everything though.",
+        "pt_BR": "Disse ser eficaz contra o não natural. Mas funciona muito bem contra tudo.",
         "de_DE": "Soll gegen das \u00dcbernat\u00fcrliche wirken. Ist aber eigentlich gegen alles effektiv.",
         "fr_FR": "undefined",
         "zh_CN": "\u636e\u8bf4\u53ea\u5bf9\u975e\u81ea\u7136\u7269\u4f53\u6709\u6548\u3002\u5b9e\u9645\u4e0a\u5bf9\u4e00\u5207\u7269\u4f53\u90fd\u884c\u5f97\u901a\u3002",
@@ -9719,6 +9725,7 @@
     {
       "name": {
         "en_US": "Silver Mail",
+        "pt_BR": "Malha de Prata",
         "de_DE": "Silberharnisch",
         "fr_FR": "undefined",
         "zh_CN": "\u94f6\u8d28\u76d4\u7532",
@@ -9729,6 +9736,7 @@
       },
       "description": {
         "en_US": "A sturdy mail, made from silver. Perfect when sleeping in a haunted castle.",
+        "pt_BR": "Uma malha robusta, feita de prata. Perfeita quando se dorme em um castelo assombrado.",
         "de_DE": "Ein robuster Harnisch. Perfekt, um damit in einem verfluchten Schloss zu schlafen.",
         "fr_FR": "undefined",
         "zh_CN": "\u94f6\u5236\u7684\u575a\u56fa\u76d4\u7532\u3002\u7761\u5728\u95f9\u9b3c\u57ce\u5821\u4e5f\u4e0d\u6015\u3002",
@@ -13188,6 +13196,7 @@
       "order": 48,
       "name": {
         "en_US": "Bear Beer",
+        "pt_BR": "Cerveja de Urso",
         "de_DE": "B\u00e4renbier",
         "fr_FR": "undefined",
         "zh_CN": "\u718a\u4e4b\u5564\u9152",
@@ -13198,6 +13207,7 @@
       },
       "description": {
         "en_US": "Drink evoking the strength of bears, the most unstoppable of forces. \\c[3]Fast\\c[0].",
+        "pt_BR": "Bebida que evoca a força dos ursos, a mais imparável das forças. \\c[3]Rápido\\c[0].",
         "de_DE": "Trink es und werde stark wie ein B\u00e4r. \\c[3]Schnell\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u559d\u4e0b\u5b83\u80fd\u8ba9\u4eba\u83b7\u5f97\u718a\u7684\u529b\u91cf\uff0c\u65e0\u4eba\u80fd\u654c\u3002\\c[1]\u5feb\u901f\\c[0]\u3002<<A<<[CHANGED 2017/07/07]",
@@ -13325,6 +13335,7 @@
       "order": 80,
       "name": {
         "en_US": "Brewing Kit",
+        "pt_BR": "Kit de Bebida",
         "de_DE": "Braukasten",
         "langUid": 1351,
         "zh_CN": "\u917f\u9152\u7d20\u6750",
@@ -13353,6 +13364,7 @@
       "order": 33,
       "name": {
         "en_US": "Brewing Kit: Bear",
+        "pt_BR": "Kit de Bebida: Urso",
         "de_DE": "Braukasten: B\u00e4r",
         "fr_FR": "undefined",
         "zh_CN": "\u917f\u9152\u7d20\u6750\uff1a\u718a",
@@ -13384,6 +13396,7 @@
       "order": 34,
       "name": {
         "en_US": "Brewing Kit: Crab",
+        "pt_BR": "Kit de Bebida: Caranguejo",
         "de_DE": "Braukasten: Krabbe",
         "fr_FR": "undefined",
         "zh_CN": "\u917f\u9152\u7d20\u6750\uff1a\u87f9",
@@ -13415,6 +13428,7 @@
       "order": 35,
       "name": {
         "en_US": "Brewing Kit: Fox",
+        "pt_BR": "Kit de Bebida: Raposa",
         "de_DE": "Braukasten: Fuchs",
         "fr_FR": "undefined",
         "zh_CN": "\u917f\u9152\u7d20\u6750\uff1a\u72d0",
@@ -13446,6 +13460,7 @@
       "order": 36,
       "name": {
         "en_US": "Brewing Kit: Whale",
+        "pt_BR": "Kit de Bebida: Baleia",
         "de_DE": "Braukasten: Wal",
         "fr_FR": "undefined",
         "zh_CN": "\u917f\u9152\u7d20\u6750\uff1a\u9cb8",
