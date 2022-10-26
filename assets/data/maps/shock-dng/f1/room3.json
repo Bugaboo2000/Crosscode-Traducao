@@ -1,0 +1,5367 @@
+{
+  "name": "shock-dng/f1/room3",
+  "levels": [{ "height": -96 }, { "height": 0 }, { "height": 32 }],
+  "mapWidth": 50,
+  "mapHeight": 45,
+  "masterLevel": 1,
+  "entities": [
+    {
+      "type": "TeleportField",
+      "x": 388,
+      "y": 516,
+      "level": 1,
+      "settings": {
+        "name": "entrance",
+        "central": { "global": true, "name": "" },
+        "dir": "NORTH",
+        "map": "shock-dng.g.room3",
+        "teleportLabel": {
+          "en_US": "\\i[arrow-s] Down",
+          "pt_BR": "\\i[arrow-s] Descida",
+          "de_DE": "\\i[arrow-s] Runter",
+          "fr_FR": "fr_FR",
+          "langUid": 1,
+          "zh_CN": "\\i[arrow-s]\u4e0b",
+          "ko_KR": "\\i[arrow-s] \uc544\ub798\ub85c",
+          "ja_JP": "\\i[arrow-s] \u4e0b",
+          "zh_TW": "\\i[arrow-s]\u4e0b"
+        },
+        "longTelCond": "false",
+        "gfxType": "WAVE_DOWN",
+        "mapId": 6,
+        "marker": "exitUp",
+        "blockEventCondition": "",
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Door",
+      "x": 32,
+      "y": 252,
+      "level": 2,
+      "settings": {
+        "name": "exit",
+        "doorType": "DEFAULT",
+        "dir": "EAST",
+        "transitionType": "REGULAR",
+        "mapId": 7,
+        "map": "shock-dng.f1.room2to3",
+        "marker": "entrance",
+        "hideCondition": "",
+        "blockEventCondition": "",
+        "variation": ""
+      }
+    },
+    {
+      "type": "Door",
+      "x": 752,
+      "y": 256,
+      "level": 2,
+      "settings": {
+        "name": "entranceEast",
+        "doorType": "DEFAULT",
+        "dir": "WEST",
+        "transitionType": "REGULAR",
+        "mapId": 8,
+        "map": "shock-dng.f1.room3to4",
+        "marker": "exit",
+        "hideCondition": "",
+        "blockEventCondition": "",
+        "variation": ""
+      }
+    },
+    {
+      "type": "Door",
+      "x": 32,
+      "y": 432,
+      "level": 1,
+      "settings": {
+        "name": "entranceWest",
+        "doorType": "DEFAULT",
+        "dir": "EAST",
+        "transitionType": "REGULAR",
+        "mapId": 9,
+        "map": "shock-dng.f1.room2to3",
+        "marker": "exit2",
+        "hideCondition": "",
+        "blockEventCondition": "",
+        "variation": ""
+      }
+    },
+    {
+      "type": "TeleportField",
+      "x": 388,
+      "y": 132,
+      "level": 2,
+      "settings": {
+        "name": "exitUp",
+        "central": { "global": true, "name": "" },
+        "dir": "SOUTH",
+        "map": "shock-dng.f2.room3",
+        "teleportLabel": {
+          "en_US": "\\i[arrow-n] Up",
+          "pt_BR": "\\i[arrow-n] Subida",
+          "de_DE": "\\i[arrow-n] Hoch",
+          "fr_FR": "fr_FR",
+          "langUid": 2,
+          "zh_CN": "\\i[arrow-s]\u4e0a",
+          "ko_KR": "\\i[arrow-n] \uc704\ub85c",
+          "ja_JP": "\\i[arrow-n] \u4e0a",
+          "zh_TW": "\\i[arrow-s]\u4e0a"
+        },
+        "longTelCond": "false",
+        "gfxType": "WAVE_UP",
+        "mapId": 10,
+        "marker": "entrance",
+        "blockEventCondition": ""
+      }
+    },
+    {
+      "type": "OneTimeSwitch",
+      "x": 300,
+      "y": 192,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "switchType": "waveSwitch",
+        "activeTime": 1.5,
+        "fixCount": 2,
+        "mapId": 12,
+        "variable": "",
+        "addValue": "map.waveLeft"
+      }
+    },
+    {
+      "type": "OneTimeSwitch",
+      "x": 476,
+      "y": 192,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "switchType": "waveSwitch",
+        "activeTime": 1.5,
+        "fixCount": 2,
+        "mapId": 13,
+        "variable": "",
+        "addValue": "map.waveRight"
+      }
+    },
+    {
+      "type": "OneTimeSwitch",
+      "x": 348,
+      "y": 240,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "switchType": "waveSwitch",
+        "activeTime": 1.5,
+        "fixCount": 2,
+        "mapId": 14,
+        "variable": "",
+        "addValue": "map.waveLeft"
+      }
+    },
+    {
+      "type": "OneTimeSwitch",
+      "x": 428,
+      "y": 240,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "switchType": "waveSwitch",
+        "activeTime": 1.5,
+        "fixCount": 2,
+        "mapId": 15,
+        "variable": "",
+        "addValue": "map.waveRight"
+      }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 240,
+      "y": 188,
+      "level": 1,
+      "settings": { "name": "", "mapId": 16 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 328,
+      "y": 232,
+      "level": 1,
+      "settings": { "name": "", "mapId": 21 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 328,
+      "y": 252,
+      "level": 1,
+      "settings": { "name": "", "mapId": 22 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 456,
+      "y": 232,
+      "level": 1,
+      "settings": { "name": "", "mapId": 24 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 456,
+      "y": 252,
+      "level": 1,
+      "settings": { "name": "", "mapId": 25 }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 152,
+      "y": 312,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 30,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 212,
+      "y": 360,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 31,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 216,
+      "y": 300,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 32,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 296,
+      "y": 304,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 33,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 152,
+      "y": 380,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 34,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 264,
+      "y": 360,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 35,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 344,
+      "y": 368,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 36,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 152,
+      "y": 432,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 37,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 204,
+      "y": 472,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 38,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 256,
+      "y": 472,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 39,
+        "condition": "map.blocksA"
+      }
+    },
+    {
+      "type": "Compressor",
+      "x": 224,
+      "y": 256,
+      "level": 1,
+      "settings": { "name": "", "mapId": 40 }
+    },
+    {
+      "type": "Compressor",
+      "x": 160,
+      "y": 256,
+      "level": 1,
+      "settings": { "name": "", "mapId": 41 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 236,
+      "level": 1,
+      "settings": { "name": "", "mapId": 42 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 260,
+      "level": 1,
+      "settings": { "name": "", "mapId": 43 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 284,
+      "level": 1,
+      "settings": { "name": "", "mapId": 44 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 308,
+      "level": 1,
+      "settings": { "name": "", "mapId": 45 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 332,
+      "level": 1,
+      "settings": { "name": "", "mapId": 47 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 356,
+      "level": 1,
+      "settings": { "name": "", "mapId": 48 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 376,
+      "level": 1,
+      "settings": { "name": "", "mapId": 49 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 436,
+      "level": 1,
+      "settings": { "name": "", "mapId": 50 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 460,
+      "level": 1,
+      "settings": { "name": "", "mapId": 51 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 392,
+      "y": 484,
+      "level": 1,
+      "settings": { "name": "", "mapId": 52 }
+    },
+    {
+      "type": "BallChanger",
+      "x": 188,
+      "y": 220,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "mapId": 53,
+        "condition": "map.barrierADown",
+        "changerType": {
+          "type": "CHANGE_ELEMENT",
+          "settings": { "element": "WAVE" }
+        }
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 448,
+      "y": 472,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "NW",
+        "mapId": 54,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 500,
+      "y": 472,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 55,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 552,
+      "y": 360,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 56,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 552,
+      "y": 428,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 57,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 472,
+      "y": 280,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 58,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 616,
+      "y": 308,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 59,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 484,
+      "y": 360,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "NE",
+        "mapId": 62,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 424,
+      "y": 420,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SE",
+        "mapId": 63,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 424,
+      "y": 352,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 64,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "RotateBlocker",
+      "x": 424,
+      "y": 280,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "dir": "SW",
+        "mapId": 65,
+        "condition": "map.blocksB"
+      }
+    },
+    {
+      "type": "Compressor",
+      "x": 560,
+      "y": 256,
+      "level": 1,
+      "settings": { "name": "", "mapId": 66 }
+    },
+    {
+      "type": "Compressor",
+      "x": 624,
+      "y": 256,
+      "level": 1,
+      "settings": { "name": "", "mapId": 67 }
+    },
+    {
+      "type": "BallChanger",
+      "x": 588,
+      "y": 220,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "mapId": 68,
+        "condition": "map.barrierBDown",
+        "changerType": {
+          "type": "CHANGE_ELEMENT",
+          "settings": { "element": "WAVE" }
+        }
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 656,
+      "y": 304,
+      "level": 1,
+      "settings": {
+        "name": "FocusB",
+        "eventType": "INTERRUPTABLE",
+        "endCondition": "false",
+        "event": [
+          {
+            "pos": { "x": 560, "y": 336 },
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0,
+            "zoom": 1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "triggerType": "ALWAYS",
+        "mapId": 69,
+        "startCondition": "tmp.focusB"
+      }
+    },
+    {
+      "type": "TouchTrigger",
+      "x": 544,
+      "y": 200,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 112, "y": 80 },
+        "type": "WHILE_TOUCH_TRUE",
+        "zHeight": 24,
+        "reactToParty": false,
+        "mapId": 71,
+        "variable": "tmp.focusB",
+        "startCondition": "map.blocksB && map.focusBReady "
+      }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 240,
+      "y": 204,
+      "level": 1,
+      "settings": { "name": "", "mapId": 72 }
+    },
+    {
+      "type": "FloorSwitch",
+      "x": 192,
+      "y": 160,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "switchType": "PERMANENT",
+        "mapId": 73,
+        "variable": "map.barrierADown"
+      }
+    },
+    {
+      "type": "WallHorizontal",
+      "x": 144,
+      "y": 280,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 112, "y": 8 },
+        "skipRender": false,
+        "leftEnd": "STOP",
+        "rightEnd": "STOP",
+        "collType": "BLOCK",
+        "wallZHeight": 48,
+        "noNavMapBlock": false,
+        "mapId": 74,
+        "condition": "!map.barrierADown"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 112,
+      "y": 336,
+      "level": 1,
+      "settings": {
+        "name": "ActivateLeft",
+        "eventType": "PARALLEL",
+        "endCondition": "false",
+        "event": [
+          {
+            "pos": { "x": 280, "y": 384 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0,
+            "zoom": 1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.blocksA",
+            "value": true
+          },
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          {
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.focusAReady",
+            "value": true
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 75,
+        "startCondition": "map.barrierADown"
+      }
+    },
+    {
+      "type": "TouchTrigger",
+      "x": 144,
+      "y": 200,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 112, "y": 80 },
+        "type": "WHILE_TOUCH_TRUE",
+        "zHeight": 24,
+        "reactToParty": false,
+        "mapId": 76,
+        "variable": "tmp.focusA",
+        "startCondition": "map.blocksA && map.focusAReady"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 112,
+      "y": 304,
+      "level": 1,
+      "settings": {
+        "name": "FocusA",
+        "eventType": "INTERRUPTABLE",
+        "endCondition": "false",
+        "event": [
+          {
+            "pos": { "x": 240, "y": 336 },
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0,
+            "zoom": 1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "triggerType": "ALWAYS",
+        "mapId": 77,
+        "startCondition": "tmp.focusA"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 112,
+      "y": 368,
+      "level": 1,
+      "settings": {
+        "name": "leftDone",
+        "eventType": "PARALLEL",
+        "endCondition": "false",
+        "event": [
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.blocksA",
+            "value": false
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 78,
+        "startCondition": "map.waveLeft == 2"
+      }
+    },
+    {
+      "type": "WallHorizontal",
+      "x": 384,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 8 },
+        "skipRender": false,
+        "leftEnd": "STOP",
+        "rightEnd": "STOP",
+        "collType": "BLOCK",
+        "wallZHeight": 32,
+        "noNavMapBlock": false,
+        "mapId": 79,
+        "condition": "!map.finalBarrierDown"
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 352,
+      "y": 232,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 80,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 432,
+      "y": 232,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 81,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 288,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 48, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 82,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 336,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 40 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 83,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_WEST", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 336,
+      "y": 216,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 84,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNEtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 256,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 96 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 85,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_WEST", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 256,
+      "y": 280,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 86,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "WEST_END", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 272,
+      "y": 264,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 87,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNWtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 280,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 88 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 88,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_EAST", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 368,
+      "y": 216,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 89,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNWtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 376,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 40 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 90,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_END", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 356,
+      "y": 180,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 40 },
+        "mapId": 91,
+        "condition": "map.waveLeft != 2"
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 308,
+      "y": 164,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 56, "y": 8 },
+        "mapId": 92,
+        "condition": "map.waveLeft != 2"
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 364,
+      "y": 172,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 24, "y": 8 },
+        "mapId": 93,
+        "condition": "map.waveLeft != 2"
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 436,
+      "y": 180,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 40 },
+        "mapId": 94,
+        "condition": "map.waveRight != 2"
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 436,
+      "y": 164,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 56, "y": 8 },
+        "mapId": 95,
+        "condition": "map.waveRight != 2"
+      }
+    },
+    {
+      "type": "GlowingLine",
+      "x": 412,
+      "y": 172,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 24, "y": 8 },
+        "mapId": 96,
+        "condition": "map.waveRight != 2"
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 448,
+      "y": 216,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 97,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNWtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 416,
+      "y": 216,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 98,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNEtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 416,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 40 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 99,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_END", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 456,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 40 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 100,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_EAST", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 464,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 48, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 101,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 512,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 88 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 102,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_WEST", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 512,
+      "y": 264,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 103,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNEtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 528,
+      "y": 280,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 104,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "EAST_END" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 536,
+      "y": 184,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 8, "y": 96 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 105,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceV",
+          "ends": { "north": "NORTH_EAST", "south": "SOUTH_MIX" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 560,
+      "y": 152,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 106,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNWtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 544,
+      "y": 168,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 107,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNWmid" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 240,
+      "y": 168,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 109,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNEmid" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 224,
+      "y": 152,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 110,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNEtop" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "HiddenBlock",
+      "x": 384,
+      "y": 192,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 32 },
+        "shape": "RECTANGLE",
+        "heightShape": "NORTH_UP",
+        "zHeight": 32,
+        "terrain": "",
+        "mapId": 111
+      }
+    },
+    {
+      "type": "WallHorizontal",
+      "x": 544,
+      "y": 280,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 112, "y": 8 },
+        "skipRender": false,
+        "leftEnd": "STOP",
+        "rightEnd": "STOP",
+        "collType": "BLOCK",
+        "wallZHeight": 48,
+        "noNavMapBlock": false,
+        "mapId": 112,
+        "condition": "!map.barrierBDown"
+      }
+    },
+    {
+      "type": "FloorSwitch",
+      "x": 592,
+      "y": 164,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "switchType": "PERMANENT",
+        "mapId": 113,
+        "variable": "map.barrierBDown"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 656,
+      "y": 336,
+      "level": 1,
+      "settings": {
+        "name": "ActivateRight",
+        "eventType": "PARALLEL",
+        "endCondition": "false",
+        "event": [
+          {
+            "pos": { "x": 520, "y": 384 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0,
+            "zoom": 1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.blocksB",
+            "value": true
+          },
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          {
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.focusBReady",
+            "value": true
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 114,
+        "startCondition": "map.barrierBDown"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 656,
+      "y": 368,
+      "level": 1,
+      "settings": {
+        "name": "rightDone",
+        "eventType": "PARALLEL",
+        "endCondition": "false",
+        "event": [
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.blocksB",
+            "value": false
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 115,
+        "startCondition": "map.waveRight == 2"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 392,
+      "y": 224,
+      "level": 1,
+      "settings": {
+        "name": "FinalOpen",
+        "eventType": "CUTSCENE",
+        "endCondition": "false",
+        "event": [
+          {
+            "pos": { "x": 400, "y": 160 },
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0,
+            "zoom": 1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "map.finalBarrierDown",
+            "value": true
+          },
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          {
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 116,
+        "startCondition": "map.waveLeft = 2 && map.waveRight = 2"
+      }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 352,
+      "y": 220,
+      "level": 1,
+      "settings": { "name": "", "mapId": 117 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 432,
+      "y": 220,
+      "level": 1,
+      "settings": { "name": "", "mapId": 118 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 304,
+      "y": 172,
+      "level": 1,
+      "settings": { "name": "", "mapId": 119 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 480,
+      "y": 172,
+      "level": 1,
+      "settings": { "name": "", "mapId": 120 }
+    },
+    {
+      "type": "HiddenBlock",
+      "x": 112,
+      "y": 144,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 64 },
+        "shape": "RECTANGLE",
+        "heightShape": "WEST_UP",
+        "zHeight": 32,
+        "terrain": "",
+        "mapId": 121
+      }
+    },
+    {
+      "type": "HiddenBlock",
+      "x": 656,
+      "y": 144,
+      "level": 1,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 64 },
+        "shape": "RECTANGLE",
+        "heightShape": "EAST_UP",
+        "zHeight": 32,
+        "terrain": "",
+        "mapId": 122
+      }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 544,
+      "y": 188,
+      "level": 1,
+      "settings": { "name": "", "mapId": 123 }
+    },
+    {
+      "type": "AntiCompressor",
+      "x": 544,
+      "y": 204,
+      "level": 1,
+      "settings": { "name": "", "mapId": 124 }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 656,
+      "y": 280,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 125,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "WEST_END", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 672,
+      "y": 280,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 126,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNEmid" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 688,
+      "y": 296,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 127,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "EAST_END" }
+        }
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 80,
+      "y": 296,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 128,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "WEST_END", "east": "" }
+        }
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 112,
+      "y": 280,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "mapId": 129,
+        "propType": { "sheet": "shockwave-dng", "name": "slopeNWmid" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "ScalableProp",
+      "x": 128,
+      "y": 280,
+      "level": 2,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 8 },
+        "patternOffset": { "x": 0, "y": 0 },
+        "timeOffset": 0,
+        "blockNavMap": false,
+        "mapId": 130,
+        "propConfig": {
+          "sheet": "shockwave-dng",
+          "name": "fenceH",
+          "ends": { "west": "", "east": "EAST_END" }
+        }
+      }
+    },
+    {
+      "type": "TeleportField",
+      "x": 388,
+      "y": 400,
+      "level": 1,
+      "settings": {
+        "name": "checkpointA",
+        "central": { "global": true, "name": "" },
+        "dir": "SOUTH",
+        "map": "shock-dng.g.room1",
+        "teleportLabel": {
+          "en_US": "Back To Entrance",
+          "pt_BR": "Voltar para a Entrada",
+          "de_DE": "Zur\u00fcck zum Eingang",
+          "fr_FR": "fr_FR",
+          "langUid": 3,
+          "zh_CN": "\u8fd4\u56de\u81f3\u5165\u53e3",
+          "ko_KR": "\uc785\uad6c\ub85c \ub3cc\uc544\uac00\uae30",
+          "ja_JP": "\u5165\u53e3\u3078\u3082\u3069\u308b",
+          "zh_TW": "\u8fd4\u56de\u81f3\u5165\u53e3"
+        },
+        "longTelCond": "false",
+        "gfxType": "AR",
+        "mapId": 131,
+        "marker": "checkpointA",
+        "blockEventCondition": "",
+        "spawnCondition": "shock-dng.checkpointA"
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 656,
+      "y": 416,
+      "level": 1,
+      "settings": {
+        "name": "checkpoint",
+        "eventType": "CUTSCENE",
+        "endCondition": "false",
+        "event": [
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.2 },
+          {
+            "pos": { "x": 400, "y": 412 },
+            "speed": "NORMAL",
+            "transition": "EASE_IN_OUT",
+            "wait": true,
+            "waitSkip": 0,
+            "zoom": 1,
+            "type": "SET_CAMERA_POS"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "shock-dng.checkpointA",
+            "value": true
+          },
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          {
+            "speed": "FAST",
+            "transition": "EASE_IN_OUT",
+            "wait": false,
+            "waitSkip": 0,
+            "type": "RESET_CAMERA"
+          }
+        ],
+        "triggerType": "ONCE",
+        "mapId": 132
+      }
+    },
+    {
+      "type": "EventTrigger",
+      "x": 528,
+      "y": 16,
+      "level": 1,
+      "settings": {
+        "name": "Dlink1",
+        "eventType": "CUTSCENE",
+        "endCondition": "plot.shockLine >=500  ",
+        "event": [
+          { "ignoreSlowDown": false, "type": "WAIT", "time": 0.5 },
+          { "type": "START_PRIVATE_MSG" },
+          {
+            "side": "RIGHT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": { "person": "main.lea", "expression": "DEFAULT" }
+          },
+          {
+            "side": "RIGHT",
+            "order": 5,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": { "person": "main.glasses", "expression": "DEFAULT" }
+          },
+          {
+            "side": "LEFT",
+            "order": 0,
+            "clearSide": false,
+            "type": "ADD_MSG_PERSON",
+            "person": { "person": "main.emilie", "expression": "DEFAULT" }
+          },
+          {
+            "message": {
+              "en_US": "Ugh... those \\c[3]large Wave balls\\c[0]...\\. how do they even work?\\. They make my brain hurt.",
+              "pt_BR": "Ugh... essas \\c[3]grandes bolas de Onda\\c[0]...\\. como elas funcionam? Elas fazem meu cérebro bugar.",
+              "de_DE": "Uff... Diese \\c[3]gro\u00dfen Wirbelb\u00e4lle\\c[0]...\\. Wie funktionieren die \u00fcberhaupt?\\. Die machen mir Kopfschmerzen.",
+              "zh_CN": "\u5443...\u90a3\u4e9b\\c[3]\u5927\u578b\u6ce2\u52a8\u7403\\c[0]...\\.\u5230\u5e95\u662f\u600e\u4e48\u56de\u4e8b\uff1f\\.\u771f\u662f\u5934\u75bc\u3002<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u3046\u30fc\u3093...\u3042\u306e\\c[3]\u5927\u304d\u306a\u6ce2\u52d5\u306e\u30dc\u30fc\u30eb\\c[0]...\\.\n\u3042\u308c\u3063\u3066\u3069\u3046\u3044\u3046\u4ed5\u7d44\u307f\u306a\u306e\uff1f\\.\n\u982d\u75db\u304f\u306a\u3063\u3066\u304d\u305f\u3002<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uc73d... \uc800 \\c[3]\uac70\ub300\ud55c \ud30c\ub3d9\uc758 \uacf5\\c[0]...\\. \ub300\uccb4 \uc5b4\ub5bb\uac8c \uc6c0\uc9c1\uc774\ub294 \uac70\uc9c0?\\. \ub0b4 \uba38\ub9ac\uac00 \ub2e4 \uc544\ud504\ub124.<<A<<[CHANGED 2018/03/14]",
+              "langUid": 133,
+              "zh_TW": "\u5443...\u90a3\u4e9b\\c[3]\u5927\u578b\u6ce2\u52d5\u7403\\c[0]...\\.\u5230\u5e95\u662f\u600e\u9ebc\u56de\u4e8b\uff1f\\.\u771f\u662f\u982d\u75db\u3002<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "EXHAUSTED" }
+          },
+          {
+            "message": {
+              "en_US": "Yeah, they are strange but they do make sense if you watch them closely.",
+              "pt_BR": "Sim, elas são estranhas, mas fazem sentido se você as observar de perto.",
+              "de_DE": "Joa, die sind schon seltsam, aber bei genauerer Betrachtung durchaus logisch.",
+              "zh_CN": "\u786e\u5b9e\u6709\u4e9b\u5947\u602a\uff0c\u4f46\u662f\u4ed4\u7ec6\u89c2\u5bdf\u7684\u8bdd\u8fd8\u662f\u6709\u89c4\u5f8b\u53ef\u5faa\u7684\u3002<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u3048\u3048\u3001\u78ba\u304b\u306b\u5999\u306a\u52d5\u304d\u65b9\u3092\u3057\u307e\u3059\u3051\u3069\u3001\n\u3088\u304f\u89b3\u5bdf\u3059\u308c\u3070\u308f\u304b\u308b\u306f\u305a\u3067\u3059\u3088\u3002<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\ub9de\uc544, \uc774\uc0c1\ud558\uae34 \ud574. \ud558\uc9c0\ub9cc \uc798 \ubcf4\uba74 \uc774\ud574\uac00 \ub420 \uac70\uc57c.<<A<<[CHANGED 2018/03/14]",
+              "langUid": 148,
+              "zh_TW": "\u78ba\u5be6\u6709\u4e9b\u5947\u602a\uff0c\u4f46\u662f\u4ed4\u7d30\u89c0\u5bdf\u7684\u8a71\u9084\u662f\u6709\u898f\u5f8b\u53ef\u5faa\u7684\u3002<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.glasses", "expression": "EMBARRASSED" }
+          },
+          {
+            "message": {
+              "en_US": "Wait, don't tell me any more. I'll figure it out myself.",
+              "pt_BR": "Espera, não me diga mais nada. Eu mesmo vou descobrir.",
+              "de_DE": "Moment, sag's mir nicht. Ich find's allein raus.",
+              "zh_CN": "\u884c\u4e86\uff0c\u522b\u518d\u544a\u8bc9\u6211\u4e86\u3002\u6211\u81ea\u5df1\u4f1a\u60f3\u529e\u6cd5\u7684\u3002<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u5f85\u3063\u3066\u3001\u305d\u308c\u4ee5\u4e0a\u306f\u8a00\u308f\u306a\u3044\u3067\u3002\n\u81ea\u529b\u3067\u7406\u89e3\u3057\u305f\u3044\u304b\u3089\u3002<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uc544\ub0d0, \ub354 \uc774\uc0c1 \ub9d0\ud558\uc9c0 \ub9c8. \ub0b4\uac00 \uc54c\uc544\ub0b4 \ubcfc\uac8c.<<A<<[CHANGED 2018/03/14]",
+              "langUid": 149,
+              "zh_TW": "\u884c\u4e86\uff0c\u5225\u518d\u544a\u8a34\u6211\u4e86\u3002\u6211\u81ea\u5df1\u6703\u60f3\u8fa6\u6cd5\u7684\u3002<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "SUSPICIOUS" }
+          },
+          {
+            "message": {
+              "en_US": "By the way, did you already meet the... I think third enemy type?",
+              "pt_BR": "A propósito, você já encontrou o... terceiro tipo de inimigo?",
+              "de_DE": "\u00dcbrigens, seid ihr schon dem... ich glaube 3. Gegnertyp begegnet?",
+              "zh_CN": "\u5bf9\u4e86\uff0c\u4f60\u4eec\u89c1\u8fc7...\u7b2c\u4e09\u79cd\u654c\u4eba\u6ca1\u6709?<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3068\u3053\u308d\u3067\u3055\u3001\u307f\u3093\u306a...\n3\u3064\u76ee\u306e\u30bf\u30a4\u30d7\u306e\u6575\u306b\u306f\n\u3082\u3046\u4f1a\u3063\u305f\uff1f<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc544, \uadfc\ub370 \uadf8... \uc138 \ubc88\uc9f8 \uc801 \ud0c0\uc785\uc778\uac00 \uadf8\uac70\ub97c \ubc8c\uc368 \ub9cc\ub09c \uac70\uc57c?<<A<<[CHANGED 2018/09/19]",
+              "langUid": 150,
+              "zh_TW": "\u5c0d\u4e86\uff0c\u4f60\u5011\u898b\u904e...\u7b2c\u4e09\u7a2e\u6575\u4eba\u6c92\u6709?<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "CURIOUS" }
+          },
+          {
+            "message": {
+              "en_US": "You mean the \\c[3]floaty fog thingies\\c[0]?",
+              "pt_BR": "Você fala daquelas \\c[3]coisas de fumaça flutuante\\c[0]?",
+              "de_DE": "Du meinst diese \\c[3]fliegenden Nebeldinger\\c[0]?",
+              "zh_CN": "\u4f60\u662f\u8bf4\u90a3\u79cd\\c[3]\u96fe\u6c14\u4e00\u6837\\c[0]\u7684\u654c\u4eba\u5417?<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u3042\u306e\\c[3]\u5b99\u306b\u6d6e\u304f\u9727\u306e\u3088\u3046\u306a\u6575\\c[0]\u306e\n\u3053\u3068\u3067\u3059\u304b\uff1f<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\\c[3]\ub5a0\ub2e4\ub2c8\ub294 \uc548\uac1c \ubb50\uc2dc\uae30\\c[0] \ub9d0\uc774\uc57c?<<A<<[CHANGED 2018/03/14]",
+              "langUid": 151,
+              "zh_TW": "\u4f60\u662f\u8aaa\u90a3\u7a2e\\c[3]\u9727\u6c23\u4e00\u6a23\\c[0]\u7684\u6575\u4eba\u55ce?<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.glasses", "expression": "TOWARD" }
+          },
+          {
+            "message": {
+              "en_US": "[nods]",
+              "pt_BR": "[acena a cabeça]",
+              "de_DE": "[nickt]",
+              "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2018/03/14]",
+              "langUid": 152,
+              "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "NOD" }
+          },
+          {
+            "message": {
+              "en_US": "Right... those weird ghosts.",
+              "pt_BR": "Certo... aqueles fantasmas esquisitos.",
+              "de_DE": "Genau... diese gruseligen Geister.",
+              "zh_CN": "\u5bf9\u554a...\u5c31\u662f\u90a3\u4e9b\u9b3c\u602a\u3002<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u305d\u3046...\u3042\u306e\u6c17\u6301\u3061\u60aa\u3044\n\u304a\u3070\u3051\u305f\u3061\u3002<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uadf8\ub798... \uadf8 \uc774\uc0c1\ud55c \uc720\ub839\ub4e4.<<A<<[CHANGED 2018/03/14]",
+              "langUid": 153,
+              "zh_TW": "\u5c0d\u554a...\u5c31\u662f\u90a3\u4e9b\u9b3c\u602a\u3002<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "SUSPICIOUS" }
+          },
+          {
+            "message": {
+              "en_US": "Why can't I just punch them?",
+              "pt_BR": "Por que eu não consigo socar eles?",
+              "de_DE": "Warum kann ich sie nicht einfach verpr\u00fcgeln?",
+              "zh_CN": "\u4e3a\u4ec0\u4e48\u6211\u4e0d\u80fd\u6bb4\u6253\u5b83\u4eec\uff1f<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u3069\u3046\u3057\u3066\u3042\u3044\u3064\u3089\u306f\n\u30d1\u30f3\u30c1\u3067\u304d\u306a\u3044\u3093\u3060\u308d\u3046\uff1f<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uac54\ub4e4\uc740 \uc65c \ub54c\ub9b4 \uc218\uac00 \uc5c6\uc9c0?<<A<<[CHANGED 2018/03/14]",
+              "langUid": 154,
+              "zh_TW": "\u70ba\u4ec0\u9ebc\u6211\u4e0d\u80fd\u6bc6\u6253\u5b83\u5011\uff1f<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "MOPING" }
+          },
+          {
+            "message": {
+              "en_US": "They're ghosts. You can't simply punch ghosts.",
+              "pt_BR": "Eles são fantamas, Você não consegue atingir eles com simples socos.",
+              "de_DE": "Das sind Geister. Geister kann man nicht verpr\u00fcgeln.",
+              "zh_CN": "\u9b3c\u602a\u600e\u4e48\u6bb4\u6253\u561b\uff0c\u90a3\u53ef\u662f\u9b3c\u5509\u3002<<A<<[CHANGED 2018/09/19]",
+              "ja_JP": "\u3060\u3063\u3066\u304a\u3070\u3051\u3067\u3059\u3088\u3002\n\u304a\u3070\u3051\u306f\u30d1\u30f3\u30c1\u3067\u304d\u307e\u305b\u3093\u3088\u3002<<A<<[CHANGED 2018/09/19]",
+              "ko_KR": "\uc720\ub839\uc774\uc796\uc544. \uc720\ub839\uc740 \ub54c\ub9b4 \uc218 \uc5c6\uc9c0.<<A<<[CHANGED 2018/09/19]",
+              "langUid": 155,
+              "zh_TW": "\u9b3c\u602a\u600e\u9ebc\u6bc6\u6253\u561b\uff0c\u90a3\u53ef\u662f\u9b3c\u5509\u3002<<A<<[CHANGED 2018/09/19]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.glasses", "expression": "THOUGHTFUL" }
+          },
+          {
+            "message": {
+              "en_US": "Well, that is until we finally get the element of this temple, I suppose.",
+              "pt_BR": "Bom, isso é, até finalmente obtermos o elemento deste templo, eu acho.",
+              "de_DE": "Das hei\u00dft...\\. Sobald wir das hiesige Element erhalten haben, vielleicht doch.",
+              "zh_CN": "\u8d77\u7801\u6253\u901a\u4e4b\u540e\u80fd\u62ff\u5230\u8fd9\u4e2a\u795e\u5e99\u7684\u5143\u7d20\u3002<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u307e\u3042\u3001\u3053\u306e\u795e\u6bbf\u3067\u624b\u306b\u5165\u308b\u30a8\u30ec\u30e1\u30f3\u30c8\u304c\n\u3042\u308c\u3070\u653b\u6483\u3067\u304d\u308b\u3093\u3058\u3083\u306a\u3044\u304b\u3068\n\u601d\u3044\u307e\u3059\u3088\u3002<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uadf8\uac74 \uc544\ub9c8 \uc774 \uc0ac\uc6d0\uc758 \uc18d\uc131\uc744 \uc5bb\uc5b4\uc57c \ud574\uacb0\ud560 \uc218 \uc788\ub294 \uac83 \uac19\uc544.<<A<<[CHANGED 2018/03/14]",
+              "langUid": 156,
+              "zh_TW": "\u8d77\u78bc\u6253\u901a\u4e4b\u5f8c\u80fd\u62ff\u5230\u9019\u500b\u795e\u5edf\u7684\u5143\u7d20\u3002<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.glasses", "expression": "DEFAULT" }
+          },
+          {
+            "message": {
+              "en_US": "Oh, that's right!",
+              "pt_BR": "Ah, é verdade!",
+              "de_DE": "Oh, stimmt!",
+              "zh_CN": "\u5bf9\u54e6\uff01<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u3042\u3063\u3001\u305d\u3046\u304b\u3082\u306d\uff01<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uc544, \uadf8\ub7ec\ub124!<<A<<[CHANGED 2018/03/14]",
+              "langUid": 157,
+              "zh_TW": "\u5c0d\u54e6\uff01<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "ASTONISHED" }
+          },
+          {
+            "message": {
+              "en_US": "I can't wait for that moment!",
+              "pt_BR": "Mal posso esperar por esse momento!",
+              "de_DE": "Kann's kaum erwarten!",
+              "zh_CN": "\u6211\u7b49\u4e0d\u53ca\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "\u30a8\u30ec\u30e1\u30f3\u30c8\u3092\u624b\u306b\u5165\u308c\u308b\u306e\u304c\n\u5f85\u3061\u304d\u308c\u306a\u3044\u306a\u3042\uff01<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "\uc5b4\uc11c \ube68\ub9ac \uc720\ub839\uc744 \ub54c\ub9ac\uace0 \uc2f6\ub2e4!<<A<<[CHANGED 2018/03/14]",
+              "langUid": 158,
+              "zh_TW": "\u6211\u7b49\u4e0d\u53ca\u4e86\uff01<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.emilie", "expression": "TAUNTING" }
+          },
+          {
+            "message": {
+              "en_US": "...",
+              "pt_BR": "...",
+              "de_DE": "...",
+              "zh_CN": "...<<A<<[CHANGED 2018/03/14]",
+              "ja_JP": "...<<A<<[CHANGED 2018/03/14]",
+              "ko_KR": "...<<A<<[CHANGED 2018/03/14]",
+              "langUid": 159,
+              "zh_TW": "...<<A<<[CHANGED 2018/03/14]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": { "person": "main.lea", "expression": "SMILE" }
+          },
+          { "type": "END_PRIVATE_MSG" },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_NUMBER",
+            "varName": "plot.shockLine",
+            "value": 500
+          }
+        ],
+        "triggerType": "ALWAYS",
+        "mapId": 133,
+        "startCondition": "map.focusBReady && map.focusAReady "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "id": 0,
+      "type": "Background",
+      "name": "Below",
+      "level": "0",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "type": "Background",
+      "name": "BelowDetails",
+      "level": "0",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Collision",
+      "name": "Collision",
+      "level": "0",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Background",
+      "name": "Ground",
+      "level": "1",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 200, 231, 231, 231, 231, 198,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 200, 232, 263, 263, 263, 263, 230,
+          198, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 200, 231, 231, 231, 231, 231, 231, 231, 231,
+          231, 231, 231, 231, 231, 231, 231, 232, 264, 290, 290, 290, 290, 262,
+          230, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231, 231,
+          231, 231, 198, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 200, 232, 263, 263, 263, 263, 263, 263, 263, 263,
+          263, 263, 263, 263, 263, 263, 263, 264, 291, 322, 322, 322, 322, 289,
+          262, 263, 263, 263, 263, 263, 263, 263, 263, 263, 263, 263, 263, 263,
+          263, 263, 230, 198, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 138, 264, 290, 290, 290, 290, 290, 290, 290, 290,
+          290, 290, 290, 290, 290, 290, 290, 291, 323, 354, 354, 354, 354, 321,
+          289, 290, 290, 290, 290, 290, 290, 290, 290, 290, 290, 290, 290, 290,
+          290, 290, 262, 137, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 291, 322, 322, 322, 322, 322, 322, 322, 322,
+          322, 322, 322, 322, 322, 322, 322, 323, 274, 167, 167, 167, 167, 272,
+          321, 322, 322, 322, 322, 322, 322, 322, 322, 322, 322, 322, 322, 322,
+          322, 322, 289, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 323, 354, 290, 290, 290, 290, 290, 290, 290,
+          354, 354, 354, 354, 354, 354, 354, 274, 167, 167, 167, 167, 167, 167,
+          272, 354, 354, 354, 354, 354, 354, 354, 290, 290, 290, 290, 290, 290,
+          290, 354, 321, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 274, 167, 322, 322, 322, 322, 322, 322, 322,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 322, 322, 322, 322, 322, 322,
+          322, 167, 272, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 200, 202, 167, 167, 354, 354, 354, 354, 354, 354, 354,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 354, 354, 354, 354, 354, 354,
+          354, 167, 167, 201, 198, 167, 167, 167
+        ],
+        [
+          167, 167, 200, 232, 234, 167, 167, 2, 2, 39, 1, 1, 1, 1, 257, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 259, 1, 1, 1, 1, 7, 2, 2, 167, 167, 233, 230,
+          198, 167, 167
+        ],
+        [
+          167, 167, 138, 264, 261, 167, 167, 2, 2, 39, 1, 8, 6, 9, 353, 257,
+          167, 167, 258, 258, 258, 167, 167, 258, 258, 258, 258, 167, 167, 258,
+          258, 258, 167, 167, 259, 355, 8, 6, 9, 1, 7, 2, 2, 167, 167, 260, 262,
+          137, 167, 167
+        ],
+        [
+          167, 167, 138, 291, 293, 167, 167, 2, 2, 4, 6, 3, 2, 4, 6, 267, 198,
+          200, 354, 354, 354, 198, 167, 200, 354, 354, 198, 167, 200, 354, 354,
+          354, 198, 200, 269, 6, 3, 2, 4, 6, 3, 2, 2, 167, 167, 292, 289, 137,
+          167, 167
+        ],
+        [
+          167, 167, 138, 323, 325, 258, 167, 2, 2, 2, 2, 2, 2, 2, 2, 2, 167,
+          167, 2, 2, 2, 167, 258, 167, 38, 38, 167, 258, 167, 2, 2, 2, 167, 167,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 167, 167, 324, 321, 137, 167, 167
+        ],
+        [
+          167, 167, 170, 274, 167, 167, 167, 135, 138, 2, 2, 2, 2, 2, 2, 2, 167,
+          167, 2, 2, 2, 257, 258, 259, 1, 1, 257, 258, 259, 2, 2, 2, 167, 167,
+          2, 2, 2, 2, 2, 2, 2, 137, 135, 167, 167, 167, 272, 169, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 258, 258, 258, 167, 2, 2, 2, 2, 2, 2, 2, 167,
+          167, 2, 2, 2, 267, 354, 355, 1, 1, 353, 354, 269, 2, 2, 2, 167, 167,
+          2, 2, 2, 2, 2, 2, 2, 167, 167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 2, 2, 2, 2, 2, 2, 2, 167,
+          167, 2, 2, 2, 2, 4, 9, 1, 1, 8, 3, 2, 2, 2, 2, 167, 167, 2, 2, 2, 2,
+          2, 2, 2, 167, 167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 258, 258, 258, 229, 2, 2, 2, 2, 2, 2, 2, 228,
+          259, 2, 2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 257, 229, 2, 2, 2, 2,
+          2, 2, 2, 228, 258, 258, 258, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 326, 327, 258, 258, 259, 325, 35, 2, 2, 2, 2, 2, 2,
+          324, 269, 2, 2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 267, 325, 2, 2,
+          2, 2, 2, 2, 36, 324, 257, 258, 258, 327, 328, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 390, 391, 354, 354, 355, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39,
+          1, 353, 354, 354, 391, 392, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 200, 202, 1, 1, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1, 1,
+          1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 200, 232, 234, 1, 1, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1, 1,
+          1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 138, 264, 261, 8, 9, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1, 1,
+          8, 9, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 138, 291, 293, 40, 37, 9, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1,
+          8, 5, 41, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 138, 323, 261, 1, 40, 37, 6, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 6,
+          5, 41, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 138, 291, 293, 1, 1, 40, 35, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 36,
+          41, 1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 138, 323, 325, 9, 1, 1, 40, 35, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 36,
+          41, 1, 1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 170, 269, 2, 39, 1, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1, 1,
+          1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 2, 2, 39, 1, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1, 1, 1,
+          1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 2, 2, 39, 1, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 39, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1, 1, 1,
+          1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 239, 2, 39, 1, 1, 1, 7, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 36, 41, 1, 1, 40, 35, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 39, 1,
+          1, 1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 168, 138, 41, 1, 1, 8, 5, 38, 35, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 36, 41, 1, 1, 1, 1, 40, 35, 2, 2, 2, 2, 2, 2, 2, 2, 2, 36, 38,
+          37, 9, 1, 1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 1, 1, 8, 5, 41, 1, 40, 35, 2, 36, 38, 38, 38,
+          38, 38, 38, 41, 1, 1, 1, 1, 1, 1, 40, 38, 38, 38, 38, 38, 38, 35, 2,
+          36, 41, 1, 40, 37, 9, 1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 1, 8, 5, 41, 1, 1, 1, 40, 35, 39, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 7, 36, 41, 1, 1, 1,
+          40, 37, 9, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 1, 40, 41, 1, 1, 1, 1, 1, 40, 37, 9, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 8, 5, 41, 1, 1, 1, 1, 1,
+          40, 41, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 1, 1, 1, 1, 1, 1, 1, 1, 1, 40, 41, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 40, 41, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 136, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+          1, 1, 134, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 168, 135, 135, 135, 135, 135, 135, 135, 135,
+          135, 135, 135, 135, 135, 136, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 134, 135,
+          135, 135, 135, 135, 135, 135, 135, 135, 135, 135, 135, 135, 166, 167,
+          167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 168, 136, 1, 1, 1, 1, 1, 1, 1, 1, 134, 166,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 168, 136, 1, 1, 1, 1, 1, 1, 134, 166,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 168, 135, 135, 135, 135, 135, 135,
+          166, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ],
+        [
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167, 167,
+          167, 167, 167, 167, 167, 167, 167, 167
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Background",
+      "name": "GroundDetails",
+      "level": "1",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 568, 568, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 568, 568, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 568, 0, 0, 568, 568, 0, 568, 568, 0, 568, 0, 0,
+          568, 0, 0, 0, 566, 567, 598, 599, 0, 0, 0, 568, 0, 0, 568, 0, 568,
+          568, 0, 568, 568, 0, 0, 568, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 568, 0, 0, 568, 598, 600, 567, 568, 566, 567, 0,
+          566, 569, 0, 0, 0, 568, 0, 0, 568, 0, 0, 0, 601, 599, 0, 598, 599,
+          568, 598, 600, 567, 568, 0, 0, 568, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 568, 0, 0, 598, 599, 0, 566, 567, 568, 0, 0, 568,
+          598, 599, 0, 0, 0, 0, 0, 0, 0, 0, 566, 567, 568, 0, 0, 568, 598, 599,
+          0, 566, 567, 0, 0, 568, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 598, 599, 0, 566, 569, 0, 601, 599, 568, 0, 0,
+          568, 0, 568, 0, 0, 0, 0, 0, 0, 0, 0, 568, 0, 568, 0, 0, 568, 566, 569,
+          0, 601, 599, 0, 566, 567, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 320, 598, 599, 568, 568, 0, 568, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 568, 0, 568, 568,
+          566, 567, 318, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 352, 320, 598, 602, 568, 0, 568, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 568, 0, 568, 570,
+          567, 318, 350, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 352, 352, 0, 536, 536, 0, 536, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 536, 0,
+          350, 350, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 352, 352, 0, 536, 536, 0, 536, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 414, 416, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 536,
+          0, 350, 350, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 352, 352, 0, 534, 538, 0, 536, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 414, 416, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 506, 503,
+          0, 350, 350, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 352, 352, 0, 0, 536, 0, 536, 0, 0, 0, 0, 502, 0,
+          535, 0, 0, 0, 414, 416, 0, 0, 0, 502, 0, 535, 0, 0, 0, 0, 536, 0, 536,
+          0, 0, 350, 350, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 535, 0, 536, 0, 536, 0, 502, 0, 0, 536, 0,
+          536, 0, 0, 0, 414, 416, 0, 0, 0, 536, 0, 536, 0, 0, 535, 0, 536, 0,
+          536, 0, 502, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 0, 536, 0, 536, 0, 0, 536, 0,
+          536, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 0, 0, 536, 0, 536, 0, 536,
+          0, 536, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 0, 536, 0, 536, 0, 0, 536, 0,
+          536, 502, 0, 535, 0, 0, 502, 0, 535, 536, 0, 536, 0, 0, 536, 0, 536,
+          0, 536, 0, 536, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 0, 536, 0, 536, 0, 0, 536, 0,
+          536, 536, 0, 536, 0, 0, 536, 0, 536, 536, 0, 536, 0, 0, 536, 0, 536,
+          0, 536, 0, 536, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 0, 536, 0, 536, 0, 0, 536, 0,
+          536, 536, 0, 536, 0, 0, 536, 0, 536, 536, 0, 536, 0, 0, 536, 0, 536,
+          0, 536, 0, 536, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 536, 0, 536, 0, 536, 0, 536, 0, 0, 536, 0,
+          536, 536, 0, 536, 0, 0, 536, 0, 534, 503, 0, 536, 0, 502, 537, 0, 536,
+          0, 536, 0, 536, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 502, 537, 0, 536, 0, 536, 0, 536, 0, 0, 536,
+          0, 536, 536, 0, 536, 0, 0, 534, 535, 0, 0, 502, 503, 502, 503, 536, 0,
+          536, 0, 536, 0, 505, 535, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 502, 503, 536, 0, 534, 502, 503, 0, 536, 0, 0,
+          536, 0, 536, 536, 0, 536, 0, 0, 0, 534, 535, 502, 503, 0, 536, 0, 536,
+          0, 536, 0, 536, 0, 536, 534, 535, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 502, 537, 0, 534, 535, 0, 534, 535, 502, 503, 0,
+          502, 503, 0, 536, 536, 0, 536, 0, 0, 0, 502, 503, 534, 535, 0, 536, 0,
+          536, 0, 536, 502, 503, 0, 536, 0, 505, 535, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 502, 503, 536, 0, 0, 534, 535, 0, 534, 508, 504, 504,
+          503, 0, 502, 503, 536, 0, 536, 0, 0, 502, 503, 0, 0, 534, 504, 508,
+          504, 508, 504, 507, 503, 0, 502, 537, 0, 536, 534, 535, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 503, 502, 503, 0, 502, 503, 534, 535, 0, 0, 0, 0, 0,
+          502, 503, 0, 536, 0, 536, 0, 0, 536, 0, 502, 535, 0, 0, 0, 0, 0, 0, 0,
+          0, 502, 503, 536, 0, 534, 535, 534, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 502, 503, 0, 0, 536, 0, 502, 507, 504, 504, 504, 504,
+          504, 503, 0, 0, 536, 0, 536, 0, 0, 536, 0, 536, 534, 504, 504, 504,
+          504, 540, 504, 539, 504, 503, 0, 534, 535, 0, 534, 535, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 535, 0, 0, 0, 536, 0, 536, 0, 0, 0, 0, 0, 0, 502, 504,
+          539, 503, 0, 536, 0, 0, 536, 0, 536, 0, 0, 0, 0, 0, 536, 0, 536, 0, 0,
+          0, 0, 534, 535, 0, 534, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 501, 534, 504, 504, 535, 536, 0, 505, 535, 0, 0, 0, 0,
+          502, 503, 502, 503, 0, 502, 537, 0, 0, 536, 0, 505, 535, 0, 0, 0, 502,
+          537, 0, 505, 540, 504, 535, 0, 0, 534, 535, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 534, 533, 504, 535, 534, 538, 0, 536, 534, 504, 504, 504,
+          539, 503, 502, 503, 0, 502, 503, 536, 0, 0, 536, 0, 536, 534, 540,
+          504, 504, 503, 536, 0, 536, 534, 535, 534, 540, 504, 504, 507, 535, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 502, 533, 504, 503, 502, 537, 0, 534, 535, 0, 0, 502, 503,
+          502, 503, 0, 502, 503, 0, 536, 0, 0, 536, 0, 534, 535, 534, 535, 0,
+          502, 503, 0, 536, 0, 534, 535, 534, 535, 0, 0, 534, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 501, 502, 504, 539, 503, 505, 535, 0, 534, 504, 504, 508,
+          504, 503, 0, 502, 503, 0, 502, 537, 0, 0, 505, 535, 0, 534, 504, 507,
+          504, 503, 0, 502, 503, 0, 0, 534, 535, 534, 535, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 503, 502, 503, 502, 537, 534, 535, 0, 0, 0, 0, 0, 0,
+          502, 503, 0, 502, 503, 536, 0, 0, 536, 534, 535, 0, 0, 0, 0, 0, 502,
+          503, 0, 0, 0, 0, 505, 535, 534, 535, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 502, 503, 502, 503, 536, 0, 534, 504, 504, 504, 504,
+          539, 504, 503, 0, 502, 537, 0, 501, 0, 0, 501, 0, 505, 540, 504, 504,
+          504, 540, 503, 0, 0, 0, 0, 0, 536, 534, 535, 534, 535, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 503, 502, 503, 0, 536, 0, 0, 0, 502, 504, 539, 503, 0,
+          0, 502, 537, 536, 502, 503, 0, 0, 534, 535, 536, 505, 535, 0, 0, 534,
+          540, 504, 535, 0, 0, 0, 536, 0, 534, 535, 534, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 502, 503, 0, 502, 503, 0, 0, 502, 503, 502, 503, 0, 0,
+          502, 503, 536, 536, 534, 535, 0, 0, 502, 503, 536, 536, 534, 535, 0,
+          0, 534, 535, 534, 535, 0, 0, 534, 535, 0, 534, 535, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 503, 0, 502, 503, 0, 0, 502, 503, 502, 503, 0, 0, 502,
+          503, 502, 503, 536, 0, 501, 0, 0, 501, 0, 536, 534, 535, 534, 535, 0,
+          0, 534, 535, 534, 535, 0, 0, 534, 535, 0, 534, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 502, 503, 0, 0, 502, 503, 502, 503, 0, 0, 502, 503,
+          502, 503, 0, 534, 535, 534, 535, 502, 503, 502, 503, 0, 534, 535, 534,
+          535, 0, 0, 534, 535, 534, 535, 0, 0, 534, 535, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534,
+          535, 536, 536, 502, 503, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          534, 538, 506, 503, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 536, 536, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "type": "Background",
+      "name": "GroundPlants",
+      "level": "1",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1040, 0, 0, 1040, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1072, 0, 0, 0, 0, 1072, 1040,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 1072, 1040, 0, 1040, 1040, 0, 1072, 1040,
+          1040, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1040, 1072,
+          1072, 0, 0, 1040, 0, 1072, 1040, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 1040, 1072, 0, 1072, 1040, 0, 1040, 1040, 0, 0,
+          1072, 1040, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1072, 0,
+          1072, 1040, 0, 1040, 0, 0, 1072, 1072, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 1072, 0, 0, 0, 1072, 0, 0, 1040, 0, 0, 0, 1072, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1040, 0, 0, 0, 1040, 1072,
+          1072, 0, 0, 0, 1072, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1040, 1040, 0, 1072, 1072, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1040, 1040, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1072, 0, 0, 1040, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1040, 0, 1072, 1040,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1070, 972, 1037, 1070, 1004, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1039,
+          1068, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1034, 1071, 1069, 972, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1071, 1069, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1071, 1068, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1070, 972, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 1004, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1003, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 972, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 972, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 972, 0, 0, 0, 0, 0, 0, 0, 0, 0, 972, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1004, 1004, 0, 0, 0, 0, 0, 535, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          1003, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 972, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 972,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 502, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 1004, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 503, 0, 1004, 0, 0, 0, 0, 972, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 972, 0, 0, 0,
+          1004, 1004, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 0, 0, 0, 0, 0, 0, 0, 1003, 972, 0,
+          0, 972, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1003, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 972, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          1004, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 1003, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004, 0, 1066, 0,
+          0, 1069, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 1071, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1003,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1071,
+          1071, 1038, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 1003, 1071, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1069, 1071, 0, 0,
+          0, 1067, 1066, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 1066, 972, 0, 0, 1070, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1066, 1071,
+          0, 0, 1038, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1069, 1066, 1003, 1003, 1003, 0, 1069, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1004,
+          0, 0, 1071, 1071, 1037, 1071, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1069, 0, 1070, 0, 1004, 0, 0, 1069, 0, 1003, 1003, 0,
+          0, 0, 1069, 1070, 0, 0, 0, 0, 0, 0, 1066, 1069, 0, 0, 0, 0, 0, 0,
+          1004, 0, 0, 0, 0, 0, 0, 1071, 1070, 1034, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 1070, 1038, 1070, 1067, 0, 1066, 1069, 0, 972, 1004,
+          0, 972, 0, 0, 1066, 1067, 0, 0, 0, 0, 0, 0, 1069, 0, 0, 0, 1004, 0, 0,
+          0, 0, 0, 0, 1071, 1066, 1071, 1037, 1069, 1068, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 1067, 1069, 1034, 1070, 1069, 0, 1004, 0, 1004,
+          1004, 0, 1071, 1069, 1070, 1066, 972, 0, 0, 0, 0, 0, 1070, 1071, 1039,
+          1069, 0, 972, 1003, 0, 0, 1071, 1069, 1070, 0, 0, 1067, 1068, 0, 0, 0,
+          0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1067,
+          1034, 0, 1004, 0, 0, 0, 0, 1037, 1068, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1070,
+          1037, 1067, 0, 0, 0, 1071, 1070, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          1067, 1069, 1069, 0, 1071, 1034, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Collision",
+      "name": "Collision",
+      "level": "1",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 10, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 10, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 2, 2,
+          2, 0, 0, 2, 2, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 2, 2,
+          2, 0, 0, 2, 2, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 10, 2,
+          9, 0, 0, 10, 2, 9, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 9, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0,
+          0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0,
+          0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Background",
+      "name": "Upper",
+      "level": "2",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 199,
+          199, 199, 199, 199, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 199,
+          199, 10, 10, 10, 10, 199, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 199, 199, 199, 199, 199, 199, 199, 199, 199, 199, 199,
+          199, 199, 199, 199, 199, 199, 10, 10, 10, 10, 10, 10, 199, 199, 199,
+          199, 199, 199, 199, 199, 199, 199, 199, 199, 199, 199, 199, 199, 199,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 199, 199, 10, 0, 0, 0, 0, 0, 0, 0, 179, 10, 10, 10, 10,
+          10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 180,
+          0, 0, 0, 0, 0, 0, 0, 10, 199, 199, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 199, 10, 10, 0, 0, 0, 0, 0, 0, 0, 240, 208, 10, 10, 10,
+          10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 210, 242,
+          0, 0, 0, 0, 0, 0, 0, 10, 10, 199, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 199, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 240, 208, 210, 241,
+          241, 241, 208, 10, 210, 241, 241, 208, 10, 210, 241, 241, 241, 208,
+          210, 242, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 199, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 199, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0, 0, 0,
+          179, 10, 180, 0, 0, 179, 10, 180, 0, 0, 0, 179, 180, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 10, 10, 199, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 199, 10, 10, 145, 148, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0,
+          0, 0, 179, 10, 180, 0, 0, 179, 10, 180, 0, 0, 0, 179, 180, 0, 0, 0, 0,
+          0, 0, 0, 147, 145, 10, 10, 199, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 199, 199, 10, 10, 10, 180, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0,
+          0, 0, 240, 241, 242, 0, 0, 240, 241, 242, 0, 0, 0, 179, 180, 0, 0, 0,
+          0, 0, 0, 0, 179, 10, 10, 10, 199, 199, 0, 0, 0
+        ],
+        [
+          0, 0, 199, 199, 10, 10, 10, 10, 180, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0, 0, 0, 0, 0, 0, 0,
+          179, 10, 10, 10, 10, 199, 199, 0, 0
+        ],
+        [
+          0, 0, 199, 10, 10, 10, 10, 10, 180, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 179, 180, 0, 0, 0, 0, 0, 0, 0,
+          179, 10, 10, 10, 10, 10, 199, 0, 0
+        ],
+        [
+          0, 0, 199, 10, 10, 10, 10, 210, 212, 0, 0, 0, 0, 0, 0, 0, 211, 242, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 240, 212, 0, 0, 0, 0, 0, 0, 0,
+          211, 208, 10, 10, 10, 10, 199, 0, 0
+        ],
+        [
+          0, 0, 199, 276, 210, 241, 241, 242, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          240, 241, 241, 208, 275, 199, 0, 0
+        ],
+        [
+          0, 0, 0, 199, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          199, 199, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 199, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 199, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Background",
+      "name": "UpperDetails",
+      "level": "2",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          501, 0, 0, 501, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1074, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          502, 503, 0, 0, 534, 535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1106, 351, 0, 0, 0, 0, 0, 0, 0, 0, 534, 535, 1004, 534,
+          535, 534, 535, 534, 535, 0, 0, 502, 503, 502, 503, 502, 503, 1004,
+          502, 503, 0, 0, 0, 0, 0, 0, 0, 0, 319, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1037, 351, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534, 535, 0, 534,
+          535, 534, 535, 501, 0, 0, 501, 502, 503, 502, 503, 1004, 502, 503, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 319, 1004, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 1071, 351, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534, 0, 0,
+          536, 502, 503, 536, 0, 0, 536, 534, 535, 536, 0, 502, 503, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 319, 1004, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 535, 351, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 502, 0, 0, 0,
+          503, 502, 503, 0, 0, 534, 535, 534, 0, 0, 0, 535, 1003, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 319, 502, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 534, 535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 502, 503, 0, 0, 0,
+          504, 503, 0, 0, 0, 0, 534, 504, 0, 0, 0, 534, 535, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 502, 503, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 535, 534, 504, 504, 0, 0, 0, 0, 0, 0, 0, 503, 502, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 535, 534, 0, 0, 0, 0, 0, 0, 0,
+          504, 504, 503, 502, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 501, 534, 504, 535, 1003, 0, 0, 0, 0, 0, 0, 0, 502, 503,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534, 535, 0, 0, 0, 0, 0, 0,
+          0, 1004, 502, 504, 503, 501, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 534, 533, 535, 534, 504, 0, 0, 0, 0, 0, 0, 0, 503, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534, 0, 0, 0, 0, 0, 0, 0,
+          504, 503, 502, 533, 503, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 502, 533, 503, 502, 504, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 504,
+          535, 534, 533, 535, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 501, 502, 504, 503, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 534,
+          504, 535, 501, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Collision",
+      "name": "Collision",
+      "level": "2",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 9,
+          0, 0, 0, 0, 10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 9, 0,
+          0, 0, 0, 0, 0, 10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          10, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          11, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0,
+          0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0,
+          0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Background",
+      "name": "Object1",
+      "level": "object1",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "type": "Background",
+      "name": "Object1Details",
+      "level": "object1",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/shockwave-dng.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "type": "HeightMap",
+      "name": "HeightMap",
+      "level": "postlight",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/heightmap-tiles.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 281, 281, 281, 281, 281, 281, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 281, 281, 281, 281, 281, 281, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 281, 281, 145, 145, 145, 17, 17, 17, 17, 281, 281,
+          281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281,
+          281, 281, 281, 281, 281, 281, 17, 17, 17, 17, 145, 145, 145, 281, 281,
+          41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 281, 281, 145, 145, 145, 145, 17, 17, 17, 281,
+          281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281,
+          281, 281, 281, 281, 281, 281, 281, 17, 17, 17, 145, 145, 145, 145,
+          281, 281, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 281, 281, 145, 145, 145, 145, 145, 17, 17, 145,
+          281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281, 281,
+          281, 281, 281, 281, 281, 281, 145, 17, 17, 145, 145, 145, 145, 145,
+          281, 281, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 281, 281, 146, 145, 145, 145, 145, 145, 145, 145,
+          145, 281, 281, 146, 145, 146, 281, 281, 281, 146, 146, 281, 281, 281,
+          146, 145, 146, 281, 281, 145, 145, 145, 145, 145, 145, 145, 145, 146,
+          281, 281, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 281, 281, 281, 282, 145, 145, 145, 145, 145, 145,
+          145, 281, 281, 145, 145, 145, 281, 281, 281, 17, 17, 281, 281, 281,
+          145, 145, 145, 281, 281, 145, 145, 145, 145, 145, 145, 145, 282, 281,
+          281, 281, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 42, 281, 281, 281, 281, 145, 145, 145, 145, 145, 145,
+          145, 281, 281, 145, 145, 145, 281, 281, 281, 17, 17, 281, 281, 281,
+          145, 145, 145, 281, 281, 145, 145, 145, 145, 145, 145, 145, 281, 281,
+          281, 281, 42, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 281, 281, 281, 281, 281, 281, 145, 145, 145, 145, 145,
+          145, 145, 281, 281, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145,
+          145, 145, 145, 145, 281, 281, 145, 145, 145, 145, 145, 145, 145, 281,
+          281, 281, 281, 281, 281, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 281, 281, 281, 281, 281, 281, 145, 145, 145, 145, 145,
+          145, 145, 281, 281, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145,
+          145, 145, 145, 145, 281, 281, 145, 145, 145, 145, 145, 145, 145, 281,
+          281, 281, 281, 281, 281, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 281, 281, 281, 281, 281, 282, 145, 145, 145, 145, 145,
+          145, 145, 282, 281, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145,
+          145, 145, 145, 145, 281, 282, 145, 145, 145, 145, 145, 145, 145, 282,
+          281, 281, 281, 281, 281, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 281, 281, 281, 281, 281, 17, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 281,
+          281, 281, 281, 281, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 42, 17, 17, 17, 17, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 17, 17,
+          42, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 17, 17, 17, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 17, 17,
+          41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 17, 17, 17, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 17, 17,
+          41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 145, 145, 17, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 145,
+          145, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 145, 145, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145,
+          145, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 17, 145, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145,
+          17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 42, 145, 17, 17, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17,
+          17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 145, 145, 145, 17, 17, 17, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17,
+          17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 145, 145, 145, 17, 17, 17, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17,
+          17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 145, 145, 145, 17, 17, 17, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17,
+          17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 145, 145, 145, 17, 17, 17, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17,
+          17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 42, 145, 17, 17, 145, 145, 145, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 17, 17, 17, 17, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 17,
+          17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 17, 145, 145, 145, 17, 145, 145, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 17, 17, 17, 17, 17, 17, 145, 145,
+          145, 145, 145, 145, 145, 145, 145, 145, 145, 17, 145, 145, 145, 17,
+          17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 145, 145, 145, 17, 17, 17, 145, 145, 145, 17,
+          17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17,
+          17, 17, 145, 145, 145, 17, 17, 17, 145, 145, 145, 17, 41, 41, 41, 41,
+          41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 145, 145, 17, 17, 17, 17, 17, 145, 145, 145,
+          17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17,
+          17, 145, 145, 145, 17, 17, 17, 17, 17, 145, 145, 17, 41, 41, 41, 41,
+          41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 17, 17, 17, 17, 17, 17, 17, 17, 145, 145, 17,
+          17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17,
+          145, 145, 17, 17, 17, 17, 17, 17, 17, 17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17,
+          17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17,
+          17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 17, 17, 17, 17, 17, 17, 17, 17, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 17, 17, 17, 17, 17, 17, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ],
+        [
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41,
+          41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Light",
+      "name": "Light",
+      "level": "last",
+      "width": 50,
+      "height": 45,
+      "visible": 1,
+      "tilesetName": "media/map/lightmap-tiles.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          20, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 66, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          20, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 20, 118, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0,
+          0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 118,
+          20, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 35, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 35,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 20, 118, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 35, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          20, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          20, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    }
+  ],
+  "attributes": {
+    "saveMode": "",
+    "bgm": "shockDungeon",
+    "cameraInBounds": true,
+    "map-sounds": "SHOCK_DUNGEON",
+    "mapStyle": "shockwave-dng",
+    "weather": "SHOCK_DNG_INNER",
+    "npcRunners": "",
+    "area": "shock-dng"
+  },
+  "screen": { "x": 23, "y": -38 }
+}
