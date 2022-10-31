@@ -14632,7 +14632,7 @@
           {
             "message": {
               "en_US": "...and the high-level team with \\c[3]Lukas\\c[0], \\c[3]Buggy\\c[0], and \\c[3]me\\c[0]!",
-              "pt_BR": "...e o time de nível alto com \\c[3]Lukas\\c[0], \\c[3]Buggy\\c[0], e\\c[3]euzinha\\c[0]!",
+              "pt_BR": "...e o time de nível alto com \\c[3]Lukas\\c[0], \\c[3]Buggy\\c[0], e \\c[3]euzinha\\c[0]!",
               "de_DE": "... und das High Level-Team mit \\c[3]Lukas\\c[0], \\c[3]Buggy\\c[0] und \\c[3]mir\\c[0]!",
               "fr_FR": "fr_FR",
               "zh_CN": "...\u8fd8\u6709\\c[3]\u5362\u5361\u65af\\c[0], \\c[3]\u963f\u866b\\c[0], \u548c\\c[3]\u6211\\c[0]\u7ec4\u6210\u7684\u9ad8\u7ea7\u56e2\u961f\uff01",
@@ -14698,7 +14698,7 @@
               {
                 "message": {
                   "en_US": "What?\\. Lea is in the \\c[1]mid-level\\c[0] team?\\. Are you sure about that?",
-                  "pt_BR": "O que?\\. Lea está no time de \\c[1]nível médio\\c[0] ?\\. Você tem certeza disso?",
+                  "pt_BR": "O que?\\. Lea está no time de \\c[1]nível médio\\c[0]?\\. Você tem certeza disso?",
                   "langUid": 1602,
                   "ja_JP": "\u3048\u3063\uff1f\\.\u30ec\u30a2\u306f\\c[1]\u4e2d\u30ec\u30d9\u30eb\\c[0]\u30c1\u30fc\u30e0\u306b\u5165\u308b\u306e\uff1f\n\u305d\u308c\u3001\u672c\u6c17\u3067\u8a00\u3063\u3066\u307e\u3059\uff1f<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\u4ec0\u4e48?\\.\u8389\u4e9a\u5728\\c[1]\u4e2d\u7b49\u7ea7\\c[0]\u961f\u4f0d\u91cc?\\.\u4f60\u786e\u5b9a\u5417?<<A<<[CHANGED 2019/08/16]",
@@ -14744,7 +14744,7 @@
               {
                 "message": {
                   "en_US": "Fine!\\. Both teams will fight together anyway, right?",
-                  "pt_BR": "Beleza! \\. Ambos os times vão lutar juntos afinal de contas, certo?",
+                  "pt_BR": "Beleza! \\. Os dois times vão lutar juntos afinal de contas, certo?",
                   "langUid": 1603,
                   "ja_JP": "\u307e\u3042\u3001\u308f\u304b\u308a\u307e\u3057\u305f\uff01\\.\n\u3068\u306b\u304b\u304f\u30012\u3064\u306e\u30c1\u30fc\u30e0\u304c\n\u4e00\u7dd2\u306b\u6226\u3046\u3093\u3067\u3059\u3088\u306d\uff1f<<A<<[CHANGED 2019/08/16]",
                   "zh_CN": "\u597d\u5427\uff01\\.\u53cd\u6b63\u4e24\u8fb9\u662f\u5408\u4f5c\uff01 <<A<<[CHANGED 2019/08/16]",
@@ -14887,7 +14887,7 @@
               {
                 "message": {
                   "en_US": "You really don't care about the challenge, do you?",
-                  "pt_BR": "Vão não está preocupada com o desafio, não?",
+                  "pt_BR": "Você não tá preocupada com o desafio, não?",
                   "de_DE": "Die Herausforderung macht dir wirklich nichts aus, oder?",
                   "zh_CN": "\u770b\u6765\u4f60\u662f\u771f\u7684\u4e0d\u5728\u4e4e\u6311\u6218\u54af\uff1f<<A<<[CHANGED 2019/08/16]",
                   "ja_JP": "\u304a\u524d\u3001\u307b\u3093\u3068\u306f\u8a66\u7df4\u3068\u304b\n\u3069\u3046\u3067\u3082\u3044\u3044\u3093\u3060\u308d\u3002\u306a\u3042\uff1f<<A<<[CHANGED 2019/08/16]",
@@ -15155,7 +15155,7 @@
           {
             "message": {
               "en_US": "Also, be aware that there will be a tricky boss enemy at the end for each team.",
-              "pt_BR": "Além disso, esteja ciente de que haverá um chefe inimigo complicado no final para cada time.",
+              "pt_BR": "Além disso, esteja ciente de que haverá um chefão complicado no final para cada time.",
               "de_DE": "Oh, eins noch! Jedes Team wird am Ende auf einen kniffligen Boss treffen.",
               "fr_FR": "fr_FR",
               "zh_CN": "\u5bf9\u4e86\uff0c\u6211\u4eec\u4e24\u961f\u90fd\u6709\u5404\u81ea\u7684\u5173\u5e95Boss\u3002",
@@ -16183,7 +16183,7 @@
           {
             "message": {
               "en_US": "And make sure to be there on time! We still might want to prepare a bit!",
-              "pt_BR": "E certifique-se de estar lá a tempo! Talvez ainda seja necessário nos preparamos um pouco!",
+              "pt_BR": "E cheguem na hora! Talvez seja necessário nos prepararmos um pouco!",
               "de_DE": "Aber seid blo\u00df p\u00fcnktlich! Damit uns noch genug Zeit bleibt, letzte Vorbereitungen zu treffen!",
               "fr_FR": "fr_FR",
               "zh_CN": "\u8bb0\u5f97\u4e0d\u8981\u8fdf\u5230\u54e6\uff01\u6211\u4eec\u8fd8\u8981\u505a\u70b9\u51c6\u5907\u5462\uff01",
@@ -17284,7 +17284,7 @@
           {
             "message": {
               "en_US": "I see! It must be \\c[3]Sapphire Ridge\\c[0], then.",
-              "pt_BR": "Interessante! dever ser a \\c[3]Cordilheira das Safiras\\c[0], então.",
+              "pt_BR": "Interessante! deve ser a \\c[3]Serra da Safira\\c[0], então.",
               "de_DE": "Ich verstehe! Dann muss es der \\c[3]Saphirgrat\\c[0] sein.",
               "fr_FR": "fr_FR",
               "zh_CN": "\u77e5\u9053\u4e86\uff01\u90a3\u80af\u5b9a\u662f\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u6ca1\u9519\u4e86\u3002",
@@ -18445,7 +18445,7 @@
           {
             "message": {
               "en_US": "I know.\\. I'll just poke her with questions until I get a good picture.",
-              "pt_BR": "Eu sei. \\. Só quero encher ela de perguntas até entender o que houve.",
+              "pt_BR": "Eu sei.\\. Só quero encher ela de perguntas até entender o que houve.",
               "langUid": 883,
               "zh_CN": "\u662f\u554a\u3002\\.\u6211\u5c31\u53ea\u80fd\u4e00\u76f4\u95ee\u5979\u95ee\u9898\uff0c\u76f4\u5230\u641e\u6e05\u695a\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uadf8\ub7ec\uac8c.\\. \uadf8\ub798\uc11c \ub0b4\uac00 \uc6d0\ud558\ub294 \ub2f5\uc774 \ub098\uc62c \ub54c\uae4c\uc9c0 \uacc4\uc18d \ubb3c\uc5b4\ubcf4\ub824\uace0.<<A<<[CHANGED 2018/03/14]",
