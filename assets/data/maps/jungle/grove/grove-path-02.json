@@ -11426,7 +11426,7 @@
                 {
                   "message": {
                     "en_US": "Ahh, hello!\\. Are you the \\v[lore.title.seeker] that was sent to help me?",
-                    "pt_BR": "Ahh, olá!\\. Você é a \\v[lore.title.seeker]que foi enviada para me ajudar?",
+                    "pt_BR": "Ahh, olá!\\. Você é a \\v[lore.title.seeker] que foi enviada para me ajudar?",
                     "de_DE": "Ahh, hallo!\\. Bist du der Seeker, der mir helfen soll?",
                     "zh_CN": "\u554a\uff0c\u4f60\u597d\uff01\\.\u4f60\u5c31\u662f\u4ed6\u4eec\u6d3e\u6765\u5e2e\u6211\u7684\\v[lore.title.seeker]\u662f\u5427\uff1f<<A<<[CHANGED 2018/10/04]",
                     "ja_JP": "\u3042\u3042\u3001\u3053\u3093\u306b\u3061\u306f\uff01\\.\n\u3042\u306a\u305f\u304c\u79c1\u306e\u624b\u4f1d\u3044\u306b\u3088\u3053\u3055\u308c\u305f\n\\v[lore.title.seeker]\u3055\u3093\uff1f<<A<<[CHANGED 2018/10/04]",
@@ -11460,7 +11460,7 @@
                 {
                   "message": {
                     "en_US": "Oh, I'm so excited!\\. You \\v[lore.title.seeker]s are so cool and I have never worked with one.",
-                    "pt_BR": "Ah, Estou tão animada!\\. Vocês \\v[lore.title.seeker]s são tão legais e eu nunca trabalhei com um.",
+                    "pt_BR": "Ah, estou tão animada!\\. Vocês \\v[lore.title.seeker]s são tão legais e eu nunca trabalhei com um.",
                     "de_DE": "Oh, ich bin so aufgeregt!\\. Ihr Seeker seid so cool! Und ich habe noch nie mit einem gearbeitet!",
                     "zh_CN": "\u5662\uff0c\u771f\u662f\u4ee4\u4eba\u6fc0\u52a8\uff01\\.\u4f60\u4eec\\v[lore.title.seeker]\u90fd\u597d\u9177\uff0c\u6211\u4ece\u6765\u6ca1\u8ddf\u4f60\u4eec\u4e00\u8d77\u5171\u4e8b\u8fc7\u5462\u3002<<A<<[CHANGED 2018/05/01]",
                     "ja_JP": "\u307e\u3042\u3001\u30ef\u30af\u30ef\u30af\u3059\u308b\uff01\\.\u3042\u306a\u305f\u305f\u3061\\v[lore.title.seeker]\u3063\u3066\n\u3068\u3066\u3082\u304b\u3063\u3053\u3044\u3044\u3093\u3060\u3088\u306d\u3002\u3067\u3082\u79c1\u3001\n\u307e\u3060\u4e00\u7dd2\u306b\u304a\u4ed5\u4e8b\u3057\u305f\u3053\u3068\u304c\u306a\u3044\u306e\u3002<<A<<[CHANGED 2018/05/01]",
@@ -11493,7 +11493,7 @@
                 {
                   "message": {
                     "en_US": "Ah, I'm sorry!\\. I should concentrate on the work.\\. Important work with the help of a cool \\v[lore.title.seeker], yes, yes!",
-                    "pt_BR": "Ah, desculpa!\\. Eu deveria me concentrar no trabalho.\\. Trabalho importante com a ajuda de um \\v[lore.title.seeker], sim, sim!",
+                    "pt_BR": "Ah, desculpa!\\. Eu deveria me concentrar no trabalho.\\. Um trabalho importante com a ajuda de um \\v[lore.title.seeker], sim, sim!",
                     "de_DE": "Ah, tut mir leid!\\. Ich sollte mich auf meine Arbeit konzentrieren.\\. Wichtige Arbeit, verteidigt von coolem Seeker, ja, ja!",
                     "zh_CN": "\u554a\uff0c\u62b1\u6b49\uff01\\.\u6211\u5e94\u8be5\u66f4\u4e13\u6ce8\u4e8e\u5de5\u4f5c\u3002\\.\u8fd9\u4e9b\u5de5\u4f5c\u5f88\u91cd\u8981\uff0c\u9700\u8981\u4f60\u4eec\u8fd9\u4e9b\u9177\u9177\u7684\\v[lore.title.seeker]\u5e2e\u5fd9\u3002<<A<<[CHANGED 2018/05/01]",
                     "ja_JP": "\u3042\u3089\u3001\u3054\u3081\u3093\u306a\u3055\u3044\uff01\\.\u81ea\u5206\u306e\u4ed5\u4e8b\u306b\n\u96c6\u4e2d\u3057\u306a\u304d\u3083\u306d\u3002\\.\u304b\u3063\u3053\u3044\u3044\\v[lore.title.seeker]\u3055\u3093\u306b\n\u624b\u4f1d\u3063\u3066\u3082\u3089\u3063\u3066\u3001\u91cd\u8981\u306a\u4ed5\u4e8b\u3092\n\u3059\u308b\u3093\u3060\u304b\u3089\u3002<<A<<[CHANGED 2018/05/01]",
@@ -11796,7 +11796,7 @@
                 {
                   "message": {
                     "en_US": "Hey there, \\v[lore.title.seeker]!\\. Are you ready to escort me around?",
-                    "pt_BR": "Olá, \\v[lore.title.seeker]!\\ Você está pronta para me acompanhar por aí?",
+                    "pt_BR": "Olá, \\v[lore.title.seeker]!\\. Você está pronta para me escoltar nos arredores?",
                     "de_DE": "Hey, Seeker!\\. Bist du bereit, mich zu eskortieren?",
                     "zh_CN": "\u55e8\\v[lore.title.seeker]\uff01\\.\u4f60\u51c6\u5907\u597d\u4fdd\u62a4\u6211\u6267\u884c\u5de5\u4f5c\u4e86\u5417\uff1f<<A<<[CHANGED 2018/05/01]",
                     "ja_JP": "\u3069\u3046\u3082\u3001\\v[lore.title.seeker]\u3055\u3093\uff01\\.\n\u79c1\u3092\u8b77\u885b\u3059\u308b\u6e96\u5099\u306f\u3044\u3044\uff1f<<A<<[CHANGED 2018/05/01]",
@@ -14443,7 +14443,7 @@
           {
             "message": {
               "en_US": "Okay, I got all the data we need for now.\\. Great job, \\v[lore.title.seeker]!",
-              "pt_BR": "Certo, tenho todos os dados que precisamos por enquanto.\\ Ótimo trabalho, \\v[lore.title.seeker]!",
+              "pt_BR": "Certo, tenho todos os dados que precisamos por enquanto.\\. Ótimo trabalho, \\v[lore.title.seeker]!",
               "de_DE": "Okay, ich habe alle Daten, die ich brauche.\\. Gute Arbeit, Seeker!",
               "zh_CN": "\u597d\u4e86\uff0c\u6211\u53d6\u5f97\u4e86\u6240\u6709\u7684\u6570\u636e\u3002\\.\u5e72\u5f97\u597d\uff01\\v[lore.title.seeker]\uff01<<A<<[CHANGED 2018/05/01]",
               "ja_JP": "\u30aa\u30fc\u30b1\u30fc\u3001\u4eca\u306e\u3068\u3053\u308d\u5fc5\u8981\u306a\u30c7\u30fc\u30bf\u306f\n\u5168\u90e8\u624b\u306b\u5165\u3063\u305f\u3002\\.\u304a\u75b2\u308c\u3055\u307e\u3001\n\\v[lore.title.seeker]\u3055\u3093\uff01<<A<<[CHANGED 2018/05/01]",
