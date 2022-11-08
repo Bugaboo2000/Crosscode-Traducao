@@ -5730,7 +5730,7 @@
           {
             "message": {
               "en_US": "...Why?",
-              "pt_BR": "Porque?",
+              "pt_BR": "Por que?",
               "langUid": 17,
               "ja_JP": "...\u3069\u3046\u3057\u3066\uff1f<<A<<[CHANGED 2018/05/01]",
               "ko_KR": "...\uc65c?<<A<<[CHANGED 2018/05/01]",
@@ -5745,7 +5745,7 @@
           {
             "message": {
               "en_US": "Why, to \\c[3]unlock a path\\c[0]. One that shall be revealed once you have completed them all.",
-              "pt_BR": "Porque?, para \\c[3]liberar um caminho\\c[0]. Que será revelado para você depois de ter passado em todos os testes.",
+              "pt_BR": "Porque, para \\c[3]liberar um caminho\\c[0]. Que será revelado para você depois de ter passado em todos os testes.",
               "de_DE": "Um \\c[3]einen Pfad freizulegen\\c[0]. Einer, der sich dir \u00f6ffnet, sobald du alle Pr\u00fcfungen bestanden hast.",
               "zh_CN": "\u56e0\u4e3a\u8981\\c[3]\u89e3\u9501\u901a\u8def\\c[0]\u3002\u5f53\u4f60\u5b8c\u6210\u8bd5\u70bc\u4f60\u5c31\u4f1a\u660e\u767d\u4e86\u3002<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\\c[3]\u9053\u3092\u5207\u308a\u958b\u304f\\c[0]\u305f\u3081\u3060\u3002\n\u3059\u3079\u3066\u306e\u8a66\u7df4\u3092\u4e57\u308a\u8d8a\u3048\u308c\u3070\u3001\n\u9053\u306f\u59ff\u3092\u3042\u3089\u308f\u3059\u3060\u308d\u3046\u3002<<A<<[CHANGED 2018/09/19]",
@@ -5799,7 +5799,7 @@
               {
                 "message": {
                   "en_US": "Each one guarded by a \\c[3]golden bug, holding a lantern\\c[0].",
-                  "pt_BR": "Cada um guardado por um \\c[3]inseto dourado, segurando uma lanterna.\\c[0].",
+                  "pt_BR": "Cada um guardado por um \\c[3]inseto dourado, segurando uma lanterna\\c[0].",
                   "langUid": 69,
                   "ja_JP": "\u305d\u306e\u3069\u308c\u3082\u304c\u3001\\c[3]\u63d0\u706f\u3092\u6301\u3063\u305f\n\u9ec4\u91d1\u306e\u866b\\c[0]\u306b\u5b88\u3089\u308c\u3066\u3044\u308b\u3002<<A<<[CHANGED 2018/07/09]",
                   "ko_KR": "\uac01 \uc2dc\ud5d8\uc740 \\c[3]\ub4f1\ubd88\uc744 \ub4e4\uace0 \uc788\ub294 \ud669\uae08 \ubc8c\ub808\\c[0]\uac00 \uc218\ud638\ud558\uace0 \uc788\uc9c0.<<A<<[CHANGED 2018/07/09]",
@@ -5874,7 +5874,7 @@
               {
                 "message": {
                   "en_US": "The third goes by the name \\c[3]Trial of Agility\\c[0] and is found in the \\c[3]Carved Pathway\\c[0].",
-                  "pt_BR": "O terceiro tem o nome de \\c[3]Teste da Agilidade\\c[0] e pode ser encontrado no\\c[3]Caminho esculpido\\c[0].",
+                  "pt_BR": "O terceiro tem o nome de \\c[3]Teste da Agilidade\\c[0] e pode ser encontrado no \\c[3]Caminho esculpido\\c[0].",
                   "de_DE": "Die dritte ist die \\c[3]Pr\u00fcfung der Gewandtheit\\c[0] und befindet sich am \\c[3]Zerfurchten Pfad\\c[0].",
                   "zh_CN": "\u7b2c\u4e09\u4e2a\u8bd5\u70bc\u4e3a\\c[3]\u654f\u6377\u8bd5\u70bc\\c[0]\uff0c\u53ef\u4ee5\u5728\\c[3]\u5c0f\u9053\\c[0]\u627e\u5230\u3002<<A<<[CHANGED 2018/07/09]",
                   "ja_JP": "3\u3064\u76ee\u306f\\c[3]\u654f\u6377\u306e\u8a66\u7df4\\c[0]\u3068\u3044\u3063\u3066\u3001\n\\c[3]\u523b\u307e\u308c\u305f\u9053\\c[0]\u3067\u53d7\u3051\u3089\u308c\u308b\u3002<<A<<[CHANGED 2018/07/09]",

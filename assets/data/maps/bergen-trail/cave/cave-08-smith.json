@@ -209,6 +209,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "Read Diary",
+            "pt_BR": "Ler Diário",
             "langUid": 1,
             "zh_CN": "\u9605\u8bfb\u65e5\u8bb0<<A<<[CHANGED 2018/07/09]",
             "ja_JP": "\u65e5\u8a18\u3092\u8aad\u3080<<A<<[CHANGED 2018/07/09]",
@@ -220,6 +221,7 @@
             {
               "text": {
                 "en_US": "Day 32...\n\nI don't even know anymore. Screw this! I'm packing my stuff and leaving for \\c[3]\\v[area.rhombus-sqr.name]\\c[0]. If you're reading this, you're too late.",
+                "pt_BR": "Dia 32...\n\nEu nem sei mais. Dane-se isso! Estou arrumando minhas coisas e partindo para \\c[3]\\v[area.rhombus-sqr.name]\\c[0]. Se você está lendo isso, você está muito atrasado.",
                 "langUid": 697,
                 "zh_CN": "\u7b2c32\u5929...\n\n\u6211\u4e0d\u7ba1\u4e86\u3002\u53bb\u4ed6\u7684\uff01\u6211\u73b0\u5728\u8981\u6253\u5305\u524d\u5f80\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u3002\u5982\u679c\u4f60\u6b63\u5728\u8bfb\u8fd9\u7bc7\u65e5\u8bb0\uff0c\u90a3\u4e48\u4f60\u6765\u5f97\u592a\u8fdf\u4e86\u3002<<A<<[CHANGED 2018/09/19]",
                 "ja_JP": "32\u65e5\u76ee...\n\n\u3082\u3046\u306a\u306b\u3082\u308f\u304b\u3089\u306a\u3044\u3002\u304f\u305d\u3063\u305f\u308c\uff01\n\u8377\u9020\u308a\u3092\u3057\u3066\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u306b\u5411\u304b\u3046\u3002\n\u541b\u304c\u3053\u308c\u3092\u8aad\u3093\u3067\u3044\u308b\u306a\u3089\u3001\u3082\u3046\u624b\u9045\u308c\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -234,6 +236,7 @@
             {
               "text": {
                 "en_US": "No more forging for that guy!\n\nThe only thing I care about is a nice house in \\v[area.rhombus-sqr.name].",
+                "pt_BR": "Chega de forjar para aquele cara!\n\nA única coisa que me importa é uma bela casa em \\v[area.rhombus-sqr.name].",
                 "langUid": 698,
                 "zh_CN": "\u518d\u4e5f\u4e0d\u60f3\u953b\u4e1c\u897f\u4e86\uff01\n\n\u6211\u73b0\u5728\u552f\u4e00\u60f3\u8981\u7684\u5c31\u662f\u5728\\v[area.rhombus-sqr.name]\u6709\u4e00\u680b\u623f\u5b50\u3002<<A<<[CHANGED 2018/09/19]",
                 "ja_JP": "\u3082\u3046\u3042\u3044\u3064\u306b\u935b\u51b6\u306f\u307e\u304b\u305b\u306a\u3044\u305e\uff01\n\n\u3042\u3068\u79c1\u304c\u6c17\u306b\u304b\u3051\u308b\u306e\u306f\u3001\n\\v[area.rhombus-sqr.name]\u306e\u3059\u3066\u304d\u306a\u5bb6\u3060\u3051\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -262,6 +265,7 @@
               "icon": "INFO",
               "hoverText": {
                 "en_US": "Read Diary",
+                "pt_BR": "Ler Diário",
                 "langUid": 709,
                 "zh_CN": "\u9605\u8bfb\u65e5\u8bb0<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u65e5\u8a18\u3092\u8aad\u3080<<A<<[CHANGED 2018/07/09]",
@@ -273,6 +277,7 @@
                 {
                   "text": {
                     "en_US": "Day 32...\n\nI don't even know anymore. Screw this! I'm packing my stuff and leaving for \\c[3]\\v[area.rhombus-sqr.name]\\c[0]. If you read this, you're too late.",
+                    "pt_BR": "Dia 32...\n\nEu nem sei mais. Dane-se isso! Estou arrumando minhas coisas e partindo para \\c[3]\\v[area.rhombus-sqr.name]\\c[0]. Se você está lendo isso, você está muito atrasado.",
                     "langUid": 710,
                     "zh_CN": "\u7b2c32\u5929...\n\n\u6211\u4e0d\u7ba1\u4e86\u3002\u53bb\u4ed6\u7684\uff01\u6211\u73b0\u5728\u8981\u6253\u5305\u524d\u5f80\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u3002\u5982\u679c\u4f60\u6b63\u5728\u8bfb\u8fd9\u7bc7\u65e5\u8bb0\uff0c\u90a3\u4e48\u4f60\u6765\u5f97\u592a\u8fdf\u4e86\u3002<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "32\u65e5\u76ee...\n\n\u3082\u3046\u306a\u306b\u3082\u308f\u304b\u3089\u306a\u3044\u3002\u304f\u305d\u3063\u305f\u308c\uff01\n\u8377\u9020\u308a\u3092\u3057\u3066\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u306b\u5411\u304b\u3046\u3002\n\u541b\u304c\u3053\u308c\u3092\u8aad\u3093\u3067\u3044\u308b\u306a\u3089\u3001\u3082\u3046\u624b\u9045\u308c\u3060\u3002<<A<<[CHANGED 2018/07/09]",
@@ -287,6 +292,7 @@
                 {
                   "text": {
                     "en_US": "No more forging from this guy!\n\nThe only thing I care about is a nice house in \\v[area.rhombus-sqr.name].",
+                    "pt_BR": "Chega de forjar para aquele cara!\n\nA única coisa que me importa é uma bela casa em \\v[area.rhombus-sqr.name].",
                     "langUid": 711,
                     "zh_CN": "\u518d\u4e5f\u4e0d\u60f3\u953b\u4e1c\u897f\u4e86\uff01\n\n\u6211\u73b0\u5728\u552f\u4e00\u60f3\u8981\u7684\u5c31\u662f\u5728\\v[area.rhombus-sqr.name]\u6709\u4e00\u680b\u623f\u5b50\u3002<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "\u3082\u3046\u3042\u3044\u3064\u306b\u935b\u51b6\u306f\u307e\u304b\u305b\u306a\u3044\u305e\uff01\n\n\u3042\u3068\u79c1\u304c\u6c17\u306b\u304b\u3051\u308b\u306e\u306f\u3001\n\\v[area.rhombus-sqr.name]\u306e\u3059\u3066\u304d\u306a\u5bb6\u3060\u3051\u3060\u3002<<A<<[CHANGED 2018/07/09]",
