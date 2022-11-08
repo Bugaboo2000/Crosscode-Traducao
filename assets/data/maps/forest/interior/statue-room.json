@@ -6327,7 +6327,7 @@
                   {
                     "message": {
                       "en_US": "Oh, more company appeared.",
-                      "pt_BR": "Ah, chegou mais conpanhia.",
+                      "pt_BR": "Ah, chegou mais companhia.",
                       "langUid": 26,
                       "zh_CN": "\u54e6\uff0c\u53c8\u6709\u4f19\u4f34\u51fa\u73b0\u4e86\u3002<<A<<[CHANGED 2018/07/09]",
                       "ja_JP": "\u3042\u3042\u3001\u307e\u305f\u8ab0\u304b\u6765\u305f\u307f\u305f\u3044\u3060\u306a\u3002<<A<<[CHANGED 2018/07/09]",
@@ -6845,7 +6845,7 @@
           {
             "message": {
               "en_US": "Did we all just pass this quest at the same time?",
-              "pt_BR": "Todos nós acabamos de conlcuir essa missão ao mesmo tempo?",
+              "pt_BR": "Todos nós acabamos de concluir essa missão ao mesmo tempo?",
               "langUid": 41,
               "zh_CN": "\u6211\u4eec\u90fd\u540c\u65f6\u5b8c\u6210\u4e86\u540c\u4e00\u6761\u4efb\u52a1\u7ebf\uff1f<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u307f\u3093\u306a\u305d\u308d\u3063\u3066\u540c\u3058\u30bf\u30a4\u30df\u30f3\u30b0\u3067\n\u30af\u30a8\u30b9\u30c8\u3092\u30af\u30ea\u30a2\u3057\u305f\u306e\uff1f<<A<<[CHANGED 2018/07/09]",
@@ -9319,7 +9319,7 @@
             "entity": { "global": true, "name": "nl1" },
             "text": {
               "en_US": "No new lore this time, huh?",
-              "pt_BR": "Não tem lore nova desta vez? não é?",
+              "pt_BR": "Nada de novo da lore desta vez, hein?",
               "langUid": 960,
               "de_DE": "Diesmal gab's kein Update der Hintergrundgeschichte, oder?",
               "ja_JP": "\u4eca\u56de\u306f\u3001\u65b0\u3057\u3044\u7269\u8a9e\u306f\n\u306a\u3044\u3093\u3060\u306d\u3002<<A<<[CHANGED 2018/09/02]",

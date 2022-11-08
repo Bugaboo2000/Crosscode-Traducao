@@ -1581,7 +1581,7 @@
           {
             "message": {
               "en_US": "In any case, \\v[lore.title.seeker], we have work to do!\\. Feast your eyes on this technological marvel!",
-              "pt_BR": "De qualquer forma, \\v[lore.title.seeker], nós temos trabalho as ser feito!\\. Contemple esta maravilha tecnológica!",
+              "pt_BR": "De qualquer forma, \\v[lore.title.seeker], nós temos trabalho a ser feito!\\. Contemple esta maravilha tecnológica!",
               "de_DE": "Wie auch immer, Seeker, es wartet Arbeit auf uns!\\. Siehe und staune nun \u00fcber dieses technologische Wunderwerk!",
               "zh_CN": "\u603b\u4e4b\uff0c\\v[lore.title.seeker]\uff0c\u6211\u4eec\u6709\u6d3b\u8981\u5e72\uff01\\.\u770b\u770b\u8fd9\u79d1\u6280\u7684\u7ed3\u6676\u5427\uff01<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u305d\u308c\u306f\u3068\u3082\u304b\u304f\\v[lore.title.seeker]\u3055\u3093\u3001\u4ed5\u4e8b\u3067\u3059\uff01\\.\n\u3053\u306e\u9a5a\u304f\u3079\u304d\u6280\u8853\u7684\u5091\u4f5c\u3092\u898b\u3066\u304f\u3060\u3055\u3044\uff01<<A<<[CHANGED 2018/09/19]",
@@ -1672,7 +1672,7 @@
           {
             "message": {
               "en_US": "Our engineers called it the \\c[3]Hyperforce Plasma Oven\\c[0].\\. A ridiculous name, to be sure, but its heating capacities are truly unmatched.",
-              "pt_BR": "Nossos engenheiros deram o nome de \\c[3]Forno de Plasma de Híperforça\\c[0].\\ Um nome ridículo, com certeza, mas suas capacidades de aquecimento são realmente inigualáveis.",
+              "pt_BR": "Nossos engenheiros deram o nome de \\c[3]Forno de Plasma de Híperforça\\c[0].\\. Um nome ridículo, com certeza, mas suas capacidades de aquecimento são realmente inigualáveis.",
               "de_DE": "Unsere Ingenieure nennen es den \\c[3]H\u00f6llenglut-Plasmaofen\\c[0].\\. Ein l\u00e4cherlicher Name, ich wei\u00df. Aber seine Heizkapazit\u00e4ten sind unvergleichlich!",
               "zh_CN": "\u6211\u4eec\u7684\u5de5\u7a0b\u5e08\u53eb\u5b83\\c[3]\u8d85\u7ea7\u7535\u78c1\u6696\u7089\\c[0]\u3002\\.\u6211\u77e5\u9053\u540d\u5b57\u542c\u8d77\u6765\u5f88\u626f\uff0c\u4f46\u662f\u5236\u70ed\u80fd\u529b\u786e\u5b9e\u4e00\u6d41\u3002<<A<<[CHANGED 2021/03/05]",
               "ja_JP": "\u3046\u3061\u306e\u30a8\u30f3\u30b8\u30cb\u30a2\u306f\u3001\u3053\u308c\u3092\n\\c[3]\u30cf\u30a4\u30d1\u30fc\u30d5\u30a9\u30fc\u30b9\u30fb\u30d7\u30e9\u30ba\u30de\u30aa\u30fc\u30d6\u30f3\\c[0]\u3068\n\u547c\u3093\u3067\u3044\u307e\u3059\u3002\\.\u3075\u3056\u3051\u305f\u540d\u524d\u3067\u3059\u304c\u3001\n\u305d\u306e\u540d\u306b\u53cd\u3057\u3066\u52a0\u71b1\u6a5f\u80fd\u306f\u78ba\u5b9f\u3067\u3059\u3002<<A<<[CHANGED 2021/03/05]",
@@ -1738,7 +1738,7 @@
           {
             "message": {
               "en_US": "It is too heavy to move, but a \\c[3]charged Wave projectile\\c[0] will start a teleportation sequence that \\c[3]relocates it to your position\\c[0].",
-              "pt_BR": "Ele é muito pesado para mover, mas um \\c[3]projétil de Onda carregado\\c[0] iniciará uma seqüência de teletransporte que o \\c[3]recoloca onde você estiver.\\c[0].",
+              "pt_BR": "Ele é muito pesado para mover, mas um \\c[3]projétil de Onda carregado\\c[0] iniciará uma seqüência de teletransporte que o \\c[3]recoloca onde você estiver\\c[0].",
               "de_DE": "Zum Bewegen ist er viel zu schwer, aber ein \\c[3]geladenes Welleprojektil\\c[0] teleportiert ihn \\c[3]an deine Position\\c[0].",
               "zh_CN": "\u5b83\u592a\u6c89\u4e86\u65e0\u6cd5\u79fb\u52a8\uff0c\u4f46\u662f\\c[3]\u84c4\u529b\u6ce2\u7403\\c[0]\u53ef\u4ee5\u8ba9\u5176\\c[3]\u4f20\u9001\u5230\u4f60\u5f53\u524d\u7684\u4f4d\u7f6e\\c[0]\u3002<<A<<[CHANGED 2018/08/01]",
               "ja_JP": "\u52d5\u304b\u3059\u306b\u306f\u91cd\u3059\u304e\u307e\u3059\u304c\u3001\\c[3]\u6ce2\u52d5\u5c5e\u6027\u306e\n\u30c1\u30e3\u30fc\u30b8\u5f3e\u3092\u5f53\u3066\u308b\\c[0]\u3053\u3068\u3067\n\u30c6\u30ec\u30dd\u30fc\u30c8\u30b7\u30fc\u30af\u30a8\u30f3\u30b9\u304c\u8d77\u52d5\u3057\u3001\n\\c[3]\u3042\u306a\u305f\u306e\u3044\u308b\u5834\u6240\u3078\u79fb\u52d5\\c[0]\u3057\u307e\u3059\u3002<<A<<[CHANGED 2018/08/01]",

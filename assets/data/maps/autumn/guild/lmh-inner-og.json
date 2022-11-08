@@ -2824,7 +2824,7 @@
                 }, {
                     "message": {
                         "en_US": "Well... if you want to help, talk to \\c[3]PuellaDocta\\c[0] at the \\c[3]entrance of Sapphire Ridge\\c[0].",
-                        "pt_BR": "Bem... se você quer ajudar, fale com \\c[3]PuellaDocta\\c[0] na \\c[3]entrada da Cordilheira das Safiras\\c[0].",
+                        "pt_BR": "Bem... se você quer ajudar, fale com \\c[3]PuellaDocta\\c[0] na \\c[3]entrada da Serra das Safiras\\c[0].",
                         "langUid": 738,
                         "ko_KR": "\uc74c... \ub3c4\uc6c0\uc744 \uc8fc\uace0 \uc2f6\ub2e4\uba74 \\c[3]\uc0ac\ud30c\uc774\uc5b4 \uc0b0\ub9e5 \uc785\uad6c\\c[0]\uc5d0 \uc788\ub294 \\c[3]\ud478\uc5d8\ub77c\ub3c5\ud0c0\\c[0]\uc5d0\uac8c \uac00 \ubd10.<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u5443...\u5982\u679c\u4f60\u60f3\u5e2e\u5fd9\u7684\u8bdd\u5c31\u53bb\\c[3]\u9752\u7389\u5c71\u8109\u5165\u53e3\\c[0]\u548c\\c[3]\u533b\u751f\u59d0\u59d0\\c[0]\u804a\u804a\u5427\u3002<<A<<[CHANGED 2019/01/10]",
@@ -2929,7 +2929,7 @@
                 }, {
                     "message": {
                         "en_US": "Good luck in Sapphire Ridge!",
-                        "pt_BR": "Boa sorte na Cordilheira das Safiras!",
+                        "pt_BR": "Boa sorte na Serra das Safiras!",
                         "langUid": 695,
                         "ko_KR": "\uc0ac\ud30c\uc774\uc5b4 \uc0b0\ub9e5\uc5d0\uc11c \ud589\uc6b4\uc744 \ube4c\uac8c!<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u795d\u4f60\u5728\u9752\u7389\u5c71\u8109\u597d\u8fd0\uff01<<A<<[CHANGED 2019/01/10]",
@@ -3373,7 +3373,7 @@
             }, {
                 "message": {
                     "en_US": "And how about you?\\. What attracted you to our quest posting?",
-                    "pt_BR": "E quanto a você?\\.. O que a atraiu em nossa publicação de busca?",
+                    "pt_BR": "E quanto a você?\\. O que a atraiu em nossa publicação de busca?",
                     "langUid": 12,
                     "ko_KR": "\ub124 \uc598\uae30\ub97c \ub4e4\uc5b4\ubcfc\uae4c?\\. \uc6b0\ub9ac \ud018\uc2a4\ud2b8 \uac8c\uc2dc\ubb3c\uc5d0\uc11c \uc5b4\ub5a4 \uc810\uc774 \ub9c8\uc74c\uc5d0 \ub4e4\uc5c8\uc9c0?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u5462?\\.\u4f60\u770b\u4e0a\u4e86\u6211\u4eec\u516c\u4f1a\u54ea\u70b9\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -3526,7 +3526,7 @@
             }, {
                 "message": {
                     "en_US": "But anyway. Have you heard the \\c[3]tales of the Last Minute Heroes\\c[0]?",
-                    "pt_BR": "Mas enfim. Você já ouviu as \\c[3]histórias do Last Minute Heroes\\c[0]??",
+                    "pt_BR": "Mas enfim. Você já ouviu as \\c[3]histórias dos Heróis da Hora H\\c[0]?",
                     "langUid": 21,
                     "ko_KR": "\uadf8\uac74 \uadf8\ub807\uace0 \\c[3]\ub9c8\uc9c0\ub9c9 60\ucd08\uc758 \uc601\uc6c5\ub4e4 \uc774\uc57c\uae30\\c[0]\ub97c \ub4e4\uc5b4\ubcf8 \uc801 \uc788\ub098?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u987a\u5e26\u4e00\u63d0\uff0c\u4f60\u542c\u8fc7\\c[3]\u6025\u96be\u82f1\u96c4\u4f20\u8bf4\u5417\\c[0]?<<A<<[CHANGED 2019/01/10]",
@@ -3893,7 +3893,7 @@
             }, {
                 "message": {
                     "en_US": "Yes, that's what we do.\\. Saving players in need.\\. At the last minute.",
-                    "pt_BR": "Sim, é isso que nós fazemos.\\. Salvando jogadores em perigo.\\. no último minuto.",
+                    "pt_BR": "Sim, é isso que nós fazemos.\\. Salvando jogadores em perigo.\\. No último minuto.",
                     "langUid": 31,
                     "ko_KR": "\uadf8\ub798, \uadf8\uac8c \ubc14\ub85c \uc6b0\ub9ac\uac00 \ud558\ub294 \uc77c\uc774\uc57c.\\. \ub3c4\uc6c0\uc774 \ud544\uc694\ud55c \ud50c\ub808\uc774\uc5b4\ub97c \uad6c\ud574\uc8fc\ub294 \uac83.\\. \uadf8\uac83\ub3c4 \ub9c8\uc9c0\ub9c9 60\ucd08\uc5d0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8fd9\u5c31\u662f\u6211\u4eec\u7684\u5de5\u4f5c\u3002\\. \u5728\u6700\u540e\u5173\u5934\u5e2e\u52a9\u73a9\u5bb6\u3002<<A<<[CHANGED 2019/01/10]",
@@ -3994,7 +3994,7 @@
             }, {
                 "message": {
                     "en_US": "That's why we employ the \\c[3]LMRS\\c[0] - our amazing \"\\c[3]Last Minute Rescue System\\c[0]\"!",
-                    "pt_BR": "É por isso que empregamos o \\c[3]LMRS\\c[0] - nosso sensacional \"\\c[3]Sistema de Resgate Last Minute\\c[0]\"!",
+                    "pt_BR": "É por isso que empregamos o \\c[3]LMRS\\c[0] - nosso sensacional \"\\c[3]Sistema de Resgate da Hora H\\c[0]\"!",
                     "langUid": 37,
                     "ko_KR": "\uadf8\ub798\uc11c \uc6b0\ub9ac\uc758 \ub180\ub77c\uc6b4 \\c[3]LMRS\\c[0] \uc989, \"\\c[3]\ub9c8\uc9c0\ub9c9 60\ucd08\uc758 \uad6c\ucd9c \uc2dc\uc2a4\ud15c\\c[0]\"\uc744 \uc0ac\uc6a9\ud558\ub294 \uac70\uace0!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u56e0\u6b64\u6211\u4eec\u4f7f\u7528\u4e86\\c[3]LMRS\\c[0] - \u6211\u4eec\u8d85\u5389\u5bb3\u7684\"\\c[3]\u6025\u96be\u82f1\u96c4\u6551\u63f4\u7cfb\u7edf\\c[0]\"!<<A<<[CHANGED 2019/01/10]",
@@ -4394,7 +4394,7 @@
             }, {
                 "message": {
                     "en_US": "We currently need more players on the lookout in \\c[3]Sapphire Ridge\\c[0].",
-                    "pt_BR": "Atualmente, precisamos de mais jogadores à nossa disposição na \\c[3]Cordilheira das Safiras\\c[0].",
+                    "pt_BR": "Atualmente, precisamos de mais jogadores à nossa disposição na \\c[3]Serra das Safiras\\c[0].",
                     "langUid": 51,
                     "ko_KR": "\\c[3]\uc0ac\ud30c\uc774\uc5b4 \uc0b0\ub9e5\\c[0]\uc758 \ub9dd\uc744 \ubcfc \ud50c\ub808\uc774\uc5b4\uac00 \ub354 \ud544\uc694\ud558\uac70\ub4e0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u6211\u4eec\u73b0\u5728\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u5730\u533a\u7f3a\u4eba\u3002<<A<<[CHANGED 2019/01/10]",
@@ -4464,7 +4464,7 @@
             }, {
                 "message": {
                     "en_US": "To start things off, just head back to the \\c[3]Cave Inn\\c[0] in \\c[3]Sapphire Ridge\\c[0] and wait around the landmark!",
-                    "pt_BR": "Para começar, basta voltar para o \\c[3]Cave Inn\\c[0] na \\c[3]Cordilheira das Safiras\\c[0] e aguardar em torno do marco histórico!",
+                    "pt_BR": "Para começar, basta voltar para a \\c[3]Pousada Caverna\\c[0] na \\c[3]Serra das Safiras\\c[0] e aguardar em torno do marco!",
                     "langUid": 687,
                     "ko_KR": "\uc790, \uc77c\ub2e8 \\c[3]\uc0ac\ud30c\uc774\uc5b4 \uc0b0\ub9e5\\c[0]\uc5d0 \uc788\ub294 \\c[3]\ub3d9\uad74 \uc5ec\uad00\\c[0]\uc758 \ub79c\ub4dc\ub9c8\ud06c\uc5d0\uc11c \uae30\ub2e4\ub9ac\ub294 \uac78\ub85c \uc2dc\uc791\ud558\uc790!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u5148\u53bb\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u7684\\c[3]\u6d1e\u5929\u65c5\u9986\\c[0]\u90a3\u91cc\u7b49\u7740\u5427\uff01<<A<<[CHANGED 2019/01/10]",
@@ -5616,7 +5616,7 @@
                 },
                 "text": {
                     "en_US": "True.\\. What about Autumn's Rise?",
-                    "pt_BR": "Verdade.\\. E quanto a Autumn's Rise?",
+                    "pt_BR": "Verdade.\\. E quanto ao Nascer do Outono?",
                     "langUid": 731,
                     "ko_KR": "\ub9de\uc544.\\. \uadf8\ub7fc \uac00\uc744\uc758 \ubd80\uc0c1\uc740?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u662f\u8fd9\u6837\u3002\\.\u90a3\u79cb\u8272\u5c71\u91ce\u5462\uff1f<<A<<[CHANGED 2019/01/10]",

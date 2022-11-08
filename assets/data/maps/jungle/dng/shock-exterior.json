@@ -8583,7 +8583,7 @@
           {
             "message": {
               "en_US": "Anyway, your help has been very much appreciated. My name is \\c[3]Dr. Lou Cretia\\c[0].",
-              "pt_BR": "De qualquer forma, sua ajuda tem sido muito apreciada. Meu nome é {\\c[3]Dra. Lou Cretia\\c[0].",
+              "pt_BR": "De qualquer forma, sua ajuda tem sido muito apreciada. Meu nome é \\c[3]Dra. Lou Cretia\\c[0].",
               "de_DE": "Wir schulden dir Dankbarkeit f\u00fcr deine Hilfe. Mein Name ist \\c[3]Dr. Lou Cretia\\c[0].",
               "zh_CN": "\u6211\u4eec\u975e\u5e38\u611f\u6fc0\u4f60\u3002\u6211\u662f\\c[3]\u9732\u00b7\u514b\u96f7\u63d0\u4e9a\u535a\u58eb\\c[0]\u3002<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u3068\u306b\u304b\u304f\u3001\u624b\u52a9\u3051\u3057\u3066\u304f\u308c\u3066\n\u672c\u5f53\u306b\u611f\u8b1d\u3059\u308b\u3088\u3002\u79c1\u306e\u540d\u524d\u306f\n\\c[3]\u30c9\u30af\u30bf\u30fc\u30fb\u30eb\u30fc\u30fb\u30af\u30ec\u30c4\u30a3\u30a2\\c[0]\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -10481,7 +10481,7 @@
                 {
                   "message": {
                     "en_US": "Please come back and report your findings once you do, okay?",
-                    "pt_BR": "Por favor, volte e informe suas descobertas assim que terminar, certo?.",
+                    "pt_BR": "Por favor, volte e informe suas descobertas assim que terminar, certo?",
                     "zh_CN": "\u627e\u5230\u4e86\u4e4b\u540e\u8bf7\u52a1\u5fc5\u56de\u6765\u8ddf\u6211\u8bf4\uff01<<A<<[CHANGED 2017/12/14]",
                     "ja_JP": "\u306a\u306b\u304b\u898b\u3064\u3051\u305f\u3089\u3001\u5831\u544a\u3057\u306b\n\u623b\u3063\u3066\u304d\u3066\u304a\u304f\u308c\u3088\u3002\u3044\u3044\u304b\u3044\uff1f<<A<<[CHANGED 2017/12/14]",
                     "ko_KR": "\ubc1c\uacac\ud558\uba74 \ub098\uc5d0\uac8c \ub3cc\uc544\uc640\uc11c \ubcf4\uace0\ud558\ub294 \uac70 \uc78a\uc9c0 \ub9c8, \uc54c\uc558\uc9c0?<<A<<[CHANGED 2017/12/14]",

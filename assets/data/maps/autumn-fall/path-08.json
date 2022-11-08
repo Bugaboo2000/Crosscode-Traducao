@@ -11862,7 +11862,7 @@
                     {
                         "name": {
                             "en_US": "Joe the Younger",
-                            "pt_BR": "Joe, o Mais novo",
+                            "pt_BR": "Joe, o Jovem",
                             "de_DE": "Joe der J\u00fcngere",
                             "zh_CN": "\u5c0f\u4e54\u4f0a<<A<<[CHANGED 2019\/07\/31]",
                             "ja_JP": "\u30b8\u30e7\u30fc\u30fb\u30b6\u30fb\u30e4\u30f3\u30ac\u30fc<<A<<[CHANGED 2019\/07\/31]",
@@ -11946,7 +11946,7 @@
                     {
                         "message": {
                             "en_US": "Oh wait, really? You already confronted another group of the \\c[3]Flying types\\c[0]?",
-                            "pt_BR": "Ei, espere, sério? Você já enfrentou outro grupo dos \\c[3]tipos Voadores\\c[0]?",
+                            "pt_BR": "Ei, espere, sério? Você já enfrentou outro grupo dos \\c[3]tipos voadores\\c[0]?",
                             "de_DE": "Hm, was? Du bist noch auf eine andere Gruppe \\c[3]fliegender Ig\u00f6ll\\c[0] gesto\u00dfen?",
                             "zh_CN": "\u54e6\uff0c\u771f\u7684?\u4f60\u89c1\u8fc7\u90a3\u4e9b\\c[3]\u98de\u884c\u79cd\\c[0]\u4e86\u5417?<<A<<[CHANGED 2019\/07\/31]",
                             "ja_JP": "\u304a\u3044\u3001\u5f85\u3063\u3066\u304f\u308c\u3088\u3001\u30de\u30b8\u304b\uff1f\n\u3042\u3093\u305f\u3001\u3082\u3046\u4ed6\u306e\\c[3]\u98db\u884c\u30bf\u30a4\u30d7\\c[0]\u306e\u7fa4\u308c\u3068\n\u51fa\u304f\u308f\u3057\u305f\u3063\u3066\u306e\u304b\uff1f<<A<<[CHANGED 2019\/07\/31]",
@@ -11964,7 +11964,7 @@
                     {
                         "message": {
                             "en_US": "[nods]",
-                            "pt_BR": "[acena com a cabeça]",
+                            "pt_BR": "[acena a cabeça]",
                             "de_DE": "[nickt]",
                             "fr_FR": "fr_FR",
                             "langUid": 46,
@@ -11983,7 +11983,7 @@
                     {
                         "message": {
                             "en_US": "And then you found a strange electronic device?\\. Right next to the \\c[3]Flying type\\c[0] \\v[combat.name.hedgehog]?!",
-                            "pt_BR": "E então você encontrou um estranho dispositivo eletrônico?\\. Perto do \\v[combat.name.hedgehog] \\c[3]tipo Voador\\c[0]?!",
+                            "pt_BR": "E então você encontrou um dispositivo eletrônico estranho?\\. Perto do \\v[combat.name.hedgehog] \\c[3]tipo voador\\c[0]?!",
                             "de_DE": "Und hast dabei ein seltsames Elektroger\u00e4t gefunden?\\. Direkt neben den \\c[3]fliegenden Ig\u00f6lln\\c[0]?!",
                             "zh_CN": "\u4f60\u8fd8\u627e\u5230\u4e86\u4e00\u4e2a\u5947\u602a\u7684\u7535\u5b50\u88c5\u7f6e\uff1f\\. \u5c31\u5728\u90a3\u4e9b\\c[3]\u98de\u884c\u79cd\\c[0]\\v[combat.name.hedgehog]\u9644\u8fd1?!<<A<<[CHANGED 2019\/07\/31]",
                             "ja_JP": "\u3057\u304b\u3082\u305d\u306e\u4e0a\u3001\u30c1\u30ab\u30c1\u30ab\u5149\u308b\n\u30df\u30e7\u30fc\u306a\u88c5\u7f6e\u3082\u898b\u3064\u3051\u305f\u306e\u304b\uff1f\\.\n\\c[3]\u98db\u884c\u30bf\u30a4\u30d7\\c[0]\u306e\\v[combat.name.hedgehog]\u306e\u3059\u3050\u305d\u3070\u3067\uff1f\uff01<<A<<[CHANGED 2019\/07\/31]",
@@ -12074,7 +12074,7 @@
                     {
                         "message": {
                             "en_US": "It could lead you to the \\c[3]Flying types'\\c[0] lair!\\. That would be incredible!\\. Come on, do it!",
-                            "pt_BR": "Ele pode guiar você para o \\c[3]lar dos tipos Voadores\\c[0]!\\. Isso seria incrível!\\. Vamos, faça isso!",
+                            "pt_BR": "Ele pode guiar você para o \\c[3]lar dos tipos voadores\\c[0]!\\. Isso seria incrível!\\. Vamos, faça isso!",
                             "de_DE": "Es k\u00f6nnte dich zu ihrem \\c[3]Versteck\\c[0] f\u00fchren!\\. Das w\u00e4re unglaublich! Du musst unbedingt dranbleiben!",
                             "zh_CN": "\u4e5f\u8bb8\u5b83\u80fd\u9886\u4f60\u5230\\c[3]\u98de\u884c\u79cd\\c[0]\u7684\u5de2\u7a74\uff01\\.\u8981\u662f\u771f\u80fd\u6210\u5c31\u592a\u5389\u5bb3\u4e86!\\.\u6c42\u4f60\u4e86\uff0c\u5feb\u53bb\u770b\u770b\u5427\uff01<<A<<[CHANGED 2019\/08\/25]",
                             "ja_JP": "\u305d\u3044\u3064\u304c\u3042\u308c\u3070\u3001\\c[3]\u98db\u884c\u30bf\u30a4\u30d7\\c[0]\u305f\u3061\u306e\u306d\u3050\u3089\u304c\n\u898b\u3064\u304b\u308b\u304b\u3082\u306a\uff01\\.\u3081\u3061\u3083\u304f\u3061\u3083\u30b9\u30b2\u30fc\u3053\u3068\u306b\n\u306a\u308b\u305e\uff01\\.\u3088\u3063\u3057\u3083\u3001\u3088\u308d\u3057\u304f\u983c\u3080\u305c\uff01<<A<<[CHANGED 2019\/08\/25]",
