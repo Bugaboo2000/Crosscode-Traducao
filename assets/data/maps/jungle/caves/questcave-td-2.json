@@ -7947,7 +7947,7 @@
                 {
                   "message": {
                     "en_US": "Here we have our new and improved \\c[3]Trackpower Extraction Device\\c[0]!",
-                    "pt_BR": "Aqui temos nosso novo e melhorado \\c[3]Dispositivo de Extração de Força da Trilha\\c[0]",
+                    "pt_BR": "Aqui temos nosso novo e melhorado \\c[3]Dispositivo de Extração de Força da Trilha\\c[0]!",
                     "de_DE": "Hier haben wir unseren neuen und verbesserten \\c[3]Pfadenergie-Extraktor\\c[0]!",
                     "zh_CN": "\u8fd9\u662f\u6211\u4eec\u7684\u6700\u65b0\u578b\\c[3]\u5148\u7956\u4e4b\u8def\u80fd\u91cf\u63d0\u53d6\u88c5\u7f6e\\c[0]!<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u3053\u3053\u306b\u3042\u308b\u306e\u304c\u3001\n\u65b0\u3057\u304f\u3066\u6539\u826f\u3055\u308c\u305f\n\\c[3]\u8ecc\u8de1\u30d1\u30ef\u30fc\u62bd\u51fa\u88c5\u7f6e\\c[0]\uff01<<A<<[CHANGED 2018/08/28]",
@@ -8091,7 +8091,7 @@
                 {
                   "message": {
                     "en_US": "Yeah, typical Track-tantrums, am I right?\\. In any case, you will have to defend it, \\v[lore.title.seeker].",
-                    "pt_BR": "Sim, típico problema da Trilha, não é?\\. De qualquer modo, você terá que defendê-lo, \\v[lore.title.seeker].",
+                    "pt_BR": "Sim, típico problema da Trilha, não é?\\. De qualquer modo, você terá que defendê-la, \\v[lore.title.seeker].",
                     "de_DE": "Da wird dem Pfad mal wieder m\u00e4chtig der Kragen platzen.\\. Aber zum Gl\u00fcck haben wir ja dich, Seeker!",
                     "zh_CN": "\u5f88\u5178\u578b\u7684\u5148\u7956\u4e4b\u8def\u53cd\u5e94\u5bf9\u5427\uff1f\\.\u603b\u4e4b\uff0c\u4f60\u9700\u8981\u5b88\u536b\u8fd9\u4e2a\u88c5\u7f6e\uff0c\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2019/07/31]",
                     "ja_JP": "\u305d\u3046\u3001\u5178\u578b\u7684\u306a\u8ecc\u8de1\u306e\u3057\u3063\u307a\u8fd4\u3057\u3060\u3088\u306d\u3002\\.\n\u3044\u305a\u308c\u306b\u305b\u3088\u3001\u3042\u306a\u305f\u306b\u9632\u885b\u3057\u3066\n\u3082\u3089\u308f\u306a\u3044\u3068\u306d\u3001\\v[lore.title.seeker]\u3055\u3093\u3002<<A<<[CHANGED 2019/07/31]",
@@ -8446,7 +8446,7 @@
                     {
                       "message": {
                         "en_US": "Alright.\\. I will start up our generator here in a second.",
-                        "pt_BR": "Muito bem.\\.  Vou ligar nosso gerador aqui num segundo.",
+                        "pt_BR": "Muito bem.\\. Vou ligar nosso gerador aqui num segundo.",
                         "de_DE": "Alles klar.\\. Ich starte den Generator hier, einen Augenblick.",
                         "zh_CN": "\u597d\u7684\u3002\\.\u6211\u4eec\u9a6c\u4e0a\u5c31\u542f\u52a8\u53d1\u7535\u673a\u3002<<A<<[CHANGED 2018/08/01]",
                         "ja_JP": "\u308f\u304b\u3063\u305f\u3002\\.\u3053\u3053\u306e\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u30fc\u3092\n\u3059\u3050\u306b\u8d77\u52d5\u3059\u308b\u3002<<A<<[CHANGED 2018/08/01]",
@@ -9428,7 +9428,7 @@
                 {
                   "message": {
                     "en_US": "Oh, yeah.\\. You also did fine.\\. This operation would have been difficult without your protection.\\. So, thanks!",
-                    "pt_BR": "Ah, sim.\\.Você também se saiu bem.\\. Essa operação teria sido difícil sem sua proteção. Então, obrigada!",
+                    "pt_BR": "Ah, sim.\\. Você também se saiu bem.\\. Essa operação teria sido difícil sem sua proteção. Então, obrigada!",
                     "de_DE": "Ach ja.\\. Deine Arbeit war auch gut.\\. Das Ganze w\u00e4re ohne dich echt schwer gewesen.\\. Also danke!",
                     "zh_CN": "\u54e6\u54e6\u3002\\.\u4f60\u4e5f\u505a\u5f97\u633a\u597d\u3002\\.\u8981\u662f\u6ca1\u6709\u4f60\u8ba1\u5212\u4e5f\u65e0\u6cd5\u987a\u5229\u5b9e\u65bd\u3002\\.\u591a\u8c22\u5566\u3002<<A<<[CHANGED 2018/11/28]",
                     "ja_JP": "\u3042\u3042\u3001\u305d\u3046\u3060\u3088\u306d\u3002\\.\u3042\u306a\u305f\u306f\n\u3088\u304f\u3084\u3063\u3066\u304f\u308c\u305f\u3088\u3002\\.\u3042\u306a\u305f\u304c\n\u8b77\u885b\u3057\u3066\u304f\u308c\u306a\u304b\u3063\u305f\u3089\u3001\u3053\u306e\u4f5c\u6226\u306f\n\u56f0\u96e3\u3060\u3063\u305f\u3068\u601d\u3046\u3002\\.\u3060\u304b\u3089\u3001\u3042\u308a\u304c\u3068\u3046\uff01<<A<<[CHANGED 2019/01/10]",
@@ -9461,7 +9461,7 @@
                 {
                   "message": {
                     "en_US": "So, yes.\\. Report back to our HQ to get your reward!\\. And until next time.",
-                    "pt_BR": "Então, sim\\. Reporte-se em nossa sede para receber sua recompensa.",
+                    "pt_BR": "Então, sim.\\. Reporte-se em nossa sede para receber sua recompensa.",
                     "de_DE": "Melde dich im Hauptquartier f\u00fcr deine Belohnung!\\. Bis zum n\u00e4chsten Mal!",
                     "zh_CN": "\u5c31\u8fd9\u6837\u3002\\.\u8bf7\u5411\u603b\u90e8\u62a5\u544a\u9886\u8d4f\u5427\uff01\\.\u4e0b\u6b21\u518d\u89c1\u3002<<A<<[CHANGED 2018/11/28]",
                     "ja_JP": "\u3046\u3093\u3001\u305d\u3046\u3060\u306d\u3002\\.\u672c\u90e8\u306b\u5831\u544a\u3057\u3066\n\u5831\u916c\u3092\u53d7\u3051\u53d6\u3063\u3066\u306d\uff01\\.\u3058\u3083\u3042\u3001\u307e\u305f\u306d\u3002<<A<<[CHANGED 2019/01/10]",
