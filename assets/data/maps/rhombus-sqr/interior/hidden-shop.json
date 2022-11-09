@@ -1,0 +1,3604 @@
+{
+  "name": "rhombus-sqr/interior/hidden-shop",
+  "levels": [{ "height": 0 }],
+  "mapWidth": 50,
+  "mapHeight": 30,
+  "masterLevel": 0,
+  "entities": [
+    {
+      "type": "Door",
+      "x": 368,
+      "y": 368,
+      "level": 0,
+      "settings": {
+        "name": "door",
+        "doorType": "DEFAULT",
+        "dir": "NORTH",
+        "transitionType": "REGULAR",
+        "mapId": 1,
+        "map": "rhombus-sqr.center-se",
+        "marker": "d3",
+        "variation": ""
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 320,
+      "y": 256,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 128, "y": 24 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 40,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 2
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 288,
+      "y": 172,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 96, "y": 12 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 44,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 3
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 480,
+      "y": 176,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 16, "y": 128 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 12,
+        "wallY": 1,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 4
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 356,
+      "y": 358,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 5,
+        "propType": { "sheet": "rhombus-interior", "name": "lamp5" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 404,
+      "y": 358,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 7,
+        "propType": { "sheet": "rhombus-interior", "name": "lamp5" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 328,
+      "y": 348,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 8,
+        "propType": { "sheet": "rhombus-interior", "name": "plant2" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 416,
+      "y": 352,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 9,
+        "propType": { "sheet": "rhombus-interior", "name": "plant9" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 496,
+      "y": 188,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "mapId": 11,
+        "propType": { "sheet": "rhombus-interior", "name": "laserboard3" },
+        "propAnim": "",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 464,
+      "y": 180,
+      "level": { "level": 0, "offset": 2 },
+      "settings": {
+        "name": "",
+        "mapId": 12,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "stats",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 328,
+      "y": 180,
+      "level": { "level": 0, "offset": 2 },
+      "settings": {
+        "name": "",
+        "mapId": 13,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "stats",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 320,
+      "y": 276,
+      "level": { "level": 0, "offset": 2 },
+      "settings": {
+        "name": "",
+        "mapId": 14,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "stats",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 432,
+      "y": 276,
+      "level": { "level": 0, "offset": 2 },
+      "settings": {
+        "name": "",
+        "mapId": 15,
+        "propType": { "sheet": "trading-autumn", "name": "signTall" },
+        "propAnim": "stats",
+        "condAnims": []
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 416,
+      "y": 172,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 64, "y": 12 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 44,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 16
+      }
+    },
+    {
+      "type": "ObjectLayerView",
+      "x": 384,
+      "y": 172,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "size": { "x": 32, "y": 12 },
+        "layer": "object1",
+        "collType": "BLOCK",
+        "zHeight": 12,
+        "wallY": 0,
+        "terrain": "",
+        "heightShape": "NONE",
+        "blockNavMap": false,
+        "mapId": 17
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 498,
+      "y": 244,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "characterName": "bergen.female-monk-white",
+        "mapId": 18,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "WEST",
+            "hidden": false,
+            "condition": "",
+            "config": "normal",
+            "event": [
+              {
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": {
+                  "person": "bergen.female-monk-white",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "message": {
+                  "en_US": "You look at it, you buy it.",
+                  "pt_BR": "Você olha, você compra.",
+                  "langUid": 3,
+                  "ko_KR": "\uc77d\uc73c\uba74 \uc0ac\uc57c \ub41c\ub2e4?<<A<<[CHANGED 2019/01/10]",
+                  "zh_CN": "\u770b\u4e86\u5c31\u8981\u4e70\u3002<<A<<[CHANGED 2019/01/10]",
+                  "ja_JP": "\u4e00\u5ea6\u624b\u306b\u53d6\u3063\u305f\u3089\n\u8cb7\u3063\u3066\u304f\u3060\u3055\u3044\u306d\u3002<<A<<[CHANGED 2019/01/10]",
+                  "de_DE": "Du hast es angesehen, also musst du's kaufen.",
+                  "zh_TW": "\u770b\u4e86\u5c31\u8981\u8cb7\u3002<<A<<[CHANGED 2019/01/10]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "bergen.female-monk-white",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "...!",
+                  "pt_BR": "...!",
+                  "langUid": 4,
+                  "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                  "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
+                  "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                  "de_DE": "...!",
+                  "zh_TW": "...!<<A<<[CHANGED 2019/01/10]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "SURPRISED" }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 360,
+      "y": 188,
+      "level": 0,
+      "settings": {
+        "name": "dkar",
+        "characterName": "main.dkar",
+        "mapId": 19,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "quest.unknown-warrior-4.solved     ",
+            "config": "normal",
+            "event": {
+              "quest": [
+                {
+                  "entity": { "global": true, "name": "dkar" },
+                  "action": [
+                    {
+                      "entity": { "player": true },
+                      "rotate": false,
+                      "rotateSpeed": 3,
+                      "type": "SET_FACE_TO_ENTITY"
+                    },
+                    { "value": true, "type": "SET_FACE_FIX" },
+                    {
+                      "volume": 1,
+                      "global": false,
+                      "loop": false,
+                      "type": "PLAY_SOUND",
+                      "sound": "media/sound/battle/airon/hit-organic-1.ogg"
+                    },
+                    {
+                      "duration": 0,
+                      "align": "BOTTOM",
+                      "rotateFace": 0,
+                      "flipLeftFace": false,
+                      "wait": false,
+                      "waitSkip": 0,
+                      "actionDetached": false,
+                      "fixPos": false,
+                      "type": "SHOW_EFFECT",
+                      "effect": { "sheet": "combat", "name": "flashShort" },
+                      "offset": { "x": 0, "y": 0, "z": 0 }
+                    },
+                    {
+                      "time": 0.1,
+                      "stopBeforeEdge": false,
+                      "type": "MOVE_BACKWARD"
+                    },
+                    { "type": "WAIT", "time": 0.5 }
+                  ],
+                  "repeating": false,
+                  "wait": true,
+                  "keepState": true,
+                  "immediately": false,
+                  "type": "DO_ACTION"
+                },
+                {
+                  "side": "LEFT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "side": "RIGHT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": { "person": "main.lea", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "...! ",
+                    "pt_BR": "...! ",
+                    "de_DE": "...! ",
+                    "zh_CN": "...! <<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 106,
+                    "zh_TW": "...! <<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "...! ",
+                    "pt_BR": "...! ",
+                    "de_DE": "...! ",
+                    "zh_CN": "...! <<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 107,
+                    "zh_TW": "...! <<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "SURPRISED" }
+                },
+                {
+                  "message": {
+                    "en_US": "Well look who it is!",
+                    "pt_BR": "Ora, veja quem temos aqui!",
+                    "de_DE": "Ach, wen haben wir denn da?",
+                    "zh_CN": "\u770b\u770b\u8fd9\u662f\u8c01\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u30ec\u30a2\u3058\u3083\u306a\u3044\u304b\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc774\uac8c \ub204\uad6c\uc57c!<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 108,
+                    "zh_TW": "\u770b\u770b\u9019\u662f\u8ab0\uff01<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Hi!",
+                    "pt_BR": "Oi!",
+                    "de_DE": "Hi!",
+                    "fr_FR": "fr_FR",
+                    "zh_CN": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 436,
+                    "ja_JP": "\u3084\u3041\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc548\ub155!<<A<<[CHANGED 2019/01/10]",
+                    "zh_TW": "\u4f60\u597d\uff01<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "EXCITED" }
+                },
+                {
+                  "message": {
+                    "en_US": "I must admit, I was expecting you.",
+                    "pt_BR": "Devo admitir que estava esperando por você.",
+                    "de_DE": "Ich muss gestehen, dass ich dich erwartet habe.",
+                    "zh_CN": "\u8001\u5b9e\u8bf4\uff0c\u6211\u786e\u5b9e\u5728\u7b49\u4f60\u6765\u7740\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u6b63\u76f4\u306b\u8a00\u3048\u3070\u3001\n\u541b\u304c\u6765\u308b\u3093\u3058\u3083\u306a\u3044\u304b\u3068\n\u671f\u5f85\u3057\u3066\u305f\u3088\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc0ac\uc2e4 \ub124\uac00 \uc62c \uc904 \uc608\uc0c1\ud558\uace0 \uc788\uc5c8\ub2e8\ub2e4.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 437,
+                    "zh_TW": "\u8aaa\u771f\u7684\uff0c\u6211\u78ba\u5be6\u5728\u7b49\u4f60\u4f86\u8457\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Yet you still managed to surprise me.",
+                    "pt_BR": "Mesmo assim, você ainda conseguiu me surpreender.",
+                    "de_DE": "Und doch hast du es geschafft, mich zu \u00fcberraschen.",
+                    "zh_CN": "\u4e0d\u8fc7\u4f60\u8fd8\u662f\u5413\u4e86\u6211\u4e00\u8df3\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3060\u304c\u3001\u305d\u308c\u3067\u3082\u541b\u306f\n\u79c1\u3092\u9a5a\u304b\u305b\u3066\u304f\u308c\u305f\u306d\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\ud558\uc9c0\ub9cc \uc5ec\uc804\ud788 \ub0a0 \ub180\ub77c\uac8c \ud558\ub294\uad70.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 523,
+                    "zh_TW": "\u4e0d\u904e\u4f60\u9084\u662f\u5687\u4e86\u6211\u4e00\u8df3\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "...!",
+                    "pt_BR": "...!",
+                    "de_DE": "...!",
+                    "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 438,
+                    "zh_TW": "...!<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "SMUG" }
+                },
+                {
+                  "message": {
+                    "en_US": "Haha, now don't get cocky on an old man.",
+                    "pt_BR": "Haha,",
+                    "de_DE": "Hoahoahoa, werde blo\u00df nicht \u00fcberm\u00fctig.",
+                    "zh_CN": "\u54c8\u54c8\uff0c\u8001\u5934\u5b50\u6211\u7ecf\u5e38\u88ab\u4f60\u5413\u53ef\u8981\u6298\u5bff\u55bd\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u306f\u306f\u3001\u3053\u306e\u8001\u3044\u307c\u308c\u3092\n\u3042\u307e\u308a\u3044\u3058\u3081\u306a\u3044\u3067\u304f\u308c\u3088\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\ud558\ud558, \uc774 \ub299\uc740\uc774\ub97c \uc0c1\ub300\ub85c \ub108\ubb34 \uc790\ub9cc\ud558\uc9c0 \ub9d0\ub77c\uace0!<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 439,
+                    "zh_TW": "\u54c8\u54c8\uff0c\u8001\u982d\u5b50\u6211\u7d93\u5e38\u88ab\u4f60\u5687\u8981\u6298\u58fd\u560d\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Anyway... there's only one more piece missing in our little puzzle.",
+                    "pt_BR": "Mudando de assunto... falta apenas mais uma peça em nosso pequeno quebra-cabeça.",
+                    "de_DE": "Also... Es fehlt nur noch ein Teil in unserem kleinen Puzzle.",
+                    "zh_CN": "\u603b\u4e4b...\u73b0\u5728\u8c1c\u9898\u8fd8\u5269\u4e0b\u6700\u540e\u4e00\u7247\u788e\u7247\u3002<<A<<[CHANGED 2019/02/01]",
+                    "ja_JP": "\u305d\u308c\u306f\u3055\u3066\u304a\u304d...\u79c1\u305f\u3061\u306e\n\u3061\u3087\u3063\u3068\u3057\u305f\u8b0e\u89e3\u304d\u306f\u3001\n\u3042\u3068\u30d4\u30fc\u30b9\u3072\u3068\u3064\u3067\u5b8c\u6210\u3059\u308b\u3002<<A<<[CHANGED 2019/02/01]",
+                    "ko_KR": "\uc544\ubb34\ud2bc... \uc774\uc81c \ud37c\uc990\uc758 \ud55c \uc870\uac01\ub9cc \uc788\uc73c\uba74 \ub41c\ub2e8\ub2e4.<<A<<[CHANGED 2019/02/01]",
+                    "langUid": 561,
+                    "zh_TW": "\u7e3d\u4e4b...\u73fe\u5728\u8b0e\u984c\u9084\u5269\u4e0b\u6700\u5f8c\u4e00\u7247\u788e\u7247\u3002<<A<<[CHANGED 2019/02/01]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Should we find it, I might be able to fulfill my promise to my kids...",
+                    "pt_BR": "Se a encontrarmos, talvez eu consiga cumprir minha promessa aos meus filhos.",
+                    "de_DE": "Sollten wir es finden, k\u00f6nnte ich mein Versprechen meinen Kindern gegen\u00fcber halten...",
+                    "zh_CN": "\u8981\u662f\u80fd\u627e\u5230\u7684\u8bdd\uff0c\u4e5f\u8bb8\u6211\u5c31\u80fd\u5b8c\u6210\u5bf9\u5b69\u5b50\u4eec\u7684\u627f\u8bfa...<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3082\u3057\u898b\u3064\u3051\u3089\u308c\u308c\u3070\u3001\u79c1\u306f\u5b50\u4f9b\u305f\u3061\u3068\u306e\n\u7d04\u675f\u3092\u679c\u305f\u305b\u308b\u304b\u3082\u3057\u308c\u306a\u3044...<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uadf8\uac78 \ucc3e\uc73c\uba74 \uc544\uc774\ub4e4\uc5d0\uac8c \ud55c \uc57d\uc18d\uc744 \uc9c0\ud0ac \uc218 \uc788\uc5b4...<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 562,
+                    "zh_TW": "\u8981\u662f\u80fd\u627e\u5230\u7684\u8a71\uff0c\u4e5f\u8a31\u6211\u5c31\u80fd\u5b8c\u6210\u5c0d\u5b69\u5b50\u5011\u7684\u627f\u8afe...<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "...!",
+                    "pt_BR": "...!",
+                    "de_DE": "...!",
+                    "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 440,
+                    "zh_TW": "...!<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NERVOUS" }
+                },
+                {
+                  "message": {
+                    "en_US": "No reason to look sad, little one. ",
+                    "pt_BR": "Não há razão para ficar triste, baxinha.",
+                    "de_DE": "Kein Grund, so traurig zu gucken, Kleine.",
+                    "zh_CN": "\u4e0d\u5fc5\u4f24\u5fc3\uff0c\u5b69\u5b50\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u60b2\u3057\u3044\u9854\u3092\u3059\u308b\u7406\u7531\u306f\n\u306a\u3044\u306a\u3001\u304a\u5b22\u3055\u3093\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc2ac\ud508 \ud45c\uc815 \uc9c0\uc744 \ud544\uc694 \uc5c6\ub2e8\ub2e4, \uaf2c\ub9c8\uc57c.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 524,
+                    "zh_TW": "\u4e0d\u5fc5\u50b7\u5fc3\uff0c\u5b69\u5b50\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "I'm sure if I can get them all in one place and talk to them this will all end well.",
+                    "pt_BR": "Estou certo de que tudo ficará bem se eu puder reunir todos eles e ter uma conversa.",
+                    "de_DE": "Ich bin sicher, dass alles gut werden wird, wenn ich sie alle versammeln und mit ihnen reden kann.",
+                    "zh_CN": "\u53ea\u8981\u80fd\u628a\u4ed6\u4eec\u805a\u5230\u4e00\u8d77\uff0c\u6211\u8ddf\u4ed6\u4eec\u804a\u804a\u4e00\u5b9a\u80fd\u89e3\u51b3\u7684\u3002<<A<<[CHANGED 2019/05/14]",
+                    "ja_JP": "\u30a2\u30a4\u30c6\u30e0\u3092\u4e00\u304b\u6240\u306b\u96c6\u3081\u3066\u3001\n\u5b50\u4f9b\u305f\u3061\u3068\u8a71\u3059\u3053\u3068\u304c\u3067\u304d\u308c\u3070\u3001\n\u3059\u3079\u3066\u3046\u307e\u304f\u3044\u304f\u3060\u308d\u3046\u3002<<A<<[CHANGED 2019/05/14]",
+                    "ko_KR": "\uc870\uac01\uc744 \uc804\ubd80 \ubaa8\uc740\ub2e4\uba74 \uc544\uc774\ub4e4\uc5d0\uac8c\ub3c4 \ub9d0\ud574 \uc88b\uc740 \uacb0\ub9d0\uc744 \ub9de\uc774\ud560 \uac70\ub780\ub2e4.<<A<<[CHANGED 2019/05/14]",
+                    "langUid": 542,
+                    "zh_TW": "\u53ea\u8981\u80fd\u628a\u4ed6\u5011\u805a\u5230\u4e00\u8d77\uff0c\u6211\u8ddf\u4ed6\u5011\u804a\u804a\u4e00\u5b9a\u80fd\u89e3\u6c7a\u7684\u3002<<A<<[CHANGED 2019/05/14]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
+                    "de_DE": "[nickt]",
+                    "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 489,
+                    "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NOD" }
+                },
+                {
+                  "message": {
+                    "en_US": "Alright, the last ones are the \\c[3]\\v[item.515.name]\\c[0]. ",
+                    "pt_BR": "Muito bem, o último item que resta é o \\c[3]\\v[item.515.name]\\c[0].",
+                    "de_DE": "Also dann, jetzt brauchen wir nur noch die \\c[3]Kaputten Chakrams\\c[0].",
+                    "zh_CN": "\u6700\u540e\u4e00\u4e2a\u8981\u627e\u5230\u662f\\c[3]\\v[item.515.name]\\c[0]\u3002<<A<<[CHANGED 2019/05/14]",
+                    "ja_JP": "\u3088\u3057\u3001\u6700\u5f8c\u306e\u3072\u3068\u3064\u306f\n\\c[3]\\v[item.515.name]\\c[0]\u3060\u3002<<A<<[CHANGED 2019/05/14]",
+                    "ko_KR": "\uc88b\uc544, \ub9c8\uc9c0\ub9c9\uc740 \\c[3]\\v[item.515.name]\\c[0]\uc774\ub780\ub2e4.<<A<<[CHANGED 2019/05/14]",
+                    "langUid": 442,
+                    "zh_TW": "\u6700\u5f8c\u4e00\u500b\u8981\u627e\u5230\u662f\\c[3]\\v[item.515.name]\\c[0]\u3002<<A<<[CHANGED 2019/05/14]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Are you ready to help me one final time?",
+                    "pt_BR": "Você está pronta para me ajudar pela última vez?",
+                    "de_DE": "Bist du bereit, mir ein letztes Mal zu helfen?",
+                    "zh_CN": "\u4f60\u51c6\u5907\u597d\u5e2e\u6211\u6700\u540e\u4e00\u6b21\u4e86\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u6700\u5f8c\u306b\u3082\u3046\u4e00\u5ea6\u79c1\u3092\n\u52a9\u3051\u3066\u304f\u308c\u308b\u304b\u3044\uff1f<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc815\ub9d0 \ub9c8\uc9c0\ub9c9\uc73c\ub85c \ub0a0 \ub3c4\uc640\uc904 \uc218 \uc788\uaca0\ub2c8?<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 443,
+                    "zh_TW": "\u4f60\u6e96\u5099\u597d\u5e6b\u6211\u6700\u5f8c\u4e00\u6b21\u4e86\u55ce\uff1f<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "type": "OPEN_QUEST_DIALOG",
+                  "quest": "unknown-warrior-5",
+                  "accepted": [
+                    {
+                      "type": "SET_MSG_EXPRESSION",
+                      "person": {
+                        "person": "main.lea",
+                        "expression": "DEFAULT"
+                      }
+                    },
+                    {
+                      "message": {
+                        "en_US": "I appreciate it, kid!",
+                        "pt_BR": "Fico agradecido, garota!",
+                        "de_DE": "Das wei\u00df ich zu sch\u00e4tzen, Kleine!",
+                        "zh_CN": "\u8c22\u8c22\u4f60\uff0c\u5b69\u5b50\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "\u3042\u308a\u304c\u3068\u3046\u3088\u3001\u304a\u5b22\u3055\u3093\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "\uace0\ub9d9\ub2e4, \uc598\uc57c!<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 452,
+                        "zh_TW": "\u8b1d\u8b1d\u4f60\uff0c\u5b69\u5b50\uff01<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.dkar",
+                        "expression": "DEFAULT"
+                      }
+                    },
+                    {
+                      "message": {
+                        "en_US": "This one starts off just like the last one.",
+                        "pt_BR": "Este começa exatamente como o último.",
+                        "de_DE": "Wir fangen genauso an wie beim letzten Mal.",
+                        "zh_CN": "\u8fd9\u6b21\u548c\u4e0a\u6b21\u4e00\u6837\u3002<<A<<[CHANGED 2019/02/02]",
+                        "ja_JP": "\u4eca\u56de\u306f\u524d\u306e\u6642\u3068\u540c\u3058\u3060\u3002<<A<<[CHANGED 2019/02/02]",
+                        "ko_KR": "\uc2dc\uc791\uc740 \uc9c0\ub09c\ubc88\uacfc \ube44\uc2b7\ud574.<<A<<[CHANGED 2019/02/02]",
+                        "langUid": 525,
+                        "zh_TW": "\u9019\u6b21\u548c\u4e0a\u6b21\u4e00\u6a23\u3002<<A<<[CHANGED 2019/02/02]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.dkar",
+                        "expression": "DEFAULT"
+                      }
+                    },
+                    {
+                      "message": {
+                        "en_US": "There's a book here talking about a place in \\c[3]\\v[area.forest.name]\\c[0]. It's in the shelf to the left.",
+                        "pt_BR": "Há um livro aqui falando sobre um lugar na \\c[3]\\v[area.forest.name]\\c[0]. Está na estante à esquerda.",
+                        "de_DE": "Hier ist ein Buch, das von einem Ort auf dem \\c[3]Saphirgrat\\c[0] spricht. Es steht im linken B\u00fccherregal.",
+                        "zh_CN": "\u8fd9\u91cc\u6709\u4e00\u672c\u4e66\u63d0\u5230\u4e86\\c[3]\\v[area.forest.name]\\c[0]\u4e2d\u7684\u4e00\u4e2a\u5730\u65b9\u3002\u5de6\u8fb9\u90a3\u4e2a\u4e66\u67dc\u4e0a\u3002<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "\u305d\u3053\u306b\u3001\\c[3]\\v[area.forest.name]\\c[0]\u306b\u3064\u3044\u3066\n\u66f8\u304b\u308c\u305f\u672c\u304c\u3042\u308b\u3002\u5de6\u5074\u306e\u68da\u3060\u3002<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "\uc5ec\uae30 \\c[3]\\v[area.forest.name]\\c[0]\uc5d0 \uad00\ud55c \ucc45\uc774 \uc788\uc5b4. \uc67c\ucabd \ucc45\uc7a5\uc5d0 \uc788\ub2e8\ub2e4.<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 578,
+                        "zh_TW": "\u9019\u88e1\u6709\u4e00\u672c\u66f8\u63d0\u5230\u4e86\\c[3]\\v[area.forest.name]\\c[0]\u4e2d\u7684\u4e00\u500b\u5730\u65b9\u3002\u5de6\u908a\u90a3\u500b\u66f8\u6ac3\u4e0a\u3002<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.dkar",
+                        "expression": "DEFAULT"
+                      }
+                    },
+                    {
+                      "message": {
+                        "en_US": "Give it a read and see if you can make something of it. ",
+                        "pt_BR": "Dê uma lida e veja se você pode descobrir algo.",
+                        "de_DE": "Schau mal rein und sag mir, ob du schlau daraus wirst.",
+                        "zh_CN": "\u4f60\u53bb\u8bfb\u8bfb\u770b\uff0c\u770b\u80fd\u4e0d\u80fd\u53d1\u73b0\u4ec0\u4e48\u7ebf\u7d22\u3002<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "\u305d\u3044\u3064\u3092\u8aad\u3093\u3067\u3001\u306a\u306b\u304b\u60c5\u5831\u3092\n\u898b\u3064\u3051\u3089\u308c\u306a\u3044\u304b\u78ba\u304b\u3081\u3066\u307f\u3066\u304f\u308c\u3002<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "\ubb54\uac00 \ubc1c\uacac\ud560 \uc218\ub3c4 \uc788\uc73c\ub2c8 \ud55c \ubc88 \uc77d\uc5b4\ubcf4\ub834.<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 563,
+                        "zh_TW": "\u4f60\u53bb\u8b80\u8b80\u770b\uff0c\u770b\u80fd\u4e0d\u80fd\u767c\u73fe\u4ec0\u9ebc\u7dda\u7d22\u3002<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.dkar",
+                        "expression": "DEFAULT"
+                      }
+                    },
+                    {
+                      "message": {
+                        "en_US": "[nods]",
+                        "pt_BR": "[acena a cabeça]",
+                        "de_DE": "[nickt]",
+                        "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 526,
+                        "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": { "person": "main.lea", "expression": "NOD" }
+                    }
+                  ],
+                  "declined": [
+                    {
+                      "message": {
+                        "en_US": "No? What's the matter? Please come back if you changed your mind!",
+                        "pt_BR": "Não? Qual o problema? Por favor, volte se você mudar de ideia!",
+                        "de_DE": "Nein? Was ist los? \u00dcberlege es dir bitte nochmal!",
+                        "zh_CN": "\u5443\uff1f\u53d1\u751f\u4ec0\u4e48\u4e8b\u4e86\u5417\uff1f\u8981\u662f\u4f60\u6539\u6ce8\u610f\u4e86\u5c31\u56de\u6765\u627e\u6211\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "\u30c0\u30e1\u304b\u3044\uff1f\u3069\u3046\u3057\u305f\u3093\u3060\uff1f\n\u3069\u3046\u304b\u3001\u6c17\u304c\u5909\u308f\u3063\u305f\u3089\n\u623b\u3063\u3066\u304d\u3066\u304f\u308c\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "\uc548 \ub41c\ub2e4\uace0? \ubb54\uac00 \ubb38\uc81c\uac00 \uc788\ub2c8? \ub9c8\uc74c\uc774 \ubc14\ub010\ub2e4\uba74 \ub3cc\uc544\uc624\ub824\ubb34\ub098!<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 468,
+                        "zh_TW": "\u5443\uff1f\u767c\u751f\u4ec0\u9ebc\u4e8b\u4e86\u55ce\uff1f\u8981\u662f\u4f60\u6539\u6ce8\u610f\u4e86\u5c31\u56de\u4f86\u627e\u6211\uff01<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.dkar",
+                        "expression": "DEFAULT"
+                      }
+                    },
+                    {
+                      "message": {
+                        "en_US": "...",
+                        "pt_BR": "...",
+                        "de_DE": "...",
+                        "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "...<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 469,
+                        "zh_TW": "...<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.lea",
+                        "expression": "NERVOUS"
+                      }
+                    },
+                    {
+                      "npc": { "global": true, "name": "dkar" },
+                      "type": "RESET_NPC"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "quest.unknown-warrior-5.started",
+            "config": "normal",
+            "event": [
+              {
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.dkar", "expression": "DEFAULT" }
+              },
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "message": {
+                  "en_US": "Hello young lady, read the book yet?",
+                  "pt_BR": "Olá garota, já leu o livro?",
+                  "de_DE": "Hallo, junge Dame, hast du das Buch schon gelesen?",
+                  "zh_CN": "\u8bfb\u8fc7\u4e66\u4e86\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
+                  "ja_JP": "\u3084\u3042\u304a\u5b22\u3055\u3093\u3001\u672c\u306f\u8aad\u3093\u3060\u304b\u3044\uff1f<<A<<[CHANGED 2019/01/10]",
+                  "ko_KR": "\uaf2c\ub9c8 \uc544\uac00\uc528, \ucc45 \uc77d\uc5b4 \ubd24\ub098?<<A<<[CHANGED 2019/01/10]",
+                  "langUid": 471,
+                  "zh_TW": "\u8b80\u904e\u66f8\u4e86\u55ce\uff1f<<A<<[CHANGED 2019/01/10]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.dkar", "expression": "DEFAULT" }
+              },
+              {
+                "withElse": true,
+                "type": "IF",
+                "condition": "map.readBook",
+                "thenStep": [
+                  {
+                    "message": {
+                      "en_US": "[nods]",
+                      "pt_BR": "[acena a cabeça]",
+                      "de_DE": "[nickt]",
+                      "fr_FR": "fr_FR",
+                      "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 470,
+                      "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
+                      "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.lea", "expression": "NOD" }
+                  },
+                  {
+                    "message": {
+                      "en_US": "So, something about a \"Berrytree\" and a Panda. Ah yes, also the bug by the campfire? ",
+                      "pt_BR": "Então, tem algo sobre uma \"Árvore de Bagas\" e um Panda. Ah sim, e também o inseto perto da fogueira?",
+                      "de_DE": "Also, irgendein \"Beerenbaum\" und ein Panda. Ach ja, und ein K\u00e4fer am Lagefeuer.",
+                      "zh_CN": "\u636e\u8bf4\u548c\u201c\u679c\u6811\u201d\u8fd8\u6709\u718a\u732b\u6709\u5173\u3002\u8fd8\u8bf4\u4e86\u4ec0\u4e48\u8425\u706b\u65c1\u7684\u866b\u5b50\uff1f<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "\u305d\u3046\u3001\u300c\u30d9\u30ea\u30fc\u306e\u6728\u300d\u3068\u30d1\u30f3\u30c0\u306b\u3064\u3044\u3066\n\u306a\u306b\u304b\u66f8\u3044\u3066\u3042\u308b\u3002\u3042\u3042\u305d\u3046\u3060\u3001\n\u305f\u304d\u706b\u306e\u305d\u3070\u306b\u3044\u308b\u866b\u306b\u3064\u3044\u3066\u3082\n\u66f8\u3044\u3066\u3042\u3063\u305f\u304b\uff1f<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "\"\ubca0\ub9ac \ub098\ubb34\"\uc640 \ud310\ub2e4\uc5d0 \uad00\ud55c \uac83\uc774\ub77c\uace0. \uc544 \uadf8\ub798, \ubaa8\ub2e5\ubd88 \uadfc\ucc98\uc758 \ubc8c\ub808\ub3c4?<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 475,
+                      "zh_TW": "\u64da\u8aaa\u548c\u201c\u679c\u6a39\u201d\u9084\u6709\u718a\u8c93\u6709\u95dc\u3002\u9084\u8aaa\u4e86\u4ec0\u9ebc\u71df\u706b\u65c1\u7684\u87f2\u5b50\uff1f<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                  },
+                  {
+                    "message": {
+                      "en_US": "To be frank, I have no idea what it means. ",
+                      "pt_BR": "Para ser franco, não tenho a menor idéia do que isso significa. ",
+                      "de_DE": "Ich habe nicht den blassesten Schimmer, was das bedeutet.",
+                      "zh_CN": "\u6211\u5b8c\u5168\u4e0d\u77e5\u9053\u8fd9\u662f\u4ec0\u4e48\u610f\u601d\u3002<<A<<[CHANGED 2019/05/14]",
+                      "ja_JP": "\u6b63\u76f4\u306b\u8a00\u304a\u3046\u3002\u79c1\u306b\u306f\u3053\u308c\u304c\u3044\u3063\u305f\u3044\n\u3069\u3093\u306a\u610f\u5473\u306a\u306e\u304b\u3055\u3063\u3071\u308a\u308f\u304b\u3089\u3093\u3002<<A<<[CHANGED 2019/05/14]",
+                      "ko_KR": "\uc194\uc9c1\ud788 \ubb34\uc2a8 \ub9d0\uc778\uc9c0 \uc774\ud574\ub97c \ubabb \ud558\uaca0\uad6c\ub098.<<A<<[CHANGED 2019/05/14]",
+                      "langUid": 564,
+                      "zh_TW": "\u6211\u5b8c\u5168\u4e0d\u77e5\u9053\u9019\u662f\u4ec0\u9ebc\u610f\u601d\u3002<<A<<[CHANGED 2019/05/14]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                  },
+                  {
+                    "message": {
+                      "en_US": "I hope you can make something out of it.",
+                      "pt_BR": "Eu espero que você possa descobrir algo com isso.",
+                      "de_DE": "Hoffentlich kannst du etwas damit anfangen.",
+                      "zh_CN": "\u5e0c\u671b\u4f60\u7b49\u627e\u5230\u7ebf\u7d22\u3002<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "\u541b\u304c\u306a\u306b\u304b\u610f\u5473\u3092\n\u898b\u3064\u3051\u3066\u304f\u308c\u308b\u3053\u3068\u3092\u9858\u3046\u3088\u3002<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "\ub124\uac00 \ubb54\uac00 \uc54c\uc544\ub0bc \uc218 \uc788\ub2e4\uba74 \uc88b\uaca0\uac74\ub9cc.<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 565,
+                      "zh_TW": "\u5e0c\u671b\u4f60\u7b49\u627e\u5230\u7dda\u7d22\u3002<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                  },
+                  {
+                    "message": {
+                      "en_US": "...",
+                      "pt_BR": "...",
+                      "de_DE": "...",
+                      "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "...<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 527,
+                      "zh_TW": "...<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": {
+                      "person": "main.lea",
+                      "expression": "SURPRISED_AWAY"
+                    }
+                  },
+                  {
+                    "message": {
+                      "en_US": "[nods]",
+                      "pt_BR": "[acena a cabeça]",
+                      "de_DE": "[nickt]",
+                      "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 566,
+                      "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.lea", "expression": "NOD" }
+                  },
+                  {
+                    "message": {
+                      "en_US": "That's the spirit!",
+                      "pt_BR": "Esse é o espírito!",
+                      "de_DE": "So lob ich mir das!",
+                      "zh_CN": "\u5c31\u662f\u8fd9\u6837\uff01<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "\u305d\u306e\u610f\u6c17\u3060\uff01<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "\ubc14\ub85c \uadf8\uac70\uc9c0!<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 529,
+                      "zh_TW": "\u5c31\u662f\u9019\u6a23\uff01<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                  }
+                ],
+                "elseStep": [
+                  {
+                    "message": {
+                      "en_US": "[shakes head]",
+                      "pt_BR": "[balança a cabeça]",
+                      "de_DE": "[sch\u00fcttelt Kopf]",
+                      "zh_CN": "[\u6447\u5934]<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "[\u9996\u3092\u632f\u308b]<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "[\ub3c4\ub9ac\ub3c4\ub9ac]<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 474,
+                      "zh_TW": "[\u6416\u982d]<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.lea", "expression": "SHAKE" }
+                  },
+                  {
+                    "message": {
+                      "en_US": "Well, give it a read. It's on the shelf to the left.",
+                      "pt_BR": "Bem, dê uma lida. Está na estante à esquerda.",
+                      "de_DE": "Gut, dann schau mal rein. Es steht im linken B\u00fccherregal.",
+                      "zh_CN": "\u53bb\u8bfb\u8bfb\u770b\u5427\uff0c\u5c31\u5728\u5de6\u8fb9\u7684\u4e66\u67b6\u4e0a\u3002<<A<<[CHANGED 2019/01/10]",
+                      "ja_JP": "\u307e\u3042\u3001\u8aad\u3093\u3067\u307f\u3066\u304f\u308c\u3002\n\u5de6\u5074\u306e\u68da\u306b\u3042\u308b\u3002<<A<<[CHANGED 2019/01/10]",
+                      "ko_KR": "\ud55c \ubc88 \uc77d\uc5b4\ubcf4\ub834. \uc67c\ucabd \ucc45\uc7a5\uc5d0 \uc788\ub2e8\ub2e4.<<A<<[CHANGED 2019/01/10]",
+                      "langUid": 535,
+                      "zh_TW": "\u53bb\u8b80\u8b80\u770b\u5427\uff0c\u5c31\u5728\u5de6\u908a\u7684\u66f8\u67b6\u4e0a\u3002<<A<<[CHANGED 2019/01/10]"
+                    },
+                    "autoContinue": false,
+                    "type": "SHOW_MSG",
+                    "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": false,
+            "condition": "quest.unknown-warrior-5.task.1",
+            "config": "normal",
+            "event": {
+              "quest": [
+                {
+                  "side": "LEFT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "side": "RIGHT",
+                  "order": 0,
+                  "clearSide": false,
+                  "type": "ADD_MSG_PERSON",
+                  "person": { "person": "main.lea", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Welcome back kid, any luck finding the \\c[3]\\v[item.515.name]\\c[0]?",
+                    "pt_BR": "Bem-vinda de volta garota, conseguiu encontrar o \\c[3]\\v[item.515.name]\\c[0]?",
+                    "de_DE": "Willkommen zur\u00fcck, Kleine. Hattest du Gl\u00fcck mit den \\c[3]Kaputten Chakrams\\c[0]?",
+                    "zh_CN": "\u6b22\u8fce\u56de\u6765\uff0c\u4f60\u627e\u5230\\c[3]\\v[item.515.name]\\c[0]\u4e86\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u623b\u3063\u3066\u304d\u305f\u306a\u3002\n\\c[3][item.515.name]\\c[0]\u306f\u898b\u3064\u304b\u3063\u305f\u304b\u306d\uff1f<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc5b4\uc11c \uc640\ub77c, \uc598\uc57c. \\c[3]\\v[item.515.name]\\c[0]\uc740 \ucc3e\uc558\ub2c8?<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 477,
+                    "zh_TW": "\u6b61\u8fce\u56de\u4f86\uff0c\u4f60\u627e\u5230\\c[3]\\v[item.515.name]\\c[0]\u4e86\u55ce\uff1f<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
+                    "de_DE": "[nickt]",
+                    "fr_FR": "fr_FR",
+                    "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 478,
+                    "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
+                    "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NOD" }
+                },
+                {
+                  "message": {
+                    "en_US": "We really did it...",
+                    "pt_BR": "Nós realmente conseguimos...",
+                    "de_DE": "Wir haben es wirklich geschafft...",
+                    "zh_CN": "\u6211\u4eec\u505a\u5230\u4e86...<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3068\u3046\u3068\u3046\u3084\u3063\u305f\u306a...<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc6b0\ub9ac\uac00 \uc815\ub9d0 \ud574\ub0c8\uad6c\ub098...<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 479,
+                    "zh_TW": "\u6211\u5011\u505a\u5230\u4e86...<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Well, you did it to be fair.",
+                    "pt_BR": "Bem, você consegiu na verdade.",
+                    "de_DE": "Besser gesagt, du hast es geschafft.",
+                    "zh_CN": "\u5514\uff0c\u5e94\u8be5\u662f\u4f60\u505a\u5230\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3044\u3084\u3001\u541b\u304c\u3084\u3063\u3066\u304f\u308c\u305f\u3068\n\u3044\u3046\u306e\u304c\u6b63\u3057\u3044\u304b\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\ubb50, \uc0ac\uc2e4\uc740 \ub124\uac00 \ud574\ub0b8 \uac70\uc9c0.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 480,
+                    "zh_TW": "\u5514\uff0c\u61c9\u8a72\u662f\u4f60\u505a\u5230\u4e86\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "withElse": true,
+                  "type": "IF",
+                  "condition": "lea.words.thanks",
+                  "thenStep": [
+                    {
+                      "message": {
+                        "en_US": "Thanks!",
+                        "pt_BR": "Obrigada!",
+                        "de_DE": "Danke!",
+                        "zh_CN": "\u8c22\u8c22\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "\u3042\u308a\u304c\u3068\u3046\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "\uace0\ub9c8\uc6cc!<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 571,
+                        "zh_TW": "\u8b1d\u8b1d\uff01<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": { "person": "main.lea", "expression": "PROUD" }
+                    }
+                  ],
+                  "elseStep": [
+                    {
+                      "message": {
+                        "en_US": "...!",
+                        "pt_BR": "...!",
+                        "de_DE": "...!",
+                        "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 544,
+                        "zh_TW": "...!<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": { "person": "main.lea", "expression": "PROUD" }
+                    }
+                  ]
+                },
+                {
+                  "message": {
+                    "en_US": "Well... I guess there is no point in waiting. ",
+                    "pt_BR": "Bem... Acho que não vale a pena esperar.",
+                    "de_DE": "Tja... Macht wohl keinen Sinn, es jetzt auf die lange Bank zu schieben.",
+                    "zh_CN": "\u55ef...\u6211\u60f3\u4e5f\u4e0d\u7528\u518d\u7b49\u4e86\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3055\u3066...\u3082\u3046\u5f85\u3064\u3053\u3068\u306f\u306a\u3044\u3060\u308d\u3046\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc74c... \ub9dd\uc124\uc77c \ud544\uc694\uac00 \uc5c6\uaca0\uc9c0?<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 482,
+                    "zh_TW": "\u55ef...\u6211\u60f3\u4e5f\u4e0d\u7528\u518d\u7b49\u4e86\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Let me make some arrangements and get word out to my children.",
+                    "pt_BR": "Vou fazer alguns preparativos e depois reunir meus filhos.",
+                    "de_DE": "Lass mich ein paar Vorbereitungen treffen und dann meine Kinder zusammentrommeln.",
+                    "zh_CN": "\u8ba9\u6211\u505a\u4e9b\u51c6\u5907\uff0c\u7136\u540e\u628a\u6d88\u606f\u544a\u8bc9\u6211\u7684\u5b69\u5b50\u4eec\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3044\u304f\u3064\u304b\u624b\u914d\u3092\u3057\u3066\u3001\n\u5b50\u4f9b\u305f\u3061\u306b\u9023\u7d61\u3092\u3057\u306a\u304f\u3066\u306f\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uc544\uc774\ub4e4\uacfc \uc57d\uc18d\uc744 \uc7a1\uc544\uc11c \uc598\uae30\ub97c \ud574\ubd10\uc57c\uaca0\uad6c\ub098.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 572,
+                    "zh_TW": "\u8b93\u6211\u505a\u4e9b\u6e96\u5099\uff0c\u7136\u5f8c\u628a\u6d88\u606f\u544a\u8a34\u6211\u7684\u5b69\u5b50\u5011\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "We should all meet at the place where we first heard of this quest: \\c[3]The Observatory\\c[0] in \\c[3]\\v[area.autumn-area.name]\\c[0].",
+                    "pt_BR": "Todos nós devemos nos encontrar no local onde ouvimos falar dessa missão pela primeira vez: \\c[3]O Observatório\\c[0] no \\c[3]\\v[area.autumn-area.name]\\c[0].",
+                    "de_DE": "Wir treffen uns am besten da, wo wir zum ersten Mal von dieser Quest geh\u00f6rt haben: An der \\c[3]Sternwarte\\c[0] in \\c[3]Autumn's Rise\\c[0].",
+                    "zh_CN": "\u6211\u4eec\u4f1a\u5728\u6211\u4eec\u7b2c\u4e00\u6b21\u53d1\u73b0\u8fd9\u4e2a\u4efb\u52a1\u7684\u5730\u65b9\u96c6\u5408: \\c[3]\\v[area.autumn-area.name]\\c[0]\u7684\\c[3]\u89c2\u6d4b\u7ad9\\c[0]\u3002<<A<<[CHANGED 2020/07/08]",
+                    "ja_JP": "\u3053\u306e\u30af\u30a8\u30b9\u30c8\u306b\u3064\u3044\u3066\u3001\n\u79c1\u304c\u6700\u521d\u306b\u805e\u3044\u305f\u5834\u6240\u306b\u96c6\u307e\u308b\u3068\u3057\u3088\u3046\u3002\n\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\\c[3]\u89b3\u6e2c\u5834\u8de1\u5730\\c[0]\u3060\u3002<<A<<[CHANGED 2020/07/08]",
+                    "ko_KR": "\uc774 \ud018\uc2a4\ud2b8\ub97c \ucc98\uc74c \ub4e4\uc5c8\ub358 \uc7a5\uc18c\uc778 \\c[3]\\v[area.autumn-area.name]\\c[0]\uc758 \\c[3]\uad00\uce21\uc18c\\c[0]\uc5d0\uc11c \ud568\uaed8 \ub9cc\ub098\uc57c\uaca0\uc5b4.<<A<<[CHANGED 2020/07/08]",
+                    "langUid": 573,
+                    "zh_TW": "\u6211\u5011\u6703\u5728\u6211\u5011\u7b2c\u4e00\u6b21\u767c\u73fe\u9019\u500b\u4efb\u52d9\u7684\u5730\u65b9\u96c6\u5408: \\c[3]\\v[area.autumn-area.name]\\c[0]\u7684\\c[3]\u89c0\u6e2c\u7ad9\\c[0]\u3002<<A<<[CHANGED 2020/07/09]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "Would you be willing to join us? It's only fair and I trust you. ",
+                    "pt_BR": "Você estaria interessada em se juntar a nós? É justo e eu confio em você.",
+                    "de_DE": "W\u00fcrdest du uns Gesellschaft leisten? Das w\u00e4re nur fair. Und ich vertraue dir.",
+                    "zh_CN": "\u8981\u52a0\u5165\u6211\u4eec\u5417\uff1f\u6bd5\u7adf\u6ca1\u6709\u4f60\u7684\u5e2e\u52a9\u6211\u6ca1\u6cd5\u8d70\u5230\u8fd9\u4e00\u6b65\uff0c\u6211\u4fe1\u4efb\u4f60\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u541b\u3082\u6765\u3066\u304f\u308c\u308b\u304b\u3044\uff1f\n\u305d\u308c\u304c\u7b4b\u3068\u3044\u3046\u3082\u306e\u3060\u3057\u3001\n\u79c1\u306f\u541b\u3092\u4fe1\u7528\u3057\u3066\u3044\u308b\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uac19\uc774 \ub9cc\ub098\ub294 \uac8c \uc5b4\ub5a0\ub0d0? \uadf8\ub807\uac8c \ud558\ub294 \uac8c \ub9de\ub294 \uac83 \uac19\uad6c\ub098. \ub110 \ubbff\uae30\ub3c4 \ud558\uace0.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 574,
+                    "zh_TW": "\u8981\u52a0\u5165\u6211\u5011\u55ce\uff1f\u7562\u7adf\u6c92\u6709\u4f60\u7684\u5e6b\u52a9\u6211\u6c92\u8fa6\u6cd5\u8d70\u5230\u9019\u4e00\u6b65\uff0c\u6211\u4fe1\u4efb\u4f60\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "...",
+                    "pt_BR": "...",
+                    "de_DE": "...",
+                    "zh_CN": "...<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "...<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "...<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 551,
+                    "zh_TW": "...<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": {
+                    "person": "main.lea",
+                    "expression": "SURPRISED_AWAY"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
+                    "de_DE": "[nickt]",
+                    "zh_CN": "[\u70b9\u5934]<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "[\u3046\u306a\u305a\u304f]<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "[\ub044\ub355]<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 549,
+                    "zh_TW": "[\u9ede\u982d]<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.lea", "expression": "NOD" }
+                },
+                {
+                  "message": {
+                    "en_US": "Thanks, kiddo.",
+                    "pt_BR": "Obrigado, garota.",
+                    "de_DE": "Danke, Kleine.",
+                    "zh_CN": "\u8c22\u4e86\uff0c\u5b69\u5b50\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3042\u308a\u304c\u3068\u3046\u3001\u304a\u5b22\u3055\u3093\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\uace0\ub9d9\ub2e4, \uc598\uc57c.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 504,
+                    "zh_TW": "\u8b1d\u4e86\uff0c\u5b69\u5b50\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "message": {
+                    "en_US": "I'll be leaving then! See you at the Observatory.",
+                    "pt_BR": "Estou indo agora! Vejo você no Observatório.",
+                    "de_DE": "Dann mache ich mich mal auf den Weg! Wir sehen uns an der Sternwarte.",
+                    "zh_CN": "\u90a3\u6211\u8d70\u4e86\u3002\u89c2\u6d4b\u7ad9\u518d\u89c1\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u3067\u306f\u3001\u79c1\u306f\u884c\u304f\u3088\uff01\n\u89b3\u6e2c\u5834\u3067\u4f1a\u304a\u3046\u3002<<A<<[CHANGED 2019/01/10]",
+                    "ko_KR": "\ub09c \uc774\ub9cc \uac00\ubcf4\ub9c8! \uad00\uce21\uc18c\uc5d0\uc11c \ubcf4\uc790\uafb8\ub098.<<A<<[CHANGED 2019/01/10]",
+                    "langUid": 575,
+                    "zh_TW": "\u90a3\u6211\u8d70\u4e86\u3002\u89c0\u6e2c\u7ad9\u518d\u898b\u3002<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "autoContinue": false,
+                  "type": "SHOW_MSG",
+                  "person": { "person": "main.dkar", "expression": "DEFAULT" }
+                },
+                {
+                  "withElse": true,
+                  "type": "IF",
+                  "condition": "lea.words.bye",
+                  "thenStep": [
+                    {
+                      "message": {
+                        "en_US": "Bye!",
+                        "pt_BR": "Tchau!",
+                        "de_DE": "Bye!",
+                        "zh_CN": "\u518d\u89c1\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "\u3058\u3083\u3042\u306d\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "\uc798 \uac00!<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 432,
+                        "zh_TW": "\u518d\u898b\uff01<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.lea",
+                        "expression": "SURPRISED"
+                      }
+                    }
+                  ],
+                  "elseStep": [
+                    {
+                      "message": {
+                        "en_US": "...!",
+                        "pt_BR": "...!",
+                        "de_DE": "...!",
+                        "zh_CN": "...!<<A<<[CHANGED 2019/01/10]",
+                        "ja_JP": "...\uff01<<A<<[CHANGED 2019/01/10]",
+                        "ko_KR": "...!<<A<<[CHANGED 2019/01/10]",
+                        "langUid": 184,
+                        "zh_TW": "...!<<A<<[CHANGED 2019/01/10]"
+                      },
+                      "autoContinue": false,
+                      "type": "SHOW_MSG",
+                      "person": {
+                        "person": "main.lea",
+                        "expression": "SURPRISED"
+                      }
+                    }
+                  ]
+                },
+                { "side": "ALL", "type": "CLEAR_MSG" },
+                {
+                  "entity": { "self": true },
+                  "action": [
+                    {
+                      "duration": 0,
+                      "align": "BOTTOM",
+                      "rotateFace": 0,
+                      "flipLeftFace": false,
+                      "wait": true,
+                      "waitSkip": 0,
+                      "actionDetached": true,
+                      "fixPos": false,
+                      "type": "SHOW_EFFECT",
+                      "effect": { "sheet": "teleport", "name": "hideDefault" },
+                      "offset": { "x": 0, "y": 0, "z": 0 }
+                    },
+                    { "type": "RESET_NPC" }
+                  ],
+                  "repeating": false,
+                  "wait": true,
+                  "keepState": false,
+                  "immediately": false,
+                  "type": "DO_ACTION"
+                },
+                {
+                  "type": "SOLVE_QUEST_CONDITION",
+                  "quest": { "quest": "unknown-warrior-5", "label": "done" }
+                },
+                {
+                  "message": {
+                    "en_US": "Is it just me or did he seem... \\.\\.nervous?",
+                    "pt_BR": "É só eu ou ele parecia... \\.\\.nervoso?",
+                    "langUid": 570,
+                    "ko_KR": "\ub5a8\ub824\ubcf4\uc600\ub294\ub370... \\.\\.\ub098\ub9cc \uadf8\ub807\uac8c \ubcf4\uc600\ub2c8?<<A<<[CHANGED 2019/01/10]",
+                    "zh_CN": "\u4ed6\u662f\u4e0d\u662f\u6709\u4e9b... \\.\\.\u7d27\u5f20\uff1f<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "\u50d5\u3060\u3051\u304b\u306a\u3001\u5f7c\u304c...\\.\\.\n\u7dca\u5f35\u3057\u3066\u308b\u3088\u3046\u306b\u898b\u3048\u308b\u306e\u306f\u3002<<A<<[CHANGED 2019/01/10]",
+                    "de_DE": "Geht das nur mir so, oder wirkte er auf dich auch irgendwie... \\.\\.nerv\u00f6s?",
+                    "zh_TW": "\u4ed6\u662f\u4e0d\u662f\u6709\u4e9b... \\.\\.\u7dca\u5f35\uff1f<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "type": "SHOW_SIDE_MSG",
+                  "person": { "person": "main.sergey", "expression": "WORRIED" }
+                },
+                {
+                  "message": {
+                    "en_US": "...?",
+                    "pt_BR": "...?",
+                    "langUid": 576,
+                    "ko_KR": "...?<<A<<[CHANGED 2019/01/10]",
+                    "zh_CN": "...?<<A<<[CHANGED 2019/01/10]",
+                    "ja_JP": "...\uff1f<<A<<[CHANGED 2019/01/10]",
+                    "de_DE": "...?",
+                    "zh_TW": "...?<<A<<[CHANGED 2019/01/10]"
+                  },
+                  "type": "SHOW_SIDE_MSG",
+                  "person": {
+                    "person": "main.lea",
+                    "expression": "SURPRISED_AWAY"
+                  }
+                },
+                {
+                  "message": {
+                    "en_US": "Well, I am sure everything will work out after all the work you went through.",
+                    "pt_BR": "Bem, tenho certeza de que tudo vai dar certo depois de todo o trabalho que você teve.",
+                    "langUid": 577,
+                    "ko_KR": "\uadf8\ub3d9\uc548 \ub124\uac00 \uadf8\uc5d0\uac8c \ud574\uc900 \uc77c\uc744 \uc0dd\uac01\ud574\ubd24\uc744 \ub54c \uc798 \ud574\uacb0\ub420 \uac70\uc57c.<<A<<[CHANGED 2019/02/01]",
+                    "zh_CN": "\u603b\u4e4b\u4f60\u90fd\u82b1\u4e86\u90a3\u4e48\u5927\u529f\u592b\u4e86\uff0c\u5e0c\u671b\u8fd9\u4e8b\u80fd\u6210\u3002<<A<<[CHANGED 2019/02/01]",
+                    "ja_JP": "\u307e\u3042\u3001\u541b\u304c\u3042\u308c\u3060\u3051\u3084\u308a\u3068\u3052\u305f\u3093\u3060\u3001\n\u304d\u3063\u3068\u5168\u90e8\u3046\u307e\u304f\u3044\u304f\u3088\u3002<<A<<[CHANGED 2019/02/01]",
+                    "de_DE": "Ich bin mir aber sicher, dass sich all deine M\u00fche f\u00fcr ihn auszahlen wird.",
+                    "zh_TW": "\u7e3d\u4e4b\u4f60\u90fd\u82b1\u4e86\u90a3\u9ebc\u5927\u529f\u592b\u4e86\uff0c\u5e0c\u671b\u9019\u4e8b\u80fd\u6210\u3002<<A<<[CHANGED 2019/02/01]"
+                  },
+                  "type": "SHOW_SIDE_MSG",
+                  "person": { "person": "main.sergey", "expression": "DEFAULT" }
+                }
+              ]
+            }
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": true,
+            "condition": "quest.unknown-warrior-5.currentTask >= 2",
+            "config": "normal",
+            "event": []
+          },
+          {
+            "reactType": "FIXED_POS",
+            "face": "NORTH",
+            "action": [],
+            "hidden": true,
+            "condition": "quest.unknown-warrior-5.currentTask >= 2 || quest.unknown-warrior-5.solved",
+            "config": "normal",
+            "event": []
+          }
+        ]
+      }
+    },
+    {
+      "type": "Analyzable",
+      "x": 292,
+      "y": 160,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "analType": "QUEST",
+        "text": {
+          "en_US": "Ridge Poems",
+          "pt_BR": "Poemas da Serra",
+          "de_DE": "Saphirgedichte",
+          "zh_CN": "\u9752\u7389\u4e4b\u4e66<<A<<[CHANGED 2019/01/10]",
+          "ja_JP": "\u30b5\u30d5\u30a1\u30a4\u30a2\u5cf0\u306e\u8a69<<A<<[CHANGED 2019/01/10]",
+          "ko_KR": "\uc0b0\ub9e5\uc758 \uc2dc<<A<<[CHANGED 2019/01/10]",
+          "langUid": 536,
+          "zh_TW": "\u9752\u7389\u4e4b\u66f8<<A<<[CHANGED 2019/01/10]"
+        },
+        "mapId": 20,
+        "visible": ""
+      }
+    },
+    {
+      "type": "Prop",
+      "x": 296,
+      "y": 160,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "interact": {
+          "icon": "INFO",
+          "hoverText": {
+            "en_US": "Read Book",
+            "pt_BR": "Ler Livro",
+            "de_DE": "Buch lesen",
+            "zh_CN": "\u9605\u8bfb\u4e66\u8bb0<<A<<[CHANGED 2019/01/10]",
+            "ja_JP": "\u672c\u3092\u8aad\u3080<<A<<[CHANGED 2019/01/10]",
+            "ko_KR": "\ucc45 \uc77d\uae30<<A<<[CHANGED 2019/01/10]",
+            "langUid": 537,
+            "zh_TW": "\u95b2\u8b80\u66f8\u8a18<<A<<[CHANGED 2019/01/10]"
+          },
+          "title": {
+            "en_US": "\\c[3]Ridge Poems\\c[0]",
+            "pt_BR": "\\c[3]Poemas da Serra\\c[0]",
+            "de_DE": "\\c[3]Saphirgedichte\\c[0]",
+            "zh_CN": "\\c[3]\u9752\u7389\u4e4b\u4e66\\c[0]<<A<<[CHANGED 2019/01/10]",
+            "ja_JP": "\\c[3]\u30b5\u30d5\u30a1\u30a4\u30a2\u5cf0\u306e\u8a69\\c[0]<<A<<[CHANGED 2019/01/10]",
+            "ko_KR": "\\c[3]\uc0b0\ub9e5\uc758 \uc2dc\\c[0]<<A<<[CHANGED 2019/01/10]",
+            "langUid": 538,
+            "zh_TW": "\\c[3]\u9752\u7389\u4e4b\u66f8\\c[0]<<A<<[CHANGED 2019/01/10]"
+          },
+          "event": [
+            {
+              "text": {
+                "en_US": "In \\c[3]\\v[area.forest.name]\\c[0], locals indulge passionately in the art of poems. The most famous is called \\c[3]A War in the Bellow\\c[0] and goes like this:",
+                "pt_BR": "Na \\c[3]\\v[area.forest.name]\\c[0], os habitantes locais se entregam apaixonadamente à arte dos poemas. O mais famoso deles é chamado de \\c[3]Uma Guerra no [???]\\c[0] e começa assim: ",
+                "de_DE": "Die Bewohner des \\c[3]Saphirgrats\\c[0] fr\u00f6nen leidenschaftlich der Dichtkunst. Das ber\u00fchmteste Gedicht tr\u00e4gt den Titel \\c[3]Ein Krieg in der Br\u00fcllerei\\c[0] und geht wie folgt:",
+                "zh_CN": "\\c[3]\\v[area.forest.name]\\c[0]\u7684\u5c45\u6c11\u559c\u6b22\u521b\u4f5c\u8bd7\u53e5\u3002\u5176\u4e2d\u6700\u6709\u540d\u7684\u662f\\c[3]\u5486\u54ee\u4e4b\u6218\\c[0]\uff0c\u8bd7\u53e5\u5982\u4e0b\uff1a<<A<<[CHANGED 2019/01/10]",
+                "ja_JP": "\\c[3]\\v[area.forest.name]\\c[0]\u306b\u304a\u3044\u3066\u3001\u5730\u5143\u6c11\u306f\u71b1\u5fc3\u306b\n\u8a69\u3068\u3044\u3046\u82b8\u8853\u3092\u697d\u3057\u3093\u3060\u3002\u3082\u3063\u3068\u3082\u6709\u540d\u306a\n\\c[3]\u3068\u3069\u308d\u304d\u306e\u4e2d\u306e\u6226\u3044\\c[0]\u3068\u547c\u3070\u308c\u308b\u4f5c\u54c1\u306f\u3001\n\u4ee5\u4e0b\u306e\u3088\u3046\u306a\u8a69\u3067\u3042\u308b\uff1a<<A<<[CHANGED 2019/01/10]",
+                "ko_KR": "\\c[3]\\v[area.forest.name]\\c[0] \uc9c0\uc5ed \uc8fc\ubbfc\ub4e4\uc740 \uc2dc\uc758 \uc608\uc220\uc5d0 \uc5f4\ub82c\ud55c \ubc18\uc751\uc744 \ubcf4\uc785\ub2c8\ub2e4. \uac00\uc7a5 \uc720\uba85\ud55c \uc2dc\ub294 \\c[3]\ud3ec\ud6a8 \uc18d \uc804\uc7c1\\c[0]\uc73c\ub85c \ub0b4\uc6a9\uc740 \uc544\ub798\uc640 \uac19\uc2b5\ub2c8\ub2e4:<<A<<[CHANGED 2019/01/10]",
+                "langUid": 539,
+                "zh_TW": "\\c[3]\\v[area.forest.name]\\c[0]\u7684\u5c45\u6c11\u559c\u6b61\u5275\u4f5c\u8a69\u53e5\u3002\u5176\u4e2d\u6700\u6709\u540d\u7684\u662f\\c[3]\u5486\u54ee\u4e4b\u6230\\c[0]\uff0c\u8a69\u53e5\u5982\u4e0b\uff1a<<A<<[CHANGED 2019/01/10]"
+              },
+              "center": true,
+              "autoContinue": false,
+              "type": "SHOW_BOARD_MSG"
+            },
+            {
+              "text": {
+                "en_US": "Silent evenfall\nshall a mealy, stern bug wait\nby the campfire",
+                "pt_BR": "Em um anoitecer silencioso\n, um inseto espera\njunto á fogueira",
+                "de_DE": "In der D\u00e4mmerung\nwartet beim Lagerfeuer\nein z\u00e4her K\u00e4fer",
+                "zh_CN": "\u5bc2\u9759\u9ec4\u660f\uff0c\n\u5e72\u762a\u575a\u5b9a\u4e4b\u5de8\u866b\n\u5f85\u4e8e\u8425\u706b<<A<<[CHANGED 2019/01/10]",
+                "ja_JP": "\u9759\u3051\u3055\u3084\n\u305f\u304d\u6728\u71c3\u3048\u7acb\u3064 \u5915\u66ae\u308c\u306b\n\u53b3\u683c\u306a\u866b\u306f \u72ec\u308a\u5f85\u3061\u3051\u308a<<A<<[CHANGED 2019/01/10]",
+                "ko_KR": "\uace0\uc694\ud55c \ud669\ud63c,\n\ubaa8\ub2e5\ubd88 \uadfc\ucc98\uc5d0\n\ub2e8\ub2e8\ud55c \ubc8c\ub808\uac00 \uae30\ub2e4\ub9b0\ub2e4<<A<<[CHANGED 2019/01/10]",
+                "langUid": 568,
+                "zh_TW": "\u5bc2\u975c\u9ec3\u660f\uff0c\r\n\u4e7e\u765f\u5805\u5b9a\u4e4b\u5de8\u87f2\r\n\u5f85\u65bc\u71df\u706b<<A<<[CHANGED 2019/01/10]"
+              },
+              "center": true,
+              "autoContinue": false,
+              "type": "SHOW_BOARD_MSG"
+            },
+            {
+              "text": {
+                "en_US": "Composure nighttime\nAn old, strong panda walks\nwatching the berrytree",
+                "pt_BR": "Numa noite calma\nUm velho e poderoso panda\nanda observando a árvore de bagas",
+                "de_DE": "Zu ruhiger Nachtzeit\nwandelt ein alter Panda\nunter den B\u00e4umen",
+                "zh_CN": "\u6c89\u7740\u4e4b\u591c\n\u8001\u5f53\u76ca\u58ee\u4e4b\u718a\u732b\n\u7167\u770b\u679c\u6811<<A<<[CHANGED 2019/05/14]",
+                "ja_JP": "\u8001\u7df4\u306e\n\u30d1\u30f3\u30c0\u306f\u6b69\u3080 \u5915\u95c7\u306b\n\u30d9\u30ea\u30fc\u306e\u6728\u3092 \u76ee\u306b\u713c\u304d\u4ed8\u3051\u3064\u3064<<A<<[CHANGED 2019/05/14]",
+                "ko_KR": "\ud3c9\uc628\ud55c \ubc24\uc758 \uc2dc\uac04,\n\ub299\uace0 \uac15\ud55c \ud310\ub2e4 \ud55c \ub9c8\ub9ac\uac00\n\ubca0\ub9ac \ub098\ubb34\ub97c \ubcf4\uba70 \uac77\ub294\ub2e4<<A<<[CHANGED 2019/05/14]",
+                "langUid": 567,
+                "zh_TW": "\u6c89\u8457\u4e4b\u591c\r\n\u8001\u7576\u76ca\u58ef\u4e4b\u718a\u8c93\r\n\u7167\u770b\u679c\u6a39<<A<<[CHANGED 2019/05/14]"
+              },
+              "center": true,
+              "autoContinue": false,
+              "type": "SHOW_BOARD_MSG"
+            },
+            {
+              "changeType": "set",
+              "type": "CHANGE_VAR_BOOL",
+              "varName": "map.readBook",
+              "value": true
+            }
+          ]
+        },
+        "mapId": 21,
+        "propType": { "sheet": "invisible", "name": "invisible1" },
+        "propAnim": "",
+        "condAnims": [],
+        "spawnCondition": ""
+      }
+    },
+    {
+      "type": "NPC",
+      "x": 344,
+      "y": 284,
+      "level": 0,
+      "settings": {
+        "name": "",
+        "characterName": "guests.bellwielder",
+        "mapId": 22,
+        "npcStates": [
+          {
+            "reactType": "FIXED_POS",
+            "face": "EAST",
+            "hidden": false,
+            "condition": "",
+            "config": "bellhold",
+            "event": [
+              {
+                "name": {
+                  "en_US": "Bellwielder",
+                  "pt_BR": "Bellwielder",
+                  "langUid": 582,
+                  "zh_CN": "\u6301\u949f\u4eba<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ubca8\uc70c\ub354<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u30d9\u30eb\u9cf4\u3089\u3057<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Bellwielder",
+                  "zh_TW": "\u6301\u9418\u4eba<<A<<[CHANGED 2019/04/16]"
+                },
+                "side": "LEFT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "side": "RIGHT",
+                "order": 0,
+                "clearSide": false,
+                "type": "ADD_MSG_PERSON",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "message": {
+                  "en_US": "Hello.",
+                  "pt_BR": "Olá.",
+                  "langUid": 581,
+                  "zh_CN": "\u4f60\u597d\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uc548\ub155.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u3044\u3089\u3063\u3057\u3083\u3044\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Hallo.",
+                  "zh_TW": "\u4f60\u597d\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Hi...?",
+                  "pt_BR": "Oi...?",
+                  "langUid": 605,
+                  "zh_CN": "\u4f60\u597d...?<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uc548\ub155...?<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u3084\u3041...\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Hi...?",
+                  "zh_TW": "\u4f60\u597d...?<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "main.lea",
+                  "expression": "SURPRISED_TOWARD"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Are you looking for a book?",
+                  "pt_BR": "Você está procurando um livro?",
+                  "langUid": 583,
+                  "zh_CN": "\u4f60\u5728\u627e\u4e66\u5417\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ucc45\uc744 \ucc3e\uace0 \uc788\ub2c8?<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u672c\u3092\u304a\u63a2\u3057\u3067\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Suchst du nach einem Buch?",
+                  "zh_TW": "\u4f60\u5728\u627e\u66f8\u55ce\uff1f<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "...",
+                  "pt_BR": "...",
+                  "langUid": 584,
+                  "zh_CN": "...<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "...<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "...<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "...",
+                  "zh_TW": "...<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "THINKING" }
+              },
+              {
+                "message": {
+                  "en_US": "[shakes head]",
+                  "pt_BR": "[balança a cabeça]",
+                  "langUid": 585,
+                  "zh_CN": "[\u6447\u5934]<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "[\ub3c4\ub9ac\ub3c4\ub9ac]<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "[\u9996\u3092\u632f\u308b]<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "[sch\u00fcttelt Kopf]",
+                  "zh_TW": "[\u6416\u982d]<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "SHAKE" }
+              },
+              {
+                "message": {
+                  "en_US": "Okay.",
+                  "pt_BR": "Ok.",
+                  "langUid": 586,
+                  "zh_CN": "\u597d\u5427\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uadf8\ub798.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u305d\u3046\u3067\u3059\u304b\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Okay.",
+                  "zh_TW": "\u597d\u5427\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "...",
+                  "pt_BR": "...",
+                  "langUid": 587,
+                  "zh_CN": "...<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "...<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "...<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "...",
+                  "zh_TW": "...<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "DEFAULT" }
+              },
+              {
+                "message": {
+                  "en_US": "So...\\. just so you know...",
+                  "pt_BR": "Então...\\. só pra você saber...",
+                  "langUid": 588,
+                  "zh_CN": "...\\.\u987a\u5e26\u4e00\u63d0...<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ubcf4\ub2e4\uc2dc\ud53c...<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u305d\u306e...\\.\u4e00\u5fdc\u304a\u77e5\u3089\u305b\u3057\u3066\u304a\u304f\u3068...<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Also...\\. Nur damit du's wei\u00dft...",
+                  "zh_TW": "...\\.\u9806\u5e36\u4e00\u63d0...<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "This is a book store.",
+                  "pt_BR": "Aqui é uma livraria.",
+                  "langUid": 589,
+                  "zh_CN": "\u8fd9\u662f\u4e2a\u4e66\u5e97\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uc5ec\uae34 \uc11c\uc810\uc774\ub2c8\uae4c.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u3053\u3053\u306f\u672c\u5c4b\u3067\u3059\u3088\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Das hier ist ein Buchladen.",
+                  "zh_TW": "\u9019\u662f\u500b\u66f8\u5e97\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Not sure what else you hope to find here.",
+                  "pt_BR": "Não faço ideia do que você pretende encontrar aqui.",
+                  "langUid": 590,
+                  "zh_CN": "\u4e0d\u5356\u522b\u7684\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub124\uac00 \uc5b4\ub5a4 \ucc45\uc744 \ucc3e\uace0 \uc2f6\uc5b4 \ud558\ub294\uc9c0 \ud655\uc2e4\ud788 \ubaa8\ub974\uaca0\ub124.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u672c\u4ee5\u5916\u306e\u3082\u306e\u306f\n\u898b\u3064\u304b\u3089\u306a\u3044\u3068\u601d\u3044\u307e\u3059\u304c\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Keine Ahnung, was du hier sonst zu finden hoffst.",
+                  "zh_TW": "\u4e0d\u8ce3\u5225\u7684\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "...",
+                  "pt_BR": "...",
+                  "langUid": 591,
+                  "zh_CN": "...<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "...<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "...<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "...",
+                  "zh_TW": "...<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "main.lea",
+                  "expression": "SURPRISED_AWAY"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "*sigh*",
+                  "pt_BR": "",
+                  "langUid": 592,
+                  "zh_CN": "*\u5509*<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ud558...<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u306f\u3042...<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "*seufz*",
+                  "zh_TW": "*\u5509*<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "What am I doing here?",
+                  "pt_BR": "O que eu estou fazendo aqui?",
+                  "langUid": 593,
+                  "zh_CN": "\u6211\u5728\u8fd9\u5e72\u561b\u5462...<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub0b4\uac00 \uc5ec\uae30\uc11c \ubb58 \ud558\ub294 \uac70\uc9c0?<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u79c1\u306f\u4f55\u3092\u3057\u3066\u3044\u308b\u306e\u3067\u3057\u3087\u3046\u306d\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Was mach' ich hier eigentlich?",
+                  "zh_TW": "\u6211\u5728\u9019\u5e79\u561b\u5462...<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "I came to this bustling city hoping to get a position in one of their libraries.",
+                  "pt_BR": "Eu vim pra essa cidade agitada na esperança de conseguir um trabalho em uma dessas bibliotecas.",
+                  "langUid": 594,
+                  "zh_CN": "\u6211\u6765\u8fd9\u5ea7\u7e41\u534e\u7684\u57ce\u5e02\uff0c\u662f\u60f3\u8fdb\u8fd9\u91cc\u7684\u56fe\u4e66\u9986\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub09c \uc800 \ub3c4\uc11c\uad00 \uc911 \ud55c \uacf3\uc5d0\uc11c \uc77c\uc744 \uad6c\ud558\ub824\uace0 \uc774 \ub5a0\ub4e4\uc369\ud55c \ub3c4\uc2dc\uc5d0 \uc654\uc5b4.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u79c1\u306f\u5927\u304d\u306a\u66f8\u5eab\u306e\u4e3b\u306b\u306a\u308a\u305f\u3044\u3068\u3044\u3046\n\u5922\u3092\u6301\u3063\u3066\u3001\u3053\u306e\u9a12\u304c\u3057\u3044\u8857\u306b\n\u3084\u3063\u3066\u304d\u305f\u306e\u3067\u3059\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Ich kam in diese Stadt, weil ich gehofft hatte, hier eine Stelle in einer Bibliothek zu finden.",
+                  "zh_TW": "\u6211\u4f86\u9019\u5ea7\u7e41\u83ef\u7684\u57ce\u5e02\uff0c\u662f\u60f3\u9032\u9019\u88e1\u7684\u5716\u66f8\u9928\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Yet somehow I ended up in this tiny book store.",
+                  "pt_BR": "Porém, de alguma forma eu acabei nessa pequena livraria.",
+                  "langUid": 595,
+                  "zh_CN": "\u6ca1\u60f3\u5230\u5374\u843d\u5230\u4e86\u8fd9\u4e2a\u5c0f\u4e66\u5e97\u91cc\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uacb0\uad6d \uc774 \uc791\uc740 \uc11c\uc810\uc5d0 \uc788\uc9c0\ub9cc.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u3067\u3059\u304c\u7d50\u5c40\u3001\u69cb\u3048\u3089\u308c\u305f\u306e\u306f\n\u3053\u306e\u5c0f\u3055\u3044\u672c\u5c4b\u3060\u3051\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Aber irgendwie bin ich in diesem mickrigen Buchladen gelandet.",
+                  "zh_TW": "\u6c92\u60f3\u5230\u537b\u843d\u5230\u4e86\u9019\u500b\u5c0f\u66f8\u5e97\u88e1\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Why?",
+                  "pt_BR": "Por que?",
+                  "langUid": 596,
+                  "zh_CN": "\u4e3a\u4ec0\u4e48\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uc65c?<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u3069\u3046\u3057\u3066\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Warum?",
+                  "zh_TW": "\u70ba\u4ec0\u9ebc\uff1f<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "SURPRISED" }
+              },
+              {
+                "message": {
+                  "en_US": "Well, apparently they didn't like the fact I'm always carrying this giant bell with me.",
+                  "pt_BR": "Bem, aparentemente eles não gostaram do fato de eu estar sempre carregando este sino gigante comigo.",
+                  "langUid": 597,
+                  "zh_CN": "\u56e0\u4e3a\u4ed6\u4eec\u4e0d\u559c\u6b22\u6211\u968f\u8eab\u5e26\u7740\u8fd9\u4e2a\u5927\u949f\u7684\u6837\u5b50\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uc800\ub4e4\uc740 \ub0b4\uac00 \uc774 \uac70\ub300\ud55c \uc885\uc744 \ub2ec\uace0 \ub2e4\ub2c8\ub294 \uac8c \uc2eb\uc5c8\ub098 \ubd10.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u307e\u3042\u3001\u660e\u3089\u304b\u306b\u3001\u79c1\u304c\u3053\u306e\u5927\u304d\u306a\u30d9\u30eb\u3092\n\u3044\u3064\u3082\u6301\u3061\u6b69\u3044\u3066\u3044\u308b\u306e\u304c\n\u60aa\u3044\u3093\u3067\u3057\u3087\u3046\u306d\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Tja, anscheinend hatten sie ein Problem mit der gro\u00dfen Glocke, die ich immer mit mir herumtrage.",
+                  "zh_TW": "\u56e0\u70ba\u4ed6\u5011\u4e0d\u559c\u6b61\u6211\u96a8\u8eab\u5e36\u8457\u9019\u500b\u5927\u9418\u7684\u6a23\u5b50\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Because yes, yes...\\. Libraries are quiet places.",
+                  "pt_BR": "Porque sim, claro...\\. As bibliotecas são lugares silenciosos.",
+                  "langUid": 598,
+                  "zh_CN": "\u539f\u56e0\u6211\u4e5f\u7406\u89e3...\\.\u56fe\u4e66\u9986\u662f\u4e2a\u5b89\u9759\u7684\u5730\u65b9\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub2f9\uc5f0\ud558\uae34 \ud574...\\. \ub3c4\uc11c\uad00\uc740 \uc5b8\uc81c\ub098 \uc870\uc6a9\ud55c \uacf3\uc774\ub2c8\uae4c.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u306a\u305c\u3063\u3066\u3001\u305d\u308c\u306f\u3082\u3061\u308d\u3093...\\.\n\u66f8\u5eab\u3063\u3066\u3044\u3046\u306e\u306f\n\u9759\u304b\u306a\u5834\u6240\u3067\u3059\u304b\u3089\u306d\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Und ja, nat\u00fcrlich.... Bibliotheken sind Orte der Ruhe.",
+                  "zh_TW": "\u539f\u56e0\u6211\u4e5f\u7406\u89e3...\\.\u5716\u66f8\u9928\u662f\u500b\u5b89\u975c\u7684\u5730\u65b9\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "I know!",
+                  "pt_BR": "Eu sei!",
+                  "langUid": 599,
+                  "zh_CN": "\u8fd9\u6211\u660e\u767d\u7684\uff01<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub098\ub3c4 \uc548\ub2e4\uace0!<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u308f\u304b\u3063\u3066\u307e\u3059\u3068\u3082\uff01<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Das wei\u00df ich doch!",
+                  "zh_TW": "\u9019\u6211\u660e\u767d\u7684\uff01<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "What do they expect me to do?\\. Constantly ring the bell like a crazy person?",
+                  "pt_BR": "O que eles achavam que eu ia fazer?\\. Tocar o sino sem parar como um louco?",
+                  "langUid": 600,
+                  "zh_CN": "\u4ed6\u4eec\u4ee5\u4e3a\u6211\u662f\u75af\u5b50\u5417?\\.\u5230\u5904\u4e71\u6572\u949f?<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub0b4\uac00 \uc5b4\ub5bb\uac8c \ud560 \uac70\ub77c\uace0 \uc0dd\uac01\ud55c \uac70\uc57c?\\. \ubbf8\uce5c \uc0ac\ub78c\ucc98\ub7fc \uc628\uc885\uc77c \uc885\uc774\ub77c\ub3c4 \ud754\ub4e4\uace0 \ub2e4\ub2d0\uae4c \ubd10?<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u79c1\u306b\u4f55\u3092\u671f\u5f85\u3057\u3066\u308b\u3063\u3066\u3044\u3046\u3093\u3067\u3059\uff1f\\.\n\u30a4\u30ab\u308c\u305f\u3084\u3064\u307f\u305f\u3044\u306b\u3053\u306e\u30d9\u30eb\u3092\n\u9cf4\u3089\u3057\u7d9a\u3051\u308d\u3068\u3067\u3082\uff1f<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Wovor hatten die denn Angst? Dass ich wie ein Bekloppter mit der Glocke l\u00e4ute?",
+                  "zh_TW": "\u4ed6\u5011\u4ee5\u70ba\u6211\u662f\u760b\u5b50\u55ce?\\.\u5230\u8655\u4e82\u6572\u9418?<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "Of course I wouldn't do that!",
+                  "pt_BR": "É claro que eu não faria isso!",
+                  "langUid": 601,
+                  "zh_CN": "\u6211\u624d\u4e0d\u4f1a\u90a3\u4e48\u5e72\u5462\uff01<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\uc124\ub9c8 \ub0b4\uac00 \uadf8\ub7ec\uace0 \ub2e4\ub2c8\uaca0\uc5b4?<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u305d\u3093\u306a\u3053\u3068\u3059\u308b\u308f\u3051\u304c\u306a\u3044\u3067\u3057\u3087\u3046\uff01<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Das w\u00fcrde ich doch nie tun!",
+                  "zh_TW": "\u6211\u624d\u4e0d\u6703\u90a3\u9ebc\u5e79\u5462\uff01<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "But I just...\\. have to bring it with me, okay?\\. It's complicated.",
+                  "pt_BR": "Mas eu só...\\. preciso carregar isso comigo, ok?\\. É compliado.",
+                  "langUid": 602,
+                  "zh_CN": "\u4f46\u662f...\\.\u8fd9\u4e2a\u949f\u6211\u5fc5\u987b\u968f\u8eab\u643a\u5e26\u3002\\.\u7406\u7531\u5f88\u590d\u6742\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ub09c \uadf8\uc800...\\. \uc774\uac78 \uac00\uc9c0\uace0 \ub2e4\ub140\uc57c \ud560 \ubfd0\uc774\ub77c\uace0, \uc751?\\. \ubcf5\uc7a1\ud55c \ubb38\uc81c\uc57c.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u3068\u306f\u3044\u3048...\\.\u79c1\u306f\u3053\u306e\u30d9\u30eb\u3092\n\u6301\u3061\u6b69\u304f\u5fc5\u8981\u304c\u3042\u308b\u3093\u3067\u3059\u3002\n\u308f\u304b\u308a\u307e\u3059\u304b\uff1f\\.\n\u8907\u96d1\u306a\u4e8b\u60c5\u304c\u3042\u308b\u3093\u3067\u3059\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Aber...\\. ich muss sie einfach mit mir herumtragen.\\. Es ist kompliziert, okay?",
+                  "zh_TW": "\u4f46\u662f...\\.\u9019\u500b\u9418\u6211\u5fc5\u9808\u96a8\u8eab\u651c\u5e36\u3002\\.\u7406\u7531\u5f88\u8907\u96dc\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              },
+              {
+                "message": {
+                  "en_US": "...",
+                  "pt_BR": "...",
+                  "langUid": 603,
+                  "zh_CN": "...<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "...<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "...<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "...",
+                  "zh_TW": "...<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": { "person": "main.lea", "expression": "NERVOUS" }
+              },
+              {
+                "message": {
+                  "en_US": "Well at least in this book store they don't mind.",
+                  "pt_BR": "Bem, pelo menos nessa livraria eles não se importam com isso.",
+                  "langUid": 604,
+                  "zh_CN": "\u8d77\u7801\u6211\u5728\u8fd9\u4e2a\u5c0f\u4e66\u5e97\u91cc\u4ed6\u4eec\u4e0d\u4f1a\u4ecb\u610f\u3002<<A<<[CHANGED 2019/04/16]",
+                  "ko_KR": "\ubb50, \ucd5c\uc18c\ud55c \uc774 \uc11c\uc810\uc5d0\uc11c\ub294 \uc2e0\uacbd \uc548 \uc4f0\ub2c8\uae4c.<<A<<[CHANGED 2019/04/16]",
+                  "ja_JP": "\u307e\u3042\u3001\u3053\u306e\u672c\u5c4b\u306e\u4e2d\u306b\u3044\u308b\u9650\u308a\u3001\n\u8ab0\u3082\u6c17\u306b\u3057\u306a\u3044\u3067\u3057\u3087\u3046\u3002<<A<<[CHANGED 2019/04/16]",
+                  "de_DE": "Na ja, zumindest hier im Buchladen wird die Glocke toleriert.",
+                  "zh_TW": "\u8d77\u78bc\u6211\u5728\u9019\u500b\u5c0f\u66f8\u5e97\u88e1\u4ed6\u5011\u4e0d\u6703\u4ecb\u610f\u3002<<A<<[CHANGED 2019/04/16]"
+                },
+                "autoContinue": false,
+                "type": "SHOW_MSG",
+                "person": {
+                  "person": "guests.bellwielder",
+                  "expression": "DEFAULT"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "id": 0,
+      "type": "Background",
+      "name": "Background",
+      "level": "0",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 8, 8, 8, 8, 8,
+          8, 8, 8, 8, 8, 8, 8, 8, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 40, 40, 40, 40,
+          40, 16, 240, 240, 15, 40, 40, 40, 40, 41, 9, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 72, 72, 72, 72,
+          72, 48, 272, 272, 47, 72, 72, 72, 72, 73, 38, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 104, 104, 104,
+          104, 104, 80, 304, 304, 79, 104, 104, 104, 104, 105, 38, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 136, 136, 136,
+          136, 136, 112, 336, 336, 111, 136, 136, 136, 136, 137, 38, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 168, 168, 168,
+          168, 168, 144, 368, 368, 143, 168, 168, 168, 168, 169, 38, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 69, 613, 613, 613,
+          613, 613, 613, 613, 613, 613, 613, 613, 200, 200, 201, 38, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 233, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,
+          1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 296, 296, 1, 1,
+          1, 609, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 581, 581,
+          581, 581, 581, 581, 581, 581, 581, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 613, 613,
+          613, 610, 611, 613, 613, 613, 613, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          582, 614, 1, 1, 1, 1, 1, 1, 265, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          582, 614, 1, 1, 1, 1, 1, 265, 297, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          582, 614, 1, 1, 1, 1, 265, 297, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          582, 614, 1, 1, 1, 265, 297, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          582, 614, 1, 1, 265, 297, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 296, 296,
+          296, 296, 296, 296, 296, 297, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Background",
+      "name": "Detail",
+      "level": "0",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 257, 226, 162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 386, 451, 386,
+          386, 451, 386, 386, 451, 386, 386, 386, 257, 258, 259, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 449, 0, 0,
+          449, 0, 0, 449, 0, 0, 0, 257, 258, 259, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 449, 0, 0,
+          449, 0, 0, 449, 0, 0, 0, 257, 258, 259, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 449, 386, 386, 386, 257, 258, 259, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 257, 258, 259, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 257, 258, 259, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 386, 386,
+          451, 0, 0, 451, 386, 386, 386, 257, 129, 194, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 449,
+          0, 0, 449, 0, 0, 0, 289, 194, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 449,
+          0, 0, 449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 449,
+          0, 0, 449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 449,
+          0, 0, 449, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Collision",
+      "name": "Collision",
+      "level": "0",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/collisiontiles-16x16.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0,
+          0, 0, 0, 0, 11, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ],
+        [
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+          2, 2, 2, 2
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Navigation",
+      "name": "Navigation",
+      "level": "0",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/pathmap-tiles.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 1, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1,
+          1, 1, 1, 1, 1, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1,
+          1, 1, 1, 1, 1, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 1,
+          1, 1, 1, 1, 1, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+          1, 1, 1, 1, 1, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1,
+          1, 1, 1, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1,
+          1, 1, 1, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1,
+          1, 1, 1, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+          1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          2, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "type": "Background",
+      "name": "Objec1",
+      "level": "object1",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 349, 350, 349,
+          350, 349, 350, 0, 0, 349, 350, 349, 350, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 479, 480, 477,
+          478, 381, 382, 0, 0, 477, 512, 381, 512, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 511, 512, 479,
+          480, 477, 478, 349, 350, 511, 512, 479, 510, 633, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 445, 446, 445,
+          446, 445, 446, 445, 446, 445, 446, 445, 446, 665, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 625, 626,
+          625, 626, 625, 626, 625, 626, 0, 0, 665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 657, 658,
+          657, 658, 657, 658, 657, 658, 0, 0, 665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 477, 478,
+          511, 512, 477, 478, 479, 480, 0, 0, 665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 511, 512,
+          477, 512, 477, 478, 511, 512, 0, 0, 665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 445, 446,
+          445, 446, 445, 446, 445, 446, 0, 0, 665, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 697, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Background",
+      "name": "Objec1Detail",
+      "level": "object1",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 775, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 808, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 349,
+          350, 0, 0, 0, 0, 0, 0, 774, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 806, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Background",
+      "name": "Object1Detail2",
+      "level": "object1",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Background",
+      "name": "Object2",
+      "level": "object2",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Background",
+      "name": "Object2Detail",
+      "level": "object2",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/rhombus-interior.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Light",
+      "name": "Light",
+      "level": "last",
+      "width": 50,
+      "height": 30,
+      "visible": 1,
+      "tilesetName": "media/map/lightmap-tiles.png",
+      "repeat": false,
+      "distance": 1,
+      "yDistance": 0,
+      "tilesize": 16,
+      "moveSpeed": { "x": 0, "y": 0 },
+      "data": [
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 0,
+          66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13,
+          0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ],
+        [
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+          0, 0, 0, 0
+        ]
+      ]
+    }
+  ],
+  "attributes": {
+    "bgm": "rhombusSquare2",
+    "cameraInBounds": true,
+    "saveMode": "ENABLED",
+    "volume": 1,
+    "map-sounds": "",
+    "mapStyle": "rhombus-interior",
+    "weather": "RHOMBUS_SQUARE_INNER",
+    "npcRunners": "",
+    "area": "rhombus-sqr"
+  },
+  "screen": { "x": 7, "y": 4 }
+}
