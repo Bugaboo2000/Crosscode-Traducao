@@ -433,7 +433,7 @@
           {
             "message": {
               "en_US": "As before those \\c[3]shields\\c[0] will \\c[3]reflect damage\\c[0], so \\c[3]wait for the Neutral Turrets to get rid of them\\c[0]!",
-              "pt_BR": "Como antes, esses \\c[3]escudos\\c[0] irão \\c[3]refletir o dano\\c[0], então \\c[3]espere que as Torretas Neutras destruam eles\\c[0]!",
+              "pt_BR": "Como antes, esses \\c[3]escudos\\c[0] irão \\c[3]refletir o dano\\c[0], então \\c[3]espere que as Torres Neutras destruam eles\\c[0]!",
               "de_DE": "Wie gesagt, \\c[3]die Schilde reflektieren Schaden\\c[0], \\c[3]warte also darauf, dass die Neutralgesch\u00fctze sie zerst\u00f6ren\\c[0]!",
               "zh_CN": "\u548c\u4ee5\u524d\u4e00\u6837\uff0c\u90a3\u4e9b\\c[3]\u62a4\u76fe\\c[0]\u80fd\u591f\\c[3]\u53cd\u5f39\u4f24\u5bb3\\c[0]\uff0c\u6240\u4ee5\\c[3]\u7b49\u5f85\u4e2d\u6027\u70ae\u53f0\u6d88\u9664\u62a4\u76fe\\c[0]\uff01<<A<<[CHANGED 2020/06/17]",
               "ja_JP": "\u3053\u308c\u307e\u3067\u306e\u3088\u3046\u306b\u3001\\c[3]\u30b7\u30fc\u30eb\u30c9\\c[0]\u3092\n\u3064\u3051\u3066\u308b\u3084\u3064\u306f\\c[3]\u30c0\u30e1\u30fc\u30b8\u3092\u8df3\u306d\u8fd4\u3059\\c[0]\u304b\u3089\u3001\n\\c[3]\u7121\u5c5e\u6027\u30bf\u30ec\u30c3\u30c8\u304c\u30b7\u30fc\u30eb\u30c9\u3092\n\u306f\u304c\u3059\u307e\u3067\u5f85\u3064\\c[0]\u3088\u3046\u306b\u306d\uff01<<A<<[CHANGED 2020/06/17]",
@@ -450,7 +450,7 @@
           {
             "message": {
               "en_US": "I've also activated the \\c[3]Heat and Cold turrets\\c[0].\\. You can still \\c[3]activate them with a charged shot of their respective element\\c[0]!",
-              "pt_BR": "Eu também ativei as \\c[3]Torretas de Fogo e Gelo\\c[0].\\. Você ainda pode \\c[3]ativá-las com um tiro carregado\\c[0]!",
+              "pt_BR": "Eu também ativei as \\c[3]Torres de Fogo e Gelo\\c[0].\\. Você ainda pode \\c[3]ativá-las com um tiro carregado\\c[0]!",
               "de_DE": "Jetzt sind auch die \\c[3]Hitze- und K\u00e4ltegesch\u00fctze\\c[0] aktiviert.\\. Du kannst sie \\c[3]mit einem geladenen Hitze- bzw. K\u00e4lte-Schuss aktivieren\\c[0]!",
               "zh_CN": "\u6211\u8fd8\u542f\u52a8\u4e86\\c[3]\u706b\u4e0e\u51b0\u70ae\u53f0\\c[0]\u3002\\. \u4f60\u4f9d\u7136\u53ef\u4ee5\u4f7f\u7528\\c[3]\u5bf9\u5e94\u7684\u84c4\u529b\u5143\u7d20\u5f39\u6fc0\u6d3b\u5b83\u4eec\\c[0]!<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\\c[3]\u706b\u708e\u3068\u51b7\u6c17\u306e\u30bf\u30ec\u30c3\u30c8\\c[0]\u3082\n\u6709\u52b9\u5316\u3057\u3066\u304a\u3044\u305f\u3088\u3002\\.\\c[3]\u5404\u5c5e\u6027\u306e\n\u30c1\u30e3\u30fc\u30b8\u5f3e\u3092\u5f53\u3066\u308c\u3070\u8d77\u52d5\u3067\u304d\u308b\\c[0]\u304b\u3089\u306d\u3002<<A<<[CHANGED 2018/08/28]",
@@ -467,7 +467,7 @@
           {
             "message": {
               "en_US": "But don't forget that only \\c[3]Neutral Turrets can break shields\\c[0]!",
-              "pt_BR": "Mas não esqueça que apenas a \\c[3]Torreta Neutra pode quebrar escudos\\c[0]!",
+              "pt_BR": "Mas não esqueça que apenas a \\c[3]Torres Neutra pode quebrar escudos\\c[0]!",
               "de_DE": "Vergiss aber nicht, dass nur \\c[3]Neutralgesch\u00fctze Schilde zerst\u00f6ren\\c[0]!",
               "zh_CN": "\u4f46\u662f\u8bf7\u522b\u5fd8\u4e86\uff0c\\c[3]\u53ea\u6709\u4e2d\u6027\u70ae\u53f0\u80fd\u7834\u574f\u62a4\u76fe\\c[0]!<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\\c[3]\u30b7\u30fc\u30eb\u30c9\u3092\u306f\u304c\u305b\u308b\u306e\u306f\n\u7121\u5c5e\u6027\u30bf\u30ec\u30c3\u30c8\u3060\u3051\\c[0]\n\u3060\u3063\u3066\u3053\u3068\u5fd8\u308c\u306a\u3044\u3067\u306d\uff01<<A<<[CHANGED 2018/08/28]",
@@ -2523,7 +2523,7 @@
           {
             "message": {
               "en_US": "I will now activate our new \\c[3]Shock- and Wave-elemental Turrets\\c[0].",
-              "pt_BR": "Agora vou ativar nossas novas \\c[3]Torretas Elementais de Choque e Onda\\c[0].",
+              "pt_BR": "Agora vou ativar nossas novas \\c[3]Torres Elementais de Choque e Onda\\c[0].",
               "de_DE": "Ich aktiviere jetzt unsere neuen \\c[3]schock- und wellebasierten Gesch\u00fctze\\c[0].",
               "zh_CN": "\u6211\u73b0\u5728\u5c06\u542f\u52a8\u6700\u65b0\u7684\\c[3]\u7535\u548c\u6ce2\u5143\u7d20\u70ae\u53f0\\c[0]\u3002<<A<<[CHANGED 2020/06/17]",
               "ja_JP": "\\c[3]\u96fb\u6483\u5c5e\u6027\u3068\u6ce2\u52d5\u5c5e\u6027\u306e\u30bf\u30ec\u30c3\u30c8\\c[0]\u3092\n\u65b0\u3057\u304f\u8d77\u52d5\u3059\u308b\u306d\u3002<<A<<[CHANGED 2020/06/17]",
@@ -3265,7 +3265,7 @@
           {
             "message": {
               "en_US": "You should plan your turrets accordingly!",
-              "pt_BR": "Você deve preparar suas torretas de acordo!",
+              "pt_BR": "Você deve preparar suas torres de acordo!",
               "de_DE": "Du solltest deine Gesch\u00fctze entsprechend vorbereiten!",
               "zh_CN": "\u8bf7\u5408\u7406\u5b89\u6392\u4f60\u7684\u70ae\u53f0\uff01<<A<<[CHANGED 2018/10/04]",
               "ja_JP": "\u30bf\u30ec\u30c3\u30c8\u306f\u8a08\u753b\u7684\u306b\u8d77\u52d5\u3057\u3066\u306d\uff01<<A<<[CHANGED 2018/10/04]",
@@ -4802,7 +4802,7 @@
           {
             "message": {
               "en_US": "I will put out all of the turrets we got left.\\. Make them count!",
-              "pt_BR": "Vou colocar todas as torretas que nos restam.\\. Façam eles contarem!",
+              "pt_BR": "Vou colocar todas as torres que nos restam.\\. Façam eles contarem!",
               "de_DE": "Ich stell' jetzt alle Gesch\u00fctze auf, die wir noch haben.\\. Mach was draus!",
               "zh_CN": "\u6211\u4f1a\u628a\u624b\u4e0a\u7684\u8d44\u6e90\u90fd\u6d3e\u51fa\u53bb\u3002\\.\u597d\u597d\u5229\u7528\uff01<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u6301\u3066\u308b\u30bf\u30ec\u30c3\u30c8\u3092\u5168\u90e8\u6295\u5165\u3059\u308b\u305e\u3002\\.\n\u3046\u307e\u304f\u4f7f\u3063\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/08/28]",
@@ -6730,7 +6730,7 @@
                       "side": "LEFT",
                       "message": {
                         "en_US": "[ Thank you for using TURRET products! ]",
-                        "pt_BR": "[ Obrigado por utilizar os produtos TURRE!]",
+                        "pt_BR": "[ Obrigado por utilizar os produtos da TORRE!]",
                         "langUid": 821,
                         "zh_CN": "[ \u611f\u8c22\u60a8\u4f7f\u7528\u70ae\u53f0\u516c\u53f8\u4ea7\u54c1\uff01 ]<<A<<[CHANGED 2019/04/16]",
                         "ko_KR": "[ \ud3ec\ud0d1 \uc81c\ud488\uc744 \uc774\uc6a9\ud574 \uc8fc\uc154\uc11c \uac10\uc0ac\ud569\ub2c8\ub2e4! ]<<A<<[CHANGED 2019/04/16]",
@@ -6833,7 +6833,7 @@
                   {
                     "text": {
                       "en_US": "\\s[0]Challenge Highscore:\n\\c[3]\\v[map.tdHighScore] Points on Wave \\v[map.tdHighWave]\\c[0] ",
-                      "pt_BR": "\\s[0]Pontuação Máxima do Desafio:\n\\c[3]\\v[map.tdHighScore] Pontos de Onda\\v[map.tdHighWave]\\c[0]",
+                      "pt_BR": "\\s[0]Pontuação Máxima do Desafio:\n\\c[3]\\v[map.tdHighScore] Pontos de Onda \\v[map.tdHighWave]\\c[0]",
                       "de_DE": "\\s[0]Rekord:\n\\c[3]\\v[map.tdHighScore] Punkte bei Welle \\v[map.tdHighWave]\\c[0] \n",
                       "zh_CN": "\\s[0]\u6311\u6218\u9ad8\u5206: \n\\c[3]\\v[map.tdHighScore]\u70b9\u4e8e\\v[map.tdHighWave]\u6ce2\\c[0] <<A<<[CHANGED 2019/04/30]",
                       "ja_JP": "\\s[0]\u30c1\u30e3\u30ec\u30f3\u30b8\u30cf\u30a4\u30b9\u30b3\u30a2\uff1a\n\\c[3]\\v[map.tdHighWave]\u30a6\u30a7\u30fc\u30d6\u5230\u9054\u3001\\v[map.tdHighScore]\u30dd\u30a4\u30f3\u30c8\\c[0]<<A<<[CHANGED 2019/04/30]",
@@ -7408,7 +7408,7 @@
                       {
                         "message": {
                           "en_US": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
-                          "pt_BR": "Felizmente, preparamos algumas \\c[3]torretas defensivas\\c[0] automáticas aqui.",
+                          "pt_BR": "Felizmente, preparamos algumas \\c[3]torres defensivas\\c[0] automáticas aqui.",
                           "de_DE": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgesch\u00fctze\\c[0] vorbereitet.",
                           "zh_CN": "\u4e0d\u8fc7\u6211\u4eec\u51c6\u5907\u4e86\u53ef\u4ee5\u81ea\u52a8\u5c04\u51fb\u7684\\c[3]\u9632\u5fa1\u70ae\u5854\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u5e78\u3044\u306a\u3053\u3068\u306b\u3001\u3053\u3063\u3061\u306b\u306f\n\u81ea\u52d5\\c[3]\u9632\u885b\u30bf\u30ec\u30c3\u30c8\\c[0]\u3092\u7528\u610f\u3057\u3066\u3042\u308b\u3002<<A<<[CHANGED 2019/04/16]",
@@ -7426,7 +7426,7 @@
                       {
                         "message": {
                           "en_US": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
-                          "pt_BR": "Para ativar uma torreta, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
+                          "pt_BR": "Para ativar uma torre, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
                           "de_DE": "Um ein Gesch\u00fctz zu aktivieren, \\c[3]schie\u00df ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!",
                           "zh_CN": "\u8981\u6fc0\u6d3b\u70ae\u5854\u3002\u4f60\u9700\u8981\u5148\\c[3]\u653b\u51fb\u5b83\u6570\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3059\u308b\u306b\u306f\u3001\n\\c[3]\u4f55\u56de\u304b\u653b\u6483\u3092\u5f53\u3066\u305f\\c[0]\u5f8c\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\u304f\u308c\uff01<<A<<[CHANGED 2019/04/16]",
@@ -7480,7 +7480,7 @@
                       {
                         "message": {
                           "en_US": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
-                          "pt_BR": "Cada torreta consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
+                          "pt_BR": "Cada torre consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
                           "de_DE": "Jedes Gesch\u00fctz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier t\u00f6test, und nach jeder Gegnerwelle\\c[0].",
                           "zh_CN": "\u6bcf\u4e2a\u6fc0\u6d3b\u7684\u70ae\u53f0\u4f1a\u6d88\u8017\\c[3]25\u80fd\u91cf\\c[0]\u3002\\.\u6d88\u706d\u654c\u4eba\u548c\u6bcf\u6ce2\u653b\u51fb\u7ed3\u675f\u540e\u4f60\u90fd\u4f1a\u5f97\u5230\u989d\u5916\u7684\u80fd\u91cf\u3002<<A<<[CHANGED 2019/04/16]",
                           "ja_JP": "\u305d\u308c\u305e\u308c\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u8d77\u52d5\u3059\u308b\u306e\u306b\n\\c[3]\u30a8\u30cd\u30eb\u30ae\u30fc\u309225\\c[0]\u6d88\u8cbb\u3059\u308b\u3002\\.\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u3001\n\\c[3]\u52d5\u7269\u3092\u5012\u3057\u305f\u308a\u30a6\u30a7\u30fc\u30d6\u304c\u7d42\u308f\u3063\u305f\u308a\\c[0]\n\u3059\u308b\u3054\u3068\u306b\u624b\u306b\u5165\u308b\u304b\u3089\u306a\u3002<<A<<[CHANGED 2019/04/16]",
@@ -7498,7 +7498,7 @@
                       {
                         "message": {
                           "en_US": "You should also know that every \\c[3]type of turret has its own attack pattern\\c[0].",
-                          "pt_BR": "Você também deve saber que cada \\c[3]tipo de torreta tem seu próprio padrão de ataque\\c[0].",
+                          "pt_BR": "Você também deve saber que cada \\c[3]tipo de torre tem seu próprio padrão de ataque\\c[0].",
                           "de_DE": "Du solltest auch wissen, dass \\c[3]jeder Gesch\u00fctztyp sein eigenes Angriffsmuster hat\\c[0].",
                           "zh_CN": "\u53e6\u5916\\c[3]\u6bcf\u79cd\u7c7b\u578b\u7684\u70ae\u53f0\u90fd\u6709\u81ea\u5df1\u7684\u653b\u51fb\u6a21\u5f0f\\c[0]\u3002<<A<<[CHANGED 2018/08/28]",
                           "ja_JP": "\\c[3]\u5404\u5c5e\u6027\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u305d\u308c\u305e\u308c\u306b\n\u653b\u6483\u30d1\u30bf\u30fc\u30f3\u304c\u9055\u3046\\c[0]\u3053\u3068\u3092\n\u77e5\u3063\u3066\u304a\u3044\u3066\u3002<<A<<[CHANGED 2018/08/28]",
@@ -7566,7 +7566,7 @@
                       {
                         "text": {
                           "en_US": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
-                          "pt_BR": "\\c[3]- Descrição geral da torreta -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
+                          "pt_BR": "\\c[3]- Descrição geral da torre -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
                           "de_DE": "\\c[3]- Merkblatt zum Gesch\u00fctz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, h\u00e4ufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]",
                           "langUid": 792,
                           "zh_CN": "\\c[3]- \u70ae\u53f0\u603b\u89c8 -\\c[0]\n\n\\i[element-neutral] \\c[3]\u4e2d\u6027\\c[0]:\n\u5355\u76ee\u6807\u5c04\u51fb\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4e2d\u548c\u62a4\u76fe\uff0c\u9891\u7e41\u653b\u51fb\uff0c\u5a01\u529b\u5f31\u3002\n\\c[1]\u4f7f\u7528\u65e0\u5143\u7d20\u65f6\u7684\u9ed8\u8ba4\u6a21\u5f0f\uff01\\c[0]<<A<<[CHANGED 2019/04/16]",
@@ -7611,7 +7611,7 @@
                       {
                         "text": {
                           "en_US": "All turrets cost \\c[3]\\v[tmp.tdCostTurret1] Energy\\c[0] to activate, regardless of element.\n\nFor \\c[3]\\v[tmp.tdUpgradeCost] Energy\\c[0] all turrets will upgrade their attack power. This will happen automatically upon reaching that amount.",
-                          "pt_BR": "Todas as torretas custam \\c[3]\\v[tmp.tdCostTurret1] de Energia\\c[0] para ativar, independente do elemento.\n\nPor \\c[3]\\v[tmp.tdUpgradeCost]de Energia\\c[0] todas os torretas irão aumentar seu poder de ataque. Isso acontecerá automaticamente ao atingir essa quantidade.",
+                          "pt_BR": "Todas as torres custam \\c[3]\\v[tmp.tdCostTurret1] de Energia\\c[0] para ativar, independente do elemento.\n\nPor \\c[3]\\v[tmp.tdUpgradeCost] de Energia\\c[0] todas os torres irão aumentar seu poder de ataque. Isso acontecerá automaticamente ao atingir essa quantidade.",
                           "de_DE": "Alle Gesch\u00fctze brauchen zur Aktivierung \\c[3]\\v[tmp.tdCostTurret1] Energie\\c[0], unabh\u00e4ngig vom Element.\n\nWenn du \\c[3]\\v[tmp.tdUpgradeCost] Energie\\c[0] erreichst, verbessert sich automatisch die Angriffskraft aller Gesch\u00fctze.",
                           "langUid": 887,
                           "ko_KR": "\ubaa8\ub4e0 \ud3ec\ud0d1\uc740 \uc18d\uc131\uacfc \uc0c1\uad00\uc5c6\uc774 \ud65c\uc131\ud654\ud558\ub294 \ub370 \\c[3]\\v[tmp.tdCostTurret1] \uc5d0\ub108\uc9c0\\c[0]\uac00 \ub4ed\ub2c8\ub2e4.\n\n\\c[3]\\v[tmp.tdUpgradeCost] \uc5d0\ub108\uc9c0\\c[0]\ub97c \uc0ac\uc6a9\ud558\uba74 \ud3ec\ud0d1\uc758 \uacf5\uaca9\ub825\uc774 \uc99d\uac00\ud569\ub2c8\ub2e4. \uc774\ub294 \uc774 \uc5d0\ub108\uc9c0\uc5d0 \ub3c4\ub2ec\ud588\uc744 \uacbd\uc6b0, \uc790\ub3d9\uc73c\ub85c \uc218\ud589\ub429\ub2c8\ub2e4.<<A<<[CHANGED 2019/04/30]",
@@ -7687,7 +7687,7 @@
                         "0": " ",
                         "label": {
                           "en_US": "Turret Data",
-                          "pt_BR": "Dados da Torreta",
+                          "pt_BR": "Dados da Torre",
                           "de_DE": "Gesch\u00fctzdaten",
                           "langUid": 793,
                           "zh_CN": "\u70ae\u53f0\u6570\u636e<<A<<[CHANGED 2019/04/16]",
@@ -8142,7 +8142,7 @@
                 {
                   "message": {
                     "en_US": "All the more reason to use our amazing Turret Defense Grid again.",
-                    "pt_BR": "Mais uma razão para usar novamente nossa incrível Rede de Defesa de Torretas.",
+                    "pt_BR": "Mais uma razão para usar novamente nossa incrível Rede de Defesa de Torres.",
                     "de_DE": "Ein klarer Fall f\u00fcr unser fantastisches Gesch\u00fctz-Verteidigungssystem!",
                     "zh_CN": "\u6240\u4ee5\u53c8\u662f\u65f6\u5019\u8ba9\u70ae\u53f0\u9632\u5fa1\u7cfb\u7edf\u4e00\u5c55\u96c4\u98ce\u4e86\u3002<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u3053\u308c\u304b\u3089\u306f\u307e\u3059\u307e\u3059\u79c1\u305f\u3061\u306e\n\u3059\u3070\u3089\u3057\u3044\u30bf\u30ec\u30c3\u30c8\u9632\u885b\u7db2\u3092\n\u4f7f\u3063\u3066\u3044\u304b\u306a\u3044\u3068\u3002<<A<<[CHANGED 2018/08/28]",
@@ -8558,7 +8558,7 @@
                     {
                       "message": {
                         "en_US": "So activate that turret by \\c[3]hitting it a few\\c[0] times and then using a \\c[3]charged projectile on it\\c[0]!",
-                        "pt_BR": "Então, ative essa torreta, \\c[3]atingindo-a algumas vezes\\c[0] e depois use um \\c[3]projétil carregado nela\\c[0]!",
+                        "pt_BR": "Então, ative essa torre, \\c[3]atingindo-a algumas vezes\\c[0] e depois use um \\c[3]projétil carregado nela\\c[0]!",
                         "de_DE": "Dann musst du das Gesch\u00fctz aktivieren, indem du \\c[3]ein paarmal darauf schie\u00dft\\c[0], zuletzt mit einem \\c[3]geladenen Schuss\\c[0]!",
                         "zh_CN": "\u60f3\u6fc0\u6d3b\u70ae\u5854\uff0c\\c[3]\u653b\u51fb\u70ae\u5854\u51e0\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0] \u6765\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2018/08/28]",
                         "ja_JP": "\u3067\u3082\u305d\u306e\u524d\u306b\u3001\\c[3]\u653b\u6483\u3092\u6570\u56de\u5f53\u3066\u3066\\c[0]\u304b\u3089\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\n\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3057\u3066\u304f\u308c\uff01<<A<<[CHANGED 2018/08/28]",
@@ -8637,7 +8637,7 @@
                     {
                       "task": {
                         "en_US": "Hit \\c[3]the turret\\c[0] first with \\c[3]repeated shots\\c[0] and lastly with a \\c[3]charged shot\\c[0] to activate it",
-                        "pt_BR": "Ataque \\c[3]a torreta\\c[0] primeiro com \\c[3]tiros repetidos\\c[0] e depois use um \\c[3]tiro carregado\\c[0] para ativá-la",
+                        "pt_BR": "Ataque \\c[3]a torre\\c[0] primeiro com \\c[3]tiros repetidos\\c[0] e depois use um \\c[3]tiro carregado\\c[0] para ativá-la",
                         "langUid": 712,
                         "zh_CN": "\u4f7f\u7528\\c[3]\u8fde\u7eed\u5c04\u51fb\\c[0]\u6765\u51fb\u4e2d\\c[3]\u70ae\u5854\\c[0]\uff0c\u6700\u540e\u518d\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6765\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2018/08/01]",
                         "ko_KR": "\\c[3]\ud3ec\ud0d1\\c[0]\uc744 \ud65c\uc131\ud654\ud558\ub824\uba74 \uba3c\uc800 \\c[3]\ubc18\ubcf5 \uc0f7\\c[0]\uc73c\ub85c \uba87 \ubc88 \ud0c0\uaca9\ud55c \ub4a4, \ub9c8\uc9c0\ub9c9\uc5d0 \\c[3]\ucda9\uc804 \uc0f7\\c[0]\uc744 \uc3d8\uba74 \ub429\ub2c8\ub2e4.<<A<<[CHANGED 2018/08/01]",
@@ -8896,7 +8896,7 @@
                     {
                       "message": {
                         "en_US": "Thankfully we prepared some automated \\c[3]defensive turrets\\c[0] here.",
-                        "pt_BR": "Felizmente, preparamos algumas \\c[3]torretas defensivas\\c[0] automáticas aqui.",
+                        "pt_BR": "Felizmente, preparamos algumas \\c[3]torres defensivas\\c[0] automáticas aqui.",
                         "de_DE": "Wir haben hier aber ein paar automatisierte \\c[3]Defensivgesch\u00fctze\\c[0] vorbereitet.",
                         "zh_CN": "\u4e0d\u8fc7\u6211\u4eec\u51c6\u5907\u4e86\u53ef\u4ee5\u81ea\u52a8\u5c04\u51fb\u7684\\c[3]\u9632\u5fa1\u70ae\u5854\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "\u5e78\u3044\u306a\u3053\u3068\u306b\u3001\u3053\u3063\u3061\u306b\u306f\n\u81ea\u52d5\\c[3]\u9632\u885b\u30bf\u30ec\u30c3\u30c8\\c[0]\u3092\u7528\u610f\u3057\u3066\u3042\u308b\u3002<<A<<[CHANGED 2019/04/16]",
@@ -8914,7 +8914,7 @@
                     {
                       "message": {
                         "en_US": "To activate a turret, \\c[3]hit it a few times\\c[0] and then use a \\c[3]charged projectile on it\\c[0]!",
-                        "pt_BR": "Para ativar uma torreta, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
+                        "pt_BR": "Para ativar uma torre, \\c[3]acerte ela algumas vezes\\c[0] e então use um \\c[3]projétil carregado nela\\c[0]!",
                         "de_DE": "Um ein Gesch\u00fctz zu aktivieren, \\c[3]schie\u00df ein paarmal darauf\\c[0] und starte es dann mit einem \\c[3]geladenen Schuss\\c[0]!",
                         "zh_CN": "\u8981\u6fc0\u6d3b\u70ae\u5854\u3002\u4f60\u9700\u8981\u5148\\c[3]\u653b\u51fb\u5b83\u6570\u6b21\\c[0]\uff0c\u7136\u540e\u4f7f\u7528\\c[3]\u84c4\u529b\u5c04\u51fb\\c[0]\u6fc0\u6d3b\u5b83\u3002<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3059\u308b\u306b\u306f\u3001\n\\c[3]\u4f55\u56de\u304b\u653b\u6483\u3092\u5f53\u3066\u305f\\c[0]\u5f8c\u3001\n\\c[3]\u30c1\u30e3\u30fc\u30b8\u3057\u305f\u5f3e\u3092\\c[0]\u5f53\u3066\u3066\u304f\u308c\uff01<<A<<[CHANGED 2019/04/16]",
@@ -8968,7 +8968,7 @@
                     {
                       "message": {
                         "en_US": "Each turret consumes \\c[3]25 energy\\c[0] on activation.\\. You will earn additional energy by \\c[3]killing critters and after each wave\\c[0].",
-                        "pt_BR": "Cada torreta consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
+                        "pt_BR": "Cada torre consome \\c[3]25 energia\\c[0] na ativação. Você ganhará energia adicional ao \\c[3]matar criaturas e depois de cada onda\\c[0].",
                         "de_DE": "Jedes Gesch\u00fctz verbraucht bei Aktivierung \\c[3]25 Energie\\c[0].\\. Neue Energie bekommst du, indem du \\c[3]Kriechgetier t\u00f6test, und nach jeder Gegnerwelle\\c[0].",
                         "zh_CN": "\u6bcf\u4e2a\u6fc0\u6d3b\u7684\u70ae\u53f0\u4f1a\u6d88\u8017\\c[3]25\u80fd\u91cf\\c[0]\u3002\\.\u6d88\u706d\u654c\u4eba\u548c\u6bcf\u6ce2\u653b\u51fb\u7ed3\u675f\u540e\u4f60\u90fd\u4f1a\u5f97\u5230\u989d\u5916\u7684\u80fd\u91cf\u3002<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "\u305d\u308c\u305e\u308c\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u8d77\u52d5\u3059\u308b\u306e\u306b\n\\c[3]\u30a8\u30cd\u30eb\u30ae\u30fc\u309225\\c[0]\u6d88\u8cbb\u3059\u308b\u3002\\.\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u3001\n\\c[3]\u52d5\u7269\u3092\u5012\u3057\u305f\u308a\u30a6\u30a7\u30fc\u30d6\u304c\u7d42\u308f\u3063\u305f\u308a\\c[0]\n\u3059\u308b\u3054\u3068\u306b\u624b\u306b\u5165\u308b\u304b\u3089\u306a\u3002<<A<<[CHANGED 2019/04/16]",
@@ -8986,7 +8986,7 @@
                     {
                       "message": {
                         "en_US": "You should also know that every \\c[3]type of turret has its own attack pattern\\c[0].",
-                        "pt_BR": "Você também deve saber que cada \\c[3]tipo de torreta tem seu próprio padrão de ataque\\c[0].",
+                        "pt_BR": "Você também deve saber que cada \\c[3]tipo de torre tem seu próprio padrão de ataque\\c[0].",
                         "de_DE": "Du solltest auch wissen, dass \\c[3]jeder Gesch\u00fctztyp sein eigenes Angriffsmuster hat\\c[0].",
                         "zh_CN": "\u8fd8\u6709\u4e00\u70b9\uff0c\u8981\u6ce8\u610f\\c[3]\u6bcf\u79cd\u70ae\u53f0\u90fd\u6709\u81ea\u5df1\u7684\u653b\u51fb\u6a21\u5f0f\\c[0]\u3002<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "\\c[3]\u5404\u5c5e\u6027\u306e\u30bf\u30ec\u30c3\u30c8\u306f\u305d\u308c\u305e\u308c\u306b\n\u653b\u6483\u30d1\u30bf\u30fc\u30f3\u304c\u9055\u3046\\c[0]\u3053\u3068\u3092\n\u77e5\u3063\u3066\u304a\u3044\u3066\u3002<<A<<[CHANGED 2019/04/16]",
@@ -9153,7 +9153,7 @@
                     {
                       "text": {
                         "en_US": "\\c[3]- Turret Overview -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nSingle-target shot, light homing, neutralizes shields, frequent attacks, weak.\n\\c[1]Default mode when using an inactive element!\\c[0]",
-                        "pt_BR": "\\c[3]- Descrição geral da torreta -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
+                        "pt_BR": "\\c[3]- Descrição geral da torre -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutro\\c[0]:\nTiro de alvo único, levemente teleguiado, neutraliza escudos, ataques frequentes, fraco.\n\\c[1]Modo padrão quando um elemento inativo é usado!\\c[0]",
                         "de_DE": "\\c[3]- Merkblatt zum Gesch\u00fctz -\\c[0]\n\n\\i[element-neutral] \\c[3]Neutral\\c[0]:\nNur Einzelziel, semi-zielsuchend, neutralisiert Schilde, h\u00e4ufige Angriffe, schwach.\n\\c[1]Standardmodus, wenn ein inaktives Element genutzt wird!\\c[0]",
                         "langUid": 799,
                         "zh_CN": "\\c[3]- \u70ae\u53f0\u603b\u89c8 -\\c[0]\n\n\\i[element-neutral] \\c[3]\u4e2d\u6027\\c[0]:\n\u5355\u76ee\u6807\u5c04\u51fb\uff0c\u8f7b\u5ea6\u8ffd\u8e2a\uff0c\u4e2d\u548c\u62a4\u76fe\uff0c\u9891\u7e41\u653b\u51fb\uff0c\u5a01\u529b\u5f31\u3002\n\\c[1]\u4f7f\u7528\u65e0\u5143\u7d20\u65f6\u7684\u9ed8\u8ba4\u6a21\u5f0f\uff01\\c[0]<<A<<[CHANGED 2018/11/28]",
@@ -9243,7 +9243,7 @@
                       "0": " ",
                       "label": {
                         "en_US": "Turret Data",
-                        "pt_BR": "Dados da Torreta",
+                        "pt_BR": "Dados da Torre",
                         "de_DE": "Gesch\u00fctzdaten",
                         "langUid": 796,
                         "zh_CN": "\u70ae\u53f0\u60c5\u62a5<<A<<[CHANGED 2018/11/28]",
@@ -10059,7 +10059,7 @@
               {
                 "message": {
                   "en_US": "Alright!\\. Now activate that other turret on the left, so we can start properly!",
-                  "pt_BR": "Muito bem!\\. Agora ative aquela outra torreta à esquerda, para podermos começar!",
+                  "pt_BR": "Muito bem!\\. Agora ative aquela outra torre à esquerda, para podermos começar!",
                   "langUid": 788,
                   "de_DE": "Gut!\\. Jetzt aktiviere das andere Gesch\u00fctz zur Linken, damit wir anfangen k\u00f6nnen!",
                   "ja_JP": "\u3088\u3057\uff01\\.\u5de6\u5074\u306e\u30bf\u30ec\u30c3\u30c8\u3092\u8d77\u52d5\u3057\u305f\u3088\u3002\n\u3053\u308c\u3067\u304d\u3061\u3093\u3068\u52d5\u304f\u306f\u305a\uff01<<A<<[CHANGED 2018/08/28]",
@@ -17212,7 +17212,7 @@
             "entity": { "global": true, "name": "doorOpener" },
             "text": {
               "en_US": "[ Turrets Upgrade, -\\v[tmp.tdUpgradeCost] Energy ]",
-              "pt_BR": "[ Atualização das Torretas, -\\v[tmp.tdUpgradeCost] Energia ]",
+              "pt_BR": "[ Atualização das Torres, -\\v[tmp.tdUpgradeCost] Energia ]",
               "langUid": 885,
               "ko_KR": "[ \ud3ec\ud0d1 \uc5c5\uadf8\ub808\uc774\ub4dc, -\\v[tmp.tdUpgradeCost] \uc5d0\ub108\uc9c0 ]<<A<<[CHANGED 2019/04/30]",
               "zh_CN": "[ \u70ae\u53f0\u5347\u7ea7, -\\v[tmp.tdUpgradeCost] \u80fd\u91cf ]<<A<<[CHANGED 2019/04/30]",

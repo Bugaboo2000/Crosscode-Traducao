@@ -6607,7 +6607,7 @@
                 {
                   "message": {
                     "en_US": "Ohh, cooling boxes want become part of Shad village?\\. What a blessing!",
-                    "pt_BR": "Ohh, as caixas de resfriamento virão para a vila dos Shad?\\. Que milagre!",
+                    "pt_BR": "Ohh, as caixas de resfriamento virão para a aldeia dos Shad?\\. Que milagre!",
                     "de_DE": "Ohh, K\u00fchlboxen suchen neues zu Hause in Shad-Dorf?\\. Ahnen sei Dank!",
                     "zh_CN": "\u51b7\u7bb1\u5b50\u60f3\u52a0\u5165\u6c99\u5fb7\u6751\u5b50\uff1f\\.\u592a\u597d\u4e86\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u304a\u3049\u3001\u51b7\u5374\u7bb1\u3001\u30b7\u30e3\u30c3\u30c9\u306e\u6751\u306e\n\u3082\u306e\u306b\u306a\u308a\u305f\u3044\uff1f\\.\u306a\u3093\u3066\u304a\u6075\u307f\uff01<<A<<[CHANGED 2020/06/17]",
@@ -8974,7 +8974,7 @@
             "entity": { "global": true, "name": "p-1" },
             "text": {
               "en_US": "Did human really bring \\c[3]black monster\\c[0] into village?",
-              "pt_BR": "A humana realmente trouxe o \\c[3]monstro negro\\c[0] para a vila?",
+              "pt_BR": "Humanos realmente trouxeram o \\c[3]monstro negro\\c[0] para a aldeia?",
               "de_DE": "Haben Mensch wirklich \\c[3]schwarze Monster\\c[0] gebracht in Dorf?",
               "zh_CN": "\u771f\u7684\u662f\u4eba\u7c7b\u628a\\c[3]\u9ed1\u8272\u602a\u7269\\c[0]\u5e26\u8fdb\u6751\u5b50\u7684\uff1f<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u672c\u5f53\u306b\u4eba\u9593\u304c\\c[3]\u9ed2\u3044\u30e2\u30f3\u30b9\u30bf\u30fc\\c[0]\u3001\n\u6751\u306b\u5165\u308c\u305f\u3068\u601d\u3046\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -9685,7 +9685,7 @@
                 {
                   "message": {
                     "en_US": "Good. And it looks as sturdy as ever.",
-                    "pt_BR": "Muito bom. Parece sólida como sempre.",
+                    "pt_BR": "Muito bom. Parece dura como sempre.",
                     "langUid": 83,
                     "ko_KR": "\uc88b\uc544. \uc804\ubcf4\ub2e4 \ub354 \ub2e8\ub2e8\ud574 \ubcf4\uc774\ub124.<<A<<[CHANGED 2018/03/14]",
                     "ja_JP": "\u3059\u3070\u3089\u3057\u3044\u3002\u3053\u306e\u9375\u306f\n\u76f8\u5909\u308f\u3089\u305a\u9811\u4e08\u306a\u3088\u3046\u3067\u3059\u306d\u3002<<A<<[CHANGED 2018/03/14]",
@@ -11523,7 +11523,7 @@
                 {
                   "message": {
                     "en_US": "\\v[lore.title.seeker], what day it was!\\. With 3 new generators Shad village now as powerful as never before.",
-                    "pt_BR": "\\v[lore.title.seeker], que dia foi hoje!\\. Com 3 novos geradores a vila dos Shad agora tem energia como nunca antes.",
+                    "pt_BR": "\\v[lore.title.seeker], que dia foi hoje!\\. Com 3 novos geradores a aldeia dos Shad agora tem energia como nunca antes.",
                     "de_DE": "Was f\u00fcr Tag, Seeker!\\. Mit drei neue Generator Shad-Dorf so kraftgeladen wie nie zuvor.",
                     "zh_CN": "\\v[lore.title.seeker]\uff0c\u4eca\u5929\u771f\u662f\u4f1f\u5927\u7684\u4e00\u5929\uff01\\.\u6709\u4e86\u8fd9\u4e9b\u53d1\u7535\u673a\uff0c\u6c99\u5fb7\u6751\u5b50\u524d\u6240\u672a\u6709\u7684\u5f3a\u5927\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\\v[lore.title.seeker]\u3001\u306a\u3093\u3066\u3053\u3068\uff01\n\\.\u30b7\u30e3\u30c3\u30c9\u306e\u6751\u3001\u65b0\u3057\u30443\u3064\u306e\u767a\u96fb\u6a5f\u3067\u3001\n\u3053\u3093\u306a\u306b\u30d1\u30ef\u30d5\u30eb\u3001\u521d\u3081\u3066\u3002<<A<<[CHANGED 2020/06/17]",
@@ -11865,7 +11865,7 @@
                 {
                   "message": {
                     "en_US": "Ah, uncle Zla.\\. We got more generators now.\\. Great power for all of Shad village now!",
-                    "pt_BR": "Ah, tio Zla.\\. Nós temos mais geradores agora.\\. Agora toda a vila Shad tem energia!",
+                    "pt_BR": "Ah, tio Zla.\\. Nós temos mais geradores agora.\\. Agora toda a aldeia Shad tem energia!",
                     "de_DE": "Ah, Onkel Zla.\\. Wir nun haben mehr Generator.\\. Gro\u00dfkraft f\u00fcr ganze Shad-Dorf jetzt!",
                     "zh_CN": "\u6cfd\u62c9\u53d4\u53d4\u3002\\.\u6211\u4eec\u6709\u4e86\u66f4\u591a\u53d1\u7535\u673a\uff0c\u6c99\u5fb7\u6751\u5b50\u80fd\u7528\u4e0a\u7535\u4e86\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3042\u3001\u30ba\u30e9\u304a\u3058\u3055\u3093\u3002\\.\u767a\u96fb\u6a5f\u3001\u4f5c\u3063\u305f\u3002\n\\.\u30b7\u30e3\u30c3\u30c9\u306e\u6751\u3001\u5168\u90e8\u3001\u96fb\u6c17\u3044\u3063\u3071\u3044\uff01<<A<<[CHANGED 2020/06/17]",
@@ -12100,7 +12100,7 @@
                 {
                   "message": {
                     "en_US": "And thank you for help.\\. Hope to welcome \\v[lore.title.seeker] back in improved village later!",
-                    "pt_BR": "E obrigado pela ajuda.\\. Espero que volte novamente \\v[lore.title.seeker], quando a vila estiver totalmente melhorada!",
+                    "pt_BR": "E obrigado pela ajuda.\\. Espero que volte novamente \\v[lore.title.seeker], quando a aldeia estiver totalmente melhorada!",
                     "de_DE": "Und danke f\u00fcr Hilfe.\\. Hoffen, Seeker sp\u00e4ter besuchen hochmodern Dorf!",
                     "zh_CN": "\u591a\u8c22\u4f60\u7684\u5e2e\u52a9\u3002\\.\u5e0c\u671b\u4e4b\u540e\\v[lore.title.seeker]\u8fd8\u80fd\u8fc7\u6765\u5750\u5750\uff01<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u624b\u4f1d\u3063\u3066\u3001\u3042\u308a\u304c\u3068\u3002\\.\\v[lore.title.seeker]\u3001\n\u826f\u304f\u306a\u3063\u305f\u6751\u306b\u3001\u307e\u305f\u623b\u3063\u3066\u304d\u3066\uff01<<A<<[CHANGED 2020/06/17]",
@@ -12257,7 +12257,7 @@
               {
                 "message": {
                   "en_US": "Go back to human merchants and tell the tale of Shad Village being full of power!",
-                  "pt_BR": "Volte para os comerciantes humanos e diga que a vila Shad possui energia agora!",
+                  "pt_BR": "Volte para os comerciantes humanos e conte que a aldeia Shad possui energia agora!",
                   "de_DE": "Gehen zur\u00fcck zu Mensch-H\u00e4ndler und erz\u00e4hlen Geschichte von kraftgeladen Shad-Dorf!",
                   "zh_CN": "\u56de\u53bb\u544a\u8bc9\u4eba\u7c7b\u5546\u4eba\uff0c\u6c99\u5fb7\u6751\u5b50\u6709\u7535\u4e86\uff01<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u4eba\u9593\u306e\u5546\u4eba\u306e\u3068\u3053\u308d\u884c\u3063\u3066\u3001\u30b7\u30e3\u30c3\u30c9\u306e\u6751\u3001\n\u96fb\u6c17\u3044\u3063\u3071\u3044\u3042\u308b\u3053\u3068\u3001\u4f1d\u3048\u3066\uff01<<A<<[CHANGED 2020/06/17]",

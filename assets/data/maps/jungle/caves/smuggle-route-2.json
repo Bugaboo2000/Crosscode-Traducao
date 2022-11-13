@@ -110,7 +110,7 @@
                 {
                   "message": {
                     "en_US": "Alright, here we go.",
-                    "pt_BR": "Muito bem, aqui vamos nós.",
+                    "pt_BR": "Muito bem, ouça.",
                     "de_DE": "Gut, dann ma' los.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u597d\u4e86\uff0c\u77a7\u3002",
@@ -129,7 +129,7 @@
                 {
                   "message": {
                     "en_US": "This is the part of the cavern that got breached by those darn guards.",
-                    "pt_BR": "Esta é a parte da caverna que foi violada por aqueles malditos guardas.",
+                    "pt_BR": "Essa é a parte da caverna que foi invadida por aqueles malditos guardas.",
                     "de_DE": "Das is' der Teil der H\u00f6hle, der von diesen d\u00e4mlichen Wachen entdeckt wurde.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u8fd9\u91cc\u5c31\u662f\u6d1e\u7a74\u88ab\u90a3\u4e9b\u8be5\u6b7b\u7684\u5b88\u536b\u7a81\u7834\u7684\u90e8\u5206\u3002",
@@ -383,7 +383,7 @@
                 {
                   "message": {
                     "en_US": "And be prepared, because I won't let ya go until ya done, woman.",
-                    "pt_BR": "E esteja preparada, porque eu não a deixarei ir até que tenha terminado aqui.",
+                    "pt_BR": "E esteja pronta, porque eu não vou deixar você sair até que tenha terminado aqui, garota.",
                     "de_DE": "Und sei vorbereitet, denn ich werde dich nich' gehen lassen, bis du hier fertig bis'.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u505a\u597d\u51c6\u5907\uff0c\u5b8c\u6210\u4e4b\u524d\u6211\u662f\u4e0d\u4f1a\u653e\u4f60\u51fa\u6765\u7684\u3002<<A<<[CHANGED 2017/07/11]",
@@ -496,7 +496,7 @@
                 {
                   "message": {
                     "en_US": "Use the Smokaway when you get caught, you'll be able to run back here and I'll close the box, got it?",
-                    "pt_BR": "Use a Bomba de fumaça quando você for pega, então você poderá correr de volta aqui e eu fecharei a caixa, entendeu?",
+                    "pt_BR": "Use a Bomba de fumaça quando você for pega, então você pode fugir de volta pra cá e eu fecharei a caixa, entendeu?",
                     "de_DE": "Wenn s'e dich erwischen, wirf die \\c[3]Rauchbombe\\c[0]. Dann kanns'u wieder hierhin zur\u00fcckrennen, kapische?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u5f53\u4f60\u88ab\u6293\u4f4f\u65f6\u4f7f\u7528\u8fd9\u9897\u70df\u96fe\u5f39\uff0c\u7136\u540e\u8dd1\u56de\u8fd9\u91cc\u6765\uff0c\u6211\u5c31\u5408\u4e0a\u7bb1\u5b50\uff0c\u660e\u767d\u5417\uff1f<<A<<[CHANGED 2018/09/19]",
@@ -626,7 +626,7 @@
                     {
                       "message": {
                         "en_US": "Alright, talk to me again if ya want to chicken out.",
-                        "pt_BR": "Muito bem, fale comigo novamente se quiser se acovardar.",
+                        "pt_BR": "Muito bem, fale comigo de novo se quiser desistir.",
                         "de_DE": "Alles klar. Hau mich einfach an, wenn'u doch 'n R\u00fcckzieher machen wills'.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u597d\u7684\uff0c\u5982\u679c\u4f60\u60f3\u8981\u4e34\u9635\u9000\u7f29\u7684\u8bdd\u5c31\u518d\u8ddf\u6211\u8bf4\u5427\u3002",
@@ -645,7 +645,7 @@
                     {
                       "message": {
                         "en_US": "Also, don't attack the guards in any way. Don't wanna raise suspicion, right?",
-                        "pt_BR": "Além disso, não ataque os guardas de forma alguma. Você não quer levantar suspeitas, certo?",
+                        "pt_BR": "Além disso, não ataque os guardas de forma alguma. Você não quer levantar suspeitas, capiche?",
                         "de_DE": "Noch was: Nich' die Wachen angreifen. Wir wollen ja hier kein Trallafitti machen, ne?",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u8fd8\u6709\uff0c\u4e0d\u8981\u4ee5\u4efb\u4f55\u65b9\u5f0f\u653b\u51fb\u5b88\u536b\u3002\u522b\u5f15\u8d77\u6000\u7591\uff0c\u77e5\u9053\u5417\uff1f",
@@ -7593,7 +7593,7 @@
           {
             "message": {
               "en_US": "Give me a minute, I'll use the same way using the tracker chip I gave you.",
-              "pt_BR": "Espere, eu seguirei o mesmo caminho que você, usando o tchip rastreador.",
+              "pt_BR": "Espere, eu vou seguir o mesmo caminho que você, usando o chip rastreador.",
               "de_DE": "Moment, werd' denselben Weg gehen wie du, indem ich den Sender benutze.",
               "fr_FR": "fr_FR",
               "langUid": 25,
@@ -7665,7 +7665,7 @@
           {
             "message": {
               "en_US": "Damn, woman, was this really the only way?",
-              "pt_BR": "Droga, garota, este era realmente o único caminho?",
+              "pt_BR": "Droga, garota, esse era realmente o único caminho?",
               "de_DE": "Boah, M\u00e4del, ey, gab's keinen anderen Weg?<<A<<[CHANGED 2021/05/22]",
               "fr_FR": "fr_FR",
               "langUid": 27,
@@ -7681,7 +7681,7 @@
           {
             "message": {
               "en_US": "So much walking... \\.\\.\\. Thankfully, I don't have to carry the goods. That would be just awful.",
-              "pt_BR": "É uma longa caminhada... \\.\\.\\. Felizmente, eu não tenho que carregar a mercadoria. Isso seria simplesmente horrível.",
+              "pt_BR": "É uma caminhada longa... \\.\\.\\.Felizmente, eu não tenho que carregar a mercadoria. Isso seria horrível.",
               "de_DE": "Da muss ich ja voll weit laufen... \\.\\.\\. Zum Gl\u00fcck muss ich die Ware nicht tragen. Das w\u00e4r' noch die Kr\u00f6nung.<<A<<[CHANGED 2021/05/22]",
               "fr_FR": "fr_FR",
               "langUid": 28,
@@ -7761,7 +7761,7 @@
           {
             "message": {
               "en_US": "Ya can keep the \\v[item.343.name] and explore this cavern if ya want.",
-              "pt_BR": "Você pode ficar com o \\v[item.343.name] e explorar essa caverna se você quiser.",
+              "pt_BR": "Você pode ficar com a \\v[item.343.name] e explorar essa caverna se você quiser.",
               "de_DE": "Du kannst die Rauchbombe behalten und die H\u00f6hle weiter erkunden, wenn'u wills'.",
               "fr_FR": "fr_FR",
               "langUid": 48,
@@ -7811,7 +7811,7 @@
               {
                 "message": {
                   "en_US": "I *knew* I could count on ya. Now off you go, the rest is just a long small tunnel anyway.",
-                  "pt_BR": "Eu *sabia* que eu poderia contar com você. Agora saia, o resto é apenas um longo túnel pequeno de qualquer maneira.",
+                  "pt_BR": "Eu *sabia* que eu poderia contar com você. Agora saia, o resto é apenas um túnel estreito afinal.",
                   "de_DE": "Ich *wusste*, dass ich auf dich z\u00e4hlen kann! Dann verdufte, der Rest ist eh nur noch ein schmaler Tunnel.",
                   "fr_FR": "fr_FR",
                   "langUid": 37,
@@ -7848,7 +7848,7 @@
               {
                 "message": {
                   "en_US": "You... what? Come on... at least have some mercy, will ya?",
-                  "pt_BR": "Você... o quê? Vamos lá... pelo menos tenha um pouco de misericórdia, sim?",
+                  "pt_BR": "Você... o quê? Vamos lá... pelo menos tenha um pouco de misericórdia, caramba.",
                   "de_DE": "Du... was? Ach, komm schon... zeig ma' 'n bisschen Gnade, ja?",
                   "fr_FR": "fr_FR",
                   "langUid": 38,

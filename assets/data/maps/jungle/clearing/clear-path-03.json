@@ -10083,7 +10083,7 @@
             "entity": { "global": true, "name": "d2" },
             "text": {
               "en_US": "Yes! Probably infested jungle on purpose.",
-              "pt_BR": "Sim! Provavelmente, floresta infestada de propósito.",
+              "pt_BR": "Sim! Provavelmente, selva infestada de propósito.",
               "langUid": 31,
               "ko_KR": "\uadf8\ub7fc! \uc544\ub9c8 \uc815\uae00\uc744 \uc77c\ubd80\ub7ec \uac10\uc5fc\uc2dc\ucf30\uc744 \uac70\uc57c.<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u60aa\u3044\uff01\u308f\u3056\u3068\u30b8\u30e3\u30f3\u30b0\u30eb\u3001\u6c5a\u3057\u305f\u3002<<A<<[CHANGED 2018/09/19]",
@@ -10500,7 +10500,7 @@
           {
             "message": {
               "en_US": "This is the northern part of the village.",
-              "pt_BR": "Esta é a parte norte da vila.",
+              "pt_BR": "Esta é a parte norte da aldeia.",
               "langUid": 37,
               "ko_KR": "\uc774\uacf3\uc774 \ub9c8\uc744\uc758 \ubd81\ucabd\uc774\uc57c.<<A<<[CHANGED 2017/11/16]",
               "ja_JP": "\u3053\u3053\u306f\u6751\u306e\u5317\u5074\u3067\u3059\u3002<<A<<[CHANGED 2017/11/27]",
@@ -10614,7 +10614,7 @@
           {
             "message": {
               "en_US": "These are the black cats that have taken over our village.",
-              "pt_BR": "Estes são os gatos negros que tomaram conta de nossa vila.",
+              "pt_BR": "Estes são os gatos negros que tomaram conta de nossa aldeia.",
               "langUid": 40,
               "ko_KR": "\uc800\ub4e4\uc774 \uc6b0\ub9ac \ub9c8\uc744\uc744 \ucc28\uc9c0\ud55c \uac80\uc740 \uace0\uc591\uc774\ub4e4\uc774\uc57c.<<A<<[CHANGED 2017/11/16]",
               "ja_JP": "\u3042\u306e\u9ed2\u732b\u305f\u3061\u304c\u3001\u79c1\u305f\u3061\u304b\u3089\n\u6751\u3092\u596a\u3063\u305f\u306e\u3067\u3059\u3002<<A<<[CHANGED 2017/11/27]",
@@ -10728,7 +10728,7 @@
           {
             "message": {
               "en_US": "But these are only a few. The real threat is further ahead in the \\c[3]Chief's Den\\c[0].",
-              "pt_BR": "Mas estes são apenas alguns. A ameaça real está mais à frente no \\c[3]Covil do Chefe\\c[0].",
+              "pt_BR": "Mas esses são apenas alguns. A ameaça real está mais à frente no \\c[3]Cabana da Anciã\\c[0].",
               "langUid": 43,
               "ko_KR": "\ud558\uc9c0\ub9cc \uc774\uac8c \ub2e4\uac00 \uc544\ub2c8\uc57c. \uc0ac\uc2e4 \uc81c\uc77c \uc704\ud5d8\ud55c \uac74 \uc800 \ub108\uba38 \\c[3]\ucd0c\uc7a5\uc758 \uc18c\uad74\\c[0]\uc5d0 \uc788\uc5b4.<<A<<[CHANGED 2017/11/16]",
               "ja_JP": "\u3067\u3082\u3001\u3053\u308c\u3082\u4e00\u90e8\u3067\u3057\u304b\u3042\u308a\u307e\u305b\u3093\u3002\n\u771f\u306e\u8105\u5a01\u306f\u3055\u3089\u306b\u5148\u3001\n\\c[3]\u65cf\u9577\u306e\u96a0\u308c\u5bb6\\c[0]\u306b\u3042\u308a\u307e\u3059\u3002<<A<<[CHANGED 2017/11/27]",
@@ -10856,7 +10856,7 @@
           {
             "message": {
               "en_US": "However, there is no way the other Shad will let you through.",
-              "pt_BR": "No entanto, não há como o outro Shad deixar você passar.",
+              "pt_BR": "No entanto, não tem como aquele Shad deixar você passar.",
               "langUid": 44,
               "ko_KR": "\uadf8\ub807\uc9c0\ub9cc \ub2e4\ub978 \uc0e4\ub4dc\uac00 \ub110 \uc9c0\ub098\uac00\uac8c \uadf8\ub0e5 \ub450\uc9c0\ub294 \uc54a\uc744 \uac70\ub780 \ub9d0\uc774\uc9c0.<<A<<[CHANGED 2017/11/16]",
               "ja_JP": "\u3057\u304b\u3057\u3001\u898b\u5f35\u308a\u306e\u30b7\u30e3\u30c3\u30c9\u304c\n\u305d\u3053\u3078\u7d9a\u304f\u9053\u3092\u3055\u3048\u304e\u3063\u3066\u3044\u307e\u3059\u3002<<A<<[CHANGED 2017/11/27]",
@@ -10889,7 +10889,7 @@
           {
             "message": {
               "en_US": "The villagers are dead set on shutting down the power plant. They will deny any other kind of outside help.",
-              "pt_BR": "Os habitantes da vila estão prontos para desligar a usina. Eles negarão qualquer outro tipo de ajuda externa.",
+              "pt_BR": "Os habitantes da aldeia estão prontos para desligar a usina. Eles negarão qualquer outro tipo de ajuda externa.",
               "langUid": 46,
               "ko_KR": "\ub9c8\uc744 \uc0ac\ub78c\ub4e4\uc740 \ubb34\uc870\uac74 \ubc1c\uc804\uc18c\uc5d0 \uc804\ub825\uc744 \ucc28\ub2e8\ud558\uae30\ub97c \uc6d0\ud574. \uadf8 \uc5b4\ub5a4 \uc678\ubd80\uc758 \ub3c4\uc6c0\ub3c4 \ubc1b\uc9c0 \uc54a\uc744 \uac70\uc57c.<<A<<[CHANGED 2017/11/16]",
               "ja_JP": "\u6751\u4eba\u305f\u3061\u306f\u65ad\u56fa\u3068\u3057\u3066\u30d1\u30ef\u30fc\u30d7\u30e9\u30f3\u30c8\u3092\n\u9589\u9396\u3057\u3088\u3046\u3068\u3057\u3066\u3044\u307e\u3059\u3002\u5f7c\u3089\u306f\n\u5916\u90e8\u304b\u3089\u306e\u3042\u3089\u3086\u308b\u52a9\u3051\u3092\u62d2\u3080\u3067\u3057\u3087\u3046\u3002<<A<<[CHANGED 2017/11/27]",
@@ -11111,7 +11111,7 @@
           {
             "message": {
               "en_US": "All we need to do is get it. That's where you come in.",
-              "pt_BR": "Tudo o que precisamos fazer é obtê-lo. É aí que você entra.",
+              "pt_BR": "Tudo o que precisamos fazer é entrar lá e pegar. É aí que você entra.",
               "langUid": 56,
               "ko_KR": "\uadf8\uac78 \uac00\uc838\uc640\uc57c \ud574. \uc774\uacf3\uc73c\ub85c \ub4e4\uc5b4\uac00\uba74 \ub3fc.<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u79c1\u305f\u3061\u306b\u306f\u9375\u304c\u5fc5\u8981\u3067\u3059\u3002\n\u3042\u305d\u3053\u306b\u884c\u3063\u3066\u53d6\u3063\u3066\u304d\u3066\u304f\u3060\u3055\u3044\u3002<<A<<[CHANGED 2018/09/19]",
@@ -11336,7 +11336,7 @@
           {
             "message": {
               "en_US": "Okay, let's open these ropes so you can jump down from here.",
-              "pt_BR": "Ok, vamos abrir estas cordas para que você possa pular daqui para baixo.",
+              "pt_BR": "Ok, vamos cortar essas cordas para que você  pule daqui para baixo.",
               "langUid": 66,
               "ko_KR": "\uc790, \uc774\uc81c \uc544\ub798\ub85c \ub0b4\ub824\uac08 \uc218 \uc788\uac8c \ubb38\uc744 \uc5f4\uc5b4\uc904\uac8c.<<A<<[CHANGED 2017/11/16]",
               "ja_JP": "\u3067\u306f\u3001\u3042\u306a\u305f\u305f\u3061\u304c\u4e0b\u306b\n\u964d\u308a\u3089\u308c\u308b\u3088\u3046\u306b\n\u7e04\u3092\u5207\u308a\u307e\u3059\u306d\u3002<<A<<[CHANGED 2017/11/27]",
@@ -11638,7 +11638,7 @@
           {
             "message": {
               "en_US": "Aww.\\. They're so cute, though.",
-              "pt_BR": "Aww.\\. Eles são tão bonitinhos, apesar de tudo.",
+              "pt_BR": "Aww.\\. Mas eles são tão bonitinhos.",
               "langUid": 96,
               "zh_CN": "\u5509\u3002\\.\u53ef\u662f\u5b83\u4eec\u771f\u7684\u5f88\u53ef\u7231\u554a\uff01<<A<<[CHANGED 2018/09/19]",
               "ko_KR": "\uc800\ub7f0.\\. \ud558\uc9c0\ub9cc \uc800\ub807\uac8c \uadc0\uc5ec\uc6b4\uac78.<<A<<[CHANGED 2018/09/19]",
@@ -12254,7 +12254,7 @@
           {
             "message": {
               "en_US": "Just look, \\v[lore.title.seeker].\\. Even directly next to a village of the unsuspecting Shad those creatures run rampant.",
-              "pt_BR": "Veja, \\v[lore.title.seeker]. Mesmo fora da vila dos inofensivos Shads, essas criaturas correm desenfreadamente.",
+              "pt_BR": "Veja, \\v[lore.title.seeker]. Mesmo fora da aldeia dos inofensivos Shads, essas criaturas correm desenfreadamente.",
               "de_DE": "Sieh doch, Seeker.\\. Selbst vor dem Dorf der ahnungslosen Shad laufen diese Kreaturen Amok.",
               "zh_CN": "\u81ea\u5df1\u770b\u5427\uff0c\\v[lore.title.seeker]\u3002\\.\u90a3\u4e9b\u751f\u7269\u5c31\u5728\u4e00\u5ea7\u6beb\u65e0\u9632\u5907\u7684\u6c99\u5fb7\u6751\u843d\u9644\u8fd1\u6a2a\u884c\u9738\u9053\u3002<<A<<[CHANGED 2019/07/31]",
               "ja_JP": "\u898b\u3066\u3061\u3087\u3046\u3060\u3044\u3001\\v[lore.title.seeker]\u3055\u3093\u3002\\.\n\u3053\u3093\u306a\u602a\u7269\u305f\u3061\u304c\u3001\u7121\u8b66\u6212\u306a\n\u30b7\u30e3\u30c3\u30c9\u306e\u6751\u306e\u3059\u3050\u8fd1\u304f\u307e\u3067\n\u3084\u3063\u3066\u6765\u3066\u3001\u6211\u304c\u7269\u9854\u3067\u8d70\u308a\u56de\u3063\u3066\u308b\u3002<<A<<[CHANGED 2019/07/31]",

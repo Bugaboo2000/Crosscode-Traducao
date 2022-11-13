@@ -2265,7 +2265,7 @@
         "map": "shock-dng.f3.room-boss",
         "teleportLabel": {
           "en_US": "\\i[arrow-s] Down",
-          "pt_BR": "\\i[arrow-s] Descida",
+          "pt_BR": "\\i[arrow-s] Descer",
           "de_DE": "\\i[arrow-s] Runter",
           "zh_CN": "\\i[arrow-s]\u4e0b<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\\i[arrow-s] \u4e0b<<A<<[CHANGED 2018/03/14]",
@@ -3766,7 +3766,7 @@
             {
               "text": {
                 "en_US": "As he sent out the envelope, \\c[3]Di'aro\\c[0] was ever-so-careful, only giving it the slightest nudge. After all, he didn't want his creation, the earth and mountains, to be damaged when the message arrived.",
-                "pt_BR": "Enquanto ele enviava o envelope, \\c[3]Di'aro\\c[0] foi sempre tão cuidadoso, dando-lhe apenas o menor empurrão. Afinal de contas, ele não queria que sua criação, a terra e as montanhas, fosse danificada quando a mensagem chegasse.",
+                "pt_BR": "Enquanto ele enviava o envelope, \\c[3]Di'aro\\c[0] de forma cuidadosa, deu-lhe um leve empurrão. Afinal de contas, ele não queria que sua criação, a terra e as montanhas, fosse danificada quando a mensagem chegasse.",
                 "de_DE": "\\c[3]Di'aro\\c[0] brachte den Umschlag auf seinen Weg, indem er ihn - vorsichtig, wie er war - so sanft er nur konnte anstie\u00df. Nach allem, was er geschaffen hatte, wollte er nicht, dass beim Auftreffen der Botschaft etwas zu Schaden kam.",
                 "zh_CN": "\\c[3]\u8fea\u4e9a\u7f57\\c[0]\u8f7b\u8f7b\u4e00\u63a8\uff0c\u5c0f\u5fc3\u7ffc\u7ffc\u5730\u9001\u51fa\u4fe1\u4ef6\u3002\u4ed6\u4e0d\u5e0c\u671b\u81ea\u5df1\u521b\u9020\u7684\u5927\u5730\u7fa4\u5c71\u88ab\u4fe1\u4ef6\u6240\u4f24\u3002<<A<<[CHANGED 2018/09/19]",
                 "ja_JP": "\u5305\u307f\u3092\u9001\u308b\u306b\u3042\u305f\u3063\u3066\u3001\\c[3]\u30c7\u30a3\u30fb\u30a2\u30ed\u30fc\\c[0]\u306f\n\u3068\u3066\u3082\u614e\u91cd\u306b\u3001\u307b\u3093\u306e\u308f\u305a\u304b\u3060\u3051\u306e\u529b\u3067\n\u9001\u308a\u51fa\u3057\u305f\u3002\u306a\u3093\u3068\u3044\u3063\u3066\u3082\u3001\u5f7c\u306f\u5927\u5730\u3084\n\u5c71\u3005\u3068\u3044\u3063\u305f\u81ea\u3089\u306e\u5275\u9020\u7269\u304c\u3001\u4f1d\u8a00\u304c\n\u5c4a\u3044\u305f\u305b\u3044\u3067\u50b7\u3064\u304f\u3053\u3068\u306e\u306a\u3044\u3088\u3046\u306b\n\u3057\u305f\u304b\u3063\u305f\u306e\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3891,7 +3891,7 @@
             {
               "text": {
                 "en_US": "It all started when \\c[3]Di'orbis\\c[0], the ethereal god of creation, was born into the emptiness of the void.",
-                "pt_BR": "Tudo começou quando \\c[3]Di'orbis\\c[0], o deus etéreo da criação, nasceu no vazio do vazio.",
+                "pt_BR": "Tudo começou quando \\c[3]Di'orbis\\c[0], o deus etéreo da criação, nasceu no vazio do nada.",
                 "de_DE": "Alles begann, als \\c[3]Di'orbis\\c[0], der \u00e4therische Gott der Sch\u00f6pfung, in die Leere des Nichts hineingeboren wurde.",
                 "zh_CN": "\u4e00\u5207\u59cb\u4e8e\\c[3]\u8fea\u5965\u6bd4\u65af\\c[0]\uff0c\u865a\u7a7a\u4e2d\u8bde\u751f\u7684\u521b\u9020\u5929\u795e\u3002<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u5168\u3066\u306f\u5168\u77e5\u5168\u80fd\u306e\u5275\u751f\u795e\u3001\n\\c[3]\u30c7\u30a3\u30fb\u30aa\u30eb\u30d3\u30b9\\c[0]\u304c\u4f55\u3082\u306a\u3044\u865a\u7a7a\u306b\n\u751f\u307e\u308c\u843d\u3061\u305f\u6642\u306b\u59cb\u307e\u3063\u305f\u3002<<A<<[CHANGED 2018/07/09]",
@@ -4723,7 +4723,7 @@
             "entity": { "global": true, "name": "pentaComforting" },
             "text": {
               "en_US": "Come on... this wasn't exactly \"falling\", right?\\. More like...\\. floating!",
-              "pt_BR": "Qual é... isto não foi exatamente uma \"queda\", certo? Era mais como...\\. flutuar!",
+              "pt_BR": "Qual é... isso não é exatamente uma \"queda\", certo? Era como...\\. flutuar!",
               "langUid": 918,
               "de_DE": "Jetzt komm schon\u2026 \"Fallen\" war das jetzt auch nicht.\\. Eher...\\. Schweben!",
               "ja_JP": "\u307e\u3042\u307e\u3042...\u3053\u308c\u306f\u300c\u843d\u3061\u3066\u308b\u300d\u3093\u3058\u3083\n\u306a\u3044\u3067\u3057\u3087\uff1f\\.\u3068\u3044\u3046\u3088\u308a...\\.\n\u6d6e\u3044\u3066\u308b\u3093\u3060\u3088\uff01<<A<<[CHANGED 2018/09/19]",
@@ -5106,7 +5106,7 @@
             "entity": { "global": true, "name": "current" },
             "text": {
               "en_US": "Hot damn, that current up there! Those Ancients sure know how to be flashy.",
-              "pt_BR": "Caramba, olha aquela corrente lá em cima! Aqueles Antigos com certeza sabem como ser chamativo.",
+              "pt_BR": "Caramba, olha aquela corrente ali em cima! Aqueles Antigos com certeza sabem como ser estilosos.",
               "langUid": 924,
               "de_DE": "Alter Falter, ist das eine Spannung da oben, ey! Die Ahnen wussten schon, wie man's knistern l\u00e4sst.",
               "ja_JP": "\u3042\u306e\u96fb\u6d41\u3001\u8d85\u3059\u3054\u3044\u306a\uff01\n\u53e4\u4ee3\u4eba\u306f\u3069\u3046\u3084\u3063\u305f\u3089\n\u6d3e\u624b\u306b\u3067\u304d\u308b\u304b\u308f\u304b\u3063\u3066\u305f\u3093\u3060\u306a\u3002<<A<<[CHANGED 2018/08/28]",
@@ -5227,7 +5227,7 @@
             "entity": { "global": true, "name": "jungle1" },
             "text": {
               "en_US": "Wow... Trees as far as the eye can see. Gaia's Garden really is huge.",
-              "pt_BR": "Uau... Árvores até onde a vista alcança. O Jardim de Gaia é realmente enorme.",
+              "pt_BR": "Uau... Árvores pra todo lado. O Jardim de Gaia é realmente enorme.",
               "langUid": 931,
               "de_DE": "Wow... B\u00e4ume, so weit das Auge reicht. Das Gebiet ist ja riesig!",
               "ja_JP": "\u308f\u3042...\u898b\u6e21\u3059\u9650\u308a\u6728\u3005\u304c\u3057\u3052\u3063\u3066\u308b\u306d\u3002\n\u30ac\u30a4\u30a2\u306e\u5712\u306f\u672c\u5f53\u306b\u5927\u304d\u3044\u3084\u3002<<A<<[CHANGED 2018/08/28]",

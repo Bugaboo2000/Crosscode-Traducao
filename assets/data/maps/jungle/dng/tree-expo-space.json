@@ -964,6 +964,7 @@
               {
                 "message": {
                   "en_US": "Spheromancer Lea!\\. You finally arrived!",
+                  "pt_BR": "Esferomante Lea!\\. Você finalmente chegou!",
                   "de_DE": "Spheromancer Lea!\\. Endlich triffst du ein!",
                   "zh_CN": "\u6c14\u5706\u4f7f\u8005\u8389\u4e9a\uff01\\.\u4f60\u7ec8\u4e8e\u5230\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u30b9\u30d5\u30a3\u30ed\u30de\u30f3\u30b5\u30fc\u306e\u30ec\u30a2\uff01\\.\n\u3088\u3046\u3084\u304f\u5230\u7740\u3057\u305f\u3088\u3046\u3060\u306a\uff01<<A<<[CHANGED 2018/03/14]",
@@ -986,6 +987,7 @@
                   {
                     "message": {
                       "en_US": "As it turns out your \\c[1]ridiculous damage\\c[0] doesn't help you solve puzzles any faster!",
+                      "pt_BR": "Pelo que eu estou vendo, \\c[1]seu dano ridículo\\c[0] não ajudou a resolver enigmas mais rápido!",
                       "de_DE": "Offensichtlich hilft dir dein \\c[1]absurd hoher Schaden\\c[0] nicht dabei, R\u00e4tsel schneller zu l\u00f6sen!",
                       "zh_CN": "\u770b\u6765\u4e0d\u7ba1\u4f60\\c[1]\u4f24\u5bb3\u518d\u600e\u4e48\u9ad8\\c[0]\u5bf9\u89e3\u8c1c\u4e5f\u6ca1\u6709\u5e2e\u52a9\u5462\uff01<<A<<[CHANGED 2019/08/25]",
                       "ja_JP": "\u7d50\u5c40\u306e\u3068\u3053\u308d\u3001\u304a\u524d\u306e\n\\c[1]\u30d0\u30ab\u30d0\u30ab\u3057\u3044\u653b\u6483\u529b\\c[0]\u306f\u3001\u30d1\u30ba\u30eb\u3092\n\u901f\u304f\u89e3\u304f\u5f79\u306b\u306f\u7acb\u305f\u306a\u3044\u3088\u3046\u3060\u306a\uff01<<A<<[CHANGED 2019/08/25]",
@@ -1005,6 +1007,7 @@
                   {
                     "message": {
                       "en_US": "In the end, both Spheromancers came in first! Exactly how it was meant to be!",
+                      "pt_BR": "No final, ambos os Esferomantes chegaram em primeiro lugar! Exatamente como era para ser!",
                       "de_DE": "Damit sind beide Spheromancer die Ersten! Und genau so sollte es auch sein!",
                       "zh_CN": "\u6211\u5c31\u77e5\u9053\uff01\u6700\u540e\u8fd8\u662f\u4e24\u4e2a\u6c14\u5706\u4f7f\u8005\u6700\u5148\u901a\u8fc7\uff01<<A<<[CHANGED 2018/03/14]",
                       "ja_JP": "\u7d50\u5c40\u30012\u4eba\u306e\u30b9\u30d5\u30a3\u30ed\u30de\u30f3\u30b5\u30fc\u304c\n\u5148\u306b\u5230\u7740\u3057\u305f\u3088\u3046\u3060\u306a\uff01\n\u3082\u3061\u308d\u3093\u305d\u3046\u3067\u3042\u308b\u3079\u304d\u3060\uff01<<A<<[CHANGED 2018/03/14]",
@@ -1733,7 +1736,7 @@
                   {
                     "message": {
                       "en_US": "EXCUSE ME, DIDN'T YOU SEE HOW MUCH DAMAGE SHE DOES?!",
-                      "pt_BR": "COM LICENÇA, VOCÊ NÃO VIU QUANTO DANO ELA FAZ?!",
+                      "pt_BR": "ESPERA AÍ, VOCÊ NÃO VIU QUANTO DANO ELA FAZ?!",
                       "de_DE": "ENTSCHULDIGE MAL, HAST DU NICHT GESEHEN, WIE VIEL SCHADEN SIE MACHT?!",
                       "zh_CN": "\u96be\u9053\u4f60\u6ca1\u6709\u770b\u89c1\u5979\u7684\u4f24\u5bb3\u6709\u591a\u9ad8\u5417\uff1f\uff01<<A<<[CHANGED 2020/06/17]",
                       "ja_JP": "\u304a\u3044\u3001\u3053\u3044\u3064\u304c\u3069\u308c\u3060\u3051\u5927\u91cf\u306e\u30c0\u30e1\u30fc\u30b8\u3092\n\u4e0e\u3048\u305f\u304b\u898b\u3066\u306a\u304b\u3063\u305f\u306e\u304b\uff1f\uff01<<A<<[CHANGED 2020/06/17]",
@@ -2105,7 +2108,7 @@
           {
             "message": {
               "en_US": "Also...\\. suddenly space?",
-              "pt_BR": "E agora...\\. de repente espaço?",
+              "pt_BR": "E agora...\\. do nada estamos no espaço?",
               "de_DE": "Und jetzt...\\. pl\u00f6tzlich Weltraum?",
               "zh_CN": "\u8fd8\u6709...\\.\u600e\u4e48\u5230\u592a\u7a7a\u4e86\uff1f<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u305d\u308c\u306b...\\.\u7a81\u7136\n\u5b87\u5b99\u306b\u6765\u3061\u3083\u3063\u305f\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -2120,7 +2123,7 @@
           {
             "message": {
               "en_US": "Are we really that high up?",
-              "pt_BR": "Estamos realmente tão no alto?",
+              "pt_BR": "Estamos realmente num lugar tão alto assim?",
               "de_DE": "Sind wir wirklich so hoch?",
               "zh_CN": "\u8fd9\u513f\u6709\u8fd9\u4e48\u9ad8\uff1f<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u79c1\u305f\u3061\u3001\u305d\u3093\u306a\u306b\n\u9ad8\u304f\u767b\u3063\u3066\u304d\u305f\u306e\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -3268,7 +3271,7 @@
           {
             "message": {
               "en_US": "It is located to the \\c[3]east of Autumn's Fall\\c[0], remember?",
-              "pt_BR": "Está localizada ao \\c[3]leste do Pôr do Outono\\c[0], lembra-se?",
+              "pt_BR": "Está localizada ao \\c[3]leste do Pôr do Outono\\c[0], lembra?",
               "de_DE": "Er liegt \\c[3]\u00f6stlich von Autumn's Fall\\c[0], erinnerst du dich?",
               "zh_CN": "\u5b83\u5c31\u5728\\c[3]\u843d\u79cb\u6797\u5730\u7684\u4e1c\u8fb9\\c[0]\uff0c\u4f60\u8fd8\u8bb0\u5f97\u5417\uff1f<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u30b5\u30d5\u30a1\u30a4\u30a2\u5cf0\u306f\\c[3]\u30aa\u30fc\u30bf\u30e0\u30d5\u30a9\u30fc\u30eb\u306e\u6771\\c[0]\u306b\n\u3042\u308b\u3002\u899a\u3048\u3066\u308b\u304b\u3044\uff1f<<A<<[CHANGED 2018/07/09]",
@@ -5052,7 +5055,7 @@
           {
             "message": {
               "en_US": "Duels are now especially interesting.",
-              "pt_BR": "Os duelos são agora especialmente interessantes.",
+              "pt_BR": "Os duelos agora são especialmente interessantes.",
               "langUid": 731,
               "zh_CN": "\u4e4b\u540e\u7684\u51b3\u6597\u5c06\u4f1a\u6709\u610f\u601d\u5f88\u591a\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc9c0\uae08 \uacb0\ud22c\ub97c \ud558\uba74 \ucc38 \uc7ac\ubbf8\uc788\uaca0\uc5b4...<<A<<[CHANGED 2018/03/14]",
@@ -5232,7 +5235,7 @@
           {
             "message": {
               "en_US": "Anyway, didn't expect to say this, but it was pretty fun racing with you.",
-              "pt_BR": "Enfim, não esperava dizer isto, mas foi muito divertido correr com vocês.",
+              "pt_BR": "Enfim, não esperava dizer isso, mas foi muito divertido correr com você.",
               "langUid": 742,
               "zh_CN": "\u867d\u7136\u6211\u4e0d\u592a\u60f3\u627f\u8ba4\uff0c\u4f46\u662f\u8ddf\u4f60\u7684\u8fd9\u573a\u5730\u7262\u7ade\u901f\u7684\u786e\u5f88\u6709\u610f\u601d\u3002<<A<<[CHANGED 2021/05/22]",
               "ko_KR": "\uc544\ubb34\ud2bc, \uc774\ub7f0 \ub9d0 \ud558\uac8c \ub420 \uc904\uc740 \ubab0\ub790\uc9c0\ub9cc \ub108\uc640 \uc2dc\ud569\ud558\ub294 \uac70 \uaf64 \uc7ac\ubbf8\uc788\uc5c8\uc5b4.<<A<<[CHANGED 2018/09/19]",

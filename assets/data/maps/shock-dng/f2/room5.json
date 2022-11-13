@@ -17,7 +17,7 @@
         "map": "shock-dng.f1.room5",
         "teleportLabel": {
           "en_US": "\\i[arrow-s] Down",
-          "pt_BR": "\\i[arrow-s] Descida",
+          "pt_BR": "\\i[arrow-s] Descer",
           "de_DE": "\\i[arrow-s] Runter",
           "fr_FR": "fr_FR",
           "langUid": 1,
@@ -45,7 +45,7 @@
         "map": "shock-dng.f3.room-boss",
         "teleportLabel": {
           "en_US": "\\i[arrow-n] Up",
-          "pt_BR": "\\i[arrow-n] Subida",
+          "pt_BR": "\\i[arrow-n] Subir",
           "de_DE": "\\i[arrow-n] Hoch",
           "fr_FR": "fr_FR",
           "langUid": 2,

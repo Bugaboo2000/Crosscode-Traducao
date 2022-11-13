@@ -5191,7 +5191,7 @@
         "map": "wave-dng.b1.boss",
         "teleportLabel": {
           "en_US": "\\i[arrow-s] Down",
-          "pt_BR": "\\i[arrow-s] Descida",
+          "pt_BR": "\\i[arrow-s] Descer",
           "de_DE": "\\i[arrow-s] Runter",
           "zh_CN": "\\i[arrow-s]\u4e0b<<A<<[CHANGED 2018/03/14]",
           "ja_JP": "\\i[arrow-s] \u4e0b<<A<<[CHANGED 2018/03/14]",
@@ -5752,7 +5752,7 @@
               {
                 "message": {
                   "en_US": "Aww, just second?\\. I thought I was rather quick this time.",
-                  "pt_BR": "Aww, apenas segundo?\\. Pensei que desta vez eu fui bastante rápido.",
+                  "pt_BR": "Aww, apenas segundo?\\. Achei que dessa vez eu fui bastante rápido.",
                   "langUid": 78,
                   "zh_CN": "\u554a\uff0c\u7b2c\u4e8c\u540d\uff1f\\. \u6211\u8fd8\u4ee5\u4e3a\u8fd9\u6b21\u6211\u8fd8\u633a\u5feb\u3002<<A<<[CHANGED 2018/03/14]",
                   "ko_KR": "\uc73c\uc544, \uc774\ub7f4\uc218\uac00.\\. \uc774\ubc88\uc5d0\ub294 \ube60\ub978 \uc904 \uc54c\uc558\ub294\ub370.<<A<<[CHANGED 2018/03/14]",
@@ -7074,7 +7074,7 @@
             {
               "text": {
                 "en_US": "After pondering for eons in solitude, his desire for company gave birth to the \\c[3]Gods of Shape\\c[0].",
-                "pt_BR": "Depois de refletir por eons em solidão, seu desejo de companhia deu origem aos \\c[3]Deuses da Forma\\c[0].",
+                "pt_BR": "Depois de refletir por eras em solidão, seu desejo de companhia deu origem aos \\c[3]Deuses da Forma\\c[0].",
                 "de_DE": "Nach \u00c4onen der Kontemplation in Einsamkeit brachte sein Wunsch nach Gesellschaft die \\c[3]G\u00f6tter der Formen\\c[0] hervor.",
                 "zh_CN": "\u5728\u65e0\u5c3d\u7684\u5b64\u72ec\u4e4b\u540e\uff0c\u4ed6\u5e0c\u671b\u80fd\u6709\u4eba\u966a\u4f34\uff0c\u4e8e\u662f\u521b\u9020\u4e86\\c[3]\u5f62\u72b6\u8bf8\u795e\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
                 "ja_JP": "\u6c38\u52ab\u306b\u3082\u601d\u3048\u308b\u5b64\u72ec\u306a\u719f\u8003\u306e\u672b\u3001\n\u5f7c\u306f\u4ef2\u9593\u3092\u6b32\u3057\u3001\n\\c[3]\u5f62\u3092\u53f8\u308b\u795e\u3005\\c[0]\u3092\u751f\u307f\u51fa\u3057\u305f\u3002<<A<<[CHANGED 2018/07/09]",
@@ -7776,7 +7776,7 @@
             "entity": { "global": true, "name": "hexaShocked" },
             "text": {
               "en_US": "In fact, I think this was my favorite dungeon so far!",
-              "pt_BR": "Na verdade, acho que esta é minha masmorra favorita até agora!",
+              "pt_BR": "Na verdade, acho que essa é minha masmorra favorita até agora!",
               "langUid": 916,
               "de_DE": "Das war bis jetzt mein Lieblingsdungeon!<<A<<[CHANGED 2021/05/22]",
               "ja_JP": "\u5b9f\u969b\u3001\u73fe\u6642\u70b9\u3067\u3053\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u304c\n\u4e00\u756a\u597d\u304d\u3060\u306a\uff01<<A<<[CHANGED 2021/05/22]",
@@ -7815,7 +7815,7 @@
             "entity": { "global": true, "name": "hexaShocked" },
             "text": {
               "en_US": "With the exception of those teleporters that send you straight through the ground.",
-              "pt_BR": "Com exceção daqueles teletransportadores que o mandam diretamente pelo chão.",
+              "pt_BR": "Com exceção daqueles teletransportadores que mandam a gente diretamente pelo chão.",
               "langUid": 919,
               "de_DE": "Mit der Ausnahme der Teleporter...",
               "ja_JP": "\u79c1\u305f\u3061\u3092\u5730\u9762\u304b\u3089\u4e00\u76f4\u7dda\u306b\n\u4e0a\u3078\u904b\u3076\u30c6\u30ec\u30dd\u30fc\u30bf\u30fc\u3092\u9664\u3051\u3070\u306d\u3002<<A<<[CHANGED 2018/08/28]",
@@ -8282,7 +8282,7 @@
             "entity": { "global": true, "name": "runnerWatch2" },
             "text": {
               "en_US": "... How often did they do the race already?",
-              "pt_BR": "... Com que freqüência eles já fizeram a corrida?",
+              "pt_BR": "... Quantas vezes eles correram?",
               "langUid": 921,
               "de_DE": "... Das wievielte Rennen ist das jetzt?",
               "ja_JP": "...\u3042\u3044\u3064\u3089\u3001\u3044\u3063\u305f\u3044\n\u4f55\u56de\u7af6\u8d70\u3057\u3066\u305f\u3063\u3051\uff1f<<A<<[CHANGED 2018/08/28]",
@@ -8295,7 +8295,7 @@
             "entity": { "global": true, "name": "runnerWatch1" },
             "text": {
               "en_US": "I honestly lost count.",
-              "pt_BR": "Honestamente, eu perdi a conta.",
+              "pt_BR": "Pra falar a verdade, eu perdi a conta.",
               "langUid": 922,
               "de_DE": "Ich hab aufgeh\u00f6rt zu z\u00e4hlen.",
               "ja_JP": "\u6b63\u76f4\u3001\u3082\u3046\u4f55\u56de\u76ee\u304b\n\u5fd8\u308c\u3061\u3083\u3063\u305f\u3002<<A<<[CHANGED 2018/08/28]",
@@ -8393,7 +8393,7 @@
             "entity": { "global": true, "name": "water2" },
             "text": {
               "en_US": "Can we leave already? The rain is getting on my nerves.",
-              "pt_BR": "Já podemos ir embora? A chuva está me aborrecendo.",
+              "pt_BR": "Podemos ir embora logo? A chuva está me irritando.",
               "langUid": 924,
               "de_DE": "K\u00f6nnen wir endlich weiter? Der Regen nervt mich so langsam.",
               "ja_JP": "\u3082\u3046\u884c\u304b\u306a\u3044\u304b\uff1f\u3053\u306e\u96e8\u3001\n\u306a\u3093\u3060\u304b\u30a4\u30e9\u30a4\u30e9\u3059\u308b\u3088\u3002<<A<<[CHANGED 2018/08/28]",
@@ -8419,7 +8419,7 @@
             "entity": { "global": true, "name": "water2" },
             "text": {
               "en_US": "If you want to watch more sea creatures you can just head straight back into this temple!",
-              "pt_BR": "Se você quiser observar mais criaturas marinhas, você pode simplesmente voltar diretamente para este templo!",
+              "pt_BR": "Se você quiser observar mais criaturas marinhas, volta pro templo então!",
               "langUid": 926,
               "de_DE": "Wenn du unbedingt Seemonster sehen willst, brauchst du nur zur\u00fcck in den Tempel gehen...",
               "ja_JP": "\u6d77\u306e\u751f\u304d\u7269\u304c\u898b\u305f\u3044\u3093\u3060\u3063\u305f\u3089\u3001\n\u3053\u306e\u795e\u6bbf\u306e\u4e2d\u306b\u5f15\u304d\u8fd4\u305b\u3070\u3044\u3044\u3060\u308d\uff01<<A<<[CHANGED 2018/08/28]",
