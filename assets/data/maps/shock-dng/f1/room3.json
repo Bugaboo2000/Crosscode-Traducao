@@ -17,7 +17,7 @@
         "map": "shock-dng.g.room3",
         "teleportLabel": {
           "en_US": "\\i[arrow-s] Down",
-          "pt_BR": "\\i[arrow-s] Descida",
+          "pt_BR": "\\i[arrow-s] Descer",
           "de_DE": "\\i[arrow-s] Runter",
           "fr_FR": "fr_FR",
           "langUid": 1,
@@ -100,7 +100,7 @@
         "map": "shock-dng.f2.room3",
         "teleportLabel": {
           "en_US": "\\i[arrow-n] Up",
-          "pt_BR": "\\i[arrow-n] Subida",
+          "pt_BR": "\\i[arrow-n] Subir",
           "de_DE": "\\i[arrow-n] Hoch",
           "fr_FR": "fr_FR",
           "langUid": 2,
@@ -1708,7 +1708,7 @@
           {
             "message": {
               "en_US": "Ugh... those \\c[3]large Wave balls\\c[0]...\\. how do they even work?\\. They make my brain hurt.",
-              "pt_BR": "Ugh... essas \\c[3]grandes bolas de Onda\\c[0]...\\. como elas funcionam? Elas fazem meu cérebro bugar.",
+              "pt_BR": "Aff... essas \\c[3]bolas grandes de Onda\\c[0]...\\. como elas funcionam? Elas fazem meu cérebro bugar.",
               "de_DE": "Uff... Diese \\c[3]gro\u00dfen Wirbelb\u00e4lle\\c[0]...\\. Wie funktionieren die \u00fcberhaupt?\\. Die machen mir Kopfschmerzen.",
               "zh_CN": "\u5443...\u90a3\u4e9b\\c[3]\u5927\u578b\u6ce2\u52a8\u7403\\c[0]...\\.\u5230\u5e95\u662f\u600e\u4e48\u56de\u4e8b\uff1f\\.\u771f\u662f\u5934\u75bc\u3002<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u3046\u30fc\u3093...\u3042\u306e\\c[3]\u5927\u304d\u306a\u6ce2\u52d5\u306e\u30dc\u30fc\u30eb\\c[0]...\\.\n\u3042\u308c\u3063\u3066\u3069\u3046\u3044\u3046\u4ed5\u7d44\u307f\u306a\u306e\uff1f\\.\n\u982d\u75db\u304f\u306a\u3063\u3066\u304d\u305f\u3002<<A<<[CHANGED 2018/03/14]",
