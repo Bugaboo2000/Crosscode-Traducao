@@ -3055,7 +3055,7 @@
           {
             "message": {
               "en_US": "In that case,\\. what's your \\c[3]favorite\\c[0]?\\.\nA:\\. Lettuce,\\. B:\\. Tomatoes,\\.\nC:\\. Bananas,\\. D:\\. Eggplants?",
-              "pt_BR": "Neste cado,\\. qual a sua \\c[3]favorita?\\c[0]?\\.nA:\\. Alface,\\. B:\\. Tomate,\\.\nC:\\. Banana,\\. D:\\. Berinjela?",
+              "pt_BR": "Neste caso,\\. qual a sua \\c[3]favorita?\\c[0]?\\.\nA:\\. Alface,\\. B:\\. Tomate,\\.\nC:\\. Banana,\\. D:\\. Berinjela?",
               "langUid": 108,
               "de_DE": "Gut,\\. was davon magst du \\c[3]am liebsten\\c[0]?\\.\nA:\\. Salate,\\. B:\\. Tomaten,\\.\nC:\\. Bananen,\\. D:\\. Auberginen?",
               "ja_JP": "\u305d\u308c\u3058\u3083\u3001\\.\u541b\u306e\\c[3]\u597d\u304d\u306a\u98df\u3079\u7269\\c[0]\u306f\uff1f\\.\nA\uff1a\\.\u30ec\u30bf\u30b9\u3001\\. B\uff1a\\.\u30c8\u30de\u30c8\u3001\\.\nC\uff1a\\.\u30d0\u30ca\u30ca\u3001\\. D\uff1a\\.\u30ca\u30b9\u306e\u3046\u3061\u3069\u308c\u304b\u306a\uff1f<<A<<[CHANGED 2018/08/28]",
@@ -3280,7 +3280,7 @@
           {
             "message": {
               "en_US": "Good. \"\\c[3]\\v[tmp.food]\\c[0]\" you say. Please remember this for a moment.\n",
-              "pt_BR": "Bom. você disse \"\\c[3]\\v[tmp.food]\\c[0]\". Por favor lembre-se disso por enquanto.\\n",
+              "pt_BR": "Bom. você disse \"\\c[3]\\v[tmp.food]\\c[0]\". Por favor lembre-se disso por enquanto.\n",
               "langUid": 120,
               "de_DE": "Gut. \"\\c[3]\\v[tmp.food]\\c[0]\" sagst du. Behalte das bitte f\u00fcr einen Augenblick.\n",
               "ja_JP": "\u3088\u3057\u3002\u300c\\c[3]\\v[tmp.food]\\c[0]\u300d\u3060\u306d\u3002\n\u3061\u3087\u3063\u3068\u899a\u3048\u3066\u304a\u3044\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/08/28]",
@@ -4028,7 +4028,7 @@
           {
             "message": {
               "en_US": "He gave me a small program to send you a \\c[3]prerecorded message\\c[0].",
-              "pt_BR": "Ele me deu um pequeno programa para enviar a você uma \\c[3]mensagem pré-gravada\\c[0].",
+              "pt_BR": "Ele me deu um pequeno programa para enviar a você, uma \\c[3]mensagem pré-gravada\\c[0].",
               "langUid": 164,
               "de_DE": "Er gab mir ein kleines Programm, womit ich dir eine \\c[3]aufgezeichnete Nachricht\\c[0] schicken kann.",
               "ja_JP": "\u5f7c\u306f\u541b\u306b\\c[3]\u4e8b\u524d\u306b\u9332\u97f3\u3055\u308c\u305f\u30e1\u30c3\u30bb\u30fc\u30b8\\c[0]\u3092\n\u9001\u308b\u3061\u3087\u3063\u3068\u3057\u305f\n\u30d7\u30ed\u30b0\u30e9\u30e0\u3092\u7528\u610f\u3057\u3066\u304f\u308c\u305f\u3002<<A<<[CHANGED 2018/08/28]",

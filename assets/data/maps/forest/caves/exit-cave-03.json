@@ -1285,7 +1285,7 @@
                   {
                     "message": {
                       "en_US": "You've grown into a prime example of a Spheromancer!",
-                      "pt_BR": "Você se tornou um excelente exemplo de um Esferomante!",
+                      "pt_BR": "Você se tornou um excelente exemplo de uma Esferomante!",
                       "langUid": 36,
                       "zh_CN": "\u4f60\u73b0\u5728\u5df2\u7ecf\u6210\u4e3a\u4e86\u6c14\u5706\u4f7f\u8005\u4eec\u7684\u699c\u6837\uff01<<A<<[CHANGED 2018/07/09]",
                       "ja_JP": "\u304a\u524d\u306f\u30b9\u30d5\u30a3\u30ed\u30de\u30f3\u30b5\u30fc\u306e\n\u898b\u4e8b\u306a\u624b\u672c\u3068\u3057\u3066\u6210\u9577\u3057\u305f\uff01<<A<<[CHANGED 2018/07/09]",
@@ -1596,7 +1596,7 @@
               {
                 "message": {
                   "en_US": "It probably didn't help that Polly kept bothering you on top of that.",
-                  "pt_BR": "E você ainda teve que aguentar as chatices do Polly",
+                  "pt_BR": "E você ainda teve que aguentar as chatices do Polly.",
                   "langUid": 7,
                   "zh_CN": "\u800c\u4e14\u963f\u6ce2\u8fd8\u4e00\u76f4\u6765\u70e6\u4f60\u3002<<A<<[CHANGED 2018/07/09]",
                   "ja_JP": "\u30dd\u30ea\u30fc\u304c\u3061\u3087\u3063\u304b\u3044\u3092\u51fa\u3057\u7d9a\u3051\u305f\u306e\u3082\u3001\n\u305f\u3076\u3093\u305f\u3060\u306e\u8ff7\u60d1\u306b\u3057\u304b\n\u306a\u3089\u306a\u304b\u3063\u305f\u3060\u308d\u3046\u306a\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1665,7 +1665,7 @@
               {
                 "message": {
                   "en_US": "Yet here you are, still happily saying \"Hi\" to everyone.",
-                  "pt_BR": "Ainda assim, você está aqui, dizendo alegremente \"Oi\" a todos .",
+                  "pt_BR": "Ainda assim, você está aqui, dizendo alegremente \"Oi\" a todos.",
                   "langUid": 11,
                   "zh_CN": "\u4f46\u4f60\u8fd8\u662f\u8fd9\u4e48\u9633\u5149\uff0c\u8fd9\u4e48\u53cb\u597d\u5730\u8ddf\u5927\u5bb6\u8bf4\u201c\u4f60\u597d\u201d\u3002<<A<<[CHANGED 2018/07/09]",
                   "ja_JP": "\u305d\u308c\u3067\u3082\u541b\u306f\u3001\u697d\u3057\u305d\u3046\u306b\n\u307f\u3093\u306a\u306b\u300c\u3084\u3041\u300d\u3063\u3066\u8a00\u3063\u3066\u56de\u3063\u3066\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2489,7 +2489,7 @@
           {
             "message": {
               "en_US": "Our goal is to assemble as many \\c[3]Evotars\\c[0] as we can find, get them close to the \\c[3]Quest Hub\\c[0] to the east and then subject them to a certain \\c[3]field effect\\c[0].",
-              "pt_BR": "Nosso objetivo é reunir o maior número possível de \\c[3]Evotars\\c[0] que pudermos encontrar, aproximá-los da \\c[3]Central de Missões\\c[0] no leste e depois submetê-los a um certo \\c[3]efeito de campo\\c[0].",
+              "pt_BR": "Nosso objetivo é reunir o maior número possível de \\c[3]Evotares\\c[0] que pudermos encontrar, aproximá-los da \\c[3]Central de Missões\\c[0] no leste e depois submetê-los a um certo \\c[3]efeito de campo\\c[0].",
               "langUid": 1429,
               "zh_CN": "\u6211\u4eec\u7684\u76ee\u6807\u662f\u5c3d\u53ef\u80fd\u7684\u627e\u5230\\c[3]\u8fdb\u5316\u8005\\c[0]\uff0c\u8ba9\u4ed6\u4eec\u524d\u5f80\u4e1c\u8fb9\u7684\\c[3]\u4efb\u52a1\u4e2d\u5fc3\\c[0]\uff0c\u7136\u540e\u7ed9\u4ed6\u4eec\u4e00\u4e2a\u7279\u6b8a\u7684\\c[3]\u533a\u57df\u6548\u679c\\c[0]<<A<<[CHANGED 2018/09/19]",
               "ja_JP": "\u50d5\u305f\u3061\u306e\u76ee\u6a19\u306f\u3001\u898b\u3064\u3051\u3089\u308c\u308b\u9650\u308a\u306e\n\\c[3]\u30a8\u30f4\u30a9\u30bf\u30fc\\c[0]\u3092\u96c6\u3081\u3066\n\u6771\u306e\\c[3]\u30af\u30a8\u30b9\u30c8\u30cf\u30d6\\c[0]\u3078\u9023\u308c\u3066\u3044\u304d\u3001\n\u5f7c\u3089\u306b\\c[3]\u30d5\u30a3\u30fc\u30eb\u30c9\u52b9\u679c\\c[0]\u3092\u304b\u3051\u308b\u3053\u3068\u3060\u3002<<A<<[CHANGED 2018/09/19]",
@@ -2519,7 +2519,7 @@
           {
             "message": {
               "en_US": "\\c[3]Team A\\c[0] will run straight to the Quest Hub and deal with all Evotars of that area.",
-              "pt_BR": "\\c[3]A Equipe A\\c[0] correrá diretamente para a Central de Missões e lidará com todos os Evotars daquela área.",
+              "pt_BR": "\\c[3]A Equipe A\\c[0] correrá diretamente para a Central de Missões e lidará com todos os Evotares daquela área.",
               "langUid": 1431,
               "zh_CN": "\\c[3]A\u5c0f\u961f\\c[0]\u76f4\u63a5\u524d\u5f80\u4efb\u52a1\u4e2d\u5fc3\u5904\u7406\u90a3\u4e2a\u533a\u57df\u7684\u8fdb\u5316\u8005\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]A\u30c1\u30fc\u30e0\\c[0]\u306f\u307e\u3063\u3059\u3050\u30af\u30a8\u30b9\u30c8\u30cf\u30d6\u3078\n\u5411\u304b\u3063\u3066\u3001\u305d\u306e\u30a8\u30ea\u30a2\u306b\u3044\u308b\u3059\u3079\u3066\u306e\n\u30a8\u30f4\u30a9\u30bf\u30fc\u3092\u96c6\u3081\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/07/09]",
@@ -2779,7 +2779,7 @@
           {
             "message": {
               "en_US": "Then we need two more teams tasked with \\c[3]gathering all Evotars of the area\\c[0] and leading them to the Quest Hub.",
-              "pt_BR": "Então precisamos de mais duas equipes encarregadas de \\c[3]reunir todos os Evotars da área\\c[0] e conduzi-los à Central de Missões.",
+              "pt_BR": "Então precisamos de mais duas equipes encarregadas de \\c[3]reunir todos os Evotares da área\\c[0] e conduzi-los à Central de Missões.",
               "langUid": 1438,
               "zh_CN": "\u53e6\u5916\u6211\u4eec\u8fd8\u9700\u89812\u652f\u5c0f\u961f\u8d1f\u8d23\\c[3]\u53ec\u96c6\u8fd9\u4e2a\u533a\u57df\u4e2d\u7684\u8fdb\u5316\u8005\\c[0]\uff0c\u628a\u4ed6\u4eec\u5e26\u53bb\u4efb\u52a1\u4e2d\u5fc3\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u305d\u308c\u3058\u3083\u3001\u3042\u3068\u306e2\u3064\u306e\u30c1\u30fc\u30e0\u306f\n\\c[3]\u30a8\u30ea\u30a2\u306b\u3044\u308b\u3059\u3079\u3066\u306e\u30a8\u30f4\u30a9\u30bf\u30fc\u3092\u96c6\u3081\u3066\\c[0]\u3001\n\u5f7c\u3089\u3092\u30af\u30a8\u30b9\u30c8\u30cf\u30d6\u307e\u3067\u8a98\u5c0e\u3057\u3066\u304f\u308c\u3002<<A<<[CHANGED 2018/07/09]",
