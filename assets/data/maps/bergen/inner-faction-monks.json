@@ -712,7 +712,7 @@
         "analyzable": {
           "text": {
             "en_US": "Wise Nemuh",
-            "pt_BR": "Sábio Nemuh",
+            "pt_BR": "Sábia Nemuh",
             "de_DE": "Weiser Nemuh",
             "fr_FR": "fr_FR",
             "langUid": 247,
@@ -3649,7 +3649,7 @@
                 {
                   "message": {
                     "en_US": "A \\v[lore.title.seeker].\\. Sent by the wise leader?",
-                    "pt_BR": "Uma \\v[lore.title.seeker].\\. Enviada pelo líder sábio?",
+                    "pt_BR": "Uma \\v[lore.title.seeker].\\. Enviada pela líder sábia?",
                     "de_DE": "Ein Seeker.\\. Geschickt von unserem Oberhaupt?",
                     "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\\.\u662f\u6211\u4eec\u667a\u6167\u7684\u9886\u8896\u8ba9\u4f60\u6765\u7684\uff1f<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\\v[lore.title.seeker]\u3002\n\\.\u8ce2\u304d\u6307\u5c0e\u8005\u304c\u541b\u3092\u5bc4\u3053\u3057\u305f\u306e\u3060\u306a\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -3683,7 +3683,7 @@
                 {
                   "message": {
                     "en_US": "It has been a long time since one of your kind came to seek my trial.",
-                    "pt_BR": "Há muito tempo que um da vossa espécie não veio em busca da minha prova.",
+                    "pt_BR": "Já faz muito tempo desde que alguém como você veio em busca da minha prova.",
                     "de_DE": "Es ist lange her, dass ein Seeker mich beehrt hat, ihn zu pr\u00fcfen.",
                     "zh_CN": "\u4f60\u4eec\u4e00\u65cf\u5df2\u7ecf\u5f88\u4e45\u6ca1\u6709\u4eba\u6765\u63a5\u53d7\u6211\u7684\u8bd5\u70bc\u4e86\u3002<<A<<[CHANGED 2020/07/08]",
                     "ja_JP": "\u305d\u306e\u6614\u3001\u541b\u3068\u540c\u3058\u7a2e\u306e\u8005\u304c\n\u8a66\u7df4\u3092\u63a2\u3057\u6c42\u3081\u3066\u79c1\u306e\u5143\u3078\u6765\u305f\u3002<<A<<[CHANGED 2020/07/08]",
@@ -4237,7 +4237,7 @@
                 {
                   "message": {
                     "en_US": "Now all that remains is to show yourself before the Wise once again.",
-                    "pt_BR": "Agora tudo o que resta é mostrar-se mais uma vez perante o Sábio",
+                    "pt_BR": "Agora tudo o que resta é se apresentar mais uma vez perante a Sábia.",
                     "de_DE": "Suche nun ein letztes Mal den Weisen auf.",
                     "zh_CN": "\u73b0\u5728\u8bf7\u56de\u53bb\u627e\u6211\u4eec\u7684\u667a\u8005\u5427\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3055\u3066\u3001\u518d\u3073\u8ce2\u4eba\u306e\u5143\u3078\u623b\u308b\u524d\u306b\u3001\n\u6700\u5f8c\u306b\u81ea\u3089\u3092\u3055\u3089\u3051\u51fa\u3055\u306d\u3070\u306a\u3089\u3093\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4351,7 +4351,7 @@
               {
                 "message": {
                   "en_US": "You should now return to the Wise to complete the ascension.",
-                  "pt_BR": "Você deve retornar agora ao Sábio para completar a ascensão.",
+                  "pt_BR": "Você deve retornar agora a Sábia para completar a ascensão.",
                   "de_DE": "Du solltest zum Weisen zur\u00fcckkehren, um die Aszension abzuschlie\u00dfen.",
                   "zh_CN": "\u4f60\u73b0\u5728\u5e94\u8be5\u56de\u5230\u667a\u8005\u90a3\u513f\u5b8c\u6210\u5f00\u609f\u3002<<A<<[CHANGED 2020/06/17]",
                   "ja_JP": "\u4eca\u3053\u305d\u518d\u3073\u8ce2\u4eba\u306e\u5143\u3078\u884c\u304d\u3001\n\u8d85\u8d8a\u3092\u6210\u3057\u9042\u3052\u308b\u306e\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -4582,7 +4582,7 @@
                 {
                   "message": {
                     "en_US": "Are you willing to polish yourself into a shining state of perfection?",
-                    "pt_BR": "Você está disposta a polir-se a si mesma até alcançar um estado brilhante de perfeição?",
+                    "pt_BR": "Você está disposta a polir a si mesma, até alcançar um estado brilhante de perfeição?",
                     "de_DE": "Bist du bereit, deinen Geist in den Zustand strahlender Vollkommenheit zu erheben?",
                     "zh_CN": "\u4f60\u613f\u610f\u628a\u81ea\u5df1\u6253\u78e8\u5b8c\u7f8e\u5417\uff1f<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u541b\u306f\u5b8c\u6210\u3055\u308c\u305f\u8f1d\u304d\u3078\u3068\u3001\n\u559c\u3093\u3067\u81ea\u3089\u3092\u78e8\u304d\u4e0a\u3052\u3066\u304a\u308b\u304b\u306a\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -4842,7 +4842,7 @@
                     {
                       "message": {
                         "en_US": "So you have already become complacent.\\. Please do not make the same mistake as so many before you!",
-                        "pt_BR": "Então, voCê já se tornou complacente.\\. Por favor, não cometa o mesmo erro de tantos outros que vieram antes de você!",
+                        "pt_BR": "Então, você já se tornou complacente.\\. Por favor, não cometa o mesmo erro de tantos outros que vieram antes de você!",
                         "de_DE": "Du bist also bereits selbstgef\u00e4llig geworden.\\. Mache bitte nicht den gleichen Fehler wie so viele vor dir!",
                         "zh_CN": "\u770b\u6765\u4f60\u5df2\u7ecf\u9a84\u50b2\u81ea\u6ee1\u3002\\.\u4e0d\u8981\u8e0f\u4e0a\u548c\u524d\u4eba\u4e00\u6837\u9519\u8bef\u7684\u9053\u8def\uff01<<A<<[CHANGED 2020/06/17]",
                         "ja_JP": "\u541b\u306f\u81ea\u5df1\u6e80\u8db3\u306b\u9665\u3063\u3066\u304a\u308b\u3002\n\\.\u3053\u308c\u307e\u3067\u3001\u591a\u304f\u306e\u8005\u305f\u3061\u304c\u72af\u3057\u305f\u3088\u3046\u306a\n\u9593\u9055\u3044\u306f\u305b\u3093\u3067\u304f\u308c\u3002<<A<<[CHANGED 2020/06/17]",
@@ -5438,7 +5438,7 @@
                 {
                   "message": {
                     "en_US": "Greetings, young one.\\. I sense that our wise leader has sent you for me to test your inner balance.",
-                    "pt_BR": "Saudações, meu jovem.\\. Sinto que nosso sábio líder o enviou para testar seu equilíbrio interior.",
+                    "pt_BR": "Saudações, minha jovem.\\. Sinto que nossa sábia líder a enviou para testar seu equilíbrio interior.",
                     "de_DE": "Gr\u00fc\u00df dich, mein Kind.\\. Ich sp\u00fcre, dass unser Oberhaupt dich zu mir geschickt hat, um deine innere Balance zu testen.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u597d\u554a\uff0c\u5e74\u8f7b\u4eba\u3002\\.\u6211\u611f\u89c9\u5230\u6211\u4eec\u667a\u6167\u7684\u9886\u8896\u5c06\u4f60\u9001\u5230\u6211\u8fd9\u91cc\u6765\uff0c\u8003\u9a8c\u4f60\u5185\u5fc3\u7684\u5e73\u8861\u3002<<A<<[CHANGED 2020/06/17]",
@@ -5921,7 +5921,7 @@
                 {
                   "message": {
                     "en_US": "You should now return to the Wise to complete the initiation.",
-                    "pt_BR": "Você deve agora retornar ao Sábio para completar a iniciação.",
+                    "pt_BR": "Você deve agora retornar a Sábia para completar a iniciação.",
                     "de_DE": "Du solltest zum Weisen zur\u00fcckkehren, um die Initiation abzuschlie\u00dfen.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u73b0\u5728\u5e94\u8be5\u56de\u5230\u667a\u8005\u90a3\u513f\u5b8c\u6210\u5f00\u609f\u3002<<A<<[CHANGED 2020/06/17]",
@@ -6020,7 +6020,7 @@
               {
                 "message": {
                   "en_US": "You should now return to the Wise to complete the initiation.",
-                  "pt_BR": "Você deve agora retornar ao Sábio para completar a iniciação.",
+                  "pt_BR": "Você deve agora retornar a Sábia para completar a iniciação.",
                   "de_DE": "Du solltest zum Weisen zur\u00fcckkehren, um die Initiation abzuschlie\u00dfen.",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\u4f60\u73b0\u5728\u5e94\u8be5\u56de\u5230\u667a\u8005\u90a3\u513f\u5b8c\u6210\u5f00\u609f\u3002<<A<<[CHANGED 2020/06/17]",
