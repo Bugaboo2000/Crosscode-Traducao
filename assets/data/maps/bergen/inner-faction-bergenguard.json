@@ -2713,7 +2713,7 @@
                 {
                   "message": {
                     "en_US": "We also enjoyed a rather stable situation here.\\. The goats have never bothered us.",
-                    "pt_BR": "Também desfrutámos aqui de uma situação bastante estável.\\. As cabras nunca mais nos incomodaram.",
+                    "pt_BR": "Também desfrutamos de uma situação bastante estável.\\. As cabras nunca mais nos incomodaram.",
                     "de_DE": "Es blieb auch bislang recht ruhig hier.\\. Die Ziegen haben uns nicht einmal gest\u00f6rt.",
                     "zh_CN": "\u8fd9\u91cc\u5f88\u548c\u5e73\u3002\\.\u5c71\u7f8a\u4e00\u76f4\u6ca1\u6765\u6253\u6270\u6211\u4eec\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u6211\u3005\u306f\u3080\u3057\u308d\u3001\u3053\u3053\u306e\u5b89\u5b9a\u3057\u305f\n\u60c5\u52e2\u3092\u697d\u3057\u3093\u3067\u3044\u308b\u3088\u3002\n\\.\u30e4\u30ae\u305f\u3061\u306f\u5927\u4eba\u3057\u3044\u3082\u3093\u3060\u3002<<A<<[CHANGED 2020/06/17]",
@@ -2779,7 +2779,7 @@
                 {
                   "message": {
                     "en_US": "Hmph, I am not sure if we should involve a decorated \\v[lore.title.seeker] such as you in such a minor suspicion.",
-                    "pt_BR": "Hmph, Não tenho certeza se devemos envolver uma \\v[lore.title.seeker] condecorada como você numa suspeita tão pequena.",
+                    "pt_BR": "Hmph, não tenho certeza se devemos envolver uma \\v[lore.title.seeker] condecorada como você numa suspeita tão pequena.",
                     "de_DE": "Hmm... ich wei\u00df nicht, ob wir einen hochdekorierten Seeker wie dich mit so etwas \u00fcberhaupt behelligen sollten.",
                     "zh_CN": "\u5514\uff0c\u6211\u4e0d\u786e\u5b9a\u8fd9\u6837\u672a\u88ab\u8bc1\u5b9e\u7684\u6000\u7591\u662f\u4e0d\u662f\u8be5\u9ebb\u70e6\u4f60\u8fd9\u6837\u540d\u58f0\u663e\u8d6b\u7684\\v[lore.title.seeker]\u3002<<A<<[CHANGED 2020/06/17]",
                     "ja_JP": "\u3075\u3093\u3001\u305d\u3093\u306a\u3061\u3087\u3063\u3068\u3057\u305f\u61f8\u5ff5\u3067\u3001\n\u541b\u306e\u3088\u3046\u306a\u52f2\u7ae0\u4ed8\u304d\u306e\n\\v[lore.title.seeker]\u3092\u5f15\u304d\u5165\u308c\u308b\u3079\u304d\n\u304b\u3069\u3046\u304b\u3001\u79c1\u306b\u306f\u308f\u304b\u3089\u3093\u3002<<A<<[CHANGED 2020/06/17]",
@@ -3416,7 +3416,7 @@
                 {
                   "message": {
                     "en_US": "Indeed, you should \\c[3]visit the local Guard\\c[0] in \\v[area.jungle-city.name] and cooperate with them.",
-                    "pt_BR": "De fato, você deve \\c[3]visitar a guarda local\\c[0] em \\v[area.jungle-city.name] e cooperar com eles.",
+                    "pt_BR": "De fato, você deve \\c[3]visitar a Guarda local\\c[0] em \\v[area.jungle-city.name] e cooperar com eles.",
                     "de_DE": "Ja, du solltest \\c[3]die \u00f6rtliche Wache\\c[0] in Burg Bassin aufsuchen und mit ihnen zusammenarbeiten.",
                     "zh_CN": "\u6ca1\u9519\uff0c\u4f60\u8be5\u53bb\\v[area.jungle-city.name]\u627e\\c[3]\u5f53\u5730\u5b88\u536b\\c[0]\u5e76\u4e0e\u4ed6\u4eec\u5408\u4f5c\u3002<<A<<[CHANGED 2020/07/08]",
                     "zh_TW": "\u4ec0\u9ebc\uff1f\\.\\.\u9019\u500b\u5192\u5145\u8005\u88ab\u4ed6\u81ea\u5df1\u7684\u5c71\u7f8a\u5974\u96b7\u8e22\u4e86\u4e00\u8173\uff0c\u8dcc\u843d\u5c71\u5d16\u4e86\uff1f<<A<<[CHANGED 2020/07/09]",
@@ -3438,7 +3438,7 @@
                 {
                   "message": {
                     "en_US": "Knowing their chief, \\c[3]Daz Bronzel\\c[0], he will not like this development any more than we do.",
-                    "pt_BR": "Conhecendo o chefe deles, \\c[3]Daz Bronzel\\c[0], ele não irá gostar do desdobramento dessa situação mais do que nós.",
+                    "pt_BR": "Conhecendo o chefe deles, \\c[3]Daz Bronzel\\c[0], ele não vai gostar do desdobramento dessa situação mais do que nós.",
                     "de_DE": "Wie ich Hauptmann \\c[3]Daz Bronzel\\c[0] kenne, wird ihm diese Entwicklung genauso wenig gefallen wie uns.",
                     "zh_CN": "\u6211\u8ba4\u8bc6\u4ed6\u4eec\u7684\u8001\u5927\uff0c\\c[3]\u8fbe\u5179\u00b7\u5e03\u6717\u5de6\\c[0]\uff0c\u4ed6\u4e5f\u4e0d\u4f1a\u559c\u6b22\u6b64\u4e8b\u7684\u53d1\u5c55\u7684\u3002<<A<<[CHANGED 2020/07/08]",
                     "zh_TW": "\u4ec0\u9ebc\uff1f\\.\\.\u9019\u500b\u5192\u5145\u8005\u88ab\u4ed6\u81ea\u5df1\u7684\u5c71\u7f8a\u5974\u96b7\u8e22\u4e86\u4e00\u8173\uff0c\u8dcc\u843d\u5c71\u5d16\u4e86\uff1f<<A<<[CHANGED 2020/07/09]",
@@ -3852,7 +3852,7 @@
                 {
                   "message": {
                     "en_US": "Word is, they even established a business.\\. Selling goat-related products in some park, if you believe it.",
-                    "pt_BR": "Diz-se que até estabeleceram um negócio\\. Vendendo produtos de cabras em algum lugar, se você acreditar.",
+                    "pt_BR": "Dizem que até estabeleceram um negócio.\\. Vendendo produtos relacionados a cabras em algum lugar, se você acredita nisso.",
                     "de_DE": "Es hei\u00dft, sie h\u00e4tten sogar ein Gesch\u00e4ft gegr\u00fcndet.\\. Sie verkaufen jetzt in irgendeinem Park Ziegen-Produkte. Unglaublich, was?",
                     "zh_CN": "\u5e0c\u671b\u90a3\u4e9b\u5c71\u7f8a\u80fd\u591f\u987a\u5229\u878d\u5165\u4eba\u7c7b\u793e\u4f1a\u3002<<A<<[CHANGED 2021/03/10]",
                     "zh_TW": "\\v[lore.title.seeker]\uff0c\u6211\u5011\u7b49\u8457\u4f60\u5462\u3002\\.\u6211\u4e00\u770b\u5c31\u77e5\u9053\u4f60\u9806\u5229\u5b8c\u6210\u4e86\u4efb\u52d9\u3002<<A<<[CHANGED 2021/03/10]",
