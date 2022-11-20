@@ -2324,7 +2324,7 @@
             "entity": { "global": true, "name": "c4" },
             "text": {
               "en_US": "You'd think he would have seen me \\c[3]with those big glasses\\c[0].",
-              "pt_BR": "Como se ele não me tivesse visto \\c[3]com seus óculos grossos\\c[0].",
+              "pt_BR": "Como se ele não tivesse me visto \\c[3]com seus óculos grossos\\c[0].",
               "langUid": 530,
               "zh_CN": "\\c[3]\u6234\u7740\u5927\u773c\u955c\\c[0]\u8fd8\u770b\u4e0d\u5230\u4eba\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\u3042\u306e\u5927\u304d\u306a\u30e1\u30ac\u30cd\\c[0]\u306f\u306a\u3093\u306e\u305f\u3081\u306b\n\u639b\u3051\u3066\u308b\u3093\u3060\u3088\u3001\u3063\u3066\u611f\u3058\u3060\u306a\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3336,7 +3336,7 @@
               {
                 "message": {
                   "en_US": "N-No problem!\\. You definitely seem more happy this way!",
-                  "pt_BR": "Sem problemas!\\. Você definitivamente parece mais feliz desse jeito!",
+                  "pt_BR": "Sem problema!\\. Você parece mais feliz desse jeito!",
                   "langUid": 572,
                   "de_DE": "K-Kein Problem!\\. Du wirkst wirklich viel fr\u00f6hlicher so!<<A<<[CHANGED 2021/05/22]",
                   "ja_JP": "\u3044\u3001\u3044\u3044\u306e\u3088\uff01\\.\u3053\u3046\u3057\u305f\u307b\u3046\u304c\n\u3042\u306a\u305f\u5e78\u305b\u305d\u3046\u3058\u3083\u306a\u3044\uff01<<A<<[CHANGED 2021/05/22]",
@@ -3707,7 +3707,7 @@
               {
                 "message": {
                   "en_US": "If I can offer you a room, please let me know.",
-                  "pt_BR": "Se eu puder lhe oferecer um quarto, por favor, me avise.",
+                  "pt_BR": "Se quiser um quarto, por favor, me avise.",
                   "de_DE": "Sag Bescheid, wenn ich dir ein Zimmer anbieten kann...",
                   "zh_CN": "\u5982\u679c\u4f60\u60f3\u8981\u623f\u95f4\uff0c\u8ddf\u6211\u8bf4\u4e00\u58f0\u5c31\u884c\u3002<<A<<[CHANGED 2018/09/02]",
                   "ja_JP": "\u90e8\u5c4b\u3092\u53d6\u308a\u305f\u3051\u308c\u3070\n\u79c1\u306b\u8a71\u3057\u304b\u3051\u3066\u304f\u3060\u3055\u3044\u3002<<A<<[CHANGED 2018/09/02]",
@@ -3791,7 +3791,7 @@
               {
                 "message": {
                   "en_US": "Which of course is nothing to be afraid of... ",
-                  "pt_BR": "O que, claro, não é nada a temer...",
+                  "pt_BR": "O que, claro, não é nada ruim...",
                   "de_DE": "Was f\u00fcr uns nat\u00fcrlich erfreulich ist...",
                   "zh_CN": "\u8fd9\u81ea\u7136\u662f\u597d\u4e8b... <<A<<[CHANGED 2018/09/02]",
                   "ja_JP": "\u3082\u3061\u308d\u3093\u3001\u5b09\u3057\u3044\u3053\u3068\u306b\u306f\n\u5909\u308f\u308a\u306a\u3044\u306e\u3067\u3059\u304c...<<A<<[CHANGED 2018/09/02]",
@@ -4008,7 +4008,7 @@
               {
                 "message": {
                   "en_US": "Imagine my surprise when I got a letter from my mother telling me to return.",
-                  "pt_BR": "Imagine minha surpresa quando recebi uma carta de minha mãe me dizendo para voltar.",
+                  "pt_BR": "Imagine minha surpresa quando recebi uma carta da minha mãe me dizendo para voltar.",
                   "de_DE": "Du kannst dir sicher vorstellen, wie \u00fcberrascht ich war, als mich ein Brief von meiner Mutter erreichte, in dem sie mich bat, zur\u00fcckzukehren.",
                   "zh_CN": "\u6211\u6bcd\u4eb2\u5bc4\u4fe1\u8ba9\u6211\u56de\u53bb\u7684\u65f6\u5019\uff0c\u90a3\u79cd\u60ca\u8bb6\u53ef\u60f3\u800c\u77e5\u3002<<A<<[CHANGED 2018/09/19]",
                   "ja_JP": "\u60f3\u50cf\u3057\u3066\u307f\u3066\u304f\u308c\u3088\u3001\u6bcd\u3055\u3093\u304b\u3089\n\u623b\u308b\u3088\u3046\u306b\u3068\u624b\u7d19\u3092\u53d7\u3051\u53d6\u3063\u305f\u3068\u304d\u3001\n\u79c1\u304c\u3069\u3093\u306a\u306b\u9a5a\u3044\u305f\u304b\u3002<<A<<[CHANGED 2018/09/19]",
@@ -4076,7 +4076,7 @@
             "entity": { "global": true, "name": "sitTalk2" },
             "text": {
               "en_US": "Now that I think about it, benches in Cross Worlds are very different from other games.",
-              "pt_BR": "Agora que parei para pensar, os bancos em Cross Worlds são muito diferentes dos outros jogos.",
+              "pt_BR": "Agora que parei para pensar, os bancos em CrossWorlds são muito diferentes dos outros jogos.",
               "langUid": 604,
               "ko_KR": "\ub0b4\uac00 \uc0dd\uac01\ud574\ubd24\ub294\ub370 \ud06c\ub85c\uc2a4\uc6d4\ub4dc\uc758 \ubca4\uce58\ub294 \ub2e4\ub978 \uac8c\uc784\uacfc \uc880 \ub2e4\ub978 \uac83 \uac19\uc544.<<A<<[CHANGED 2021/05/07]",
               "zh_CN": "\u4ed4\u7ec6\u60f3\u60f3\uff0c\u8fdc\u661f\u4e16\u754c\u91cc\u7684\u677f\u51f3\u8ddf\u5176\u4ed6\u6e38\u620f\u91cc\u7684\u90fd\u4e0d\u4e00\u6837\u3002<<A<<[CHANGED 2021/05/22]",
@@ -4128,7 +4128,7 @@
             "entity": { "global": true, "name": "sitTalk2" },
             "text": {
               "en_US": "Yet, it doesn't seem to be enough...",
-              "pt_BR": "Ainda assim, não parece ser suficiente...",
+              "pt_BR": "Mesmo assim, não parece ser suficiente...",
               "langUid": 608,
               "ko_KR": "\uadf8\ub798\ub3c4 \ubd80\uc871\ud558\uae34 \ud558\uc9c0\ub9cc...<<A<<[CHANGED 2019/01/30]",
               "zh_CN": "\u4e0d\u8fc7\u60c5\u51b5\u5728\u8fd9\u91cc\u51fa\u73b0\u4e86\u4e00\u4e9b\u53d8\u5316...<<A<<[CHANGED 2019/01/30]",
@@ -4154,7 +4154,7 @@
             "entity": { "global": true, "name": "sitTalk2" },
             "text": {
               "en_US": "I feel like everyone in this game is trying to sit at the strangest place they can find.",
-              "pt_BR": "Sinto que todos neste jogo estão tentando sentar-se no lugar mais estranho que possam encontrar.",
+              "pt_BR": "Acho que todos nesse jogo estão tentando sentar no lugar mais estranho que podem encontrar.",
               "langUid": 610,
               "ko_KR": "\uc774 \uac8c\uc784 \uc548\uc5d0 \uc788\ub294 \uc0ac\ub78c\ub4e4\uc740 \uc804\ubd80 \uc774\uc0c1\ud55c \uacf3\uc5d0 \uc549\uace0 \uc2f6\uc5b4 \ud558\ub294 \uac83 \uac19\uac70\ub4e0.<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u6211\u89c9\u5f97\u8fd9\u6e38\u620f\u91cc\u7684\u6240\u6709\u4eba\u90fd\u4f1a\u627e\u6700\u5947\u602a\u7684\u5730\u65b9\u5750\u3002<<A<<[CHANGED 2019/01/10]",
