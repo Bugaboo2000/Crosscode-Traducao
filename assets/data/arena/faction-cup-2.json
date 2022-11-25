@@ -1,0 +1,315 @@
+{
+  "core": {
+    "type": "SOLO_CUP",
+    "name": {
+      "en_US": "Faction Advanced Cup",
+      "pt_BR": "Copa de Facção Avançada",
+      "de_DE": "Fraktionspokal - Veteran",
+      "zh_CN": "\u6d3e\u7cfb\u8fdb\u9636\u676f\u8d5b<<A<<[CHANGED 2019/07/31]",
+      "zh_TW": "\u6d3e\u7cfb\u9032\u968e\u676f\u8cfd<<A<<[CHANGED 2019/07/31]",
+      "ja_JP": "\u30d5\u30a1\u30af\u30b7\u30e7\u30f3\u30a2\u30c9\u30d0\u30f3\u30b9\u30ab\u30c3\u30d7<<A<<[CHANGED 2019/07/31]",
+      "ko_KR": "\uc138\ub825 \ubca0\ud14c\ub791 \ub300\ud68c<<A<<[CHANGED 2019/07/31]",
+      "langUid": 4
+    },
+    "info": {
+      "en_US": "Refight several midgame battles found during your quests for the factions!",
+      "pt_BR": "Reviva várias batalhas orridas durante suas missões para as facções!",
+      "de_DE": "Bek\u00e4mpfe nochmals die sp\u00e4teren Bosse aus den Quests der Fraktionen!",
+      "zh_CN": "\u518d\u6b21\u5bf9\u6297\u51e0\u4e2a\u4e2d\u671f\u6d3e\u7cfb\u4efb\u52a1\uff01<<A<<[CHANGED 2019/07/31]",
+      "zh_TW": "\u518d\u6b21\u5c0d\u6297\u5e7e\u500b\u4e2d\u671f\u6d3e\u7cfb\u4efb\u52d9\uff01<<A<<[CHANGED 2019/07/31]",
+      "ja_JP": "\u30b2\u30fc\u30e0\u4e2d\u76e4\u306e\u30d5\u30a1\u30af\u30b7\u30e7\u30f3\u30af\u30a8\u30b9\u30c8\u3067\u51fa\u4f1a\u3063\u305f\u6575\u3068\u3082\u3046\u4e00\u5ea6\u6226\u304a\u3046\uff01<<A<<[CHANGED 2019/07/31]",
+      "ko_KR": "\uc911\uae30 \uc138\ub825 \ud018\uc2a4\ud2b8 \uc9c4\ud589 \uc911 \uc2f8\uc6e0\ub358 \ubaac\uc2a4\ud130\ub4e4\uacfc \ub2e4\uc2dc \uc2f8\uc6b0\uc138\uc694!<<A<<[CHANGED 2019/07/31]",
+      "langUid": 1
+    },
+    "creator": {
+      "en_US": "GFluegel",
+      "pt_BR": "GFluegel",
+      "de_DE": "GFluegel",
+      "zh_CN": "GFluegel<<A<<[CHANGED 2021/02/19]",
+      "zh_TW": "\u9ed1\u9b0d\u5b50<<A<<[CHANGED 2021/02/19]",
+      "ja_JP": "\u30b8\u30fc\u30fb\u30d5\u30eb\u30fc\u30b2\u30eb<<A<<[CHANGED 2021/02/24]",
+      "ko_KR": "GFluegel<<A<<[CHANGED 2021/02/24]",
+      "langUid": 50
+    },
+    "condition": "quest.fd-2-meerkat-cave.solved && quest.rhg-2-crate_smuggle.solved && quest.rftc-3-metalstuff.solved && quest.miners-1-dirtbunnies.solved && quest.bg-2-goat_cave_1.solved && quest.nomadAdv-3-sandman_tomb_1.solved && quest.bakiGuard-2-evil_guard.solved && quest.jungleTrader-2-snowman_thief_2.solved && quest.jungleGreens-2-plantSearch_1.solved",
+    "music": "challenge",
+    "rushMusic": "raidTheme",
+    "level": 62,
+    "difficulty": "3",
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 0,
+      "offY": 64,
+      "width": 280,
+      "height": 64
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Burning Birbs",
+        "pt_BR": "Aves Flamejantes",
+        "de_DE": "Flammende V\u00f6gel",
+        "zh_CN": "\u70e7\u9e1f\u5c4b<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u708e\u306e\u9ce5<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\ubd88\ud0c0\ub294 \uc0c8<<A<<[CHANGED 2019/07/31]",
+        "langUid": 54,
+        "zh_TW": "\u71d2\u9ce5\u5c4b<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": true,
+      "camFocus": "battleCounter1",
+      "platPoints": 140000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.heat/special/volturbine-cave]s\\c[0] in \\c[3]\\v[area.heat-area.name]\\c[0]!\nDon't let them \\c[3]regenerate over the flames\\c[0]!",
+        "pt_BR": "Derrote os \\c[3]\\v[combat.name.heat/special/volturbine-cave]s\\c[0] no \\c[3]\\v[area.heat-area.name]\\c[0]!\nNão deixe eles se \\c[3]regenerarem com as chamas\\c[0]!",
+        "de_DE": "Besiege die \\c[3]Rasegeier\\c[0] im \\c[3]Maronental\\c[0]!\nVerhindere ihre \\c[3]Regenation \u00fcber den Flammen\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\\c[3]\\v[area.heat-area.name]\\c[0]\u7684\\c[3]\\v[combat.name.heat/special/volturbine-cave]s\\c[0]!\n\u4e0d\u8981\u8ba9\u5b83\u4eec\u5728\\c[3]\u706b\u4e2d\u505a\u81ea\u5df1\\c[0]!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u306e\\c[3]\\v[combat.name.heat/special/volturbine-cave]\\c[0]\u3092\u5012\u305b\uff01\n\\c[3]\u708e\u306e\u4e0a\u3067\u56de\u5fa9\\c[0]\u3055\u305b\u306a\u3044\u3088\u3046\u306b\u3057\u3088\u3046\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\\c[3]\\v[area.heat-area.name]\\c[0]\uc5d0 \uc788\ub294 \\c[3]\\v[combat.name.heat/special/volturbine-cave]\\c[0]\uc744 \ucc98\uce58\ud558\uc138\uc694!\n\\c[3]\ubd88\uaf43\uc73c\ub85c \ud68c\ubcf5\ud558\ub3c4\ub85d\\c[0] \ub194\ub450\uc9c0 \ub9c8\uc138\uc694!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 51,
+        "zh_TW": "\u64ca\u6557\\c[3]\\v[area.heat-area.name]\\c[0]\u7684\\c[3]\\v[combat.name.heat/special/volturbine-cave]s\\c[0]!\r\n\u4e0d\u8981\u8b93\u5b83\u5011\u5728\\c[3]\u706b\u4e2d\u505a\u81ea\u5df1\\c[0]!<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 110000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.heat-firebirds-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 7, "points": 5500 },
+        { "type": "CHAIN", "target": 5, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Malicious Mustache",
+        "pt_BR": "Bigode Malicioso",
+        "de_DE": "Sch\u00e4ndlicher Schnauzbart",
+        "zh_CN": "\u9ed1\u80e1\u5b50<<A<<[CHANGED 2021/02/19]",
+        "zh_TW": "\u9ed1\u9b0d\u5b50<<A<<[CHANGED 2021/02/19]",
+        "ja_JP": "\u88cf\u5207\u308a\u306e\u885b\u5175<<A<<[CHANGED 2021/02/24]",
+        "ko_KR": "\uc2ec\uc220\uad82\uc740 \uc218\uc5fc<<A<<[CHANGED 2021/02/24]",
+        "langUid": 56
+      },
+      "customCode": true,
+      "camFocus": "camTarget",
+      "platPoints": 185000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Have another duel with \\c[3]\\v[combat.name.heat/special/guard-hostile-mustache]\\c[0], Ba'kii Kum's most treasonous guard!\nAnd also trash his \\c[3]\\v[combat.name.heat/special/baki-turret_2]s\\c[0] while you're at it!",
+        "pt_BR": "Tenha outro duelo com \\c[3]\\v[combat.name.heat/special/guard-hostile-mustache]\\c[0], o guarda mais traiçoeiro de Ba'kii Kum!\nE também destrua as \\c[3]\\v[combat.name.heat/special/baki-turret_2]s\\c[0] dele!",
+        "de_DE": "Liefere dir ein weiteres Duell mit der \\c[3]Wache Billston\\c[0], Ba'kii Kums Hochverr\u00e4ter!\nUnd wirf auch gleich seine \\c[3]Legionsgesch\u00fctze v2\\c[0] auf den M\u00fcll, wenn du schon mal dabei bist!",
+        "zh_CN": "\u518d\u6b21\u4e0e\u5df4\u57fa\u5e93\u59c6\u6700\u9669\u6076\u7684\u5b88\u536b\\c[3]\\v[combat.name.heat/special/guard-hostile-mustache]\\c[0]\u51b3\u6597!\n\u8bb0\u5f97\u987a\u5e26\u6d88\u706d\u6389\u4ed6\u7684\\c[3]\\v[combat.name.heat/special/baki-turret_2]\\c[0]!<<A<<[CHANGED 2019/07/31]",
+        "zh_TW": "\u518d\u6b21\u8207\u5df4\u57fa\u5eab\u59c6\u6700\u96aa\u60e1\u7684\u5b88\u885b\\c[3]\\v[combat.name.heat/special/guard-hostile-mustache]\\c[0]\u6c7a\u9b25!\n\u8a18\u5f97\u9806\u5e36\u6d88\u6ec5\u6389\u4ed6\u7684\\c[3]\\v[combat.name.heat/special/baki-turret_2]\\c[0]!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u30d0\u30ad\u30fc\u30a4\u30fb\u30af\u30e0\u306e\u88cf\u5207\u8005\u3001\\c[3]\\v[combat.name.heat/special/guard-hostile-mustache]\\c[0]\u3068\u3082\u3046\u4e00\u5ea6\u6226\u3044\u5012\u305b\uff01\n\\c[3]\\v[combat.name.heat/special/baki-turret_2]\\c[0]\u3082\u3064\u3044\u3067\u306b\u58ca\u305d\u3046\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\ubc14\ud0a4\ucff0\uc758 \uac00\uc7a5 \ubd88\uc131\uc2e4\ud55c \uacbd\ube44\uc6d0\uc778 \\c[3]\\v[combat.name.heat/special/guard-hostile-mustache]\\c[0]\uacfc \ub2e4\uc2dc \uacb0\ud22c\ud558\uc138\uc694!\n\uadf8\ub9ac\uace0 \uadf8\uc758 \\c[3]\\v[combat.name.heat/special/baki-turret_2]\\c[0]\ub3c4 \ubd80\uc218\uc138\uc694!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 55
+      },
+      "points": 160000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.maroon-billston-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 120, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 8, "points": 2500 },
+        { "type": "CHAIN", "target": 10, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Heater Beater",
+        "pt_BR": "Batedor de Calor",
+        "de_DE": "Schmelzschl\u00e4ger",
+        "zh_CN": "\u706b\u4e0a\u6d47\u6cb9<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u30d2\u30fc\u30bf\u30fc\u30d3\u30fc\u30bf\u30fc<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\ud788\ud130 \ube44\ud130<<A<<[CHANGED 2019/07/31]",
+        "langUid": 40,
+        "zh_TW": "\u706b\u4e0a\u6f86\u6cb9<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": true,
+      "platPoints": 200000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat the mighty metallic \\c[3]\\v[combat.name.cold/mine-diggingbot-quest]\\c[0] in the \\c[3]\\v[area.cold-dng.name]\\c[0]!\nTry to keep its \\c[3]heat\\c[0] in a \\c[3]balanced state\\c[0]!",
+        "pt_BR": "Derrote o poderoso \\c[3]\\v[combat.name.cold/mine-diggingbot-quest]\\c[0] na \\c[3]\\v[area.cold-dng.name]\\c[0]!\nTente manter seu \\c[3]calor\\c[0] em um \\c[3]estado equilibrado\\c[0]!",
+        "de_DE": "Besiege den m\u00e4chtigen metallischen \\c[3]Schmelz-Digmo\\c[0] in der \\c[3]Tempelmine\\c[0]!\nVersuche seine \\c[3]Hitze im Gleichgewicht zu halten\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\\v[area.cold-dng.name]\\c[0]\u51fb\u8d25\u5f3a\u5927\u7684\\c[3]\\v[combat.name.cold/mine-diggingbot-quest]\\c[0]!\n\u6ce8\u610f\u4fdd\u6301\u5176\\c[3]\u70ed\u80fd\\c[0]\u5728\\c[3]\u7a33\u5b9a\u72b6\u6001\\c[0]!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\\c[3]\\v[area.cold-dng.name]\\c[0]\u306e\u5f37\u529b\u306a\u30ed\u30dc\u30c3\u30c8\u3001\\c[3]\\v[combat.name.cold/mine-diggingbot-quest]\\c[0]\u3092\u5012\u305b\uff01\n\\c[3]\u71b1\u66b4\u8d70\\c[0]\u3055\u305b\u306a\u3044\u3088\u3046\u306b\u3057\u3088\u3046\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\\c[3]\\v[area.cold-dng.name]\\c[0]\uc5d0 \uc788\ub294 \ub2e8\ub2e8\ud55c \uae08\uc18d \\c[3]\\v[combat.name.cold/mine-diggingbot-quest]\\c[0]\uc744 \ucc98\uce58\ud558\uc138\uc694! \n\ub140\uc11d\uc758 \\c[3]\uc5f4\uae30\\c[0]\ub97c \\c[3]\uade0\ud615 \uc7a1\ud78c \uc0c1\ud0dc\\c[0]\ub85c \uc720\uc9c0\ud574\uc57c \ud569\ub2c8\ub2e4!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 41,
+        "zh_TW": "\u5728\\c[3]\\v[area.cold-dng.name]\\c[0]\u64ca\u6557\u5f37\u5927\u7684\\c[3]\\v[combat.name.cold/mine-diggingbot-quest]\\c[0]!\r\n\u6ce8\u610f\u4fdd\u6301\u5176\\c[3]\u71b1\u80fd\\c[0]\u5728\\c[3]\u7a69\u5b9a\u72c0\u614b\\c[0]!<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 170000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.mine-heatbot-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 120, "points": 15000 },
+        { "type": "HIT_COUNTER", "value": 10, "points": 7500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 7500 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Blazing Buffel",
+        "pt_BR": "Búfalo em Chamas",
+        "de_DE": "Brennender B\u00fcffel",
+        "zh_CN": "\u725b\u6c14\u51b2\u5929<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u71c3\u3048\u308b\u95d8\u725b<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\ubd88\ud0c0\ub294 \ub4e4\uc18c<<A<<[CHANGED 2019/07/31]",
+        "langUid": 42,
+        "zh_TW": "\u725b\u6c23\u885d\u5929<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": true,
+      "platPoints": 145000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.autumn-fall/buffalo-fire-quest]\\c[0] in \\c[3]\\v[area.autumn-fall.name]\\c[0]!\nOvercome it using \\c[3]ice\\c[0] and \\c[3]angles\\c[0]!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.autumn-fall/buffalo-fire-quest]\\c[0] no \\c[3]\\v[area.autumn-fall.name]\\c[0]!\nSupere ele usando \\c[3]gelo\\c[0] e \\c[3]ângulos\\c[0]!",
+        "de_DE": "Besiege den \\c[3]Gluthuuf\\c[0] in \\c[3]Autumn's Fall\\c[0]! \u00dcberliste ihn mit \\c[3]Eis\\c[0] und \\c[3]Winkelman\u00f6vern\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\\v[area.autumn-fall.name]\\c[0]\u51fb\u8d25\\c[3]\\v[combat.name.autumn-fall/buffalo-fire-quest]\\c[0]!\n\u627e\u597d\\c[3]\u89d2\u5ea6\\c[0]\uff0c\u7528\\c[3]\u51b0\\c[0]\u5c06\u5176\u51fb\u7834!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\u306e\\c[3]\\v[combat.name.autumn-fall/buffalo-fire-quest]\\c[0]\u3092\u5012\u305b\uff01\n\\c[3]\u6c37\\c[0]\u3068\\c[3]\u89d2\u5ea6\\c[0]\u3092\u3046\u307e\u304f\u5229\u7528\u3059\u308b\u306e\u304c\u30b3\u30c4\u3060\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\uc5d0 \uc788\ub294 \\c[3]\\v[combat.name.autumn-fall/buffalo-fire-quest]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!\n\uadf9\ubcf5\ud558\ub294 \ubc29\ubc95\uc740 \ubc14\ub85c \\c[3]\uc5bc\uc74c\\c[0]\uacfc \\c[3]\uac01\ub3c4\\c[0]\uc785\ub2c8\ub2e4!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 43,
+        "zh_TW": "\u5728\\c[3]\\v[area.autumn-fall.name]\\c[0]\u64ca\u6557\\c[3]\\v[combat.name.autumn-fall/buffalo-fire-quest]\\c[0]!\r\n\u627e\u597d\\c[3]\u89d2\u5ea6\\c[0]\uff0c\u7528\\c[3]\u51b0\\c[0]\u5c07\u5176\u64ca\u7834!<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 115000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.af-firebuffel-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Tourist of Terror",
+        "pt_BR": "Turista Terrorista",
+        "de_DE": "Terror-Tourist",
+        "zh_CN": "\u6050\u6016\u6e38\u5ba2<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u6050\u6016\u306e\u4fb5\u7565\u8005<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\uacf5\ud3ec\uc758 \uad00\uad11\uac1d<<A<<[CHANGED 2019/07/31]",
+        "langUid": 44,
+        "zh_TW": "\u6050\u6016\u904a\u5ba2<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 135000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.jungle/special/snowman-jungle-boss]\\c[0] who has resettled to \\c[3]\\v[area.jungle.name]\\c[0]!\nBreak his defense by using the teleporting \\c[3]\\v[combat.name.jungle/special/heater]\\c[0]!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.jungle/special/snowman-jungle-boss]\\c[0] que se instalou no \\c[3]\\v[area.jungle.name]\\c[0]!\nQuebre a defesa dele usando o teleporte[???]\\c[3]\\v[combat.name.jungle/special/heater]\\c[0]!",
+        "de_DE": "Besiege den \\c[3]Karotto Fruchtsucher\\c[0], der nach \\c[3]Gaias Garten\\c[0] umgezogen ist!\nDurchbrich seine Verteidigung mittels des \\c[3]H\u00f6llenglut-Plasmaofens\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u5b9a\u5c45\u5728\\c[3]\\v[area.jungle.name]\\c[0]\u7684\\c[3]\\v[combat.name.jungle/special/snowman-jungle-boss]\\c[0]!\n\u4f20\u9001\\c[3]\\v[combat.name.jungle/special/heater]\\c[0]\u6765\u7834\u574f\u5176\u9632\u5fa1!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306b\u4f4f\u307f\u7740\u3044\u305f\\c[3]\\v[combat.name.jungle/special/snowman-jungle-boss]\\c[0]\u3092\u5012\u305b\uff01\n\\c[3]\\v[combat.name.jungle/special/heater]\\c[0]\u3092\u5229\u7528\u3057\u3066\u3001\u6575\u306e\u9632\u5fa1\u3092\u7121\u52b9\u5316\u3057\u3088\u3046\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\\c[3]\\v[area.jungle.name]\\c[0]\uc5d0 \ub2e4\uc2dc \uc815\ucc29\ud55c \\c[3]\\v[combat.name.jungle/special/snowman-jungle-boss]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!\n\\c[3]\\v[combat.name.jungle/special/heater]\\c[0]\ub97c \ud154\ub808\ud3ec\ud2b8\uc2dc\ud0a4\uba74 \ubc29\uc5b4\ub97c \ubd80\uc220 \uc218 \uc788\uc2b5\ub2c8\ub2e4!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 45,
+        "zh_TW": "\u64ca\u6557\u5b9a\u5c45\u5728\\c[3]\\v[area.jungle.name]\\c[0]\u7684\\c[3]\\v[combat.name.jungle/special/snowman-jungle-boss]\\c[0]!\r\n\u50b3\u9001\\c[3]\\v[combat.name.jungle/special/heater]\\c[0]\u4f86\u7834\u58de\u5176\u9632\u79a6!<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 115000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.jungle-snowman-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 5000 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 35000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Perky Plant",
+        "pt_BR": "Plantaculturista",
+        "de_DE": "Pfundige Pflanze",
+        "zh_CN": "\u4e1b\u6797\u8f76\u4e8b<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u30a8\u30ca\u30b8\u30fc\u30d7\u30e9\u30f3\u30c8<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\uac74\ubc29\uc9c4 \uc2dd\ubb3c<<A<<[CHANGED 2019/07/31]",
+        "langUid": 46,
+        "zh_TW": "\u53e2\u6797\u8efc\u4e8b<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": true,
+      "camFocus": "arena",
+      "platPoints": 130000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.jungle/special/powerplant-quest-1]\\c[0] in \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "pt_BR": "Derrote a \\c[3]\\v[combat.name.jungle/special/powerplant-quest-1]\\c[0] no \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "de_DE": "Besiege den \\c[3]Pflanzenegger\\c[0] in \\c[3]Gaias Garten\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\\v[area.jungle.name]\\c[0]\u51fb\u8d25\\c[3]\\v[combat.name.jungle/special/powerplant-quest-1]\\c[0]!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306e\\c[3]\\v[combat.name.jungle/special/powerplant-quest-1]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\\c[3]\\v[area.jungle.name]\\c[0]\uc5d0 \uc788\ub294 \\c[3]\\v[combat.name.jungle/special/powerplant-quest-1]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 47,
+        "zh_TW": "\u5728\\c[3]\\v[area.jungle.name]\\c[0]\u64ca\u6557\\c[3]\\v[combat.name.jungle/special/powerplant-quest-1]\\c[0]!<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 110000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.jungle-muscleplant-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Dreaded Dry Dude",
+        "pt_BR": "Bicho Seco",
+        "de_DE": "T\u00f6dlich-trockener Typ",
+        "zh_CN": "\u72c2\u6c99\u4e4b\u6012<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\u7802\u306b\u6f5c\u3080\u8005<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\ubb34\uc2dc\ubb34\uc2dc\ud558\uace0 \uac74\uc870\ud55c \ub140\uc11d<<A<<[CHANGED 2019/07/31]",
+        "langUid": 52,
+        "zh_TW": "\u72c2\u6c99\u4e4b\u6012<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 150000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.heat/special/sandman-1]\\c[0] in \\c[3]\\v[area.heat-area.name]\\c[0]!\n\\c[3]Quicksand\\c[0] may be annoying but \\c[3]teleporters\\c[0] are your friend!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.heat/special/sandman-1]\\c[0] no \\c[3]\\v[area.heat-area.name]\\c[0]!\nA [3]Areia movediça\\c[0] pode ser um problema mas \\c[3]teletransportadores\\c[0] são seus amigos!",
+        "de_DE": "Besiege den \\c[3]K\u00f6nig Kaktorro\\c[0] im \\c[3]Maronental\\c[0]! \\c[3]Treibsand\\c[0] kann nervig sein, doch \\c[3]Teleporter\\c[0] helfen aus!",
+        "zh_CN": "\u5728\\c[3]\\v[area.heat-area.name]\\c[0]\u51fb\u8d25\\c[3]\\v[combat.name.heat/special/sandman-1]\\c[0]!\n\u5c0f\u5fc3\\c[3]\u6d41\u6c99\\c[0]\uff0c\u6ce8\u610f\u4f7f\u7528\\c[3]\u4f20\u9001\u5668\\c[0]!<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u306e\\c[3]\\v[combat.name.heat/special/sandman-1]\\c[0]\u3092\u5012\u305b\uff01\n\\c[3]\u6d41\u7802\\c[0]\u306b\u5dfb\u304d\u8fbc\u307e\u308c\u306a\u3044\u3088\u3046\u3001\\c[3]\u30c6\u30ec\u30dd\u30fc\u30bf\u30fc\\c[0]\u3092\u3046\u307e\u304f\u6d3b\u7528\u3057\u3088\u3046\uff01<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "\\c[3]\\v[area.heat-area.name]\\c[0]\uc5d0 \uc788\ub294 \\c[3]\\v[combat.name.heat/special/sandman-1]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!\n\\c[3]\uc720\uc0ac\\c[0] \ub54c\ubb38\uc5d0 \uac78\ub9ac\uc801\uac70\ub9b4 \uc218\ub3c4 \uc788\uc9c0\ub9cc, \\c[3]\ud154\ub808\ud3ec\ud130\\c[0]\uac00 \uc788\uc73c\ub2c8 \uac71\uc815 \ub9c8\uc138\uc694!<<A<<[CHANGED 2019/07/31]",
+        "langUid": 53,
+        "zh_TW": "\u5728\\c[3]\\v[area.heat-area.name]\\c[0]\u64ca\u6557\\c[3]\\v[combat.name.heat/special/sandman-1]\\c[0]!\r\n\u5c0f\u5fc3\\c[3]\u6d41\u6c99\\c[0]\uff0c\u6ce8\u610f\u4f7f\u7528\\c[3]\u50b3\u9001\u5668\\c[0]!<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 125000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.faction.heat-sandman-1",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    }
+  ]
+}
