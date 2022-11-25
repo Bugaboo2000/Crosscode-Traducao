@@ -1,0 +1,704 @@
+{
+  "core": {
+    "type": "SOLO_CUP",
+    "name": {
+      "en_US": "Seeker Cup",
+      "pt_BR": "Copa Seeker",
+      "de_DE": "Seeker-Pokal",
+      "zh_CN": "\u63a2\u7d22\u8005\u676f\u8d5b<<A<<[CHANGED 2019/04/30]",
+      "ja_JP": "\u63a2\u7d22\u8005\u30ab\u30c3\u30d7<<A<<[CHANGED 2019/04/30]",
+      "ko_KR": "\uc2dc\ucee4 \ub300\ud68c<<A<<[CHANGED 2019/04/30]",
+      "langUid": 4,
+      "zh_TW": "\u63a2\u7d22\u8005\u676f\u8cfd<<A<<[CHANGED 2019/04/30]"
+    },
+    "info": {
+      "en_US": "A challenging cup featuring both normal enemies and bosses.",
+      "pt_BR": "Um copa desafiadora que apresenta tanto inimigos normais quanto chefes.",
+      "de_DE": "Ein anspruchsvoller Pokal mit normalen Gegnern und Bossen.",
+      "zh_CN": "\u4e00\u4e2a\u5305\u542b\u666e\u901a\u654c\u4eba\u548cBoss\u7684\u6311\u6218\u676f\u8d5b\u3002<<A<<[CHANGED 2019/04/30]",
+      "ja_JP": "\u901a\u5e38\u306e\u6575\u3084\u30dc\u30b9\u3068\u6226\u3046\u3001\u3088\u308a\u96e3\u6613\u5ea6\u306e\u9ad8\u3044\u30ab\u30c3\u30d7\u3002<<A<<[CHANGED 2019/04/30]",
+      "ko_KR": "\uc77c\ubc18 \uc801\uacfc \ubcf4\uc2a4\uac00 \ubaa8\ub450 \ub4f1\uc7a5\ud558\ub294 \ub3c4\uc804\uc801\uc778 \ub300\ud68c\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2019/04/30]",
+      "langUid": 1,
+      "zh_TW": "\u4e00\u500b\u5305\u542b\u666e\u901a\u6575\u4eba\u548cBoss\u7684\u6311\u6230\u676f\u8cfd\u3002<<A<<[CHANGED 2019/04/30]"
+    },
+    "creator": {
+      "en_US": "R.D.",
+      "pt_BR": "R.D.",
+      "de_DE": "R.D.",
+      "zh_CN": "R.D.<<A<<[CHANGED 2019/04/30]",
+      "ja_JP": "R.D.<<A<<[CHANGED 2019/04/30]",
+      "ko_KR": "R.D.<<A<<[CHANGED 2019/04/30]",
+      "langUid": 30,
+      "zh_TW": "R.D.<<A<<[CHANGED 2019/04/30]"
+    },
+    "music": "challenge",
+    "rushMusic": "raidTheme",
+    "level": 60,
+    "difficulty": "2",
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 280,
+      "offY": 64,
+      "width": 280,
+      "height": 64
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Rusty Robots",
+        "pt_BR": "Robôs Enferrujados",
+        "de_DE": "Rostige Roboter",
+        "zh_CN": "\u9508\u8680\u673a\u5668\u4eba<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\u8d64\u9306\u30ed\u30dc\u30c3\u30c8<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\ub179\uc2a8 \ub85c\ubd07<<A<<[CHANGED 2019/04/30]",
+        "langUid": 22,
+        "zh_TW": "\u93fd\u8755\u6a5f\u5668\u4eba<<A<<[CHANGED 2019/04/30]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 220000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.cold-dng.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos da \\c[3]\\v[area.cold-dng.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus der \\c[3]Tempelmine\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.cold-dng.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\\c[3]\\v[area.cold-dng.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\\c[3]\\v[area.cold-dng.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/30]",
+        "langUid": 23,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.cold-dng.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/30]"
+      },
+      "mods": ["ENVIRO_HAZARD"],
+      "points": 190000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "mine-runbot",
+              "attribs": { "hidden": false, "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "mine-runbot",
+              "attribs": { "hidden": false, "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "mine-kamikatze",
+              "attribs": { "hidden": false, "activeIf": "" }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "mine-diggingbot",
+              "attribs": { "hidden": false, "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn1",
+              "type": "mine-coldbug",
+              "attribs": { "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn2",
+              "type": "mine-coldbug",
+              "attribs": { "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn3",
+              "type": "mine-coldbug",
+              "attribs": { "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn4",
+              "type": "mine-coldbug",
+              "attribs": { "activeIf": "" }
+            }
+          ]
+        }
+      ],
+      "map": "arena.dungeons.cold-dng-01",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 8, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Hungry Worm",
+        "pt_BR": "A Minhoca Faminta",
+        "de_DE": "Der hungrige Wurm",
+        "zh_CN": "\u9965\u997f\u8815\u866b<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\u7a7a\u8179\u306e\u866b<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\ubc30\uace0\ud508 \uc9c0\ub801\uc774<<A<<[CHANGED 2019/05/06]",
+        "langUid": 28,
+        "zh_TW": "\u98e2\u9913\u8815\u87f2<<A<<[CHANGED 2019/05/06]"
+      },
+      "customCode": true,
+      "platPoints": 300000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat a stronger version of the \\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0] boss from \\c[3]\\v[area.heat-area.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0] do \\c[3]\\v[area.heat-area.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0], dem Boss aus dem \\c[3]Maronental\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.heat-area.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0]boss!<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\\c[3]\\v[area.heat-area.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/30]",
+        "langUid": 29,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.heat-area.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.heat/sandworm-boss]\\c[0]boss!<<A<<[CHANGED 2019/04/30]"
+      },
+      "points": 190000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.worm-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 180, "points": 100000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 50000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Hot Hombres",
+        "pt_BR": "Galera Esquentada",
+        "de_DE": "Hitzige Hombres",
+        "zh_CN": "\u72c2\u66b4\u70ed\u6d6a<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\u708e\u306e\u6226\u58eb\u305f\u3061<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\ub728\uac70\uc6b4 \ub0a8\uc790<<A<<[CHANGED 2019/04/30]",
+        "langUid": 5,
+        "zh_TW": "\u72c2\u66b4\u71b1\u6d6a<<A<<[CHANGED 2019/04/30]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 180000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.heat-dng.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.heat-dng.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus dem \\c[3]Faj'ro-Tempel\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.heat-dng.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\\c[3]\\v[area.heat-dng.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\\c[3]\\v[area.heat-dng.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/30]",
+        "langUid": 21,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.heat-dng.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/30]"
+      },
+      "points": 150000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "heat.moth",
+              "attribs": {
+                "supportMode": false,
+                "noBuffs": false,
+                "hidden": false,
+                "activeIf": ""
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "heat.moth",
+              "attribs": {
+                "supportMode": false,
+                "noBuffs": false,
+                "hidden": false,
+                "activeIf": ""
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "heat.darth-moth",
+              "attribs": {
+                "supportMode": false,
+                "noBuffs": false,
+                "hidden": false,
+                "activeIf": ""
+              }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "heat.heat-golem",
+              "attribs": {
+                "supportMode": false,
+                "hidden": false,
+                "activeIf": ""
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": { "alignX": "CENTER", "alignY": "TOP" },
+              "face": "SOUTH",
+              "marker": "SpawnAreaLarge",
+              "type": "heat.jellyfish",
+              "attribs": { "supportMode": true }
+            }
+          ]
+        }
+      ],
+      "map": "arena.dungeons.heat-dng-01",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 5, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Daft Trickster",
+        "pt_BR": "Maldito Malandrinho",
+        "de_DE": "Der hopsende Halunke",
+        "zh_CN": "\u72c2\u95f9\u8bc8\u5f92<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\u72c2\u6c17\u306e\u30c8\u30ea\u30c3\u30af\u30b9\u30bf\u30fc<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\ubaa8\uc790\ub780 \uc0ac\uae30\uafbc<<A<<[CHANGED 2019/05/06]",
+        "langUid": 31,
+        "zh_TW": "\u72c2\u9b27\u8a50\u5f92<<A<<[CHANGED 2019/05/06]"
+      },
+      "customCode": true,
+      "platPoints": 110000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat a stronger version of the \\c[3]\\v[combat.name.daft-frobbit]\\c[0] boss from \\c[3]\\v[area.autumn-fall.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.daft-frobbit]\\c[0] do \\c[3]\\v[area.heat-area.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.daft-frobbit]\\c[0], dem Boss aus \\c[3]Autumn's Fall\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.autumn-fall.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.daft-frobbit]\\c[0]boss!<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.daft-frobbit]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.daft-frobbit]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/05/06]",
+        "langUid": 32,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.autumn-fall.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.daft-frobbit]\\c[0]boss!<<A<<[CHANGED 2019/05/06]"
+      },
+      "points": 80000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.frobbit-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 25000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 5000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Blitz Ballers",
+        "pt_BR": "Monstros Chocantes",
+        "de_DE": "Blitzballer",
+        "zh_CN": "\u95ea\u7535\u6218\u58eb<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\u96fb\u6483\u6a5f\u52d5\u968a<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\ube14\ub9ac\uce20\ubcfc \uc120\uc218<<A<<[CHANGED 2019/04/30]",
+        "langUid": 24,
+        "zh_TW": "\u9583\u96fb\u6230\u58eb<<A<<[CHANGED 2019/04/30]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 125000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.shock-dng.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.shock-dng.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus dem \\c[3]Zir'vitar-Tempel\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.shock-dng.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\\c[3]\\v[area.shock-dng.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\\c[3]\\v[area.shock-dng.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/30]",
+        "langUid": 25,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.shock-dng.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/30]"
+      },
+      "points": 110000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.powerplant",
+              "attribs": { "activeIf": "", "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn1",
+              "type": "jungle.chicken",
+              "attribs": {
+                "activeIf": "",
+                "idAircon": 0,
+                "hidden": false,
+                "mapVar": null
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn2",
+              "type": "jungle.chicken",
+              "attribs": {
+                "activeIf": "",
+                "idAircon": 0,
+                "hidden": false,
+                "mapVar": null
+              }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "jungle.ghost",
+              "attribs": { "hidden": false, "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "jungle.ghost",
+              "attribs": { "hidden": false, "activeIf": "" }
+            }
+          ]
+        }
+      ],
+      "map": "arena.dungeons.shock-dng-01",
+      "bonuses": [
+        { "type": "TIME", "seconds": 75, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 5, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The No-Winged Devil",
+        "pt_BR": "O Dêmonio sem Asas",
+        "de_DE": "Der fl\u00fcgellose Teufel",
+        "zh_CN": "\u65e0\u7ffc\u6076\u9b54<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\u7121\u7ffc\u306e\u60aa\u9b54<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\ub0a0\uac1c \uc5c6\ub294 \uc545\ub9c8<<A<<[CHANGED 2019/05/06]",
+        "langUid": 33,
+        "zh_TW": "\u7121\u7ffc\u60e1\u9b54<<A<<[CHANGED 2019/05/06]"
+      },
+      "customCode": true,
+      "platPoints": 120000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat a stronger version of the \\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0] boss from \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0] do \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0], dem Boss aus \\c[3]Gaias Garten\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0]boss!<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\\c[3]\\v[area.jungle.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/05/06]",
+        "langUid": 34,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.minibosses/sloth-black]\\c[0]boss!<<A<<[CHANGED 2019/05/06]"
+      },
+      "points": 90000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.sloth-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 25000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Groovy Goofers",
+        "pt_BR": "Criaturas Surfistas",
+        "de_DE": "Groovige Gaffer",
+        "zh_CN": "\u97f3\u5f8b\u8282\u62cd<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\u30b0\u30eb\u30fc\u30f4\u30b0\u30eb\u30fc\u30d7<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\uba4b\uc9c4 \uba4d\uccad\uc774<<A<<[CHANGED 2019/04/30]",
+        "langUid": 26,
+        "zh_TW": "\u97f3\u5f8b\u7bc0\u62cd<<A<<[CHANGED 2019/04/30]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 245000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.wave-dng.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.wave-dng.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus dem \\c[3]So'najiz-Tempel\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.wave-dng.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/30]",
+        "ja_JP": "\\c[3]\\v[area.wave-dng.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/30]",
+        "ko_KR": "\\c[3]\\v[area.wave-dng.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/30]",
+        "langUid": 27,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.wave-dng.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/30]"
+      },
+      "points": 210000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "jungle.blob-wave",
+              "attribs": { "summon": "", "activeIf": "", "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "jungle.blob-wave",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn3",
+              "type": "jungle.blob-wave",
+              "attribs": { "summon": "", "activeIf": "", "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn4",
+              "type": "jungle.blob-wave",
+              "attribs": { "summon": "", "activeIf": "", "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": {
+                "alignX": "CENTER",
+                "alignY": "CENTER",
+                "offset": { "x": -16, "y": 0 }
+              },
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.octopus",
+              "attribs": { "activeIf": "", "summon": "", "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": {
+                "alignX": "CENTER",
+                "alignY": "CENTER",
+                "offset": { "x": 16, "y": 0 }
+              },
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.octopus",
+              "attribs": { "activeIf": "", "summon": "", "hidden": false }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.blueray",
+              "attribs": { "activeIf": "", "summon": "", "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn1",
+              "type": "jungle.fish",
+              "attribs": { "activeIf": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn2",
+              "type": "jungle.fish",
+              "attribs": { "activeIf": "" }
+            }
+          ]
+        }
+      ],
+      "map": "arena.dungeons.wave-dng-01",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 9, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Immortal Blade",
+        "pt_BR": "A Lâmina Imortal",
+        "de_DE": "Die unsterbliche Klinge",
+        "zh_CN": "\u4e0d\u673d\u4e4b\u5203<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\u7121\u9650\u306e\u5200\u5263<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\ubd88\uba78\uc758 \uac80<<A<<[CHANGED 2019/05/06]",
+        "langUid": 35,
+        "zh_TW": "\u4e0d\u673d\u4e4b\u5203<<A<<[CHANGED 2019/05/06]"
+      },
+      "customCode": true,
+      "platPoints": 130000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat a stronger version of the \\c[3]\\v[combat.name.forest/samurai-boss]\\c[0] boss from \\c[3]\\v[area.forest.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.forest/samurai-boss]\\c[0] da \\c[3]\\v[area.forest.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.forest/samurai-boss]\\c[0], dem Boss vom \\c[3]Saphirgrat\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.forest.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.forest/samurai-boss]\\c[0]boss!<<A<<[CHANGED 2019/05/06]",
+        "ja_JP": "\\c[3]\\v[area.forest.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.forest/samurai-boss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/05/06]",
+        "ko_KR": "\\c[3]\\v[area.forest.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.forest/samurai-boss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/05/06]",
+        "langUid": 36,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.forest.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.forest/samurai-boss]\\c[0]boss!<<A<<[CHANGED 2019/05/06]"
+      },
+      "points": 100000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.samurai-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 25000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    }
+  ]
+}

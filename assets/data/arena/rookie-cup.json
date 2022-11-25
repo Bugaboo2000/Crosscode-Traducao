@@ -1,0 +1,1241 @@
+{
+  "core": {
+    "type": "SOLO_CUP",
+    "name": {
+      "en_US": "Rookie Cup",
+      "pt_BR": "Copa Iniciante",
+      "de_DE": "Rookie-Pokal",
+      "zh_CN": "\u65b0\u624b\u676f\u8d5b<<A<<[CHANGED 2019/04/16]",
+      "ja_JP": "\u30eb\u30fc\u30ad\u30fc\u30ab\u30c3\u30d7<<A<<[CHANGED 2019/04/16]",
+      "ko_KR": "\ucd08\ubcf4\uc790 \ub300\ud68c<<A<<[CHANGED 2019/04/16]",
+      "langUid": 4,
+      "zh_TW": "\u65b0\u624b\u676f\u8cfd<<A<<[CHANGED 2019/04/16]"
+    },
+    "info": {
+      "en_US": "A cup suited best for all newcomers to the Rhombus Arena.",
+      "pt_BR": "Uma copa mais adequada para todos os recém-chegados à Arena Losango.",
+      "de_DE": "Ein Pokal, der sich am besten f\u00fcr Neueinsteiger der Rhombus-Arena eignet.",
+      "zh_CN": "\u9002\u5408\u521a\u6765\u5230\u7f57\u59c6\u5e03\u65af\u5e7f\u573a\u65b0\u624b\u7684\u676f\u8d5b\u3002<<A<<[CHANGED 2019/04/16]",
+      "ja_JP": "\u30eb\u30fc\u30ad\u30fc\u5411\u3051\u306e\u30ab\u30c3\u30d7\u3067\u3059\uff01<<A<<[CHANGED 2019/04/16]",
+      "ko_KR": "\ub9c8\ub984\ubaa8 \uad11\uc7a5\uc758 \uc2e0\ucd9c\ub0b4\uae30\uc5d0\uac8c \uc801\uc808\ud55c \ub300\ud68c\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2019/04/16]",
+      "langUid": 1,
+      "zh_TW": "\u9069\u5408\u525b\u4f86\u5230\u7f85\u59c6\u5e03\u65af\u5ee3\u5834\u65b0\u624b\u7684\u676f\u8cfd\u3002<<A<<[CHANGED 2019/04/16]"
+    },
+    "creator": {
+      "en_US": "R.D.",
+      "pt_BR": "R.D.",
+      "de_DE": "R.D.",
+      "zh_CN": "R.D.<<A<<[CHANGED 2019/04/30]",
+      "ja_JP": "R.D.<<A<<[CHANGED 2019/04/30]",
+      "ko_KR": "R.D.<<A<<[CHANGED 2019/04/30]",
+      "langUid": 47,
+      "zh_TW": "R.D.<<A<<[CHANGED 2019/04/30]"
+    },
+    "music": "challenge",
+    "rushMusic": "raidTheme",
+    "level": 55,
+    "difficulty": "1",
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 0,
+      "offY": 64,
+      "width": 280,
+      "height": 64
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Afternoon Attackers",
+        "pt_BR": "Atacantes da Tarde",
+        "de_DE": "Abendliche Angreifer",
+        "zh_CN": "\u5348\u95f4\u88ad\u51fb\u8005<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u5915\u95c7\u306e\u8972\u6483\u8005<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc624\ud6c4\uc758 \uacf5\uaca9\uc790<<A<<[CHANGED 2019/04/16]",
+        "langUid": 5,
+        "zh_TW": "\u5348\u9593\u8972\u64ca\u8005<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 120000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus \\c[3]Autumn's Rise\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.autumn-area.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-area.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 21,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.autumn-area.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 90000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "meerkat",
+              "attribs": {}
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "buffalo",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn1",
+              "type": "meerkat",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn2",
+              "type": "meerkat",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.autumn-setting-01",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 6, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Afternoon Adversaries",
+        "pt_BR": "Adversários da Tarde",
+        "de_DE": "Abendliche Antagonisten",
+        "zh_CN": "\u5348\u95f4\u654c\u4eba<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u5915\u95c7\u306e\u8a66\u7df4<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc624\ud6c4\uc758 \uc801<<A<<[CHANGED 2019/04/16]",
+        "langUid": 22,
+        "zh_TW": "\u5348\u9593\u6575\u4eba<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 120000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat stronger enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos mais fortes do \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "de_DE": "Besiege st\u00e4rkere Gegner aus \\c[3]Autumn's Rise\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.autumn-area.name]\\c[0]\u7684\u5f3a\u5316\u7248\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u5f37\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-area.name]\\c[0] \ucd9c\uc2e0\uc758 \ub354 \uac15\ud55c \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 23,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.autumn-area.name]\\c[0]\u7684\u5f37\u5316\u7248\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 90000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "hedgehog-alt",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "hedgehog-alt",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "meerkat-alt",
+              "attribs": {}
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "buffalo-alt",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn1",
+              "type": "meerkat-alt",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn2",
+              "type": "meerkat-alt",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.autumn-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "CHAIN", "target": 6, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Cool Contenders",
+        "pt_BR": "Oponentes Frios",
+        "de_DE": "K\u00fchle Kontrahenten",
+        "zh_CN": "\u51b7\u9177\u5bf9\u624b<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u96ea\u5c71\u306e\u8105\u5a01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ucc28\uac00\uc6b4 \uacbd\uc7c1\uc790<<A<<[CHANGED 2019/04/16]",
+        "langUid": 3,
+        "zh_TW": "\u51b7\u9177\u5c0d\u624b<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 160000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.bergen-trails.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos da \\c[3]\\v[area.bergen-trails.name]\\c[0]!",
+        "de_DE": "Besiege Gegner vom \\c[3]Bergen-Trail\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.bergen-trails.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.bergen-trails.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.bergen-trails.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 16,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.bergen-trails.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 140000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 7,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "gray-frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "gray-frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn4",
+              "type": "gray-frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn3",
+              "type": "gray-frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "seahorse",
+              "attribs": {}
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "penguin",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "penguin",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "goat",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.bergen-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 60, "points": 20000 },
+        { "type": "CHAIN", "target": 8, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Chilly Challengers",
+        "pt_BR": "Desafiantes Gelados",
+        "de_DE": "K\u00fchle Konterparts",
+        "zh_CN": "\u5bd2\u51b0\u6311\u6218\u8005<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u51cd\u3048\u308b\u6311\u6226\u8005<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ucc28\uac00\uc6b4 \ub3c4\uc804\uc790<<A<<[CHANGED 2019/04/16]",
+        "langUid": 29,
+        "zh_TW": "\u5bd2\u51b0\u6311\u6230\u8005<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 180000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat stronger enemies hailing from \\c[3]\\v[area.bergen-trails.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos mais fortes da \\c[3]\\v[area.bergen-trails.name]\\c[0]!",
+        "de_DE": "Besiege st\u00e4rkere Gegner vom \\c[3]Bergen-Trail\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.bergen-trails.name]\\c[0]\u7684\u5f3a\u5316\u7248\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.bergen-trails.name]\\c[0]\u306e\u5f37\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.bergen-trails.name]\\c[0] \ucd9c\uc2e0\uc758 \ub354 \uac15\ud55c \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 30,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.bergen-trails.name]\\c[0]\u7684\u5f37\u5316\u7248\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 160000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 31,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn4",
+              "type": "frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn3",
+              "type": "frobbit",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "goat",
+              "attribs": {}
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "snowman",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn1",
+              "type": "goat",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "Spawn2",
+              "type": "goat",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.bergen-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 75, "points": 20000 },
+        { "type": "CHAIN", "target": 8, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Desert Devils",
+        "pt_BR": "Demônios do Deserto",
+        "de_DE": "W\u00fcsten-Volande",
+        "zh_CN": "\u6c99\u6f20\u6076\u9b54<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u7802\u6f20\u306e\u60aa\u9b54<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc0ac\ub9c9\uc758 \uc545\ub9c8<<A<<[CHANGED 2019/04/16]",
+        "langUid": 32,
+        "zh_TW": "\u6c99\u6f20\u60e1\u9b54<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 175000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.heat-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.heat-area.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus dem \\c[3]Maronental\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.heat-area.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.heat-area.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 33,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.heat-area.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 155000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 34,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "heat.sandshark",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "heat.sandshark",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": {
+                "alignX": "LEFT",
+                "alignY": "CENTER",
+                "offset": { "x": 8, "y": 0 }
+              },
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "heat.scorpion",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": {
+                "alignX": "RIGHT",
+                "alignY": "CENTER",
+                "offset": { "x": -8, "y": 0 }
+              },
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "heat.scorpion",
+              "attribs": {}
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "heat.drillertoise",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "heat.drillertoise",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "heat.sandworm",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.maroon-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 60, "points": 20000 },
+        { "type": "CHAIN", "target": 7, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Bulky Bullies",
+        "pt_BR": "Valentões Rabugentos",
+        "de_DE": "Grantige Grobiane",
+        "zh_CN": "\u5927\u6076\u68cd<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u5f37\u976d\u306a\u308b\u5f37\u6575<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ub369\uce58 \ud070 \uace8\ubaa9\ub300\uc7a5<<A<<[CHANGED 2019/04/16]",
+        "langUid": 35,
+        "zh_TW": "\u5927\u60e1\u68cd<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 135000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.autumn-fall.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.autumn-fall.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus \\c[3]Autumn's Fall\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.autumn-fall.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-fall.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 36,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.autumn-fall.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 120000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 37,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "autumn-fall.hedgehog-fall",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "autumn-fall.hedgehog-fall",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "autumn-fall.meerkat-fall",
+              "attribs": {}
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "autumn-fall.buffalo-fall",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn3",
+              "type": "autumn-fall.seahorse-fall",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn4",
+              "type": "autumn-fall.seahorse-fall",
+              "attribs": { "hidden": false }
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.autumn-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 60, "points": 20000 },
+        { "type": "CHAIN", "target": 6, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Forest Foes",
+        "pt_BR": "Inimigos da Selva",
+        "de_DE": "Wald-Widersacher",
+        "zh_CN": "\u4e1b\u6797\u654c\u624b<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u68ee\u6797\u306e\u72e9\u4eba<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc232\uc758 \uc801<<A<<[CHANGED 2019/04/16]",
+        "langUid": 38,
+        "zh_TW": "\u53e2\u6797\u6575\u624b<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 190000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "de_DE": "Besiege Gegner aus \\c[3]Gaias Garten\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.jungle.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 39,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 150000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 40,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "jungle.plant",
+              "attribs": {
+                "goalID": "",
+                "idAircon": 0,
+                "summon": "",
+                "hidden": false,
+                "mapVar": null
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "jungle.plant",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.parrot",
+              "attribs": { "summon": "" }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "jungle.blob",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "jungle.blob",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn3",
+              "type": "jungle.blob",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn4",
+              "type": "jungle.blob",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": {
+                "alignX": "CENTER",
+                "alignY": "CENTER",
+                "offset": { "x": 16, "y": 0 }
+              },
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.fish",
+              "attribs": { "goalID": "" }
+            },
+            {
+              "group": "",
+              "party": "",
+              "align": {
+                "alignX": "CENTER",
+                "alignY": "CENTER",
+                "offset": { "x": -16, "y": 0 }
+              },
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.fish",
+              "attribs": { "summon": "" }
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.jungle-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 45, "points": 20000 },
+        { "type": "CHAIN", "target": 9, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Forest Fiends",
+        "pt_BR": "Patifes da Selva",
+        "de_DE": "Wald-W\u00fcteriche",
+        "zh_CN": "\u4e1b\u6797\u6076\u9b3c<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u68ee\u306b\u6f5c\u3080\u9b54\u7269<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc232\uc758 \uc545\ub839<<A<<[CHANGED 2019/04/16]",
+        "langUid": 41,
+        "zh_TW": "\u53e2\u6797\u60e1\u9b3c<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 150000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat more enemies hailing from \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "pt_BR": "Derrote mais inimigos do \\c[3]\\v[area.jungle.name]\\c[0]!",
+        "de_DE": "Besiege st\u00e4rkere Gegner aus \\c[3]Gaias Garten\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u66f4\u591a\u6765\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306e\u6575\u3092\u3082\u3063\u3068\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.jungle.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ub354 \ub9ce\uc774 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 42,
+        "zh_TW": "\u64ca\u6557\u66f4\u591a\u4f86\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 130000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 43,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "jungle.parrot",
+              "attribs": {
+                "goalID": "",
+                "idAircon": 0,
+                "summon": "",
+                "hidden": false,
+                "mapVar": null
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "jungle.parrot",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.plant",
+              "attribs": { "summon": "" }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "jungle.shockcat",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "jungle.shockcat",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "jungle.sloth",
+              "attribs": { "summon": "" }
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.jungle-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 60, "points": 20000 },
+        { "type": "CHAIN", "target": 6, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Ridge Rivals",
+        "pt_BR": "Rivais da Serra",
+        "de_DE": "R\u00fcde Rivalen",
+        "zh_CN": "\u5c71\u8109\u4e4b\u654c<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30ea\u30c3\u30b8\u30fb\u30e9\u30a4\u30d0\u30eb<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc0b0\ub9e5\uc758 \ub77c\uc774\ubc8c<<A<<[CHANGED 2019/04/16]",
+        "langUid": 44,
+        "zh_TW": "\u5c71\u8108\u4e4b\u6575<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 160000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.forest.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos da \\c[3]\\v[area.forest.name]\\c[0]!",
+        "de_DE": "Besiege Gegner vom \\c[3]Saphirgrat\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u66f4\u591a\u6765\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u654c\u4eba!<<A<<[CHANGED 2019/05/14]",
+        "ja_JP": "\\c[3]\\v[area.forest.name]\\c[0]\u306e\u6575\u3092\u3082\u3063\u3068\u5012\u305b\uff01<<A<<[CHANGED 2019/05/14]",
+        "ko_KR": "\\c[3]\\v[area.jungle.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/05/14]",
+        "langUid": 45,
+        "zh_TW": "\u64ca\u6557\u66f4\u591a\u4f86\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u7684\u6575\u4eba!<<A<<[CHANGED 2019/05/14]"
+      },
+      "points": 140000,
+      "type": "DEFAULT",
+      "featuring": [
+        {
+          "en_US": "Some Old Dudes",
+          "pt_BR": "Velhos Conhecidos",
+          "langUid": 46,
+          "zh_CN": "\u4e00\u4e9b\u8001\u5bb6\u4f19<<A<<[CHANGED 2019/04/16]",
+          "ko_KR": "\uc5b4\ub5a4 \ub178\uc778<<A<<[CHANGED 2019/04/16]",
+          "ja_JP": "\u53e4\u304d\u826f\u304d\u53cb<<A<<[CHANGED 2019/04/16]",
+          "de_DE": "Alte Bekannte",
+          "zh_TW": "\u4e00\u4e9b\u8001\u50a2\u4f19<<A<<[CHANGED 2019/04/16]"
+        }
+      ],
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "forest.bug-samurai-heat",
+              "attribs": {
+                "goalID": "",
+                "idAircon": 0,
+                "summon": "",
+                "hidden": false,
+                "mapVar": null
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "state": "DEFAULT",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "forest.bug-samurai-shock",
+              "attribs": {
+                "goalID": "",
+                "idAircon": 0,
+                "summon": "",
+                "hidden": false,
+                "mapVar": null
+              }
+            }
+          ]
+        },
+        {
+          "camFocus": "CAM_FOCUS",
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn1",
+              "type": "forest.spider",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn3",
+              "type": "forest.spider",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn2",
+              "type": "forest.spider",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn4",
+              "type": "forest.spider",
+              "attribs": {}
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "SpawnAreaLarge",
+              "type": "forest.panda",
+              "attribs": { "hidden": false }
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.forest-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 60, "points": 20000 },
+        { "type": "CHAIN", "target": 7, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    }
+  ]
+}

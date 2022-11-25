@@ -21973,7 +21973,7 @@
           {
             "message": {
               "en_US": "Oh! Hello, Lea!",
-              "pt_BR": "Oh! Olá, Lea!",
+              "pt_BR": "Ah! Olá, Lea!",
               "de_DE": "Oh! Hallo, Lea!",
               "zh_CN": "\u5662\uff01\u54c8\u55bd\uff0c\u8389\u4e9a\uff01<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u304a\u3084\uff01\u3053\u3093\u306b\u3061\u306f\u3001\u30ec\u30a2\uff01<<A<<[CHANGED 2018/07/09]",
@@ -22033,7 +22033,7 @@
           {
             "message": {
               "en_US": "Actually, this is very convenient, since I wanted to speak with you.",
-              "pt_BR": "Na verdade, isto é muito conveniente, já que eu queria falar com você.",
+              "pt_BR": "Na verdade, isso é muito conveniente, já que eu queria falar com você.",
               "de_DE": "Das passt gerade wunderbar, weil ich mit dir reden wollte.",
               "zh_CN": "\u4e0d\u8fc7\u6b63\u597d\uff0c\u6211\u6709\u8bdd\u8ddf\u4f60\u8bf4\u3002<<A<<[CHANGED 2019/02/01]",
               "ja_JP": "\u307e\u3042\u3001\u3042\u306a\u305f\u306b\u8a71\u3057\u305f\u3044\u3053\u3068\u304c\n\u3042\u3063\u305f\u306e\u3067\u3061\u3087\u3046\u3069\u3044\u3044\u3093\u3067\u3059\u3051\u3069\u3002<<A<<[CHANGED 2019/02/01]",
@@ -22506,7 +22506,7 @@
           {
             "message": {
               "en_US": "There is still enough \\c[3]time to prepare\\c[0]. You should make sure your \\c[3]stats\\c[0] and \\c[3]equipment level\\c[0] are as high as possible.",
-              "pt_BR": "Ainda há \\c[3]tempo suficiente\\c[0] para nos preparamos. Você deve se certificar que os seus \\c[3]stats\\c[0] e \\c[3]níveis de equipamento\\c[0] estejam bastante altos.",
+              "pt_BR": "Ainda há \\c[3]tempo suficiente\\c[0] para nos preparamos. Você deve se certificar que os seus \\c[3]atributos\\c[0] e \\c[3]níveis de equipamento\\c[0] estejam bastante altos.",
               "de_DE": "Es bleibt uns noch gen\u00fcgend \\c[3]Zeit zum Vorbereiten\\c[0]. Deine \\c[3]Stats\\c[0] und dein \\c[3]Ausr\u00fcstungslevel\\c[0] sollten daf\u00fcr so hoch wie m\u00f6glich sein.",
               "zh_CN": "\u6211\u4eec\u8fd8\u6709\u65f6\u95f4\\c[3]\u8fdb\u884c\u51c6\u5907\\c[0]\u3002\u4f60\u9700\u8981\u5c3d\u91cf\u63d0\u9ad8\u4f60\u7684\\c[3]\u5c5e\u6027\\c[0]\uff0c\u5c3d\u53ef\u80fd\u7684\u63d0\u9ad8\\c[3]\u88c5\u5907\u7b49\u7ea7\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\u6e96\u5099\u3059\u308b\u6642\u9593\\c[0]\u306f\u307e\u3060\u5341\u5206\u306b\u3042\u308b\u3002\n\\c[3]\u30b9\u30c6\u30fc\u30bf\u30b9\\c[0]\u3068\\c[3]\u88c5\u5099\u54c1\u306e\u30ec\u30d9\u30eb\\c[0]\u306f\n\u3042\u3052\u3089\u308c\u308b\u3060\u3051\u3042\u3052\u3066\u304a\u3044\u305f\u307b\u3046\u304c\u3044\u3044\u3002<<A<<[CHANGED 2018/07/09]",
@@ -22521,7 +22521,7 @@
           {
             "message": {
               "en_US": "It might be worthwhile to visit \\c[3]Rhombus Square\\c[0] for that.",
-              "pt_BR": "Talvez valha a pena visitar \\c[3]Praça Losango\\c[0] para isso.",
+              "pt_BR": "Talvez seja bom visitar a \\c[3]Praça Losango\\c[0] para isso.",
               "de_DE": "Dazu w\u00fcrde sich ein kurzer Abstecher nach \\c[3]Rhombus Square\\c[0] anbieten.",
               "zh_CN": "\u6240\u4ee5\\c[3]\u7f57\u59c6\u5e03\u65af\u5e7f\u573a\\c[0]\u503c\u5f97\u4e00\u53bb\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\u30ed\u30f3\u30d0\u30b9\u5e83\u5834\\c[0]\u306b\n\u884c\u3063\u3066\u307f\u308b\u3068\u3044\u3044\u304b\u3082\u306d\u3002<<A<<[CHANGED 2018/07/09]",
@@ -32377,7 +32377,7 @@
           {
             "message": {
               "en_US": "Albert will pick you up at the \\c[3]sky rail station in Rhombus Square - South Arch\\c[0] and lead the way.",
-              "pt_BR": "Albert irá buscá-la na \\c[3]estação ferroviária aérea no Arco Sul - Praça Losango\\c[0].",
+              "pt_BR": "Albert irá buscá-la no \\c[3]trilho do céu no Arco Sul - Praça Losango\\c[0].",
               "de_DE": "Albert holt dich an der \\c[3]Laserbahn-Station S\u00fcdbogen in Rhombus Square\\c[0] ab und f\u00fchrt dich dort hin.",
               "zh_CN": "\u57c3\u5c14\u4f2f\u7279\u4f1a\u5728\\c[3]\u7f57\u59c6\u5e03\u65af\u5e7f\u573a - \u5357\u62f1\u95e8\u7684\u7a7a\u8f68\u7ad9\\c[0]\u63a5\u4f60\u7136\u540e\u5e26\u4f60\u53bb\u3002<<A<<[CHANGED 2018/08/28]",
               "ja_JP": "\u30a2\u30eb\u30d0\u30fc\u30c8\u304c\\c[3]\u30ed\u30f3\u30d0\u30b9\u5e83\u5834\u3001\u5357\u306e\u30a2\u30fc\u30c1\u306e\n\u30b9\u30ab\u30a4\u30ec\u30fc\u30eb\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3\\c[0]\u307e\u3067\n\u8fce\u3048\u306b\u6765\u3066\u9053\u6848\u5185\u3057\u3066\u304f\u308c\u308b\u3088\u3002<<A<<[CHANGED 2018/08/28]",
@@ -32423,7 +32423,7 @@
           {
             "task": {
               "en_US": "Meet Albert at the \\c[3]Sky Rail Station\\c[0] in \\c[3]Rhombus Square - South Arch\\c[0].",
-              "pt_BR": "Encontre Albert na \\c[3]estação ferroviária aérea\\c[0] em \\c[3]Arco Sul - Praça Losango\\c[0].",
+              "pt_BR": "Encontre Albert na \\c[3]Estação do Trilho do Céu\\c[0] em \\c[3]Arco Sul - Praça Losango\\c[0].",
               "langUid": 1492,
               "de_DE": "Triff Albert an der \\c[3]Laserbahn-Station S\u00fcdbogen in Rhombus Square\\c[0].",
               "ja_JP": "\\c[3]\u30ed\u30f3\u30d0\u30b9\u5e83\u5834 - \u5357\u306e\u30a2\u30fc\u30c1\\c[0]\u306e\n\\c[3]\u30b9\u30ab\u30a4\u30ec\u30fc\u30eb\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3\\c[0]\u3067\n\u30a2\u30eb\u30d0\u30fc\u30c8\u3068\u4f1a\u304a\u3046\u3002<<A<<[CHANGED 2018/08/28]",

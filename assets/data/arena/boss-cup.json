@@ -1,0 +1,343 @@
+{
+  "core": {
+    "type": "SOLO_CUP",
+    "name": {
+      "en_US": "Dungeon Boss Cup",
+      "pt_BR": "Copa de Chefões de Dungeon",
+      "de_DE": "Bosspokal",
+      "zh_CN": "Boss\u676f\u8d5b<<A<<[CHANGED 2019/04/30]",
+      "zh_TW": "Boss\u676f\u8cfd<<A<<[CHANGED 2019/04/30]",
+      "ja_JP": "\u30c0\u30f3\u30b8\u30e7\u30f3\u30dc\u30b9\u30ab\u30c3\u30d7<<A<<[CHANGED 2019/04/30]",
+      "ko_KR": "\ubcf4\uc2a4 \ub300\ud68c<<A<<[CHANGED 2019/04/30]",
+      "langUid": 4
+    },
+    "info": {
+      "en_US": "Take on stronger versions of the boss fights of all the temples and dungeons.",
+      "pt_BR": "Enfrente versões mais fortes das lutas dos chefes de todos os templos e dungeons.",
+      "de_DE": "K\u00e4mpfe gegen st\u00e4rkere Versionen der Bosse aus allen Tempeln und Dungeons.",
+      "zh_CN": "\u6311\u6218\u5f3a\u5316\u7248\u7684\u5168\u795e\u5e99/\u5730\u7262boss\u6218\u3002<<A<<[CHANGED 2019/04/16]",
+      "zh_TW": "\u6311\u6230\u5f37\u5316\u7248\u7684\u5168\u795e\u5edf/\u5730\u7262boss\u6230\u3002<<A<<[CHANGED 2019/04/16]",
+      "ja_JP": "\u795e\u6bbf\u3084\u30c0\u30f3\u30b8\u30e7\u30f3\u306e\u30dc\u30b9\u305f\u3061\u304c\u3001\u3088\u308a\u624b\u5f37\u304f\u306a\u3063\u3066\u5e30\u3063\u3066\u304d\u305f\u3002<<A<<[CHANGED 2019/04/16]",
+      "ko_KR": "\ub354 \uac15\ub825\ud574\uc9c4 \ubaa8\ub4e0 \uc0ac\uc6d0\uacfc \ub358\uc804\uc758 \ubcf4\uc2a4 \uc804\ud22c\uc5d0 \ub3c4\uc804\ud558\uc138\uc694.<<A<<[CHANGED 2019/04/16]",
+      "langUid": 1
+    },
+    "creator": {
+      "en_US": "Lachsen",
+      "pt_BR": "Lachsen",
+      "de_DE": "Lachsen",
+      "zh_CN": "Lachsen<<A<<[CHANGED 2019/04/30]",
+      "zh_TW": "Lachsen<<A<<[CHANGED 2019/04/30]",
+      "ja_JP": "Lachsen<<A<<[CHANGED 2019/04/30]",
+      "ko_KR": "Lachsen<<A<<[CHANGED 2019/04/30]",
+      "langUid": 44
+    },
+    "level": 60,
+    "difficulty": "3",
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 280,
+      "offY": 0,
+      "width": 276,
+      "height": 64
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "The Lethal Turret",
+        "pt_BR": "A Torre Letal",
+        "de_DE": "Das Gesch\u00fctz des Todes",
+        "zh_CN": "\u81f4\u547d\u70ae\u53f0<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u6bba\u4eba\u30bf\u30ec\u30c3\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uce58\uba85\uc801\uc778 \ud3ec\ud0d1<<A<<[CHANGED 2019/04/16]",
+        "langUid": 28,
+        "zh_TW": "\u81f4\u547d\u7832\u81fa<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 350000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.turret-boss]\\c[0] boss from \\c[3]\\v[area.rhombus-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do chefão \\c[3]\\v[combat.name.turret-boss]\\c[0] da \\c[3]\\v[area.rhombus-dng.name]\\c[0]!",
+        "langUid": 29,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.rhombus-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.turret-boss]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.rhombus-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.turret-boss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.rhombus-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.turret-boss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.turret-boss]\\c[0], dem Boss aus dem \\c[3]\\v[area.rhombus-dng.name]\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.rhombus-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.turret-boss]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 250000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.turret-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 45, "points": 100000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Frozen Robot",
+        "pt_BR": "O Robô Congelado",
+        "de_DE": "Der gefrorene Roboter",
+        "zh_CN": "\u5bd2\u51b0\u673a\u68b0<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u51cd\u3066\u3064\u304f\u30ed\u30dc\u30c3\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc5b8 \ub85c\ubd07<<A<<[CHANGED 2019/04/16]",
+        "langUid": 42,
+        "zh_TW": "\u5bd2\u51b0\u6a5f\u68b0<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 150000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0] boss from \\c[3]\\v[area.cold-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0] da \\c[3]\\v[area.cold-dng.name]\\c[0]!",
+        "langUid": 43,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.cold-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.cold-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.cold-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0], dem Boss aus der \\c[3]Tempelmine\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.cold-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.mine-diggingbot-cold]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 120000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.cold-midboss",
+      "bonuses": [{ "type": "TIME", "seconds": 45, "points": 50000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Colossal Gear",
+        "pt_BR": "A Máquina Colossal",
+        "de_DE": "Das gewaltige Ger\u00e4t",
+        "zh_CN": "\u5408\u91d1\u5de8\u517d<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "\u5408\u91d1\u5de8\u7378<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u5de8\u795e\u6a5f\u5175<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\uac70\ub300\ud55c \uc7a5\ube44<<A<<[CHANGED 2021/05/04]",
+        "langUid": 26
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 230000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.boss-driller]\\c[0] boss from \\c[3]\\v[area.cold-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.boss-driller]\\c[0] da \\c[3]\\v[area.cold-dng.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.boss-driller]\\c[0], dem Boss aus der \\c[3]Tempelmine\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.cold-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.boss-driller]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.cold-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.boss-driller]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.cold-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.boss-driller]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.cold-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.boss-driller]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 33
+      },
+      "points": 200000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.cold-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 120, "points": 100000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Fierce Antlion",
+        "pt_BR": "A Formiga-Leão Feroz",
+        "de_DE": "Der wilde Ameisenl\u00f6we",
+        "zh_CN": "\u706b\u7130\u8681\u72ee<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u6b8b\u5fcd\u306a\u308b\u87fb\u5730\u7344<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ub9f9\ub82c\ud55c \uac1c\ubbf8\uadc0\uc2e0<<A<<[CHANGED 2019/04/16]",
+        "langUid": 30,
+        "zh_TW": "\u706b\u7130\u87fb\u7345<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 120000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.heat/antlion]\\c[0] boss from \\c[3]\\v[area.heat-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.heat/antlion]\\c[0] do \\c[3]\\v[area.heat-dng.name]\\c[0]!",
+        "langUid": 31,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.heat-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.heat/antlion]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.heat-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.heat/antlion]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.heat-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.heat/antlion]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.heat/antlion]\\c[0], dem Boss aus dem \\c[3]Faj'ro-Tempel\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.heat-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.heat/antlion]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 100000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.heat-midboss",
+      "bonuses": [{ "type": "TIME", "seconds": 45, "points": 50000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Gigantic Moth",
+        "pt_BR": "A Mariposa Gigante",
+        "de_DE": "Die gigantische Motte",
+        "zh_CN": "\u956d\u5c04\u5de8\u86fe<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u5de8\u5927\u306a\u708e\u86fe<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uac70\ub300\ud55c \ub098\ubc29<<A<<[CHANGED 2019/04/16]",
+        "langUid": 32,
+        "zh_TW": "\u9433\u5c04\u5de8\u86fe<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 280000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.heat/megamoth]\\c[0] boss from \\c[3]\\v[area.heat-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.heat/megamoth]\\c[0] do \\c[3]\\v[area.heat-dng.name]\\c[0]!",
+        "langUid": 27,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.heat-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.heat/megamoth]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.heat-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.heat/megamoth]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.heat-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.heat/megamoth]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.heat/megamoth]\\c[0], dem Boss aus dem \\c[3]Faj'ro-Tempel\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.heat-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.heat/megamoth]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 240000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.heat-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 90, "points": 100000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Ghost of Lightning",
+        "pt_BR": "O Fantasma do Raio",
+        "de_DE": "Der Geist des Blitzes",
+        "zh_CN": "\u95ea\u7535\u5e7d\u9b42<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u96f7\u5149\u306e\u5e7b\u5f71<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ubc88\uac1c\uc758 \uc794\uc0c1<<A<<[CHANGED 2019/04/16]",
+        "langUid": 36,
+        "zh_TW": "\u9583\u96fb\u5e7d\u9b42<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 170000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.jungle/shockboss]\\c[0] boss from \\c[3]\\v[area.shock-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.jungle/shockboss]\\c[0] do \\c[3]\\v[area.shock-dng.name]\\c[0]!",
+        "langUid": 37,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.shock-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.jungle/shockboss]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.shock-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.jungle/shockboss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.shock-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.jungle/shockboss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.jungle/shockboss]\\c[0], dem Boss aus dem \\c[3]Zir'vitar-Tempel\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.shock-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.jungle/shockboss]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 120000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.shock-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 60, "points": 50000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Mighty Blob",
+        "pt_BR": "O Poderoso Slime",
+        "de_DE": "Der m\u00e4chtige Blob",
+        "zh_CN": "\u86ee\u529b\u9ecf\u4f53<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30de\u30a4\u30c6\u30a3\u30b9\u30e9\u30a4\u30e0<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uac15\ub825\ud55c \ubb3c\ubc29\uc6b8<<A<<[CHANGED 2019/04/16]",
+        "langUid": 34,
+        "zh_TW": "\u883b\u529b\u9ecf\u9ad4<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 500000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.jungle/waveboss]\\c[0] boss from \\c[3]\\v[area.wave-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.jungle/waveboss]\\c[0] do \\c[3]\\v[area.wave-dng.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.jungle/waveboss]\\c[0], dem Boss aus dem \\c[3]So'najiz-Tempel\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.wave-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.jungle/waveboss]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.wave-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.jungle/waveboss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.wave-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.jungle/waveboss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "langUid": 35,
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.wave-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.jungle/waveboss]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 400000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.wave-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 90, "points": 100000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Ape Warrior",
+        "pt_BR": "O Guerreiro Macaco",
+        "de_DE": "Der Affenkrieger",
+        "zh_CN": "\u795e\u733f<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u733f\u306e\u6226\u58eb<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\uc720\uc778\uc6d0 \uc804\uc0ac<<A<<[CHANGED 2019/04/16]",
+        "langUid": 38,
+        "zh_TW": "\u795e\u733f<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 160000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0] boss from \\c[3]\\v[area.tree-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0] do \\c[3]\\v[area.tree-dng.name]\\c[0]!",
+        "langUid": 39,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.tree-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.tree-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.tree-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0], dem Boss aus dem \\c[3]Gro\u00dfen Krys'kajo\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.tree-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 120000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.ape-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 90, "points": 50000 }],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "The Monstrous Whale",
+        "pt_BR": "A Baleia Monstruosa",
+        "de_DE": "Der monstr\u00f6se Wal",
+        "zh_CN": "\u5de8\u9cb8<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u602a\u7363\u30af\u30b8\u30e9<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ubb34\uc2dc\ubb34\uc2dc\ud55c \uace0\ub798<<A<<[CHANGED 2019/04/16]",
+        "langUid": 40,
+        "zh_TW": "\u5de8\u9be8<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 580000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Beat stronger versions of the \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0] and \\c[3]\\v[combat.name.jungle/whale-boss]\\c[0] boss from \\c[3]\\v[area.tree-dng.name]\\c[0]!",
+        "pt_BR": "Vença uma versão mais forte do boss \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0] e do boss \\c[3]\\v[combat.name.jungle/whale-boss]\\c[0] do \\c[3]\\v[area.tree-dng.name]\\c[0]!",
+        "langUid": 41,
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.tree-dng.name]\\c[0]\u7684\u5f3a\u5316\u7248\\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]\u4e0e\\c[3]\\v[combat.name.jungle/whale-boss]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.tree-dng.name]\\c[0]\uc758 \ubcf4\uc2a4\uc778 \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]\uacfc \\c[3]\\v[combat.name.jungle/whale-boss]\\c[0]\uc758 \ub354 \uac15\ud55c \ubc84\uc804\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.tree-dng.name]\\c[0]\u306e\u30dc\u30b9\u3001\\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]\u3068\\c[3]\\v[combat.name.jungle/whale-boss]\\c[0]\u306e\u5f37\u5316\u7248\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "Besiege st\u00e4rkere Versionen von \\c[3]\\v[combat.name.jungle/ape-boss]\\c[0] und \\c[3]\\v[combat.name.jungle/whale-boss]\\c[0], den Bossen aus dem \\c[3]Gro\u00dfen Krys'kajo\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.tree-dng.name]\\c[0]\u7684\u5f37\u5316\u7248\\c[3]\\v[combat.name.jungle/ape-boss]\\c[0]\u8207\\c[3]\\v[combat.name.jungle/whale-boss]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 450000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.boss.whale-boss",
+      "bonuses": [{ "type": "TIME", "seconds": 240, "points": 200000 }],
+      "spawn": "PLAYER_SPAWN"
+    }
+  ]
+}
