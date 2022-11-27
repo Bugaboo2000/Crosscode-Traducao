@@ -9528,6 +9528,7 @@
       "order": 112,
       "name": {
         "en_US": "Galaxy Berry",
+        "pt_BR": "Baga da Galáxia",
         "de_DE": "Galaxiebeere",
         "fr_FR": "undefined",
         "zh_CN": "\u94f6\u6cb3\u6d46\u679c",
@@ -9538,6 +9539,7 @@
       },
       "description": {
         "en_US": "Strange shimmering fruit. The inside seems to magically spin.",
+        "pt_BR": "Estranho fruto cintilante. O interior parece girar magicamente.",
         "de_DE": "Seltsam schimmernde Frucht. Das Innere scheint sich magischerweise zu drehen.",
         "fr_FR": "undefined",
         "zh_CN": "\u95ea\u95ea\u53d1\u4eae\u7684\u5947\u602a\u6c34\u679c\u3002\u5185\u90e8\u4f3c\u4e4e\u80fd\u9b54\u6cd5\u4f3c\u5730\u65cb\u8f6c\u3002",
@@ -11990,6 +11992,7 @@
       "order": 52,
       "name": {
         "en_US": "Burglar's Rope",
+        "pt_BR": "Corda de Assaltante",
         "de_DE": "R\u00e4uberseil",
         "fr_FR": "undefined",
         "zh_CN": "\u76d7\u8d3c\u7ef3<<A<<[CHANGED 2019/07/31]",
@@ -12000,6 +12003,7 @@
       },
       "description": {
         "en_US": "According to lore wrapping this around your head will bring you fortune.",
+        "pt_BR": "De acordo com a lenda, enrolar isso em torno de sua cabeça lhe trará fortuna.",
         "de_DE": "Um den Kopf gewickelt f\u00fchrt es dich der Legende nach zu Reichtum.",
         "fr_FR": "undefined",
         "zh_CN": "\u636e\u8bf4\u628a\u5b83\u5957\u5728\u4f60\u7684\u5934\u4e0a\uff0c\u5c31\u80fd\u5e26\u6765\u8d22\u5bcc\u3002",
@@ -13777,6 +13781,7 @@
       "order": 176,
       "name": {
         "en_US": "Mysterious Box",
+        "pt_BR": "Caixa Misteriosa",
         "de_DE": "Mysteri\u00f6se Kiste",
         "fr_FR": "undefined",
         "zh_CN": "\u795e\u79d8\u7bb1<<A<<[CHANGED 2017/07/01]",
@@ -13787,6 +13792,7 @@
       },
       "description": {
         "en_US": "A sturdy box of ever-changing size. Very popular with artists in Ancient times.",
+        "pt_BR": "Caixa robusta que muda de tamanho. Muito popular entre os artistas na antiguidade.",
         "de_DE": "Robuste Kiste, die st\u00e4ndig ihre Gr\u00f6\u00dfe \u00e4ndert. Zur Ahnenzeit bei K\u00fcnstlern sehr beliebt.",
         "fr_FR": "undefined",
         "zh_CN": "\u5f62\u72b6\u53d8\u5e7b\u83ab\u6d4b\u7684\u575a\u5b9e\u7bb1\u5b50\u3002\u5728\u53e4\u4ee3\u7684\u827a\u672f\u5bb6\u4e2d\u5f88\u6d41\u884c\u3002<<A<<[CHANGED 2017/07/01]",
@@ -15930,6 +15936,7 @@
       "order": 35,
       "name": {
         "en_US": "Old Dojo Key",
+        "pt_BR": "Chave do Dojo Antigo",
         "de_DE": "Dojoschl\u00fcssel",
         "fr_FR": "undefined",
         "zh_CN": "\u65e7\u9053\u573a\u94a5\u5319<<A<<[CHANGED 2018/07/09]",
@@ -15940,6 +15947,7 @@
       },
       "description": {
         "en_US": "A roundish plate that serves as a key to open \\c[3]the Dojo in \\v[area.forest.name]\\c[0].",
+        "pt_BR": "Uma placa arredondada que serve como chave para abrir o Dojo na \\v[area.forest.name]\\c[0].",
         "de_DE": "Runde Scheibe, die als Schl\u00fcssel f\u00fcr das Alte Dojo auf dem \\c[3]Saphirgrat\\c[0] dient.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u5706\u76d8\u5f62\u72b6\u7684\u94a5\u5319\uff0c\u53ef\u4ee5\u7528\u6765\u6253\u5f00 \\c[3]\\v[area.forest.name]\\c[0]\u7684\u65e7\u9053\u573a\u3002<<A<<[CHANGED 2018/09/17]",
@@ -15959,6 +15967,7 @@
       "order": 154,
       "name": {
         "en_US": "Twilight Shard",
+        "pt_BR": "Fragmento do Crepúsculo",
         "de_DE": "Zwielichtsplitter",
         "fr_FR": "undefined",
         "zh_CN": "\u66ae\u5149\u788e\u7247<<A<<[CHANGED 2018/07/09]",
@@ -15969,6 +15978,7 @@
       },
       "description": {
         "en_US": "A piece from the armor of the \\c[3]\\v[combat.name.forest/samurai-boss]\\c[0].",
+        "pt_BR": "Um pedaço da armadura do \\c[3]\\v[combat.name.forest/samurai-boss]\\c[0].",
         "de_DE": "Ein St\u00fcck von der R\u00fcstung des \\c[3]Meisters des Zwielichts\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\\c[3]\\v[combat.name.forest/samurai-boss]\\c[0]\u7684\u76d4\u7532\u6b8b\u7247\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16216,6 +16226,7 @@
       "order": 110,
       "name": {
         "en_US": "Heaven's Seed",
+        "pt_BR": "Semente do Céu",
         "de_DE": "Himmelssamen",
         "fr_FR": "undefined",
         "zh_CN": "\u5929\u5802\u4e4b\u79cd<<A<<[CHANGED 2018/07/09]",
@@ -16226,6 +16237,7 @@
       },
       "description": {
         "en_US": "A seed from an ever-green tree that floats above the sky.",
+        "pt_BR": "Uma semente de uma árvore sempre verdejante que flutua acima do céu.",
         "de_DE": "Der Samen eines immergr\u00fcnen Baumes, der \u00fcber dem Himmel schwebt.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u9897\u6f02\u6d6e\u5728\u5929\u7a7a\u4e0a\u7684\u5e38\u9752\u6811\u7684\u79cd\u5b50\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16506,6 +16518,7 @@
       "order": 109,
       "name": {
         "en_US": "Portrait of Ruin",
+        "pt_BR": "Retrato da Ruína",
         "de_DE": "Portrait d. Verfalls",
         "fr_FR": "undefined",
         "zh_CN": "\u5e9f\u589f\u753b\u50cf<<A<<[CHANGED 2018/07/09]",
@@ -16516,6 +16529,7 @@
       },
       "description": {
         "en_US": "A portrait that portrays a man that seems to magically grow older.",
+        "pt_BR": "Um retrato que retrata um homem que parece envelhecer magicamente.",
         "de_DE": "Das Portrait eines Mannes, der auf magische Weise gealtert ist.",
         "fr_FR": "undefined",
         "zh_CN": "\u753b\u50cf\u4e0a\u7684\u4eba\u4f3c\u4e4e\u53d8\u5f97\u6108\u53d1\u82cd\u8001\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16554,6 +16568,7 @@
       "order": 72,
       "name": {
         "en_US": "Very Large Ember",
+        "pt_BR": "Brasa Enorme",
         "fr_FR": "undefined",
         "zh_CN": "\u8d85\u5927\u578b\u4f59\u70ec<<A<<[CHANGED 2018/07/09]",
         "ja_JP": "\u5de8\u5927\u306a\u71c3\u3048\u3055\u3057<<A<<[CHANGED 2018/07/09]",
@@ -16564,6 +16579,7 @@
       },
       "description": {
         "en_US": "Huge ember of highest quality. Handled by the blacksmiths of [Redacted].",
+        "pt_BR": "Enorme brasa da mais alta qualidade. Manipulada pelos ferreiros de [Redigido].",
         "de_DE": "Riesige Kohlenst\u00fccke von h\u00f6chster Qualit\u00e4t. Wird von Schmieden in [zensiert] gehandelt.",
         "fr_FR": "undefined",
         "zh_CN": "\u975e\u5e38\u9ad8\u54c1\u8d28\u7684\u8d85\u5927\u578b\u4f59\u70ec\u3002\u53ef\u4ee5\u4ea4\u7ed9[\u6570\u636e\u5220\u9664]\u7684\u94c1\u5320\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16583,6 +16599,7 @@
       "order": 13,
       "name": {
         "en_US": "Ruby",
+        "pt_BR": "Rubi",
         "de_DE": "Rubin",
         "fr_FR": "undefined",
         "zh_CN": "\u7ea2\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -16593,6 +16610,7 @@
       },
       "description": {
         "en_US": "A rare red gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia vermelha que só os inimigos mais fortes deixam para trás.",
         "de_DE": "Ein seltenes rotes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u7ea2\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16681,6 +16699,7 @@
       "order": 15,
       "name": {
         "en_US": "Diamond",
+        "pt_BR": "Diamante",
         "de_DE": "Diamant",
         "fr_FR": "undefined",
         "zh_CN": "\u94bb\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -16691,6 +16710,7 @@
       },
       "description": {
         "en_US": "A rare white gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia branca deixada apenas pelos adversários mais fortes.",
         "de_DE": "Ein seltenes wei\u00dfes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u767d\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16730,6 +16750,7 @@
       "order": 16,
       "name": {
         "en_US": "Moonstone",
+        "pt_BR": "Pedra da Lua",
         "de_DE": "Mondstein",
         "fr_FR": "undefined",
         "zh_CN": "\u6708\u4eae\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -16740,6 +16761,7 @@
       },
       "description": {
         "en_US": "A rare light-blue gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia azul clara que só os inimigos mais fortes deixam para trás.",
         "de_DE": "Ein seltenes hellblaues Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u6de1\u84dd\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16839,7 +16861,7 @@
       },
       "description": {
         "en_US": "A rare yellow gem only found when fighting strong adversaries.",
-        "pt_BR": "Uma rara jóia amarela que é só encontrada quando se luta contra adversários fortes.",
+        "pt_BR": "Uma rara jóia amarela que só os inimigos mais fortes deixam para trás.",
         "de_DE": "Ein seltenes gelbes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u9ec4\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16928,6 +16950,7 @@
       "order": 20,
       "name": {
         "en_US": "Emerald",
+        "pt_BR": "Esmeralda",
         "de_DE": "Smaragd",
         "fr_FR": "undefined",
         "zh_CN": "\u7eff\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -16938,6 +16961,7 @@
       },
       "description": {
         "en_US": "A rare green gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia verde que só os adversários mais fortes deixam para trás.",
         "de_DE": "Ein seltenes gr\u00fcnes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u7eff\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -17451,7 +17475,8 @@
     },
     {
       "name": {
-        "en_US": "Zealous Lamellar ",
+        "en_US": "Zealous Lamellar",
+        "pt_BR": "Armadura Lamelar",
         "de_DE": "Eiferlamellen",
         "fr_FR": "undefined",
         "zh_CN": "\u72c2\u5f92\u8584\u7532<<A<<[CHANGED 2018/08/01]",
@@ -17462,6 +17487,7 @@
       },
       "description": {
         "en_US": "Light armor, composed of various materials, each representing a warrior's virtue.",
+        "pt_BR": "Armadura leve, composta de vários materiais, cada um representando a virtude de um guerreiro.",
         "de_DE": "Leichtpanzer aus Materialien, die jeweils f\u00fcr eine Tugend des Kriegers stehen.",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u591a\u79cd\u6750\u6599\u590d\u5408\u800c\u6210\u7684\u8f7b\u578b\u62a4\u7532\uff0c\u6bcf\u79cd\u6750\u6599\u90fd\u4ee3\u8868\u4e86\u6218\u58eb\u7684\u4e00\u79cd\u54c1\u5fb7\u3002<<A<<[CHANGED 2018/08/01]",
@@ -17747,7 +17773,7 @@
       "order": 168,
       "name": {
         "en_US": "Geta Wood",
-        "pt_BR": "Madeira Geta",
+        "pt_BR": "Madeira de Geta",
         "de_DE": "Getaholz",
         "fr_FR": "undefined",
         "zh_CN": "\u795e\u7ecf\u5149\u5143<<A<<[CHANGED 2018/08/28]",
@@ -17780,6 +17806,7 @@
       "order": 169,
       "name": {
         "en_US": "Geta Straps",
+        "pt_BR": "Tiras de Geta",
         "de_DE": "Getariemen",
         "fr_FR": "undefined",
         "zh_CN": "\u673a\u4f53<<A<<[CHANGED 2018/08/28]",
@@ -17790,6 +17817,7 @@
       },
       "description": {
         "en_US": "Straps made from jungle vines. They withstand everything.",
+        "pt_BR": "Tiras feitas de videiras da selva. Elas resistem a tudo.",
         "de_DE": "Riemen gefertigt aus Ranken des Dschungels. Sie widerstehen allem.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5957\u5947\u5f62\u7684\u62a4\u7532\u3002\u5177\u4f53\u7528\u9014\u4e0d\u660e\u3002<<A<<[CHANGED 2018/08/28]",
@@ -17811,6 +17839,7 @@
       "order": 170,
       "name": {
         "en_US": "Geta Glue",
+        "pt_BR": "Cola de Geta",
         "de_DE": "Getaleim",
         "fr_FR": "undefined",
         "zh_CN": "\u7cfb\u7edf<<A<<[CHANGED 2018/08/28]",
@@ -17821,6 +17850,7 @@
       },
       "description": {
         "en_US": "A strange mixture made from honey and tree sap.",
+        "pt_BR": "Uma estranha mistura feita de mel e seiva de árvores.",
         "de_DE": "Eine seltsame Mixtur aus Honig und Harz.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0a\u9762\u96d5\u7740\u7535\u8def\u7684\u5947\u5f62\u677f\u72b6\u7269\u3002\u5177\u4f53\u7528\u9014\u4e0d\u660e\u3002<<A<<[CHANGED 2018/08/28]",
@@ -17944,6 +17974,7 @@
       "order": 25,
       "name": {
         "en_US": "Golden Ticket",
+        "pt_BR": "Bilhete Dourado",
         "de_DE": "Goldenes Ticket",
         "fr_FR": "undefined",
         "zh_CN": "\u91d1\u95e8\u7968<<A<<[CHANGED 2018/08/01]",
@@ -17954,6 +17985,7 @@
       },
       "description": {
         "en_US": "A golden ticket to some good company. It fetches a very high price.",
+        "pt_BR": "Um bilhete de ouro para qualquer boa empresa. Atinge um preço muito alto.",
         "de_DE": "Ein goldenes Ticket zu irgendeiner guten Gesellschaft. Erzielt sehr hohen Preis.",
         "fr_FR": "undefined",
         "zh_CN": "\u80fd\u8fdb\u67d0\u5bb6\u98df\u54c1\u516c\u53f8\u7684\u95e8\u7968\u3002\u975e\u5e38\u503c\u94b1\u3002<<A<<[CHANGED 2018/08/01]",
@@ -18704,7 +18736,7 @@
       "order": 178,
       "name": {
         "en_US": "Chestlink",
-        "pt_BR": "",
+        "pt_BR": "Chestlink",
         "de_DE": "Truhenbinder",
         "fr_FR": "undefined",
         "zh_CN": "\u8d6b\u62c9\u8fea\u514b\u65b9\u5757<<A<<[CHANGED 2018/09/02]",
@@ -18923,6 +18955,7 @@
       "order": 24,
       "name": {
         "en_US": "Broken Chakrams",
+        "pt_BR": "Chakram Quebrado",
         "de_DE": "Kaputte Chakrams",
         "fr_FR": "undefined",
         "zh_CN": "undefined<<A<<[CHANGED 2018/11/28]",
@@ -19042,6 +19075,7 @@
     {
       "name": {
         "en_US": "Trench Boots",
+        "pt_BR": "Botas de Trincheira",
         "de_DE": "Grabenstiefel",
         "fr_FR": "undefined",
         "zh_CN": "\u519b\u9774<<A<<[CHANGED 2019/04/16]",
@@ -19052,6 +19086,7 @@
       },
       "description": {
         "en_US": "Robust footwear that somehow stimulates tense concentration.",
+        "pt_BR": "Calçados robustos que, de alguma forma, estimulam a concentração tensa.",
         "de_DE": "Robustes Schuhwerk, das irgendwie zu angespannter Konzentration anregt.",
         "fr_FR": "undefined",
         "zh_CN": "\u5177\u6709\u96c6\u4e2d\u6548\u679c\u7684\u7c97\u653e\u8db3\u5177\u3002<<A<<[CHANGED 2019/04/16]",
@@ -19082,6 +19117,7 @@
       "order": 16,
       "name": {
         "en_US": "Element Aura",
+        "pt_BR": "Aura de Elemento",
         "de_DE": "Element-Aura",
         "fr_FR": "undefined",
         "zh_CN": "\u5143\u7d20\u5149\u73af<<A<<[CHANGED 2019/04/16]",
@@ -19092,6 +19128,7 @@
       },
       "description": {
         "en_US": "An aura that adapts with your current element mode.",
+        "pt_BR": "Uma aura que se adapta com seu modo elemental.",
         "de_DE": "Eine Aura, die sich deinem Element-Modus anpasst.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u79cd\u4f1a\u4e0e\u4f60\u5f53\u524d\u9009\u62e9\u5143\u7d20\u6a21\u5f0f\u540c\u6b65\u7684\u5149\u73af\u3002<<A<<[CHANGED 2019/04/16]",
@@ -19112,6 +19149,7 @@
       "order": 17,
       "name": {
         "en_US": "Menacing Aura",
+        "pt_BR": "Aura Ameaçadora",
         "de_DE": "Bedrohliche Aura",
         "fr_FR": "undefined",
         "zh_CN": "\u9738\u6c14\u5149\u73af<<A<<[CHANGED 2019/04/16]",
@@ -19122,6 +19160,7 @@
       },
       "description": {
         "en_US": "A very dark and menacing aura. ",
+        "pt_BR": "Uma aura muito escura e ameaçadora.",
         "de_DE": "Eine sehr d\u00fcstere und bedrohliche Aura.",
         "fr_FR": "undefined",
         "zh_CN": "\u9ed1\u6697\u6050\u6016\u7684\u5149\u73af<<A<<[CHANGED 2019/04/16]",
@@ -21371,6 +21410,7 @@
     {
       "name": {
         "en_US": "Zealous Lamellar+",
+        "pt_BR": "Armadura Lamelar+",
         "de_DE": "Eiferlamellen+",
         "fr_FR": "undefined",
         "zh_CN": "\u72c2\u5f92\u8584\u7532+<<A<<[CHANGED 2020/06/17]",
@@ -21381,6 +21421,7 @@
       },
       "description": {
         "en_US": "Light armor, composed of various materials, each representing a warrior's virtue. \\i[ascended]",
+        "pt_BR": "Armadura leve, composta de vários materiais, cada um representando a virtude de um guerreiro. \\i[ascended]",
         "de_DE": "Leichtpanzer aus Materialien, die f\u00fcr die Tugenden des Kriegers stehen. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u591a\u79cd\u6750\u6599\u590d\u5408\u800c\u6210\u7684\u8f7b\u578b\u62a4\u7532\uff0c\u6bcf\u79cd\u6750\u6599\u90fd\u4ee3\u8868\u4e86\u6218\u58eb\u7684\u4e00\u79cd\u54c1\u5fb7\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
