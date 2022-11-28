@@ -1,0 +1,33 @@
+{
+  "name": {
+    "en_US": "Xbox Exclusive Extension",
+    "pt_BR": "xtensão Exclusiva do Xbox",
+    "de_DE": "Xbox-exklusive Erweiterung<<C<<Geprüft: Minsu",
+    "zh_CN": "Xbox独占拓展<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "雪人坦克拓展<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "Xboxだけの特別拡張<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "Xbox 전용 확장 콘텐츠<<A<<[CHANGED 2020/07/15]",
+    "langUid": 1
+  },
+  "description": {
+    "en_US": "Includes a new late-game quest and pet that were once exclusive to the Xbox One!",
+    "pt_BR": "Inclui uma nova missão e pet no final do jogo, que antes eram exclusivos de Xbox One!",
+    "de_DE": "Beinhaltet eine neue Quest und einen neuen Begleiter, einst exklusiv für die Xbox One!<<C<<Geprüft: Minsu",
+    "zh_CN": "Xbox One独占，包括一个游戏后期任务和一只宠物！<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "Xbox任務<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "Xbox Oneだけの\n新しい終盤クエストとペット！<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "Xbox One 전용 게임 후반 신규 퀘스트와 펫으로 구성되어 있습니다!<<A<<[CHANGED 2020/07/15]",
+    "langUid": 2
+  },
+  "files": [
+    "data/enemies/minibosses/snow-megatank.json",
+    "data/animations/boss/snow-megatank.json",
+    "media/entity/enemy/boss/snow-megatank.png",
+    "data/maps/bergen-trail/lab/room1.json",
+    "data/maps/bergen-trail/lab/room2-sub1.json",
+    "data/maps/bergen-trail/lab/room2.json",
+    "data/maps/bergen-trail/lab/room3.json",
+    "data/maps/bergen-trail/lab/room4.json",
+    "data/maps/bergen-trail/lab/room5.json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": {
+    "en_US": "PS4 Exclusive Extension",
+    "pt_BR": "Extensão Exclusiva do PS4",
+    "de_DE": "PS4-exklusive Erweiterung<<C<<Geprüft: Minsu",
+    "zh_CN": "PS4独占拓展<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "雪人坦克拓展<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "PS4だけの特別拡張<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "PS4 전용 확장 콘텐츠<<A<<[CHANGED 2020/07/15]",
+    "langUid": 1
+  },
+  "description": {
+    "en_US": "Includes a new late-game quest and pet that were once exclusive to the Playstation 4!",
+    "pt_BR": "Inclui uma nova missão e pet no final do jogo, que antes eram exclusivos do Playstation 4!",
+    "de_DE": "Beinhaltet eine neue Quest und einen neuen Begleiter, einst exklusiv für die Playstation 4!<<C<<Geprüft: Minsu",
+    "zh_CN": "Playstation 4独占，包括一个游戏后期任务和一只宠物！<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "PS4任務<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "Playstation 4だけの\n新しい終盤クエストとペット！<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "Playstation 4 전용 게임 후반 신규 퀘스트와 펫으로 구성되어 있습니다!<<A<<[CHANGED 2020/07/15]",
+    "langUid": 2
+  },
+  "files": [
+    "data/enemies/minibosses/fish-mega-gear.json",
+    "data/animations/boss/fish-mega-gear.json",
+    "media/entity/enemy/boss/fish-mega-gear.png",
+    "data/maps/jungle/lab/room-1.json",
+    "data/maps/jungle/lab/room-2-sub1.json",
+    "data/maps/jungle/lab/room-2-sub2.json",
+    "data/maps/jungle/lab/room-2.json",
+    "data/maps/jungle/lab/room-3-sub1.json",
+    "data/maps/jungle/lab/room-3.json",
+    "data/maps/jungle/lab/room-boss.json",
+    "data/maps/jungle/lab/room-final.json"
+  ]
+}

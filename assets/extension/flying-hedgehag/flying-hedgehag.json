@@ -1,0 +1,36 @@
+{
+  "name": {
+    "en_US": "Switch Exclusive Extension",
+    "pt_BR": "Extensão Exclusiva do Switch",
+    "de_DE": "Switch-exklusive Erweiterung<<C<<Geprüft: Minsu",
+    "zh_CN": "Switch独占拓展<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "Switch獨佔拓展<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "Switchだけの特別拡張<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "Switch 전용 확장 콘텐츠<<A<<[CHANGED 2020/07/15]",
+    "langUid": 1
+  },
+  "description": {
+    "en_US": "Includes a new late-game quest and pet that were once exclusive to the Nintendo Switch!",
+    "pt_BR": "Inclui uma nova missão e pet no final do jogo, que antes eram exclusivos do Nintendo Switch!",
+    "de_DE": "Beinhaltet eine neue Quest und einen neuen Begleiter, einst exklusiv für die Nintendo Switch!<<C<<Geprüft: Minsu",
+    "zh_CN": "Nintendo Switch独占，包括一个游戏后期任务和一只宠物！<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "NintendoSwitch獨佔，包括一個遊戲後期任務和一隻寵物！<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "Nintendo Switchだけの\n新しい終盤クエストとペット！<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "Nintendo Switch 전용 게임 후반 신규 퀘스트와 펫으로 구성되어 있습니다!<<A<<[CHANGED 2020/07/15]",
+    "langUid": 2
+  },
+  "files": [
+    "data/enemies/minibosses/hedgehag-king.json",
+    "data/animations/boss/hedgehag-king.json",
+    "data/maps/autumn/path4-fly.json",
+    "media/entity/enemy/boss/hedgehag-king.png",
+    "data/maps/autumn/lab/room-1.json",
+    "data/maps/autumn/lab/room-2.json",
+    "data/maps/autumn/lab/room-2-sub1.json",
+    "data/maps/autumn/lab/room-2-sub2.json",
+    "data/maps/autumn/lab/room-3.json",
+    "data/maps/autumn/lab/room-3-sub1.json",
+    "data/maps/autumn/lab/room-boss.json",
+    "data/maps/autumn/lab/room-final.json"
+  ]
+}
