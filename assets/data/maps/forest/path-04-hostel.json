@@ -12266,7 +12266,7 @@
                 {
                   "message": {
                     "en_US": "Wait?",
-                    "pt_BR": "Espere?",
+                    "pt_BR": "Espera?",
                     "de_DE": "Warte?",
                     "zh_CN": "\u7b49\u7b49\uff1f<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "\u5f85\u3063\u3066\uff1f<<A<<[CHANGED 2018/07/09]",
@@ -14611,7 +14611,7 @@
                   {
                     "message": {
                       "en_US": "Hm... No surprise they have trouble finding volunteers doing this kind of work.",
-                      "pt_BR": "Hm... Não é surpresa que eles tenham dificuldade em encontrar voluntários que façam este tipo de trabalho.",
+                      "pt_BR": "Hm... Não me surpreende que eles tenham dificuldade em encontrar voluntários que façam este tipo de trabalho.",
                       "langUid": 682,
                       "ko_KR": "\ud760... \uc774\ub7f0 \uc2dd\uc758 \uc77c\uc774\ub77c\uba74 \uc65c \uadf8\ub3d9\uc548 \uc9c0\uc6d0\uc790\ub97c \ucc3e\ub294 \uac8c \ud798\ub4e4\uc5c8\ub294\uc9c0 \uc54c\uaca0\ub124.<<A<<[CHANGED 2019/01/10]",
                       "zh_CN": "\u96be\u602a\u4ed6\u4eec\u627e\u5fd7\u613f\u8005\u8fd9\u4e48\u96be\u3002<<A<<[CHANGED 2019/01/10]",
@@ -14701,7 +14701,7 @@
           {
             "message": {
               "en_US": "A fellow player is in dire need in \\c[3]River Road\\c[0] right to the \\c[3]west\\c[0]!",
-              "pt_BR": "Um companheiro de jogo está em extrema necessidade na \\c[3]Estrada do Rio\\c[0], direto para o \\c[3]oeste!\\c[0]",
+              "pt_BR": "Um companheiro de jogo está em extrema necessidade no \\c[3]Caminho do Rio\\c[0], direto para o \\c[3]oeste!\\c[0]",
               "langUid": 685,
               "ko_KR": "\\c[3]\uc11c\ucabd\\c[0]\uc758 \\c[3]\uac15\uac00\\c[0]\uc5d0\uc11c \ub3d9\ub8cc \ud50c\ub808\uc774\uc5b4\uac00 \uc808\uc2e4\ud55c \ub3c4\uc6c0\uc774 \ud544\uc694\ud574!<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u5728\\c[3]\u897f\u8fb9\\c[0]\u7684\\c[3]\u6cb3\u9053\\c[0]\u6709\u4e00\u540d\u73a9\u5bb6\u9700\u8981\u5e2e\u52a9\uff01<<A<<[CHANGED 2019/01/10]",
@@ -14939,7 +14939,7 @@
           {
             "message": {
               "en_US": "Heck if I know!\\. Anyway he's currently in \\c[3]North East Path\\c[0]! ",
-              "pt_BR": "Não faço ideia!\\. De qualquer forma, ele está atualmente no \\c[3]Caminho do Nordeste\\c[0]!",
+              "pt_BR": "Não faço ideia!\\. De qualquer forma, ele está atualmente no \\c[3]Caminho Nordeste\\c[0]!",
               "langUid": 695,
               "ko_KR": "\uadf8\uac74 \ubaa8\ub974\uaca0\uc5b4!\\. \uc544\ubb34\ud2bc \uc9c0\uae08 \\c[3]\ubd81\ub3d9\ucabd \uae38\\c[0]\uc5d0 \uc788\ub2e4\ub098 \ubd10!<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u6211\u600e\u4e48\u77e5\u9053\uff01\\.\u4ed6\u73b0\u5728\u5728\\c[3]\u4e1c\u5317\u5c0f\u8def\\c[0]\uff01<<A<<[CHANGED 2019/01/10]",
@@ -15087,7 +15087,7 @@
                     {
                       "message": {
                         "en_US": "Hm... I'm currently looking for help, but \\c[3]just one person\\c[0], not a whole party.",
-                        "pt_BR": "Hm... Atualmente estou procurando por ajuda, mas \\c[3]de apenas uma pessoa\\c[0], não de um grupo inteiro.",
+                        "pt_BR": "Hm... Estou precisando de ajuda agora, mas de \\c[3]apenas uma pessoa\\c[0], não de um grupo inteiro.",
                         "de_DE": "Hm... Ich suche gerade nach Hilfe, aber \\c[3]nur von einer Person\\c[0], nicht einer ganzen Gruppe.",
                         "zh_CN": "\u55ef...\u6211\u786e\u5b9e\u662f\u5728\u627e\u4eba\u5e2e\u5fd9\uff0c\u4f46\u6211\u53ea\u9700\u8981\\c[3]\u4e00\u4e2a\u4eba\\c[0]\uff0c\u4e0d\u662f\u6574\u4e2a\u5c0f\u961f\u3002<<A<<[CHANGED 2019/04/16]",
                         "ja_JP": "\u3048\u3063\u3068...\u624b\u4f1d\u3063\u3066\u304f\u308c\u308b\u4eba\u3092\u63a2\u3057\u3066\u308b\u3051\u3069\u3001\n\\c[3]\u3072\u3068\u308a\u3067\u3044\u3044\u306e\\c[0]\u3002\u30d1\u30fc\u30c6\u30a3\u30fc\u3067\n\u6765\u306a\u304f\u3066\u3082\u3044\u3044\u3088\u3002<<A<<[CHANGED 2019/04/16]",
@@ -15176,7 +15176,7 @@
                     {
                       "message": {
                         "en_US": "I'm looking for some help with a little bit of...\\. exploration.",
-                        "pt_BR": "Estou procurando ajuda para um pouco de...\\. exploração.",
+                        "pt_BR": "Estou procurando ajuda para...\\. exploração.",
                         "langUid": 704,
                         "ko_KR": "\ub0a0 \ub3c4\uc640\uc904 \uc0ac\ub78c\uc744 \ucc3e\uace0 \uc788\uac70\ub4e0...\\. \uc5b4\ub5a4 \uc870\uc0ac\uc640 \uad00\ub828\ud574\uc11c.<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u6211\u9700\u8981\u4eba\u5e2e\u6211\u8fdb\u884c...\\.\u63a2\u9669\u3002<<A<<[CHANGED 2019/01/10]",
@@ -15212,7 +15212,7 @@
                     {
                       "message": {
                         "en_US": "But there is something you should know about this first.",
-                        "pt_BR": "Mas há algo que você deve saber sobre isso primeiro.",
+                        "pt_BR": "Mas tem algo que você deve saber sobre isso primeiro.",
                         "langUid": 706,
                         "ko_KR": "\ud558\uc9c0\ub9cc \uadf8 \uc804\uc5d0 \uba3c\uc800 \uc54c\uc544\uc57c \ud560 \uac8c \uc788\uc5b4.<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u5728\u8fd9\u4e4b\u524d\u6709\u4e9b\u4e1c\u897f\u8981\u548c\u4f60\u8bf4\u6e05\u695a\u3002<<A<<[CHANGED 2019/01/10]",
@@ -15266,7 +15266,7 @@
                     {
                       "message": {
                         "en_US": "And in order to do this...\\. we might have to break this game...\\. a tiny little bit!",
-                        "pt_BR": "E para fazer isso...\\. talvez tenhamos que quebrar esse jogo...\\. um pouquinho!",
+                        "pt_BR": "E para fazer isso...\\. talvez teremos que quebrar esse jogo...\\. um pouquinho!",
                         "langUid": 709,
                         "ko_KR": "\uadf8\ub807\uac8c \ud558\ub824\uba74...\\. \uc774 \uac8c\uc784\uc744 \uc870\uae08...\\. \uc5b4\uaca8\uc57c \ud574!<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u800c\u4e14\u4e3a\u4e86\u8fbe\u6210\u76ee\u6807...\\.\u6211\u4eec\u4f1a\u6539\u52a8\u6e38\u620f...\\.\u4e00\u70b9\u70b9\uff01<<A<<[CHANGED 2019/01/10]",
@@ -15338,7 +15338,7 @@
                     {
                       "message": {
                         "en_US": "We just have to make sure none of the officials learn about this.",
-                        "pt_BR": "Só temos que garantir que nenhum dos funcionários tome conhecimento disto.",
+                        "pt_BR": "Só temos que garantir que nenhum dos funcionários fique sabendo disso.",
                         "langUid": 713,
                         "ko_KR": "\uad00\uacc4\uc790\ub4e4\ub9cc \ubaa8\ub974\uac8c \ud558\uba74 \ub3fc.<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u4f46\u6211\u4eec\u5fc5\u987b\u786e\u4fdd\u4e0d\u88ab\u5b98\u65b9\u53d1\u73b0\u3002<<A<<[CHANGED 2019/01/10]",
@@ -15392,7 +15392,7 @@
                     {
                       "message": {
                         "en_US": "Now that I think about it...\\. you haven't said terribly much so far, huh?",
-                        "pt_BR": "Agora que penso nisso...\\. você não falou muito até agora, né?",
+                        "pt_BR": "Agora que eu notei...\\. você não falou muito até agora, né?",
                         "langUid": 716,
                         "ko_KR": "\ub0b4\uac00 \uc0dd\uac01\ud574\ubd24\ub294\ub370...\\. \uc9c0\uae08\uae4c\uc9c0 \ubcf8 \ubc14\ub85c \ub10c \ubcc4\ub85c \ub9d0\uc774 \uc5c6\ub354\ub77c\uace0?<<A<<[CHANGED 2021/05/07]",
                         "zh_CN": "\u8fd9\u4e48\u8bf4\u6765...\\.\u4f60\u597d\u50cf\u4e0d\u592a\u7231\u8bf4\u8bdd\uff1f<<A<<[CHANGED 2021/05/22]",
@@ -15640,7 +15640,7 @@
                         {
                           "message": {
                             "en_US": "Great!\\. In that case, let's meet in \\c[3]Maroon Valley - Barren Arcs\\c[0]! ",
-                            "pt_BR": "Ótimo!\\. Nesse caso, vamos nos encontrar no \\c[3]Vale Castanho - Arcos Áridos\\c[0]!",
+                            "pt_BR": "Ótimo!\\. Nesse caso, vamos nos encontrar nos \\c[3]Arcos Áridos - Vale Castanho\\c[0]!",
                             "langUid": 728,
                             "ko_KR": "\uc88b\uc544!\\. \uadf8\ub7fc \\c[3]\ub9c8\ub8ec \ubc38\ub9ac - \ubd88\ubaa8\uc758 \ud638\\c[0]\uc5d0\uc11c \ub9cc\ub098\uc790!<<A<<[CHANGED 2019/01/10]",
                             "zh_CN": "\u592a\u597d\u4e86\uff01\\.\u90a3\u6211\u4eec\u5728\\c[3]\u8910\u7ea2\u5ce1\u8c37 - \u8d2b\u7620\u62f1\u5ca9\\c[0]\u89c1\u9762\u5427\uff01 <<A<<[CHANGED 2019/01/10]",
@@ -15730,7 +15730,7 @@
                         {
                           "message": {
                             "en_US": "Oh, yes!\\. Nice to meet you Lea!",
-                            "pt_BR": "Ah, sim!\\. Prazer em conhecê-la Lea!",
+                            "pt_BR": "Ah, sim!\\. Prazer em te conhecer Lea!",
                             "de_DE": "Ach, stimmt, wie unh\u00f6flich von mir!\\. Sch\u00f6n, dich kennenzulernen, Lea!",
                             "zh_CN": "\u54e6\uff01\\.\u5e78\u4f1a\uff0c\u8389\u4e9a\uff01<<A<<[CHANGED 2019/04/16]",
                             "ja_JP": "\u3042\u3089\u3001\u3069\u3046\u3082\uff01\\.\n\u3088\u308d\u3057\u304f\u306d\u3001\u30ec\u30a2\uff01<<A<<[CHANGED 2019/04/16]",
@@ -15892,7 +15892,7 @@
                         {
                           "message": {
                             "en_US": "Lea...?\\. Are you really sure this is a good idea?",
-                            "pt_BR": "Lea...?\\. Você tem certeza de que esta é realmente uma boa idéia?",
+                            "pt_BR": "Lea...?\\. Você tem certeza de que essa é realmente uma boa idéia?",
                             "langUid": 745,
                             "ko_KR": "\ub808\uc544...?\\. \uc774\uac8c \uc815\ub9d0 \uc88b\uc740 \uc0dd\uac01\uc77c\uae4c?<<A<<[CHANGED 2020/07/08]",
                             "zh_CN": "\u8389\u4e9a...?\\.\u4f60\u786e\u5b9a\u8fd9\u662f\u4e2a\u597d\u4e3b\u610f\uff1f<<A<<[CHANGED 2020/07/08]",
@@ -16171,7 +16171,7 @@
             "entity": { "global": true, "name": "bambooTalk2" },
             "text": {
               "en_US": "Maybe that's what the giant shoots around here are for.",
-              "pt_BR": "Talvez seja pra isso que esses brotos gigantes estão aqui.",
+              "pt_BR": "Talvez seja por isso que esses brotos gigantes estão aqui.",
               "langUid": 751,
               "ko_KR": "\uadf8\ub798\uc11c \uc800 \uac70\ub300\ud55c \uc0c8\uc2f9\uc774 \uc5ec\uae30 \uc788\ub294 \uac74\uac00 \ubd10.<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u4e5f\u8bb8\u5c31\u662f\u90a3\u4e9b\u7af9\u7b0b\u957f\u51fa\u6765\u7684\u5427\u3002<<A<<[CHANGED 2019/01/10]",
@@ -16184,7 +16184,7 @@
             "entity": { "global": true, "name": "bambooTalk2" },
             "text": {
               "en_US": "They grow into a ton of bamboo stalks!",
-              "pt_BR": "Eles crescem em uma tonelada de caules de bambu!",
+              "pt_BR": "Uma tonelada de caules de bambu crescem através deles!",
               "langUid": 752,
               "ko_KR": "\uc800\uac8c \ub2e4 \ub300\ub098\ubb34 \uc904\uae30\ub85c \uc790\ub77c\ub294 \uac70\uc9c0!<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u4e00\u5806\u7af9\u7b0b\u957f\u51fa\u4e00\u4e1b\u7af9\u5b50\uff01<<A<<[CHANGED 2019/01/10]",
@@ -16210,7 +16210,7 @@
             "entity": { "global": true, "name": "bambooTalk1" },
             "text": {
               "en_US": "... I was going to suggest someone out there just really likes gardening.",
-              "pt_BR": "... Eu ia sugerir que alguém por aqui realmente gosta de jardinagem.",
+              "pt_BR": "... Eu acho que alguém aqui realmente gosta de jardinagem.",
               "langUid": 754,
               "ko_KR": "... \ub09c \uadf8\ub0e5 \ub204\uad70\uac00\uac00 \uc815\uc6d0 \uac00\uafb8\ub294 \uac78 \ub418\uac8c \uc88b\uc544\ud558\ub294 \uac74 \uc904 \uc54c\uc558\ub294\ub370.<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "...\u6211\u731c\u4f30\u8ba1\u662f\u8bbe\u8ba1\u5e08\u5f88\u559c\u6b22\u56ed\u6797\u5427\u3002<<A<<[CHANGED 2019/01/10]",

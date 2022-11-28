@@ -1,0 +1,360 @@
+{
+  "core": {
+    "type": "SOLO_CUSTOM",
+    "name": {
+      "en_US": "Platform Cup",
+      "pt_BR": "Copa de Plataformas",
+      "de_DE": "Plattform-Pokal",
+      "zh_CN": "\u5e73\u53f0\u676f<<A<<[CHANGED 2021/05/04]",
+      "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+      "ja_JP": "\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u30ab\u30c3\u30d7<<A<<[CHANGED 2021/05/04]",
+      "ko_KR": "\ud50c\ub7ab\ud3fc \ub300\ud68c<<A<<[CHANGED 2021/05/04]",
+      "langUid": 4
+    },
+    "info": {
+      "en_US": "Redo fights of once \"platform-exclusive\" quests related to \"hardware\"!",
+      "pt_BR": "Reviva os combates das missões que eram \"exclusivas de plataforma\" relacionadas ao \"hardware\"!",
+      "de_DE": "Wiederhole die K\u00e4mpfe aus ehemals \"Plattform-exklusiven\", \"Hardware\"-Quests!",
+      "zh_CN": "\u91cd\u65b0\u6e38\u73a9\u4e0e\u201c\u786c\u4ef6\u201d\u76f8\u5173\u7684\u201c\u5e73\u53f0\u72ec\u5360\u201d\u4efb\u52a1\uff01<<A<<[CHANGED 2021/05/04]",
+      "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+      "ja_JP": "\u300c\u30cf\u30fc\u30c9\u30a6\u30a7\u30a2\u5225\u300d\u306e\u3001\u304b\u3064\u3066\u306e\u300c\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u9650\u5b9a\u300d\u30af\u30a8\u30b9\u30c8\u306e\u6226\u3044\u3092\u3082\u3046\u4e00\u5ea6\uff01<<A<<[CHANGED 2021/05/04]",
+      "ko_KR": "\ud55c\ub54c \"\ud50c\ub7ab\ud3fc \uc804\uc6a9\"\uc774\uc5c8\ub358 \"\ud558\ub4dc\uc6e8\uc5b4\" \uad00\ub828 \ud018\uc2a4\ud2b8\uc758 \uc804\ud22c\ub97c \ub2e4\uc2dc \uacbd\ud5d8\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+      "langUid": 1
+    },
+    "creator": {
+      "en_US": "The Four Visionaries",
+      "pt_BR": "Os Quatro Visionários",
+      "de_DE": "Die Vier Vision\u00e4re",
+      "zh_CN": "\u56db\u4e2a\u68a6\u60f3\u5bb6<<A<<[CHANGED 2021/05/04]",
+      "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+      "ja_JP": "\u5922\u60f3\u3059\u308b4\u4eba<<A<<[CHANGED 2021/05/04]",
+      "ko_KR": "4\uc778\uc758 \uc120\uc9c0\uc790\ub4e4<<A<<[CHANGED 2021/05/04]",
+      "langUid": 50
+    },
+    "condition": "quest.console-switch-1.solved && quest.console-xbox-1.solved && quest.console-pc-1.solved && quest.console-playstation-1.solved && extension.flying-hedgehag.active && extension.snowman-tank.active && extension.scorpion-robo.active && extension.fish-gear.active && plot.line >= 32000",
+    "music": "challenge",
+    "rushMusic": "raidTheme",
+    "mods": ["WEAPON_ADJUST"],
+    "level": 70,
+    "difficulty": "4",
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 0,
+      "offY": 0,
+      "width": 276,
+      "height": 60
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Flying-Type Fiends",
+        "pt_BR": "Amigos do Tipo Voador",
+        "de_DE": "Fliegende Feinde",
+        "zh_CN": "\u98de\u884c\u6076\u68cd<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u98db\u7fd4\u306e\u53cb<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ud589 \ud0c0\uc785 \uc801<<A<<[CHANGED 2021/05/04]",
+        "langUid": 56
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 175000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.hedgehog-fly]s\\c[0] in the secret lab of \\c[3]Avian Appliances\\c[0]!",
+        "pt_BR": "Derrote os \\c[3]\\v[combat.name.hedgehog-fly]s\\c[0] no laboratório secreto de \\c[3]Avian Appliances\\c[0]!",
+        "de_DE": "Besiege die \\c[3]Fliegenden Ig\u00f6ll\\c[0] im Geheimlabor von \\c[3]Aviar-Apparaturen\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u731b\u79bd\u5e94\u7528\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.hedgehog-fly]s\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30a2\u30f4\u30a3\u30a2\u30f3\u96fb\u5668\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.hedgehog-fly]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\uc5d0\ube44\uc559 \uc5b4\ud50c\ub77c\uc774\uc5b8\uc2a4\\c[0]\uc758 \\c[3]\\v[combat.name.hedgehog-fly]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 57
+      },
+      "points": 140000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.hedgehag-fight",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 7, "points": 5500 },
+        { "type": "CHAIN", "target": 6, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Super-crowned Mammal",
+        "pt_BR": "Super Rei Mamífero",
+        "de_DE": "Supergekr\u00f6ntes S\u00e4ugetier",
+        "zh_CN": "\u8d85\u7ea7\u54fa\u4e73\u52a8\u7269<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u30b9\u30fc\u30d1\u30fc\u30ad\u30f3\u30b0\u54fa\u4e73\u985e<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\uc655\uad00 \uc4f4 \ud3ec\uc720\ub958<<A<<[CHANGED 2021/05/04]",
+        "langUid": 54
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 475000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.minibosses/hedgehag-king]\\c[0] in the secret lab of \\c[3]Avian Appliances\\c[0]!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.minibosses/hedgehag-king]\\c[0] no laboratório secreto de \\c[3]Avian Appliances\\c[0]!",
+        "de_DE": "Besiege \\c[3]K\u00f6nig Ig\u00f6ll\\c[0] im Geheimlabor von \\c[3]Aviar-Apparaturen\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u731b\u79bd\u5e94\u7528\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.minibosses/hedgehag-king]\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30a2\u30f4\u30a3\u30a2\u30f3\u96fb\u5668\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.minibosses/hedgehag-king]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\uc5d0\ube44\uc559 \uc5b4\ud50c\ub77c\uc774\uc5b8\uc2a4\\c[0]\uc758 \\c[3]\\v[combat.name.minibosses/hedgehag-king]\\c[0]\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 51
+      },
+      "points": 420000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.hedgehag-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 150, "points": 15000 },
+        { "type": "HIT_COUNTER", "value": 10, "points": 5500 },
+        { "type": "CHAIN", "target": 5, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 150000, "points": 8000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Leg-endary Fish",
+        "pt_BR": "Peixe Pernalonga",
+        "de_DE": "Bein-druckende Fische",
+        "zh_CN": "\u9c7c\u513f\u957f\u817f<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u4f1d\u8aac\u306e\u811a\u9b5a<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\uc804\uc124\uc801\uc778 \ubb3c\uace0\uae30<<A<<[CHANGED 2021/05/04]",
+        "langUid": 58
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 165000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.jungle/fish-gear]s\\c[0] in the secret lab of \\c[3]Mech Machinery\\c[0]!",
+        "pt_BR": "Derrote os \\c[3]\\v[combat.name.jungle/fish-gear]s\\c[0] no laboratório secreto de \\c[3]Mech Machinery\\c[0]!",
+        "de_DE": "Besiege die \\c[3]Bebeinten Angler\\c[0] im Geheimlabor von \\c[3]Mech-Maschinen\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u673a\u7532\u673a\u68b0\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.jungle/fish-gear]s\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30e1\u30c3\u30af\u6a5f\u68b0\u5de5\u696d\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.jungle/fish-gear]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\uba54\uce74 \uba38\uc2e0\\c[0]\uc758 \\c[3]\\v[combat.name.jungle/fish-gear]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 55
+      },
+      "points": 135000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.fish-fight",
+      "bonuses": [
+        { "type": "TIME", "seconds": 90, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 7, "points": 2500 },
+        { "type": "CHAIN", "target": 6, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 20000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Fish & Chips & Metal",
+        "pt_BR": "Peixe & Chipes & Metal",
+        "de_DE": "Fish & Chips & Metall",
+        "zh_CN": "\u9c7c\u4e0e\u673a\u68b0<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u30d5\u30a3\u30c3\u30b7\u30e5&\u30c1\u30c3\u30d7\u30b9&\u30e1\u30bf\u30eb<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ud53c\uc2dc & \uce69\uc2a4 & \uba54\ud0c8<<A<<[CHANGED 2021/05/04]",
+        "langUid": 40
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 180000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.minibosses/fish-mega-gear]\\c[0] in the secret lab of \\c[3]Mech Machinery\\c[0]!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.minibosses/fish-mega-gear]\\c[0] no laboratório secreto de \\c[3]Mech Machinery\\c[0]!",
+        "de_DE": "Besiege \\c[3]Mechbot FISCH\\c[0] im Geheimlabor von \\c[3]Mech-Maschinen\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u673a\u7532\u673a\u68b0\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.minibosses/fish-mega-gear]\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30e1\u30c3\u30af\u6a5f\u68b0\u5de5\u696d\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.minibosses/fish-mega-gear]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\uba54\uce74 \uba38\uc2e0\\c[0]\uc758 \\c[3]\\v[combat.name.minibosses/fish-mega-gear]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 41
+      },
+      "points": 142000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.fish-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 150, "points": 15000 },
+        { "type": "HIT_COUNTER", "value": 10, "points": 8500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 8500 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Cool Company",
+        "pt_BR": "Esquadrão Gélido",
+        "de_DE": "K\u00fchle Kompanie",
+        "zh_CN": "\u5bd2\u51b7\u8fde\u961f<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u30af\u30fc\u30eb\u306a\u4f01\u696d<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ucc28\uac00\uc6b4 \ud68c\uc0ac<<A<<[CHANGED 2021/05/04]",
+        "langUid": 59
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 180000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.snowtank]s\\c[0] in the secret lab of \\c[3]Heavy Hardware Inc\\c[0]!",
+        "pt_BR": "Derrote os \\c[3]\\v[combat.name.snowtank]s\\c[0] no laboratório secreto de \\c[3]Heavy Hardware Inc\\c[0]!",
+        "de_DE": "Besiege die \\c[3]Karrotanks\\c[0] im Geheimlabor von \\c[3]Heavy Hardware AG\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u91cd\u578b\u673a\u68b0\u516c\u53f8\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.snowtank]s\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30d8\u30d3\u30fc\u30fb\u30cf\u30fc\u30c9\u30a6\u30a7\u30a2\u682a\u5f0f\n\u4f1a\u793e\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.snowtank]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\ud5e4\ube44 \ud558\ub4dc\uc6e8\uc5b4 \uc8fc\uc2dd\ud68c\uc0ac\\c[0]\uc758 \\c[3]\\v[combat.name.snowtank]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 60
+      },
+      "points": 145000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.snowman-fight",
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 7, "points": 2500 },
+        { "type": "CHAIN", "target": 6, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Snowy Sergeant",
+        "pt_BR": "Sargento Nevoso",
+        "de_DE": "Frostiger Feldwebel",
+        "zh_CN": "\u51b0\u96ea\u8fdb\u519b<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u96ea\u767d\u306e\u66f9\u9577<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ub208 \uacbd\uc0ac<<A<<[CHANGED 2021/05/04]",
+        "langUid": 61
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 265000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.minibosses/snow-megatank]\\c[0] in the secret lab of \\c[3]Heavy Hardware Inc\\c[0]!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.minibosses/snow-megatank]\\c[0] no laboratório secreto de \\c[3]Heavy Hardware Inc\\c[0]!",
+        "de_DE": "Besiege \\c[3]General Rootser\\c[0] im Geheimlabor von \\c[3]Heavy Hardware AG\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u91cd\u578b\u673a\u68b0\u516c\u53f8\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.minibosses/snow-megatank]\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30d8\u30d3\u30fc\u30fb\u30cf\u30fc\u30c9\u30a6\u30a7\u30a2\u682a\u5f0f\n\u4f1a\u793e\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.minibosses/snow-megatank]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\ud5e4\ube44 \ud558\ub4dc\uc6e8\uc5b4 \uc8fc\uc2dd\ud68c\uc0ac\\c[0]\uc758 \\c[3]\\v[combat.name.minibosses/snow-megatank]\\c[0]\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 62
+      },
+      "points": 205000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.snowman-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 120, "points": 15000 },
+        { "type": "HIT_COUNTER", "value": 10, "points": 8500 },
+        { "type": "CHAIN", "target": 5, "points": 8500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 45000, "points": 8000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Arachnid Artillery",
+        "pt_BR": "Artilharia Aracnídea",
+        "de_DE": "Arachnide Artillerie",
+        "zh_CN": "\u706b\u70ae\u8718\u86db<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u6b66\u88c5\u30af\u30e2<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\uac70\ubbf8 \ud3ec\ubcd1<<A<<[CHANGED 2021/05/04]",
+        "langUid": 63
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 175000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.heat/scorpion-robo]s\\c[0] in the secret lab of \\c[3]High-Pressure Arms\\c[0]!",
+        "pt_BR": "Derrote os \\c[3]\\v[combat.name.heat/scorpion-robo]s\\c[0] no laboratório secreto de \\c[3]High-Pressure Arms\\c[0]!",
+        "de_DE": "Besiege die \\c[3]Pincetrons\\c[0] im Geheimlabor von \\c[3]Hochdruckwaffen\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u9ad8\u538b\u519b\u706b\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.heat/scorpion-robo]s\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30cf\u30a4\u30d7\u30ec\u30c3\u30b7\u30e3\u30fc\u30fb\u30a2\u30fc\u30e0\u30ba\u682a\u5f0f\u4f1a\u793e\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.heat/scorpion-robo]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\ud558\uc774 \ud504\ub808\uc154 \uc554\uc988\\c[0]\uc758 \\c[3]\\v[combat.name.heat/scorpion-robo]\\c[0]\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 64
+      },
+      "points": 140000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.pincer-fight",
+      "bonuses": [
+        { "type": "TIME", "seconds": 80, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 7, "points": 2500 },
+        { "type": "CHAIN", "target": 6, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Predatory Pincerbot",
+        "pt_BR": "Robô Escorpião Predador",
+        "de_DE": "Schrecklicher Scherenrobo",
+        "zh_CN": "\u63a0\u98df\u4e4b\u94b3<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u6355\u98df\u30cf\u30b5\u30df\u30dc\u30c3\u30c8<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ud3ec\uc2dd\uc131 \uc9d1\uac8c\ubd07<<A<<[CHANGED 2021/05/04]",
+        "langUid": 65
+      },
+      "customCode": true,
+      "camFocus": "PLAYER_SPAWN",
+      "platPoints": 155000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the \\c[3]\\v[combat.name.minibosses/scorpion-boss]\\c[0] in the secret lab of \\c[3]High-Pressure Arms\\c[0]!",
+        "pt_BR": "Derrote o \\c[3]\\v[combat.name.minibosses/scorpion-boss]\\c[0] no laboratório secreto de \\c[3]High-Pressure Arms\\c[0]!",
+        "de_DE": "Besiege \\c[3]Pincerstonk i6 GXO2\\c[0] im Geheimlabor von \\c[3]Hochdruckwaffen\\c[0]!",
+        "zh_CN": "\u5728\\c[3]\u9ad8\u538b\u519b\u706b\\c[0]\u79d8\u5bc6\u5b9e\u9a8c\u5ba4\u51fb\u8d25\\c[3]\\v[combat.name.minibosses/scorpion-boss]\\c[0]\uff01<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\\c[3]\u30cf\u30a4\u30d7\u30ec\u30c3\u30b7\u30e3\u30fc\u30fb\u30a2\u30fc\u30e0\u30ba\u682a\u5f0f\u4f1a\u793e\\c[0]\u306e\u6975\u79d8\u7814\u7a76\u6240\u3067\\c[3]\\v[combat.name.minibosses/scorpion-boss]\\c[0]\u3092\u5012\u305b\uff01<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ube44\ubc00 \uc5f0\uad6c\uc18c\uc778 \\c[3]\ud558\uc774 \ud504\ub808\uc154 \uc554\uc988\\c[0]\uc758 \\c[3]\\v[combat.name.minibosses/scorpion-boss]\\c[0]\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/05/04]",
+        "langUid": 66
+      },
+      "points": 130000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.platform-labs.pincer-boss",
+      "bonuses": [
+        { "type": "TIME", "seconds": 120, "points": 15000 },
+        { "type": "HIT_COUNTER", "value": 10, "points": 5500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 8000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    }
+  ]
+}

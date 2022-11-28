@@ -1,0 +1,339 @@
+{
+  "core": {
+    "type": "SOLO_CUP",
+    "name": {
+      "en_US": "Test Cup",
+      "pt_BR": "Copa de Teste",
+      "de_DE": "<<C<<IGNORE",
+      "zh_CN": "\u6d4b\u8bd5\u676f\u8d5b<<A<<[CHANGED 2019/04/16]",
+      "ja_JP": "\u30c6\u30b9\u30c8\u30ab\u30c3\u30d7<<A<<[CHANGED 2019/04/16]",
+      "ko_KR": "Test Cup<<A<<[CHANGED 2019/04/16]",
+      "langUid": 4,
+      "zh_TW": "\u6e2c\u8a66\u676f\u8cfd<<A<<[CHANGED 2019/04/16]"
+    },
+    "info": {
+      "en_US": "Ima use dis 2 test stuff.",
+      "pt_BR": "Testando umas parada aê.",
+      "de_DE": "<<C<<IGNORE",
+      "zh_CN": "Ima use dis 2 test stuff.<<A<<[CHANGED 2019/04/16]",
+      "ja_JP": "\u30c6\u30b9\u30c8\u7528\u3067\u30fc\u3059\u3002<<A<<[CHANGED 2019/04/16]",
+      "ko_KR": "Ima use dis 2 test stuff.<<A<<[CHANGED 2019/04/16]",
+      "langUid": 1,
+      "zh_TW": "Ima use dis 2 test stuff.<<A<<[CHANGED 2019/04/16]"
+    },
+    "music": "challenge",
+    "rushMusic": "raidTheme",
+    "level": 1,
+    "difficulty": "1",
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 0,
+      "offY": 64,
+      "width": 280,
+      "height": 64
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Default Test",
+        "pt_BR": "Teste Padrão",
+        "de_DE": "<<C<<IGNORE",
+        "zh_CN": "Default Test<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30c7\u30d5\u30a9\u30eb\u30c8\u30c6\u30b9\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "Default Test<<A<<[CHANGED 2019/04/16]",
+        "langUid": 5,
+        "zh_TW": "Default Test<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "platPoints": 70000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "langUid": 21,
+        "zh_CN": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-area.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "<<C<<IGNORE",
+        "zh_TW": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 60000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "meerkat",
+              "attribs": { "supportMode": false }
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.autumn-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 25, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Level 1 Test",
+        "pt_BR": "Teste do Nível 1",
+        "de_DE": "<<C<<IGNORE",
+        "zh_CN": "Level 1 Test<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30ec\u30d9\u30eb1\u30c6\u30b9\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ub808\ubca8 1 \ud14c\uc2a4\ud2b8<<A<<[CHANGED 2019/04/16]",
+        "langUid": 22,
+        "zh_TW": "Level 1 Test<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "platPoints": 35000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "langUid": 23,
+        "zh_CN": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-area.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "<<C<<IGNORE",
+        "zh_TW": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 20000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "meerkat",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.autumn-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 25, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 3, "points": 2500 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Level 99 Test",
+        "pt_BR": "Teste do Nível 99",
+        "de_DE": "<<C<<IGNORE",
+        "zh_CN": "Level 99 Test<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30ec\u30d9\u30eb99\u30c6\u30b9\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ub808\ubca8 99 \ud14c\uc2a4\ud2b8<<A<<[CHANGED 2019/04/16]",
+        "langUid": 24,
+        "zh_TW": "Level 99 Test<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "platPoints": 35000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "langUid": 25,
+        "zh_CN": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-area.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "<<C<<IGNORE",
+        "zh_TW": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 20000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn1",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "count": 1,
+              "enemy": "hedgehog",
+              "marker": "Spawn2",
+              "type": "hedgehog",
+              "attribs": { "hidden": false }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "count": 1,
+              "enemy": "meerkat",
+              "marker": "SpawnAreaLarge",
+              "type": "meerkat",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.autumn-setting-01",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 25, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 3, "points": 2500 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Custom Test",
+        "pt_BR": "Teste Personalizado",
+        "de_DE": "<<C<<IGNORE",
+        "zh_CN": "Custom Test<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\u30ab\u30b9\u30bf\u30e0\u30c6\u30b9\u30c8<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\ucee4\uc2a4\ud140 \ud14c\uc2a4\ud2b8<<A<<[CHANGED 2019/04/16]",
+        "langUid": 26,
+        "zh_TW": "Custom Test<<A<<[CHANGED 2019/04/16]"
+      },
+      "customCode": true,
+      "camFocus": "CAM_FOCUS",
+      "platPoints": 35000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos do \\c[3]\\v[area.autumn-area.name]\\c[0]!",
+        "langUid": 27,
+        "zh_CN": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]",
+        "ko_KR": "\\c[3]\\v[area.autumn-area.name]\\c[0] \ucd9c\uc2e0\uc758 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/04/16]",
+        "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u6575\u3092\u5012\u305b\uff01<<A<<[CHANGED 2019/04/16]",
+        "de_DE": "<<C<<IGNORE",
+        "zh_TW": "Defeat enemies hailing from \\c[3]\\v[area.autumn-area.name]\\c[0]!<<A<<[CHANGED 2019/04/16]"
+      },
+      "points": 20000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [],
+      "map": "arena.autumn-setting-01-custom",
+      "bonuses": [
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "TIME", "seconds": 25, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 2500 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    },
+    {
+      "name": {
+        "en_US": "Malicious Mustache BLA",
+        "pt_BR": "Bigode Malicioso BLA",
+        "de_DE": "<<C<<IGNORE",
+        "zh_CN": "Malicious Mustache BLA<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "Malicious Mustache BLA<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "Malicious Mustache BLA<<A<<[CHANGED 2019/07/31]",
+        "langUid": 38,
+        "zh_TW": "Malicious Mustache BLA<<A<<[CHANGED 2019/07/31]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "platPoints": 130000,
+      "coins": 1000,
+      "objective": {
+        "en_US": "Unused and stored here.",
+        "pt_BR": "Nada pra ver aqui, cai fora.",
+        "de_DE": "<<C<<IGNORE",
+        "zh_CN": "Unused and stored here.<<A<<[CHANGED 2019/07/31]",
+        "ja_JP": "Unused and stored here.<<A<<[CHANGED 2019/07/31]",
+        "ko_KR": "Unused and stored here.<<A<<[CHANGED 2019/07/31]",
+        "langUid": 39,
+        "zh_TW": "Unused and stored here.<<A<<[CHANGED 2019/07/31]"
+      },
+      "points": 110000,
+      "type": "DEFAULT",
+      "medal": 0,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "state": "DEFAULT",
+              "level": 0,
+              "marker": "Spawn5",
+              "type": "heat.special.guard-hostile-mustache",
+              "attribs": {}
+            }
+          ]
+        }
+      ],
+      "map": "arena.areas.maroon-setting-01",
+      "bonuses": [
+        { "type": "TIME", "seconds": 45, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 3, "points": 7500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 30000, "points": 5000 },
+        { "type": "ITEMS_USED", "amount": 2, "points": 3000 }
+      ],
+      "spawn": "PLAYER_SPAWN"
+    }
+  ]
+}

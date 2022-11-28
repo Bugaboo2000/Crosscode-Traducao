@@ -1,0 +1,88 @@
+{
+  "core": {
+    "type": "SOLO_CUP",
+    "name": {
+      "en_US": "Rookie Parkour",
+      "pt_BR": "Parkour Iniciante",
+      "langUid": 1,
+      "zh_CN": "\u65b0\u624b\u8dd1\u9177<<A<<[CHANGED 2019/05/14]",
+      "ja_JP": "\u30eb\u30fc\u30ad\u30fc\u30d1\u30eb\u30af\u30fc\u30eb<<A<<[CHANGED 2019/05/14]",
+      "ko_KR": "\ucd08\ubcf4\uc790 \ud30c\ucfe0\ub974<<A<<[CHANGED 2019/05/14]",
+      "de_DE": "Rookie-Parcours",
+      "zh_TW": "\u65b0\u624b\u8dd1\u9177<<A<<[CHANGED 2019/05/14]"
+    },
+    "info": {
+      "en_US": "just run in a straight line to where you wanna go.",
+      "pt_BR": "corra em linha reta até onde você quer ir.",
+      "langUid": 2,
+      "zh_CN": "\u76f4\u7ebf\u8dd1\u5230\u4f60\u60f3\u53bb\u7684\u5730\u65b9\u3002<<A<<[CHANGED 2019/05/14]",
+      "ja_JP": "\u884c\u304d\u305f\u3044\u5834\u6240\u306b\u5411\u304b\u3063\u3066\u771f\u3063\u3059\u3050\u9032\u3082\u3046\u3002<<A<<[CHANGED 2019/05/14]",
+      "ko_KR": "\uac00\uace0 \uc2f6\uc740 \uacf3\uc73c\ub85c \ucb49 \ub2ec\ub824\ubcf4\uc138\uc694.<<A<<[CHANGED 2019/05/14]",
+      "de_DE": "Laufe einfach in schnurgerader Linie dorthin, wo du willst.",
+      "zh_TW": "\u76f4\u7dda\u8dd1\u5230\u4f60\u60f3\u53bb\u7684\u5730\u65b9\u3002<<A<<[CHANGED 2019/05/14]"
+    },
+    "creator": {
+      "en_US": "xDragon",
+      "pt_BR": "XDragon",
+      "langUid": 8,
+      "zh_CN": "x\u9f99x<<A<<[CHANGED 2019/05/14]",
+      "ja_JP": "x\u30c9\u30e9\u30b4\u30f3<<A<<[CHANGED 2019/05/14]",
+      "ko_KR": "xDragon<<A<<[CHANGED 2019/05/14]",
+      "de_DE": "xDragon",
+      "zh_TW": "x\u9f8dx<<A<<[CHANGED 2019/05/14]"
+    },
+    "mods": ["NO_ITEMS"],
+    "difficulty": "1",
+    "level": 50,
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 0,
+      "offY": 64,
+      "width": 276,
+      "height": 60
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Grassy Highland Area",
+        "pt_BR": "Área da Colina Verde",
+        "langUid": 7,
+        "zh_CN": "\u9ad8\u5730\u8349\u539f\u533a<<A<<[CHANGED 2019/05/14]",
+        "ja_JP": "\u8349\u539f\u30a8\u30ea\u30a2<<A<<[CHANGED 2019/05/14]",
+        "ko_KR": "\ud480\uc774 \ubb34\uc131\ud55c \uc0b0\uc545 \uc9c0\ub300<<A<<[CHANGED 2019/05/14]",
+        "de_DE": "Gr\u00fcnes H\u00fcgelland",
+        "zh_TW": "\u9ad8\u5730\u8349\u539f\u5340<<A<<[CHANGED 2019/05/14]"
+      },
+      "customCode": true,
+      "platPoints": 0,
+      "coins": 0,
+      "objective": {
+        "en_US": "Touch all markers!",
+        "pt_BR": "Toque todos os marcadores!",
+        "langUid": 9,
+        "zh_CN": "\u89e6\u78b0\u6240\u6709\u6807\u8bb0\uff01<<A<<[CHANGED 2019/05/14]",
+        "ja_JP": "\u3059\u3079\u3066\u306e\u30de\u30fc\u30ab\u30fc\u306b\u89e6\u308c\u308d\uff01<<A<<[CHANGED 2019/05/14]",
+        "ko_KR": "\ubaa8\ub4e0 \ub9c8\ucee4\ub97c \ud130\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/05/14]",
+        "de_DE": "Ber\u00fchre alle Marker!",
+        "zh_TW": "\u89f8\u78b0\u6240\u6709\u6a19\u8a18\uff01<<A<<[CHANGED 2019/05/14]"
+      },
+      "description": {
+        "en_US": "Touch all markers as fast as you can!",
+        "pt_BR": "Toque todos os marcadores o mais rápido que puder!",
+        "langUid": 10,
+        "zh_CN": "\u5c3d\u53ef\u80fd\u5feb\u901f\u89e6\u78b0\u6240\u6709\u6807\u8bb0\uff01<<A<<[CHANGED 2019/05/14]",
+        "ja_JP": "\u3059\u3079\u3066\u306e\u30de\u30fc\u30ab\u30fc\u306b\u3067\u304d\u308b\u3060\u3051\u65e9\u304f\u89e6\u308c\u308d\uff01<<A<<[CHANGED 2019/05/14]",
+        "ko_KR": "\ucd5c\ub300\ud55c \ube68\ub9ac \ubaa8\ub4e0 \ub9c8\ucee4\ub97c \ud130\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2019/05/14]",
+        "de_DE": "Ber\u00fchre alle Marker so schnell du kannst!",
+        "zh_TW": "\u76e1\u53ef\u80fd\u5feb\u901f\u89f8\u78b0\u6240\u6709\u6a19\u8a18\uff01<<A<<[CHANGED 2019/05/14]"
+      },
+      "music": "fieldBattle",
+      "map": "arena.parkour.autumn-01",
+      "spawn": "PLAYER_SPAWN",
+      "points": 0,
+      "waves": [],
+      "bonuses": [{ "type": "TIME", "seconds": 5, "points": 10000 }]
+    }
+  ]
+}

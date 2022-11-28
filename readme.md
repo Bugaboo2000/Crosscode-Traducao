@@ -62,7 +62,10 @@ Recomendamos também que entre no nosso **grupo do Discord** para mais informaç
 
 * [M4sterin](https://github.com/m4sterin) - Revisão, tradução e manutenção do código
 
-* [KingTimer12](https://github.com/KingTimer12) - Ajudar na tradução 
+* [KingTimer12](https://github.com/KingTimer12) - Tradutor
 
-* [spacetk00](https://github.com/spacetk00) - Ajudar na Tradução e complementar a mesma
+* [spacetk00](https://github.com/spacetk00) -  Revisão, tradução e ajuste da interface do game.
 
+* [Dalffs](https://github.com/Dalffs) -  Revisão e tradução
+
+* [BrTraducoes](https://github.com/brtraducoes) -  Idealizador do ajuste na interface do game. Nosso eterno agradecimento 💓

@@ -1,0 +1,660 @@
+{
+  "core": {
+    "type": "SOLO_CUSTOM",
+    "name": {
+      "en_US": "Vermillion Cup",
+      "pt_BR": "Copa Carmesim",
+      "de_DE": "Vermillonpokal",
+      "zh_CN": "\u8d64\u7ea2\u676f\u8d5b<<A<<[CHANGED 2021/01/12]",
+      "zh_TW": "\u8d64\u7d05\u676f\u8cfd<<A<<[CHANGED 2021/01/12]",
+      "ja_JP": "\u30f4\u30a1\u30fc\u30df\u30ea\u30aa\u30f3\u30ab\u30c3\u30d7<<A<<[CHANGED 2021/01/12]",
+      "ko_KR": "\uc8fc\ud64d\uc758 \ub300\ud68c<<A<<[CHANGED 2021/01/12]",
+      "langUid": 1
+    },
+    "info": {
+      "en_US": "A cup featuring enemies from the \\v[area.arid.name] only Lea can access.",
+      "pt_BR": "Uma copa com inimigos do \\v[area.arid.name], apenas Lea pode acessar.",
+      "de_DE": "Ein Pokal mit Gegnern aus der Vermillonein\u00f6de, der nur Lea zug\u00e4nglich ist.",
+      "zh_CN": "\u5bf9\u6297\u6765\u81ea\\v[area.arid.name]\u7684\u654c\u4eba\u3002\u53ea\u6709\u8389\u4e9a\u80fd\u53c2\u52a0\u3002<<A<<[CHANGED 2021/01/12]",
+      "zh_TW": "\u5c0d\u6297\u4f86\u81ea\\v[area.arid.name]\u7684\u6575\u4eba\u3002\u53ea\u6709\u8389\u4e9e\u80fd\u53c3\u52a0\u3002<<A<<[CHANGED 2021/01/12]",
+      "ja_JP": "\u30ec\u30a2\u3060\u3051\u304c\u30a2\u30af\u30bb\u30b9\u3067\u304d\u308b\u3001\\v[area.arid.name]\u306e\u6575\u3068\u6226\u3046\u30ab\u30c3\u30d7\u3002<<A<<[CHANGED 2021/01/12]",
+      "ko_KR": "\ub808\uc544\ub9cc \uc774\uc6a9\ud560 \uc218 \uc788\ub294, \\v[area.arid.name]\uc758 \uc801\uc774 \ub4f1\uc7a5\ud558\ub294 \ub300\ud68c\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2021/01/12]",
+      "langUid": 2
+    },
+    "creator": {
+      "en_US": "???",
+      "pt_BR": "???",
+      "de_DE": "???",
+      "zh_CN": "???<<A<<[CHANGED 2021/01/12]",
+      "zh_TW": "???<<A<<[CHANGED 2021/01/12]",
+      "ja_JP": "\uff1f\uff1f\uff1f<<A<<[CHANGED 2021/01/12]",
+      "ko_KR": "???<<A<<[CHANGED 2021/01/12]",
+      "langUid": 3
+    },
+    "condition": "plot.vermillionCup",
+    "music": "challenge",
+    "rushMusic": "raidTheme",
+    "mods": ["WEAPON_ADJUST"],
+    "difficulty": "5",
+    "level": 80,
+    "banner": {
+      "src": "media/gui/arena-banners.png",
+      "offX": 280,
+      "offY": 192,
+      "width": 280,
+      "height": 64
+    }
+  },
+  "rounds": [
+    {
+      "name": {
+        "en_US": "Multi Microbes",
+        "pt_BR": "Múltiplos Micróbios",
+        "langUid": 7,
+        "de_DE": "Multi-Mikroben",
+        "zh_TW": "\u5206\u88c2\u7e41\u6b96<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u5206\u88c2\u7e41\u6b96<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub2e4\uc218\uc758 \ubbf8\uc0dd\ubb3c<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30de\u30eb\u30c1\u30fb\u30de\u30a4\u30af\u30ed\u30fc\u30d6<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 230000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the virus enemies from \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote os virus inimigos do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 58,
+        "de_DE": "Besiege die Virus-Gegner aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u6575\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u654c\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\\c[3]\\v[area.arid.name]\\c[0]\uc758 \ubc14\uc774\ub7ec\uc2a4 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u30a6\u30a4\u30eb\u30b9\u7cfb\u306e\u6575\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.areas.vermillion-setting-01",
+      "spawn": "PLAYER_SPAWN",
+      "points": 215000,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn1",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn2",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn3",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn4",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "SpawnAreaLarge",
+              "type": "arid.virus-heat",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            }
+          ]
+        },
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn1",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn2",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn3",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "Spawn4",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "SpawnAreaLarge",
+              "type": "arid.virus-cold",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 10, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 10000, "points": 5000 }
+      ]
+    },
+    {
+      "name": {
+        "en_US": "Basic Brutes",
+        "pt_BR": "Brutos Básicos",
+        "langUid": 59,
+        "de_DE": "Einfache Bestien",
+        "zh_TW": "\u883b\u529b\u9b54\u7378<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u86ee\u529b\u9b54\u517d<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ud3c9\ubc94\ud55c \uc9d0\uc2b9<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30d9\u30fc\u30b7\u30c3\u30af\u30fb\u30d6\u30eb\u30fc\u30c8<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 250000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the brute enemies from \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos brutos do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 60,
+        "de_DE": "Besiege die Bestien-Gegner aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u6575\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u654c\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\\c[3]\\v[area.arid.name]\\c[0]\uc758 \uc9d0\uc2b9 \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u7363\u7cfb\u306e\u6575\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.areas.vermillion-setting-01",
+      "spawn": "PLAYER_SPAWN",
+      "points": 200000,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn1",
+              "type": "arid.shredder-heat",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn2",
+              "type": "arid.shredder-heat",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn3",
+              "type": "arid.shredder-wave",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn4",
+              "type": "arid.shredder-wave",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            }
+          ]
+        },
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn1",
+              "type": "arid.shredder-cold",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn2",
+              "type": "arid.shredder-cold",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn3",
+              "type": "arid.shredder-shock",
+              "attribs": {
+                "noBuffs": false,
+                "element": "",
+                "shoot": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn4",
+              "type": "arid.shredder-shock",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 8, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 35000, "points": 5000 }
+      ]
+    },
+    {
+      "name": {
+        "en_US": "Rhino Rumble",
+        "pt_BR": "Rinocerontes Loucos",
+        "langUid": 61,
+        "de_DE": "Rhino-Rumpeln",
+        "zh_TW": "\u7280\u725b\u79c0\u5834<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u7280\u725b\u79c0\u573a<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ucf54\ubfd4\uc18c \ub3cc\uc9c4<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30e9\u30a4\u30ce\u30fb\u30e9\u30f3\u30d6\u30eb<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 160000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the rhino enemies from \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote os inimigos rinocerontes do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 62,
+        "de_DE": "Besiege die Rhino-Gegner aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u6575\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u654c\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\\c[3]\\v[area.arid.name]\\c[0]\uc758 \ucf54\ubfd4\uc18c \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u30b5\u30a4\u306e\u6575\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.areas.vermillion-setting-01",
+      "spawn": "PLAYER_SPAWN",
+      "points": 140000,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "SpawnAreaLarge",
+              "type": "arid.rhino",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false,
+                "noFerro": false
+              }
+            }
+          ]
+        },
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "SpawnAreaLarge",
+              "type": "arid.rhino",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false,
+                "noFerro": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn1",
+              "type": "arid.shredder-wave",
+              "attribs": { "noBuffs": true, "element": "" }
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        { "type": "TIME", "seconds": 70, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 3, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 15000, "points": 5000 }
+      ]
+    },
+    {
+      "name": {
+        "en_US": "Dice Dusters",
+        "pt_BR": "Bruxaria com Dados",
+        "langUid": 63,
+        "de_DE": "W\u00fcrfelwender",
+        "zh_TW": "\u9ab0\u5b50\u7279\u5de5<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u9ab0\u5b50\u7279\u5de5<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub2e4\uc774\uc2a4 \ub354\uc2a4\ud130\uc988<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30c0\u30a4\u30b9\u30fb\u30c0\u30b9\u30bf\u30fc\u30ba<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": false,
+      "camFocus": "CAM_FOCUS",
+      "roundFocus": "CAM_FOCUS",
+      "platPoints": 100000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Defeat the dice mage enemies from \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote os dados magos do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 64,
+        "de_DE": "Besiege die W\u00fcrfelmagier-Gegner aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u6575\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u654c\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\\c[3]\\v[area.arid.name]\\c[0]\uc758 \uc8fc\uc0ac\uc704 \ub9c8\ubc95\uc0ac \uc801\uc744 \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u30c0\u30a4\u30b9\u30fb\u30e1\u30a4\u30b8\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.areas.vermillion-setting-01",
+      "spawn": "PLAYER_SPAWN",
+      "points": 90000,
+      "waves": [
+        {
+          "enemies": [
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH",
+              "marker": "SpawnAreaLarge",
+              "type": "arid.dice-mage",
+              "attribs": {
+                "noBuffs": false,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false,
+                "noFerro": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_WEST",
+              "marker": "Spawn1",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": true,
+                "shoot": "",
+                "element": "",
+                "permaShoot": false
+              }
+            },
+            {
+              "group": "",
+              "party": "",
+              "face": "SOUTH_EAST",
+              "marker": "Spawn2",
+              "type": "arid.virus-neutral",
+              "attribs": {
+                "noBuffs": true,
+                "element": "",
+                "shoot": "",
+                "permaShoot": false
+              }
+            }
+          ]
+        }
+      ],
+      "bonuses": [
+        { "type": "TIME", "seconds": 60, "points": 10000 },
+        { "type": "HIT_COUNTER", "value": 5, "points": 2500 },
+        { "type": "CHAIN", "target": 3, "points": 2500 },
+        { "type": "EFFECTIVE_DAMAGE", "target": 5000, "points": 5000 }
+      ]
+    },
+    {
+      "name": {
+        "en_US": "The Elemental Turrets",
+        "pt_BR": "As Torres Elementais",
+        "langUid": 51,
+        "de_DE": "Die Elementgesch\u00fctze",
+        "zh_TW": "\u5143\u7d20\u70ae\u81fa<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u5143\u7d20\u70ae\u53f0<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\uc18d\uc131 \ud3ec\ud0d1<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30b6\u30fb\u30a8\u30ec\u30e1\u30f3\u30bf\u30eb\u30bf\u30ec\u30c3\u30c8<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": true,
+      "platPoints": 260000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0] boss from the \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0] do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 72,
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0], dem Boss aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f37\u7248\\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f3a\u7248\\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub354 \uac15\ub825\ud574\uc9c4 \\c[3]\\v[area.arid.name]\\c[0]\uc758 \\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0] \ubcf4\uc2a4\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u5f37\u3044\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\\c[3]\\v[combat.name.arid/element-turret-boss]\\c[0]\u30dc\u30b9\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.dlc.turrets",
+      "spawn": "PLAYER_SPAWN",
+      "points": 200000,
+      "waves": [],
+      "bonuses": [{ "type": "TIME", "seconds": 60, "points": 100000 }]
+    },
+    {
+      "name": {
+        "en_US": "The Infinite Snail",
+        "pt_BR": "O Caracol Infinito",
+        "de_DE": "Die endlose Schnecke",
+        "zh_CN": "\u65e0\u5c3d\u8717\u725b<<A<<[CHANGED 2021/05/04]",
+        "zh_TW": "\u7121\u76e1\u8778\u725b<<A<<[CHANGED 2021/05/04]",
+        "ja_JP": "\u30b6\u30fb\u30a4\u30f3\u30d5\u30a3\u30cb\u30c3\u30c8\u30b9\u30cd\u30a4\u30eb<<A<<[CHANGED 2021/05/04]",
+        "ko_KR": "\ubb34\ud55c \ub2ec\ud33d\uc774<<A<<[CHANGED 2021/05/04]",
+        "langUid": 73
+      },
+      "customCode": true,
+      "platPoints": 700000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.arid/snail]\\c[0] boss from the \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.arid/snail]\\c[0] do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "de_DE": "Besiege eine st\u00e4rkere Version von \\c[3]\\v[combat.name.arid/snail]\\c[0], dem Boss aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f3a\u7248\\c[3]\\v[combat.name.arid/snail]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f37\u7248\\c[3]\\v[combat.name.arid/snail]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u5f37\u3044\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\\c[3]\\v[combat.name.arid/snail]\\c[0]\u30dc\u30b9\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub354 \uac15\ub825\ud574\uc9c4 \\c[3]\\v[area.arid.name]\\c[0]\uc758 \\c[3]\\v[combat.name.arid/snail]\\c[0] \ubcf4\uc2a4\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "langUid": 74
+      },
+      "map": "arena.dlc.snail",
+      "spawn": "PLAYER_SPAWN",
+      "points": 450000,
+      "waves": [],
+      "bonuses": [{ "type": "TIME", "seconds": 240, "points": 100000 }]
+    },
+    {
+      "name": {
+        "en_US": "The Designer",
+        "pt_BR": "O Designer",
+        "langUid": 75,
+        "de_DE": "Der Designer",
+        "zh_TW": "\u8a2d\u8a08\u5e2b<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u8bbe\u8ba1\u5e08<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub514\uc790\uc774\ub108<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30b6\u30fb\u30c7\u30b6\u30a4\u30ca\u30fc<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": true,
+      "platPoints": 380000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Beat a stronger version of the \\c[3]\\v[combat.name.boss/designer-2]\\c[0] boss from the \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.boss/designer-2]\\c[0] do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 76,
+        "de_DE": "Besiege eine st\u00e4rkere Version des \\c[3]Designers\\c[0], dem Boss aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f37\u7248\\c[3]\\v[combat.name.boss/designer-2]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f3a\u7248\\c[3]\\v[combat.name.boss/designer-2]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub354 \uac15\ub825\ud574\uc9c4 \\c[3]\\v[area.arid.name]\\c[0]\uc758 \\c[3]\\v[combat.name.boss/designer-2]\\c[0] \ubcf4\uc2a4\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u5f37\u3044\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\\c[3]\\v[combat.name.boss/designer-2]\\c[0]\u30dc\u30b9\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.dlc.designer",
+      "spawn": "PLAYER_SPAWN",
+      "points": 250000,
+      "waves": [],
+      "bonuses": [{ "type": "TIME", "seconds": 360, "points": 100000 }]
+    },
+    {
+      "name": {
+        "en_US": "The Creator",
+        "pt_BR": "O Criador",
+        "langUid": 77,
+        "de_DE": "Der Erschaffer",
+        "zh_TW": "\u5275\u9020\u8005<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u521b\u9020\u8005<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ucc3d\uc870\uc790<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\u30b6\u30fb\u30af\u30ea\u30a8\u30a4\u30bf\u30fc<<A<<[CHANGED 2021/01/12]"
+      },
+      "customCode": true,
+      "platPoints": 450000,
+      "coins": 0,
+      "objective": {
+        "en_US": "Beat a stronger version of \\c[3]\\v[combat.name.boss/elephant]\\c[0] boss from the \\c[3]\\v[area.arid.name]\\c[0]!",
+        "pt_BR": "Derrote uma versão mais forte do boss \\c[3]\\v[combat.name.boss/elephant]\\c[0] do \\c[3]\\v[area.arid.name]\\c[0]!",
+        "langUid": 78,
+        "de_DE": "Besiege eine st\u00e4rkere Version des \\c[3]Erschaffers\\c[0], dem Boss aus der \\c[3]Vermillonein\u00f6de\\c[0]!",
+        "zh_TW": "\u64ca\u6557\u4f86\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f37\u7248\\c[3]\\v[combat.name.boss/elephant]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "zh_CN": "\u51fb\u8d25\u6765\u81ea\\c[3]\\v[area.arid.name]\\c[0]\u7684\u52a0\u5f3a\u7248\\c[3]\\v[combat.name.boss/elephant]\\c[0]\uff01<<A<<[CHANGED 2021/01/12]",
+        "ko_KR": "\ub354 \uac15\ub825\ud574\uc9c4 \\c[3]\\v[area.arid.name]\\c[0]\uc758 \\c[3]\\v[combat.name.boss/elephant]\\c[0] \ubcf4\uc2a4\ub97c \ucc98\uce58\ud558\uc138\uc694!<<A<<[CHANGED 2021/01/12]",
+        "ja_JP": "\\c[3]\\v[area.arid.name]\\c[0]\u306e\u5f37\u3044\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\\c[3]\\v[combat.name.boss/elephant]\\c[0]\u30dc\u30b9\u3092\u5012\u3059\uff01<<A<<[CHANGED 2021/01/12]"
+      },
+      "map": "arena.dlc.creator",
+      "spawn": "center",
+      "points": 350000,
+      "waves": [],
+      "bonuses": [{ "type": "TIME", "seconds": 600, "points": 100000 }]
+    }
+  ]
+}

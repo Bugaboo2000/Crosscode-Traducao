@@ -2472,7 +2472,7 @@
                 {
                   "message": {
                     "en_US": "He has been quiet for a few days, but just hours ago another report was made.",
-                    "pt_BR": "Ele tem estado calado por alguns dias, mas há apenas algumas horas foi feito outro relatório.",
+                    "pt_BR": "Ele permaneceu discreto por alguns dias, mas um novo relatório chegou nas últimas horas.",
                     "de_DE": "Er hat sich die letzten Tage ruhig verhalten, aber vor ein paar Stunden kam ein neuer Bericht herein.",
                     "zh_CN": "\u4ed6\u597d\u51e0\u5929\u6ca1\u6709\u4ec0\u4e48\u52a8\u9759\u4e86\u3002\u4f46\u5c31\u5728\u51e0\u4e2a\u5c0f\u65f6\u524d\uff0c\u6211\u53c8\u6536\u5230\u4e86\u65b0\u7684\u6d88\u606f\u3002<<A<<[CHANGED 2018/09/19]",
                     "ja_JP": "\u3084\u3064\u306f\u6570\u65e5\u9593\u884c\u65b9\u77e5\u308c\u305a\u3067\u3057\u305f\u304c\u3001\n\u3061\u3087\u3046\u3069\u6570\u6642\u9593\u524d\u306b\u3084\u3064\u306b\u95a2\u3059\u308b\u5831\u544a\u304c\n\u3042\u304c\u308a\u307e\u3057\u305f\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3239,7 +3239,7 @@
                 {
                   "message": {
                     "en_US": "Enemy data and collection properties are all in order.",
-                    "pt_BR": "Os dados inimigos e as propriedades de coleta estão todos em ordem.",
+                    "pt_BR": "Os dados dos inimigos e as propriedades de coleta estão todos em ordem.",
                     "de_DE": "Gegnerdaten und dergleichen sind auch im Normalbereich.",
                     "zh_CN": "\u654c\u4eba\u6570\u636e\u548c\u6536\u96c6\u54c1\u90fd\u662f\u6b63\u5e38\u7684\u3002<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "\u6575\u306e\u30c7\u30fc\u30bf\u3068\u53ce\u96c6\u7269\u306e\u8a2d\u5b9a\u306b\u3082\n\u7570\u5e38\u306a\u3057\u3067\u3059\u3002<<A<<[CHANGED 2018/07/09]",
@@ -3257,7 +3257,7 @@
                 {
                   "message": {
                     "en_US": "The quests given by this Henry person were legitimate as far as I can see. ",
-                    "pt_BR": "As buscas dadas por este Henry eram, até onde posso ver, legítimas. ",
+                    "pt_BR": "As missões dadas por este Henry eram, até onde posso ver, legítimas. ",
                     "de_DE": "Die Quests von diesem Henry waren v\u00f6llig legitim, so weit ich sehen kann.",
                     "zh_CN": "\u8fd9\u4e2a\u4ea8\u5229\u7ed9\u7684\u4efb\u52a1\u90fd\u662f\u5408\u6cd5\u7684\u3002<<A<<[CHANGED 2018/09/19]",
                     "ja_JP": "\u30d8\u30f3\u30ea\u30fc\u3068\u3044\u3046\u4eba\u7269\u304c\u51fa\u3057\u3066\u3044\u308b\n\u30af\u30a8\u30b9\u30c8\u306f\u3001\u3042\u3089\u3086\u308b\u70b9\u306b\u304a\u3044\u3066\n\u6b63\u5f53\u306a\u3082\u306e\u306e\u3088\u3046\u3067\u3059\u3002<<A<<[CHANGED 2018/09/19]",
@@ -8473,7 +8473,7 @@
               {
                 "message": {
                   "en_US": "I kinda don't wanna talk right now, if that's cool.",
-                  "pt_BR": "Eu meio que não quero falar agora, se não houver problema.",
+                  "pt_BR": "Eu meio que não tô afim de falar agora.",
                   "de_DE": "Mir ist n\u00e4mlich grad nicht nach Reden.",
                   "zh_CN": "\u6211\u73b0\u5728\u4e0d\u592a\u60f3\u8bf4\u8bdd\u3002<<A<<[CHANGED 2018/09/19]",
                   "ja_JP": "\u4eca\u306f\u8a71\u3057\u305f\u304f\u306a\u3044\u6c17\u5206\u306a\u3093\u3060\u3002\n\u9759\u304b\u306b\u3057\u3066\u305f\u3044\u3093\u3060\u3088\u3002<<A<<[CHANGED 2018/09/19]",
@@ -8491,7 +8491,7 @@
               {
                 "message": {
                   "en_US": "My parents are annoying as is. I can't deal with Seekers right now.",
-                  "pt_BR": "Meus pais já são irritantes o suficiente. Eu não quero falar com Seekers agora.",
+                  "pt_BR": "Meus pais já me encheram o saco. E agora eu não quero falar com ninguém.",
                   "de_DE": "Meine Eltern sind schon nervig genug, da kann ich einen Seeker grad echt nicht gebrauchen.",
                   "zh_CN": "\u5c31\u662f\u88ab\u7236\u6bcd\u70e6\u5230\u4e86\u3002\u4e0d\u60f3\u8ddf\u63a2\u7d22\u8005\u95f2\u804a\u3002<<A<<[CHANGED 2018/10/04]",
                   "ja_JP": "\u3046\u3061\u306e\u89aa\u306f\u3044\u3064\u3082\u901a\u308a\u3046\u3056\u3063\u305f\u3044\u3057\u3055\u3002\n\u4eca\u306f\u63a2\u7d22\u8005\u306e\u76f8\u624b\u306a\u3093\u3066\u3057\u3066\u3089\u308c\u306a\u3044\u3088\u3002<<A<<[CHANGED 2018/10/04]",

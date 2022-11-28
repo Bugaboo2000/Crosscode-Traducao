@@ -8401,7 +8401,7 @@
                 {
                   "message": {
                     "en_US": "Did you see our post on the quest board?",
-                    "pt_BR": "Você viu nosso anúncio no quadro de buscas?",
+                    "pt_BR": "Você viu nosso anúncio no quadro de missões?",
                     "langUid": 272,
                     "ko_KR": "\ud018\uc2a4\ud2b8 \uac8c\uc2dc\ud310\uc5d0 \uc6b0\ub9ac\uac00 \uc62c\ub9b0 \uae00 \ubd24\uc5b4?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u5728\u4efb\u52a1\u677f\u4e0a\u770b\u5230\u4e86\u6211\u4eec\u53d1\u5e03\u7684\u4efb\u52a1\u5bf9\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -8551,7 +8551,7 @@
                 {
                   "message": {
                     "en_US": "Nice to meet you, Lea!",
-                    "pt_BR": "Prazer em conhecê-la, Lea!",
+                    "pt_BR": "Prazer em te conhecer, Lea!",
                     "langUid": 278,
                     "ko_KR": "\ub9cc\ub098\uc11c \ubc18\uac00\uc6cc, \ub808\uc544!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5e78\u4f1a\uff0c\u8389\u4e9a\uff01<<A<<[CHANGED 2019/01/10]",
@@ -8756,7 +8756,7 @@
                 {
                   "message": {
                     "en_US": "...we eagerly welcome your punctuality and willingness to join our cause and serve your fellow player!",
-                    "pt_BR": "...acolhemos com entusiasmo sua pontualidade e vontade de unir-se à nossa causa e servir seus companheiros de jogo!",
+                    "pt_BR": "...acolhemos com entusiasmo sua pontualidade e vontade de ajudar a nossa causa e servir seus companheiros de jogo!",
                     "langUid": 281,
                     "ko_KR": "...\uc6b0\ub9b0 \ub124\uac00 \uc81c \uc2dc\uac04\uc5d0 \uc628 \uac83\uacfc \ub3d9\ub8cc \ud50c\ub808\uc774\uc5b4\ub97c \uad6c\ud558\ub824\ub294 \uc6b0\ub9ac\uc758 \ubaa9\uc801\uc5d0 \ud568\uaed8\ud558\uace0\uc790 \ud558\ub294 \uc758\uc9c0\uc5d0 \uac10\uc0ac\ub97c \ud45c\uc2dc\ud558\uace0 \uc2f6\uc5b4!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "...\u9080\u8bf7\u4f60\u52a0\u5165\u6211\u4eec\uff0c\u6551\u52a9\u5e7f\u5927\u73a9\u5bb6\uff01<<A<<[CHANGED 2019/01/10]",
@@ -8792,7 +8792,7 @@
                 {
                   "message": {
                     "en_US": "Never heard of us, huh?\\. Oh well!",
-                    "pt_BR": "Nunca ouviu falar de nós, não?\\. Ah, bem!",
+                    "pt_BR": "Nunca ouviu falar de nós, não?\\. Ah, fala sério!",
                     "langUid": 283,
                     "ko_KR": "\uc6b0\ub9ac\uc5d0 \ub300\ud574 \ub4e4\uc5b4\ubcf8 \uc801 \uc5c6\ub2e4\uace0?\\. \uc800\ub7f0!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4f60\u6ca1\u542c\u8bf4\u8fc7\u6211\u4eec\uff1f\\. \u6ca1\u5173\u7cfb\u3002<<A<<[CHANGED 2019/01/10]",
@@ -8810,7 +8810,7 @@
                 {
                   "message": {
                     "en_US": "In any case, we're in a tight spot and looking for some extra help.",
-                    "pt_BR": "De qualquer forma, estamos em uma situação difícil e procurando alguma ajuda extra.",
+                    "pt_BR": "Enfim, estamos em uma situação difícil e procurando alguma ajuda extra.",
                     "langUid": 284,
                     "ko_KR": "\uc544\ubb34\ud2bc \uc9c0\uae08 \uace4\ub780\ud55c \uc0c1\ud669\uc774 \uc788\uc5b4\uc11c \ub3c4\uc6c0\uc774 \ub420 \ub9cc\ud55c \uc0ac\ub78c\uc744 \ucc3e\uace0 \uc788\uac70\ub4e0.<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u5927\u4f53\u6765\u8bf4\uff0c\u6211\u4eec\u73b0\u5728\u4eba\u624b\u77ed\u7f3a\uff0c\u9700\u8981\u5e7f\u7eb3\u8d24\u624d\u3002<<A<<[CHANGED 2019/01/10]",
@@ -8828,7 +8828,7 @@
                 {
                   "message": {
                     "en_US": "It'll mostly involve \\c[3]fighting a few monsters here in Sapphire Ridge\\c[0]. What do you say?",
-                    "pt_BR": "A maior parte envolve o \\c[3]combate contra alguns monstros na Serra da Safira\\c[0]. O que você diz?",
+                    "pt_BR": "A maior parte envolve \\c[3]combates contra alguns monstros na Serra da Safira\\c[0]. O que você me diz?",
                     "langUid": 285,
                     "ko_KR": "\ub300\ubd80\ubd84\uc740 \\c[3]\uc0ac\ud30c\uc774\uc5b4 \uc0b0\ub9e5\uc5d0\uc11c \ubaac\uc2a4\ud130\ub97c \uc7a1\ub294 \uc77c\\c[0]\uc774\uc57c. \uc5b4\ub54c?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4efb\u52a1\u7684\u4e3b\u8981\u5185\u5bb9\u662f\\c[3]\u4e0e\u9752\u7389\u5c71\u8109\u7684\u4e00\u4e9b\u602a\u7269\u6218\u6597\\c[0]\u3002\u600e\u4e48\u6837\uff0c\u5e72\u4e0d\u5e72\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9255,7 +9255,7 @@
             "entity": { "global": true, "name": "patchNpc2" },
             "text": {
               "en_US": "Yeah...\\. but does something seem different now?\\. Like was that flower there before?",
-              "pt_BR": "Sim...\\. mas alguma coisa parece diferente agora...\\. Como se aquela flor estivesse ali antes?",
+              "pt_BR": "Sim...\\. mas alguma coisa parece diferente agora...\\. Aquela flor estava ali antes?",
               "langUid": 296,
               "ko_KR": "\ub9de\uc544...\\. \uadfc\ub370 \uc544\uae4c\ub791 \ubb54\uac00 \ub2e4\ub974\uc9c0 \uc54a\uc544?\\. \uc800\ucabd\uc5d0 \uc6d0\ub798 \uaf43\uc774 \uc788\uc5c8\ub358\uac00?<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u662f...\\.\u4e0d\u8fc7\u8fd9\u91cc\u662f\u4e0d\u662f\u6539\u8fc7\u4e86\uff1f\\.\u6bd4\u65b9\u8bf4\u4e4b\u524d\u90a3\u91cc\u6709\u82b1\u5417\uff1f<<A<<[CHANGED 2019/01/10]",
@@ -9268,7 +9268,7 @@
             "entity": { "global": true, "name": "patchNpc3" },
             "text": {
               "en_US": "Which one?\\. Maybe there's been a patch recently...",
-              "pt_BR": "Qual delas?\\ Talvez tenha ocorrido uma atualização recente...",
+              "pt_BR": "Qual delas?\\. Talvez tenha ocorrido uma atualização recente...",
               "langUid": 297,
               "ko_KR": "\uc5b4\ub5a4 \uaf43?\\. \ucd5c\uadfc\uc5d0 \ud328\uce58\uac00 \uc788\uc5c8\ub098 \ubcf4\uc9c0...<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u54ea\u4e2a?\\.\u662f\u4e0d\u662f\u6700\u8fd1\u66f4\u65b0\u4e86...<<A<<[CHANGED 2019/01/10]",
@@ -9281,7 +9281,7 @@
             "entity": { "global": true, "name": "patchNpc2" },
             "text": {
               "en_US": "Something feels off.\\. What if WE were just patched in?\\. We wouldn't even remember it!",
-              "pt_BR": "Algo parece estranho.\\ E se nós acabássemos de ser atualizados... Nós nem nos lembraríamos disso!",
+              "pt_BR": "Tem algo estranho acontecendo aqui.\\. E se nós acabássemos de ser atualizados?\\. Nós nem lembraríamos disso!",
               "langUid": 298,
               "ko_KR": "\ubb54\uac00 \ub290\ub08c\uc774 \uc774\uc0c1\ud574.\\. \uc6b0\ub9ac\uac00 \ud328\uce58\ub2f9\ud55c \uac70\uba74 \uc5b4\ub5a1\ud574?\\. \uadf8\ub9ac\uace0\ub294 \uadf8\uac78 \uae30\uc5b5\ub3c4 \ubabb\ud558\ub294 \uac70\uba74?<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u611f\u89c9\u4e0d\u592a\u5bf9\u52b2\u3002\\.\u5982\u679c\u6700\u8fd1\u66f4\u65b0\u52a0\u5165\u7684\u662f\u6211\u4eec\u5462\uff1f\\.\u5bf9\u4e0d\u5bf9\uff01<<A<<[CHANGED 2019/01/10]",

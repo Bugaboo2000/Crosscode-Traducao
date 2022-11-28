@@ -5005,7 +5005,7 @@
               {
                 "message": {
                   "en_US": "The first is the \\c[3]Trial of Vigor\\c[0]. It can be found in the \\c[3]Nesting Grounds\\c[0], an easily missed cave north of the \\c[3]Eroded Passage\\c[0].",
-                  "pt_BR": "O primeiro é o \\c[3]Teste de Vigor\\c[0]. Ele pode ser encontrado na \\c[3]Zona de Aninhamento\\c[0], uma caverna perdida ao norte da \\c[3]Passagem Eroída\\c[0].",
+                  "pt_BR": "O primeiro é o \\c[3]Teste do Vigor\\c[0]. Ele pode ser encontrado nas \\c[3]Áreas de Nidificação\\c[0], uma caverna perdida ao norte da \\c[3]Passagem Corroída\\c[0].",
                   "langUid": 24,
                   "zh_CN": "\u7b2c\u4e00\u4e2a\u8bd5\u70bc\u4e3a\\c[3]\u4f53\u529b\u8bd5\u70bc\\c[0]\u3002\u5730\u5904\\c[3]\u5de2\u7a74\\c[0]\uff0c\\c[3]\u4fb5\u8680\u4e4b\u5f84\\c[0]\u5317\u65b9\u7684\u4e00\u4e2a\u6d1e\u7a74\u4e2d\u3002<<A<<[CHANGED 2018/05/01]",
                   "ja_JP": "1\u3064\u76ee\u306f\\c[3]\u6d3b\u529b\u306e\u8a66\u7df4\\c[0]\u3002\n\u3053\u306e\u8a66\u7df4\u306f\\c[3]\u8150\u6557\u3057\u305f\u9053\\c[0]\u306e\u5317\u306b\u3042\u308b\n\u898b\u9003\u3057\u3084\u3059\u3044\u6d1e\u7a9f\u3001\\c[3]\u5de3\u304f\u3046\u5927\u5730\\c[0]\u3067\n\u53d7\u3051\u3089\u308c\u308b\u3002<<A<<[CHANGED 2018/05/01]",
@@ -5020,7 +5020,7 @@
               {
                 "message": {
                   "en_US": "The second is to be completed at the \\c[3]Flower Lake\\c[3] and is called the \\c[3]Trial of Patience\\c[0].",
-                  "pt_BR": "O segundo será concluído no \\c[3]Lago das Flores\\c[3] e é chamado de Teste da Paciência.",
+                  "pt_BR": "O segundo será concluído no \\c[3]Lago de Flores\\c[3] e é chamado de Teste da Paciência.",
                   "langUid": 25,
                   "zh_CN": "\u7b2c\u4e8c\u4e2a\u8bd5\u70bc\u5728\\c[3]\u82b1\u6e56\\c[0]\uff0c\u4e3a\\c[3]\u8010\u5fc3\u8bd5\u70bc\\c[0]\u3002<<A<<[CHANGED 2018/05/01]",
                   "ja_JP": "2\u3064\u76ee\u306f\\c[3]\u5fcd\u8010\u306e\u8a66\u7df4\\c[0]\u3002\n\\c[3]\u82b1\u54b2\u304f\u6e56\\c[0]\u3067\u53d7\u3051\u3089\u308c\u308b\u3002<<A<<[CHANGED 2018/05/01]",
@@ -5346,7 +5346,7 @@
                 {
                   "message": {
                     "en_US": "This will grant you access to a long forgotten \\c[3]Dojo\\c[0] hidden in the \\c[3]north-east of \\v[area.forest.name]\\c[0].",
-                    "pt_BR": "Isto lhe dará acesso a um \\c[3]Dojo\\c[0] há muito esquecido escondido no nordeste da \\v[area.forest.name]\\c[0]..",
+                    "pt_BR": "Isso dará acesso a um \\c[3]Dojo\\c[0] há muito tempo esquecido, escondido no nordeste da \\v[area.forest.name]\\c[0].",
                     "langUid": 58,
                     "zh_CN": "\u7528\u8fd9\u628a\u94a5\u5319\u8fdb\u5165\u9690\u85cf\u5728\\c[3]\\v[area.forest.name]\u4e1c\u5317\u90e8\\c[0]\u7684\\c[3]\u9053\u573a\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "\u3053\u306e\u9375\u304c\u3042\u308c\u3070\u3001\u9577\u3044\u3053\u3068\u5fd8\u308c\u53bb\u3089\u308c\u3001\n\\c[3]\\v[area.forest.name]\u306e\u5317\u6771\\c[0]\u306b\u96a0\u3055\u308c\u3066\u3044\u305f\n\\c[3]\u9053\u5834\\c[0]\u306b\u5165\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3002<<A<<[CHANGED 2018/07/09]",
@@ -5844,7 +5844,7 @@
               {
                 "message": {
                   "en_US": "The first is the \\c[3]Trial of Vigor\\c[0]. It can be found in the \\c[3]Nesting Grounds\\c[0], an easily missed cave north of the \\c[3]Eroded Passage\\c[0].",
-                  "pt_BR": "O primeiro é o \\c[3]Teste de Vigor\\c[0]. Ele pode ser encontrado na \\c[3]Zona de Aninhamento\\c[0], uma caverna perdida ao norte da \\c[3]Passagem Eroída\\c[0].",
+                  "pt_BR": "O primeiro é o \\c[3]Teste do Vigor\\c[0]. Ele pode ser encontrado nas \\c[3]Áreas de Nidificação\\c[0], uma caverna perdida ao norte da \\c[3]Passagem Corroída\\c[0].",
                   "langUid": 72,
                   "ja_JP": "1\u3064\u76ee\u306f\\c[3]\u6d3b\u529b\u306e\u8a66\u7df4\\c[0]\u3002\n\u3053\u306e\u8a66\u7df4\u306f\\c[3]\u8150\u6557\u3057\u305f\u9053\\c[0]\u306e\u5317\u306b\u3042\u308b\n\u898b\u9003\u3057\u3084\u3059\u3044\u6d1e\u7a9f\u3001\\c[3]\u5de3\u304f\u3046\u5927\u5730\\c[0]\u3067\n\u53d7\u3051\u3089\u308c\u308b\u3002<<A<<[CHANGED 2018/07/09]",
                   "ko_KR": "\uccab \ubc88\uc9f8\ub294 \\c[3]\ud65c\ub825 \uc2dc\ud5d8\\c[0]\uc774\ub2e4. \\c[3]\ud48d\ud654\ub41c \ud1b5\ub85c\\c[0] \ubd81\ucabd\uc5d0 \ubabb \ubcf4\uace0 \uc9c0\ub098\uce60 \uc218 \uc788\ub294 \ub3d9\uad74\uc778 \\c[3]\ubcf4\uae08\uc790\ub9ac\\c[0]\uc5d0\uc11c \ucc3e\uc744 \uc218 \uc788\uc9c0.<<A<<[CHANGED 2018/07/09]",
@@ -5859,7 +5859,7 @@
               {
                 "message": {
                   "en_US": "The second is to be completed at the \\c[3]Flower Lake\\c[0] and is called the \\c[3]Trial of Patience\\c[0].",
-                  "pt_BR": "O segundo será concluído no \\c[3]Lago das Flores\\c[3] e é chamado de Teste da Paciência.",
+                  "pt_BR": "O segundo será concluído no \\c[3]Lago de Flores\\c[0] e é chamado de Teste da Paciência.",
                   "langUid": 73,
                   "ja_JP": "2\u3064\u76ee\u306f\\c[3]\u5fcd\u8010\u306e\u8a66\u7df4\\c[0]\u3002\n\\c[3]\u82b1\u54b2\u304f\u6e56\\c[0]\u3067\u53d7\u3051\u3089\u308c\u308b\u3002<<A<<[CHANGED 2018/07/09]",
                   "ko_KR": "\ub450 \ubc88\uc9f8\ub294 \\c[3]\uaf43\uc758 \ud638\uc218\\c[0]\uc5d0\uc11c \uc644\ub8cc\ud560 \uc218 \uc788\uc73c\uba70 \\c[3]\uc778\ub0b4 \uc2dc\ud5d8\\c[0]\uc774\ub77c \ubd88\ub9b0\ub2e4.<<A<<[CHANGED 2018/07/09]",
