@@ -1,0 +1,36 @@
+{
+  "name": {
+    "en_US": "PC Exclusive Extension",
+    "pt_BR": "Extensão Exclusiva de PC",
+    "de_DE": "PC-exklusive Erweiterung<<C<<Geprüft: Minsu",
+    "zh_CN": "PC独占拓展<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "PC獨佔拓展<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "PCだけの特別拡張<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "PC 전용 확장 콘텐츠<<A<<[CHANGED 2020/07/15]",
+    "langUid": 1
+  },
+  "description": {
+    "en_US": "Includes a new late-game quest and pet that were once exclusive to the PC!",
+    "pt_BR": "Inclui uma nova missão e pet no final do jogo, que antes eram exclusivos para PC!",
+    "de_DE": "Beinhaltet eine neue Quest und einen neuen Begleiter, einst exklusiv für den PC!<<C<<Geprüft: Minsu",
+    "zh_CN": "PC独占，包括一个游戏后期任务和一只宠物！<<A<<[CHANGED 2020/07/15]",
+    "zh_TW": "PC獨佔，包括一個遊戲後期任務和一隻寵物！<<A<<[CHANGED 2020/07/15]",
+    "ja_JP": "PCだけの\n新しい終盤クエストとペット！<<A<<[CHANGED 2020/07/15]",
+    "ko_KR": "PC 전용 게임 후반 신규 퀘스트와 펫으로 구성되어 있습니다!<<A<<[CHANGED 2020/07/15]",
+    "langUid": 2
+  },
+  "files": [
+    "data/enemies/minibosses/scorpion-boss.json",
+    "data/enemies/minibosses/scorpion-boss-pole.json",
+    "data/animations/boss/scorpion-boss.json",
+    "media/entity/enemy/boss/scorpion-boss.png",
+    "media/entity/enemy/boss/scorpion-boss-2.png",
+    "data/maps/heat/lab/room-1.json",
+    "data/maps/heat/lab/room-2-sub.json",
+    "data/maps/heat/lab/room-2.json",
+    "data/maps/heat/lab/room-3.json",
+    "data/maps/heat/lab/room-4.json",
+    "data/maps/heat/lab/room-boss.json",
+    "data/maps/heat/lab/room-final.json"
+  ]
+}
