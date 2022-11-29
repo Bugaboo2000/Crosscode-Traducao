@@ -11017,7 +11017,7 @@
                 {
                   "message": {
                     "en_US": "Oh...\\.\\.\\. Oh...\\.\\.\\. What should I do?",
-                    "pt_BR": "Oh...\\.\\.\\. Oh...\\.\\.\\. O que eu deveria fazer?",
+                    "pt_BR": "Ho...\\.\\.\\. Ho...\\.\\.\\. O que eu deveria fazer?",
                     "de_DE": "Oh...\\.\\.\\. Oh...\\.\\.\\. Was soll ich tun?",
                     "fr_FR": "fr_FR",
                     "langUid": 27,
@@ -11109,7 +11109,7 @@
                 {
                   "message": {
                     "en_US": "There is just no time.",
-                    "pt_BR": "Não há tempo.",
+                    "pt_BR": "Não tenho tempo.",
                     "de_DE": "Es ist einfach gerade keine Zeit.",
                     "fr_FR": "fr_FR",
                     "langUid": 32,
@@ -11147,7 +11147,7 @@
                 {
                   "message": {
                     "en_US": "You probably know who I am right?",
-                    "pt_BR": "Você provavelmente sabe quem eu sou,certo?",
+                    "pt_BR": "Você provavelmente sabe quem eu sou, não sabe?",
                     "de_DE": "Du wei\u00dft wahrscheinlich, wer ich bin, oder?",
                     "fr_FR": "fr_FR",
                     "langUid": 34,
@@ -11335,7 +11335,7 @@
                 {
                   "message": {
                     "en_US": "Look, I have to get all these presents here to certain players in CrossWorlds.",
-                    "pt_BR": "Olha, tenho que levar todos estes presentes aqui para certos jogadores do CrossWorlds.",
+                    "pt_BR": "Olha, tenho que levar todos estes presentes aqui para certos jogadores de CrossWorlds.",
                     "de_DE": "Schau, ich muss all diese Geschenke hier an bestimmte Spieler in CrossWorlds ausliefern.",
                     "fr_FR": "fr_FR",
                     "langUid": 44,
@@ -11639,7 +11639,7 @@
                     {
                       "message": {
                         "en_US": "But in each area it's always a \\c[3]Triblader\\c[0], \\c[3]Hexacast\\c[0], \\c[3]Pentafist\\c[0] and \\c[3]Quadroguard\\c[0].",
-                        "pt_BR": "Mas em cada área sempre tem \\c[3]Triblader\\c[0], \\c[3]Hexacast\\c[0], \\c[3]Pentafist\\c[0] e um \\c[3]Quadroguard\\c[0].",
+                        "pt_BR": "Mas em cada área sempre tem \\c[3]Tricorte\\c[0], \\c[3]Hexamago\\c[0], \\c[3]Pentapunho\\c[0] e um \\c[3]Quadroguarda\\c[0].",
                         "de_DE": "Aber in jedem Gebiet ist es immer ein \\c[3]Triblader\\c[0], \\c[3]Hexacast\\c[0], \\c[3]Pentafist\\c[0] und ein \\c[3]Quadroguard\\c[0].",
                         "fr_FR": "fr_FR",
                         "langUid": 58,
@@ -11658,7 +11658,7 @@
                     {
                       "message": {
                         "en_US": "You will know when you find them.",
-                        "pt_BR": "Você saberá quando encontrá-los.",
+                        "pt_BR": "Você saberá quem são quando encontrar eles.",
                         "de_DE": "Du wirst sie erkennen, wenn du sie gefunden hast.",
                         "fr_FR": "fr_FR",
                         "langUid": 59,
@@ -11803,7 +11803,7 @@
               {
                 "message": {
                   "en_US": "You still have some presents left to give I see.",
-                  "pt_BR": "Você ainda tem alguns presentes para dar, pelo que estou vendo.",
+                  "pt_BR": "Você ainda tem alguns presentes para entregar, pelo que estou vendo.",
                   "de_DE": "Du musst noch einige Geschenke zustellen, wie ich sehe.",
                   "fr_FR": "fr_FR",
                   "langUid": 72,
@@ -11886,7 +11886,7 @@
                 {
                   "message": {
                     "en_US": "Oh... you are back! We have a problem!",
-                    "pt_BR": "Oh... você voltou! Nós temos um problema!",
+                    "pt_BR": "Ah... você voltou! Nós temos um problema!",
                     "de_DE": "Oh... Du bist zur\u00fcck! Wir haben ein Problem!\n",
                     "fr_FR": "fr_FR",
                     "langUid": 80,
@@ -11940,7 +11940,7 @@
                 {
                   "message": {
                     "en_US": "...and this weird looking snowman just popped up and attacked.",
-                    "pt_BR": "... e esse estranho boneco de neve surgiu do nada e me atacou.",
+                    "pt_BR": "... e um estranho boneco de neve surgiu do nada e me atacou.",
                     "de_DE": "... als auf einmal so ein seltsam aussehender Schneemann auftauchte und mich attackierte.",
                     "fr_FR": "fr_FR",
                     "langUid": 83,
@@ -12013,7 +12013,7 @@
                 {
                   "message": {
                     "en_US": "...!",
-                    "pt_BR": "...",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "langUid": 87,
@@ -12080,7 +12080,7 @@
                 {
                   "message": {
                     "en_US": "Oh... alright! ",
-                    "pt_BR": "Oh... tudo bem!",
+                    "pt_BR": "Ah... tudo bem!",
                     "de_DE": "Oh... Gut!",
                     "fr_FR": "fr_FR",
                     "langUid": 91,
@@ -12202,6 +12202,7 @@
                 {
                   "message": {
                     "en_US": "Please save my presents!",
+                    "pt_BR": "Por favor salve meus presentes!",
                     "de_DE": "Bitte rette meine Geschenke!",
                     "fr_FR": "fr_FR",
                     "langUid": 94,
@@ -12368,7 +12369,7 @@
                 {
                   "message": {
                     "en_US": "Oh, you did? Ha! What a relief...",
-                    "pt_BR": "Oh, você consegiu? Ha! Que alívio...",
+                    "pt_BR": "Ah, você consegiu? Ho!\\. Ho!\\. Ho!\\. Que alívio...",
                     "de_DE": "Oh, wirklich? Puh, was f\u00fcr eine Erleichterung...",
                     "fr_FR": "fr_FR",
                     "langUid": 103,
@@ -12387,7 +12388,7 @@
                 {
                   "message": {
                     "en_US": "And... \\.\\.\\. How are my presents? ",
-                    "pt_BR": "E... \\.\\.\\. Como estão meus presentes?",
+                    "pt_BR": "E... \\.\\.\\. Como estão os presentes?",
                     "de_DE": "Und...\\.\\.\\. Wie steht es um die Geschenke?",
                     "fr_FR": "fr_FR",
                     "langUid": 104,
@@ -12441,7 +12442,7 @@
                 {
                   "message": {
                     "en_US": "Oh... wait, what?",
-                    "pt_BR": "Oh... espera, o que?",
+                    "pt_BR": "Ah... espera, o que?",
                     "de_DE": "Oh... warte, was?",
                     "fr_FR": "fr_FR",
                     "langUid": 107,
@@ -12495,7 +12496,7 @@
                 {
                   "message": {
                     "en_US": "OH! It's your name?!",
-                    "pt_BR": "OH! Esse é o seu nome?!",
+                    "pt_BR": "AH! Esse é o seu nome?!",
                     "de_DE": "OH! Ist das dein Name?!",
                     "fr_FR": "fr_FR",
                     "langUid": 110,
@@ -12530,7 +12531,7 @@
                 {
                   "message": {
                     "en_US": "Oh no, how rude of me to not ask for your name.",
-                    "pt_BR": "Oh não, que falta de educação da minha parte não perguntar seu nome.",
+                    "pt_BR": "Ah não, que falta de educação da minha parte não perguntar seu nome.",
                     "de_DE": "Oh, wie unh\u00f6flich von mir, nicht danach zu fragen.",
                     "fr_FR": "fr_FR",
                     "langUid": 112,
@@ -12584,7 +12585,7 @@
                 {
                   "message": {
                     "en_US": "Don't worry about my presents! I will check for myself.",
-                    "pt_BR": "Não se preocupe com meus presentes! Vou verificar por mim mesmo.",
+                    "pt_BR": "Não se preocupe com meus presentes! Eu mesmo vou verificar.",
                     "de_DE": "Mach dir keine Sorgen um die Geschenke! Ich k\u00fcmmere mich darum.",
                     "fr_FR": "fr_FR",
                     "langUid": 115,

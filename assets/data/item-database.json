@@ -147,6 +147,7 @@
     {
       "name": {
         "en_US": "-Thunfischbr\u00f6tchen",
+        "pt_BR": "Atum Frito",
         "de_DE": "Thunfischbr\u00f6tchen",
         "langUid": 9,
         "zh_CN": "-\u541e\u62ff\u9c7c\u9762\u5305",
@@ -156,6 +157,7 @@
       },
       "description": {
         "en_US": "Will f\u00a7=k you up.",
+        "pt_BR": "Vai ferrar com tudo.",
         "de_DE": "Yepp.",
         "fr_FR": "undefined",
         "zh_CN": "\u6709\u80c6\u5b50\u4f60\u5c31\u5403\u3002",
@@ -185,6 +187,7 @@
     {
       "name": {
         "en_US": "-Thunfischsalat",
+        "pt_BR": "Salada de Atum",
         "de_DE": "Thunfischsalat",
         "langUid": 11,
         "zh_CN": "-\u541e\u62ff\u9c7c\u6c99\u62c9",
@@ -194,6 +197,7 @@
       },
       "description": {
         "en_US": "Can contain traces of nuts.",
+        "pt_BR": "Pode conter vestígios de nozes.",
         "de_DE": "Kann Spuren von N\u00fcssen enthalten.",
         "fr_FR": "undefined",
         "zh_CN": "\u5e26\u6709\u4e00\u4e1d\u5e72\u679c\u5473\u9053\u3002",
@@ -449,6 +453,7 @@
     {
       "name": {
         "en_US": "-Rauser",
+        "pt_BR": "Rauser",
         "fr_FR": "undefined",
         "zh_CN": "-\u626b\u5e1a<<A<<[CHANGED 2018/05/01]",
         "ja_JP": "\u30e9\u30a6\u30b6\u30fc<<A<<[CHANGED 2018/05/01]",
@@ -459,6 +464,7 @@
       },
       "description": {
         "en_US": "A cross-shaped weapon to fight enemies in the sky.",
+        "pt_BR": "Uma arma em forma de cruz para combater os inimigos no céu.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u628a\u4e0e\u7a7a\u4e2d\u654c\u4eba\u6218\u6597\u7684\u5341\u5b57\u5f62\u6b66\u5668\u3002",
         "ja_JP": "\u7a7a\u4e2d\u306e\u6575\u3068\u6226\u3046\u305f\u3081\u306e\u5341\u5b57\u578b\u306e\u6b66\u5668\u3002",
@@ -634,6 +640,7 @@
     {
       "name": {
         "en_US": "-Sirian Key",
+        "pt_BR": "Chave Siriana",
         "fr_FR": "undefined",
         "zh_CN": "-\u5929\u72fc\u661f\u94a5\u5319<<A<<[CHANGED 2018/05/01]",
         "ja_JP": "\u30b7\u30ea\u30a2\u306e\u9264<<A<<[CHANGED 2018/05/01]",
@@ -644,6 +651,7 @@
       },
       "description": {
         "en_US": "Uses a strange whip like laser to slowly damage enemies.",
+        "pt_BR": "Utiliza um chicote estranho como o laser para danificar lentamente os inimigos.",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u4e00\u9053\u5947\u602a\u7684\u5149\u97ad\u6765\u7f13\u6162\u4f24\u5bb3\u654c\u4eba\u3002",
         "ja_JP": "\u30ec\u30fc\u30b6\u30fc\u306e\u3088\u3046\u306a\u5947\u5999\u306a\u30e0\u30c1\u3092\u4f7f\u3044\u3001\u6575\u306b\u3086\u3063\u304f\u308a\u3068\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002",
@@ -700,6 +708,7 @@
     {
       "name": {
         "en_US": "-Testhat",
+        "pt_BR": "Chapéu de Teste",
         "de_DE": "Testhut<<C<<IGNORE",
         "langUid": 39,
         "zh_CN": "-\u8bd5\u9a8c\u5e3d",
@@ -709,6 +718,7 @@
       },
       "description": {
         "en_US": "A fashionable hat for testing. STARTER-STANDIN!",
+        "pt_BR": "Um chapéu estiloso para testes.",
         "de_DE": "Test-Test :-)<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u9876\u7528\u4e8e\u6d4b\u8bd5\u7684\u65f6\u9ae6\u5934\u9970\u3002\u65b0\u624b\u5fc5\u5907\uff01",
@@ -732,6 +742,7 @@
     {
       "name": {
         "en_US": "-Testarms",
+        "pt_BR": "Arma de Teste",
         "de_DE": "Testwaffe<<C<<IGNORE",
         "langUid": 41,
         "zh_CN": "-\u8bd5\u9a8c\u6b66\u5668",
@@ -741,6 +752,7 @@
       },
       "description": {
         "en_US": "A sometimes deadly weapon for testing. STARTER-STANDIN!",
+        "pt_BR": "Uma arma às vezes mortal para testes. ",
         "de_DE": "Test-Test :-)<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u5728\u6d4b\u8bd5\u4e2d\u53ef\u7b97\u662f\u81f4\u547d\u5229\u5668\u4e86\u3002\u65b0\u624b\u5fc5\u5907\uff01",
@@ -764,6 +776,7 @@
     {
       "name": {
         "en_US": "-Testbelt",
+        "pt_BR": "Cinto de Teste",
         "de_DE": "Testg\u00fcrtel<<C<<IGNORE",
         "langUid": 43,
         "zh_CN": "-\u8bd5\u9a8c\u8170\u5e26",
@@ -773,6 +786,7 @@
       },
       "description": {
         "en_US": "A trousers-holding belt for testing. STARTER-STANDIN!",
+        "pt_BR": "Um cinto de calças para testes.",
         "de_DE": "Test-Test :-)<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4ef6\u7528\u4e8e\u6d4b\u8bd5\u7684\u8fde\u88e4\u8170\u5e26\u3002\u65b0\u624b\u5fc5\u5907\uff01",
@@ -796,6 +810,7 @@
     {
       "name": {
         "en_US": "-Testboots",
+        "pt_BR": "Botas de Teste",
         "de_DE": "Teststiefel<<C<<IGNORE",
         "langUid": 45,
         "zh_CN": "-\u8bd5\u9a8c\u9774\u5b50",
@@ -805,6 +820,7 @@
       },
       "description": {
         "en_US": "Some comfortable boots for testing. STARTER-STANDIN!",
+        "pt_BR": "Algumas botas confortáveis para testes.",
         "de_DE": "Test-Test :-)<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u7528\u4e8e\u6d4b\u8bd5\u7684\u8212\u9002\u9774\u5b50\u3002\u65b0\u624b\u5fc5\u5907\uff01",
@@ -1403,6 +1419,7 @@
     {
       "name": {
         "en_US": "Winner's Pride",
+        "pt_BR": "Orgulho do Vencedor",
         "de_DE": "Stolz des Siegers",
         "fr_FR": "undefined",
         "zh_CN": "\u80dc\u8005\u7684\u9a84\u50b2",
@@ -1413,6 +1430,7 @@
       },
       "description": {
         "en_US": "A small bracelet to celebrate the defeat of many.",
+        "pt_BR": "Um pequeno bracelete para celebrar a derrota de muitos.",
         "de_DE": "Ein kleines Armband, welches an einen glorreichen Sieg erinnern soll.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u7528\u4ee5\u5e86\u795d\u51fb\u8d25\u5927\u91cf\u654c\u4eba\u7684\u5c0f\u624b\u956f\u3002",
@@ -1853,6 +1871,7 @@
     {
       "name": {
         "en_US": "Key Piece",
+        "pt_BR": "Peça Chave",
         "de_DE": "Schl\u00fcsselst\u00fcck",
         "fr_FR": "undefined",
         "zh_CN": "\u94a5\u5319\u788e\u7247",
@@ -1863,6 +1882,7 @@
       },
       "description": {
         "en_US": "Actually looks like a key, fitting into a triangle-shaped hole.",
+        "pt_BR": "Na verdade, parece uma chave, encaixando em um buraco em forma de triângulo.",
         "de_DE": "Sieht genau genommen wie ein Schl\u00fcssel f\u00fcr ein dreieckiges Schl\u00fcsselloch aus.",
         "fr_FR": "undefined",
         "zh_CN": "\u770b\u7740\u50cf\u4e00\u628a\u94a5\u5319\uff0c\u53ef\u4ee5\u63d2\u5165\u4e00\u4e2a\u4e09\u89d2\u5f62\u7684\u9501\u773c\u3002",
@@ -1882,6 +1902,7 @@
     {
       "name": {
         "en_US": "-Observatory Key",
+        "pt_BR": "Chave do Observatório",
         "de_DE": "-Sternw.schl\u00fcssel",
         "fr_FR": "undefined",
         "zh_CN": "\u5929\u6587\u53f0\u94a5\u5319<<A<<[CHANGED 2018/08/28]",
@@ -1892,6 +1913,7 @@
       },
       "description": {
         "en_US": "A rather odd looking key. The key bit is shaped like a triangle.",
+        "pt_BR": "Uma chave de aparência um tanto estranha. A ponta da chave tem a forma de um triângulo.",
         "de_DE": "Seltsam wirkender Schl\u00fcssel mit dreieckigem Schl\u00fcsselbart.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u628a\u76f8\u5f53\u8001\u65e7\u7684\u94a5\u5319\u3002\u6709\u70b9\u50cf\u4e00\u4e2a\u4e09\u89d2\u5f62\u3002",
@@ -1911,6 +1933,7 @@
     {
       "name": {
         "en_US": "Winner's Proof",
+        "pt_BR": "Prova do Vencedor",
         "de_DE": "Beweis des Siegers",
         "fr_FR": "undefined",
         "zh_CN": "\u80dc\u8005\u7684\u8bc1\u660e",
@@ -1921,6 +1944,7 @@
       },
       "description": {
         "en_US": "Looks like a heart. Stands for the will of an old kingdom.",
+        "pt_BR": "Parece um coração. Representa a vontade de um antigo reino.",
         "de_DE": "Hat die Form eines Herzens. Symbolisiert den Siegeswillen eines alten K\u00f6nigreiches.",
         "fr_FR": "undefined",
         "zh_CN": "\u770b\u8d77\u6765\u50cf\u4e00\u9897\u5fc3\u810f\u3002\u4ee3\u8868\u7740\u4e00\u4e2a\u8fc7\u53bb\u738b\u56fd\u7684\u610f\u5fd7\u3002",
@@ -2249,6 +2273,7 @@
     {
       "name": {
         "en_US": "Precursor Shard",
+        "pt_BR": "Fragmento do Precursor",
         "de_DE": "Vorl\u00e4uferscherbe",
         "fr_FR": "undefined",
         "zh_CN": "\u5148\u9a71\u8005\u788e\u7247<<A<<[CHANGED 2017/10/10]",
@@ -2259,6 +2284,7 @@
       },
       "description": {
         "en_US": "An old shard used as a template in the beta phase of CrossWorlds.",
+        "pt_BR": "Uma velho fragmento usado como modelo na fase beta do CrossWorlds.",
         "de_DE": "Alte Scherbe, die als Template in der Beta-Phase von CrossWorlds verwendet wurde.",
         "fr_FR": "undefined",
         "zh_CN": "\u5728\u8fdc\u661f\u4e16\u754c\u516c\u6d4b\u671f\u95f4\u4f5c\u4e3a\u6837\u677f\u4f7f\u7528\u7684\u65e7\u788e\u7247\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3095,6 +3121,7 @@
       },
       "description": {
         "en_US": "Ideal for those who aspire to move at high velocities.",
+        "pt_BR": "Ideal para qualquer pessoa que queira se mover em alta velocidade.",
         "de_DE": "Ideal f\u00fcr jeden, der sich mit hoher Geschwindigkeit bewegen will.",
         "fr_FR": "undefined",
         "zh_CN": "\u975e\u5e38\u9002\u5408\u90a3\u4e9b\u5e0c\u671b\u4ee5\u9ad8\u901f\u79fb\u52a8\u7684\u4eba\u3002",
@@ -3568,6 +3595,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in Major Cities",
+              "pt_BR": "\\c[3]Mercadores\\c[0] nas Principais Cidades",
               "langUid": 2063,
               "zh_CN": "\u4e3b\u8981\u57ce\u5e02\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5927\u90fd\u5e02\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -3585,6 +3613,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Player Traders\\c[0] in all Areas",
+              "pt_BR": "\\c[3]Jogadores Mercadores\\c[0] em todas as áreas",
               "langUid": 2064,
               "zh_CN": "\u6240\u6709\u533a\u57df\u4e2d\u7684\\c[3]\u73a9\u5bb6\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3059\u3079\u3066\u306e\u30a8\u30ea\u30a2\u306e\\c[3]\u30d7\u30ec\u30a4\u30e4\u30fc\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -3636,6 +3665,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in Major Cities",
+              "pt_BR": "\\c[3]Mercadores\\c[0] nas Principais Cidades",
               "langUid": 2065,
               "zh_CN": "\u4e3b\u8981\u57ce\u5e02\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5927\u90fd\u5e02\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -3653,6 +3683,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Player Traders\\c[0] in all Areas",
+              "pt_BR": "\\c[3]Jogadores Mercadores\\c[0] em todas as áreas",
               "langUid": 2066,
               "zh_CN": "\u6240\u6709\u533a\u57df\u4e2d\u7684\\c[3]\u73a9\u5bb6\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3059\u3079\u3066\u306e\u30a8\u30ea\u30a2\u306e\\c[3]\u30d7\u30ec\u30a4\u30e4\u30fc\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -3704,6 +3735,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in Major Cities",
+              "pt_BR": "\\c[3]Mercadores\\c[0] nas Principais Cidades",
               "langUid": 2069,
               "zh_CN": "\u4e3b\u8981\u57ce\u5e02\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5927\u90fd\u5e02\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -3721,6 +3753,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Player Traders\\c[0] all over CrossWorlds",
+              "pt_BR": "\\c[3]Jogadores Mercadores\\c[0] em CrossWorlds",
               "de_DE": "\\c[3]Spieler-H\u00e4ndler\\c[0] in ganz CrossWorlds",
               "zh_CN": "\u8fdc\u661f\u4e16\u754c\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/09/14]",
               "ja_JP": "\u5927\u90fd\u5e02\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/09/14]",
@@ -3738,7 +3771,7 @@
       "order": 171,
       "name": {
         "en_US": "Spiral Gem",
-        "pt_BR": "Gema Espiral",
+        "pt_BR": "Jóia Espiral",
         "de_DE": "Spiraljuwel",
         "fr_FR": "undefined",
         "zh_CN": "\u87ba\u65cb\u5b9d\u77f3",
@@ -3771,6 +3804,7 @@
       "order": 11,
       "name": {
         "en_US": "Sparkly Boots",
+        "pt_BR": "Botas Brilhantes",
         "de_DE": "Funkelnde Stiefel",
         "fr_FR": "undefined",
         "zh_CN": "\u53d1\u5149\u9774",
@@ -3781,6 +3815,7 @@
       },
       "description": {
         "en_US": "They will make you sparkle with every step. Literally.",
+        "pt_BR": "Elas vão fazer você brilhar a cada passo. Literalmente.",
         "de_DE": "Werden dir mit jedem deiner Schritte neuen Glanz verleihen. Buchst\u00e4blich.",
         "fr_FR": "undefined",
         "zh_CN": "\u80fd\u8ba9\u4f60\u7684\u6bcf\u4e00\u6b65\u90fd\u95ea\u95ea\u53d1\u5149\u3002\u771f\u7684\u3002",
@@ -3916,6 +3951,7 @@
             "icon": "PLANT",
             "text": {
               "en_US": "\\c[3]Egg Pots\\c[0] in \\v[area.cold-dng.name]",
+              "pt_BR": "\\c[3]Locais de Ovos\\c[0] na \\v[area.cold-dng.name]",
               "langUid": 2111,
               "zh_CN": "\\v[area.cold-dng.name]\u4e2d\u7684\\c[3]\u86cb\u76c6\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\v[area.cold-dng.name]\u306e\\c[3]\u30a8\u30c3\u30b0\u30dd\u30c3\u30c8\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -4909,6 +4945,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in Major Cities",
+              "pt_BR": "\\c[3]Mercadores\\c[0] nas Principais Cidades",
               "langUid": 2067,
               "zh_CN": "\u4e3b\u8981\u57ce\u5e02\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5927\u90fd\u5e02\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -4926,6 +4963,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Player Traders\\c[0] in all Areas",
+              "pt_BR": "\\c[3]Jogadores Mercadores\\c[0] em todas as áreas",
               "langUid": 2068,
               "zh_CN": "\u6240\u6709\u533a\u57df\u4e2d\u7684\\c[3]\u73a9\u5bb6\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u3059\u3079\u3066\u306e\u30a8\u30ea\u30a2\u306e\\c[3]\u30d7\u30ec\u30a4\u30e4\u30fc\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -4943,6 +4981,7 @@
       "order": 9,
       "name": {
         "en_US": "The End",
+        "pt_BR": "O Fim",
         "de_DE": "Das Ende",
         "langUid": 263,
         "zh_CN": "\u7ed3\u675f",
@@ -4952,6 +4991,7 @@
       },
       "description": {
         "en_US": "It's the end. But patience will be rewarded.",
+        "pt_BR": "É o fim. Mas a paciência será recompensada.",
         "de_DE": "Dies ist das Ende. Aber Geduld wird belohnt werden.",
         "fr_FR": "undefined",
         "zh_CN": "\u7ed3\u675f\u4e86\u3002\u4f46\u7b49\u5f85\u7ec8\u6709\u56de\u62a5\u3002",
@@ -5043,6 +5083,7 @@
       "order": 10,
       "name": {
         "en_US": "-Disc of UNUSED",
+        "pt_BR": "Disco não Usado",
         "de_DE": "-Unbenutzte Scheibe<<C<<IGNORE",
         "langUid": 269,
         "zh_CN": "-\u65e0\u7528\u7684\u5149\u76d8",
@@ -5052,6 +5093,7 @@
       },
       "description": {
         "en_US": "IS NOT USED ANYMORE",
+        "pt_BR": "NÃO É MAIS USADO",
         "de_DE": "WIRD NICHT MEHR VERWENDET<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0d\u80fd\u518d\u7528\u4e86",
@@ -5100,6 +5142,7 @@
       "order": 13,
       "name": {
         "en_US": "Disc of Treasure",
+        "pt_BR": "Disco do Tesouro",
         "de_DE": "Truhenscheibe",
         "langUid": 273,
         "zh_CN": "\u73cd\u5b9d\u5149\u76d8",
@@ -5109,6 +5152,7 @@
       },
       "description": {
         "en_US": "An old artifact used to catch a fleeting glimpse of a vast treasure.",
+        "pt_BR": "Um antigo artefato usado para capturar um vislumbre de um vasto tesouro.",
         "de_DE": "Ein altes Artefakt, das einen fl\u00fcchtigen Blick auf einen riesigen Schatz gew\u00e4hrt.",
         "langUid": 274,
         "zh_CN": "\u4e00\u4ef6\u53e4\u8001\u7684\u5668\u7269\uff0c\u7528\u4ee5\u4e00\u77a5\u5de8\u5927\u5b9d\u85cf\u3002",
@@ -5372,6 +5416,7 @@
       "order": 64,
       "name": {
         "en_US": "Capture Device",
+        "pt_BR": "Dispositivo de Captura",
         "de_DE": "Fangger\u00e4t",
         "langUid": 289,
         "zh_CN": "\u6355\u83b7\u8bbe\u5907",
@@ -5381,6 +5426,7 @@
       },
       "description": {
         "en_US": "A roundish-shaped device. It can absorb the soul of defeated enemies.",
+        "pt_BR": "Um dispositivo arredondado. Ele pode absorver a alma dos inimigos derrotados.",
         "de_DE": "Ein rundliches Ger\u00e4t. Es kann die Seelen besiegter Gegner absorbieren.",
         "langUid": 290,
         "zh_CN": "\u4e00\u4e2a\u5706\u5f62\u7684\u88c5\u7f6e\u3002\u53ef\u4ee5\u7528\u6765\u5438\u6536\u88ab\u6253\u8d25\u540e\u7684\u654c\u4eba\u7075\u9b42\u3002",
@@ -5547,6 +5593,7 @@
       "order": 103,
       "name": {
         "en_US": "Neutral Stone",
+        "pt_BR": "Pedra Neutra",
         "de_DE": "Neutraler Stein",
         "fr_FR": "undefined",
         "zh_CN": "\u4e2d\u6027\u77f3",
@@ -5557,6 +5604,7 @@
       },
       "description": {
         "en_US": "A conventionally shaped rock that emits neutrality. Might one day empower your circuit?",
+        "pt_BR": "Uma rocha convencional que emite neutralidade. Será que um dia poderá fortalecer seu circuito?",
         "de_DE": "Gew\u00f6hnlicher Stein, der Neutralit\u00e4t ausstrahlt. K\u00f6nnte eines Tages deine Circuits st\u00e4rken.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u5e38\u89c4\u5f62\u72b6\u7684\u5ca9\u77f3\uff0c\u975e\u5e38\u666e\u901a\u3002\u4e5f\u8bb8\u6709\u4e00\u5929\u53ef\u4ee5\u8ba9\u4f60\u7684\u7535\u8def\u6d3b\u7edc\u8d77\u6765\uff1f",
@@ -5752,6 +5800,7 @@
       "order": 8,
       "name": {
         "en_US": "Ye dirty 'ol cheater",
+        "pt_BR": "Trapaceiro Sujo",
         "de_DE": "Du oller Cheater",
         "langUid": 315,
         "zh_CN": "\u4f5c\u5f0a\u72d7",
@@ -5761,6 +5810,7 @@
       },
       "description": {
         "en_US": "You can't have that.",
+        "pt_BR": "Você não pode ter isso.",
         "de_DE": "Das kannste gar nit haben.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0d\u7ed9\u4f60\uff01",
@@ -5929,6 +5979,7 @@
       "order": 60,
       "name": {
         "en_US": "- Devillish Tophat",
+        "pt_BR": "Cartola Diabólica",
         "de_DE": "Teufelszylinder",
         "fr_FR": "undefined",
         "zh_CN": "-\u90aa\u6076\u9ad8\u811a\u5e3d<<A<<[CHANGED 2018/05/01]",
@@ -5939,6 +5990,7 @@
       },
       "description": {
         "en_US": "Decorated with goat horns and a pink flower. It really shows that you mean business!",
+        "pt_BR": "Decorado com chifres de cabra e uma flor rosa. Isso realmente mostra que você está falando sério!",
         "de_DE": "Dekoriert mit Ziegenh\u00f6rnern und einer rosa Blume. Zeigt eindeutig Gesch\u00e4ftsw\u00fcrdigkeit!",
         "fr_FR": "undefined",
         "zh_CN": "\u7528\u7f8a\u89d2\u548c\u7c89\u8272\u7684\u82b1\u74e3\u88c5\u9970\uff0c\u5e26\u7740\u5b83\u522b\u4eba\u5c31\u77e5\u9053\u4f60\u53ef\u4e0d\u662f\u95f9\u7740\u73a9\u7684\uff01",
@@ -6162,6 +6214,7 @@
       },
       "description": {
         "en_US": "A special hat you got from \\c[3]Holiday Man\\c[0] for helping him. Wear it proudly!",
+        "pt_BR": "Um chapéu especial que você recebeu do \\c[3]Homem do Natal\\c[0]. Use com orgulho.",
         "de_DE": "Der Hut, den du vom \\c[3]Festtagsmann\\c[0] bekommen hast. Trag ihn mit Stolz!",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u9876\\c[3]\u5723\u8bde\u8d85\u4eba\\c[0]\u4e3a\u4e86\u5956\u52b1\u5e2e\u52a9\u4ed6\u7684\u4eba\u800c\u8d60\u9001\u7684\u7279\u522b\u5e3d\u5b50\u3002<<A<<[CHANGED 2018/07/09]",
@@ -6182,6 +6235,7 @@
       "order": 57,
       "name": {
         "en_US": "Holiday Present",
+        "pt_BR": "Presente de Natal",
         "de_DE": "Festtagsgeschenk",
         "fr_FR": "undefined",
         "zh_CN": "\u8282\u65e5\u793c\u7269",
@@ -6192,6 +6246,7 @@
       },
       "description": {
         "en_US": "A present from \\c[3]Holiday Man\\c[0]. Give it to other players!",
+        "pt_BR": "Um presente do \\c[3]Homem do Natal\\c[0]. Dê isso a outros jogadores!",
         "de_DE": "Ein Geschenk vom \\c[3]Festtagsmann\\c[0]. Schenke es anderen Spielern!",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4ef6\u6765\u81ea\\c[3]\u5723\u8bde\u8d85\u4eba\\c[0]\u7684\u793c\u7269\u3002\u628a\u5b83\u9001\u7ed9\u5176\u4ed6\u73a9\u5bb6\u5427\uff01",
@@ -6698,6 +6753,7 @@
           "value": {
             "text": {
               "en_US": "Found in \\c[3]\\v[area.heat-area.name]\\c[0]",
+              "pt_BR": "Encontrado no \\c[3]\\v[area.heat-area.name]\\c[0]",
               "langUid": 2106,
               "zh_CN": "\u4f4d\u4e8e\\c[3]\\v[area.heat-area.name]\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u3067\u898b\u3064\u304b\u308b<<A<<[CHANGED 2018/07/09]",
@@ -6956,6 +7012,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in Major Cities",
+              "pt_BR": "\\c[3]Mercadores\\c[0] nas Principais Cidades",
               "langUid": 2070,
               "zh_CN": "\u4e3b\u8981\u57ce\u5e02\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u4e3b\u306a\u753a\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -6973,6 +7030,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Player Traders\\c[0] all over CrossWorlds",
+              "pt_BR": "\\c[3]Jogadores Mercadores\\c[0] em CrossWorlds",
               "de_DE": "\\c[3]Spieler-H\u00e4ndler\\c[0] \u00fcberall in CrossWorlds",
               "zh_CN": "\u8fdc\u661f\u4e16\u754c\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/09/14]",
               "ja_JP": "\u5927\u90fd\u5e02\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/09/14]",
@@ -7024,6 +7082,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in Major Cities",
+              "pt_BR": "\\c[3]Mercadores\\c[0] nas Principais Cidades",
               "langUid": 2072,
               "zh_CN": "\u4e3b\u8981\u57ce\u5e02\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u4e3b\u306a\u753a\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/07/09]",
@@ -7075,6 +7134,7 @@
             "icon": "TRADER",
             "text": {
               "en_US": "\\c[3]Traders\\c[0] in \\v[area.rhombus-sqr.name]",
+              "pt_BR": "\\c[3]Mercadores\\c[0] na \\v[area.rhombus-sqr.name]",
               "de_DE": "\\c[3]H\u00e4ndler\\c[0] in Rhombus Square",
               "zh_CN": "\\v[area.rhombus-sqr.name]\u4e2d\u7684\\c[3]\u5546\u4eba\\c[0]<<A<<[CHANGED 2018/09/14]",
               "ja_JP": "\\v[area.rhombus-sqr.name]\u306e\\c[3]\u30c8\u30ec\u30fc\u30c0\u30fc\\c[0]<<A<<[CHANGED 2018/09/14]",
@@ -7680,7 +7740,8 @@
     },
     {
       "name": {
-        "en_US": "Sabre Cenoura",
+        "en_US": "Rapier Carrot",
+        "pt_BR": "Sabre Cenoura",
         "de_DE": "Rapierkarotte",
         "fr_FR": "undefined",
         "zh_CN": "\u5251\u5f62\u80e1\u841d\u535c",
@@ -8111,7 +8172,7 @@
       "order": 28,
       "name": {
         "en_US": "Carpet Runners",
-        "pt_BR": "Corredores de Tapete",
+        "pt_BR": "Tênis de Tapete",
         "de_DE": "Teppichl\u00e4ufer",
         "fr_FR": "undefined",
         "zh_CN": "\u9b54\u6bef\u8dd1\u978b",
@@ -8122,6 +8183,7 @@
       },
       "description": {
         "en_US": "Feel almost alive on your feet. The soles are crafted from real magic carpets.",
+        "pt_BR": "As solas são feitas de um verdadeiro tapete voador. Eles parecem vivos nos seus pés!",
         "de_DE": "Die Sohlen bestehen aus echtem fliegenden Teppich. F\u00fchlen sich fast lebendig an!",
         "fr_FR": "undefined",
         "zh_CN": "\u811a\u8e29\u4e0a\u53bb\u611f\u89c9\u50cf\u6d3b\u7684\u4e00\u6837\u3002\u978b\u5e95\u662f\u7528\u771f\u6b63\u7684\u98de\u7fd4\u9b54\u6bef\u5236\u6210\u3002",
@@ -8515,6 +8577,7 @@
       "order": 91,
       "name": {
         "en_US": "-ModifierTester",
+        "pt_BR": "Teste de Modificador",
         "de_DE": "-Mod-Tester",
         "langUid": 711,
         "zh_CN": "-\u7279\u8d28\u6d4b\u8bd5",
@@ -8524,6 +8587,7 @@
       },
       "description": {
         "en_US": "Used to test modifiers.",
+        "pt_BR": "Usado para testar modificadores.",
         "de_DE": "Zum Testen von Modifikatoren.",
         "fr_FR": "undefined",
         "zh_CN": "\u7528\u6765\u6d4b\u8bd5",
@@ -9024,6 +9088,7 @@
       "order": 55,
       "name": {
         "en_US": "-Nirustein",
+        "pt_BR": "-Nirustein",
         "de_DE": "-Nirustein",
         "fr_FR": "undefined",
         "zh_CN": "-\u6781\u9650\u77f3",
@@ -9034,6 +9099,7 @@
       },
       "description": {
         "en_US": "The ultimate speedrunning item. Aim to become the fastest thing alive!",
+        "pt_BR": "O supremo item de speedrun. Aponte para se tornar a coisa mais rápida do mundo!",
         "de_DE": "Das ultimative Speedrun-Item. Hast du das Zeug, der Schnellste zu sein?",
         "zh_CN": "\u7ec8\u6781\u8dd1\u9177\u7269\u54c1\u3002\u6210\u4e3a\u5b87\u5b99\u6700\u5feb\u5427\uff01",
         "ja_JP": "\u30b9\u30d4\u30fc\u30c9\u30e9\u30f3\u306b\u304a\u3051\u308b\u7a76\u6975\u306e\u30a2\u30a4\u30c6\u30e0\u3002\u5730\u4e0a\u6700\u901f\u306e\u5b58\u5728\u3092\u76ee\u6307\u305b\uff01",
@@ -9056,6 +9122,7 @@
       "order": 73,
       "name": {
         "en_US": "Flintzer Excretions",
+        "pt_BR": "Excreções de Flintzer",
         "de_DE": "Flintzer-Exkrement",
         "langUid": 830,
         "zh_CN": "\u86a4\u866b\u5206\u6ccc\u7269",
@@ -9065,6 +9132,7 @@
       },
       "description": {
         "en_US": "Weird lump of mass secreted by Flintzer. Is usually very soft but hardens on touch.",
+        "pt_BR": "Estranho pedaço de massa expelido pelo Flintzer. Geralmente é muito macio, mas endurece ao toque.",
         "de_DE": "Seltsamer weicher Klumpen, ausgeschieden von Flintzer. Wird bei Ber\u00fchrung hart.",
         "fr_FR": "undefined",
         "langUid": 831,
@@ -9561,6 +9629,7 @@
           "value": {
             "text": {
               "en_US": "Found in \\c[3]\\v[area.jungle.name]\\c[0]",
+              "pt_BR": "Encontrado no \\c[3]\\v[area.jungle.name]\\c[0]",
               "langUid": 2108,
               "zh_CN": "\u4f4d\u4e8e\\c[3]\\v[area.jungle.name]\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u3067\u898b\u3064\u304b\u308b<<A<<[CHANGED 2018/07/09]",
@@ -9961,6 +10030,7 @@
       "order": 74,
       "name": {
         "en_US": "GIT",
+        "pt_BR": "TIC",
         "de_DE": "ZIKO",
         "langUid": 895,
         "zh_CN": "\u5c71\u7f8a\u8bed\u7ffb\u8bd1\u5668",
@@ -9970,6 +10040,7 @@
       },
       "description": {
         "en_US": "Goat Interspecies Translator. Allows for communication with intelligent goats.",
+        "pt_BR": "Tradutor Interspécie de Cabras. Permite a comunicação com cabras inteligentes.",
         "de_DE": "Ziegen-Kommunikator. Erm\u00f6glicht die Kommunikation mit intelligenten Ziegen.",
         "fr_FR": "undefined",
         "langUid": 896,
@@ -11589,6 +11660,7 @@
       "order": 101,
       "name": {
         "en_US": "Food Temp #3",
+        "pt_BR": "Tempero de Comida #3",
         "fr_FR": "undefined",
         "zh_CN": "\u4e34\u65f6\u98df\u7269#3",
         "ja_JP": "\u81e8\u6642\u98df\u6599 #3",
@@ -11599,6 +11671,7 @@
       },
       "description": {
         "en_US": "Will turn into something tasty in the future! #notabug",
+        "pt_BR": "Se transformará em algo saboroso no futuro! #notabug",
         "de_DE": "Will turn into something tasty in the future! #notabug",
         "fr_FR": "undefined",
         "zh_CN": "\u5c06\u6765\u4f1a\u53d8\u6210\u7f8e\u5473\u7684\u98df\u7269\uff01#notabug",
@@ -11618,6 +11691,7 @@
       "order": 102,
       "name": {
         "en_US": "Food Temp #4",
+        "pt_BR": "Tempero de Comida #4",
         "fr_FR": "undefined",
         "zh_CN": "\u4e34\u65f6\u98df\u7269#4",
         "ja_JP": "\u81e8\u6642\u98df\u6599 #4",
@@ -11628,6 +11702,7 @@
       },
       "description": {
         "en_US": "Will turn into something tasty in the future! #notabug",
+        "pt_BR": "Se transformará em algo saboroso no futuro! #notabug",
         "de_DE": "Will turn into something tasty in the future! #notabug",
         "fr_FR": "undefined",
         "zh_CN": "\u5c06\u6765\u4f1a\u53d8\u6210\u7f8e\u5473\u7684\u98df\u7269\uff01#notabug",
@@ -11748,6 +11823,7 @@
       },
       "description": {
         "en_US": "This weapon holds the power of a small micro-cosmos inside itself.",
+        "pt_BR": "Esta arma detém o poder de um pequeno microcosmos dentro de si mesma.",
         "de_DE": "Diese Waffe vereint die Kraft eines ganzen Mikrokosmos in sich.",
         "fr_FR": "undefined",
         "zh_CN": "\u8fd9\u628a\u6b66\u5668\u91cc\u8574\u542b\u7740\u5c0f\u5b87\u5b99\u7684\u529b\u91cf\u3002",
@@ -11849,7 +11925,7 @@
       "order": 172,
       "name": {
         "en_US": "Creation Gem",
-        "pt_BR": "Joia da Cria\u00e7\u00e3o",
+        "pt_BR": "Jóia da Cria\u00e7\u00e3o",
         "de_DE": "Sch\u00f6pferjuwel",
         "fr_FR": "undefined",
         "zh_CN": "\u521b\u9020\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -12186,6 +12262,7 @@
       "order": 190,
       "name": {
         "en_US": "Goddess Plume",
+        "pt_BR": "Pluma da Deusa",
         "de_DE": "G\u00f6ttliche Feder<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u5973\u795e\u7fbd",
@@ -12196,6 +12273,7 @@
       },
       "description": {
         "en_US": "VP-reference, unused.",
+        "pt_BR": "VP-referência, não usado.",
         "de_DE": "VP-reference, unused.<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "VP-reference<<A<<[CHANGED 2018/09/14]",
@@ -12482,6 +12560,7 @@
       "order": 78,
       "name": {
         "en_US": "Billston's Com",
+        "pt_BR": "Comunicador de Billston",
         "de_DE": "Billstons Funk",
         "langUid": 1178,
         "zh_CN": "\u6bd4\u5c14\u65af\u987f\u7684\u901a\u8baf\u5668",
@@ -12491,6 +12570,7 @@
       },
       "description": {
         "en_US": "A simple, rectangular communicator, supposedly belonging to Billston. Waterproof.",
+        "pt_BR": "Um comunicador retangular, provavelmente de Billston. À prova d'água.",
         "de_DE": "Ein rechteckiger Kommunikator, wahrscheinlich von Billston. Wasserfest.",
         "fr_FR": "undefined",
         "langUid": 1179,
@@ -13389,6 +13469,7 @@
       "order": 49,
       "name": {
         "en_US": "Crab Mead",
+        "pt_BR": "Hidromel de Caranguejo",
         "de_DE": "Krabbenmet",
         "fr_FR": "undefined",
         "zh_CN": "\u87f9\u4e4b\u871c\u9152",
@@ -13399,6 +13480,7 @@
       },
       "description": {
         "en_US": "Drink evoking the sturdiness of crabs that can resist massive damage. \\c[3]Fast\\c[0].",
+        "pt_BR": "Bebida que evoca a resistência dos caranguejos que podem resistir a danos maciços. \\c[3]Rápido\\c[0].",
         "de_DE": "Krabben halten ja bekanntlich viel aus. Und du mit diesem Met auch. \\c[3]Schnell\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u559d\u4e0b\u5b83\u80fd\u8ba9\u4eba\u83b7\u5f97\u87f9\u7684\u575a\u97e7\uff0c\u627f\u53d7\u5927\u91cf\u4f24\u5bb3\u3002\\c[1]\u5feb\u901f\\c[0]\u3002<<A<<[CHANGED 2017/07/07]",
@@ -13423,6 +13505,7 @@
       "order": 50,
       "name": {
         "en_US": "Fox Sake",
+        "pt_BR": "Saquê de Raposa",
         "de_DE": "Fuchs-Sake",
         "fr_FR": "undefined",
         "zh_CN": "\u72d0\u4e4b\u6e05\u9152",
@@ -13433,6 +13516,7 @@
       },
       "description": {
         "en_US": "Drink evoking the cleverness of foxes that always catch their prey. \\c[3]Fast\\c[0].",
+        "pt_BR": "Bebendo que evoca a esperteza das raposas que sempre apanham suas presas. \\c[3]Rápido\\c[0].",
         "de_DE": "Macht dich clever wie ein Fuchs, der seine Beute immer f\u00e4ngt. \\c[3]Schnell\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u559d\u4e0b\u5b83\u80fd\u8ba9\u4eba\u83b7\u5f97\u72d0\u7684\u667a\u6167\uff0c\u8fd0\u7b79\u5e37\u5e44\u3002\\c[1]\u5feb\u901f\\c[0]\u3002<<A<<[CHANGED 2017/07/07]",
@@ -13504,6 +13588,7 @@
       },
       "description": {
         "en_US": "Stuff to Brew!",
+        "pt_BR": "Coisas para Fermentar!",
         "de_DE": "Zeug zum Brauen!",
         "fr_FR": "undefined",
         "zh_CN": "\u7528\u6765\u917f\u9152\u7684\u4e1c\u897f\uff01",
@@ -13716,6 +13801,7 @@
       "order": 88,
       "name": {
         "en_US": "Old Man's Book",
+        "pt_BR": "Livro do Velho",
         "de_DE": "Buch des Alten",
         "fr_FR": "undefined",
         "zh_CN": "\u8001\u4eba\u7684\u4e66",
@@ -13726,6 +13812,7 @@
       },
       "description": {
         "en_US": "A book belonging to an old man you traded with. It mentions \\c[3]Sapphire Ridge\\c[0].",
+        "pt_BR": "Um livro pertencente a um homem velho com quem você negociou. Ele menciona a \\c[3]Serra da Safira\\c[0].",
         "de_DE": "Ein Buch, das einem alten Mann geh\u00f6rt, mit dem du gehandelt hast. Erw\u00e4hnt \\c[3]Saphirgrat\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u4f60\u8ddf\u4f60\u4ea4\u6613\u8fc7\u7684\u8001\u4eba\u7684\u4e66\u3002\u91cc\u9762\u63d0\u5230\u4e86\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
@@ -14251,6 +14338,7 @@
           "value": {
             "text": {
               "en_US": "Found in \\c[3]\\v[area.forest.name]\\c[0]",
+              "pt_BR": "Encontrado na \\c[3]\\v[area.forest.name]\\c[0]",
               "langUid": 2110,
               "zh_CN": "\u4f4d\u4e8e\\c[3]\\v[area.forest.name]\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.forest.name]\\c[0]\u3067\u898b\u3064\u304b\u308b<<A<<[CHANGED 2018/07/09]",
@@ -15487,6 +15575,7 @@
       "order": 1,
       "name": {
         "en_US": "Toggle Test",
+        "pt_BR": "Teste de Alteração",
         "de_DE": "Toggle Test<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u5207\u6362\u6d4b\u8bd5<<A<<[CHANGED 2017/12/12]",
@@ -15497,6 +15586,7 @@
       },
       "description": {
         "en_US": "This toggles something, what? I'm not sure, I guess a var.",
+        "pt_BR": "Isto muda alguma coisa, o quê? Não tenho certeza, acho que uma variável.",
         "de_DE": "This toggles something, what? I'm not sure, I guess a var.<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u5230\u5e95\u4f1a\u5207\u6362\u4ec0\u4e48\u5462\uff1f\u5207\u6362\u4ec0\u4e48\u5462\uff1f\u6211\u4e5f\u4e0d\u77e5\u9053\uff0c\u5e94\u8be5\u662f\u4e2a\u53d8\u91cf\u5427\u3002<<A<<[CHANGED 2017/12/12]",
@@ -15579,6 +15669,7 @@
       "order": 86,
       "name": {
         "en_US": "F.A.I.R. Device",
+        "pt_BR": "Dispositivo R.F.I",
         "fr_FR": "Dispositivo R.F.I",
         "zh_CN": "F.A.I.R. \u88c5\u7f6e<<A<<[CHANGED 2017/12/12]",
         "ja_JP": "F.A.I.R.\u30c7\u30d0\u30a4\u30b9<<A<<[CHANGED 2017/12/11]",
@@ -15856,6 +15947,7 @@
     {
       "name": {
         "en_US": "- Pig Mask",
+        "pt_BR": "Máscara de Porco",
         "de_DE": "Schweinemaske",
         "fr_FR": "undefined",
         "zh_CN": "-\u732a\u9762\u5177<<A<<[CHANGED 2018/05/01]",
@@ -15866,6 +15958,7 @@
       },
       "description": {
         "en_US": "Once owned by a mysterious hero from a forgotten sunny land at the sea.",
+        "pt_BR": "Já pertenceu a um misterioso herói de uma terra ensolarada esquecida no mar.",
         "de_DE": "Geh\u00f6rte einst einem Helden eines vergessenen, sonnigen K\u00fcstenlandes.",
         "fr_FR": "undefined",
         "zh_CN": "\u66fe\u4e00\u4f4d\u4ece\u88ab\u9057\u5fd8\u7684\u6ee8\u6d77\u9633\u5149\u4e4b\u5730\u6765\u7684\u82f1\u96c4\u6240\u6709\u3002<<A<<[CHANGED 2018/05/01]",
@@ -16041,6 +16134,7 @@
       "order": 53,
       "name": {
         "en_US": "-Sage Geta",
+        "pt_BR": "Geta do Sábio",
         "de_DE": "Weise Geta",
         "fr_FR": "undefined",
         "zh_CN": "\u5fcd\u8db3Prime<<A<<[CHANGED 2018/08/01]",
@@ -16051,6 +16145,7 @@
       },
       "description": {
         "en_US": "Repaired clogs with an even higher elevated wood base.",
+        "pt_BR": "Tamancos reparados com uma base de madeira ainda mais elevada.",
         "de_DE": "Reparierte Sandalen mit noch h\u00f6herer zweigeteilter Sohle.",
         "fr_FR": "undefined",
         "zh_CN": "\u88c5\u70b9\u7740\u91d1\u9970\u7684\u9ad8\u8d35\u5947\u5f02\u5fcd\u8005\u8db3\u5177\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16146,6 +16241,7 @@
       "order": 173,
       "name": {
         "en_US": "Infinity Gem",
+        "pt_BR": "Jóia do Infinito",
         "de_DE": "Unendliches Juwel",
         "fr_FR": "undefined",
         "zh_CN": "\u65e0\u9650\u5b9d\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -16156,6 +16252,7 @@
       },
       "description": {
         "en_US": "The combination of the origin stones. Said to be the origin of creation.",
+        "pt_BR": "A combinação das pedras originais. Dito como sendo a origem da criação.",
         "de_DE": "Die Kombination der Ursteine. Man sagt, es sei die Quelle der Sch\u00f6pfung.",
         "fr_FR": "undefined",
         "zh_CN": "\u6240\u6709\u8d77\u6e90\u5b9d\u77f3\u7684\u96c6\u5408\u4f53\u3002\u636e\u8bf4\u662f\u521b\u9020\u7684\u8d77\u6e90\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16177,6 +16274,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Created by the Old Smith",
+              "pt_BR": "Criado pelo Velho Ferreiro",
               "langUid": 2141,
               "zh_CN": "\u7531\u8001\u94c1\u5320\u521b\u9020<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u5e74\u8001\u3044\u305f\u935b\u51b6\u5c4b\u306b\u3088\u3063\u3066\u4f5c\u6210<<A<<[CHANGED 2018/07/09]",
@@ -16258,6 +16356,7 @@
           "value": {
             "text": {
               "en_US": "Found in \\c[3]\\v[area.bergen-trails.name]\\c[0]",
+              "pt_BR": "Encontrado na \\c[3]\\v[area.bergen-trails.name]\\c[0]",
               "langUid": 2104,
               "zh_CN": "\u4f4d\u4e8e\\c[3]\\v[area.bergen-trails.name]\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.bergen-trails.name]\\c[0]\u3067\u898b\u3064\u304b\u308b<<A<<[CHANGED 2018/07/09]",
@@ -16500,6 +16599,7 @@
           "value": {
             "text": {
               "en_US": "Found in \\c[3]\\v[area.autumn-area.name]\\c[0]",
+              "pt_BR": "Encontrado no \\c[3]\\v[area.autumn-area.name]\\c[0]",
               "langUid": 2099,
               "zh_CN": "\u4f4d\u4e8e\\c[3]\\v[area.autumn-area.name]\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u3067\u898b\u3064\u304b\u308b<<A<<[CHANGED 2018/07/09]",
@@ -16550,6 +16650,7 @@
           "value": {
             "text": {
               "en_US": "Found in \\c[3]\\v[area.autumn-fall.name]\\c[0]",
+              "pt_BR": "Encontrado no \\c[3]\\v[area.autumn-fall.name]\\c[0]",
               "langUid": 2102,
               "zh_CN": "\u4f4d\u4e8e\\c[3]\\v[area.autumn-fall.name]\\c[0]<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\u3067\u898b\u3064\u304b\u308b<<A<<[CHANGED 2018/07/09]",
@@ -16632,6 +16733,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.autumn-area.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados no \\c[3]\\v[area.autumn-area.name]\\c[0]",
               "langUid": 2116,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.autumn-area.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.autumn-area.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16650,6 +16752,7 @@
       "order": 14,
       "name": {
         "en_US": "Garnet",
+        "pt_BR": "Garnet",
         "de_DE": "Garnet",
         "fr_FR": "undefined",
         "zh_CN": "\u77f3\u69b4\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -16660,6 +16763,7 @@
       },
       "description": {
         "en_US": "A rare dark-red gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia vermelha escura deixada apenas pelos adversários mais fortes",
         "de_DE": "Ein seltenes dunkelrotes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u6697\u7ea2\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16681,6 +16785,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.autumn-fall.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados no \\c[3]\\v[area.autumn-fall.name]\\c[0]",
               "langUid": 2125,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.autumn-fall.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.autumn-fall.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16732,6 +16837,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.bergen-trails.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados na \\c[3]\\v[area.bergen-trails.name]\\c[0]",
               "langUid": 2126,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.bergen-trails.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.bergen-trails.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16783,6 +16889,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.bergen-trails.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados na \\c[3]\\v[area.bergen-trails.name]\\c[0]",
               "langUid": 2127,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.bergen-trails.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.bergen-trails.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16801,6 +16908,7 @@
       "order": 17,
       "name": {
         "en_US": "Citrine",
+        "pt_BR": "Citrino",
         "de_DE": "Citrin",
         "fr_FR": "undefined",
         "zh_CN": "\u9ec4\u6c34\u6676<<A<<[CHANGED 2018/07/09]",
@@ -16811,6 +16919,7 @@
       },
       "description": {
         "en_US": "A rare orange gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma jóia laranja rara que só os inimigos mais fortes deixam para trás.",
         "de_DE": "Ein seltenes orangenes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u6a59\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16832,6 +16941,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.heat-area.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados no \\c[3]\\v[area.heat-area.name]\\c[0]",
               "langUid": 2128,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.heat-area.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16883,6 +16993,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.heat-area.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados no \\c[3]\\v[area.heat-area.name]\\c[0]",
               "langUid": 2131,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.heat-area.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.heat-area.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16901,6 +17012,7 @@
       "order": 19,
       "name": {
         "en_US": "Amethyst",
+        "pt_BR": "Ametista",
         "de_DE": "Amethyst",
         "fr_FR": "undefined",
         "zh_CN": "\u7d2b\u6c34\u6676<<A<<[CHANGED 2018/07/09]",
@@ -16911,6 +17023,7 @@
       },
       "description": {
         "en_US": "A rare purple gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia roxa que só os inimigos mais fortes deixam para trás.",
         "de_DE": "Ein seltenes lilanes Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u7d2b\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -16932,6 +17045,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.jungle.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados no \\c[3]\\v[area.jungle.name]\\c[0]",
               "langUid": 2134,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -16983,6 +17097,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.jungle.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados no \\c[3]\\v[area.jungle.name]\\c[0]",
               "langUid": 2137,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.jungle.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.jungle.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -17001,6 +17116,7 @@
       "order": 21,
       "name": {
         "en_US": "Lapis Lazuli",
+        "pt_BR": "Lazulita",
         "de_DE": "Lapislazuli",
         "fr_FR": "undefined",
         "zh_CN": "\u5929\u9752\u77f3<<A<<[CHANGED 2018/07/09]",
@@ -17011,6 +17127,7 @@
       },
       "description": {
         "en_US": "A rare blue gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia azul que só os inimigos mais fortes deixam para trás.",
         "de_DE": "Ein seltenes blaues Juwel, das nur die st\u00e4rksten Gegner hinterlassen.",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u84dd\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2018/07/09]",
@@ -17032,6 +17149,7 @@
             "icon": "ENEMY",
             "text": {
               "en_US": "Boosted Enemies in \\c[3]\\v[area.forest.name]\\c[0]",
+              "pt_BR": "Inimigos Reforçados na \\c[3]\\v[area.forest.name]\\c[0]",
               "langUid": 2140,
               "zh_CN": "\u6765\u81ea\\c[3]\\v[area.forest.name]\\c[0]\u533a\u57df\u7684\u589e\u5f3a\u654c\u4eba<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\\c[3]\\v[area.forest.name]\\c[0]\u306e\u5f37\u5316\u3055\u308c\u305f\u6575<<A<<[CHANGED 2018/07/09]",
@@ -17162,7 +17280,7 @@
       "order": 58,
       "name": {
         "en_US": "The Last Strawhat",
-        "pt_BR": "O Último Chapéu de Palha",
+        "pt_BR": "Chapéu de Palha Supremo",
         "de_DE": "Letzter Strohhut",
         "fr_FR": "undefined",
         "zh_CN": "\u6700\u540e\u7684\u8349\u5e3d<<A<<[CHANGED 2018/07/09]",
@@ -17648,7 +17766,7 @@
       "order": 43,
       "name": {
         "en_US": "Deadly Dancers",
-        "pt_BR": "Dançarinos mortais",
+        "pt_BR": "Dançarinos Mortais",
         "de_DE": "T\u00f6dliche T\u00e4nzer",
         "fr_FR": "undefined",
         "zh_CN": "\u81f4\u547d\u821e\u8005<<A<<[CHANGED 2018/08/01]",
@@ -17659,7 +17777,7 @@
       },
       "description": {
         "en_US": "Elegant shoes favored by agile gunslingers. Allow for fast movement in firefights.",
-        "pt_BR": "Sapatos elegantes, favorecidos por pistoleiros ágeis. Permitem movimentos rápidos em brigas de fogo.",
+        "pt_BR": "Sapatos elegantes, preferidos por pistoleiros ágeis. Permitem movimentos rápidos em tiroreios.",
         "de_DE": "Elegante Schuhe f\u00fcr wendige Sch\u00fctzen. Schnellere Bewegung in Feuergefechten.",
         "fr_FR": "undefined",
         "zh_CN": "\u88ab\u654f\u6377\u7684\u67aa\u624b\u4eec\u6240\u949f\u7231\u7684\u8db3\u90e8\u88c5\u5907\u3002\u80fd\u591f\u5728\u706b\u5e76\u65f6\u5feb\u901f\u79fb\u52a8\u3002<<A<<[CHANGED 2018/08/01]",
@@ -17905,6 +18023,7 @@
             "icon": "CHEST",
             "text": {
               "en_US": "All round CrossWorlds",
+              "pt_BR": "Tudo ao redor de CrossWorlds",
               "langUid": 2186,
               "de_DE": "In ganz CrossWorlds",
               "ja_JP": "\u30af\u30ed\u30b9\u30ef\u30fc\u30eb\u30c9\u5168\u57df<<A<<[CHANGED 2018/08/01]",
@@ -17956,6 +18075,7 @@
             "icon": "CHEST",
             "text": {
               "en_US": "All round CrossWorlds",
+              "pt_BR": "Tudo ao redor de CrossWorlds",
               "langUid": 2189,
               "de_DE": "In ganz CrossWorlds",
               "ja_JP": "\u30af\u30ed\u30b9\u30ef\u30fc\u30eb\u30c9\u5168\u57df<<A<<[CHANGED 2018/08/01]",
@@ -18007,6 +18127,7 @@
             "icon": "CHEST",
             "text": {
               "en_US": "All round CrossWorlds",
+              "pt_BR": "Tudo ao redor de CrossWorlds",
               "langUid": 2192,
               "de_DE": "In ganz CrossWorlds",
               "ja_JP": "\u30af\u30ed\u30b9\u30ef\u30fc\u30eb\u30c9\u5168\u57df<<A<<[CHANGED 2018/08/01]",
@@ -18100,6 +18221,7 @@
       "order": 66,
       "name": {
         "en_US": "- Maultasche OLD",
+        "pt_BR": "- Maultasche VELHO",
         "de_DE": "Maultasche<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u65b9\u9984\u949d<<A<<[CHANGED 2018/09/14]",
@@ -18110,6 +18232,7 @@
       },
       "description": {
         "en_US": "The favorite dish of poets and philosophers. \\c[1]UNUSED\\c[0]",
+        "pt_BR": "O alimento favorito de poetas e filósofos. \\c[1]NÃO USADO\\c[0]",
         "de_DE": "Leibspeise der Dichter und Denker.<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u8bd7\u4eba\u548c\u54f2\u5b66\u5bb6\u4eec\u7684\u6700\u7231\u3002<<A<<[CHANGED 2018/09/14]",
@@ -18315,6 +18438,7 @@
       "order": 14,
       "name": {
         "en_US": "Kunoichi",
+        "pt_BR": "Kunoichi",
         "de_DE": "Kunoichi",
         "fr_FR": "undefined",
         "zh_CN": "\u5973\u5fcd\u670d<<A<<[CHANGED 2018/08/28]",
@@ -18325,6 +18449,7 @@
       },
       "description": {
         "en_US": "Run like a Ninja? Now you can look like one too!",
+        "pt_BR": "Corre como um Ninja? Agora você também pode se parecer com um!",
         "de_DE": "Schnell wie ein Ninja? Damit siehst du auch noch wie einer aus!",
         "fr_FR": "undefined",
         "zh_CN": "\u8c01\u4e0d\u60f3\u6253\u626e\u7684\u50cf\u5fcd\u8005\u4e00\u6837\u5462\uff1f<<A<<[CHANGED 2018/08/28]",
@@ -18456,6 +18581,7 @@
       "order": 187,
       "name": {
         "en_US": "Moistured Line",
+        "pt_BR": "Linha Umidecida",
         "de_DE": "Befeuchtete Schnur",
         "fr_FR": "undefined",
         "zh_CN": "\u6e7f\u7ef3<<A<<[CHANGED 2018/08/28]",
@@ -18466,6 +18592,7 @@
       },
       "description": {
         "en_US": "A long, resilient line that shows signs of watery influence.",
+        "pt_BR": "Uma linha longa e resiliente que mostra sinais de influência aquosa.",
         "de_DE": "Eine lange, robuste Schnur, die mit Wasser benetzt wurde.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u6761\u53c8\u957f\u53c8\u575a\u97e7\u7684\u7ef3\u5b50\uff0c\u4e0a\u9762\u6709\u6c34\u75d5\u3002<<A<<[CHANGED 2018/08/28]",
@@ -18521,6 +18648,7 @@
             "icon": "PLANT",
             "text": {
               "en_US": "Trashbags in \\c[3]\\v[area.jungle-city.name]\\c[0]",
+              "pt_BR": "Sacos de lixo na \\c[3]\\v[area.jungle-city.name]\\c[0]",
               "langUid": 2221,
               "de_DE": "M\u00fclls\u00e4cke in \\c[3]Burg Bassin\\c[0]",
               "ja_JP": "\\c[3]\\v[area.jungle-city.name]\\c[0]\u306e\u30b4\u30df\u888b<<A<<[CHANGED 2018/09/02]",
@@ -18538,6 +18666,7 @@
       "order": 79,
       "name": {
         "en_US": "Thrashing Ripper",
+        "pt_BR": "Estripador Crítico",
         "de_DE": "Dreschschlitzer",
         "fr_FR": "undefined",
         "zh_CN": "\u95ea\u70c1\u952f\u5203<<A<<[CHANGED 2018/09/02]",
@@ -18548,6 +18677,7 @@
       },
       "description": {
         "en_US": "Barely controllable, formless weapon that seems to exist in several places at once.",
+        "pt_BR": "Arma pouco controlável, sem forma, que parece existir em vários lugares ao mesmo tempo.",
         "de_DE": "Kaum kontrollierbare, formlose Waffe mit bilokativen F\u00e4higkeiten.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u628a\u96be\u4ee5\u63a7\u5236\u7684\u65e0\u5f62\u6b66\u5668\uff0c\u4f3c\u4e4e\u540c\u65f6\u5b58\u5728\u4e8e\u591a\u4e2a\u4f4d\u7f6e\u3002<<A<<[CHANGED 2018/09/02]",
@@ -18581,6 +18711,7 @@
     {
       "name": {
         "en_US": "Rusty Hook",
+        "pt_BR": "Anzol enferrujado",
         "de_DE": "Rostiger Haken",
         "fr_FR": "undefined",
         "zh_CN": "\u9508\u94a9<<A<<[CHANGED 2018/09/02]",
@@ -18591,6 +18722,7 @@
       },
       "description": {
         "en_US": "A long, jagged hook that is covered in rust. Is it treasure or just bait?",
+        "pt_BR": "Um anzol longo e recortado que está coberto de ferrugem. É um tesouro ou apenas uma isca?",
         "de_DE": "Ein langer, verrosteter, zackiger Haken. Schatz oder K\u00f6der?",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u957f\u957f\u7684\uff0c\u6ee1\u662f\u9508\u8ff9\u7684\u5f2f\u94a9\u3002\u8fd9\u7a76\u7adf\u662f\u8d22\u5b9d\u8fd8\u662f\u9677\u9631\uff1f<<A<<[CHANGED 2018/09/02]",
@@ -18916,6 +19048,7 @@
       "order": 52,
       "name": {
         "en_US": "Roundhousers",
+        "pt_BR": "Roundhousers",
         "de_DE": "Schienbeintreter",
         "fr_FR": "undefined",
         "zh_CN": "\u526a\u5200\u811a<<A<<[CHANGED 2018/10/16]",
@@ -18926,6 +19059,7 @@
       },
       "description": {
         "en_US": "Sturdy boots that are used to deadly effect by martial artists of legendary repute.",
+        "pt_BR": "Botas robustas que são usadas por artistas marciais de reputação lendária.",
         "de_DE": "Verst\u00e4rkte Kampfsandalen f\u00fcr Kampfk\u00fcnstler, die Pragmatismus der Ehre vorziehen.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e3a\u90a3\u4e9b\u53ea\u8bb2\u80dc\u8d1f\u4e0d\u8bba\u8363\u8a89\u7684\u6b66\u672f\u5bb6\u51c6\u5907\u7684\u5f3a\u5316\u6218\u9774\u3002<<A<<[CHANGED 2018/10/16]",
@@ -18966,6 +19100,7 @@
       },
       "description": {
         "en_US": "These round blades have seen better days but still emit a mysterious spark.",
+        "pt_BR": "Essas lâminas redondas já viram dias melhores, mas ainda emitem um brilho misterioso.",
         "de_DE": "Runde Wurfklingen, die zwar zerbrochen sind, aber immer noch geheimnisvoll leuchten.",
         "fr_FR": "undefined",
         "zh_CN": "undefined<<A<<[CHANGED 2018/11/28]",
@@ -19058,6 +19193,7 @@
           "value": {
             "text": {
               "en_US": "Gotten from TurretDefense",
+              "pt_BR": "Obtido na Defesa de Torres",
               "langUid": 2250,
               "zh_CN": "\u5728\u70ae\u53f0\u9632\u5fa1\u4e2d\u83b7\u5f97<<A<<[CHANGED 2019/04/16]",
               "ko_KR": "\ud3ec\ud0d1 \ubc29\uc5b4\uc5d0\uc11c \ud68d\ub4dd<<A<<[CHANGED 2019/04/16]",
@@ -19181,6 +19317,7 @@
       "order": 33,
       "name": {
         "en_US": "Chunky",
+        "pt_BR": "Boludo",
         "de_DE": "Chunky",
         "fr_FR": "undefined",
         "zh_CN": "\u963f\u5927<<A<<[CHANGED 2020/06/17]",
@@ -19191,6 +19328,7 @@
       },
       "description": {
         "en_US": "Please do not feed it anymore.",
+        "pt_BR": "Por favor, não alimente mais ele.",
         "de_DE": "Bitte nicht mehr f\u00fcttern.",
         "fr_FR": "undefined",
         "zh_CN": "\u8bf7\u52ff\u5582\u98df\u3002<<A<<[CHANGED 2020/06/17]",
@@ -19888,6 +20026,7 @@
       "order": 99,
       "name": {
         "en_US": "Encrypted Key",
+        "pt_BR": "Chave Encriptada",
         "de_DE": "Kodierte Chiffre",
         "fr_FR": "undefined",
         "zh_CN": "\u52a0\u5bc6\u94a5\u5319<<A<<[CHANGED 2019/07/31]",
@@ -19898,6 +20037,7 @@
       },
       "description": {
         "en_US": "Needs to be decrypted at \\c[3]4 locations\\c[0] to access a mysterious facility.",
+        "pt_BR": "Precisa ser descriptografada em \\c[3]4 locais\\c[0] para ter acesso a uma instalação misteriosa.",
         "de_DE": "Muss an \\c[3]vier Orten\\c[0] dekodiert werden f\u00fcr Zugang zu myteri\u00f6ser Anlage.",
         "fr_FR": "undefined",
         "zh_CN": "\u9700\u8981\u5728\\c[3]4\u5904\u5730\u70b9\\c[0]\u89e3\u5bc6\u624d\u80fd\u8fdb\u5165\u795e\u79d8\u8bbe\u65bd\u3002<<A<<[CHANGED 2019/07/31]",
@@ -19918,6 +20058,7 @@
       "order": 100,
       "name": {
         "en_US": "Facility X Key",
+        "pt_BR": "Chave da Instalação X",
         "de_DE": "Anlage X-Chiffre",
         "fr_FR": "undefined",
         "zh_CN": "\u8bbe\u65bdX\u94a5\u5319<<A<<[CHANGED 2019/07/31]",
@@ -19928,6 +20069,7 @@
       },
       "description": {
         "en_US": "A fully decrypted key to access \\c[3]Facility X\\c[0] somewhere in \\c[3]Sapphire Ridge\\c[0].",
+        "pt_BR": "Uma chave totalmente descriptografada para acessar a \\c[3]Instalação X\\c[0] em algum lugar na \\c[3]Serra da Safira\\c[3].",
         "de_DE": "Dekodierte Chiffre, gew\u00e4hrt Zugang zur \\c[3]Anlage X\\c[0] irgendwo auf dem \\c[3]Saphirgrat\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u628a\u80fd\u591f\u8fdb\u5165\u4f4d\u4e8e\\c[3]\u9752\u7389\u5c71\u8109\\c[0]\u7684\\c[3]X\u8bbe\u65bd\\c[0]\u7684\u94a5\u5319\u3002<<A<<[CHANGED 2019/07/31]",
@@ -19948,6 +20090,7 @@
       "order": 95,
       "name": {
         "en_US": "Supercrown",
+        "pt_BR": "Super Coroa",
         "de_DE": "Superkrone",
         "fr_FR": "undefined",
         "zh_CN": "\u8d85\u738b\u51a0<<A<<[CHANGED 2019/07/31]",
@@ -19958,6 +20101,7 @@
       },
       "description": {
         "en_US": "This golden crown is a sign of \\v[combat.name.hedgehog] authority. It has no other effects. None!",
+        "pt_BR": "Esta coroa dourada é um sinal de autoridade do [\\v[combat.name.hedgehog]. Ela não tem outros efeitos. Nenhum outro!",
         "de_DE": "Symbolisiert Ig\u00f6ll-Autorit\u00e4t. Einen anderen Effekt hat die Krone nicht. Im Ernst!",
         "fr_FR": "undefined",
         "zh_CN": "\u8fd9\u9876\u91d1\u51a0\u662f\\v[combat.name.hedgehog]\u738b\u6743\u7684\u4ee3\u8868\u3002\u6ca1\u6709\u4efb\u4f55\u6548\u679c\u3002\u771f\u7684\u6ca1\u6709\uff01<<A<<[CHANGED 2019/07/31]",
@@ -19978,6 +20122,7 @@
       "order": 96,
       "name": {
         "en_US": "Snowtank Datachip",
+        "pt_BR": "Chip do Tanque de Neve",
         "de_DE": "Schneetank-Chip",
         "fr_FR": "undefined",
         "zh_CN": "\u96ea\u5766\u82af\u7247<<A<<[CHANGED 2019/07/31]",
@@ -19988,6 +20133,7 @@
       },
       "description": {
         "en_US": "The collected combat data and system specs of the \\v[combat.name.minibosses/snow-megatank] are on this chip.",
+        "pt_BR": "Os dados de combate coletados e as especificações do sistema do \\v[combat.name.minibosses/snow-megatank] estão neste chip.",
         "de_DE": "Enth\u00e4lt gesammelte Kampf- und technische Daten des \\v[combat.name.minibosses/snow-megatank]s.",
         "fr_FR": "undefined",
         "zh_CN": "\\v[combat.name.minibosses/snow-megatank]\u6536\u96c6\u5230\u7684\u6240\u6709\u6218\u6597\u6570\u636e\u4ee5\u53ca\u7cfb\u7edf\u914d\u7f6e\u4fe1\u606f\u90fd\u50a8\u5b58\u5728\u8fd9\u679a\u82af\u7247\u4e0a\u3002<<A<<[CHANGED 2019/08/16]",
@@ -20008,6 +20154,7 @@
       "order": 97,
       "name": {
         "en_US": "Fishy Documents",
+        "pt_BR": "Documentos Duvidosos",
         "de_DE": "Dubiose Dokumente",
         "fr_FR": "undefined",
         "zh_CN": "\u654f\u611f\u6587\u4ef6<<A<<[CHANGED 2019/07/31]",
@@ -20018,6 +20165,7 @@
       },
       "description": {
         "en_US": "Documents describing the involvement of the government in risky Track experiments.",
+        "pt_BR": "Documentos que descrevem o envolvimento do governo em experiências arriscadas na trilha.",
         "de_DE": "Berichten von der Beteiligung der Regierung an riskanten Pfad-Experimenten.",
         "fr_FR": "undefined",
         "zh_CN": "\u5305\u542b\u4e86\u653f\u5e9c\u5bf9\u5148\u7956\u4e4b\u8def\u8fdb\u884c\u7684\u5371\u9669\u5b9e\u9a8c\u60c5\u62a5\u7684\u6587\u4ef6\u3002<<A<<[CHANGED 2019/07/31]",
@@ -20038,6 +20186,7 @@
       "order": 98,
       "name": {
         "en_US": "Hightech Valve",
+        "pt_BR": "Válvula de alta Tecnologia",
         "de_DE": "Hightech-Ventil",
         "fr_FR": "undefined",
         "zh_CN": "\u9ad8\u79d1\u6280\u9600\u95e8<<A<<[CHANGED 2020/06/17]",
@@ -20048,6 +20197,7 @@
       },
       "description": {
         "en_US": "A special valve that can withstand immense pressure. Maybe needed for exclusive machinery!",
+        "pt_BR": "Uma válvula especial que pode resistir a uma pressão imensa. Necessária para máquinas exclusivas!",
         "de_DE": "Spezialventil, h\u00e4lt enormem Druck stand. K\u00f6nnte f\u00fcr besondere Maschinen n\u00fctzlich sein!",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u7279\u6b8a\u7684\u9600\u95e8\uff0c\u80fd\u591f\u627f\u53d7\u6781\u5927\u7684\u538b\u529b\u3002\u4e5f\u8bb8\u80fd\u7528\u5728\u67d0\u4e2a\u72ec\u6709\u673a\u68b0\u4e0a\uff01<<A<<[CHANGED 2020/07/15]",
@@ -20069,6 +20219,7 @@
       "order": 25,
       "name": {
         "en_US": "Shy Fly",
+        "pt_BR": "Shy Fly",
         "de_DE": "Sch\u00fcchterne Fliege",
         "fr_FR": "undefined",
         "zh_CN": "\u7f9e\u7f9e\u9e1f<<A<<[CHANGED 2019/08/16]",
@@ -20079,6 +20230,7 @@
       },
       "description": {
         "en_US": "Another flying creature. Timid in nature it needs a lot of petting. ",
+        "pt_BR": "Outra criatura voadora. De natureza tímida, ela precisa de muitos carinho.",
         "de_DE": "Eine weiteres Flugtier. Von Natur aus sch\u00fcchtern, braucht es viele Streicheleinheiten.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u79cd\u98de\u884c\u751f\u7269\u3002\u80c6\u5c0f\u7f9e\u602f\uff0c\u559c\u6b22\u88ab\u6478\u3002<<A<<[CHANGED 2019/08/16]",
@@ -20101,6 +20253,7 @@
       "order": 26,
       "name": {
         "en_US": "T.A.N.K.",
+        "pt_BR": "T.A.N.Q.U.E",
         "de_DE": "T.A.N.K.",
         "fr_FR": "undefined",
         "zh_CN": "T.A.N.K.<<A<<[CHANGED 2019/08/16]",
@@ -20111,6 +20264,7 @@
       },
       "description": {
         "en_US": "This message has been redacted.",
+        "pt_BR": "Esta mensagem foi redigida",
         "de_DE": "Diese Beschreibung wurde zensiert.",
         "fr_FR": "undefined",
         "zh_CN": "[\u6570\u636e\u5220\u9664]<<A<<[CHANGED 2019/08/16]",
@@ -20133,6 +20287,7 @@
       "order": 27,
       "name": {
         "en_US": "Micro Crawler",
+        "pt_BR": "Micro Atlas",
         "de_DE": "Minikrabbler",
         "fr_FR": "undefined",
         "zh_CN": "\u5c0f\u722c<<A<<[CHANGED 2019/08/16]",
@@ -20143,6 +20298,7 @@
       },
       "description": {
         "en_US": "You see him rolling and you're loving it.",
+        "pt_BR": "Robô de alta tecnologia feito pela Aperture Science.",
         "de_DE": "Du siehst ihn rollen und du liebst es.",
         "fr_FR": "undefined",
         "zh_CN": "\u770b\u5b83\u6eda\u6765\u6eda\u53bb\u7684\u6837\u5b50\uff0c\u591a\u53ef\u7231\u554a\u3002<<A<<[CHANGED 2019/08/16]",
@@ -20165,6 +20321,7 @@
       "order": 28,
       "name": {
         "en_US": "Cool Bar",
+        "pt_BR": "Barra Legal",
         "de_DE": "Cooles Eisen",
         "fr_FR": "undefined",
         "zh_CN": "\u9177\u5df4<<A<<[CHANGED 2019/08/16]",
@@ -20175,6 +20332,7 @@
       },
       "description": {
         "en_US": "It's simple and elegant.",
+        "pt_BR": "É simples e elegante.",
         "de_DE": "Einfach und elegant.",
         "fr_FR": "undefined",
         "zh_CN": "\u7b80\u6d01\u4f18\u96c5\u3002<<A<<[CHANGED 2019/08/16]",
@@ -20197,6 +20355,7 @@
       "order": 91,
       "name": {
         "en_US": "Ascension Proof",
+        "pt_BR": "Prova de Ascensão",
         "de_DE": "Aszensionsbeweis",
         "fr_FR": "undefined",
         "zh_CN": "\u5347\u534e\u8bc1\u660e<<A<<[CHANGED 2020/06/17]",
@@ -20207,6 +20366,7 @@
       },
       "description": {
         "en_US": "Some old looking image of a Karotto, hewn into mythical ore from Mt. Bergen. ",
+        "pt_BR": "Uma imagem antiga de um Karotto, escavado em um minério mítico do Monte Bergen.",
         "de_DE": "Ein alt aussehendes Bild eines Karotto, gehauen in mythisches Erz aus Bergen.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e9b\u5361\u6d1b\u6258\u7684\u53e4\u8001\u5f62\u8c61\uff0c\u5f00\u51ff\u5728\u4ffe\u5c14\u6839\u5c71\u7684\u51b0\u96ea\u77f3\u5934\u4e0a\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20300,6 +20460,7 @@
       "order": 31,
       "name": {
         "en_US": "Butterfliege",
+        "pt_BR": "Borboleta",
         "de_DE": "Butterfliege",
         "fr_FR": "undefined",
         "zh_CN": "\u9ec4\u6cb9\u8765<<A<<[CHANGED 2020/06/17]",
@@ -20310,6 +20471,7 @@
       },
       "description": {
         "en_US": "A single flap with its wings can cause the biggest storm.",
+        "pt_BR": "Uma única bater de suas asas pode causar a maior tempestade.",
         "de_DE": "Ein einziger Fl\u00fcgelschlag kann den gr\u00f6\u00dften Sturm entfachen.",
         "fr_FR": "undefined",
         "zh_CN": "\u7fc5\u8180\u8f7b\u8f7b\u4e00\u6247\u4fbf\u80fd\u5f15\u8d77\u98ce\u66b4\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20366,6 +20528,7 @@
       "order": 34,
       "name": {
         "en_US": "Seedling",
+        "pt_BR": "Broto",
         "de_DE": "Keimling",
         "fr_FR": "undefined",
         "zh_CN": "\u5e7c\u82d7<<A<<[CHANGED 2020/06/17]",
@@ -20376,6 +20539,7 @@
       },
       "description": {
         "en_US": "Carries the sound of the \\v[area.tree-dng.name] to distant shores.",
+        "pt_BR": "Leva o som do \\v[area.tree-dng.name] à praias distantes.",
         "de_DE": "Tr\u00e4gt den Klang des Gro\u00dfen Krys'kajo zu fernen Ufern.",
         "fr_FR": "undefined",
         "zh_CN": "\u5c06\\v[area.tree-dng.name]\u7684\u58f0\u97f3\u5e26\u5230\u8fdc\u65b9<<A<<[CHANGED 2020/06/17]",
@@ -20466,6 +20630,7 @@
       "order": 32,
       "name": {
         "en_US": "Baby of the East",
+        "pt_BR": "Bebê do Leste",
         "de_DE": "Baby des Ostens",
         "fr_FR": "undefined",
         "zh_CN": "\u4e1c\u65b9\u5b9d\u8d1d<<A<<[CHANGED 2020/06/17]",
@@ -20476,6 +20641,7 @@
       },
       "description": {
         "en_US": "Destined to be the guardian of something great.",
+        "pt_BR": "Destinado a ser o guardião de algo grandioso.",
         "de_DE": "Dazu bestimmt, der H\u00fcter von etwas Gro\u00dfem zu sein.",
         "fr_FR": "undefined",
         "zh_CN": "\u6ce8\u5b9a\u5c06\u6210\u4e3a\u4f1f\u5927\u4e4b\u7269\u7684\u5b88\u62a4\u8005\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20509,6 +20675,7 @@
       },
       "description": {
         "en_US": "Honk.",
+        "pt_BR": "Quá Quá.",
         "de_DE": "Schnatter.",
         "fr_FR": "undefined",
         "zh_CN": "\u560e\u560e\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20564,6 +20731,7 @@
       "order": 103,
       "name": {
         "en_US": "Strange Shard",
+        "pt_BR": "Fragmento Estranho",
         "de_DE": "Seltsame Scherbe",
         "fr_FR": "undefined",
         "zh_CN": "\u5947\u5f02\u788e\u7247<<A<<[CHANGED 2020/06/17]",
@@ -20574,6 +20742,7 @@
       },
       "description": {
         "en_US": "The crystal is hard, but the inside seems to transform constantly.",
+        "pt_BR": "O cristal é duro, mas o interior parece se transformar constantemente.",
         "de_DE": "Der Kristall ist hart, aber das Innere scheint sich st\u00e4ndig zu ver\u00e4ndern.",
         "fr_FR": "undefined",
         "zh_CN": "\u867d\u7136\u8d28\u5730\u575a\u786c\uff0c\u4f46\u91cc\u9762\u4f3c\u4e4e\u5728\u4e0d\u65ad\u53d8\u5316\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20603,6 +20772,7 @@
       "order": 104,
       "name": {
         "en_US": "Cone Seed",
+        "pt_BR": "Semente de Cone",
         "de_DE": "Zapfensamen",
         "fr_FR": "undefined",
         "zh_CN": "\u677e\u5b50<<A<<[CHANGED 2020/06/17]",
@@ -20613,6 +20783,7 @@
       },
       "description": {
         "en_US": "A seed from the mighty cone trees found in Ku'lero Temple.",
+        "pt_BR": "Uma semente das poderosas árvores cone encontradas no Templo Ku'lero",
         "de_DE": "Ein Samen der m\u00e4chtigen Zapfenb\u00e4ume im Ku'lero-Tempel.",
         "fr_FR": "undefined",
         "zh_CN": "\u5e93\u52d2\u795e\u6bbf\u4e2d\u5de8\u5927\u677e\u6811\u7684\u7c7d\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20639,6 +20810,7 @@
       "order": 105,
       "name": {
         "en_US": "Antique Ore",
+        "pt_BR": "Minério Antigo",
         "de_DE": "Antikes Erz",
         "fr_FR": "undefined",
         "zh_CN": "\u53e4\u8463\u77ff\u77f3<<A<<[CHANGED 2020/07/08]",
@@ -20649,6 +20821,7 @@
       },
       "description": {
         "en_US": "Imagine metal, but really really old and valuable.",
+        "pt_BR": "Imagine o metal, mas realmente muito velho e valioso.",
         "de_DE": "Stell dir Metall vor, Asbach Uralt, aber wertvoll.",
         "fr_FR": "undefined",
         "zh_CN": "\u5f88\u53e4\u8001\u5f88\u4e4b\u524d\u7684\u91d1\u5c5e\u53e4\u8463\u3002<<A<<[CHANGED 2020/07/08]",
@@ -20675,6 +20848,7 @@
       "order": 106,
       "name": {
         "en_US": "Rose Cone",
+        "pt_BR": "Cone Rosa",
         "de_DE": "Rosenzapfen",
         "fr_FR": "undefined",
         "zh_CN": "\u73ab\u7470\u7403\u679c<<A<<[CHANGED 2020/06/17]",
@@ -20685,6 +20859,7 @@
       },
       "description": {
         "en_US": "These giant cones never seem to grow into the same size as their violet kin.",
+        "pt_BR": "Estes cones gigantes nunca parecem crescer no mesmo tamanho que seus parentes violetas.",
         "de_DE": "Diese riesigen Zapfen scheinen niemals so gro\u00df zu werden wie ihre violetten Verwandten.",
         "fr_FR": "undefined",
         "zh_CN": "\u4f3c\u4e4e\u6c38\u8fdc\u4e5f\u957f\u4e0d\u5230\u5b83\u4eec\u7d2b\u8272\u8868\u4eb2\u7684\u5927\u5c0f\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20711,6 +20886,7 @@
       "order": 107,
       "name": {
         "en_US": "Salty Grass",
+        "pt_BR": "Grama Salgada",
         "de_DE": "Salziges Gras",
         "fr_FR": "undefined",
         "zh_CN": "\u76d0\u8349<<A<<[CHANGED 2021/02/24]",
@@ -20721,6 +20897,7 @@
       },
       "description": {
         "en_US": "Said to collect the tears of those who didn't finish the track.",
+        "pt_BR": "Dizem que recolheu as lágrimas daqueles que não terminaram a trilha.",
         "de_DE": "Soll die Tr\u00e4nen derer sammeln, die den Pfad der Ahnen nicht meistern konnten.",
         "fr_FR": "undefined",
         "zh_CN": "\u636e\u8bf4\u559c\u6b22\u90a3\u4e9b\u8dd1\u4e0d\u5b8c\u5148\u7956\u4e4b\u8def\u7684\u4eba\u7684\u6cea\u6c34\u3002<<A<<[CHANGED 2020/06/17]",
@@ -20747,6 +20924,7 @@
       "order": 99,
       "name": {
         "en_US": "Coral Piece",
+        "pt_BR": "Pedaço de Coral",
         "de_DE": "Korallenst\u00fcck",
         "fr_FR": "undefined",
         "zh_CN": "\u73ca\u745a\u788e\u7247<<A<<[CHANGED 2020/07/29]",
@@ -20757,6 +20935,7 @@
       },
       "description": {
         "en_US": "Pieces of corals, as hard as steel. Could be used for trading. ",
+        "pt_BR": "Pedaços de corais, tão duros quanto o aço. Podem ser usados para trocas.",
         "de_DE": "Ein Korallenst\u00fcck, hart wie Stahl. Sicher n\u00fctzlich zum Handeln.",
         "fr_FR": "undefined",
         "zh_CN": "\u575a\u786c\u5982\u94a2\u7684\u73ca\u745a\u788e\u7247\u3002\u53ef\u4ee5\u7528\u4e8e\u8d38\u6613\u3002<<A<<[CHANGED 2020/07/29]",
@@ -20787,6 +20966,7 @@
       "order": 1,
       "name": {
         "en_US": "Cross Edge",
+        "pt_BR": "Lâmina Cruzada",
         "de_DE": "Cross-Klinge",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u661f\u4e4b\u5203<<A<<[CHANGED 2020/06/17]",
@@ -20797,6 +20977,7 @@
       },
       "description": {
         "en_US": "Splendid for bringing the point across with cutting-edge technology. \\i[ascended]",
+        "pt_BR": "Esplêndida por trazer o ponto de encontro com a tecnologia de ponta. \\i[ascended]",
         "de_DE": "Ideal, um Gegner aufs Kreuz zu legen. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u7528\u4e8e\u4f20\u9012\u771f\u7406\u3002\\i[ascended]<<A<<[CHANGED 2021/03/05]",
@@ -20821,6 +21002,7 @@
     {
       "name": {
         "en_US": "Cross Goggles",
+        "pt_BR": "Óculos Cruzados",
         "de_DE": "Cross-Brille",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u661f\u62a4\u76ee\u955c<<A<<[CHANGED 2020/06/17]",
@@ -20831,6 +21013,7 @@
       },
       "description": {
         "en_US": "Viewing aids that help you survey every detail across huge areas. \\i[ascended]",
+        "pt_BR": "Auxiliares de visualização que ajudam a pesquisar cada detalhe em áreas enormes. \\i[ascended]",
         "de_DE": "Bergen-Trail. Gipfeltreffen. Blicke kreuzen sich. Schneesturm. Die Brille sitzt. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u4f60\u660e\u5bdf\u79cb\u6beb\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -20856,6 +21039,7 @@
     {
       "name": {
         "en_US": "Cross Mail",
+        "pt_BR": "Malha Cruzada",
         "de_DE": "Cross-Harnisch",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u661f\u76d4\u7532<<A<<[CHANGED 2020/06/17]",
@@ -20866,6 +21050,7 @@
       },
       "description": {
         "en_US": "Offers the highest-protection levels across the board. \\i[ascended]",
+        "pt_BR": "Oferece os mais altos níveis de proteção em todos os níveis. \\i[ascended]",
         "de_DE": "Des Kreuzritters erste Wahl. Bietet den so ziemlich besten Schutz \u00fcberhaupt. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u62e5\u6709\u6700\u5f3a\u7684\u9632\u5fa1\u6027\u80fd\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -20891,6 +21076,7 @@
     {
       "name": {
         "en_US": "Cross Boots",
+        "pt_BR": "Botas Cruzadas",
         "de_DE": "Cross-Stiefel",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u661f\u9774<<A<<[CHANGED 2020/06/17]",
@@ -20901,6 +21087,7 @@
       },
       "description": {
         "en_US": "The finest boots you could have for crossing dangerous lands! \\i[ascended]",
+        "pt_BR": "As melhores botas que você poderia ter para atravessar terras perigosas! \\i[ascended]",
         "de_DE": "Feinste Stiefel, die auch schwierigstes Gel\u00e4nde durchkreuzen. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0a\u5200\u5c71\u4e0b\u706b\u6d77\u90fd\u6ca1\u95ee\u9898\uff01\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -20931,6 +21118,7 @@
     {
       "name": {
         "en_US": "Serene Bubble+",
+        "pt_BR": "Bolha Serena+",
         "de_DE": "Erholsame Blase+",
         "fr_FR": "undefined",
         "zh_CN": "\u6e05\u6f88\u6ce1\u6ce1+<<A<<[CHANGED 2020/06/17]",
@@ -20941,6 +21129,7 @@
       },
       "description": {
         "en_US": "A forcefield generator encases the head in a protective and relaxing bubble. \\i[ascended]",
+        "pt_BR": "Um gerador de campo de força encerra a cabeça em uma bolha protetora e relaxante. \\i[ascended]",
         "de_DE": "Ein Kraftfeldgenerator umh\u00fcllt den Kopf mit einer Blase, die sch\u00fctzt & beruhigt. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u80fd\u591f\u5728\u5934\u90e8\u5468\u56f4\u751f\u6210\u6ce1\u6ce1\u72b6\u4fdd\u62a4\u7acb\u573a\u7684\u88c5\u7f6e\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -21014,6 +21203,7 @@
     {
       "name": {
         "en_US": "Trackwalker Visor+",
+        "pt_BR": "Visor do Andarilho",
         "de_DE": "Pfadl\u00e4ufervisier+",
         "fr_FR": "undefined",
         "zh_CN": "\u5bfb\u8def\u8005\u62a4\u955c+<<A<<[CHANGED 2020/06/17]",
@@ -21024,6 +21214,7 @@
       },
       "description": {
         "en_US": "State-of-the-art visor, custom-tailored to the needs of Trackwalker expeditions. \\i[ascended]",
+        "pt_BR": "Viseira de última geração que foi customizada para as necessidades das expedições da Trilha. \\i[ascended]",
         "de_DE": "Hochmodernes Visier, speziell auf die Bed\u00fcrfnisse von Pfadl\u00e4ufern zugeschnitten. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e3a\u5bfb\u8def\u8005\u9700\u6c42\u5b9a\u5236\u7684\u9ad8\u7aef\u62a4\u955c\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -21049,6 +21240,7 @@
     {
       "name": {
         "en_US": "Medusa Veil",
+        "pt_BR": "Véu da Medusa",
         "de_DE": "Medusaschleier",
         "fr_FR": "undefined",
         "zh_CN": "\u7f8e\u675c\u838e\u9762\u7eb1+<<A<<[CHANGED 2020/06/17]",
@@ -21059,6 +21251,7 @@
       },
       "description": {
         "en_US": "Based on a mythical beast, this veil grants adeptness in slowly weakening foes. \\i[ascended]",
+        "pt_BR": "Baseado em uma besta mítica, este véu garante a habilidade em enfraquecer lentamente os inimigos. \\i[ascended]",
         "de_DE": "Einem Fabelwesen gleich, schw\u00e4cht dieser Schleier Gegner langsam aber stetig. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u57fa\u4e8e\u4f20\u8bf4\u751f\u7269\u7f8e\u675c\u838e\u800c\u9020\uff0c\u8fd9\u4e2a\u9762\u7eb1\u80fd\u591f\u7f13\u6162\u7684\u5f31\u5316\u654c\u4eba\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -21251,7 +21444,7 @@
       "order": 3,
       "name": {
         "en_US": "Mantis Whip+",
-        "pt_BR": "Chicote de Louva-a-Deus",
+        "pt_BR": "Chicote de Louva-a-Deus+",
         "de_DE": "Mantispeitsche+",
         "fr_FR": "undefined",
         "zh_CN": "\u87b3\u8782\u97ad+<<A<<[CHANGED 2020/06/17]",
@@ -21370,6 +21563,7 @@
     {
       "name": {
         "en_US": "Cerberus Fang",
+        "pt_BR": "Presa de Cérbero",
         "de_DE": "Zerberuszahn",
         "fr_FR": "undefined",
         "zh_CN": "\u4e5d\u5934\u86c7\u4e4b\u7259+<<A<<[CHANGED 2020/06/17]",
@@ -21380,6 +21574,7 @@
       },
       "description": {
         "en_US": "Based on a mythical beast, it grants regeneration and additional attacks. \\i[ascended]",
+        "pt_BR": "Com base em uma besta mítica, ela garante a regeneração e ataques adicionais. \\i[ascended]",
         "de_DE": "Einem Fabelwesen gleich, gew\u00e4hrt diese Waffe Regeneration und multiple Angriffe. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f9d\u795e\u8bdd\u4f20\u8bf4\u6240\u9020\u7684\u6b66\u5668\uff0c\u80fd\u591f\u63d0\u4f9b\u56de\u590d\u548c\u989d\u5916\u653b\u51fb\u6548\u679c\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -21542,6 +21737,7 @@
     {
       "name": {
         "en_US": "Chiron Vest",
+        "pt_BR": "Colete de Quíron",
         "de_DE": "Cheironweste",
         "fr_FR": "undefined",
         "zh_CN": "\u534a\u4eba\u9a6c\u80f8\u7532+<<A<<[CHANGED 2020/06/17]",
@@ -21552,6 +21748,7 @@
       },
       "description": {
         "en_US": "Based on a mythical beast, this vest grants exceptional aim on the move. \\i[ascended]",
+        "pt_BR": "Baseado em uma besta mítica, este colete confere uma precisão excepcional de movimento. \\i[ascended]",
         "de_DE": "Strafen wie bei CS mit der au\u00dfergew\u00f6hnlichen Treffsicherheit des Fabelwesens! \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u57fa\u4e8e\u4f20\u8bf4\u751f\u7269\u534a\u4eba\u9a6c\u800c\u9020\uff0c\u8fd9\u4e2a\u80f8\u7532\u80fd\u591f\u4f7f\u7a7f\u6234\u8005\u5728\u79fb\u52a8\u4e2d\u7784\u51c6\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -21754,6 +21951,7 @@
     {
       "name": {
         "en_US": "- PLACEHOLDER",
+        "pt_BR": "- PLACEHOLDER",
         "de_DE": "<<C<<UNFERTIG",
         "fr_FR": "undefined",
         "zh_CN": "- PLACEHOLDER<<A<<[CHANGED 2020/07/15]",
@@ -21764,6 +21962,7 @@
       },
       "description": {
         "en_US": "A tough, neverending snack for combat. Fighting on an empty stomach is no good!",
+        "pt_BR": "Um lanche duro e infinito para o combate. Lutar com o estômago vazio não é bom!",
         "de_DE": "<<C<<UNFERTIG",
         "fr_FR": "undefined",
         "zh_CN": "\u6218\u6597\u5458\u4eec\u9752\u7750\u7684\u8010\u5403\u5c0f\u98df\u3002\u7a7a\u7740\u809a\u5b50\u6253\u4ed7\u53ef\u4e0d\u884c\uff01<<A<<[CHANGED 2020/06/17]",
@@ -21790,6 +21989,7 @@
       "order": 2,
       "name": {
         "en_US": "Deadly Dancers+",
+        "pt_BR": "Dançarinos Mortais+",
         "de_DE": "T\u00f6dliche T\u00e4nzer+",
         "fr_FR": "undefined",
         "zh_CN": "\u81f4\u547d\u821e\u8005+<<A<<[CHANGED 2020/06/17]",
@@ -21800,6 +22000,7 @@
       },
       "description": {
         "en_US": "Elegant shoes favored by agile gunslingers. Allow for fast movement in firefights. \\i[ascended]",
+        "pt_BR": "Sapatos elegantes, preferido por pistoleiros ágeis. Permitem movimentos rápidos em tiroteios. \\i[ascended]",
         "de_DE": "Elegante Schuhe f\u00fcr wendige Sch\u00fctzen. Schnellere Bewegung in Feuergefechten. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u88ab\u654f\u6377\u7684\u67aa\u624b\u4eec\u6240\u949f\u7231\u7684\u8db3\u90e8\u88c5\u5907\u3002\u80fd\u591f\u5728\u706b\u5e76\u65f6\u5feb\u901f\u79fb\u52a8\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22042,6 +22243,7 @@
       "order": 9,
       "name": {
         "en_US": "Very Last Strawhat",
+        "pt_BR": "Último Chapéu de Palha",
         "de_DE": "Der letzte Strohhut",
         "fr_FR": "undefined",
         "zh_CN": "\u6700\u540e\u7684\u8349\u5e3d+<<A<<[CHANGED 2020/06/17]",
@@ -22052,6 +22254,7 @@
       },
       "description": {
         "en_US": "The very last upgrade. The true ultimate strawhat, vastly increasing your focus. \\i[ascended]",
+        "pt_BR": "A última atualização. O verdadeiro chapéu de palha, que aumenta enormemente seu foco. \\i[ascended]",
         "de_DE": "Das allerletzte Upgrade. Der wahre ultimative Strohhut mit immensem Fokusboost. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u6700\u5f3a\u7248\u672c\u7684\u7ec8\u6781\u8349\u5e3d\uff0c\u5927\u5e45\u63d0\u9ad8\u4f60\u7684\u4e13\u6ce8\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22082,6 +22285,7 @@
       "order": 11,
       "name": {
         "en_US": "Sunshine Bracer",
+        "pt_BR": "Braçadeira Solar",
         "de_DE": "Sonnenscheinstulpe",
         "fr_FR": "undefined",
         "zh_CN": "\u9633\u5149\u62a4\u8155<<A<<[CHANGED 2020/06/17]",
@@ -22092,6 +22296,7 @@
       },
       "description": {
         "en_US": "Highly empowered, can manipulate the aura of everything around it. \\i[ascended]",
+        "pt_BR": "Altamente poderosa, pode manipular a aura de tudo ao seu redor. \\i[ascended]",
         "de_DE": "Stark gepanzerte Armschiene, die die Aura von allem um sie herum beeinflusst. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u80fd\u591f\u64cd\u4f5c\u5468\u56f4\u4e8b\u7269\u7684\u5f3a\u529b\u62a4\u8155\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22159,6 +22364,7 @@
       "order": 15,
       "name": {
         "en_US": "Highmeister Gloves",
+        "pt_BR": "Luvas do Grão Mestre",
         "de_DE": "Hochmeisterschiene",
         "fr_FR": "undefined",
         "zh_CN": "\u5927\u5e08\u624b\u5957<<A<<[CHANGED 2020/07/15]",
@@ -22169,6 +22375,7 @@
       },
       "description": {
         "en_US": "Worn and old gloves once belonging to a great master of parries. \\i[ascended]",
+        "pt_BR": "Luvas usadas e velhas, outrora pertencentes a um grande mestre de paróquias. \\i[ascended]",
         "de_DE": "Abgetragene und alte Handschuhe, die einst einem Meister des Parierens geh\u00f6rten. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u62db\u67b6\u5927\u5e08\u66fe\u7ecf\u4f7f\u7528\u7684\u65e7\u624b\u5957\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22202,6 +22409,7 @@
     {
       "name": {
         "en_US": "Body Armoire",
+        "pt_BR": "Armário de Corpo",
         "de_DE": "\u00dcberziehschr\u00e4nkle",
         "fr_FR": "undefined",
         "zh_CN": "\u7bb1\u5b50\u76d4\u7532<<A<<[CHANGED 2021/03/10]",
@@ -22212,6 +22420,7 @@
       },
       "description": {
         "en_US": "A wearable container that can store an inconceivable amount of stuff. \\i[ascended]",
+        "pt_BR": "Um armário que pode ser vestido e armazena uma quantidade enorme de coisas. \\i[ascended]",
         "de_DE": "Ein tragbarer Beh\u00e4lter, der eine unvorstellbare Menge an Dingen speichern kann. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u5404\u79cd\u7bb1\u5b50\u6253\u9020\u7684\u76d4\u7532\u3002\u80fd\u50a8\u5b58\u591a\u5230\u96be\u4ee5\u60f3\u8c61\u7684\u7269\u54c1\u3002\\i[ascended]<<A<<[CHANGED 2021/03/10]",
@@ -22285,6 +22494,7 @@
     {
       "name": {
         "en_US": "Lifefiber Dress",
+        "pt_BR": "Vestido de Fio Vivo",
         "de_DE": "Lebensfaseruniform",
         "fr_FR": "undefined",
         "zh_CN": "\u751f\u547d\u6218\u7ef4\u670d\u88c5<<A<<[CHANGED 2020/06/17]",
@@ -22295,6 +22505,7 @@
       },
       "description": {
         "en_US": "Spun from living thread that forms a nigh symbiontic relationship with its wearer. \\i[ascended]",
+        "pt_BR": "Tecido feito de fio vivo que forma uma relação quase simbiótica com seu usuário. \\i[ascended]",
         "de_DE": "Ein Anzug gesponnen aus lebendigem Zwirn, fast wie ein Symbiont f\u00fcr den Tr\u00e4ger. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u6d3b\u4f53\u7ea4\u7ef4\u5236\u6210\u7684\u670d\u88c5\uff0c\u4f1a\u4e0e\u7a7f\u7740\u8005\u4ea7\u751f\u5171\u751f\u5173\u7cfb\u3002\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22357,6 +22568,7 @@
     {
       "name": {
         "en_US": "Light Gem",
+        "pt_BR": "Jóia Leve",
         "de_DE": "Lichtstein",
         "fr_FR": "undefined",
         "zh_CN": "\u5149\u4e4b\u5b9d\u77f3<<A<<[CHANGED 2021/02/24]",
@@ -22367,6 +22579,7 @@
       },
       "description": {
         "en_US": "A chipped silver gem. Apparently it's of no use by itself but maybe...?",
+        "pt_BR": "Uma jóia de prata lascada. Aparentemente ela não tem utilidade, mas talvez...?",
         "de_DE": "Ein abgesplitterter Silberstein. Scheint f\u00fcr sich allein ohne Nutzen, aber vielleicht..?",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u7f3a\u635f\u7684\u94f6\u8272\u5b9d\u77f3\u3002\u4f3c\u4e4e\u6ca1\u6709\u4ec0\u4e48\u7528\u5904\uff0c\u4f46\u4e5f\u8bb8...?<<A<<[CHANGED 2021/02/24]",
@@ -22391,6 +22604,7 @@
       "order": 17,
       "name": {
         "en_US": "Shuriken Shooter",
+        "pt_BR": "Atirador de Shuriken",
         "de_DE": "Shurikenwerfer",
         "fr_FR": "undefined",
         "zh_CN": "\u624b\u91cc\u5251\u67aa<<A<<[CHANGED 2020/07/08]",
@@ -22401,6 +22615,7 @@
       },
       "description": {
         "en_US": "Makes you move and shoot very fast. \\i[ascended]",
+        "pt_BR": "Faz você se mover e atirar muito rápido. \\i[ascended]",
         "de_DE": "Sorgt daf\u00fcr, dass du dich sehr schnell bewegst und schie\u00dft. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u79fb\u52a8\u5c04\u51fb\u7684\u9996\u9009\uff01\\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22435,6 +22650,7 @@
       "order": 162,
       "name": {
         "en_US": "Barrel Beak",
+        "pt_BR": "Bico de Sniper",
         "de_DE": "Sniperschnabel",
         "fr_FR": "undefined",
         "zh_CN": "\u67aa\u7ba1\u5599<<A<<[CHANGED 2021/01/12]",
@@ -22445,6 +22661,7 @@
       },
       "description": {
         "en_US": "A beak formed like the barrel of a sniper rifle.",
+        "pt_BR": "Um bico formado como o cano de um rifle de sniper.",
         "de_DE": "Ein Schnabel, der wie der Lauf eines Scharfsch\u00fctzengewehrs geformt ist.",
         "fr_FR": "undefined",
         "zh_CN": "\u50cf\u72d9\u51fb\u6b65\u67aa\u67aa\u7ba1\u4e00\u6837\u7684\u957f\u5599\u3002<<A<<[CHANGED 2021/01/12]",
@@ -22468,6 +22685,7 @@
       "order": 164,
       "name": {
         "en_US": "Rumble Hive",
+        "pt_BR": "Colmeia Pesada",
         "de_DE": "Summstock",
         "fr_FR": "undefined",
         "zh_CN": "\u9ecf\u86db\u7f51<<A<<[CHANGED 2021/01/12]",
@@ -22478,6 +22696,7 @@
       },
       "description": {
         "en_US": "Beeware: Swirling inside are what feels like thousands of bees!",
+        "pt_BR": "Cuidado: Parece que tem milhares de abelhas aí dentro!",
         "de_DE": "Bssssonders aufpassen: H\u00f6rt sich so an, als w\u00e4ren Tausende von Bienen da drin!",
         "fr_FR": "undefined",
         "zh_CN": "\u5c0f\u5fc3\u8707\u4eba\uff01<<A<<[CHANGED 2021/01/12]",
@@ -22501,6 +22720,7 @@
       "order": 163,
       "name": {
         "en_US": "Burned Ash",
+        "pt_BR": "Cinzas Queimadas",
         "de_DE": "Verbrannte Asche",
         "fr_FR": "undefined",
         "zh_CN": "\u7070\u70ec<<A<<[CHANGED 2020/07/08]",
@@ -22511,6 +22731,7 @@
       },
       "description": {
         "en_US": "Ash that was burned, which resulted in even more ash. Figures.",
+        "pt_BR": "Cinzas que foram queimadas, o que resultou em ainda mais cinzas.",
         "de_DE": "Asche, die verbrannt wurde, was zu noch mehr Asche f\u00fchrte. Schon klar.",
         "fr_FR": "undefined",
         "zh_CN": "\u71c3\u5c3d\u7684\u7070\uff0c\u53ea\u4f1a\u4ea7\u751f\u66f4\u591a\u7070\u3002<<A<<[CHANGED 2021/01/12]",
@@ -22534,6 +22755,7 @@
       "order": 10,
       "name": {
         "en_US": "Speedy Boom Boots",
+        "pt_BR": "Botas Sônicas",
         "de_DE": "Superd\u00fcsentreter",
         "fr_FR": "undefined",
         "zh_CN": "\u9ad8\u901f\u9686\u9686\u884c\u8d70\u8005<<A<<[CHANGED 2021/02/19]",
@@ -22544,6 +22766,7 @@
       },
       "description": {
         "en_US": "Ideal for those who aspire to move at very high velocities. \\i[ascended]",
+        "pt_BR": "Ideal para aqueles que querem se mover com uma velocidade muito alta. \\i[ascended]",
         "de_DE": "Ideal f\u00fcr jeden, der sich mit sehr hoher Geschwindigkeit bewegen will. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u975e\u5e38\u9002\u5408\u90a3\u4e9b\u5e0c\u671b\u4ee5\u9ad8\u901f\u79fb\u52a8\u7684\u4eba\u3002 \\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -22575,6 +22798,7 @@
       "order": 180,
       "name": {
         "en_US": "Unruly Emeralds",
+        "pt_BR": "Esmeraldas Rebeldes",
         "de_DE": "Unb\u00e4ndige Smaragde",
         "fr_FR": "undefined",
         "zh_CN": "\u65e0\u7f81\u7eff\u5b9d\u77f3<<A<<[CHANGED 2020/07/08]",
@@ -22585,6 +22809,7 @@
       },
       "description": {
         "en_US": "A set of multicolored gems that seem to bow to neither law nor order.",
+        "pt_BR": "Um conjunto de pedras preciosas multicoloridas que parecem não se curvar nem à lei nem à ordem.",
         "de_DE": "Satz mehrfarbiger Edelsteine, die sich keinem Gesetz und keiner Ordnung unterwerfen.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e0d\u53d7\u89c4\u5219\u4e0e\u79e9\u5e8f\u9650\u5236\u7684\u591a\u5f69\u5b9d\u77f3\u3002<<A<<[CHANGED 2020/07/08]",
@@ -22608,6 +22833,7 @@
       "order": 2,
       "name": {
         "en_US": "- New Boostertrade",
+        "pt_BR": "- New Boostertrade",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "- New Boostertrade<<A<<[CHANGED 2020/07/08]",
@@ -22618,6 +22844,7 @@
       },
       "description": {
         "en_US": "A rare green gem only found when fighting strong adversaries.",
+        "pt_BR": "Uma rara jóia verde só encontrada quando se luta contra adversários fortes.",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u53ea\u6709\u5f3a\u5927\u7684\u654c\u4eba\u624d\u4f1a\u6389\u843d\u7684\u7a00\u6709\u7eff\u8272\u5b9d\u77f3\u3002<<A<<[CHANGED 2020/07/08]",
@@ -22641,6 +22868,7 @@
       "order": 38,
       "name": {
         "en_US": "- beach1-1",
+        "pt_BR": "- praia1-1",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "- beach1-1<<A<<[CHANGED 2020/07/08]",
@@ -22651,6 +22879,7 @@
       },
       "description": {
         "en_US": "Beach item 1-1",
+        "pt_BR": "Item da Praia 1-1",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "Beach item 1-1<<A<<[CHANGED 2020/07/08]",
@@ -22674,6 +22903,7 @@
       "order": 39,
       "name": {
         "en_US": "- beach1-2",
+        "pt_BR": "- praia1-2",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "- beach1-2<<A<<[CHANGED 2020/07/08]",
@@ -22684,6 +22914,7 @@
       },
       "description": {
         "en_US": "Beach item 1-2",
+        "pt_BR": "Item da Praia 1-2",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "Beach item 1-2<<A<<[CHANGED 2020/07/08]",
@@ -22707,6 +22938,7 @@
       "order": 40,
       "name": {
         "en_US": "- beach2-1",
+        "pt_BR": "- praia2-1",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "- beach2-1<<A<<[CHANGED 2020/07/08]",
@@ -22717,6 +22949,7 @@
       },
       "description": {
         "en_US": "Beach item 2-1",
+        "pt_BR": "Item da Praia 2-1",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "Beach item 2-1<<A<<[CHANGED 2020/07/08]",
@@ -22740,6 +22973,7 @@
       "order": 41,
       "name": {
         "en_US": "- beach2-2",
+        "pt_BR": "- praia2-2",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "- beach2-2<<A<<[CHANGED 2020/07/08]",
@@ -22750,6 +22984,7 @@
       },
       "description": {
         "en_US": "Beach item 2-2",
+        "pt_BR": "Item da Praia 2-2",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "Beach item 2-2<<A<<[CHANGED 2020/07/08]",
@@ -22807,6 +23042,7 @@
       "order": 101,
       "name": {
         "en_US": "Yellow Sponge",
+        "pt_BR": "Esponja Amarela",
         "de_DE": "Gelber Schwamm",
         "fr_FR": "undefined",
         "zh_CN": "\u9ec4\u8272\u6d77\u7ef5<<A<<[CHANGED 2020/07/29]",
@@ -22817,6 +23053,7 @@
       },
       "description": {
         "en_US": "Natural sponge that usually lives under the sea. ",
+        "pt_BR": "Esponja natural que geralmente vive no mar.",
         "de_DE": "Nat\u00fcrlicher Schwamm, der f\u00fcr gew\u00f6hnlich unter dem Meer lebt.",
         "fr_FR": "undefined",
         "zh_CN": "\u901a\u5e38\u5728\u6d77\u5e95\u751f\u6d3b\u7684\u5929\u7136\u6d77\u7ef5\u3002<<A<<[CHANGED 2020/07/29]",
@@ -22843,6 +23080,7 @@
       "order": 100,
       "name": {
         "en_US": "Mellow Water",
+        "pt_BR": "Água Doce",
         "de_DE": "Mildes Wasser",
         "fr_FR": "undefined",
         "zh_CN": "\u8212\u7f13\u6c34<<A<<[CHANGED 2020/07/29]",
@@ -22853,6 +23091,7 @@
       },
       "description": {
         "en_US": "This water is often used for tea to create a soothing taste.",
+        "pt_BR": "Esta água é frequentemente utilizada para um chá cdom sabor calmante",
         "de_DE": "Dieses Wasser wird oft f\u00fcr Tee verwendet, um einen beruhigenden Geschmack zu erzeugen.",
         "fr_FR": "undefined",
         "zh_CN": "\u901a\u5e38\u7528\u4e8e\u6c8f\u8336\u7684\u4f18\u8d28\u6c34\u3002<<A<<[CHANGED 2020/07/29]",
@@ -22879,6 +23118,7 @@
       "order": 102,
       "name": {
         "en_US": "Shell Nut",
+        "pt_BR": "Concha de Côco",
         "de_DE": "Muschelnuss",
         "fr_FR": "undefined",
         "zh_CN": "\u8d1d\u58f3\u6930\u5b50<<A<<[CHANGED 2020/07/29]",
@@ -22889,6 +23129,7 @@
       },
       "description": {
         "en_US": "This coconut is shaped like a sea shell. ",
+        "pt_BR": "Esde côco tem a forma de uma concha do mar.",
         "de_DE": "Diese Kokosnuss hat die Form einer Muschel.",
         "fr_FR": "undefined",
         "zh_CN": "\u957f\u5f97\u50cf\u662f\u8d1d\u58f3\u7684\u6930\u5b50\u3002<<A<<[CHANGED 2021/03/05]",
@@ -22915,6 +23156,7 @@
       "order": 36,
       "name": {
         "en_US": "MacGuffin's Coin",
+        "pt_BR": "Moeda de MacGuffin",
         "de_DE": "MacGuffins M\u00fcnze",
         "fr_FR": "undefined",
         "zh_CN": "\u9ea6\u53e4\u82ac\u7684\u786c\u5e01<<A<<[CHANGED 2020/07/29]",
@@ -22925,6 +23167,7 @@
       },
       "description": {
         "en_US": "Obtaining it is important for something.",
+        "pt_BR": "Obter isso é importante para alguma coisa.",
         "de_DE": "Sie zu haben ist f\u00fcr irgendetwas wichtig.",
         "fr_FR": "undefined",
         "zh_CN": "\u83b7\u5f97\u5b83\u6709\u67d0\u4e9b\u91cd\u8981\u6027\u3002<<A<<[CHANGED 2021/01/12]",
@@ -22946,6 +23189,7 @@
       "order": 186,
       "name": {
         "en_US": "Gold Surprise Egg",
+        "pt_BR": "Ovo de Ouro Surpresa",
         "de_DE": "Goldenes \u00dc-Ei",
         "fr_FR": "undefined",
         "zh_CN": "\u91d1\u8272\u60ca\u559c\u86cb<<A<<[CHANGED 2021/02/26]",
@@ -22956,6 +23200,7 @@
       },
       "description": {
         "en_US": "An egg-shaped object made from extremely valuable material!",
+        "pt_BR": "Um objeto em forma de ovo feito de material extremamente valioso!",
         "de_DE": "Ein eif\u00f6rmiges Objekt aus \u00e4u\u00dferst wertvollem Material!",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u6781\u5176\u73cd\u8d35\u7d20\u6750\u5236\u4f5c\u7684\u86cb\u578b\u9053\u5177\uff01<<A<<[CHANGED 2020/07/29]",
@@ -22979,6 +23224,7 @@
       "order": 47,
       "name": {
         "en_US": "Ku'lero Master Key",
+        "pt_BR": "Chame Mestra de Ku'lero",
         "de_DE": "Kristallschl\u00fcssel",
         "fr_FR": "undefined",
         "zh_CN": "\u5e93\u52d2\u82e5\u4e3b\u94a5\u5319<<A<<[CHANGED 2021/01/12]",
@@ -22989,6 +23235,7 @@
       },
       "description": {
         "en_US": "Master key for the \\c[3]\\v[area.final-dng.name]\\c[0].",
+        "pt_BR": "A chave mestra do \\c[3]\\v[area.final-dng.name]\\c[0].",
         "de_DE": "Der goldene Schl\u00fcssel f\u00fcr den \\c[3]Ku'lero-Tempel\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\\c[3]\\v[area.final-dng.name]\\c[0]\u7684\u4e3b\u94a5\u5319\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23010,6 +23257,7 @@
       "order": 37,
       "name": {
         "en_US": "Ancient Cups",
+        "pt_BR": "Copas dos Antigos",
         "de_DE": "Ahnen-Pokale",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u53e4\u5956\u676f<<A<<[CHANGED 2021/01/12]",
@@ -23020,6 +23268,7 @@
       },
       "description": {
         "en_US": "Unlocks the \\c[3]\\v[arena.ancient-cup.name]\\c[0] & the \\c[3]\\v[arena.ancient-boss-cup.name]\\c[0] in the \\v[area.rhombus-sqr.name] Arena.",
+        "pt_BR": "Desbloqueia a \\c[3]\\v[arena.ancient-cup.name]\\c[0] & a \\c[3]\\v[arena.ancient-boss-cup.name]\\c[0] na Arena da \\v[area.rhombus-sqr.name].",
         "de_DE": "Schaltet den \\c[3]\\v[arena.ancient-cup.name]\\c[0] & den \\c[3]\\v[arena.ancient-boss-cup.name]\\c[0] in der Arena frei.",
         "fr_FR": "undefined",
         "zh_CN": "\u5728\\v[area.rhombus-sqr.name]\u7ade\u6280\u573a\u89e3\u9501\\c[3]\\v[arena.ancient-cup.name]\\c[0]&\\c[3]\\v[arena.ancient-boss-cup.name]\\c[0]\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23041,6 +23290,7 @@
       "order": 34,
       "name": {
         "en_US": "Full Rhombus Pass",
+        "pt_BR": "Passe da Praça",
         "de_DE": "Rhombus-Pass",
         "fr_FR": "undefined",
         "zh_CN": "\u7f57\u59c6\u5e03\u65af\u5e7f\u573a\u901a\u884c\u8bc1<<A<<[CHANGED 2021/01/12]",
@@ -23051,6 +23301,7 @@
       },
       "description": {
         "en_US": "Grants access to the whole area of Rhombus Square.",
+        "pt_BR": "Concede acesso a toda a área da Praça Losango.",
         "de_DE": "Gew\u00e4hrt Zugang zu allen Bereichen von Rhombus Square.",
         "fr_FR": "undefined",
         "zh_CN": "\u7ed9\u4e88\u7f57\u59c6\u5e03\u65af\u5e7f\u573a\u7684\u5b8c\u6574\u901a\u884c\u6743\u9650\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23072,6 +23323,7 @@
       "order": 27,
       "name": {
         "en_US": "Ancient Shade",
+        "pt_BR": "Fragmento Antigo",
         "de_DE": "Ahnenform",
         "fr_FR": "undefined",
         "zh_CN": "\u8fdc\u53e4\u8bc1\u5370<<A<<[CHANGED 2021/01/12]",
@@ -23138,6 +23390,7 @@
       "order": 157,
       "name": {
         "en_US": "Core Stone",
+        "pt_BR": "Pedra Central",
         "de_DE": "Kernstein",
         "fr_FR": "undefined",
         "zh_CN": "\u6838\u5fc3\u77f3<<A<<[CHANGED 2021/01/12]",
@@ -23148,6 +23401,7 @@
       },
       "description": {
         "en_US": "It looks like an eye which follows your every move.",
+        "pt_BR": "Parece um olho que segue cada movimento seu.",
         "de_DE": "Sieht aus wie ein Auge, das jede deiner Bewegungen verfolgt.",
         "fr_FR": "undefined",
         "zh_CN": "\u770b\u8d77\u6765\u50cf\u662f\u4e00\u4e2a\u4f1a\u76ef\u7740\u4f60\u4e00\u4e3e\u4e00\u52a8\u7684\u773c\u775b\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23176,6 +23430,7 @@
       "order": 159,
       "name": {
         "en_US": "Worm Band",
+        "pt_BR": "Faixa de Minhocas",
         "de_DE": "Wurmband",
         "fr_FR": "undefined",
         "zh_CN": "\u8815\u866b\u73af\u5e26<<A<<[CHANGED 2021/01/12]",
@@ -23186,6 +23441,7 @@
       },
       "description": {
         "en_US": "A piece of mushy fabric that is extremely stretchable. Often used for underground music.",
+        "pt_BR": "Um pedaço de tecido pastoso que é extremamente extensível. Muitas vezes usado para música subterrânea.",
         "de_DE": "Ein matschiges Gewebe, das extrem dehnbar ist. Wird oft f\u00fcr Underground-Musik verwendet.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u4e2a\u8f6f\u4e4e\u4e4e\u7684\uff0c\u62c9\u4f38\u6027\u80fd\u6781\u5f3a\u7684\u73af\u5e26\u3002\u901a\u5e38\u7528\u4e8e\u5730\u4e0b\u97f3\u4e50\u3002<<A<<[CHANGED 2021/03/05]",
@@ -23209,6 +23465,7 @@
       "order": 158,
       "name": {
         "en_US": "Ember Sack",
+        "pt_BR": "Saco de Brasa",
         "de_DE": "Glimmersack",
         "fr_FR": "undefined",
         "zh_CN": "\u71c3\u888b<<A<<[CHANGED 2021/01/12]",
@@ -23219,6 +23476,7 @@
       },
       "description": {
         "en_US": "An organic container with highly flammable content.",
+        "pt_BR": "Um recipiente orgânico com conteúdo altamente inflamável.",
         "de_DE": "Ein organischer Beh\u00e4lter mit leicht entz\u00fcndlichem Inhalt.",
         "fr_FR": "undefined",
         "zh_CN": "\u8fd9\u4e2a\u5668\u5b98\u91cc\u5145\u6ee1\u4e86\u9ad8\u5ea6\u6613\u71c3\u7684\u5185\u5bb9\u7269\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23242,6 +23500,7 @@
       "order": 160,
       "name": {
         "en_US": "Razor Tip",
+        "pt_BR": "Ponta da Lâmina",
         "de_DE": "Rasiererschneide",
         "fr_FR": "undefined",
         "zh_CN": "\u9510\u5203<<A<<[CHANGED 2021/01/12]",
@@ -23252,6 +23511,7 @@
       },
       "description": {
         "en_US": "Sharp enough to cut through stone like it's butter.",
+        "pt_BR": "Afiada o suficiente para cortar pedra como se fosse manteiga.",
         "de_DE": "Scharf genug, um durch Stein zu schneiden wie durch Butter.",
         "fr_FR": "undefined",
         "zh_CN": "\u65a9\u91d1\u65ad\u7389\uff0c\u65e0\u5f80\u4e0d\u5229\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23275,6 +23535,7 @@
       "order": 161,
       "name": {
         "en_US": "Focus Shard",
+        "pt_BR": "Fragmento do Foco",
         "de_DE": "Fokusscherbe",
         "fr_FR": "undefined",
         "zh_CN": "\u7126\u70b9\u788e\u7247<<A<<[CHANGED 2021/01/12]",
@@ -23285,6 +23546,7 @@
       },
       "description": {
         "en_US": "The living core of a defeated crystal enemy from the \\v[area.final-dng.name].",
+        "pt_BR": "O núcleo vivo de um inimigo de cristal derrotado no \\v[area.final-dng.name].",
         "de_DE": "Der lebende Kern eines besiegten Kristall-Gegners aus dem Ku'lero-Tempel.",
         "fr_FR": "undefined",
         "zh_CN": "\\v[area.final-dng.name]\u6c34\u6676\u654c\u4eba\u6389\u843d\u7684\u6d3b\u4f53\u6838\u5fc3\u3002<<A<<[CHANGED 2021/01/12]",
@@ -23313,6 +23575,7 @@
       "order": 18,
       "name": {
         "en_US": "Singularity Drill",
+        "pt_BR": "Broca da Singularidade",
         "de_DE": "Singularitbohrer",
         "fr_FR": "undefined",
         "zh_CN": "\u5947\u70b9\u94bb\u5934<<A<<[CHANGED 2021/01/12]",
@@ -23323,6 +23586,7 @@
       },
       "description": {
         "en_US": "A drill that exists outside of time & space. \\i[ascended]",
+        "pt_BR": "Uma broca que existe fora do tempo e do espaço. \\i[ascended]",
         "de_DE": "Ein Bohrer, der au\u00dferhalb von Zeit und Raum existiert. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u5b58\u5728\u4e8e\u65f6\u7a7a\u4e4b\u5916\u7684\u94bb\u5934\u3002 \\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -23353,6 +23617,7 @@
       "order": 22,
       "name": {
         "en_US": "Rift Spore",
+        "pt_BR": "Esporo da Fenda",
         "de_DE": "Riftspore",
         "fr_FR": "undefined",
         "zh_CN": "\u88c2\u9699\u5b62\u5b50<<A<<[CHANGED 2021/01/12]",
@@ -23363,6 +23628,7 @@
       },
       "description": {
         "en_US": "A living sample of the animated substance from the \\v[area.final-dng.name].",
+        "pt_BR": "Uma amostra viva da substância animada do \\v[area.final-dng.name].",
         "de_DE": "Eine lebende Probe der animierten Substanz aus dem Ku'lero-Tempel.",
         "fr_FR": "undefined",
         "zh_CN": "\\v[area.final-dng.name]\u4e2d\u6d3b\u5316\u5b9e\u4f53\u7684\u6837\u672c<<A<<[CHANGED 2021/03/05]",
@@ -23386,6 +23652,7 @@
       "order": 1,
       "name": {
         "en_US": "- Arena Trade",
+        "pt_BR": "- Comércio da Arena",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "- \u7ade\u6280\u573a\u4ea4\u6613<<A<<[CHANGED 2021/01/12]",
@@ -23396,6 +23663,7 @@
       },
       "description": {
         "en_US": "Used to upgrade Arena Equipment",
+        "pt_BR": "Usado para melhorar o Equipamento da Arena",
         "de_DE": "<<C<<IGNORE",
         "fr_FR": "undefined",
         "zh_CN": "\u7528\u4e8e\u5347\u7ea7\u7ade\u6280\u573a\u88c5\u5907<<A<<[CHANGED 2021/01/12]",
@@ -23458,6 +23726,7 @@
       "order": 93,
       "name": {
         "en_US": "Tremor Core",
+        "pt_BR": "Núcleo do Tremor",
         "de_DE": "Tremorkern",
         "fr_FR": "undefined",
         "zh_CN": "\u9707\u98a4\u6838\u5fc3<<A<<[CHANGED 2021/02/19]",
@@ -23468,6 +23737,7 @@
       },
       "description": {
         "en_US": "Central part of a tremor device that vibrates at an opposite frequency.",
+        "pt_BR": "Parte central de um dispositivo de tremor que vibra em uma freqüência oposta.",
         "de_DE": "Zentraler Teil eines Tremorger\u00e4ts, der mit einer entgegengesetzten Frequenz schwingt.",
         "fr_FR": "undefined",
         "zh_CN": "\u4ee5\u76f8\u53cd\u9891\u7387\u9707\u98a4\u7684\u9707\u98a4\u88c5\u7f6e\u6838\u5fc3\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23489,6 +23759,7 @@
       "order": 12,
       "name": {
         "en_US": "Tremor Mirage",
+        "pt_BR": "Miragem do Tremor",
         "de_DE": "Tremorflimmern",
         "fr_FR": "undefined",
         "zh_CN": "\u9707\u98a4\u5e7b\u5f71<<A<<[CHANGED 2021/02/19]",
@@ -23499,6 +23770,7 @@
       },
       "description": {
         "en_US": "Barely controllable, formless weapon that seems to exist in several places at once. \\i[ascended]",
+        "pt_BR": "Arma pouco controlável, sem forma, que parece existir em vários lugares ao mesmo tempo. \\i[ascended]",
         "de_DE": "Kaum kontrollierbare, formlose Waffe mit bilokativen F\u00e4higkeiten. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u628a\u96be\u4ee5\u63a7\u5236\u7684\u65e0\u5f62\u6b66\u5668\uff0c\u4f3c\u4e4e\u540c\u65f6\u5b58\u5728\u4e8e\u591a\u4e2a\u4f4d\u7f6e\u3002 \\i[ascended]<<A<<[CHANGED 2021/02/19]",
@@ -23533,6 +23805,7 @@
       "order": 184,
       "name": {
         "en_US": "Champion's Towel",
+        "pt_BR": "Toalha do Campeão",
         "de_DE": "Champions Handtuch",
         "fr_FR": "undefined",
         "zh_CN": "\u51a0\u519b\u7684\u6bdb\u5dfe<<A<<[CHANGED 2021/02/19]",
@@ -23543,6 +23816,7 @@
       },
       "description": {
         "en_US": "A luxurious beach towel embroidened with a magnificent fish. Distinguishes a true champion!",
+        "pt_BR": "Uma luxuosa toalha de praia bordada com um magnífico peixe. Distingue um verdadeiro campeão!",
         "de_DE": "Luxuri\u00f6ses Strandtuch mit pr\u00e4chtiger Fisch-Bestickung. Symbol des wahren Champions!",
         "fr_FR": "undefined",
         "zh_CN": "\u7ee3\u6709\u9526\u9c7c\u7684\u5962\u534e\u6d77\u6ee9\u6d74\u5dfe\u3002\u53ea\u6709\u771f\u6b63\u7684\u51a0\u519b\u624d\u914d\u5f97\u4e0a\uff01<<A<<[CHANGED 2021/02/19]",
@@ -23566,6 +23840,7 @@
       "order": 3,
       "name": {
         "en_US": "Dragon Sphere",
+        "pt_BR": "Esfera do Dragão",
         "de_DE": "Sph\u00e4re des Drachen",
         "fr_FR": "undefined",
         "zh_CN": "\u9f99\u4e4b\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23576,6 +23851,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Dragon's Bandana\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascido do próprio conceito da \\c[3]\"Bandana do Dragão\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept des \\c[3]\"Drachenstirnbands\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u9f99\u4e4b\u5934\u5e26\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23597,6 +23873,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2543,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23618,6 +23895,7 @@
       "order": 4,
       "name": {
         "en_US": "Tranquility Sphere",
+        "pt_BR": "Esfera da Tranquilidade",
         "de_DE": "Sph\u00e4re der Ruhe",
         "fr_FR": "undefined",
         "zh_CN": "\u5e73\u9759\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23628,6 +23906,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Tranquil Earmuffs\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Protetor de Ouvido\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept des \\c[3]\"L\u00e4rmblockers\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u5e73\u9759\u8033\u7f69\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23649,6 +23928,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2544,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23670,6 +23950,7 @@
       "order": 5,
       "name": {
         "en_US": "Pendulum Sphere",
+        "pt_BR": "Esfera de Pêndulo",
         "de_DE": "Sph\u00e4re des Pendels",
         "fr_FR": "undefined",
         "zh_CN": "\u949f\u6446\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23680,6 +23961,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Pendulum Striker\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Pêndulo Atacante\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept des \\c[3]\"Pendelschl\u00e4gers\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u949f\u6446\u5de8\u9524\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23701,6 +23983,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2545,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23722,6 +24005,7 @@
       "order": 6,
       "name": {
         "en_US": "Knocking Sphere",
+        "pt_BR": "Esfera Nocauteadora",
         "de_DE": "Klopfende Sph\u00e4re",
         "fr_FR": "undefined",
         "zh_CN": "\u7834\u95e8\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23732,6 +24016,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Knocking One\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Nocauteador\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept des \\c[3]\"Anklopfers\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u7834\u95e8\u8005\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23753,6 +24038,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2546,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23774,6 +24060,7 @@
       "order": 7,
       "name": {
         "en_US": "Salami Sphere",
+        "pt_BR": "Esfera de Salami",
         "de_DE": "Sph\u00e4re der Salami",
         "fr_FR": "undefined",
         "zh_CN": "\u8089\u80a0\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23784,6 +24071,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Eternal Salami\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Salame Eterno\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept der \\c[3]\"Unendlichen Salami\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u6c38\u6052\u8089\u80a0\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23805,6 +24093,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2547,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23826,6 +24115,7 @@
       "order": 8,
       "name": {
         "en_US": "Killing Sphere",
+        "pt_BR": "Esfera Assassina",
         "de_DE": "Mordssph\u00e4re",
         "fr_FR": "undefined",
         "zh_CN": "\u6740\u624b\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23836,6 +24126,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Killing Dress\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Vestido de Matança\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept des \\c[3]\"Mordsanzugs\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u6740\u624b\u670d\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23857,6 +24148,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2548,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23878,6 +24170,7 @@
       "order": 9,
       "name": {
         "en_US": "Assault Sphere",
+        "pt_BR": "Esfera de Investida",
         "de_DE": "Sph\u00e4re d. Angriffs",
         "fr_FR": "undefined",
         "zh_CN": "\u5f3a\u88ad\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23888,6 +24181,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Assault Harness\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Arnês de Investida\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept des \\c[3]\"Rammharnischs\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u5f3a\u88ad\u5957\u88c5\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23909,6 +24203,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2549,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23930,6 +24225,7 @@
       "order": 10,
       "name": {
         "en_US": "Roller Sphere",
+        "pt_BR": "Esfera Rolante",
         "de_DE": "Rollsph\u00e4re",
         "fr_FR": "undefined",
         "zh_CN": "\u7ffb\u6eda\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23940,6 +24236,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Paedalos\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Paedalos\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept der \\c[3]\"Paedalos\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u4f69\u8fbe\u7f57\u65af\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -23961,6 +24258,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2550,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -23982,6 +24280,7 @@
       "order": 11,
       "name": {
         "en_US": "Skate Sphere",
+        "pt_BR": "Esfera do Skate",
         "de_DE": "Gleitsph\u00e4re",
         "fr_FR": "undefined",
         "zh_CN": "\u6ed1\u884c\u5b9d\u7389<<A<<[CHANGED 2021/02/19]",
@@ -23992,6 +24291,7 @@
       },
       "description": {
         "en_US": "Inhabited by the very concept of \\c[3]\"Combat Skates\"\\c[0]. Can \\c[3]empower\\c[0] the item.",
+        "pt_BR": "Nascida do próprio conceito do \\c[3]\"Patins de Combate\"\\c[0]. Pode \\c[3]aumentar a força\\c[0] do item.",
         "de_DE": "Erf\u00fcllt vom Konzept der \\c[3]\"Kampfkufen\"\\c[0]. Kann das Item \\c[3]verst\u00e4rken\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5bc4\u5bbf\u7740\\c[3]\"\u6218\u6597\u51b0\u978b\"\\c[0]\u6982\u5ff5\u7684\u5b9d\u7389\u3002\u53ef\u7528\u4e8e\\c[3]\u5f3a\u5316\\c[0]\u8be5\u88c5\u5907\u3002<<A<<[CHANGED 2021/02/19]",
@@ -24013,6 +24313,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "Arena Shop",
+              "pt_BR": "Loja da Arena",
               "langUid": 2551,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u5546\u5e97<<A<<[CHANGED 2021/02/24]",
@@ -24034,6 +24335,7 @@
       "order": 14,
       "name": {
         "en_US": "Symbol of Neutral",
+        "pt_BR": "Símbolo Neutro",
         "de_DE": "Symbol d. Neutrums",
         "fr_FR": "undefined",
         "zh_CN": "\u4e2d\u6027\u5fbd\u8bb0<<A<<[CHANGED 2021/02/19]",
@@ -24044,6 +24346,7 @@
       },
       "description": {
         "en_US": "An Ancient sculpture in the shape of a grey sphere. \\c[3]Adds an additional Neutral CP.\\c[0] \\i[element-neutral]",
+        "pt_BR": "Uma escultura dos Antigos em forma de esfera cinza. \\c[3]Adiciona um CP adicional Neutro\\c[0]. \\i[element-neutral]",
         "de_DE": "Eine Skulptur der Ahnen in Form einer grauen Sph\u00e4re. \\c[3]Gew\u00e4hrt zus\u00e4tzlichen Neutral-CP\\c[0]. \\i[element-neutral]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u53e4\u4ee3\u7070\u8272\u5706\u5f62\u77f3\u96d5\u3002 \\c[3]\u6dfb\u52a0\u4e00\u70b9\u4e2d\u6027CP\\c[0] \\i[element-neutral]<<A<<[CHANGED 2021/02/19]",
@@ -24065,6 +24368,7 @@
       "order": 15,
       "name": {
         "en_US": "Symbol of Heat",
+        "pt_BR": "Símbolo do Fogo",
         "de_DE": "Symbol der Hitze",
         "fr_FR": "undefined",
         "zh_CN": "\u706b\u7130\u5fbd\u8bb0<<A<<[CHANGED 2021/02/19]",
@@ -24075,6 +24379,7 @@
       },
       "description": {
         "en_US": "An Ancient sculpture in the shape of a smoldering flame. \\c[3]Adds an additional Heat CP.\\c[0] \\i[element-heat]",
+        "pt_BR": "Uma escultura dos Antigos em forma de chama ardente. \\c[3]Adiciona um CP adicional de Fogo \\c[0]. \\i[element-heat]",
         "de_DE": "Eine Skulptur der Ahnen in Form einer schwelenden Flamme. \\c[3]Gew\u00e4hrt zus\u00e4tzl. Hitze-CP.\\c[0] \\i[element-heat]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u53e4\u4ee3\u7070\u8272\u708e\u578b\u77f3\u96d5\u3002 \\c[3]\u6dfb\u52a0\u4e00\u70b9\u706b\u7130CP\\c[0] \\i[element-neutral]<<A<<[CHANGED 2021/05/04]",
@@ -24096,6 +24401,7 @@
       "order": 16,
       "name": {
         "en_US": "Symbol of Cold",
+        "pt_BR": "Símbolo do Gelo",
         "de_DE": "Symbol der K\u00e4lte",
         "fr_FR": "undefined",
         "zh_CN": "\u5bd2\u51b0\u5fbd\u8bb0<<A<<[CHANGED 2021/02/19]",
@@ -24106,6 +24412,7 @@
       },
       "description": {
         "en_US": "An Ancient sculpture in the shape of an icy crystal. \\c[3]Adds an additional Cold CP.\\c[0] \\i[element-cold]",
+        "pt_BR": "Uma escultura dos Antigos em forma de um cristal gélido. \\c[3]Adiciona um CP adicional de Gelo \\c[0]. \\i[element-cold]",
         "de_DE": "Eine Skulptur der Ahnen in Form eines Eiskristalls. \\c[3]Gew\u00e4hrt zus\u00e4tzlichen K\u00e4lte-CP.\\c[0] \\i[element-cold]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u53e4\u4ee3\u7070\u8272\u5706\u5f62\u77f3\u96d5\u3002 \\c[3]\u6dfb\u52a0\u4e00\u70b9\u5bd2\u51b0CP\\c[0] \\i[element-neutral]<<A<<[CHANGED 2021/02/19]",
@@ -24128,6 +24435,7 @@
       "order": 17,
       "name": {
         "en_US": "Symbol of Shock",
+        "pt_BR": "Símbolo do Choque",
         "de_DE": "Symbol des Schocks",
         "fr_FR": "undefined",
         "zh_CN": "\u7535\u51fb\u5fbd\u8bb0<<A<<[CHANGED 2021/02/19]",
@@ -24138,6 +24446,7 @@
       },
       "description": {
         "en_US": "An Ancient sculpture in the shape of a lightning bolt. \\c[3]Adds an additional Shock CP.\\c[0] \\i[element-shock]",
+        "pt_BR": "Uma escultura dos Antigos em forma de um relâmpago. \\c[3]Adiciona um CP adicional de Choque \\c[0]. \\i[element-shock]",
         "de_DE": "Eine Skulptur der Ahnen in Form eines Blitzschlags. \\c[3]Gew\u00e4hrt zus\u00e4tzlichen Schock-CP.\\c[0] \\i[element-shock]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u53e4\u4ee3\u7070\u8272\u5706\u5f62\u77f3\u96d5\u3002 \\c[3]\u6dfb\u52a0\u4e00\u70b9\u7535\u51fbCP\\c[0] \\i[element-neutral]<<A<<[CHANGED 2021/02/19]",
@@ -24159,6 +24468,7 @@
       "order": 18,
       "name": {
         "en_US": "Symbol of Wave",
+        "pt_BR": "Símbolo da Onda",
         "de_DE": "Symbol der Welle",
         "fr_FR": "undefined",
         "zh_CN": "\u6ce2\u7eb9\u5fbd\u8bb0<<A<<[CHANGED 2021/02/19]",
@@ -24169,6 +24479,7 @@
       },
       "description": {
         "en_US": "An Ancient sculpture in the shape of mysterious waves. \\c[3]Adds an additional Wave CP.\\c[0] \\i[element-wave]",
+        "pt_BR": "Uma escultura dos Antigos em forma de ondas misteriosas. \\c[3]Adiciona um CP adicional de Onda\\c[0]. \\i[element-wave]",
         "de_DE": "Eine Skulptur der Ahnen in Form geheimnisvoller Wellen. \\c[3]Gew\u00e4hrt zus\u00e4tzlichen Welle-CP.\\c[0] \\i[element-wave]",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u53e4\u4ee3\u7070\u8272\u5706\u5f62\u77f3\u96d5\u3002 \\c[3]\u6dfb\u52a0\u4e00\u70b9\u6ce2\u7eb9CP\\c[0] \\i[element-neutral]<<A<<[CHANGED 2021/02/19]",
@@ -24190,6 +24501,7 @@
       "order": 92,
       "name": {
         "en_US": "Tremor Lab Key",
+        "pt_BR": "Chave do Laboratório",
         "de_DE": "Tremor-Schl\u00fcssel",
         "fr_FR": "undefined",
         "zh_CN": "\u9707\u98a4\u5b9e\u9a8c\u5ba4\u94a5\u5319<<A<<[CHANGED 2021/02/19]",
@@ -24200,6 +24512,7 @@
       },
       "description": {
         "en_US": "Allows access to the \\c[3]Tremor Lab\\c[0] in the Eastern part of \\c[3]Cliff Exhibition in \\v[area.rhombus-sqr.name]\\c[0]",
+        "pt_BR": "Permite o acesso ao \\c[3]Laboratório do Tremor\\c[0] na parte leste da \\c[3]Exibição no Penhasco\\c[0] na \\v[area.rhombus-sqr.name]\\c[0]",
         "de_DE": "Gew\u00e4hrt Zugang zum \\c[3]Tremor-Labor\\c[0] im Osten \\c[3]der Klippenschau von Rhombus Square\\c[0]",
         "fr_FR": "undefined",
         "zh_CN": "\u5141\u8bb8\u8fdb\u5165\\c[3]\\v[area.rhombus-sqr.name]\u60ac\u5d16\u89c2\u666f\u53f0\\c[0]\u4e1c\u90e8\u7684\\c[3]\u9707\u98a4\u5b9e\u9a8c\u5ba4\\c[0]<<A<<[CHANGED 2021/02/19]",
@@ -24221,6 +24534,7 @@
       "order": 12,
       "name": {
         "en_US": "Ultra Secret Note",
+        "pt_BR": "Nota Ultra Secreta",
         "de_DE": "Ultrageheime Notiz",
         "fr_FR": "undefined",
         "zh_CN": "\u8d85\u7ea7\u673a\u5bc6\u7b14\u8bb0<<A<<[CHANGED 2021/02/24]",
@@ -24231,6 +24545,7 @@
       },
       "description": {
         "en_US": "\\c[1]DO NOT SHARE!\\c[0] Search for \\c[3]a waterfall in a glitchy area\\c[0] for SoMe SeCrEt, wohooo~...",
+        "pt_BR": "\\c[1]NÃO COMPARTILHE!\\c[0] Procure por \\c[3]uma cachoeira em uma área com falhas\\c[0] para VeR uM SeGrEdO, wohooo~...",
         "de_DE": "\\c[1]NICHT TEILEN!\\c[0] Bei \\c[3]einem Wasserfall im Testgebiet\\c[0] ist EiN GeHeImNiS, uiuiui~...",
         "fr_FR": "undefined",
         "zh_CN": "\\c[1]\u8bf7\u52ff\u5916\u4f20\uff01\\c[0] \u5728\\c[3]\u4e00\u4e2a\u5145\u6ee1bug\u7684\u5730\u65b9\u627e\u5230\u7011\u5e03\\c[0]\uff0c\u91cc\u9762\u85cf\u7740\u4e86\u4e0d\u5f97\u7684\u79d8\u5bc6\uff0c\u563f\u563f\u563f...<<A<<[CHANGED 2021/02/24]",
@@ -24252,6 +24567,7 @@
             "icon": "OTHER",
             "text": {
               "en_US": "\\c[3]\"Some Test Cup\"\\c[0] in the Arena",
+              "pt_BR": "\\c[3]\"Alguma Copa de Teste\"\\c[0] na Arena",
               "langUid": 2541,
               "zh_TW": "<<A<<[CHANGED 2021/02/24]",
               "zh_CN": "\u7ade\u6280\u573a\u4e2d\u7684\\c[3]\"\u6d4b\u8bd5\u676f\u8d5b\"\\c[0]<<A<<[CHANGED 2021/02/24]",
@@ -24272,6 +24588,7 @@
       "order": 8,
       "name": {
         "en_US": "Sunglass Visor",
+        "pt_BR": "Visor de Óculos de Sol",
         "de_DE": "Sonnenglasvisier",
         "fr_FR": "undefined",
         "zh_CN": "\u58a8\u955c\u76ee\u955c<<A<<[CHANGED 2021/02/24]",
@@ -24282,6 +24599,7 @@
       },
       "description": {
         "en_US": "Tinted eye protection that was crafted from a transparent, sun-forged alloy. \\i[ascended]",
+        "pt_BR": "Proteção dos olhos que foi elaborada a partir de uma liga transparente, forjada pelo sol. \\i[ascended]" ,
         "de_DE": "Get\u00f6nter Augenschutz, aus transparenter, in der Sonne geh\u00e4rteter Legierung. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u9633\u5149\u6240\u94f8\u900f\u660e\u7d20\u6750\u5236\u6210\u7684\u67d3\u8272\u58a8\u955c\u3002 \\i[ascended]<<A<<[CHANGED 2021/02/24]",
@@ -24322,7 +24640,7 @@
       },
       "description": {
         "en_US": "Upgraded glitch-affinity through a refined \"\\c[3]U\\c[0]ltra\\c[3]w\\c[0]att \\c[3]U\\c[0]nit\"-system. \\i[ascended]",
-          "pt_BR": "Atualização da afinidade de falhas através de um refinado \"\\c[3]S\\c[0]istema de \\c[3]u\\c[0]nidade \\c[3]u\\c[0]ltra\" watt. \\i[ascended]",
+        "pt_BR": "Atualização da afinidade de falhas através de um refinado \"\\c[3]S\\c[0]istema de \\c[3]u\\c[0]nidade \\c[3]u\\c[0]ltra\" watt. \\i[ascended]",
         "de_DE": "Verbesserte Fehler-Affinit\u00e4t durch das \"\\c[3]U\\c[0]ltra\\c[3]w\\c[0]att \\c[3]E\\c[0]inheit\"-System. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u7ecf\u8fc7\u5347\u7ea7\u7684\u5f3a\u529b\u75af\u9b54\u6b66\u5668\u3002\\i[ascended]<<A<<[CHANGED 2021/02/24]",
@@ -24391,6 +24709,7 @@
     {
       "name": {
         "en_US": "Asteroid Belt",
+        "pt_BR": "Cinto de Asteróide",
         "de_DE": "Asteroideng\u00fcrtel",
         "fr_FR": "undefined",
         "zh_CN": "\u661f\u73af\u8170\u5e26<<A<<[CHANGED 2021/02/24]",
@@ -24401,6 +24720,7 @@
       },
       "description": {
         "en_US": "Innovative belt that creates a protective rock-cluster around the user. \\i[ascended]",
+        "pt_BR": "Cinto inovador que cria um filtro de proteção em torno do usuário. \\i[ascended]",
         "de_DE": "Innovativer G\u00fcrtel, der einen Schutzring aus Steinen um den Nutzer erzeugt. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u5728\u7528\u6237\u8eab\u5468\u521b\u9020\u4fdd\u62a4\u6027\u5ca9\u77f3\u73af\u5e26\u7684\u521b\u65b0\u8170\u5e26\u3002\\i[ascended]<<A<<[CHANGED 2021/02/24]",
@@ -24436,6 +24756,7 @@
       "order": 98,
       "name": {
         "en_US": "---",
+        "pt_BR": "---",
         "de_DE": "---",
         "fr_FR": "undefined",
         "zh_CN": "---<<A<<[CHANGED 2021/02/24]",
@@ -24446,6 +24767,7 @@
       },
       "description": {
         "en_US": "---",
+        "pt_BR": "---",
         "de_DE": "---",
         "fr_FR": "undefined",
         "zh_CN": "---<<A<<[CHANGED 2021/02/24]",
@@ -24471,6 +24793,7 @@
       "order": 181,
       "name": {
         "en_US": "Asteroid Chunk",
+        "pt_BR": "Pedaço de Asteróide",
         "de_DE": "Asteroidenabfall",
         "fr_FR": "undefined",
         "zh_CN": "\u5c0f\u884c\u661f\u5ca9\u5757<<A<<[CHANGED 2021/02/24]",
@@ -24481,6 +24804,7 @@
       },
       "description": {
         "en_US": "Piece from a rock floating through space. Brought to the planet by a spacefarer.",
+        "pt_BR": "Pedaço de uma rocha flutuando pelo espaço. Trazido para o planeta por um explorador do espaço.",
         "de_DE": "Teil eines Brockens, der durch das All flog und von einem Raumfahrer eingesammelt wurde.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u66fe\u7ecf\u6f02\u6d6e\u5728\u592a\u7a7a\u4e2d\u7684\u77f3\u5934\uff0c\u88ab\u661f\u9645\u65c5\u884c\u8005\u5e26\u5230\u4e86\u661f\u7403\u4e0a\u3002<<A<<[CHANGED 2021/02/24]",
@@ -24504,6 +24828,7 @@
       "order": 182,
       "name": {
         "en_US": "Meteor Chunk",
+        "pt_BR": "Pedaço de Meteoro",
         "de_DE": "Meteoritenabfall",
         "fr_FR": "undefined",
         "zh_CN": "\u9668\u77f3\u5ca9\u5757<<A<<[CHANGED 2021/02/24]",
@@ -24514,6 +24839,7 @@
       },
       "description": {
         "en_US": "Piece from a space rock that one day fell from the sky.",
+        "pt_BR": "Pedaço de uma rocha espacial que um dia caiu do céu.",
         "de_DE": "Teil eines Brockens, der einst vom Himmel fiel.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u4ece\u5929\u800c\u964d\u7684\u9668\u77f3\u4e0a\u843d\u4e0b\u7684\u788e\u5757\u3002<<A<<[CHANGED 2021/02/24]",
@@ -24537,6 +24863,7 @@
       "order": 12,
       "name": {
         "en_US": "Infinity+2 Bag",
+        "pt_BR": "Bolsa do Infinito+2",
         "de_DE": "Unendlich+2-Beutel",
         "fr_FR": "undefined",
         "zh_CN": "\u65e0\u9650+2\u53e3\u888b<<A<<[CHANGED 2021/03/05]",
@@ -24547,6 +24874,7 @@
       },
       "description": {
         "en_US": "This container transcends infinity and can preserve anything until the end of time. \\i[ascended]",
+        "pt_BR": "Este recipiente transcende o infinito e pode preservar qualquer coisa até o fim dos tempos. \\i[ascended]",
         "de_DE": "Dieser Beh\u00e4lter kann einfach alles fassen und bis in alle Ewigkeit verwahren. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u8fd9\u4e2a\u5bb9\u5668\u7a81\u7834\u4e86\u6781\u9650\uff0c\u53ef\u4ee5\u5c06\u7269\u54c1\u50a8\u5b58\u5230\u5929\u8352\u5730\u8001\u3002\\i[ascended]<<A<<[CHANGED 2021/03/05]",
@@ -24578,6 +24906,7 @@
       "order": 10,
       "name": {
         "en_US": "Lis'mita Cap",
+        "pt_BR": "Boina de Bur'guista",
         "de_DE": "Lis'Mita-K\u00e4ppi<<C<<\"Capitalism\"-Pun",
         "fr_FR": "undefined",
         "zh_CN": "\u7c73\u5854\u5e3d<<A<<[CHANGED 2021/03/10]",
@@ -24588,6 +24917,7 @@
       },
       "description": {
         "en_US": "Ancient head adornment, luxuriously represents the desire for wealth. \\i[ascended]",
+        "pt_BR": "Adorno de cabeça antigo e luxuoso, representa o desejo de riqueza. \\i[ascended]",
         "de_DE": "Kopfschmuck der Ahnen, repr\u00e4sentiert luxuri\u00f6s den Wunsch nach Reichtum. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u534e\u8d35\u7684\u53e4\u4ee3\u5934\u90e8\u88c5\u9970\uff0c\u8868\u73b0\u4e86\u8d22\u5bcc\u6b32\u3002\\i[ascended]<<A<<[CHANGED 2021/03/10]",
@@ -24618,6 +24948,7 @@
       "order": 11,
       "name": {
         "en_US": "Enlightened Halo",
+        "pt_BR": "Auréola Iluminada",
         "de_DE": "Erleuchteter Halo",
         "fr_FR": "undefined",
         "zh_CN": "\u5149\u73af<<A<<[CHANGED 2021/03/10]",
@@ -24628,6 +24959,7 @@
       },
       "description": {
         "en_US": "Shining ring, floating above the heads of ascended beings. \\i[ascended]",
+        "pt_BR": "Anel luminoso, flutuando acima das cabeças dos seres ascendidos. \\i[ascended]",
         "de_DE": "Leuchtender Ring, der \u00fcber den K\u00f6pfen von aufgestiegenen Wesen schwebt. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u5347\u534e\u5b58\u5728\u5934\u4e0a\u6f02\u6d6e\u7740\u7684\u5149\u73af\u3002\\i[ascended]<<A<<[CHANGED 2021/03/10]",
@@ -24653,6 +24985,7 @@
       "order": 9,
       "name": {
         "en_US": "Moonwalkers",
+        "pt_BR": "Moonwalkers",
         "de_DE": "Mondl\u00e4ufer",
         "fr_FR": "undefined",
         "zh_CN": "\u6708\u7403\u6f2b\u6b65\u8005<<A<<[CHANGED 2021/03/10]",
@@ -24663,6 +24996,7 @@
       },
       "description": {
         "en_US": "Made to walk stylishly in any direction, angle and gravity. \\i[ascended]",
+        "pt_BR": "Feito para andar elegantemente em qualquer direção, ângulo e gravidade. \\i[ascended]",
         "de_DE": "Gefertigt, um stilvoll in jede Richtung, Winkel und Schwerkraft zu gehen. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u53ef\u4ee5\u65e0\u89c6\u91cd\u529b\u4e0e\u89d2\u5ea6\u7684\u5728\u4efb\u4f55\u8868\u9762\u884c\u8d70\u3002\\i[ascended]<<A<<[CHANGED 2021/03/10]",
@@ -24693,6 +25027,7 @@
       "order": 183,
       "name": {
         "en_US": "Moon Chunk",
+        "pt_BR": "Pedaço da Lua",
         "de_DE": "Mondbrocken",
         "fr_FR": "undefined",
         "zh_CN": "\u9668\u77f3\u5ca9\u5757<<A<<[CHANGED 2021/03/30]",
@@ -24703,6 +25038,7 @@
       },
       "description": {
         "en_US": "Some rare piece of rock from the nearest moon. Which happens to be... \\v[lore.title.planet].",
+        "pt_BR": "Algum pedaço de rocha rara da lua mais próxima. Que por acaso é... \\v[lore.title.planet].",
         "de_DE": "Ein seltenes St\u00fcck Gestein vom n\u00e4chstgelegenen Mond. Welcher zuf\u00e4llig... Shadoon ist.",
         "fr_FR": "undefined",
         "zh_CN": "\u4e00\u5757\u4ece\u5929\u800c\u964d\u7684\u9668\u77f3\u4e0a\u843d\u4e0b\u7684\u788e\u5757\u3002<<A<<[CHANGED 2021/03/10]",
@@ -24726,6 +25062,7 @@
       "order": 185,
       "name": {
         "en_US": "The Last Straw",
+        "pt_BR": "A Última Palha",
         "de_DE": "Der letzte Strohhalm",
         "fr_FR": "undefined",
         "zh_CN": "\u6700\u540e\u4e00\u6839\u7a3b\u8349<<A<<[CHANGED 2021/03/10]",
@@ -24736,6 +25073,7 @@
       },
       "description": {
         "en_US": "Yeah, now you've done it. This is it.",
+        "pt_BR": "Sim, agora você conseguiu. É isso aí.",
         "de_DE": "Ja, jetzt hast du's geschafft. Da ist er.",
         "fr_FR": "undefined",
         "zh_CN": "\u8fd9\u5c31\u662f\u6700\u540e\u4e00\u6839\u7a3b\u8349\u3002<<A<<[CHANGED 2021/03/10]",
@@ -24759,6 +25097,7 @@
       "order": 52,
       "name": {
         "en_US": "Goat Cheese",
+        "pt_BR": "Queijo de Cabra",
         "de_DE": "Ziegenk\u00e4se",
         "fr_FR": "undefined",
         "zh_CN": "\u5c71\u7f8a\u5976\u916a<<A<<[CHANGED 2021/03/10]",
@@ -24769,6 +25108,7 @@
       },
       "description": {
         "en_US": "Sharp cheese, independently produced by skilled goats.",
+        "pt_BR": "Queijo afiado, produzido por cabras qualificadas.",
         "de_DE": "Scharfer K\u00e4se, selbst\u00e4ndig hergestellt von talentierten Ziegen.",
         "fr_FR": "undefined",
         "zh_CN": "\u7531\u4e13\u4e1a\u5c71\u7f8a\u4ea7\u51fa\u7684\u5976\u5236\u54c1\u3002<<A<<[CHANGED 2021/03/10]",
@@ -24795,6 +25135,7 @@
       "order": 53,
       "name": {
         "en_US": "Goat Milk",
+        "pt_BR": "Leite de Cabra",
         "de_DE": "Ziegenmilch",
         "fr_FR": "undefined",
         "zh_CN": "\u5c71\u7f8a\u5976<<A<<[CHANGED 2021/03/10]",
@@ -24805,6 +25146,7 @@
       },
       "description": {
         "en_US": "Healthy milk, independently produced by skilled goats.",
+        "pt_BR": "Leite saudável, produzido por cabras qualificadas.",
         "de_DE": "Gesunde Milch, selbst\u00e4ndig hergestellt von talentierten Ziegen.",
         "fr_FR": "undefined",
         "zh_CN": "\u7531\u4e13\u4e1a\u5c71\u7f8a\u4ea7\u51fa\u7684\u5976\u5236\u54c1\u3002<<A<<[CHANGED 2021/03/10]",
@@ -24831,6 +25173,7 @@
       "order": 15,
       "name": {
         "en_US": "Manlea",
+        "pt_BR": "Leo",
         "de_DE": "Manlea",
         "fr_FR": "undefined",
         "zh_CN": "\u8389\u5c0f\u9f99<<A<<[CHANGED 2021/03/30]",
@@ -24841,6 +25184,7 @@
       },
       "description": {
         "en_US": "Increase your manliness and turn into \\c[3]Manlea\\c[0].",
+        "pt_BR": "Aumente sua masculinidade e se transforme em \\c[3]Leo\\c[0].",
         "de_DE": "Steigere deine Manneskraft und werde zu \\c[3]Manlea\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u63d0\u5347\u4f60\u7684\u9b44\u529b\uff0c\u5316\u8eab\u4e3a\\c[3]\u8389\u5c0f\u9f99\\c[0]\u3002<<A<<[CHANGED 2021/03/30]",
@@ -24863,6 +25207,7 @@
       "order": 16,
       "name": {
         "en_US": "Bearserker Claw",
+        "pt_BR": "Garra Ursal",
         "de_DE": "B\u00e4rserkerklaue",
         "fr_FR": "undefined",
         "zh_CN": "\u718a\u722a<<A<<[CHANGED 2021/05/04]",
@@ -24873,6 +25218,7 @@
       },
       "description": {
         "en_US": "Ursine weapon that draws power from pain. Tear enemies apart with bear hands! \\i[ascended]",
+        "pt_BR": "Arma da Ursal que retira o poder da dor. Destrua os inimigos com as mãos de urso! \\i[ascended]",
         "de_DE": "Bezieht seine Kraft aus Schmerz. Rei\u00dfe deine Feinde mit B\u00e4renh\u00e4nden in St\u00fccke! \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u80fd\u4ece\u75db\u82e6\u4e2d\u6c72\u53d6\u529b\u91cf\u7684\u718a\u722a\u3002\u6495\u88c2\u4f60\u7684\u654c\u4eba\uff01\\i[ascended]<<A<<[CHANGED 2021/05/04]",
@@ -24904,6 +25250,7 @@
       "order": 11,
       "name": {
         "en_US": "Headset TYPE>:3",
+        "pt_BR": "Fone de Ouvido TIPO>:3",
         "de_DE": "Kopfh\u00f6hrer TYP>:3",
         "fr_FR": "undefined",
         "zh_CN": "\u732b\u732b\u8033\u673a<<A<<[CHANGED 2021/05/04]",
@@ -24914,6 +25261,7 @@
       },
       "description": {
         "en_US": "Experimental headphones with ultrasonic devices in the shape of feline ears. \\i[ascended]",
+        "pt_BR": "Fones de ouvido experimentais com dispositivos ultra-sônicos em forma de orelhas felinas. \\i[ascended]",
         "de_DE": "Experimentelle Kopfh\u00f6rer mit Ultraschallwerfern in Form von Katzenohren. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u6709\u7740\u732b\u8033\u72b6\u529f\u653e\u7684\u5b9e\u9a8c\u578b\u8033\u673a\u3002\\i[ascended]<<A<<[CHANGED 2021/05/04]",
@@ -24947,6 +25295,7 @@
     {
       "name": {
         "en_US": "Nightfeather Coat",
+        "pt_BR": "Casaco Noturno de Penas",
         "de_DE": "Nachtfedermantel",
         "fr_FR": "undefined",
         "zh_CN": "\u591c\u7fbd\u6597\u7bf7<<A<<[CHANGED 2021/05/04]",
@@ -24957,6 +25306,7 @@
       },
       "description": {
         "en_US": "Dark suit made from the wings of only the most sinister of birds. \\i[ascended]",
+        "pt_BR": "Traje escuro feito de asas das aves mais sinistras. \\i[ascended]",
         "de_DE": "Dunkler Anzug, aus Fl\u00fcgeln der finstersten V\u00f6gel gefertigt. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u9ed1\u6697\u4e4b\u9e1f\u7684\u7fbd\u6bdb\u7ec7\u6210\u3002\\i[ascended]<<A<<[CHANGED 2021/05/04]",
