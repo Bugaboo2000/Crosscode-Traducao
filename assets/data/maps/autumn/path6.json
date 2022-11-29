@@ -12855,6 +12855,7 @@
                 {
                   "message": {
                     "en_US": "...!",
+                    "pt_BR": "...!",
                     "de_DE": "...!",
                     "fr_FR": "fr_FR",
                     "langUid": 75,
@@ -12870,6 +12871,7 @@
                 {
                   "message": {
                     "en_US": "Ah, what's up?",
+                    "pt_BR": "Ah, qual é a boa?",
                     "de_DE": "Ah, was gibt's?",
                     "fr_FR": "fr_FR",
                     "langUid": 76,
@@ -12888,6 +12890,7 @@
                 {
                   "message": {
                     "en_US": "For me?",
+                    "pt_BR": "Pra mim?",
                     "de_DE": "F\u00fcr mich?",
                     "fr_FR": "fr_FR",
                     "langUid": 78,
@@ -12906,6 +12909,7 @@
                 {
                   "message": {
                     "en_US": "[nods]",
+                    "pt_BR": "[acena a cabeça]",
                     "de_DE": "[nickt]",
                     "fr_FR": "fr_FR",
                     "langUid": 77,
@@ -12921,6 +12925,7 @@
                 {
                   "message": {
                     "en_US": "'kay.",
+                    "pt_BR": "ok.",
                     "de_DE": "'kay.",
                     "fr_FR": "fr_FR",
                     "langUid": 79,
@@ -12939,6 +12944,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 80,
@@ -12954,6 +12960,7 @@
                 {
                   "message": {
                     "en_US": "Sorry I can't muster more feeling, but I get these things way too often.",
+                    "pt_BR": "Desculpa por não estar animado, mas eu sempre recebo essas coisas com muita frequência.",
                     "de_DE": "Sorry, dass ich nicht vor Begeisterung platze, aber ich bekomme diese Sachen viel zu oft.",
                     "fr_FR": "fr_FR",
                     "langUid": 81,
@@ -12972,6 +12979,7 @@
                 {
                   "message": {
                     "en_US": "I don't get it. How does a stranger know what I want?",
+                    "pt_BR": "Eu não entendo. Como é que um estranho sabe o que eu quero?",
                     "de_DE": "Ich versteh's nicht. Wie kann ein Fremder wissen, was ich will?",
                     "fr_FR": "fr_FR",
                     "langUid": 82,
@@ -12990,6 +12998,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 83,
@@ -13005,6 +13014,7 @@
                 {
                   "message": {
                     "en_US": "I don't know why you give me these but you gotta stop.",
+                    "pt_BR": "Não sei por que você está me dando isso, mas você tem que parar.",
                     "de_DE": "Ich wei\u00df nicht, warum du mir die gibst, aber du musst damit aufh\u00f6ren.",
                     "fr_FR": "fr_FR",
                     "langUid": 84,
@@ -13023,6 +13033,7 @@
                 {
                   "message": {
                     "en_US": "...",
+                    "pt_BR": "...",
                     "de_DE": "...",
                     "fr_FR": "fr_FR",
                     "langUid": 85,
@@ -13324,6 +13335,7 @@
         "analyzable": {
           "text": {
             "en_US": "Tucos",
+            "pt_BR": "Tucos",
             "de_DE": "Tucos",
             "fr_FR": "fr_FR",
             "langUid": 128,
@@ -13347,6 +13359,7 @@
                 {
                   "name": {
                     "en_US": "Tucos",
+                    "pt_BR": "Tucos",
                     "langUid": 129,
                     "zh_CN": "\u56fe\u514b\u65af",
                     "de_DE": "Tucos",
