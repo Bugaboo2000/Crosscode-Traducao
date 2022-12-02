@@ -3603,7 +3603,7 @@
                 }, {
                     "message": {
                         "en_US": "Can't you see I'm in the middle of something here?",
-                        "pt_BR": "Você não pode ver que estou no meio de algo aqui?",
+                        "pt_BR": "Você não está vendo que eu estou ocupado?",
                         "de_DE": "Siehst du nicht, dass ich besch\u00e4ftigt bin?",
                         "zh_CN": "\u4f60\u96be\u9053\u770b\u4e0d\u89c1\u6211\u6b63\u5728\u8fd9\u91cc\u5fd9\u4e8b\u60c5\u5417\uff1f",
                         "ja_JP": "\u4eca\u53d6\u308a\u8fbc\u307f\u4e2d\u306a\u3093\u3060\u3002\u898b\u3066\u5206\u304b\u3089\u306a\u3044\u304b\u3044\uff1f",
@@ -3669,7 +3669,7 @@
                 }, {
                     "message": {
                         "en_US": "Still in the middle of something.",
-                        "pt_BR": "Ainda no meio de alguma coisa.",
+                        "pt_BR": "Ainda estou ocupado.",
                         "de_DE": "Ich bin immer noch besch\u00e4ftigt.",
                         "zh_CN": "\u8fd8\u5728\u5fd9\u4e8b\u60c5\u3002",
                         "ja_JP": "\u307e\u3060\u53d6\u308a\u8fbc\u307f\u4e2d\u3060\u3088\u3002",
@@ -4453,7 +4453,7 @@
                 "side": "LEFT",
                 "message": {
                     "en_US": "Blue haired Spheromancer!",
-                    "pt_BR": "Spheromancer de cabelo azul!",
+                    "pt_BR": "Esferomante de cabelo azul!",
                     "de_DE": "Blauhaariger Spheromancer!",
                     "fr_FR": "fr_FR",
                     "langUid": 85,
@@ -4793,7 +4793,7 @@
                 "elseStep": [{
                     "message": {
                         "en_US": "Good!\\. I see your level is now in an acceptable range.",
-                        "pt_BR": "Ótimo!\\. Eu vejo que seu level está agora em uma faixa aceitável.",
+                        "pt_BR": "Ótimo!\\. Eu vejo que seu nível está agora em uma faixa aceitável.",
                         "de_DE": "Ah, gut!\\. Ich sehe, dein Level ist endlich im annehmbaren Rahmen.",
                         "fr_FR": "fr_FR",
                         "langUid": 89,
@@ -4817,7 +4817,7 @@
                 }, {
                     "message": {
                         "en_US": "As if that one level would have made a big difference.",
-                        "pt_BR": "Como se aquele level tivesse feito uma grande diferença.",
+                        "pt_BR": "Como se aquele nível tivesse feito uma grande diferença.",
                         "de_DE": "Als ob das eine Level einen Unterschied gemacht h\u00e4tte.",
                         "fr_FR": "fr_FR",
                         "langUid": 90,
@@ -4922,7 +4922,7 @@
             }, {
                 "message": {
                     "en_US": "But seeing a \\c[3]Spheromancer\\c[0] displaying such dishonest behavior!\\. It breaks my heart!",
-                    "pt_BR": "Mas vendo uma \\c[3]Spheromancer\\c[0] exibindo tal comportamento desonesto!\\. Isso fere meu coração!",
+                    "pt_BR": "Mas vendo uma \\c[3]Esferomante\\c[0] exibindo tal comportamento desonesto!\\. Isso fere meu coração!",
                     "de_DE": "Aber einen \\c[3]Spheromancer\\c[0] zu sehen, der betr\u00fcgt!\\. Das bricht mir das Herz!",
                     "fr_FR": "fr_FR",
                     "langUid": 94,
@@ -4977,7 +4977,7 @@
             }, {
                 "message": {
                     "en_US": "We Spheromancers are a noble, yet unappreciated class!",
-                    "pt_BR": "Nós, Spheromancers somos uma classe nobre, mas pouco apreciada!",
+                    "pt_BR": "Nós, Esferomantes somos uma classe nobre, mas pouco apreciada!",
                     "de_DE": "Wir Spheromancer sind eine edle, doch leider verkannte Klasse!",
                     "fr_FR": "fr_FR",
                     "langUid": 96,
@@ -5013,7 +5013,7 @@
             }, {
                 "message": {
                     "en_US": "Wait...\\. You're a Spheromancer, too?",
-                    "pt_BR": "Espera...\\. Você é um Spheromancer, também?",
+                    "pt_BR": "Espera...\\. Você é um Esferomante, também?",
                     "de_DE": "Moment...\\. Du bist auch ein Spheromancer?",
                     "fr_FR": "fr_FR",
                     "langUid": 98,
@@ -5067,7 +5067,7 @@
             }, {
                 "message": {
                     "en_US": "...Oh!",
-                    "pt_BR": "...Oh!",
+                    "pt_BR": "...Ah!",
                     "de_DE": "... Oh!",
                     "fr_FR": "fr_FR",
                     "langUid": 101,
@@ -5085,7 +5085,7 @@
             }, {
                 "message": {
                     "en_US": "Pardon, I thought you were a Triblader with all that green and...\\. pointy hair.",
-                    "pt_BR": "Pardon, Eu pensei que você fosse um Triblader com todo aquele cabelo verde e...\\. pontudo.",
+                    "pt_BR": "Pardon, Eu pensei que você fosse um Triblader com todo esse cabelo verde e...\\. pontudo.",
                     "de_DE": "Pardon, ich dachte du w\u00e4rst ein Triblader, mit all dem Gr\u00fcn und dem...\\. spitzen Haar.",
                     "fr_FR": "fr_FR",
                     "langUid": 102,
@@ -5176,7 +5176,7 @@
             }, {
                 "message": {
                     "en_US": "Anyway!\\. I'm talking to you, blue-haired Spheromancer!",
-                    "pt_BR": "De qualquer forma!\\. Estou falando com você, Spheromancer de cabelo azul!",
+                    "pt_BR": "Chega de abobrinha!\\. Estou falando com você, Esferomante de cabelo azul!",
                     "de_DE": "Egal!\\. Ich rede mit dir, blauhaariger Spheromancer!",
                     "fr_FR": "fr_FR",
                     "langUid": 106,
@@ -5334,7 +5334,7 @@
             }, {
                 "message": {
                     "en_US": "Wait, what?",
-                    "pt_BR": "Espere, o que?",
+                    "pt_BR": "Espera, o que?",
                     "de_DE": "Moment, was?",
                     "fr_FR": "fr_FR",
                     "langUid": 110,
@@ -5520,7 +5520,7 @@
                     "elseStep": [{
                         "message": {
                             "en_US": "Are you serious?",
-                            "pt_BR": "Você está falando sério?",
+                            "pt_BR": "Você tá falando sério?",
                             "de_DE": "Echt jetzt?",
                             "fr_FR": "fr_FR",
                             "langUid": 115,
@@ -5572,7 +5572,7 @@
             }, {
                 "message": {
                     "en_US": "Do you accept, blue-haired Spheromancer?",
-                    "pt_BR": "Você aceita, Spheromancer de cabelo azul?",
+                    "pt_BR": "Você aceita, Esferomante de cabelo azul?",
                     "de_DE": "Nimmst du die Herausforderung an, blauhaariger Spheromancer?",
                     "fr_FR": "fr_FR",
                     "langUid": 116,
@@ -5869,7 +5869,7 @@
                 }, {
                     "message": {
                         "en_US": "But I'd really like to level up a bit before that, too. If that's okay!",
-                        "pt_BR": "Mas eu também gostaria muito de aumentar um pouco o meu level antes disso. Se não houver problema!",
+                        "pt_BR": "Mas eu também gostaria muito de aumentar um pouco o meu nível antes disso. Se não houver problema!",
                         "de_DE": "Aber vorher m\u00f6chte ich noch ein bisschen leveln. Wenn das ok ist!",
                         "zh_CN": "\u4e0d\u8fc7\u5728\u90a3\u4e4b\u524d\u6211\u4e5f\u60f3\u53bb\u5347\u4e2a\u7ea7!<<A<<[CHANGED 2019/08/16]",
                         "ja_JP": "\u3067\u3082\u3067\u304d\u305f\u3089\u3001\u305d\u306e\u524d\u306b\u3061\u3087\u3063\u3068\n\u79c1\u3082\u30ec\u30d9\u30eb\u3092\u4e0a\u3052\u3066\u304a\u304d\u305f\u3044\u304b\u306a\u3002\n\u3082\u3057\u3088\u3051\u308c\u3070\u3060\u3051\u3069\uff01<<A<<[CHANGED 2019/08/16]",
@@ -5964,7 +5964,7 @@
                 }, {
                     "message": {
                         "en_US": "Then let's make sure you're well prepared!",
-                        "pt_BR": "Então vamos nos certificar de que você estará bem preparada!",
+                        "pt_BR": "Então vamos treinar até que você fique bem preparada!",
                         "de_DE": "Dann lass uns daf\u00fcr sorgen, dass du gut vorbereitet bist!",
                         "fr_FR": "fr_FR",
                         "langUid": 124,

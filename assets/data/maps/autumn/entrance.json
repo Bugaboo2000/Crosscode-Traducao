@@ -1525,7 +1525,7 @@
                     }, {
                         "message": {
                             "en_US": "Hello, Ms. \\v[lore.title.seeker]!\\. So great to see you here on \\v[lore.title.planet].",
-                            "pt_BR": "Olá, Ms. \\v[lore.title.seeker]!\\. Que bom ver você aqui em \\v[lore.title.planet].",
+                            "pt_BR": "Olá, Srta. \\v[lore.title.seeker]!\\. Que bom ver você aqui em \\v[lore.title.planet].",
                             "de_DE": "Ich gr\u00fc\u00dfe Sie, werte Seeker-Dame!\\. Sch\u00f6n, Sie hier auf Shadoon zu sehen.",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff01\\.\u5728\u6c99\u5fb7\u9686\u4e0a\u89c1\u5230\u4f60\u5b9e\u5728\u592a\u597d\u4e86\u3002<<A<<[CHANGED 2021/03/05]",
@@ -1662,7 +1662,7 @@
                         }, {
                             "message": {
                                 "en_US": "Superb!\\. Come back to me when you've defeated the \\v[combat.name.hedgehog]s.",
-                                "pt_BR": "Excelente!\\. Volte para mim quando você derrotar os \\v[combat.name.hedgehog]s.",
+                                "pt_BR": "Excelente!\\. Volte aqui quando você derrotar os \\v[combat.name.hedgehog]s.",
                                 "de_DE": "Hervorragend! Kommen Sie nochmal wieder, wenn Sie die Ig\u00f6ll besiegt haben.",
                                 "fr_FR": "fr_FR",
                                 "zh_CN": "\u592a\u597d\u4e86\uff01\u9ebb\u70e6\u4f60\u51fb\u8d25\\v[combat.name.hedgehog]\u540e\u56de\u6765\u544a\u8bc9\u6211\u4e00\u58f0\u3002",
@@ -1762,7 +1762,7 @@
                 }, {
                     "message": {
                         "en_US": "Hello Ms. \\v[lore.title.seeker]!\\. Enjoying your Journey?",
-                        "pt_BR": "Olá Ms. \\v[lore.title.seeker]!\\. Se divertindo muito?",
+                        "pt_BR": "Olá Srta. \\v[lore.title.seeker]!\\. Se divertindo muito?",
                         "de_DE": "Guten Tag, meine Dame!\\. Genie\u00dfen Sie Ihre abenteuerliche Reise?",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff01\\.\u65c5\u9014\u8fd8\u6109\u5feb\u5417\uff1f",
@@ -1872,7 +1872,7 @@
                     }, {
                         "message": {
                             "en_US": "Wow Ms. \\v[lore.title.seeker], you really did it!\\. Here's your rewards for it!",
-                            "pt_BR": "Uau Ms. \\v[lore.title.seeker], Você realmente conseguiu!\\. Aqui estão suas recompensas por isso!",
+                            "pt_BR": "Uau Srta. \\v[lore.title.seeker], Você realmente conseguiu!\\. Aqui estão suas recompensas por isso!",
                             "de_DE": "Donnerl\u00fcttchen, Sie haben es wirklich geschafft!\\. Hier ist Ihre Belohnung!",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u5594\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff0c\u4f60\u771f\u7684\u505a\u5230\u4e86\uff01\u8fd9\u662f\u7ed9\u4f60\u7684\u5956\u52b1\uff01",
@@ -1960,7 +1960,7 @@
                     }, {
                         "message": {
                             "en_US": "Hello Ms. \\v[lore.title.seeker], ready for another quest?\\. I even have more equipment as a reward.",
-                            "pt_BR": "Olá Ms. \\v[lore.title.seeker], pronto para outra missão?\\. Tenho mais equipamentos como recompensa.",
+                            "pt_BR": "Olá Srta. \\v[lore.title.seeker], pronta para outra missão?\\. Tenho mais equipamentos como recompensa.",
                             "de_DE": "Guten Tag, holde Dame! Sind Sie bereit f\u00fcr noch eine Quest, um sich den Rest der Ausr\u00fcstung zu verdienen?",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff0c\u51c6\u5907\u8fdb\u884c\u53e6\u4e00\u9879\u4efb\u52a1\u4e86\u5417\uff1f\u6211\u8fd9\u8fd8\u6709\u8bb8\u591a\u5956\u52b1\u88c5\u5907\u54e6\u3002",
@@ -2089,7 +2089,7 @@
                 }, {
                     "message": {
                         "en_US": "Hello Ms. \\v[lore.title.seeker]!\\. Enjoying the adventure?",
-                        "pt_BR": "Olá Ms. \\v[lore.title.seeker]!\\. Se divertindo muito?",
+                        "pt_BR": "Olá Srta. \\v[lore.title.seeker]!\\. Se divertindo muito?",
                         "de_DE": "Guten Tag, meine werte Dame!\\. Genie\u00dfen Sie Ihre abenteuerliche Reise?",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff01\\.\u6e38\u620f\u73a9\u5f97\u8fd8\u6109\u5feb\u5417\uff1f",
@@ -2199,7 +2199,7 @@
                     }, {
                         "message": {
                             "en_US": "Wow Ms. \\v[lore.title.seeker], you really did it!\\. Here's your rewards for it!",
-                            "pt_BR": "Uau Ms. \\v[lore.title.seeker], Você realmente conseguiu!\\. Aqui estão suas recompensas por isso!",
+                            "pt_BR": "Uau Srta. \\v[lore.title.seeker], Você realmente conseguiu!\\. Aqui estão suas recompensas por isso!",
                             "de_DE": "Alle Achtung, Sie haben es wirklich geschafft!\\. Hier ist Ihre Belohnung!",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u5594\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff0c\u4f60\u771f\u7684\u505a\u5230\u4e86\uff01\u8fd9\u662f\u7ed9\u4f60\u7684\u5956\u52b1\uff01",
@@ -2286,7 +2286,7 @@
                 }, {
                     "message": {
                         "en_US": "Hello Ms. \\v[lore.title.seeker]!\\. I hope you enjoy your journey.",
-                        "pt_BR": "Olá Ms. \\v[lore.title.seeker]!\\. Espero que você aproveite sua jornada.",
+                        "pt_BR": "Olá Srta. \\v[lore.title.seeker]!\\. Espero que você aproveite sua jornada.",
                         "de_DE": "Guten Tag, meine holde Dame!\\. Ich hoffe, Sie genie\u00dfen Ihre abenteuerliche Reise?",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u5c0f\u59d0\uff01\u5e0c\u671b\u4f60\u65c5\u9014\u6109\u5feb\u3002",

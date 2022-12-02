@@ -506,7 +506,7 @@
             "enemy-damage-15": "Dano x 1.5",
             "enemy-damage-2": "Dano x 2",
             "enemy-damage-4": "Dano x 4",
-            "keep-level": "Level",
+            "keep-level": "Nível",
             "keep-consumables": "Consumíveis",
             "keep-equipment": "Equipamento",
             "keep-trade": "Trocas",
@@ -556,7 +556,7 @@
             "enemy-damage-15": "Aumenta o dano recebido em 50%.",
             "enemy-damage-2": "Aumenta o dano recebido em 100%.",
             "enemy-damage-4": "Aumenta o dano recebido em 300%.",
-            "keep-level": "Mantenha seu level atual.",
+            "keep-level": "Mantenha seu nível atual.",
             "keep-consumables": "Mantenha todos os seus consumíveis. (Os favoritos são redefinidos)",
             "keep-equipment": "Guarde todo o seu equipamento. (Os itens equipados são movidos para o seu inventário)",
             "keep-trade": "Mantenha todos os itens de troca.",
@@ -883,7 +883,7 @@
         "social": "Grupo",
         "trade": "Livro de Trocas",
         "arena": "Arena",
-        "arenaCustom": "Arena Personalizada",
+        "arenaCustom": "Arena Especial",
         "arenaShop": "Loja da Arena",
         "new-game": "Novo Jogo +"
       },
@@ -1234,11 +1234,11 @@
         "noMember": "Nenhum Jogador Selecionado",
         "party": "Grupo Atual",
         "classes": {
-          "SPHEROMANCER": "Spheromancer",
-          "TRIBLADER": "Triblader",
-          "QUADROGUARD": "Quadroguard",
-          "PENTAFIST": "Pentafist",
-          "HEXACAST": "Hexacast",
+          "SPHEROMANCER": "Esferomante",
+          "TRIBLADER": "Tricorte",
+          "QUADROGUARD": "Quadroguarda",
+          "PENTAFIST": "Pentapunho",
+          "HEXACAST": "Hexamago",
           "UNKNOWN": "Unknown"
         }
       },
@@ -1618,7 +1618,7 @@
           "pages": [
             {
               "content": [
-                "Bem Vindo ao Menu de Circuito!",
+                "Bem-Vindo ao Menu de Circuito!",
                 "......",
                 "Neste menu você pode gastar seus \\c[3]Pontos de Circuito (CP)\\c[0] ganhos para desbloquear habilidades nas árvores de habilidades.",
                 "selecione uma das ramificações desbloqueadas e pressione para entrar na visão detalhada da ramificação associada.",
@@ -1784,7 +1784,7 @@
           "pages": [
             {
               "content": [
-                "Bem Vindo ao Menu de Loja",
+                "Bem-Vindo ao Menu de Loja",
                 "......",
                 "Neste menu você pode comprar itens ou vendê-los caso não precise deles.",
                 "Use \\i[circle-left] e \\i[circle-right] para navegar entre as categorias ou clique nas guias se usar o mouse.",
@@ -1997,7 +1997,7 @@
           "pages": [
             {
               "content": [
-                "Bem Vindo ao Menu de Grupo!",
+                "Bem-Vindo ao Menu de Grupo!",
                 "......",
                 "Neste menu você pode convidar/remover outros jogadores do seu grupo ou contatá-los.",
                 "Passe o mouse sobre um contato para ver mais de perto as estatísticas e o equipamento do jogador.",

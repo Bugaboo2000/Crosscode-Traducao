@@ -1996,7 +1996,7 @@
                 {
                   "message": {
                     "en_US": "Great job.\\. Hopefully that will stop Tucos from moping around.",
-                    "pt_BR": "Bom trabalho.\\. Esperançosamente, isso vai fazer com que Tucos pare de ficar se desculpando.",
+                    "pt_BR": "Bom trabalho.\\. Espero que isso faça Tucos parar de ficar se desculpando.",
                     "de_DE": "Gute Arbeit.\\. Dann gibt's f\u00fcr Tucos jetzt keinen Grund mehr, weiter Tr\u00fcbsal zu blasen.",
                     "fr_FR": "fr_FR",
                     "langUid": 267,
@@ -2015,7 +2015,7 @@
                 {
                   "message": {
                     "en_US": "He's a great scout, when he isn't a reckless airhead.\\. He shouldn't be down over some lame misstep.",
-                    "pt_BR": "Ele é um ótimo explorador, quando não é um cabeça-dura imprudente.\\. Ele não deveria estar deprimido por causa de um passo em falso.",
+                    "pt_BR": "Ele é um ótimo explorador, quando não é um cabeça-dura imprudente.\\. Ele não devia ficar deprimido por causa de uma falha.",
                     "de_DE": "Er ist ein echt guter Pionier, aber leider auch ein Bruder Leichtfu\u00df.\\. Er sollte wegen so 'nem kleinen Fehltritt nicht immer gleich so den Kopf h\u00e4ngen lassen.",
                     "fr_FR": "fr_FR",
                     "langUid": 268,
@@ -2034,7 +2034,7 @@
                 {
                   "message": {
                     "en_US": "Anyway, take this reward.\\. I hope to see you around for future endeavors or quality time.",
-                    "pt_BR": "De qualquer forma, aceite esta recompensa.\\. Espero vê-la por perto para empreendimentos futuros ou jogar conversa fora.",
+                    "pt_BR": "Enfim, aceite esta recompensa.\\. Até a próxima vez, espero. Ou você pode passar por aqui para jogar conversa fora.",
                     "de_DE": "Na ja, hier ist jedenfalls deine Belohnung.\\. Bis zum n\u00e4chsten Mal, hoffe ich. Oder du kommst einfach so mal zum Quatschen vorbei.",
                     "fr_FR": "fr_FR",
                     "langUid": 269,
@@ -2152,7 +2152,7 @@
                 {
                   "message": {
                     "en_US": "You see, we just went through Tucos' data and found something interesting.",
-                    "pt_BR": "Veja, nós examinamos os dados de Tucos e encontramos algo interessante.",
+                    "pt_BR": "Escute, nós examinamos os dados de Tucos e encontramos algo interessante.",
                     "de_DE": "Wir haben gerade die Daten von Tucos analysiert und etwas Interessantes gefunden.",
                     "fr_FR": "fr_FR",
                     "langUid": 283,
@@ -2175,7 +2175,7 @@
                 {
                   "message": {
                     "en_US": "Turns out, that ambush on him wasn't just a random stroke of bad luck.",
-                    "pt_BR": "Acontece que aquela emboscada contra ele não foi apenas algo aleatório de gente azarada.",
+                    "pt_BR": "Acontece que aquela emboscada contra ele não foi um acidente.",
                     "de_DE": "Es sieht so aus, als ob der Hinterhalt kein Zufall gewesen ist.",
                     "fr_FR": "fr_FR",
                     "langUid": 284,
@@ -2290,7 +2290,7 @@
                 {
                   "message": {
                     "en_US": "In any case, Tucos has already gone out again to find their hideout and requested a Seeker to meet up with him.",
-                    "pt_BR": "Em todo caso, Tucos já saiu novamente para encontrar seu esconderijo e pediu a um Seeker para se encontrar com ele.",
+                    "pt_BR": "Em todo caso, Tucos já saiu novamente para encontrar o esconderijo deles e pediu apoio de um Seeker.",
                     "de_DE": "Auf jeden Fall ist Tucos schon wieder unterwegs, um ihr Lager zu suchen und hat Verst\u00e4rkung durch einen Seeker angefordert.",
                     "fr_FR": "fr_FR",
                     "langUid": 290,
@@ -2350,7 +2350,7 @@
                     {
                       "message": {
                         "en_US": "I knew you couldn't resist.\\. Heck, I'd love to trade if not for those pesky responsibilities I have here.",
-                        "pt_BR": "Eu sabia que você não resistiria.\\. Caramba, eu adoraria negociar se não fosse por essas responsabilidades chatas que tenho aqui.",
+                        "pt_BR": "Eu sabia que você não resistiria.\\. Caramba, eu adoraria trocar de lugar com você se não fosse por essas responsabilidades chatas que tenho aqui.",
                         "de_DE": "Ich wusste, dass du nicht widerstehen kannst.\\. Ach, wie gern w\u00fcrd ich mit dir tauschen, wenn nur meine l\u00e4stigen Verpflichtungen hier nicht w\u00e4ren.",
                         "fr_FR": "fr_FR",
                         "langUid": 271,
@@ -2369,7 +2369,7 @@
                     {
                       "message": {
                         "en_US": "Tucos wanted to wait for reinforcements at \\c[3]Pathway 5\\c[0] in \\c[3]\\v[area.autumn-area.name]\\c[0].",
-                        "pt_BR": "Tucos queria esperar por reforços na \\c[3]Estrada 5\\c[0] no \\c[3]\\v[area.autumn-area.name]\\c[0].",
+                        "pt_BR": "Tucos está esperando por reforços na \\c[3]Estrada 5\\c[0] no \\c[3]\\v[area.autumn-area.name]\\c[0].",
                         "de_DE": "Tucos wollte am \\c[3]Pfad 5\\c[0] in \\c[3]Autumn's Rise\\c[0] auf Verst\u00e4rkung warten.",
                         "fr_FR": "fr_FR",
                         "langUid": 272,
@@ -2388,7 +2388,7 @@
                     {
                       "message": {
                         "en_US": "You better not keep him waiting! He will definitely want to meet you and give his thanks for last time.",
-                        "pt_BR": "É melhor não deixá-lo esperando! Ele definitivamente vai querer conhecê-la e agradecer pela última vez.",
+                        "pt_BR": "É melhor não deixar ele esperando! Ele vai querer conhecê-la e agradecer pela última vez.",
                         "de_DE": "Er kann's wahrscheinlich kaum erwarten, dich zu treffen, um sich bei dir f\u00fcr das letzte Mal zu bedanken. Lass ihn also nicht zu lange warten!",
                         "fr_FR": "fr_FR",
                         "langUid": 293,
@@ -2665,7 +2665,7 @@
                 {
                   "message": {
                     "en_US": "In any case, I'm more interested in this mysterious artifact you've apparently found.",
-                    "pt_BR": "De qualquer forma, estou mais interessada neste misterioso artefato que você aparentemente encontrou.",
+                    "pt_BR": "Mas estou mais interessada neste misterioso artefato que você encontrou.",
                     "de_DE": "Mich interessiert aber mehr dieses mysteri\u00f6se Ger\u00e4t, das du gefunden hast.",
                     "fr_FR": "fr_FR",
                     "langUid": 301,
@@ -2719,7 +2719,7 @@
                 {
                   "message": {
                     "en_US": "But don't you worry!\\. We'll somehow crack this nut and get whatever useful information is in there!",
-                    "pt_BR": "Mas não se preocupe!\\. De alguma forma, decifraremos isso e obteremos todas as informações úteis que estiverem ai dentro!",
+                    "pt_BR": "Mas não se preocupe!\\. De alguma forma, vamos decifrar isso e obteremos todas as informações úteis que estiverem ai dentro!",
                     "de_DE": "Aber keine Sorge!\\. Irgendwie werden wir die Nuss schon knacken und herausfinden, welche geheimen Informationen sich darin befinden!",
                     "fr_FR": "fr_FR",
                     "langUid": 303,
@@ -2738,7 +2738,7 @@
                 {
                   "message": {
                     "en_US": "Just come back later and we'll fill you in on whatever we find!",
-                    "pt_BR": "Volte mais tarde e nós a informaremos sobre o que encontrarmos!",
+                    "pt_BR": "Volte mais tarde e nós vamos te informar sobre o que encontrarmos!",
                     "de_DE": "Komm einfach sp\u00e4ter nochmal vorbei, vielleicht haben wir dann schon die ersten Infos f\u00fcr dich.",
                     "fr_FR": "fr_FR",
                     "langUid": 304,
@@ -3610,7 +3610,7 @@
                 {
                   "message": {
                     "en_US": "Heya \\v[lore.title.seeker].\\. Nice meeting some valiant fresh blood around here.",
-                    "pt_BR": "Heya \\v[lore.title.seeker].\\. Prazer em conhecer uma pessoa valente como você por aqui.",
+                    "pt_BR": "Ei \\v[lore.title.seeker].\\. Prazer em conhecer uma pessoa valente como você por aqui.",
                     "de_DE": "Heya, Seeker.\\. Neue Leute sind bei uns immer willkommen, vor allem mit so k\u00fchner Ausstrahlung!",
                     "fr_FR": "fr_FR",
                     "langUid": 307,
@@ -3645,7 +3645,7 @@
                 {
                   "message": {
                     "en_US": "I would love to do some bonding with a fellow explorer, but right now there's a problem with one of our jobs.",
-                    "pt_BR": "Eu adoraria ter uma conversa com um colega explorador, mas agora há um problema com um de nossos trabalhos.",
+                    "pt_BR": "Eu adoraria ter uma conversa com uma colega exploradora, mas agora há um problema com um de nossos trabalhos.",
                     "de_DE": "Ich w\u00fcrd' ja gerne ein wenig mit dir plaudern, aber im Moment gibt es ein Problem mit einem unserer Jobs.",
                     "fr_FR": "fr_FR",
                     "langUid": 259,
@@ -3687,7 +3687,7 @@
                 {
                   "message": {
                     "en_US": "But then he had to get jumped by wildlife and lose the storage unit with all the data, that careless klutz.",
-                    "pt_BR": "Mas então ele teve que ser atacado por animais selvagens e perder a unidade de armazenamento com todos os dados, aquele desatento descuidado.",
+                    "pt_BR": "Mas então ele foi atacado por animais selvagens e perdeu a unidade de armazenamento com todos os dados, aquele desatento descuidado.",
                     "de_DE": "Aber dieser unbedarfte Kauz musste sich ja unbedingt von Wildtieren angreifen lassen und verlor dadurch die Speichereinheit mit all den gesammelten Daten.",
                     "fr_FR": "fr_FR",
                     "langUid": 261,
@@ -3706,7 +3706,7 @@
                 {
                   "message": {
                     "en_US": "So, since you're here, could you help us out with that?\\. A \\v[lore.title.seeker] should be more than qualified for that kinda task.",
-                    "pt_BR": "Então, já que você está aqui, você poderia nos ajudar com isso?\\. Um \\v[lore.title.seeker] deve ser mais do que qualificado para esse tipo de tarefa.",
+                    "pt_BR": "Então, já que você está aqui, você poderia nos ajudar com isso?\\. Uma \\v[lore.title.seeker] deve ser mais do que qualificada para esse tipo de tarefa.",
                     "de_DE": "Da du gerade hier bist - k\u00f6nntest du uns aus der Patsche helfen? Ein Seeker w\u00e4re f\u00fcr diese Art von Aufgabe mehr als qualifiziert.",
                     "fr_FR": "fr_FR",
                     "langUid": 262,

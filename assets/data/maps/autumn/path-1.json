@@ -2758,7 +2758,7 @@
                     "message": {
                         "de_DE": "Oh, ein Spheromancer? Sieht man heutzutage nicht mehr oft.",
                         "en_US": "A Spheromancer? Not something I see very often these days.",
-                        "pt_BR": "Uma Spheromancer? Não é algo que vejo com muita frequência nos dias de hoje.",
+                        "pt_BR": "Uma Esferomante? Não é algo que vejo com muita frequência nos dias de hoje.",
                         "langUid": 1,
                         "fr_FR": "",
                         "zh_CN": "\u6c14\u5706\u4f7f\u8005\uff1f\u597d\u957f\u65f6\u95f4\u6ca1\u770b\u5230\u8fd9\u804c\u4e1a\u4e86\u3002<<A<<[CHANGED 2017/10/13]",
@@ -2794,7 +2794,7 @@
                     "message": {
                         "de_DE": "Du musst wissen, dass diese Klasse sehr schwer zu meistern ist, daher wurde sie recht unbeliebt.",
                         "en_US": "You see, the class is very hard to master, so it became a bit unpopular, I would say.",
-                        "pt_BR": "Veja, é uma classe muito difícil de dominar, então se tornou um pouco impopular, eu diria.",
+                        "pt_BR": "Olha, é uma classe muito difícil de dominar, então se tornou um pouco impopular, eu diria.",
                         "langUid": 3,
                         "fr_FR": "",
                         "zh_CN": "\u56e0\u4e3a\u8fd9\u4e2a\u804c\u4e1a\u975e\u5e38\u96be\u638c\u63e1\uff0c\u81ea\u7136\u5927\u591a\u6570\u73a9\u5bb6\u90fd\u653e\u5f03\u4e86\u3002",
@@ -4841,7 +4841,7 @@
                     }, {
                         "message": {
                             "en_US": "I'm serious!\\. I'm out of smokebombs anyway, otherwise those damn \\v[combat.name.hedgehog]s never would've gotten me.",
-                            "pt_BR": "Estou falando sério!\\. Estou sem bombas de fumaça de qualquer maneira, caso contrário, aqueles \\v[combat.name.hedgehog]s nunca teriam me pegado.",
+                            "pt_BR": "Estou falando sério!\\. Estou sem bombas de fumaça, se não, aqueles \\v[combat.name.hedgehog]s nunca teriam me pegado.",
                             "de_DE": "Ich mein's ernst!\\. Ich hab eh keine Rauchbomben mehr, ansonsten h\u00e4tten mich diese Ig\u00f6ll nie gekriegt.",
                             "fr_FR": "fr_FR",
                             "langUid": 336,
@@ -4894,7 +4894,7 @@
                     }, {
                         "message": {
                             "en_US": "This time I will turn myself in and atone for my crimes. Truly.",
-                            "pt_BR": "Desta vez eu vou me entregar e confessar meus crimes. De verdade.",
+                            "pt_BR": "Dessa vez eu vou me entregar e confessar meus crimes. De verdade.",
                             "de_DE": "Deshalb werd' ich mich selbst stellen und f\u00fcr meine Schandtaten geradestehen. Ungelogen.",
                             "fr_FR": "fr_FR",
                             "langUid": 338,
@@ -4929,7 +4929,7 @@
                     }, {
                         "message": {
                             "en_US": "So... if you will excuse me.",
-                            "pt_BR": "Então... Se você vai me der licença.",
+                            "pt_BR": "Então... Se você me der licença.",
                             "de_DE": "Also... wenn du mich nun entschuldigen w\u00fcrdest...",
                             "fr_FR": "fr_FR",
                             "langUid": 339,
@@ -5251,7 +5251,7 @@
                     }, {
                         "message": {
                             "en_US": "In any case, thanks, girl.\\. You did great work here.\\. Report back to the chief to get your reward.",
-                            "pt_BR": "De qualquer forma, obrigado garota.\\. Você fez um ótimo trabalho aqui.\\. Relate de volta ao chefe para obter sua recompensa.",
+                            "pt_BR": "Obrigado garota.\\. Você fez um ótimo trabalho aqui.\\. Relate de volta ao chefe para obter sua recompensa.",
                             "de_DE": "Vielen Dank, junge Dame.\\. Du hast hier gute Arbeit geleistet.\\. Melde dich beim Hauptmann zur\u00fcck, um deine Belohnung zu erhalten.",
                             "fr_FR": "fr_FR",
                             "langUid": 345,
@@ -6460,7 +6460,7 @@
                         }, {
                             "message": {
                                 "en_US": "You see, I-I want to gather some d-data for \\c[3]Autumn's Rise\\c[0].",
-                                "pt_BR": "Veja, e-e-eu quero reunir alguns d-dados para \\c[3]Autumn's Rise\\c[0].",
+                                "pt_BR": "Veja, e-e-eu quero reunir alguns d-dados do \\c[3]Nascer do Outono\\c[0].",
                                 "de_DE": "Du mu-mu-musst wissen, ich sa-sa-sammle Daten \u00fc-\u00fc-\u00fcber \\c[3]Autumn's Rise\\c[0].",
                                 "fr_FR": "fr_FR",
                                 "langUid": 377,
@@ -6496,7 +6496,7 @@
                         }, {
                             "message": {
                                 "en_US": "The \\c[3]T-Track of the Ancients\\c[0] only allows \\c[3]Seekers\\c[0] to find c-certain things.",
-                                "pt_BR": "A \\c[3]T-Trilha dos Antigos\\c[0] só permite \\c[3]Seekers\\c[0] para encontrar c-certas coisas.",
+                                "pt_BR": "A \\c[3]T-Trilha dos Antigos\\c[0] só permite \\c[3]Seekers\\c[0] encontrem c-certas coisas.",
                                 "de_DE": "Der \\c[3]Pf-Pf-Pfad der Ahnen\\c[0] erlaubt es nur \\c[3]Seekern\\c[0], b-b-bestimmte Dinge zu finden.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 379,
@@ -7343,7 +7343,7 @@
                 }, {
                     "message": {
                         "en_US": "Oh! W-Why hello S-S-Seeker!",
-                        "pt_BR": "Oh! O-olá S-S-Seeker!",
+                        "pt_BR": "Ah! O-olá S-S-Seeker!",
                         "de_DE": "Oh! H-Hallo, Seeker!",
                         "fr_FR": "fr_FR",
                         "langUid": 410,
@@ -7650,7 +7650,7 @@
                     }, {
                         "message": {
                             "en_US": "O-Okay, l-l-let me introduce myself first.",
-                            "pt_BR": "O-Okay, d-d-deixe-me apresentar primeiro.",
+                            "pt_BR": "B-bom, d-d-deixe-me apresentar primeiro.",
                             "de_DE": "G-G-Gut, ich stelle m-m-mich kurz vor.",
                             "fr_FR": "fr_FR",
                             "langUid": 426,
@@ -7814,7 +7814,7 @@
                     }, {
                         "message": {
                             "en_US": "You see, I-I want to gather some d-data for \\c[3]Autumn's Rise\\c[0].",
-                            "pt_BR": "Veja, e-e-eu quero reunir alguns d-dados para \\c[3]Autumn's Rise\\c[0].",
+                            "pt_BR": "Veja, e-e-eu quero reunir alguns d-dados do \\c[3]Nascer do Outono\\c[0].",
                             "de_DE": "Du mu-mu-musst wissen, ich sa-sa-sammle Daten \u00fc-\u00fc-\u00fcber \\c[3]Autumn's Rise\\c[0].",
                             "fr_FR": "fr_FR",
                             "langUid": 434,
@@ -7850,7 +7850,7 @@
                     }, {
                         "message": {
                             "en_US": "The \\c[3]T-Track of the Ancients\\c[0] only allows \\c[3]Seekers\\c[0] to find c-certain things.",
-                            "pt_BR": "A \\c[3]T-Trilha dos Antigos\\c[0] só permite \\c[3]Seekers\\c[0] para encontrar c-certas coisas.",
+                            "pt_BR": "A \\c[3]T-Trilha dos Antigos\\c[0] só permite \\c[3]Seekers\\c[0] encontrem c-certas coisas.",
                             "de_DE": "Der \\c[3]Pf-Pf-Pfad der Ahnen\\c[0] erlaubt es nur \\c[3]Seekern\\c[0], b-b-bestimmte Dinge zu finden.",
                             "fr_FR": "fr_FR",
                             "langUid": 436,
@@ -7979,7 +7979,7 @@
                         "accepted": [{
                             "message": {
                                 "en_US": "P-Please find out what you c-c-can and return to me!",
-                                "pt_BR": "P-Por favor, descubra o que você p-p-pode e retorne a mim!",
+                                "pt_BR": "P-Por favor, descubra o que você p-p-puder volte pra cá!",
                                 "de_DE": "B-B-Bitte, tu was du kannst und komm dann zur\u00fcck zu mi-mi-mir.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 443,
@@ -8033,7 +8033,7 @@
                         }, {
                             "message": {
                                 "en_US": "A-and in case you're wondering what the p-probe looks like...",
-                                "pt_BR": "E-e caso você esteja se perguntando como a s-sonda se parece...",
+                                "pt_BR": "E-e caso você queira saber como a s-sonda se parece...",
                                 "de_DE": "Fa-Fa-Falls du dich fragst, wi-wi-wie die Sonde aussieht...",
                                 "fr_FR": "fr_FR",
                                 "langUid": 446,

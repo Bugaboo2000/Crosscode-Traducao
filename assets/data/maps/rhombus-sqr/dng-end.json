@@ -2375,7 +2375,7 @@
               {
                 "message": {
                   "en_US": "You can go ahead! Just take any of those sky rail terminals.",
-                  "pt_BR": "Você pode ir em frente! Basta pegar qualquer um desses terminais de trilho aéreos.",
+                  "pt_BR": "Você pode na frente! É só pegar qualquer um desses terminais de trilho aéreo.",
                   "de_DE": "Du kannst schon mal vorgehen! Nimm einfach eine der Laserbahnen.",
                   "fr_FR": "fr_FR",
                   "langUid": 89,
@@ -3045,7 +3045,7 @@
           {
             "message": {
               "en_US": "I wish we could already explore the city itself, but non~",
-              "pt_BR": "Eu gostaria que já pudéssemos explorar a cidade em si, mas non.",
+              "pt_BR": "Eu gostaria que a gente já pudesse explorar a cidade em si, mas non.",
               "de_DE": "Ich w\u00fcnschte, wir k\u00f6nnten schon die Stadt selbst erkunden, aber non~",
               "fr_FR": "fr_FR",
               "langUid": 27,
@@ -3077,7 +3077,7 @@
           {
             "message": {
               "en_US": "Didn't you know?\\. The sky rail will take you straight to \\c[3]CrossCentral\\c[0].",
-              "pt_BR": "Você não sabia?\\. O trilho aéreos irá levá-la direto para \\c[3]CrossCentral\\c[0].",
+              "pt_BR": "Você não sabia?\\. O trilho aéreo leva você direto para \\c[3]CrossCentral\\c[0].",
               "de_DE": "Wusstest du das nicht?\\. Die Laserbahn bringt dich direkt zur \\c[3]CrossCentral\\c[0].",
               "fr_FR": "fr_FR",
               "langUid": 29,
@@ -3109,7 +3109,7 @@
           {
             "message": {
               "en_US": "You will only be able to enter Rhombus Square much later.",
-              "pt_BR": "Você só poderá entrar na Rhombus Square muito depois.",
+              "pt_BR": "Você só poderá entrar na Praça Losango mais tarde.",
               "de_DE": "Du wirst Rhombus Square erst viel sp\u00e4ter betreten k\u00f6nnen.",
               "fr_FR": "fr_FR",
               "langUid": 31,
@@ -3241,7 +3241,7 @@
           {
             "message": {
               "en_US": "Yes, you, the \\c[3]blue haired Spheromancer\\c[0]!",
-              "pt_BR": "Sim você, a \\c[3]Spheromancer de cabelo azul\\c[0]!",
+              "pt_BR": "Sim você, a \\c[3]Esferomante de cabelo azul\\c[0]!",
               "de_DE": "Ja, du, der \\c[3]blauhaarige Spheromancer\\c[0]!",
               "fr_FR": "fr_FR",
               "langUid": 38,
@@ -3584,7 +3584,7 @@
               {
                 "message": {
                   "en_US": "Yes, but it doesn't add up! She wasn't \\c[3]level 1\\c[0] when I saw her entering the dungeon!",
-                  "pt_BR": "Sim, mas isso não faz sentido! Ela não estava \\c[3]nível 1\\c[0] quando a vi entrar na masmorra!",
+                  "pt_BR": "Sim, mas isso não faz sentido! Ela não estava \\c[3]nível 1\\c[0] quando a vi entrar na dungeon!",
                   "de_DE": "Ja, aber da stimmt etwas nicht! Sie war nicht auf \\c[3]Level 1\\c[0], als sie den ersten Dungeon gemacht hat!",
                   "zh_CN": "\u662f\u8fd9\u6837\u6ca1\u9519\uff0c\u4f46\u8fd9\u4e0d\u79d1\u5b66\uff01\u6211\u770b\u89c1\u5979\u8fdb\u526f\u672c\u7684\u65f6\u5019\u5c31\u4e0d\u662f\\c[3]1\u7ea7\\c[0]\uff01<<A<<[CHANGED 2019/08/16]",
                   "ja_JP": "\u305d\u306e\u306f\u305a\u3060\u3001\u3057\u304b\u3057\u3064\u3058\u3064\u307e\u304c\u5408\u308f\u3093\uff01\n\u3053\u3044\u3064\u306f\u30c0\u30f3\u30b8\u30e7\u30f3\u306b\u5165\u3063\u305f\u6642\u70b9\u3067\n\\c[3]\u30ec\u30d9\u30eb1\\c[0]\u3058\u3083\u306a\u304b\u3063\u305f\u3093\u3060\uff01\u4ffa\u306f\u898b\u305f\u305e\uff01<<A<<[CHANGED 2019/08/16]",
@@ -3742,7 +3742,7 @@
                   {
                     "message": {
                       "en_US": "Just because you are stuck at level 3 doesn't mean...",
-                      "pt_BR": "Só porque você está preso no level 3 não significa...",
+                      "pt_BR": "Só porque você tá preso no nível 3 não significa...",
                       "de_DE": "Nur, weil du noch auf Level 3 bist, hei\u00dft das nicht...",
                       "fr_FR": "fr_FR",
                       "langUid": 49,
@@ -3775,7 +3775,7 @@
                       {
                         "message": {
                           "en_US": "She is...\\. \\c[1]level \\v[player.level]\\c[0]!",
-                          "pt_BR": "Ela é...\\. \\c[1]level \\v[player.level]\\c[0]!",
+                          "pt_BR": "Ela é...\\. \\c[1]nível \\v[player.level]\\c[0]!",
                           "de_DE": "Sie hat...\\. \\c[1]level \\v[player.level]\\c[0]!",
                           "zh_CN": "\u5979\u73b0\u5728...\\. \\c[1]\\v[player.level]\u7ea7\\c[0]!<<A<<[CHANGED 2019/08/16]",
                           "ja_JP": "\u3053\u3044\u3064\u306f...\\.\\c[1]\u30ec\u30d9\u30eb\\v[player.level]\\c[0]\u306a\u3093\u3060\u305e\uff01<<A<<[CHANGED 2019/08/16]",
@@ -3800,7 +3800,7 @@
                       {
                         "message": {
                           "en_US": "\\s[1]\\c[1]LEVEL \\v[player.level]\\c[0]!",
-                          "pt_BR": "\\s[1]\\c[1]LEVEL \\v[player.level]\\c[0]!",
+                          "pt_BR": "\\s[1]\\c[1]NÍVEL \\v[player.level]\\c[0]!",
                           "de_DE": "\\s[1]\\c[1]LEVEL \\v[player.level]\\c[0]!",
                           "zh_CN": "\\s[1]\\c[1]\\v[player.level]\u7ea7\\c[0]!<<A<<[CHANGED 2019/08/16]",
                           "ja_JP": "\\s[1]\\c[1]\u30ec\u30d9\u30eb\\v[player.level]\\c[0]\u3060\uff01<<A<<[CHANGED 2019/08/16]",
@@ -3868,7 +3868,7 @@
                       {
                         "message": {
                           "en_US": "IT'S RIDICULOUSLY HIGH!!",
-                          "pt_BR": "É UM LEVEL RIDICULAMENTE ALTO!!",
+                          "pt_BR": "É UM NÍVEL RIDICULAMENTE ALTO!!",
                           "de_DE": "DAS IST DOCH VIEL ZU HOCH!!",
                           "zh_CN": "\u8fd9\u7b49\u7ea7\u7b80\u76f4\u9ad8\u5230\u7206\u70b8\uff01<<A<<[CHANGED 2019/08/16]",
                           "ja_JP": "\u3042\u308a\u5f97\u306a\u3044\u304f\u3089\u3044\u9ad8\u3059\u304e\u308b\u3060\u308d\u3046\uff01\uff01<<A<<[CHANGED 2019/08/16]",
@@ -3956,7 +3956,7 @@
                       {
                         "message": {
                           "en_US": "Then what's the point of having levels in the first place?!",
-                          "pt_BR": "Então, qual é o ponto de existir levels em primeiro lugar?!",
+                          "pt_BR": "Então, qual é o ponto de existir níveis em primeiro lugar?!",
                           "de_DE": "Warum gibt es dann \u00fcberhaupt noch Level?",
                           "zh_CN": "\u90a3\u7b49\u7ea7\u7cfb\u7edf\u53c8\u6709\u4ec0\u4e48\u610f\u4e49\u5462?!<<A<<[CHANGED 2019/08/16]",
                           "ja_JP": "\u306a\u3089\u3070\u305d\u3082\u305d\u3082\u30ec\u30d9\u30eb\u304c\u5b58\u5728\u3059\u308b\u3053\u3068\u306b\n\u306a\u3093\u306e\u610f\u5473\u304c\u3042\u308b\uff1f\uff01<<A<<[CHANGED 2019/08/16]",
@@ -4047,7 +4047,7 @@
                       {
                         "message": {
                           "en_US": "No player on record has ever reached level \\v[player.level] at this point.",
-                          "pt_BR": "Nenhum jogador registrado já atingiu o level \\v[player.level] neste ponto.",
+                          "pt_BR": "Nenhum jogador registrado já atingiu o nível \\v[player.level] neste ponto.",
                           "de_DE": "Kein Spieler hat nachweislich diesen Punkt jemals mit Level \\v[player.level] erreicht.",
                           "zh_CN": "\u4ece\u6709\u8bb0\u5f55\u4ee5\u6765\uff0c\u4ece\u6ca1\u6709\u90a3\u4e2a\u73a9\u5bb6\u5728\u8fd9\u65f6\u5019\u8fbe\u5230\\v[player.level]\u7ea7\u3002<<A<<[CHANGED 2019/08/16]",
                           "ja_JP": "\u3053\u306e\u6642\u70b9\u3067\u30ec\u30d9\u30eb\\v[player.level]\u306b\n\u5230\u9054\u3067\u304d\u308b\u30d7\u30ec\u30a4\u30e4\u30fc\u306f\u3044\u306a\u3044\u3093\u3060\u3002<<A<<[CHANGED 2019/08/16]",
@@ -4160,7 +4160,7 @@
             "side": "RIGHT",
             "message": {
               "en_US": "Oh dear, what is going on here?",
-              "pt_BR": "Oh céus, o que está acontecendo aqui?",
+              "pt_BR": "Oxe, o que está acontecendo aqui?",
               "de_DE": "Meine G\u00fcte, was ist denn hier los?",
               "fr_FR": "fr_FR",
               "langUid": 51,
@@ -4439,7 +4439,7 @@
               {
                 "message": {
                   "en_US": "SHE'S \\c[1]LEVEL \\v[player.level]\\c[0]!\\. LOOK AT HER!!",
-                  "pt_BR": "ELA É \\c[1]LEVEL \\v[player.level]\\c[0]!\\. OLHE PRA ELA!!",
+                  "pt_BR": "ELA É \\c[1]NÍVEL \\v[player.level]\\c[0]!\\. OLHE PRA ELA!!",
                   "de_DE": "SIE HAT \\c[1]LEVEL \\v[player.level]\\c[0]!\\. SIEHST DU DAS NICHT?!",
                   "zh_CN": "\u5979\u53ef\u662f\\c[1]\\v[player.level]\u7ea7\\c[0]!\\.\u4f60\u81ea\u5df1\u770b\u770b!!<<A<<[CHANGED 2019/08/16]",
                   "ja_JP": "\u3053\u3044\u3064\u306f\\c[1]\u30ec\u30d9\u30eb\\v[player.level]\\c[0]\u3060\u305e\uff01\uff01\uff01\\.\n\u898b\u3066\u307f\u308d\uff01\uff01<<A<<[CHANGED 2019/08/16]",
@@ -4459,7 +4459,7 @@
               {
                 "message": {
                   "en_US": "Come on!",
-                  "pt_BR": "Qual foi!",
+                  "pt_BR": "Qual é!",
                   "de_DE": "Komm schon!",
                   "fr_FR": "fr_FR",
                   "langUid": 66,
@@ -4739,7 +4739,7 @@
               {
                 "message": {
                   "en_US": "SHE\\.\\. IS\\.\\. \\c[1]LEVEL\\.\\. \\v[player.level]\\c[0]!",
-                  "pt_BR": "ELA\\.\\. É\\.\\. \\c[1]LEVEL\\.\\. \\v[player.level]\\c[0]!",
+                  "pt_BR": "ELA\\.\\. É\\.\\. \\c[1]NÍVEL\\.\\. \\v[player.level]\\c[0]!",
                   "de_DE": "SIE\\.\\. HAT\\.\\. \\c[1]LEVEL\\.\\. \\v[player.level]\\c[0]!",
                   "zh_CN": "\u5979\\.\\.\u5df2\u7ecf\\.\\. \\c[1]\\v[player.level]\u7ea7\\c[0]\u4e86!<<A<<[CHANGED 2019/08/16]",
                   "ja_JP": "\u3044\u3044\u304b\u3001\\.\\.\u3053\u3044\u3064\u306f\u3001\\.\\.\n\u30ec\u30d9\u30eb\u3001\\.\\.\\v[player.level]\\c[0]\u306a\u3093\u3060\u305e\uff01\uff01\uff01<<A<<[CHANGED 2019/08/16]",
@@ -4757,7 +4757,7 @@
               {
                 "message": {
                   "en_US": "Monsieur, you should relax.",
-                  "pt_BR": "Monsieur, você deveria relaxar.",
+                  "pt_BR": "Monsieur, você devia relaxar.",
                   "de_DE": "Monsieur, du solltest dich beruhigen.",
                   "zh_CN": "\u653e\u677e\u70b9\uff0c\u5148\u751f\u3002<<A<<[CHANGED 2019/08/16]",
                   "ja_JP": "\u30e0\u30c3\u30b7\u30e5\u30fc\u3001\u843d\u3061\u7740\u3044\u305f\u307b\u3046\u304c\n\u3044\u3044\u3093\u3058\u3083\u306a\u3044\u306e\u3002<<A<<[CHANGED 2019/08/16]",
@@ -5124,7 +5124,7 @@
               {
                 "message": {
                   "en_US": "...!",
-                  "pt_BR": "...",
+                  "pt_BR": "...!",
                   "de_DE": "...!",
                   "fr_FR": "...!",
                   "langUid": 74,
@@ -5140,7 +5140,7 @@
               {
                 "message": {
                   "en_US": "Though I have to admit, your level really is a bit...\\. far out there.",
-                  "pt_BR": "Embora eu tenha que admitir, seu level é realmente um pouco...\\. acima do normal.",
+                  "pt_BR": "Embora eu tenha que admitir, seu nível é realmente um pouco...\\. acima do normal.",
                   "de_DE": "Obwohl ich zugeben muss, dass dein Level wirklich ein bisschen...\\. \u00fcber die Str\u00e4nge schl\u00e4gt.",
                   "zh_CN": "\u4e0d\u8fc7\u6211\u786e\u5b9e\u5f97\u627f\u8ba4\u4f60\u7684\u7b49\u7ea7...\\.\u6709\u70b9\u98d8\u3002<<A<<[CHANGED 2019/08/16]",
                   "ja_JP": "\u3067\u3082\u307e\u3042\u3001\u8a8d\u3081\u3056\u308b\u3092\u5f97\u306a\u3044\u3088\u306d\u3002\n\u3042\u306a\u305f\u306e\u30ec\u30d9\u30eb\u304c\u3061\u3087\u3063\u3068...\\.\n\u9ad8\u3059\u304e\u308b\u3063\u3066\u3053\u3068\u306f\u3002<<A<<[CHANGED 2019/08/16]",
@@ -5160,7 +5160,7 @@
               {
                 "message": {
                   "en_US": "Mon Dieu!\\. What was the deal with him?",
-                  "pt_BR": "Mon Dieu!\\. Qual é problema com ele?",
+                  "pt_BR": "Mon Dieu!\\. Qual é o problema dele?",
                   "de_DE": "Mon Dieu!\\. Was war denn mit dem los?",
                   "fr_FR": "fr_FR",
                   "langUid": 73,
@@ -5195,7 +5195,7 @@
               {
                 "message": {
                   "en_US": "I hope we don't meet players like this around here too often.",
-                  "pt_BR": "Espero que não encontremos jogadores como este por aqui com muita frequência.",
+                  "pt_BR": "Espero que a gente não encontre jogadores como esse por aqui com muita frequência.",
                   "de_DE": "Ich hoffe, man trifft solche Spieler hier nicht allzu oft.",
                   "fr_FR": "fr_FR",
                   "langUid": 75,
@@ -5281,7 +5281,7 @@
           {
             "message": {
               "en_US": "I want to finally reach \\c[3]Rookie Harbor\\c[0]!",
-              "pt_BR": "Eu quero finalmente chegar em \\c[3]Rookie Harbor\\c[0]!",
+              "pt_BR": "Eu quero finalmente chegar no \\c[3]Porto do Novato\\c[0]!",
               "de_DE": "Ich will endlich nach \\c[3]Rookie Harbor\\c[0]!",
               "fr_FR": "fr_FR",
               "langUid": 77,
@@ -5387,6 +5387,7 @@
                   {
                     "message": {
                       "en_US": "Really though...\\. something is not quite right with your current level.\\. How did it even end up that way?",
+                      "pt_BR": "Mas realmente...\\. algo não está certo com seu nível atual.\\. Como é que isso aconteceu?",
                       "de_DE": "Aber mal im Ernst...\\. Mit deinem Level stimmt wirklich etwas nicht.\\. Wie ist das blo\u00df passiert?",
                       "zh_CN": "\u53c8\u8bf4\u56de\u6765...\\.\u4f60\u7684\u5f53\u524d\u7b49\u7ea7\u786e\u5b9e\u4e0d\u5bf9\u52b2\u3002\\.\u600e\u4e48\u4f1a\u8fd9\u6837\uff1f<<A<<[CHANGED 2019/08/16]",
                       "ja_JP": "\u307e\u3063\u305f\u304f\u3082\u3046...\\.\u541b\u306e\u73fe\u5728\u306e\u30ec\u30d9\u30eb\u306f\n\u660e\u3089\u304b\u306b\u304a\u304b\u3057\u3044\u3002\\.\u3069\u3046\u3057\u3066\n\u3053\u3093\u306a\u3053\u3068\u306b\u306a\u3063\u305f\u3093\u3060\uff1f<<A<<[CHANGED 2019/08/16]",
@@ -6879,7 +6880,7 @@
                   {
                     "message": {
                       "en_US": "Once you reach \\c[3]Rookie Harbor\\c[0] you can attend the introductory briefing to learn more about it.",
-                      "pt_BR": "Depois de chegar em \\c[3]Rookie Harbor\\c[0] você pode assistir as instruções iniciais para aprender mais sobre ela.",
+                      "pt_BR": "Depois de chegar no \\c[3]Porto do Novato\\c[0] você pode assistir as instruções iniciais para aprender mais sobre ela.",
                       "de_DE": "Sobald du \\c[3]Rookie Harbor\\c[0] erreichst, kannst du an der Einweisung teilnehmen, wo dir alle Details erkl\u00e4rt werden.",
                       "fr_FR": "fr_FR",
                       "langUid": 152,
@@ -7366,7 +7367,7 @@
               {
                 "message": {
                   "en_US": "Well, in case you are wondering why I'm sitting here...",
-                  "pt_BR": "Bem, caso você esteja se perguntando por que estou sentada aqui...",
+                  "pt_BR": "Bem, caso você queira saber por que estou sentada aqui...",
                   "de_DE": "Tja, falls du dich wunderst, warum ich hier sitze...",
                   "fr_FR": "fr_FR",
                   "langUid": 133,

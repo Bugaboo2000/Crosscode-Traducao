@@ -10479,7 +10479,7 @@
                 {
                   "message": {
                     "en_US": "But, if you bring me some \\c[3]fresh ice from Bergen Trail\\c[0], I could quickly produce new ice cream.",
-                    "pt_BR": "Mas, se você me trazer \\c[3]gelo fresco da Trilha para Bergen\\c[0], Eu poderia produzir um novo sorvete rapidamente.",
+                    "pt_BR": "Mas, se você me trazer \\c[3]gelo fresco da Trilha de Bergen\\c[0], Eu poderia produzir um novo sorvete rapidamente.",
                     "de_DE": "Aber: Wenn du mir ein bisschen \\c[3]Eis vom Bergen-Trail\\c[0] bringst, k\u00f6nnte ich schnell neues Eis machen.",
                     "fr_FR": "fr_FR",
                     "langUid": 75,
@@ -10498,7 +10498,7 @@
                 {
                   "message": {
                     "en_US": "So... could you bring me some \\c[3]Bergen Ice\\c[0]? About \\c[3]5\\c[0] should suffice.",
-                    "pt_BR": "Então... você poderia me trazer alguns \\c[3]Gelo de Bergen\\c[0]? Cerca de \\c[3]5\\c[0] devem bastar.",
+                    "pt_BR": "Então... você poderia me trazer algum \\c[3]Gelo de Bergen\\c[0]? Cerca de \\c[3]5\\c[0] deve bastar.",
                     "de_DE": "Also... K\u00f6nntest du mir etwas \\c[3]Bergen-Eis\\c[0] bringen? \\c[3]F\u00fcnf Portionen\\c[0] sollten reichen.",
                     "fr_FR": "fr_FR",
                     "langUid": 76,
@@ -10637,7 +10637,7 @@
                     {
                       "message": {
                         "en_US": "Oh, that's too bad. Maybe another time!",
-                        "pt_BR": "Oh, isso é um problema. Talvez outra hora!",
+                        "pt_BR": "Ah, isso é um problema. Talvez outra hora!",
                         "de_DE": "Oh, schade. Vielleicht ein andermal!",
                         "fr_FR": "fr_FR",
                         "langUid": 82,
@@ -11355,7 +11355,7 @@
             "entity": { "global": true, "name": "pentaPatch" },
             "text": {
               "en_US": "I mean it's not just code. They're doing actual construction work over there.",
-              "pt_BR": "Quero dizer, não é apenas código. Eles estão fazendo um trabalho de construção real lá.",
+              "pt_BR": "Quer dizer, não é apenas código. Eles estão fazendo um trabalho de construção real lá.",
               "de_DE": "Ich meine, es ist nicht einfach nur Code. Dort dr\u00fcben sind richtige Bauarbeiten im Gange.",
               "fr_FR": "fr_FR",
               "langUid": 100,
@@ -11851,7 +11851,7 @@
                 {
                   "message": {
                     "en_US": "Well... \\.\\. He clearly should have!",
-                    "pt_BR": "Bem... \\.\\. Ele claramente deveria ter! dito",
+                    "pt_BR": "Bem... \\.\\. Ele claramente deveria ter dito!",
                     "de_DE": "Tja...\\.\\. H\u00e4tte er mal besser!",
                     "fr_FR": "fr_FR",
                     "langUid": 112,
@@ -12046,7 +12046,7 @@
                 {
                   "message": {
                     "en_US": "Look, if you want to make up for startling me, why not help me out?",
-                    "pt_BR": "Olha, se você quer compensar por ter me assustado, por que não me ajuda?",
+                    "pt_BR": "Olha, se você quer me compensar pelo susto, por que não me ajuda?",
                     "de_DE": "Pass auf, wenn du das Anstarren vorhin wiedergutmachen willst, dann k\u00f6nntest du mir doch einen Gefallen tun, oder?",
                     "fr_FR": "fr_FR",
                     "langUid": 124,
@@ -12078,7 +12078,7 @@
                 {
                   "message": {
                     "en_US": "Now don't look at me like that. It's not hard at all. All I want you to do is find me a \\c[3]\\v[item.133.name]\\c[0]. Simple enough, right?",
-                    "pt_BR": "Não me olhe assim. Não é nada difícil. Tudo que eu quero que você faça é encontrar um \\c[3]\\v[item.133.name]\\c[0]. Bastante simples, certo?",
+                    "pt_BR": "Não me olhe assim. Não é nada difícil. Tudo que eu quero que você faça é encontrar uma \\c[3]\\v[item.133.name]\\c[0]. Bastante simples, não é?",
                     "de_DE": "Jetzt sieh mich nicht so an. Ist nichts Aufwendiges. Du sollst mir nur einen \\c[3]Kaputten F\u00e4ustling\\c[0] bringen. W\u00e4re doch ein Klacks f\u00fcr dich, oder?",
                     "zh_CN": "\u522b\u90a3\u6837\u770b\u7740\u6211\u3002\u8fd9\u4e2a\u5fd9\u4e00\u70b9\u90fd\u4e0d\u96be\u3002\u4f60\u53ea\u9700\u8981\u5e2e\u6211\u627e\u5230\u4e00\u628a\\c[3]\\v[item.133.name]\\c[0]\u5c31\u53ef\u4ee5\u4e86\u3002\u5f88\u7b80\u5355\uff0c\u5bf9\u5427\uff1f<<A<<[CHANGED 2018/08/28]",
                     "ja_JP": "\u305d\u3093\u306a\u3075\u3046\u306b\u898b\u306a\u3044\u3067\u304f\u308c\u305f\u307e\u3048\u3002\u305d\u3046\u96e3\u3057\u3044\u3053\u3068\n\u3058\u3083\u306a\u3044\u3060\u308d\u3002\u79c1\u306f\u305f\u3060\u541b\u306b\\c[3]\\v[item.133.name]\\c[0]\u3092\n\u898b\u3064\u3051\u3066\u304d\u3066\u6b32\u3057\u3044\u3060\u3051\u3060\u3002\u30b7\u30f3\u30d7\u30eb\u3060\u308d\u3046\uff1f<<A<<[CHANGED 2018/08/28]",
@@ -12166,7 +12166,7 @@
                     {
                       "message": {
                         "en_US": "Apparently there is an area where you have to defeat lots of \\c[3]\\v[combat.name.hedgehog]s\\c[0] while it's raining.",
-                        "pt_BR": "Aparentemente, há uma área onde você tem que derrotar muitos \\c[3]\\v[combat.name.hedgehog]s\\c[0] enquanto está chovendo.",
+                        "pt_BR": "Aparentemente, tem uma área onde você tem que derrotar muitos \\c[3]\\v[combat.name.hedgehog]s\\c[0] enquanto está chovendo.",
                         "de_DE": "Ich wei\u00df zuf\u00e4llig, dass es dort ein Gebiet gibt, wo man viele \\c[3]Ig\u00f6ll\\c[0] besiegen muss, w\u00e4hrend es regnet.",
                         "fr_FR": "fr_FR",
                         "langUid": 151,
@@ -12239,7 +12239,7 @@
                     {
                       "message": {
                         "en_US": "Good to hear! But don't keep me waiting, alright?",
-                        "pt_BR": "Bom saber! Mas não me deixe esperando, certo?",
+                        "pt_BR": "Bom saber! Mas não me deixe esperando, tá bom?",
                         "de_DE": "Das wollte ich h\u00f6ren! Aber lass mich nicht allzu lange warten, ja?<<A<<[CHANGED 2021/05/22]",
                         "fr_FR": "fr_FR",
                         "langUid": 155,
@@ -12890,7 +12890,7 @@
                 {
                   "message": {
                     "en_US": "I knew I could count on you.",
-                    "pt_BR": "Eu sabia que poderia contar com você.",
+                    "pt_BR": "Eu sabia que podia contar com você.",
                     "de_DE": "Ich wusste, dass ich auf dich z\u00e4hlen kann.",
                     "fr_FR": "fr_FR",
                     "langUid": 163,
@@ -12906,7 +12906,7 @@
                 {
                   "message": {
                     "en_US": "Such a fine young lady with expert listening skills.",
-                    "pt_BR": "Uma jovem tão legal com habilidades de prestar atenção elevadas.",
+                    "pt_BR": "Uma jovem legal que sabe ouvir bem.",
                     "de_DE": "So eine feine junge Dame, die noch dazu richtig gut zuh\u00f6ren kann.",
                     "fr_FR": "fr_FR",
                     "langUid": 164,
@@ -13217,7 +13217,7 @@
           {
             "message": {
               "en_US": "Normally that should not be possible. I wonder how he managed to sneak this past the developers.",
-              "pt_BR": "Normalmente isso não deveria ser possível. Eu me pergunto como ele conseguiu passar despercebido pelos desenvolvedores.",
+              "pt_BR": "Normalmente isso não deveria ser possível. Queria saber como ele conseguiu passar despercebido pelos desenvolvedores.",
               "de_DE": "Eigentlich sollte das nicht m\u00f6glich sein. Ich frage mich, wie das den Entwicklern entgehen konnte.",
               "fr_FR": "fr_FR",
               "langUid": 148,
@@ -14541,7 +14541,7 @@
           {
             "message": {
               "en_US": "Oh, is that a market over there?",
-              "pt_BR": "Oh, aqui ali é um mercado?",
+              "pt_BR": "Ah, aquilo ali é um mercado?",
               "de_DE": "Oh, ist das dort dr\u00fcben ein Markt?",
               "fr_FR": "fr_FR",
               "langUid": 223,
@@ -14564,7 +14564,7 @@
           {
             "message": {
               "en_US": "Japp!\\. You'll find most of the \\c[3]traders\\c[0] around here.",
-              "pt_BR": "Japp!\\. Você encontrará a maioria dos \\c[3]comerciantes\\c[0] por aqui.",
+              "pt_BR": "Japp!\\. Você encontra a maioria dos \\c[3]comerciantes\\c[0] por aqui.",
               "de_DE": "Jepp!\\. Hier findet ihr die meisten \\c[3]H\u00e4ndler\\c[0].",
               "fr_FR": "fr_FR",
               "langUid": 224,
@@ -14950,7 +14950,7 @@
           {
             "message": {
               "en_US": "That's the \\c[3]Seeker Hub\\c[0] or \\c[3]Quest Hub\\c[0].",
-              "pt_BR": "Aquele é o \\c[3]Seeker Hub\\c[0] ou \\c[3]Central de Missões\\c[0].",
+              "pt_BR": "Aquela é a \\c[3]Central Seeker\\c[0] ou \\c[3]Central de Missões\\c[0].",
               "de_DE": "Das ist der \\c[3]Seeker Hub\\c[0] oder \\c[3]Quest Hub\\c[0].",
               "fr_FR": "fr_FR",
               "langUid": 232,
@@ -15109,7 +15109,7 @@
           {
             "message": {
               "en_US": "Well like they say -\\. still waters run deep, right?",
-              "pt_BR": "Bem, como eles dizem mesmo -\\. ainda as águas correm profundas, certo?",
+              "pt_BR": "É como dizem, \"Os quietos são os mais perigosos.\", certo?",
               "de_DE": "Tja, wie sagt man?\\. Stille Wasser sind tief, was?",
               "fr_FR": "fr_FR",
               "langUid": 247,
@@ -15804,7 +15804,7 @@
           {
             "message": {
               "en_US": "What about Pentafist?\\. They're awesome, right?",
-              "pt_BR": "A respeito dos Pentapunhos?\\. Eles são demais, certo?",
+              "pt_BR": "O que você acha dos Pentapunhos?\\. Eles são demais, non?",
               "de_DE": "Was ist mit Pentafists?\\. Die sind gro\u00dfartig, stimmt's?",
               "fr_FR": "fr_FR",
               "langUid": 254,
@@ -16057,7 +16057,7 @@
                 {
                   "message": {
                     "en_US": "Finally!\\. We got some really pesky thieves at the markets lately, stealing from both the stands and customers.",
-                    "pt_BR": "Finalmente!\\. Recentemente, temos alguns ladrões irritantes nos mercados, roubando tanto das barracas quanto dos clientes.",
+                    "pt_BR": "Finalmente!\\. Recentemente, vimos alguns ladrões irritantes nos mercados, roubando tanto das barracas quanto dos clientes.",
                     "de_DE": "Endlich!\\. In letzter Zeit treiben hier Trickdiebe ihr Unwesen, die nicht nur die H\u00e4ndler, sondern auch die Kunden beklauen.",
                     "fr_FR": "fr_FR",
                     "langUid": 284,
@@ -16076,7 +16076,7 @@
                 {
                   "message": {
                     "en_US": "I just saw one committing theft at the stands but he was gone before I could catch him.",
-                    "pt_BR": "Acabei de ver um roubo cometido nas arquibancadas, mas ele sumiu antes que eu pudesse pegá-lo.",
+                    "pt_BR": "Acabei de ver um roubo em uma barraca, mas ele sumiu antes que eu pudesse pegá-lo.",
                     "de_DE": "Ich hatte eben einen Diebstahl an einem Stand beobachtet, aber der Dieb ist mir leider entwischt.",
                     "fr_FR": "fr_FR",
                     "langUid": 285,
@@ -16130,7 +16130,7 @@
                 {
                   "message": {
                     "en_US": "Great. I saw him running towards the small park in the southeast, so go and get that crook!",
-                    "pt_BR": "Excelente. Eu o vi correndo em direção ao pequeno parque no sudeste, então vá e pegue aquele amador!",
+                    "pt_BR": "Excelente. Eu vi ele correndo em direção ao pequeno parque no sudeste, então vá e pegue aquele meliante!",
                     "de_DE": "Gut. Ich habe ihn zuletzt auf den kleinen Park im S\u00fcdosten zurennen sehen. Also los, schnapp dir den Gauner!",
                     "fr_FR": "fr_FR",
                     "langUid": 288,
@@ -16399,7 +16399,7 @@
               {
                 "message": {
                   "en_US": "I saw him running southwest to a dead-end alley by the sea. ",
-                  "pt_BR": "Eu o vi correndo para sudoeste, para a beco sem saída junto ao mar.",
+                  "pt_BR": "Eu vi ele correndo para sudoeste, para a beco sem saída junto ao mar.",
                   "de_DE": "Ich habe gesehen, wie er in eine Sackgasse am Meer s\u00fcdwestlich von hier gerannt ist.",
                   "fr_FR": "fr_FR",
                   "langUid": 313,
@@ -16762,7 +16762,7 @@
                 {
                   "message": {
                     "en_US": "I...\\. I see.\\. So you want to arrest me for my crimes?",
-                    "pt_BR": "Eu...\\. Entendo.\\. Então você quer me prender por meus crimes?",
+                    "pt_BR": "Eu...\\. Saquei.\\. Então você quer me prender por meus crimes?",
                     "de_DE": "Ich...\\. verstehe.\\. Du bist hier, um mich einzubuchten?",
                     "fr_FR": "fr_FR",
                     "langUid": 300,
@@ -16797,7 +16797,7 @@
                 {
                   "message": {
                     "en_US": "Alright, it was only a matter of time.\\. But I just had to earn money somehow for...\\. for...\\. here let me show you...",
-                    "pt_BR": "Tudo bem, era apenas uma questão de tempo.\\. Mas eu só tinha que ganhar dinheiro de alguma forma para... \\.para...\\.Aqui, deixe-me te mostrar...",
+                    "pt_BR": "Tudo bem, era apenas uma questão de tempo.\\. Mas eu só tinha que ganhar dinheiro de alguma forma para... \\.para...\\.Aqui, deixa eu te mostrar...",
                     "de_DE": "Tja, das war wohl nur eine Frage der Zeit.\\. Aber ich musste ja irgendwie Geld verdienen f\u00fcr...\\. f\u00fcr...\\. hier, warte, ich zeig dir, wof\u00fcr...",
                     "fr_FR": "fr_FR",
                     "langUid": 302,
@@ -17083,7 +17083,7 @@
                 {
                   "message": {
                     "en_US": "That mean scoundrel ran past here!\\. You must have given him a solid spanking. Good job!",
-                    "pt_BR": "Aquele canalha passou correndo por aqui!\\. Você deve ter lhe dado uma boa surra. Bom trabalho!",
+                    "pt_BR": "Aquele canalha passou correndo por aqui!\\. Você deve ter dado uma boa surra nele. Bom trabalho!",
                     "de_DE": "Dieser Schuft ist hier vorbeigerannt!\\. Du musst ihm einen ordentlichen Schlag verpasst haben, gute Arbeit!",
                     "fr_FR": "fr_FR",
                     "langUid": 318,
@@ -17118,7 +17118,7 @@
                 {
                   "message": {
                     "en_US": "Still not satisfied?\\. Well, he ran towards \\c[3]\\v[area.autumn-area.name]\\c[0] if you wanna whip him some more.",
-                    "pt_BR": "Ainda não satisfeita?\\. Bem, ele correu para o \\c[3]\\v[area.autumn-area.name]\\c[0] se você quiser chicoteá-lo um pouco mais.",
+                    "pt_BR": "Ainda não está satisfeita?\\. Bem, ele correu para o \\c[3]\\v[area.autumn-area.name]\\c[0] se você quiser chicoteá-lo um pouco mais.",
                     "de_DE": "Noch nicht zufrieden?\\. Also, er rannte in Richtung \\c[3]Autumn's Rise\\c[0], f\u00fcr den Fall, dass du noch nicht mit ihm fertig bist.",
                     "fr_FR": "fr_FR",
                     "langUid": 319,
@@ -17370,7 +17370,7 @@
               {
                 "message": {
                   "en_US": "I saw him running to the southwest to a dead end by the sea if you wanna teach him a lesson.",
-                  "pt_BR": "Eu o vi correndo para o sudoeste até um beco sem saída à beira-mar, caso você queira lhe ensinar uma lição.",
+                  "pt_BR": "Eu vi ele correndo para o sudoeste até um beco sem saída à beira-mar, caso você queira uma lição nele.",
                   "de_DE": "Ich habe gesehen, wie er in eine Sackgasse am Meer s\u00fcdwestlich von hier gelaufen ist, falls du ihm eine Lektion erteilen willst...",
                   "fr_FR": "fr_FR",
                   "langUid": 321,
@@ -17611,7 +17611,7 @@
               {
                 "message": {
                   "en_US": "See? Look at that Seeker just staring at me, like I'm some decorative prop.",
-                  "pt_BR": "Vê? Olhe para aquele Seeker apenas me encarando, como se eu fosse um acessório decorativo.",
+                  "pt_BR": "Viu? Olhe aquela Seeker apenas me encarando, como se eu fosse um acessório decorativo.",
                   "de_DE": "Siehst du? Schau dir nur diesen Seeker an. Der starrt mich an, als w\u00e4re ich irgendein Umgebungsobjekt.",
                   "fr_FR": "fr_FR",
                   "langUid": 349,
@@ -17656,7 +17656,7 @@
               {
                 "message": {
                   "en_US": "Ignore him. He just doesn't like it when things change.",
-                  "pt_BR": "Não se preocupe. Ele simplesmente não gosta quando as coisas mudam.",
+                  "pt_BR": "Não se preocupe. Ele não gosta quando as coisas mudam.",
                   "de_DE": "Ignorier ihn einfach. Er mag es nicht, wenn Dinge sich \u00e4ndern.",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\u522b\u7ba1\u4ed6\uff0c\u4ed6\u53ea\u662f\u5bf9\u65f6\u8fc7\u5883\u8fc1\u8fd9\u79cd\u4e8b\u611f\u5230\u4e0d\u6ee1\u610f\u800c\u5df2\u3002",
@@ -17675,7 +17675,7 @@
               {
                 "message": {
                   "en_US": "You're damn right! \\v[lore.unlock.rookie-harbor.Page-02-01]\\c[3]Port Harbor\\c[0] was such a nice name for this town.",
-                  "pt_BR": "Você está certa! \\v[lore.unlock.rookie-harbor.Page-02-01]\\c[3]Porto de Harbor\\c[0] era um ótimo nome para esta cidade.",
+                  "pt_BR": "Você está certa! \\v[lore.unlock.rookie-harbor.Page-02-01]\\c[3]Porto Portuário\\c[0] era um ótimo nome para esta cidade.",
                   "de_DE": "Da hast du verdammt nochmal recht! \\v[lore.unlock.rookie-harbor.Page-02-01]\\c[3]Port Harbor\\c[0] war so ein sch\u00f6ner Name f\u00fcr diese Stadt!",
                   "fr_FR": "fr_FR",
                   "langUid": 352,
@@ -17837,8 +17837,8 @@
         "characterName": "rookie-harbor.man-business",
         "analyzable": {
           "text": {
-            "en_US": "Mr. Nomsworth",
-            "pt_BR": "Mr. Nomsworth",
+            "en_US": "Sr. Nomsworth",
+            "pt_BR": "Sr. Nomsworth",
             "de_DE": "Herr Nomsworth",
             "fr_FR": "fr_FR",
             "langUid": 296,
@@ -17867,8 +17867,8 @@
               },
               {
                 "name": {
-                  "en_US": "Mr. Nomsworth",
-                  "pt_BR": "Mr. Nomsworth",
+                  "en_US": "Sr. Nomsworth",
+                  "pt_BR": "Sr. Nomsworth",
                   "langUid": 496,
                   "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                   "de_DE": "Herr Nomsworth",
@@ -17937,8 +17937,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 497,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -18028,8 +18028,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 498,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -18111,8 +18111,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 499,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -18299,8 +18299,8 @@
               },
               {
                 "name": {
-                  "en_US": "Mr. Nomsworth",
-                  "pt_BR": "Mr. Nomsworth",
+                  "en_US": "Sr. Nomsworth",
+                  "pt_BR": "Sr. Nomsworth",
                   "langUid": 500,
                   "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                   "de_DE": "Herr Nomsworth",
@@ -18376,8 +18376,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 501,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -18398,7 +18398,7 @@
                 {
                   "message": {
                     "en_US": "I see you managed to get everything.\\. Quickly, go to the \\c[3]Pub at the Beginner's Arc\\c[0] and give it to the barkeep.",
-                    "pt_BR": "Vejo que você conseguiu tudo. Rápido, vá até o \\c[3]Pub no Arco dos Iniciantes\\c[0] e entregue isso ao barman.",
+                    "pt_BR": "Vejo que você conseguiu tudo. Rápido, vá até o \\c[3]Bar no Arco dos Iniciantes\\c[0] e entregue isso à bartender.",
                     "de_DE": "Wie ich sehe, haben Sie alles organisiert.\\. Laufen Sie nun schleunigst zur \\c[3]Kneipe am Anf\u00e4ngerbogen\\c[0], der Wirt wartet schon.",
                     "fr_FR": "fr_FR",
                     "langUid": 250,
@@ -18451,8 +18451,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 502,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -18549,8 +18549,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 503,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -18609,7 +18609,7 @@
                 {
                   "message": {
                     "en_US": "Ah, there you are again.\\. I'm currently facing a high priority problem and it is giving me quite the headache.",
-                    "pt_BR": "Ah, aí está você de novo.\\. Atualmente, estou enfrentando um problema de alta prioridade e isso está me dando uma grande dor de cabeça.",
+                    "pt_BR": "Ah, é você!\\. Estou enfrentando um problema de alta prioridade e isso está me dando uma grande dor de cabeça.",
                     "de_DE": "Ah, Sie sind es!\\. Ich habe hier gerade ein Problem von h\u00f6chster Priorit\u00e4t, das mir Kopfzerbrechen bereitet.",
                     "fr_FR": "fr_FR",
                     "langUid": 370,
@@ -18647,7 +18647,7 @@
                 {
                   "message": {
                     "en_US": "You see, I am waiting for an urgent delivery of fresh ingredients from one of our contracted food collectors.",
-                    "pt_BR": "Veja, estou esperando uma entrega urgente de ingredientes frescos de um de nossos coletores de alimentos contratados.",
+                    "pt_BR": "Escute, estou esperando uma entrega urgente de ingredientes frescos de um dos nossos coletores de alimentos.",
                     "de_DE": "Sie m\u00fcssen wissen, ich erwarte eine dringende Lieferung frischer Zutaten von einem unserer Essenssammler.",
                     "fr_FR": "fr_FR",
                     "langUid": 372,
@@ -18670,7 +18670,7 @@
                 {
                   "message": {
                     "en_US": "An important business lunch will be ruined if she doesn't show up soon!",
-                    "pt_BR": "Um importante almoço de negócios será arruinado se ela não aparecer logo!",
+                    "pt_BR": "Um importante almoço de negócios será arruinado se a coletora não aparecer logo!",
                     "de_DE": "Ein wichtiges Gesch\u00e4ftsessen w\u00e4re ruiniert, wenn sie nicht bald auftaucht!",
                     "fr_FR": "fr_FR",
                     "langUid": 373,
@@ -18705,7 +18705,7 @@
                 {
                   "message": {
                     "en_US": "Yes, thank you for asking.\\. It would indeed be very helpful if you could lend me a hand again and keep your eyes open for our collector.",
-                    "pt_BR": "Sim, obrigado por perguntar.\\. Na verdade, seria muito útil se você pudesse me dar uma mão novamente e manter os olhos abertos para o nosso coletor.",
+                    "pt_BR": "Sim, obrigado por perguntar.\\. Na verdade, seria muito útil se você pudesse me dar uma mão novamente e verificar onde nossa coletora está.",
                     "de_DE": "Ja, danke, dass Sie fragen.\\. Es w\u00e4re in der Tat hilfreich, wenn Sie mir erneut unter die Arme greifen und nach dem Rechten sehen w\u00fcrden.",
                     "fr_FR": "fr_FR",
                     "langUid": 375,
@@ -18844,8 +18844,8 @@
               },
               {
                 "name": {
-                  "en_US": "Mr. Nomsworth",
-                  "pt_BR": "Mr. Nomsworth",
+                  "en_US": "Sr. Nomsworth",
+                  "pt_BR": "Sr. Nomsworth",
                   "langUid": 504,
                   "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                   "de_DE": "Herr Nomsworth",
@@ -18902,8 +18902,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 505,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -19497,8 +19497,8 @@
               },
               {
                 "name": {
-                  "en_US": "Mr. Nomsworth",
-                  "pt_BR": "Mr. Nomsworth",
+                  "en_US": "Sr. Nomsworth",
+                  "pt_BR": "Sr. Nomsworth",
                   "langUid": 524,
                   "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                   "de_DE": "Herr Nomsworth",
@@ -19614,8 +19614,8 @@
                 },
                 {
                   "name": {
-                    "en_US": "Mr. Nomsworth",
-                    "pt_BR": "Mr. Nomsworth",
+                    "en_US": "Sr. Nomsworth",
+                    "pt_BR": "Sr. Nomsworth",
                     "langUid": 507,
                     "zh_CN": "\u4f73\u98df\u5148\u751f<<A<<[CHANGED 2017/12/12]",
                     "de_DE": "Herr Nomsworth",
@@ -19654,8 +19654,8 @@
                 },
                 {
                   "message": {
-                    "en_US": "My name is Mr. Nomsworth and I am a humble mediative employee of the local trading association.",
-                    "pt_BR": "Meu nome é Mr. Nomsworth e sou um humilde funcionário mediador da associação comercial local.",
+                    "en_US": "My name is Sr. Nomsworth and I am a humble mediative employee of the local trading association.",
+                    "pt_BR": "Meu nome é Sr. Nomsworth e sou um humilde funcionário mediador da associação comercial local.",
                     "de_DE": "Mein Name ist Nomsworth und ich bin ein bescheidener Vermittler des hiesigen Handelsverbands.",
                     "fr_FR": "fr_FR",
                     "langUid": 388,
@@ -19713,7 +19713,7 @@
                 {
                   "message": {
                     "en_US": "Thus, there's always a need for helping hands willing to do some necessary legwork.\\. For a generous payment of course.",
-                    "pt_BR": "Portanto, há sempre a necessidade de pessoas dispostas a fazer algum trabalho braçal necessário.\\. Por um pagamento generoso, é claro.",
+                    "pt_BR": "Portanto, existe sempre a necessidade de pessoas dispostas a fazer algum trabalho braçal necessário.\\. Por um pagamento generoso, é claro.",
                     "de_DE": "Das hei\u00dft, ich kann immer eine helfende Hand gebrauchen, die ein paar notwendige Botenaufgaben erledigt.\\. F\u00fcr einen gro\u00dfz\u00fcgigen Verdienst, versteht sich.",
                     "fr_FR": "fr_FR",
                     "langUid": 415,

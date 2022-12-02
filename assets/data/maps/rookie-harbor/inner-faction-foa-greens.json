@@ -173,7 +173,7 @@
               {
                 "message": {
                   "en_US": "If you are interested in advancing humanity's understanding of this planet, talk to the Chief Woodkeeper.",
-                  "pt_BR": "Se você estiver interessado em ampliar a compreensão da humanidade sobre este planeta, fale com o Chefe dos Lenhadores.",
+                  "pt_BR": "Se você estiver interessada em ampliar a compreensão da humanidade sobre este planeta, fale com o Chefe dos Lenhadores.",
                   "de_DE": "Wenn du uns dabei helfen m\u00f6chtest, unser Wissen \u00fcber Shadoon zu vertiefen, rede mit Chefbaumh\u00fcter Manzana.",
                   "zh_CN": "\u5982\u679c\u4f60\u5bf9\u8fd9\u9897\u536b\u661f\u7684\u4e8b\u60c5\u611f\u5174\u8da3\u7684\u8bdd\uff0c\u53ef\u4ee5\u53bb\u548c\u62a4\u6797\u957f\u8c08\u8c08\u3002<<A<<[CHANGED 2018/09/19]",
                   "langUid": 3,
@@ -1579,7 +1579,7 @@
                 {
                   "message": {
                     "en_US": "Ah, you are done. Wonderful!\\. Your effort should have quelled the threat to \\v[area.autumn-area.name].",
-                    "pt_BR": "Ah, você conseguiu. Maravilhoso!\\. Seu esforço deve ter diminuído a ameaça em \\v[area.autumn-area.name].",
+                    "pt_BR": "Ah, você conseguiu. Maravilhoso!\\. Seu esforço deve ter diminuído a ameaça no \\v[area.autumn-area.name].",
                     "de_DE": "Ah, du bist fertig! Wunderbar!\\. Dank deiner Bem\u00fchungen sollte die Gefahr nun gebannt sein.",
                     "fr_FR": "fr_FR",
                     "langUid": 250,
@@ -1803,7 +1803,7 @@
                 {
                   "message": {
                     "en_US": "I fear that healing it will be more arduous than with the other cases, but it must be done at all costs.",
-                    "pt_BR": "Temo que a cura será mais dificil do que com os outros casos, mas deve ser feito a todo custo.",
+                    "pt_BR": "Temo que a cura será mais dificil do que com os outros casos, mas deve ser feita a todo custo.",
                     "de_DE": "Ihn zu heilen wird m\u00fchsamer werden, f\u00fcrchte ich, aber wir m\u00fcssen ihn um jeden Preis retten.",
                     "fr_FR": "fr_FR",
                     "langUid": 279,
@@ -3388,7 +3388,7 @@
                 {
                   "message": {
                     "en_US": "Welcome to our gardens, \\v[lore.title.seeker]. I am Manzana, the Chief Woodkeeper of this branch.",
-                    "pt_BR": "Bem vindo aos nossos jardins, \\v[lore.title.seeker]. Eu sou Manzana, o chefe dos lenhadores deste ramo.",
+                    "pt_BR": "Bem-vinda aos nossos jardins, \\v[lore.title.seeker]. Eu sou Manzana, o chefe dos lenhadores deste ramo.",
                     "de_DE": "Willkommen in unserem Garten, Seeker. Ich bin Manzana, der Chefbaumh\u00fcter der hiesigen Zweigstelle.",
                     "fr_FR": "fr_FR",
                     "langUid": 248,
@@ -3407,7 +3407,7 @@
                 {
                   "message": {
                     "en_US": "It is always reassuring to have your kind supporting our fruitful endeavours.",
-                    "pt_BR": "É sempre reconfortante ter pessoal do seu tipo apoiando nossos esforços frutíferos.",
+                    "pt_BR": "É sempre reconfortante ter pessoas apoiando nossos esforços frutíferos.",
                     "de_DE": "Es tut immer wieder gut, deinesgleichen als Unterst\u00fctzung zu haben f\u00fcr unsere fruchtbaren Bem\u00fchungen.",
                     "fr_FR": "fr_FR",
                     "langUid": 252,
@@ -3550,7 +3550,7 @@
                     {
                       "message": {
                         "en_US": "It has proven in the past to have a beneficial effect on the self-regulatory instincts of the Track.",
-                        "pt_BR": "No passado, ele provou ter um efeito benéfico sobre os instintos de autorregulação da Trilha.",
+                        "pt_BR": "No passado, ela provou ter um efeito benéfico sobre os instintos de autorregulação da Trilha.",
                         "de_DE": "Dieser Saft hat sich als Mittel zur Anregung der selbstregulierenden Kr\u00e4fte des Pfades schon mehrfach bew\u00e4hrt.",
                         "fr_FR": "fr_FR",
                         "langUid": 422,

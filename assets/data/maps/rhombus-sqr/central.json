@@ -2363,7 +2363,7 @@
               {
                 "message": {
                   "en_US": "Though there should only be one destination for us newbies: \\c[3]Rookie Harbor\\c[0].",
-                  "pt_BR": "Embora deva haver apenas um destino para nós, novatos: \\c[3]Rookie Harbor\\c[0].",
+                  "pt_BR": "Na verdade só tem apenas um destino para nós, novatas: \\c[3]Porto do Novato\\c[0].",
                   "de_DE": "Aber f\u00fcr uns Neulinge d\u00fcrfte es im Moment nur ein Ziel geben: \\c[3]Rookie Harbor\\c[0].",
                   "fr_FR": "fr_FR",
                   "langUid": 17,
@@ -2694,7 +2694,7 @@
             "entity": { "global": true, "name": "advisorCenter" },
             "text": {
               "en_US": "Note that new recruits will only be able to travel to \\c[3]Rookie Harbor\\c[0] at first.",
-              "pt_BR": "Observe que os novos recrutas só poderão viajar para \\c[3]Rookie Harbor\\c[0] inicialmente.",
+              "pt_BR": "Observe que os novos recrutas só poderão viajar para o \\c[3]Porto do Novato\\c[0] inicialmente.",
               "de_DE": "Bitte beachtet, dass es neuen Spielern zun\u00e4chst nur erlaubt ist, nach \\c[3]Rookie Harbor\\c[0] zu reisen.",
               "fr_FR": "fr_FR",
               "langUid": 21,
@@ -2773,7 +2773,7 @@
               {
                 "message": {
                   "en_US": "Do you want to know more about the \\c[3]Track of the Ancients\\c[0]?",
-                  "pt_BR": "Você quer saber mais sobre a \\c[3]Trilha dos Antigos?\\c[0]?",
+                  "pt_BR": "Você quer saber mais sobre a \\c[3]Trilha dos Antigos\\c[0]?",
                   "de_DE": "M\u00f6chtest du mehr \u00fcber den \\c[3]Pfad der Ahnen\\c[0] erfahren?",
                   "fr_FR": "fr_FR",
                   "langUid": 107,
@@ -2848,7 +2848,7 @@
                   {
                     "message": {
                       "en_US": "Once you reach \\c[3]Rookie Harbor\\c[0] you can attend the Introductory briefing to learn more about it.",
-                      "pt_BR": "Depois de chegar em \\c[3]Rookie Harbor\\c[0] você pode assistir as instruções iniciais para aprender mais sobre ela.",
+                      "pt_BR": "Depois de chegar no \\c[3]Porto do Novato\\c[0] você pode assistir as instruções iniciais para aprender mais sobre ela.",
                       "de_DE": "Sobald du \\c[3]Rookie Harbor\\c[0] erreichst, kannst du an der Einweisung teilnehmen, wo dir alle Details erkl\u00e4rt werden.",
                       "fr_FR": "fr_FR",
                       "langUid": 147,
@@ -3155,7 +3155,7 @@
               {
                 "message": {
                   "en_US": "Hey there, can we help you?",
-                  "pt_BR": "Oi, podemos ajudá-la?",
+                  "pt_BR": "Oi, podemos te ajudar?",
                   "de_DE": "Hallo, k\u00f6nnen wir dir helfen?",
                   "fr_FR": "fr_FR",
                   "langUid": 128,
@@ -3209,7 +3209,7 @@
               {
                 "message": {
                   "en_US": "Oh, are you wondering about the \\c[3]Turing Test\\c[0]?",
-                  "pt_BR": "Ah, você está se perguntando sobre o \\c[3]Teste de Turing\\c[0]?",
+                  "pt_BR": "Ah, você quer saber sobre o \\c[3]Teste de Turing\\c[0]?",
                   "de_DE": "Oh, fragst du dich, was der \\c[3]Turing-Test\\c[0] ist?",
                   "fr_FR": "fr_FR",
                   "langUid": 131,
@@ -3470,7 +3470,7 @@
                   {
                     "message": {
                       "en_US": "Oh! It's you from Newcomer's Bridge again.",
-                      "pt_BR": "Ah! É você da Ponte dos Iniciantes novamente.",
+                      "pt_BR": "Ah! Você é aquela menina da ponte.",
                       "de_DE": "Oh! Ich kenne dich doch von der Neulingsbr\u00fccke.",
                       "fr_FR": "fr_FR",
                       "langUid": 49,
@@ -3581,7 +3581,7 @@
                   {
                     "message": {
                       "en_US": "If you look closely, you can already see Rookie Harbor on the horizon.",
-                      "pt_BR": "Se você olhar de perto, você já pode ver o Rookie Harbor no horizonte.",
+                      "pt_BR": "Se você olhar de perto, você já pode ver o Porto do Novato no horizonte.",
                       "de_DE": "Wenn du genau hinschaust, kannst du Rookie Harbor schon am Horizont erkennen.",
                       "fr_FR": "fr_FR",
                       "langUid": 142,
