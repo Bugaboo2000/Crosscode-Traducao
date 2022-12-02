@@ -6065,7 +6065,7 @@
                 },
                 "text": {
                     "en_US": "Ha, \"soon\" probably means \"Not this month\". ",
-                    "pt_BR": "Ha, \"em breve\"provavelmente significa \"N\u00e3o este m\u00eas\".",
+                    "pt_BR": "Ha, \"em breve\" provavelmente significa \"N\u00e3o este m\u00eas\".",
                     "de_DE": "\"Bald\"? Das hei\u00dft dann wohl \"nicht diesen Monat\".",
                     "fr_FR": "fr_FR",
                     "langUid": 9,
@@ -6575,7 +6575,7 @@
                     }, {
                         "message": {
                             "en_US": "Great! ...\\. I mean uh...\\. Could you help me with something?",
-                            "pt_BR": "Demais!...\\. Quero dizer....\\. Voc\u00ea poderia me ajudar com alguma coisa?",
+                            "pt_BR": "Demais!...\\. Digo....\\. Voc\u00ea poderia me ajudar com uma coisa?",
                             "de_DE": "Super! ...\\. \u00c4h, ich meine...\\. K\u00f6nntest du mir bei etwas helfen?",
                             "fr_FR": "fr_FR",
                             "langUid": 32,
@@ -6593,7 +6593,7 @@
                     }, {
                         "message": {
                             "en_US": "See...\\. I need equipment...\\. A \\c[3]\\v[item.30.name]\\c[0].",
-                            "pt_BR": "Veja...\\. Eu preciso de equipamentos...\\. Uma \\c[3]\\v[item.30.name]\\c[0].",
+                            "pt_BR": "Olha...\\. Eu preciso de equipamentos...\\. Uma \\c[3]\\v[item.30.name]\\c[0].",
                             "de_DE": "Ich brauche neue Ausr\u00fcstung...\\. Und zwar einen \\c[3]Bronzeharnisch\\c[0].",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u4f60\u770b\u2026\\.\u6211\u9700\u8981\u4e00\u4ef6\u65b0\u7684\u88c5\u5907\u2026\\.\u4e00\u4e2a\\c[3]\\v[item.30.name]\\c[0]\u3002",
@@ -6611,7 +6611,7 @@
                     }, {
                         "message": {
                             "en_US": "They offer it in the armory of R-\\.\\c[3]Rookie Harbor\\c[0]...",
-                            "pt_BR": "Eles vendem isso em R-\\.\\c[3]Rookie Harbor\\c[0]...",
+                            "pt_BR": "Eles vendem isso no P-\\.\\c[3]Porto do Novato\\c[0]...",
                             "de_DE": "Ich habe geh\u00f6rt, dass man die im Waffenladen von R-\\.\\c[3]Rookie Harbor\\c[0] kaufen kann...",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u6211\u542c\u8bf4\u5728\u65b0-\\.\\c[3]\u65b0\u624b\u6e2f\\c[0]\u2026\\.\u7684\u76d4\u7532\u5e97\u91cc\u6709\u5356\u3002",
@@ -6629,7 +6629,7 @@
                     }, {
                         "message": {
                             "en_US": "I'd teleport back to the city and buy it myself...\\. but...\\. see...",
-                            "pt_BR": "Eu me teletransportaria de volta para a cidade e compraria eu mesma...\\. mas...\\. Veja...",
+                            "pt_BR": "Eu me teleportaria de volta para a cidade e compraria eu mesma...\\. mas...\\. Eu...",
                             "de_DE": "Ich w\u00fcrde mich ja in die Stadt zur\u00fcckteleportieren und sie selbst kaufen...\\. aber...\\. *st\u00f6hn*",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u6211\u672c\u6765\u60f3\u81ea\u5df1\u4e70\u7684\u2026\\.\u4f46\u662f\u2026\\.\u4f60\u770b\u2026",
@@ -6665,7 +6665,7 @@
                     }, {
                         "message": {
                             "en_US": "I hate towns!\\. They're always so crowded!\\. So many people, signs and noises!\\. I-\\.I can't take it...",
-                            "pt_BR": "Eu odeio cidades!\\. Elas est\u00e3o sempre t\u00e3o lotadas!\\. Tantas pessoas, placas e barulhos!\\. E-\\.Eu n\u00e3o consigo...",
+                            "pt_BR": "Eu odeio cidades!\\. Elas são sempre t\u00e3o lotadas!\\. Tantas pessoas, placas e barulhos!\\. E-\\.Eu n\u00e3o consigo...",
                             "de_DE": "Ich hasse St\u00e4dte!\\. Immer so brechend voll!\\. All die Menschen, Schilder und der L\u00e4rm!\\. I-\\.Ich halt das einfach nicht aus...",
                             "fr_FR": "fr_FR",
                             "langUid": 37,
@@ -6683,7 +6683,7 @@
                     }, {
                         "message": {
                             "en_US": "So uh...\\. Could you please buy a \\c[3]\\v[item.30.name]\\c[0] for me in Rookie Harbor?",
-                            "pt_BR": "Ent\u00e3o...\\. Voc\u00ea poderia por favor comprar uma \\c[3]\\v[item.30.name]\\c[0] para mim em Rookie Harbor?",
+                            "pt_BR": "Ent\u00e3o...\\. Voc\u00ea poderia por favor comprar uma \\c[3]\\v[item.30.name]\\c[0] para mim no Porto do Novato?",
                             "de_DE": "Also, \u00f6hm...\\. K\u00f6nntest du bitte f\u00fcr mich einen \\c[3]Bronzeharnisch\\c[0] in Rookie Harbor kaufen?",
                             "fr_FR": "fr_FR",
                             "zh_CN": "\u6240\u4ee5\u2026\u55ef\u2026\\.\u4f60\u53ef\u4ee5\u5728\u65b0\u624b\u6e2f\u5e2e\u6211\u4e70\u4e00\u4ef6\\c[3]\\v[item.30.name]\\c[0]\u5417\uff1f<<A<<[CHANGED 2017\/10\/13]",
@@ -6795,7 +6795,7 @@
                         }, {
                             "message": {
                                 "en_US": "... I see.\\. S-\\.Sorry for asking!",
-                                "pt_BR": "... Entendo.\\. D-\\.Desculpe por perguntar!",
+                                "pt_BR": "... Entendo.\\. D-\\.Desculpa por perguntar!",
                                 "de_DE": "... Verstehe.\\. T-\\.Tut mir leid gefragt zu haben!",
                                 "fr_FR": "fr_FR",
                                 "langUid": 44,
@@ -6847,7 +6847,7 @@
                 }, {
                     "message": {
                         "en_US": "P-\\.Please buy me that \\c[3]\\v[item.30.name]\\c[0] from the armory in Rookie Harbor.",
-                        "pt_BR": "P-\\.Por favor me compre uma \\c[3]\\v[item.30.name]\\c[0] da loja em Rookie Harbor.",
+                        "pt_BR": "P-\\.Por favor me compre uma \\c[3]\\v[item.30.name]\\c[0] da loja no Porto do Novato.",
                         "de_DE": "B-\\.Bitte kauf mir den \\c[3]Bronzeharnisch\\c[0] im Waffenladen in Rookie Harbor.",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u8bf7-\\.\u8bf7\u5e2e\u6211\u4ece\u65b0\u624b\u6e2f\u7684\u88c5\u5907\u5e97\u4e70\u90a3\u4ef6\\c[3]\\v[item.30.name]\\c[0]\u56de\u6765\u3002<<A<<[CHANGED 2018\/01\/06]",
@@ -7753,7 +7753,7 @@
                     }, {
                         "message": {
                             "en_US": "Suddenly, this \\c[3]HUGE\\c[0] and \\c[3]VICIOUS\\c[0] bunny-creature attacks me from the side.",
-                            "pt_BR": "Do nada, uma criatura \\c[3]ENORME\\c[0] e \\c[3]VINGATIVA \\c[0] parecida com um coelho me ataca pela lateral.",
+                            "pt_BR": "Do nada, uma criatura \\c[3]ENORME\\c[0] e \\c[3]VINGATIVA\\c[0] parecida com um coelho me atacou.",
                             "de_DE": "... als mich pl\u00f6tzlich diese \\c[3]RIESIGE\\c[0] und \\c[3]BLUTR\u00dcNSTIGE\\c[0] Hasen-Kreatur von der Seite angreift.",
                             "fr_FR": "fr_FR",
                             "langUid": 251,
@@ -7771,7 +7771,7 @@
                     }, {
                         "message": {
                             "en_US": "I was so surprised I just ran down here and collapsed.",
-                            "pt_BR": "Fiquei t\u00e3o surpresa que apenas corri aqui e desmaiei.",
+                            "pt_BR": "Fiquei t\u00e3o surpresa que saí correndo e desmaiei.",
                             "de_DE": "Ich war so \u00fcberrascht, dass ich fluchtartig bis hierhin runtergerannt und dann elendig zusammengebrochen bin.",
                             "fr_FR": "fr_FR",
                             "langUid": 252,
@@ -7789,7 +7789,7 @@
                     }, {
                         "message": {
                             "en_US": "I mean, I heard there was a super strong monster in the mountains, but...",
-                            "pt_BR": "Digo, eu ouvi dizer que havia um monstro super forte nas montanhas, mas...",
+                            "pt_BR": "Eu ouvi dizer que tinha um monstro super forte nas montanhas, mas...",
                             "de_DE": "Ich meine, ich habe zwar geh\u00f6rt, dass da ein extrem starkes Monster in den Bergen lauern soll, aber...",
                             "fr_FR": "fr_FR",
                             "langUid": 288,
@@ -7897,7 +7897,7 @@
                     }, {
                         "message": {
                             "en_US": "I shouldn't be scared of some monster. It's just a game, right?",
-                            "pt_BR": "Eu n\u00e3o deveria ter medo de um monstro. \u00c9 apenas um jogo, certo?",
+                            "pt_BR": "Eu n\u00e3o devia ter medo de um monstro. \u00c9 apenas um jogo, não é?",
                             "de_DE": "Ich sollte keine Angst vor irgendwelchen Monstern haben - das hier ist doch nur ein Spiel!",
                             "fr_FR": "fr_FR",
                             "langUid": 258,
@@ -7915,7 +7915,7 @@
                     }, {
                         "message": {
                             "en_US": "I should find this thing and give it a good whacking!",
-                            "pt_BR": "Eu deveria encontrar essa coisa e lhe dar uma boa surra!",
+                            "pt_BR": "Eu devia encontrar esse bicho e dar uma boa surra nele!",
                             "de_DE": "Ich sollte diesen Unhold finden und es ihm heimzahlen!",
                             "fr_FR": "fr_FR",
                             "langUid": 260,
@@ -7969,7 +7969,7 @@
                     }, {
                         "message": {
                             "en_US": "You know, ease into the action and all that jazz?",
-                            "pt_BR": "Voc\u00ea sabe, quando o bixo pegar voc\u00ea me ajudaria um pouco.",
+                            "pt_BR": "Sabe, quando o bixo pegar voc\u00ea podia me dar uma mão.",
                             "de_DE": "Du wei\u00dft schon, f\u00fcr mich in die Bresche springen, wenn's brenzlig wird, etwas Sch\u00fctzenhilfe leisten!",
                             "fr_FR": "fr_FR",
                             "langUid": 263,
@@ -8005,7 +8005,7 @@
                     }, {
                         "message": {
                             "en_US": "I'll reward you too! Come on!",
-                            "pt_BR": "Eu vou te recompensar tamb\u00e9m! Vamos!",
+                            "pt_BR": "Qual é! Eu vou te recompensar tamb\u00e9m!",
                             "de_DE": "Ich werde dich auch entlohnen! Komm schon!",
                             "fr_FR": "fr_FR",
                             "langUid": 265,
@@ -8098,7 +8098,7 @@
                         }, {
                             "message": {
                                 "en_US": "One of them is a \\c[3]Hexacast\\c[0] and is in Rookie Harbor.",
-                                "pt_BR": "Um deles \u00e9 um \\c[3]Hexacast\\c[0] e est\u00e1 em Rookie Harbor.",
+                                "pt_BR": "Um deles \u00e9 um \\c[3]Hexamago\\c[0] e est\u00e1 no Porto do Novato.",
                                 "de_DE": "Der eine ist ein \\c[3]Hexacast\\c[0] und treibt sich in Rookie Harbor herum.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 272,
@@ -8116,7 +8116,7 @@
                         }, {
                             "message": {
                                 "en_US": "Not sure exactly where he is though. I remember him saying something about an \\c[3]INN\\c[0] he loves.",
-                                "pt_BR": "N\u00e3o tenho certeza de onde exatamente ele est\u00e1. Eu lembro dele dizendo algo sobre \\c[3]INN\\c[0] que ele adora.",
+                                "pt_BR": "N\u00e3o tenho certeza onde ele está exatamente. Eu lembro dele dizendo algo sobre uma \\c[3]Pousada\\c[0] que ele adora.",
                                 "de_DE": "Ich wei\u00df nur nicht, wo genau. Aber er sagte mir mal, dass es dort ein \\c[3]Gasthaus\\c[0] gibt, das er mag.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 273,
@@ -8134,7 +8134,7 @@
                         }, {
                             "message": {
                                 "en_US": "The other is a \\c[3]Triblader\\c[0]. He should be at the Obelisk in \\c[3]Autumn's Rise\\c[0].",
-                                "pt_BR": "O outro \u00e9 um \\c[3]Triblader\\c[0]. Ele deve estar no Obelisco em \\c[3]Autumn's Rise\\c[0].",
+                                "pt_BR": "O outro \u00e9 um \\c[3]Tricorte\\c[0]. Ele deve estar no Obelisco no \\c[3]Nascer do Outono\\c[0].",
                                 "de_DE": "Der andere ist ein \\c[3]Triblader\\c[0]. Er sollte beim Obelisken in \\c[3]Autumn's Rise\\c[0] sein.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 274,
@@ -8152,7 +8152,7 @@
                         }, {
                             "message": {
                                 "en_US": "I'll send word to both of them, via \\c[3]Direct Link\\c[0] so they know that you're coming.",
-                                "pt_BR": "Vou mandar uma mensagem para os dois, via \\c[3]Direct Link\\c[0] para que saibam que voc\u00ea est\u00e1 indo.",
+                                "pt_BR": "Vou mandar uma mensagem para os dois, via \\c[3]D-Link\\c[0] para que saibam que voc\u00ea est\u00e1 indo.",
                                 "de_DE": "Ich werde beiden via \\c[3]Direkt-Link\\c[0] Bescheid sagen, dass du kommst.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 275,
@@ -8188,7 +8188,7 @@
                         }, {
                             "message": {
                                 "en_US": "Sorry, I'm not a fan of this \"Messaging\". I like to handle things personally.",
-                                "pt_BR": "Desculpe, n\u00e3o sou f\u00e3 destas \"Mensagens\". Gosto de lidar com as coisas pessoalmente.",
+                                "pt_BR": "Desculpa, n\u00e3o sou f\u00e3 destas \"Mensagens\". Gosto de lidar com as coisas pessoalmente.",
                                 "de_DE": "Ja, ich wei\u00df, tut mir leid, aber ich bin kein Freund von diesem \"Messaging\". Ich regle solche Sachen lieber pers\u00f6nlich.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 291,
@@ -8316,7 +8316,7 @@
                         }, {
                             "message": {
                                 "en_US": "Ah, I see. Must be hard using the Direct Link.",
-                                "pt_BR": "Ah, entendo. Deve ser dif\u00edcil usar o Direct Link.",
+                                "pt_BR": "Ah, entendo. Deve ser dif\u00edcil usar o D-Link.",
                                 "de_DE": "Ah, verstehe. Muss ganz sch\u00f6n schwer sein, so zu d-linken.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 297,
@@ -8610,7 +8610,7 @@
                     }, {
                         "message": {
                             "en_US": "One of them is a \\c[3]Hexacast\\c[0] and is in Rookie Harbor.",
-                            "pt_BR": "Um deles \u00e9 um \\c[3]Hexacast\\c[0] e est\u00e1 em Rookie Harbor.",
+                            "pt_BR": "Um deles \u00e9 um \\c[3]Hexamago\\c[0] e est\u00e1 no Porto do Novato.",
                             "de_DE": "Der eine ist ein \\c[3]Hexacast\\c[0] und treibt sich in Rookie Harbor herum.",
                             "fr_FR": "fr_FR",
                             "langUid": 281,
@@ -8628,7 +8628,7 @@
                     }, {
                         "message": {
                             "en_US": "Not sure exactly where he is though. I remember him saying something about an \\c[3]INN\\c[0] he loves.",
-                            "pt_BR": "N\u00e3o tenho certeza de onde exatamente ele est\u00e1. Eu lembro dele dizendo algo sobre \\c[3]INN\\c[0] que ele adora.",
+                            "pt_BR": "N\u00e3o tenho certeza de onde exatamente ele est\u00e1. Eu lembro dele dizendo algo sobre uma \\c[3]Pousada\\c[0] que ele adora.",
                             "de_DE": "Ich wei\u00df nur nicht, wo genau. Aber er sagte mir mal, dass es dort ein \\c[3]Gasthaus\\c[0] gibt, das er mag.",
                             "fr_FR": "fr_FR",
                             "langUid": 282,
@@ -8646,7 +8646,7 @@
                     }, {
                         "message": {
                             "en_US": "The other is a \\c[3]Triblader\\c[0]. He should be at the Obelisk in \\c[3]Autumn's Rise\\c[0].",
-                            "pt_BR": "O outro \u00e9 um \\c[3]Triblader\\c[0]. Ele deve estar no Obelisco em \\c[3]Autumn's Rise\\c[0].",
+                            "pt_BR": "O outro \u00e9 um \\c[3]Tricorte\\c[0]. Ele deve estar no Obelisco no \\c[3]Nascer do Outono\\c[0].",
                             "de_DE": "Der andere ist ein \\c[3]Triblader\\c[0]. Er sollte beim Obelisken in \\c[3]Autumn's Rise\\c[0] sein.",
                             "fr_FR": "fr_FR",
                             "langUid": 283,
@@ -8664,7 +8664,7 @@
                     }, {
                         "message": {
                             "en_US": "I've sent word to both of them via \\c[3]Direct Link\\c[0], so they'll know you're coming.",
-                            "pt_BR": "Vou mandar uma mensagem para os dois, via \\c[3]Direct Link\\c[0] para que saibam que voc\u00ea est\u00e1 indo.",
+                            "pt_BR": "Vou mandar uma mensagem para os dois, via \\c[3]D-Link\\c[0] para que saibam que voc\u00ea est\u00e1 indo.",
                             "de_DE": "Ich werde beiden via \\c[3]Direkt-Link\\c[0] Bescheid sagen, dass du kommst.",
                             "fr_FR": "fr_FR",
                             "langUid": 293,
@@ -8701,7 +8701,7 @@
                     }, {
                         "message": {
                             "en_US": "Okay, no problem! I hope I find out more here.",
-                            "pt_BR": "Ok sem problemas! Espero descobrir mais coisas aqui.",
+                            "pt_BR": "Ok sem problemas! Vou tentar descobrir mais coisas aqui.",
                             "de_DE": "Alles klar! Ich hoffe, dass ich hier auch was herausfinden kann.",
                             "fr_FR": "fr_FR",
                             "langUid": 285,
@@ -8767,6 +8767,7 @@
                     "quest": [{
                         "name": {
                             "en_US": "Jean",
+                            "pt_BR": "Jean",
                             "langUid": 571,
                             "zh_CN": "\u7b80",
                             "de_DE": "Jean",
@@ -8885,7 +8886,7 @@
                     }, {
                         "message": {
                             "en_US": "Then again\\..\\..\\.. Your speech module is broken. So it's probably better this way.",
-                            "pt_BR": "Entendo...\\..\\..\\.. Seu m\u00f3dulo de voz ainda est\u00e1 quebrado. Provavelmente \u00e9 melhor assim.",
+                            "pt_BR": "Entendi\\..\\..\\.. Seu m\u00f3dulo de voz ainda est\u00e1 quebrado. Provavelmente \u00e9 melhor assim.",
                             "de_DE": "Andererseits\\..\\..\\.. ist ja dein Sprachmodul hin\u00fcber. War wohl doch besser so.",
                             "fr_FR": "fr_FR",
                             "langUid": 305,
@@ -8957,7 +8958,7 @@
                     }, {
                         "message": {
                             "en_US": "And I found out that this creature seems to show up a lot on the \\c[3]Windy Climb\\c[0] parts of \\c[3]Bergen Trail\\c[0].",
-                            "pt_BR": "E descobri que esta criatura costuma aparecer muito em \\c[3]Escalada Rigorosa\\c[0] uma parte da \\c[3]Trilha de Bergen\\c[0].",
+                            "pt_BR": "E descobri que esta criatura costuma aparecer muito na \\c[3]Escalada Rigorosa\\c[0] uma parte da \\c[3]Trilha de Bergen\\c[0].",
                             "de_DE": "Und ich habe rausgekriegt, dass diese Kreatur oft am \\c[3]Windigen Aufstieg\\c[0] des \\c[3]Bergen-Trails\\c[0] auftaucht.",
                             "fr_FR": "fr_FR",
                             "langUid": 309,
@@ -9047,7 +9048,7 @@
                     }, {
                         "message": {
                             "en_US": "We'll meet here again once we're finished, alright?",
-                            "pt_BR": "Nos encontraremos aqui novamente quando terminarmos, certo?",
+                            "pt_BR": "Nos encontramos aqui novamente quando terminarmos, combinado?",
                             "de_DE": "Wir treffen uns wieder hier, wenn wir fertig sind, in Ordnung?",
                             "fr_FR": "fr_FR",
                             "langUid": 314,
@@ -9329,7 +9330,7 @@
                     }, {
                         "message": {
                             "en_US": "Now we only have to capture this legendary bunny or whatever people call it. ",
-                            "pt_BR": "Agora s\u00f3 temos que capturar este coelho lend\u00e1rio ou seja l\u00e1 como as pessoas o chamam.",
+                            "pt_BR": "Agora s\u00f3 temos que capturar esse coelho lend\u00e1rio ou seja l\u00e1 como as pessoas o chamam.",
                             "de_DE": "Jetzt m\u00fcssen wir nur noch diesen legend\u00e4ren Hasen fangen.",
                             "fr_FR": "fr_FR",
                             "langUid": 324,
@@ -9437,7 +9438,7 @@
                     }, {
                         "message": {
                             "en_US": "Right? Which means we just have to get the \\v[item.139.name]s to that place.",
-                            "pt_BR": "Certo? O que significa que s\u00f3 precisamos levar as \\v[item.139.name]s para esse lugar.",
+                            "pt_BR": "Exatamente! O que significa que s\u00f3 precisamos levar as \\v[item.139.name]s para esse lugar.",
                             "de_DE": "Genau! Das bedeutet, wir m\u00fcssen die Gefrorenen Karotten nur an diesen Ort bringen.",
                             "fr_FR": "fr_FR",
                             "langUid": 330,
@@ -9455,7 +9456,7 @@
                     }, {
                         "message": {
                             "en_US": "The guys said just having the capture device and defeating the monster would capture it.",
-                            "pt_BR": "Os caras disseram que apenas ter o dispositivo de captura no invent\u00e1rio e derrotar o monstro iria captur\u00e1-lo.",
+                            "pt_BR": "Os caras disseram que bastava ter o dispositivo para capturar o monstro, depois ele estivesse derrotado.",
                             "de_DE": "Die Jungs sagten, es reicht, das Ger\u00e4t dabeizuhaben, um das Monster einzufangen, sobald wir es besiegt haben.",
                             "fr_FR": "fr_FR",
                             "langUid": 331,
@@ -9545,7 +9546,7 @@
                     }, {
                         "message": {
                             "en_US": "Never\\.\\. ever!",
-                            "pt_BR": "Nem a pau,\\.\\. nunca!",
+                            "pt_BR": "Nem a pau!\\.\\. Nunca!",
                             "de_DE": "Neh!\\.\\. Niemals!",
                             "fr_FR": "fr_FR",
                             "langUid": 336,
@@ -9671,7 +9672,7 @@
                     }, {
                         "message": {
                             "en_US": "This creature must be super strong.",
-                            "pt_BR": "Esta criatura deve ser super forte.",
+                            "pt_BR": "Essa criatura deve ser super forte.",
                             "de_DE": "Diese Kreatur muss sehr, sehr stark sein.",
                             "fr_FR": "fr_FR",
                             "langUid": 343,
@@ -9732,6 +9733,7 @@
                 "event": [{
                     "name": {
                         "en_US": "Jean",
+                        "pt_BR": "Jean",
                         "langUid": 573,
                         "zh_CN": "\u7b80",
                         "de_DE": "Jean",
@@ -9814,7 +9816,7 @@
                 }, {
                     "message": {
                         "en_US": "It should be somewhere in the \\c[3]Windy Climb\\c[0] parts of Bergen Trail!",
-                        "pt_BR": "Deve estar em algum lugar da \\c[3]Escalada Rigorosa\\c[0] da trilha Bergen!",
+                        "pt_BR": "Ele deve estar em algum lugar da \\c[3]Escalada Rigorosa\\c[0] na Trilha de Bergen!",
                         "de_DE": "Er soll irgendwo am \\c[3]Windigen Aufstieg\\c[0] auf dem Bergen-Trail sein.",
                         "fr_FR": "fr_FR",
                         "langUid": 381,
@@ -9965,7 +9967,7 @@
                     }, {
                         "message": {
                             "en_US": "Wait... does that mean \\..\\..\\.. you captured it?",
-                            "pt_BR": "Espere... isso significa \\..\\..\\.. voc\u00ea o capturou?",
+                            "pt_BR": "Espera... isso significa que\\..\\..\\.. voc\u00ea capturou ele?",
                             "de_DE": "Warte... Hei\u00dft das\\..\\..\\.. du hast ihn gefangen?",
                             "fr_FR": "fr_FR",
                             "langUid": 350,
@@ -10017,7 +10019,7 @@
                     }, {
                         "message": {
                             "en_US": "Oh my gosh, really?!",
-                            "pt_BR": "Oh meu Deus, s\u00e9rio?!",
+                            "pt_BR": "Ai meu Deus, s\u00e9rio?!",
                             "de_DE": "Oh. Mein. Gott. Wirklich?!",
                             "fr_FR": "fr_FR",
                             "langUid": 352,
@@ -10053,7 +10055,7 @@
                     }, {
                         "message": {
                             "en_US": "I bet it was super hard to beat, right?",
-                            "pt_BR": "Aposto que foi super dif\u00edcil derrota-lo, certo?",
+                            "pt_BR": "Aposto que foi super dif\u00edcil derrotar ele, não foi?",
                             "de_DE": "Ich wette, es war echt schwer, ihn zu besiegen, oder?",
                             "fr_FR": "fr_FR",
                             "langUid": 355,
@@ -10378,7 +10380,7 @@
                     }, {
                         "message": {
                             "en_US": "Alright, alright\\..\\..\\.. you did it!",
-                            "pt_BR": "Certo, tudo bem\\..\\..\\.. voc\u00ea conseguiu!",
+                            "pt_BR": "Tá bom, tá bom\\..\\..\\.. voc\u00ea conseguiu!",
                             "de_DE": "Schon gut, schon gut\\..\\..\\.. Du hast ihn gefangen!",
                             "fr_FR": "fr_FR",
                             "langUid": 366,
@@ -10830,7 +10832,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\i[arrow-n] Ascent to Bergen Village\n\\i[arrow-s] Autumn's Rise\n",
-                    "pt_BR": "\\i[arrow-n] Subida para a Vila Bergen\n\\i[arrow-s] Autumn's Rise\n",
+                    "pt_BR": "\\i[arrow-n] Subida para a Vila Bergen\n\\i[arrow-s] Nascer do Outono\n",
                     "de_DE": "\\i[arrow-n] Aufstieg nach Bergen\n\\i[arrow-s] Autumn's Rise",
                     "fr_FR": "fr_FR",
                     "langUid": 389,
@@ -10910,7 +10912,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\i[arrow-s] Autumn's Rise\n\\i[arrow-n] Ascent to Bergen Village.",
-                    "pt_BR": "\\i[arrow-s] Autumn's Rise\n\\i[arrow-n] Subida para Vila Bergen",
+                    "pt_BR": "\\i[arrow-s] Nascer do Outono\n\\i[arrow-n] Subida para Vila Bergen",
                     "de_DE": "\\i[arrow-s] Autumn's Rise\n\\i[arrow-n] Aufstieg nach Bergen",
                     "fr_FR": "fr_FR",
                     "langUid": 390,
@@ -11353,7 +11355,7 @@
             }, {
                 "message": {
                     "en_US": "So where is Monsieur Grasshead? Don't tell me he's late...\\.",
-                    "pt_BR": "Ent\u00e3o, cad\u00ea o Mr. Cabe\u00e7a de Grama? Ser\u00e1 que j\u00e1 se atrasou...\\.",
+                    "pt_BR": "Então, cadê o Sr. Cabeça de Grama? Ser\u00e1 que ele se atrasou...\\.",
                     "de_DE": "Also, wo ist Monsieur Graskopf? Sag mir nicht, dass er sich versp\u00e4tet...\\.",
                     "fr_FR": "fr_FR",
                     "langUid": 394,
@@ -11372,7 +11374,7 @@
                 "side": "RIGHT",
                 "message": {
                     "en_US": "Blue-haired Spheromancer!",
-                    "pt_BR": "Spheromancer de cabelo azul!!",
+                    "pt_BR": "Esferomante de cabelo azul!!",
                     "de_DE": "Blauhaariger Spheromancer!",
                     "fr_FR": "fr_FR",
                     "langUid": 395,
@@ -11629,7 +11631,7 @@
             }, {
                 "message": {
                     "en_US": "Isn't it kinda crowded here?",
-                    "pt_BR": "N\u00e3o est\u00e1 meio lotado aqui?",
+                    "pt_BR": "Não tá meio lotado aqui?",
                     "de_DE": "Ist es hier nicht ein wenig voll?",
                     "fr_FR": "fr_FR",
                     "langUid": 399,
@@ -11665,7 +11667,7 @@
             }, {
                 "message": {
                     "en_US": "People should witness the grace of the Spheromancer's fighting style!",
-                    "pt_BR": "As pessoas deveriam testemunhar o qu\u00e3o incrivel \u00e9 o estilo de luta de um Spheromancer!",
+                    "pt_BR": "As pessoas devem testemunhar o qu\u00e3o incrivel \u00e9 o estilo de luta de um Esferomante!",
                     "de_DE": "Die Leute sollen den famosen Kampfstil der Spheromancer w\u00fcrdigen!",
                     "fr_FR": "fr_FR",
                     "langUid": 401,
@@ -11885,7 +11887,7 @@
             }, {
                 "message": {
                     "en_US": "It's Spheromancer versus Spheromancer.",
-                    "pt_BR": "\u00c9 Spheromancer contra Spheromancer.",
+                    "pt_BR": "\u00c9 Esferomante contra Esferomante.",
                     "de_DE": "Hier k\u00e4mpft Spheromancer gegen Spheromancer.",
                     "fr_FR": "fr_FR",
                     "langUid": 410,
@@ -11903,7 +11905,7 @@
             }, {
                 "message": {
                     "en_US": "No Pentafist.",
-                    "pt_BR": "Nenhum Pentafist.",
+                    "pt_BR": "Nenhum Pentapunho.",
                     "de_DE": "Kein Pentafist.",
                     "fr_FR": "fr_FR",
                     "langUid": 411,
@@ -12251,7 +12253,7 @@
                                 }, {
                                     "message": {
                                         "en_US": "What is the deal with your \\c[3]stats\\c[0].",
-                                        "pt_BR": "Qual é o problema com suas \\c[3]estatísticas\\c[0]",
+                                        "pt_BR": "Qual é o problema com seus \\c[3]atributos\\c[0]",
                                         "de_DE": "Deine \\c[3]Stats sind unversch\u00e4mt hoch\\c[0].",
                                         "fr_FR": "fr_FR",
                                         "zh_CN": "\u4f60\u8fd9\\c[3]\u5c5e\u6027\\c[0]\u662f\u600e\u4e48\u56de\u4e8b\u3002",
@@ -12287,7 +12289,7 @@
                                 }, {
                                     "message": {
                                         "en_US": "This explains why I waited for so long. You took your time to prepare.",
-                                        "pt_BR": "Isso explica porque eu esperei por tanto tempo. Você demorou para se preparar",
+                                        "pt_BR": "Isso explica porque eu esperei por tanto tempo. Você demorou para se preparar.",
                                         "de_DE": "Das erkl\u00e4rt nat\u00fcrlich, warum ich so lange warten musste. Du hast die Zeit zur Vorbereitung genutzt.",
                                         "fr_FR": "fr_FR",
                                         "zh_CN": "\u96be\u602a\u4f60\u82b1\u4e86\u8fd9\u4e48\u957f\u65f6\u95f4\u3002\u51c6\u5907\u7684\u5f88\u5145\u5206\u5450\u3002",
@@ -12305,7 +12307,7 @@
                                 }, {
                                     "message": {
                                         "en_US": "Oh well, let's get this over with.",
-                                        "pt_BR": "Oh Bem, vamos acabar logo com isso",
+                                        "pt_BR": "Ora, vamos acabar logo com isso.",
                                         "de_DE": "Nun gut. Ziehen wir es durch.",
                                         "fr_FR": "fr_FR",
                                         "langUid": 563,
@@ -12346,7 +12348,7 @@
                                     }, {
                                         "message": {
                                             "en_US": "Those are some \\c[3]excellent stats\\c[0]. This is going to be interesting!",
-                                            "pt_BR": "Voc\u00ea est\u00e1 com \\c[3]excelentes estat\u00edsticas\\c[0]. Isso vai ser interessante!",
+                                            "pt_BR": "Voc\u00ea est\u00e1 com \\c[3]excelentes atributos\\c[0]. Isso vai ser interessante!",
                                             "de_DE": "Deine \\c[3]Stats sind ausgezeichnet\\c[0]. Das d\u00fcrfte spannend werden!",
                                             "fr_FR": "fr_FR",
                                             "zh_CN": "\u770b\u6765\u4f60\\c[3]\u5c5e\u6027\u4e0d\u9519\\c[0]\u3002\u6709\u610f\u601d\u4e86\uff01",
@@ -12481,7 +12483,7 @@
                         }, {
                             "message": {
                                 "en_US": "Pentafist! It's time for you to step back.",
-                                "pt_BR": "Pentafist! \u00c9 melhor voc\u00ea recuar agora.",
+                                "pt_BR": "Pentapunho! \u00c9 melhor voc\u00ea recuar agora.",
                                 "de_DE": "Pentafist! Zeit f\u00fcr dich zur\u00fcckzutreten.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 421,
@@ -12865,7 +12867,7 @@
                         }, {
                             "message": {
                                 "en_US": "\\c[3]Player versus Player\\c[0]. It's simple.",
-                                "pt_BR": "\\c[3]Player contra Player\\c[0]. \u00c9 simples.",
+                                "pt_BR": "\\c[3]Jogador contra Jogador\\c[0]. \u00c9 simples.",
                                 "de_DE": "\\c[3]Player versus Player\\c[0]. Es ist ganz einfach.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 430,
@@ -13183,7 +13185,7 @@
                         }, {
                             "message": {
                                 "en_US": "The path of a proper Spheromancer!",
-                                "pt_BR": "O caminho de um verdadeiro Spheromancer!",
+                                "pt_BR": "O caminho de um verdadeiro Esferomante!",
                                 "de_DE": "Den Weg eines wahren Spheromancers!",
                                 "fr_FR": "fr_FR",
                                 "langUid": 438,
@@ -13619,7 +13621,7 @@
                         "elseStep": [{
                             "message": {
                                 "en_US": "Time to show you the true potential of a Spheromancer!",
-                                "pt_BR": "\u00c9 hora de mostrar o verdadeiro potencial de um Spheromancer!",
+                                "pt_BR": "\u00c9 hora de mostrar o verdadeiro potencial de um Esferomante!",
                                 "de_DE": "Zeit, dir das wahre Potential eines Spheromancers zu zeigen!",
                                 "fr_FR": "fr_FR",
                                 "langUid": 445,
@@ -13646,7 +13648,7 @@
                         "thenStep": [{
                             "message": {
                                 "en_US": "Whoa, go easy on him, Lea!",
-                                "pt_BR": "Wow, pega leve com ele, Lea!",
+                                "pt_BR": "Uau, pega leve com ele, Lea!",
                                 "de_DE": "Whoa, \u00fcbertreib's nicht, Lea!",
                                 "zh_CN": "\u54c7\u54e6\uff0c\u53ef\u522b\u6253\u592a\u72e0\u4e86\uff0c\u8389\u4e9a\uff01<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u3046\u308f\u30fc\u3001\u624b\u52a0\u6e1b\u3057\u3066\u3042\u3052\u306a\u3088\u3001\u30ec\u30a2\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -13799,7 +13801,7 @@
                         "thenStep": [{
                             "message": {
                                 "en_US": "Again with a single hit?\\. What is this?",
-                                "pt_BR": "Denovo com um único dano?\\ O Que é isso?",
+                                "pt_BR": "De novo com um único golpe?\\ O Que é isso?",
                                 "de_DE": "Schon wieder mit nur einem Schlag?\\. Wie geht das?",
                                 "zh_CN": "\u53c8\u662f\u4e00\u51fb\u5fc5\u6740\uff1f\\.\u600e\u4e48\u641e\u7684\uff1f<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u307e\u305f\u4e00\u6483\u3067\u5012\u308c\u308b\u3060\u3068\uff1f\\.\n\u3069\u3046\u306a\u3063\u3066\u308b\u3093\u3060\uff1f<<A<<[CHANGED 2019\/08\/16]",
@@ -13832,7 +13834,7 @@
                         "elseStep": [{
                             "message": {
                                 "en_US": "Witness the true potential of a Spheromancer!",
-                                "pt_BR": "Testemunhe o verdadeiro potencial de um Spheromancer!",
+                                "pt_BR": "Testemunhe o verdadeiro potencial de um Esferomante!",
                                 "de_DE": "Und nun zeige ich dir das wahre Potential eines Spheromancers!",
                                 "fr_FR": "fr_FR",
                                 "langUid": 448,
@@ -13935,7 +13937,7 @@
                         "thenStep": [{
                             "message": {
                                 "en_US": "How is it even possible to have so little HP and defense?!\\. Is this another kind of \\c[3]cheating\\c[0]?!",
-                                "pt_BR": "Como \u00e9 poss\u00edvel ter t\u00e3o pouco HP e defesa?!\\. Este \u00e9 outro tipo de \\c[3]trapa\u00e7a\\c[0]?!",
+                                "pt_BR": "Como \u00e9 poss\u00edvel ter t\u00e3o pouco PV e defesa?!\\. Este \u00e9 outro tipo de \\c[3]trapa\u00e7a\\c[0]?!",
                                 "de_DE": "Wie ist es \u00fcberhaupt m\u00f6glich, so wenig HP und Verteidigung zu haben?!\\. Ist das etwa auch ein \\c[3]Cheat\\c[0]?!",
                                 "zh_CN": "\u8840\u91cf\u548c\u9632\u5fa1\u600e\u4e48\u53ef\u80fd\u8fd9\u4e48\u4f4e?!\\.\u8fd9\u7b80\u76f4\u5c31\u662f\u53e6\u4e00\u79cd\\c[3]\u4f5c\u5f0a\\c[0]?!<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u3069\u3046\u3084\u308c\u3070\u305d\u3053\u307e\u3067\nHP\u3068\u9632\u5fa1\u529b\u304c\u4f4e\u304f\u306a\u308b\u3093\u3060\uff1f\uff01\\.\n\u3053\u308c\u3082\u307e\u305f\u306a\u306b\u304b\u306e\\c[3]\u30c1\u30fc\u30c8\\c[0]\u306a\u306e\u304b\uff1f\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14414,7 +14416,7 @@
                     }, {
                         "message": {
                             "en_US": "NOT ONLY THE GAME, BUT YOURSELF!",
-                            "pt_BR": "NÃO SÓ O JOGO, MAS VOCÊ MESMO!",
+                            "pt_BR": "NÃO SÓ O JOGO, MAS VOCÊ MESMA!",
                             "de_DE": "DU HAST NICHT NUR IM SPIEL BETROGEN, SONDERN AUCH DICH SELBST!",
                             "zh_CN": "\u4f60\u4e0d\u4ec5\u5bf9\u6e38\u620f\u4f5c\u5f0a\uff0c\u66f4\u662f\u5bf9\u81ea\u5df1\u4f5c\u5f0a\uff01<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u304a\u524d\u304c\u30c1\u30fc\u30c8\u3067\u3042\u3056\u3080\u3044\u305f\u306e\u306f\n\u30b2\u30fc\u30e0\u3060\u3051\u3067\u306f\u306a\u3044\uff01\u304a\u524d\u81ea\u8eab\u3082\u3060\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14477,7 +14479,7 @@
                     }, {
                         "message": {
                             "en_US": "ALL YOU EXPERIENCED IS A \\c[1]HOLLOW VICTORY\\c[0]!",
-                            "pt_BR": "TUDO QUE VOCÊ EXPERIÊNCIOU FOI UMA \\c[1]VITÓRIA VAZIA\\c[0]!",
+                            "pt_BR": "TUDO QUE VOCÊ EXPERIMENTOU FOI UMA \\c[1]VITÓRIA VAZIA\\c[0]!",
                             "de_DE": "DAS WAR NICHT MEHR ALS EIN \\c[1]SCHEINSIEG\\c[0]!",
                             "zh_CN": "\u4f60\u6240\u83b7\u5f97\u7684\u53ea\u662f\\c[1]\u7a7a\u6d1e\u7684\u80dc\u5229\\c[0]!<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u304a\u524d\u306e\u5473\u308f\u3063\u3066\u304d\u305f\u52dd\u5229\u306f\u5168\u3066\u3001\n\\c[1]\u7a7a\u865a\u306a\u52dd\u5229\\c[0]\u3060\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14660,7 +14662,7 @@
                         }, {
                             "message": {
                                 "en_US": "Well, even despite your level and stats, I still have to insist...",
-                                "pt_BR": "Bem, mesmo apesar do seu nível e estatísticas, ainda tenho que insistir ...",
+                                "pt_BR": "Bem, mesmo apesar do seu nível e atributos, ainda tenho que insistir ...",
                                 "de_DE": "Selbst ohne deinen Level und deine Stats muss ich darauf bestehen...",
                                 "zh_CN": "\u5c31\u7b97\u4e0d\u63d0\u4f60\u7684\u7b49\u7ea7\u548c\u5c5e\u6027\uff0c\u6211\u4f9d\u7136\u8ba4\u4e3a...<<A<<[CHANGED 2019\/08\/16]",
                                 "ja_JP": "\u3055\u3066\u3001\u304a\u524d\u306e\u30ec\u30d9\u30eb\u3068\u30b9\u30c6\u30fc\u30bf\u30b9\u304c\n\u3069\u3093\u306a\u5024\u3060\u308d\u3046\u3068\u3001\u305d\u308c\u3067\u3082\u4ffa\u306f\n\u8a00\u3044\u5207\u3089\u306d\u3070\u306a\u308b\u307e\u3044...<<A<<[CHANGED 2019\/08\/16]",
@@ -14714,7 +14716,7 @@
                         }, {
                             "message": {
                                 "en_US": "I'm glad to know that skilled Spheromancers remain among us.",
-                                "pt_BR": "Fico feliz em saber que ainda existem Spheromancers habilidosos entre n\u00f3s",
+                                "pt_BR": "Fico feliz em saber que ainda existem Esferomantes habilidosos entre n\u00f3s",
                                 "de_DE": "Gut zu wissen, dass es noch f\u00e4hige Spheromancer unter uns gibt.",
                                 "fr_FR": "fr_FR",
                                 "langUid": 454,
@@ -14809,7 +14811,7 @@
                     }, {
                         "message": {
                             "en_US": "I HONESTLY SHOULD \\c[1]REPORT YOU IMMEDIATELY\\c[0]!",
-                            "pt_BR": "DEVO HONESTAMENTE \\c[1]DENUNCIAR VOCÊ IMEDIATAMENTE\\c[0]!",
+                            "pt_BR": "DEVO \\c[1]DENUNCIAR VOCÊ IMEDIATAMENTE\\c[0]!",
                             "de_DE": "ICH SOLLTE DICH \\c[1]AUF DER STELLE MELDEN\\c[0]!",
                             "zh_CN": "\u6211\u5e94\u8be5\\c[1]\u9a6c\u4e0a\u4e3e\u62a5\u4f60\\c[0]\uff01<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u7387\u76f4\u306b\u8a00\u3063\u3066\u3001\n\\c[1]\u304a\u524d\u306e\u3053\u3068\u3092\u76f4\u3061\u306b\u5831\u544a\\c[0]\u3059\u3079\u304d\u3060\u3068\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14860,7 +14862,7 @@
                     }, {
                         "message": {
                             "en_US": "Yet it PAINS me to no end, that a SPHEROMANCER out of all classes commits such a dire crime!",
-                            "pt_BR": "No entanto, me Dói muito que um SPHEROMANCER de todas as classes cometa um crime tão terrível!",
+                            "pt_BR": "No entanto, me Dói muito que um ESFEROMANTE de todas as classes cometa um crime tão terrível!",
                             "de_DE": "Doch es SCHMERZT mich ungemein, dass ausgerechnet ein SPHEROMANCER solch ein sch\u00e4ndliches Verbrechen begeht!",
                             "zh_CN": "\u4f46\u6700\u8ba9\u6211\u75db\u82e6\u7684\uff0c\u662f\u72af\u4e0b\u5982\u6b64\u7f6a\u884c\u7684\u5c45\u7136\u662f\u4e00\u4e2a\u6c14\u5706\u4f7f\u8005\uff01<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u3057\u304b\u3057\u3060\u3001\u4ed6\u3067\u3082\u306a\u3044\u30b9\u30d5\u30a3\u30ed\u30de\u30f3\u30b5\u30fc\u304c\n\u3053\u3093\u306a\u304a\u305e\u307e\u3057\u3044\u7f6a\u306b\u95a2\u308f\u308b\u306a\u3069\u3001\n\u4ffa\u306b\u3068\u3063\u3066\u306f\u3042\u307e\u308a\u306b\u3082\u8f9b\u3059\u304e\u308b\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -14894,7 +14896,7 @@
                     }, {
                         "message": {
                             "en_US": "We shall meet again, blue-haired Spheromancer!",
-                            "pt_BR": "Devemos nos encontrar novamente, Spheromancer de cabelo azul!",
+                            "pt_BR": "Devemos nos encontrar novamente, Esferomante de cabelo azul!",
                             "de_DE": "Wir treffen uns wieder, blauhaariger Spheromancer!",
                             "zh_CN": "\u6211\u4eec\u4f1a\u518d\u6b21\u89c1\u9762\u7684\uff0c\u84dd\u53d1\u7684\u6c14\u5706\u4f7f\u8005\uff01<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u307e\u305f\u4f1a\u304a\u3046\u3001\u9752\u3044\u9aea\u306e\u30b9\u30d5\u30a3\u30ed\u30de\u30f3\u30b5\u30fc\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -15009,7 +15011,7 @@
                     }, {
                         "message": {
                             "en_US": "Being defeated so quickly...\\. this smells like \\c[1]cheating\\c[0] to me!",
-                            "pt_BR": "Sendo derrotado tão rapidamente...\\. isso cheira a \\c[1]trapaça\\c[0] para mim!",
+                            "pt_BR": "Sendo derrotada tão rapidamente...\\. isso cheira a \\c[1]trapaça\\c[0] para mim!",
                             "de_DE": "So schnell besiegt zu werden...\\. Das riecht f\u00fcr mich nach einem \\c[1]Cheat\\c[0]!",
                             "zh_CN": "\u5c45\u7136\u8fd9\u4e48\u5feb\u88ab\u51fb\u8d25...\\.\u611f\u89c9\u50cf\u662f\\c[1]\u4f5c\u5f0a\\c[0]\uff01<<A<<[CHANGED 2019\/08\/16]",
                             "ja_JP": "\u3053\u3093\u306a\u306b\u65e9\u304f\u5012\u3055\u308c\u308b\u3068\u306f...\\.\n\u3069\u3046\u3082\\c[1]\u30c1\u30fc\u30c8\\c[0]\u306e\u306b\u304a\u3044\u304c\u3059\u308b\u305e\uff01<<A<<[CHANGED 2019\/08\/16]",
@@ -15062,7 +15064,7 @@
                 }, {
                     "message": {
                         "en_US": "You are nowhere near unlocking the true potential of the Spheromancer!",
-                        "pt_BR": "Voc\u00ea est\u00e1 longe de desbloquear o verdadeiro potencial do Spheromancer!",
+                        "pt_BR": "Voc\u00ea est\u00e1 longe de desbloquear o verdadeiro potencial do Esferomante!",
                         "de_DE": "Denn du bist weit davon entfernt, das wahre Potential eines Spheromancers auszusch\u00f6pfen!",
                         "fr_FR": "fr_FR",
                         "langUid": 458,
@@ -15206,7 +15208,7 @@
             }, {
                 "message": {
                     "en_US": "Until then, blue-haired Spheromancer!",
-                    "pt_BR": "At\u00e9 mais, Spheromancer de cabelo azul!",
+                    "pt_BR": "At\u00e9 mais, Esferomante de cabelo azul!",
                     "de_DE": "Bis dann, blauhaariger Spheromancer!",
                     "fr_FR": "fr_FR",
                     "langUid": 463,
@@ -15709,7 +15711,7 @@
             }, {
                 "message": {
                     "en_US": "So let's play together again next time, d'accord?",
-                    "pt_BR": "Vamos jogar juntos novamente da pr\u00f3xima vez, d'accord?",
+                    "pt_BR": "Vamos jogar juntas novamente da pr\u00f3xima vez, d'accord?",
                     "de_DE": "Lass uns das n\u00e4chste Mal wieder zusammen spielen, d'accord?",
                     "fr_FR": "fr_FR",
                     "langUid": 480,
@@ -16873,7 +16875,7 @@
             }, {
                 "message": {
                     "en_US": "Come on, Lea!\\. Monsieur is waiting for his beating.",
-                    "pt_BR": "Vamos, Lea! \\. Monsieur est\u00e1 doidinho pra levar um surra.",
+                    "pt_BR": "Vamos, Lea!\\. Monsieur est\u00e1 doidinho pra levar um surra.",
                     "de_DE": "Komm schon, Lea!\\. Monsieur wartet auf seine Abreibung.",
                     "fr_FR": "fr_FR",
                     "langUid": 510,
@@ -16967,7 +16969,7 @@
                 },
                 "text": {
                     "en_US": "But I've heard that we could actually do more quests in Rookie Harbor now.",
-                    "pt_BR": "Mas ouvi dizer que poder\u00edamos fazer mais miss\u00f5es em Rookie Harbor agora.",
+                    "pt_BR": "Mas ouvi dizer que podemos fazer mais miss\u00f5es no Porto do Novato agora.",
                     "de_DE": "Hab aber geh\u00f6rt, in Rookie Harbor soll's getz weitere Quests geben.",
                     "fr_FR": "fr_FR",
                     "langUid": 521,
@@ -18363,7 +18365,7 @@
             }, {
                 "message": {
                     "en_US": "Oh, by the way!\\. It seems that Emilie is online as-",
-                    "pt_BR": "Ah, por falar nisso!\\. Parece que Emilie est\u00e1 online enquanto...",
+                    "pt_BR": "Ah, por falar nisso!\\. Parece que Emilie est\u00e1 online tam-",
                     "de_DE": "Ach, \u00fcbrigens!\\. Emilie scheint gerade online zu s...",
                     "fr_FR": "fr_FR",
                     "langUid": 546,
@@ -18566,7 +18568,7 @@
             }, {
                 "message": {
                     "en_US": "Anyway, I already went ahead a bit and had a look around Bergen Trail.",
-                    "pt_BR": "De qualquer forma, j\u00e1 avancei um pouco e dei uma olhada na Trilha de Bergen.",
+                    "pt_BR": "Então, j\u00e1 avancei um pouco e dei uma olhada na Trilha de Bergen.",
                     "de_DE": "Jedenfalls bin ich schon ein wenig vorgegangen und habe mich auf dem Bergen-Trail etwas umgesehen.",
                     "fr_FR": "fr_FR",
                     "langUid": 516,
@@ -18638,7 +18640,7 @@
             }, {
                 "message": {
                     "en_US": "I think the next dungeon will be in that mountain village, non?",
-                    "pt_BR": "Eu acho que a pr\u00f3xima dungeon estar\u00e1 naquela aldeia de montanha, non?",
+                    "pt_BR": "Eu acho que a pr\u00f3xima dungeon estar\u00e1 naquela aldeia da montanha, non?",
                     "de_DE": "Ich sch\u00e4tze mal, der n\u00e4chste Dungeon wird in diesem Bergdorf sein, non?",
                     "fr_FR": "fr_FR",
                     "langUid": 530,
@@ -18728,7 +18730,7 @@
             }, {
                 "message": {
                     "en_US": "Tr\u00e8s bien!\\. Make sure you don't enter that dungeon without me, d'accord?",
-                    "pt_BR": "Tr\u00e8s bien!\\. Certifique-se de n\u00e3o entrar nessa dungeon sem mim, d'accord?",
+                    "pt_BR": "Tr\u00e8s bien!\\. Não entre nessa dungeon sem mim, d'accord?",
                     "de_DE": "Tr\u00e8s bien!\\. Achte drauf, dass du den Dungeon nicht ohne mich erkundest, d'accord?",
                     "fr_FR": "fr_FR",
                     "langUid": 534,

@@ -469,7 +469,7 @@
             "entity": { "global": true, "name": "wat2" },
             "text": {
               "en_US": "Oh, that's a Ball-Recharger! ",
-              "pt_BR": "Oh, isso é um Recarregador de Esferas! ",
+              "pt_BR": "Ah, isso é um Recarregador de Esferas!",
               "de_DE": "Oh, das ist ein Ball-Auflader!",
               "fr_FR": "fr_FR",
               "langUid": 4,
@@ -497,7 +497,7 @@
             "entity": { "global": true, "name": "wat2" },
             "text": {
               "en_US": "Yeah, I forgot you joined CrossWorlds a bit later.",
-              "pt_BR": "Sim, esqueci que você entrou no CrossWorlds um pouco depois.",
+              "pt_BR": "Sim, esqueci que você entrou em CrossWorlds um pouco depois.",
               "de_DE": "Ach ja, du hast ja erst sp\u00e4ter mit CrossWorlds angefangen.",
               "fr_FR": "fr_FR",
               "langUid": 3,
@@ -525,7 +525,7 @@
             "entity": { "global": true, "name": "wat2" },
             "text": {
               "en_US": "There was even an extra gauge for that in the HUD.",
-              "pt_BR": "Havia até um medidor extra para isso na HUD.",
+              "pt_BR": "Tinha até um medidor extra para isso na HUD.",
               "de_DE": "Es gab daf\u00fcr sogar eine eigene Anzeige oben in der Statusleiste.",
               "fr_FR": "fr_FR",
               "langUid": 7,
@@ -539,7 +539,7 @@
             "entity": { "global": true, "name": "wat1" },
             "text": {
               "en_US": "Really? Wow, I can't imagine having fun doing that.",
-              "pt_BR": "Sério? Uau, não consigo imaginar me divertindo fazendo isso.",
+              "pt_BR": "Sério? Uau, isso devia ser muito chato.",
               "de_DE": "Echt? Ich kann mir gar nicht vorstellen, dass sowas Spa\u00df machen k\u00f6nnte.",
               "fr_FR": "fr_FR",
               "langUid": 8,
@@ -831,7 +831,7 @@
                 {
                   "message": {
                     "en_US": "Keha, sae ye want tae ken somethin' abit th' \\c[3]legendary bunny\\c[0], aye?",
-                    "pt_BR": "Keha, você quer saber de algo sobre o \\c[3]coelho léndario\\c[0], né?",
+                    "pt_BR": "Keha, você quer saber sobre o \\c[3]coelho léndario\\c[0], né?",
                     "de_DE": "Khaha! Du wills' als' \u00fcba de \\c[3]legend\u00e4re Hase\\c[0] babbele, wa?",
                     "fr_FR": "fr_FR",
                     "langUid": 19,
@@ -942,7 +942,7 @@
                 {
                   "message": {
                     "en_US": "Ye can teel Jean Ah micht hae foond thes device, but she still needs somethin' else.",
-                    "pt_BR": "Talvez Jean possa ter encontrado esse dispositivo, mas ela ainda precisa de outra coisa.",
+                    "pt_BR": "Talvez Jean tenha encontrado esse dispositivo, mas ela ainda precisa de outra coisa.",
                     "de_DE": "Kanns' Jean sage', ih hab det Jer\u00e4t jefunde, aba se broach noch was anneres.",
                     "fr_FR": "fr_FR",
                     "langUid": 25,
@@ -1018,7 +1018,7 @@
                 {
                   "message": {
                     "en_US": "Ye micht foond it mair when ye gab tae uir triblader mukker.",
-                    "pt_BR": "Se você quiser saber mais é melhor com nosso amigo triblader.",
+                    "pt_BR": "Se você quiser saber mais é melhor com nosso amigo tricorte.",
                     "de_DE": "V'leich' we\u00df unsa Tribleda-Kumbel meah dar\u00fcba.",
                     "fr_FR": "fr_FR",
                     "langUid": 29,

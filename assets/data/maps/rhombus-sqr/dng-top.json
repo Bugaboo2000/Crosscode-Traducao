@@ -2529,7 +2529,7 @@
         "map": "rhombus-dng.entrance",
         "teleportLabel": {
           "en_US": "Rhombus Dungeon #3",
-          "pt_BR": "Rhombus Dungeon #3",
+          "pt_BR": "Caverna Losango #3",
           "de_DE": "Rhombus Dungeon #3",
           "fr_FR": "fr_FR",
           "langUid": 1,
@@ -2976,7 +2976,7 @@
               {
                 "message": {
                   "en_US": "It is important that we do this part the official way to avoid suspicion.",
-                  "pt_BR": "É importante que faça essa parte da maneira oficial para não levantar suspeitas.",
+                  "pt_BR": "É importante que faça essa parte de maneira oficial para não levantar suspeitas.",
                   "de_DE": "Es ist wichtig, dass wir ab hier den offiziellen Weg gehen, um keinen Verdacht zu erregen.",
                   "fr_FR": "fr_FR",
                   "langUid": 13,
@@ -3265,7 +3265,7 @@
               {
                 "message": {
                   "en_US": "You are in fact not the first player with these problems.",
-                  "pt_BR": "Na verdade, você não é o primeiro jogador com esses problemas.",
+                  "pt_BR": "Na verdade, você não é a primeira jogadora com esses problemas.",
                   "de_DE": "Du bist nicht der erste Spieler mit dieser Problematik.",
                   "fr_FR": "fr_FR",
                   "langUid": 22,
@@ -3910,7 +3910,7 @@
                   {
                     "message": {
                       "en_US": "S-Sorry... that came across the wrong way.",
-                      "pt_BR": "D-Desculpe... isso soou da forma errada.",
+                      "pt_BR": "D-Desculpa... acho que exagerei.",
                       "de_DE": "T-Tut mir leid... Das war wohl etwas daneben.",
                       "fr_FR": "fr_FR",
                       "langUid": 42,
@@ -4014,7 +4014,7 @@
                   {
                     "message": {
                       "en_US": "CrossWorlds expands over the whole land you see over there.",
-                      "pt_BR": "CrossWorlds expande sobre toda a terra que você vê ali.",
+                      "pt_BR": "CrossWorlds se expande sobre toda a terra que você vê ali.",
                       "de_DE": "CrossWorlds erstreckt sich \u00fcber das ganze Land, das du von hier oben sehen kannst.",
                       "fr_FR": "fr_FR",
                       "langUid": 45,
@@ -5747,7 +5747,7 @@
             "entity": { "global": true, "name": "oceanHexa1" },
             "text": {
               "en_US": "Ocean as far as the eye can see.",
-              "pt_BR": "O oceano vai tão longe quanto os olhos podem ver.",
+              "pt_BR": "Esse é um oceano enorme.",
               "de_DE": "Meer, so weit das Auge reicht.",
               "fr_FR": "fr_FR",
               "langUid": 100,
@@ -5775,7 +5775,7 @@
             "entity": { "global": true, "name": "oceanHexa2" },
             "text": {
               "en_US": "It makes you wonder what kind of sea life you'd find down there.",
-              "pt_BR": "Fico me perguntando, que tipo de vida marinha você encontraria lá embaixo?",
+              "pt_BR": "Eu queria saber, que tipo de vida marinha existe lá embaixo?",
               "de_DE": "... fragt man sich doch, was da unten wohl f\u00fcr Meereskreaturen hausen.",
               "fr_FR": "fr_FR",
               "langUid": 102,
@@ -5789,7 +5789,7 @@
             "entity": { "global": true, "name": "oceanHexa1" },
             "text": {
               "en_US": "Hell yeah! You think we can just jump down into the water with our avatars and explore?",
-              "pt_BR": "Eu também! Você acha que podemos simplesmente pular na água com nossos avatares e explorar?",
+              "pt_BR": "Eu também! Você acha que podemos pular na água com nossos avatares e explorar?",
               "de_DE": "Jaha! Glaubst du, wir k\u00f6nnen hier einfach ins Wasser springen und das Meer erkunden?",
               "fr_FR": "fr_FR",
               "langUid": 103,

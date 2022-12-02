@@ -12197,7 +12197,7 @@
                 {
                   "message": {
                     "en_US": "Look at that beast, grazing there like nothing happened!\\. And there's more of them in the bushes, just waiting for a victim!",
-                    "pt_BR": "Olha aquela besta, pastando lá como se nada tivesse acontecido!\\. E há mais deles no mato, apenas esperando por uma vítima!",
+                    "pt_BR": "Olha aquela besta, pastando lá como se nada tivesse acontecido!\\. E tem mais deles no mato, apenas esperando por uma vítima!",
                     "de_DE": "Schau dir dieses Biest an, grast da rum, als w\u00e4re nichts passiert.\\. Da sind aber noch mehr. Die verstecken sich in den B\u00fcschen und warten nur auf ihre Opfer!",
                     "fr_FR": "fr_FR",
                     "langUid": 64,
@@ -12258,7 +12258,7 @@
                 {
                   "message": {
                     "en_US": "But... you were sent to help me, right?\\. I worked all day collecting that stuff, we need to get it back!",
-                    "pt_BR": "Mas... você foi enviada para me ajudar, certo?\\. Trabalhei o dia todo coletando essas coisas, precisamos recuperá-las!",
+                    "pt_BR": "Mas... você foi enviada para me ajudar, não foi?\\. Trabalhei o dia todo coletando essas coisas, precisamos recuperá-las!",
                     "de_DE": "Aber... du wurdest geschickt, um mir zu helfen, stimmt's?\\. Ich habe den ganzen Tag gebraucht, um all das zu sammeln - wir m\u00fcssen es zur\u00fcckholen!",
                     "fr_FR": "fr_FR",
                     "langUid": 65,
@@ -12293,7 +12293,7 @@
                 {
                   "message": {
                     "en_US": "Well...\\. you have to do it.\\. I have to...\\. watch for reinforcements.\\. So...\\. good luck!",
-                    "pt_BR": "Bem...\\. você tem que fazer isso.\\. Eu tenho que...\\. observar os reforços. \\. Então...\\. boa sorte!",
+                    "pt_BR": "Bem...\\. você tem que fazer isso.\\. Eu tenho que...\\. observar os reforços.\\. Então...\\. boa sorte!",
                     "de_DE": "Das hei\u00dft...\\. \u00f6hm...\\. du musst es tun!\\. Ich muss hier doch...\\. nach Verst\u00e4rkung Ausschau halten!\\. Genau!\\. Also...\\. Viel Gl\u00fcck!",
                     "fr_FR": "fr_FR",
                     "langUid": 67,
@@ -12368,7 +12368,7 @@
               {
                 "message": {
                   "en_US": "Go slaughter them and bring me the package!\\. I'll be right here, surveying the situation!",
-                  "pt_BR": "Vá derrota-los e me traga o pacote!\\. Estarei bem aqui, avaliando a situação!",
+                  "pt_BR": "Vá derrota-los e me traga o pacote!\\. Estarei bem aqui, observando a situação!",
                   "de_DE": "Geh sie schlachten und bring mir das Essenspaket!\\. Ich bleibe hier und behalte die Situation im Auge!",
                   "fr_FR": "fr_FR",
                   "langUid": 26,
@@ -12544,7 +12544,7 @@
                 {
                   "message": {
                     "en_US": "Thanks a bunch!\\. You totally saved my butt here!\\. But now I gotta get going and deliver these before it's too late.\\. So...\\. bye!",
-                    "pt_BR": "Muitíssimo obrigado!\\. Você salvou meu emprego aqui!\\. Mas agora preciso ir e entregar antes que seja tarde demais. \\. Então...\\. tchau!",
+                    "pt_BR": "Muitíssimo obrigada!\\. Você salvou meu emprego aqui!\\. Mas agora preciso ir e entregar antes que seja tarde demais. \\. Então...\\. tchau!",
                     "de_DE": "Vielen Dank nochmal!\\. Du hast mir hier total den Hintern gerettet!\\. Aber nun muss ich los und sie abliefern, bevor es zu sp\u00e4t ist.\\. Also...\\. Tsch\u00fcssi!",
                     "fr_FR": "fr_FR",
                     "langUid": 70,
@@ -13438,7 +13438,7 @@
                 {
                   "message": {
                     "en_US": "You really saved my butt there.\\. I would've lost weeks of work if some critter had decided to eat it.",
-                    "pt_BR": "Você realmente salvou minha pele lá. \\. Eu teria perdido semanas de trabalho se alguma criatura tivesse decidido comê-lo.",
+                    "pt_BR": "Você salvou minha pele lá.\\. Eu teria perdido semanas de trabalho se alguma criatura tivesse decidido comê-lo.",
                     "de_DE": "Da hast du mir wirklich meinen Hintern gerettet.\\. Wenn irgendein Vieh das Teil einfach gefressen h\u00e4tte, w\u00e4re meine wochenlange Arbeit f\u00fcr die Katz gewesen...",
                     "fr_FR": "fr_FR",
                     "langUid": 104,
@@ -13476,7 +13476,7 @@
                 {
                   "message": {
                     "en_US": "Cut that one down and they might just become your usual pack of beasts again.",
-                    "pt_BR": "Se derrotarmos ele, talvez o resto voltem ao normal novamente.",
+                    "pt_BR": "Se derrotarmos ele, talvez o resto volte ao normal novamente.",
                     "de_DE": "Wenn wir ihn aus'm Verkehr ziehen, werden die anderen Viecher vielleicht wieder normal.",
                     "fr_FR": "fr_FR",
                     "langUid": 106,
@@ -13530,7 +13530,7 @@
                 {
                   "message": {
                     "en_US": "It's in a cave across the river northeast of here.\\. Follow me!",
-                    "pt_BR": "Está em uma caverna do outro lado do rio a nordeste daqui. \\. Me siga!",
+                    "pt_BR": "Ele está em uma caverna do outro lado do rio a nordeste daqui.\\. Me siga!",
                     "de_DE": "Sie ist in der H\u00f6hle da hinten auf der anderen Seite des Flusses.\\. Folg mir!",
                     "fr_FR": "fr_FR",
                     "langUid": 109,
@@ -13944,6 +13944,7 @@
           {
             "name": {
               "en_US": "Tucos",
+              "pt_BR": "Tucos",
               "langUid": 131,
               "zh_CN": "\u56fe\u514b\u65af",
               "de_DE": "Tucos",
@@ -14006,7 +14007,7 @@
           {
             "message": {
               "en_US": "Judging by that satisfied look on your face and the noise you made in there I assume you got it?",
-              "pt_BR": "A julgar por esse olhar satisfeito em seu rosto e o barulho que você fez lá, presumo que você conseguiu?",
+              "pt_BR": "A julgar pela sua cara e o barulho que você fez lá, presumo que você conseguiu?",
               "de_DE": "So wie du strahlst und nach dem Krach gerade, nehm' ich an, du hast ihn erledigt?",
               "fr_FR": "fr_FR",
               "langUid": 110,
@@ -14041,7 +14042,7 @@
           {
             "message": {
               "en_US": "Ha, that should teach those things to not mess with a Falldiver Pioneer.",
-              "pt_BR": "Ha, isso deveria ensinar essas coisas a não mexer com um Explorador do Falldiver.",
+              "pt_BR": "Ha, isso deve ensinar essas coisas a não mexer com um Explorador dos Mergulhadores.",
               "de_DE": "Ha! Die werden's sich dreimal \u00fcberlegen, sich nochmal mit einem Pionier der Herbsttaucher anzulegen!",
               "fr_FR": "fr_FR",
               "langUid": 112,
@@ -14147,7 +14148,7 @@
           {
             "message": {
               "en_US": "If that Hillkat bigshot had it then it might be extremely useful.\\. HQ should definitely give it a thorough scan.",
-              "pt_BR": "Se aquele Chefe Topeira tinha isso, talvez seja extremamente útil.\\. Vou leva-lo pro QG, eles definitivamente vão querer dar uma olhada nisso.",
+              "pt_BR": "Se aquele Chefe Topeira tinha isso, talvez seja extremamente útil.\\. Vou leva-lo pro QG, eles vão querer dar uma olhada nisso.",
               "de_DE": "Wenn dieser Hillkat-Obermotz es hatte, dann k\u00f6nnte das Teil extrem n\u00fctzlich sein.\\. Das Hauptquartier sollte das auf jeden Fall mal untersuchen.",
               "fr_FR": "fr_FR",
               "langUid": 115,

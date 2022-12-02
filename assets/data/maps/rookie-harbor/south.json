@@ -2018,7 +2018,7 @@
               {
                 "message": {
                   "en_US": "Welcome to Rookie Harbor!",
-                  "pt_BR": "Bem-vindo ao Porto do Novato!",
+                  "pt_BR": "Bem-vinda ao Porto do Novato!",
                   "de_DE": "Willkommen in Rookie Harbor!",
                   "fr_FR": "fr_FR",
                   "langUid": 2,
@@ -2419,7 +2419,7 @@
               {
                 "message": {
                   "en_US": "Now I really wonder how they taste...",
-                  "pt_BR": "Agora eu me pergunto como eles sabem disso...",
+                  "pt_BR": "Queria saber como eles sabem disso...",
                   "de_DE": "Jetzt frage ich mich wirklich, wie sie wohl schmecken...",
                   "fr_FR": "fr_FR",
                   "langUid": 23,
@@ -2796,7 +2796,7 @@
             "entity": { "global": true, "name": "waitingHexa" },
             "text": {
               "en_US": "C'mon, relax. There is still time.",
-              "pt_BR": "Calma, relaxa. Ainda da tempo.",
+              "pt_BR": "Calma, relaxa. Ainda dá tempo.",
               "de_DE": "Entspann dich. Wir haben doch noch Zeit.",
               "fr_FR": "fr_FR",
               "langUid": 36,
@@ -2838,7 +2838,7 @@
             "entity": { "global": true, "name": "waitingHexa" },
             "text": {
               "en_US": "Don't be so serious about it. It's supposed to be fun, remember?",
-              "pt_BR": "Não seja tão sério em relação a isso. É para ser divertido, lembra?",
+              "pt_BR": "Não leve isso a sério. É para ser divertido, lembra?",
               "de_DE": "Ach, mach kein Drama draus. Das Spiel soll doch Spa\u00df machen, schon vergessen?",
               "fr_FR": "fr_FR",
               "langUid": 39,
@@ -3956,7 +3956,7 @@
           {
             "message": {
               "en_US": "It's like we are in some kind of medieval fantasy world, non?",
-              "pt_BR": "É como se estivéssemos em algum tipo de mundo de fantasia medieval, não?",
+              "pt_BR": "Parece que a gente está em algum tipo de mundo de fantasia medieval, non?",
               "de_DE": "Wie in einer mittelalterlichen Fantasy-Welt, non?",
               "fr_FR": "fr_FR",
               "langUid": 81,
@@ -4004,7 +4004,7 @@
           {
             "message": {
               "en_US": "But I haven't seen him so far.",
-              "pt_BR": "Mas eu não o vi até agora.",
+              "pt_BR": "Mas eu não vi ele até agora.",
               "de_DE": "Aber ich habe ihn bisher nicht gesehen.",
               "fr_FR": "fr_FR",
               "langUid": 83,
@@ -4716,7 +4716,7 @@
                   {
                     "message": {
                       "en_US": "Yeah, you can't open it yet.",
-                      "pt_BR": "Sim, você não pode abri-lo ainda.",
+                      "pt_BR": "Sim, você não pode abrir isso ainda.",
                       "de_DE": "Die kannst du jetzt noch nicht \u00f6ffnen.<<A<<[CHANGED 2021/05/22]",
                       "zh_CN": "\u73b0\u5728\u7684\u4f60\u8fd8\u6ca1\u6cd5\u6253\u5f00\u5b83\u3002<<A<<[CHANGED 2021/05/22]",
                       "ja_JP": "\u3042\u3042\u3001\u307e\u3060\u958b\u3051\u3089\u308c\u306a\u3044\u3088\u3002<<A<<[CHANGED 2021/05/22]",
@@ -5175,7 +5175,7 @@
           {
             "message": {
               "en_US": "Oh!\\. That's the \"Nerd Hub\", right?",
-              "pt_BR": "Ah!\\. é tipo um \"Nerd Hub\", certo?",
+              "pt_BR": "Ah!\\. é tipo uma \"Central dos Nerds\", non?",
               "de_DE": "Oh!\\. Das ist der \"Nerd Hub\", stimmt's?",
               "fr_FR": "fr_FR",
               "langUid": 105,
@@ -5239,7 +5239,7 @@
           {
             "message": {
               "en_US": "It's just a place to go back to whenever you're confused about something.",
-              "pt_BR": "É apenas um lugar para onde você pode voltar sempre que estiver confuso sobre algo.",
+              "pt_BR": "É apenas um lugar para onde você pode voltar sempre que estiver confusa sobre algo.",
               "de_DE": "Es ist vor allem eine gute Anlaufstelle, falls ihr irgendetwas nicht versteht.",
               "fr_FR": "fr_FR",
               "langUid": 109,
@@ -5755,7 +5755,7 @@
                 {
                   "message": {
                     "en_US": "Okay... I guess that's the end of the line then.\\. It's really a shame...",
-                    "pt_BR": "Okay... Acho que é o fim da linha então.\\. É realmente uma pena...",
+                    "pt_BR": "Caramba... Acho que é o fim da linha então.\\. É realmente uma pena...",
                     "de_DE": "Okay... Sch\u00e4tze, das Ende der Fahnenstange ist wohl erreicht.\\. Schade...",
                     "fr_FR": "fr_FR",
                     "langUid": 302,
