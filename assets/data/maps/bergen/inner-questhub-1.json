@@ -1583,7 +1583,7 @@
                 {
                   "message": {
                     "en_US": "This detector will notify you when there is lost equipment in the \\c[3]current room\\c[0] of the Temple Mine.",
-                    "pt_BR": "Este detector irá notificá-lo quando houver equipamento perdido na \\c[3]sala atual\\c[0] do Templo da Mina.",
+                    "pt_BR": "Este detector irá notificá-la quando houver equipamento perdido na \\c[3]sala atual\\c[0] da Mina do Templo.",
                     "de_DE": "Dieser Detektor wird dich benachrichtigen, wenn sich verlorene Ausr\u00fcstung im \\c[3]aktuellen Raum\\c[0] der \\c[3]Tempelmine\\c[0] befindet.",
                     "zh_CN": "\u5f53\u4f60\u4e0e\u5931\u843d\u88c5\u5907\u51fa\u4e8e\\c[3]\u540c\u4e00\u4e2a\u623f\u95f4\u65f6\\c[0]\uff0c\u5b83\u4f1a\u5bf9\u4f60\u8fdb\u884c\u63d0\u793a\u3002<<A<<[CHANGED 2018/08/01]",
                     "ja_JP": "\u3053\u306e\u63a2\u77e5\u6a5f\u306f\u3001\u7d1b\u5931\u3055\u308c\u305f\u6a5f\u6750\u304c\n\u795e\u6bbf\u9271\u5c71\u306e\\c[3]\u4eca\u3044\u308b\u90e8\u5c4b\\c[0]\u306b\u3042\u308b\u3068\u3001\n\u77e5\u3089\u305b\u3066\u304f\u308c\u308b\u3093\u3067\u3059\u3002<<A<<[CHANGED 2018/08/01]",
@@ -2345,7 +2345,7 @@
                     {
                       "message": {
                         "en_US": "Stay vigilant, Seeker.",
-                        "pt_BR": "Fique atento, Seeker.",
+                        "pt_BR": "Fique atenta, Seeker.",
                         "de_DE": "Bleib wachsam, Seeker.",
                         "zh_CN": "\u4fdd\u6301\u8b66\u60d5\uff0c\u63a2\u7d22\u8005\u3002<<A<<[CHANGED 2018/08/01]",
                         "ja_JP": "\u6cb9\u65ad\u3057\u306a\u3044\u3053\u3068\u3060\u3001\u63a2\u7d22\u8005\u3088\u3002<<A<<[CHANGED 2018/08/01]",
@@ -2451,7 +2451,7 @@
               {
                 "message": {
                   "en_US": "You should be able to find all of those somewhere within the Temple Mine.\\. Please stay vigilant when exploring it.",
-                  "pt_BR": "Você deve ser capaz de encontrar tudo isso em algum lugar dentro do Templo da Mina.\\. Por favor, fique atento ao explorá-lo.",
+                  "pt_BR": "Você deve ser capaz de encontrar tudo isso em algum lugar dentro do Mina do Templo.\\. Por favor, fique atento ao explorá-lo.",
                   "de_DE": "Du solltest sie irgendwo in der Tempelmine finden.\\. Halte also deine Augen offen.",
                   "fr_FR": "fr_FR",
                   "langUid": 29,
@@ -2565,7 +2565,7 @@
                 {
                   "message": {
                     "en_US": "Truly, this is great news!\\. The entire town of Bergen is in your debt!",
-                    "pt_BR": "Verdadeiramente, esta é uma ótima notícia!\\. Toda a cidade de Bergen está em dívida com você!",
+                    "pt_BR": "Esta é uma ótima notícia!\\. Toda a cidade de Bergen está em dívida com você!",
                     "de_DE": "Das sind wahrhaft gro\u00dfartige Neuigkeiten!\\. Ganz Bergen steht in deiner Schuld!",
                     "fr_FR": "fr_FR",
                     "langUid": 33,
@@ -2600,7 +2600,7 @@
                 {
                   "message": {
                     "en_US": "Here, take these humble rewards.\\. You have earned them three times over!",
-                    "pt_BR": "Aqui, pegue essas humildes recompensas. \\. Você merece isso e muito mais!",
+                    "pt_BR": "Aqui, pegue essas humildes recompensas.\\. Você merece isso e muito mais!",
                     "de_DE": "Hier, nimm dies als Zeichen unserer Dankbarkeit.\\. Du hast es dir doppelt und dreifach verdient!",
                     "fr_FR": "fr_FR",
                     "langUid": 35,
@@ -3435,7 +3435,7 @@
                 {
                   "message": {
                     "en_US": "There ya are!",
-                    "pt_BR": "Aí está você!",
+                    "pt_BR": "Você chegou bem na hora!",
                     "de_DE": "Da bischte ja!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u597d\u5440!",
@@ -3597,7 +3597,7 @@
                 {
                   "message": {
                     "en_US": "Made it all by mahself. Here take it, sweetheart.",
-                    "pt_BR": "Tudo isso feito por mim. Pegue, queridinha.",
+                    "pt_BR": "Tudo isso feito por mim. Pegue, querida.",
                     "de_DE": "Hann i s\u00e4lbr gmacht. Hie, fir di, M\u00e4dle.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u8fd9\u53ef\u662f\u6211\u81ea\u5df1\u52a8\u624b\u4f5c\u7684\u3002\u6765\uff0c\u7ed9\u4f60\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3735,7 +3735,7 @@
                 {
                   "message": {
                     "en_US": "A'right, Ah'll be off now. Y'all be good now!",
-                    "pt_BR": "Certo, eu vou embora agora. Tchauzinho!",
+                    "pt_BR": "Certo, eu vou embora agora. Inté!",
                     "de_DE": "Na denne, isch moche mich mal vom Agger. Bleibsch gesund, ne?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u884c\uff0c\u90a3\u6211\u8d70\u4e86\u3002\u4f60\u81ea\u5df1\u4fdd\u91cd\u3002<<A<<[CHANGED 2018/09/19]",
@@ -3929,7 +3929,7 @@
             "entity": { "global": true, "name": "bestCityDiag1" },
             "text": {
               "en_US": "Yeah, not bad.\\. Although, I prefer the rest area in Basin Keep.",
-              "pt_BR": "Sim, nada mal.\\. Embora, eu prefira a área de descanso em Basin Keep.",
+              "pt_BR": "Sim, nada mal.\\. Mas, eu prefiro a área de descanso na Baixada Bastião.",
               "langUid": 849,
               "ko_KR": "\uc751, \ub098\uc058\uc9c4 \uc54a\ub124.\\. \ub09c \uc720\uc5ed\uc758 \uc544\uc131\uc5d0 \uc788\ub294 \ud734\uac8c \uacf5\uac04\uc774 \ub354 \uc88b\uae34 \ud558\uc9c0\ub9cc.<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u55ef\uff0c\u53ef\u4ee5\u3002\\.\u4e0d\u8fc7\u6211\u8fd8\u662f\u559c\u6b22\u5df4\u8f9b\u5821\u7684\u4f11\u606f\u533a\u3002<<A<<[CHANGED 2019/01/10]",
@@ -3968,7 +3968,7 @@
             "entity": { "global": true, "name": "bestCityDiag2" },
             "text": {
               "en_US": "Oh.\\. Wait, you've been that far into the game?",
-              "pt_BR": "Oh.\\. Espera, você já foi tão longe no jogo?",
+              "pt_BR": "Ah.\\. Espera, você já foi tão longe no jogo?",
               "langUid": 852,
               "ko_KR": "\uadf8\ub807\uad6c\ub098.\\. \uc7a0\uae50, \ubc8c\uc368 \uac70\uae30\uae4c\uc9c0 \uc9c4\ud589\ud588\ub2e4\uace0?<<A<<[CHANGED 2019/01/10]",
               "zh_CN": "\u54e6\u3002\\.\u7b49\u7b49\uff0c\u4f60\u90fd\u5df2\u7ecf\u6253\u5230\u5df4\u8f9b\u5821\u4e86\uff1f<<A<<[CHANGED 2019/01/10]",

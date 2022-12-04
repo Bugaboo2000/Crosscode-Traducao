@@ -5574,7 +5574,7 @@
       },
       "description": {
         "en_US": "The pass for \\c[3]Temple Mine\\c[0]. Acquired after extensive amounts of forced exposition.",
-        "pt_BR": "A passagem para o \\c[3]Templo da Mina\\c[0]. Adquirido ap\u00f3s muitas explica\u00e7\u00f5es chatas.",
+        "pt_BR": "A passagem para o \\c[3]Mina do Templo\\c[0]. Adquirido ap\u00f3s muitas explica\u00e7\u00f5es chatas.",
         "de_DE": "Der Pass f\u00fcr die \\c[3]Tempelmine\\c[0].",
         "fr_FR": "undefined",
         "langUid": 720,
@@ -5696,7 +5696,7 @@
       },
       "description": {
         "en_US": "The master key for \\c[3]Temple Mine\\c[0].",
-        "pt_BR": "A chave mestra para o \\c[3]Templo da Mina\\c[0].",
+        "pt_BR": "A chave mestra para o \\c[3]Mina do Templo\\c[0].",
         "de_DE": "Der goldene Schl\u00fcssel der \\c[3]Tempelmine\\c[0].",
         "fr_FR": "undefined",
         "zh_CN": "\u5f00\u542f\\c[3]\u795e\u5e99\u77ff\u4e95\\c[0]\u7684\u4e3b\u94a5\u5319\u3002<<A<<[CHANGED 2018/09/17]",
@@ -6949,7 +6949,7 @@
       "order": 60,
       "name": {
         "en_US": "Autumn Salve",
-        "pt_BR": "Seiva de Autumn",
+        "pt_BR": "Seiva do Outono",
         "de_DE": "Herbstsalbe",
         "langUid": 443,
         "zh_CN": "\u79cb\u8272\u836f\u818f",
@@ -10992,11 +10992,11 @@
       "icon": "item-sword",
       "equipType": "ARM",
       "params": { "elemFactor": [1, 1, 1, 1], "attack": 50, "defense": 58 },
-        "properties": { "SPIKE_DMG": 1.3, "GUARD_STRENGTH": 1.25 },
-        "effect": { "sheet": "", "name": null },
-        "noTrack": false,
-        "isScalable": false,
-        "noCount": false
+      "properties": { "SPIKE_DMG": 1.3, "GUARD_STRENGTH": 1.25 },
+      "effect": { "sheet": "", "name": null },
+      "noTrack": false,
+      "isScalable": false,
+      "noCount": false
     },
     {
       "order": 52,
@@ -15139,11 +15139,11 @@
       "icon": "item-sword",
       "equipType": "ARM",
       "params": { "elemFactor": [1, 1, 1, 1], "attack": 69, "defense": 82 },
-        "properties": { "GUARD_STRENGTH": 1.3, "SPIKE_DMG": 1.3 },
-        "effect": { "sheet": "", "name": null },
-        "noTrack": false,
-        "isScalable": false,
-        "noCount": false
+      "properties": { "GUARD_STRENGTH": 1.3, "SPIKE_DMG": 1.3 },
+      "effect": { "sheet": "", "name": null },
+      "noTrack": false,
+      "isScalable": false,
+      "noCount": false
     },
     {
       "name": {
@@ -17545,12 +17545,12 @@
       "icon": "item-sword",
       "equipType": "ARM",
       "params": { "elemFactor": [1, 1, 1, 1], "attack": 83, "defense": 99 },
-        "properties": { "SPIKE_DMG": 1.35, "GUARD_STRENGTH": 1.3 },
-        "order": 73,
-        "effect": { "sheet": "", "name": null },
-        "noTrack": false,
-        "isScalable": false,
-        "noCount": false
+      "properties": { "SPIKE_DMG": 1.35, "GUARD_STRENGTH": 1.3 },
+      "order": 73,
+      "effect": { "sheet": "", "name": null },
+      "noTrack": false,
+      "isScalable": false,
+      "noCount": false
     },
     {
       "name": {
@@ -19723,16 +19723,16 @@
         "defense": 95
       },
       "properties": {
-          "ASSAULT": 1.35,
-          "STUN_THRESHOLD": 1.05,
-          "AIM_SPEED": 0.75
-        },
-        "rarity": 3,
-        "order": 48,
-        "effect": { "sheet": "", "name": null },
-        "noTrack": true,
-        "noCount": true,
-        "isScalable": false
+        "ASSAULT": 1.35,
+        "STUN_THRESHOLD": 1.05,
+        "AIM_SPEED": 0.75
+      },
+      "rarity": 3,
+      "order": 48,
+      "effect": { "sheet": "", "name": null },
+      "noTrack": true,
+      "noCount": true,
+      "isScalable": false
     },
     {
       "name": {
@@ -21433,7 +21433,7 @@
       "icon": "item-sword",
       "equipType": "ARM",
       "params": { "elemFactor": [1, 1, 1, 1], "attack": 101, "defense": 122 },
-        "properties": { "GUARD_STRENGTH": 1.3, "SPIKE_DMG": 1.35 },
+      "properties": { "GUARD_STRENGTH": 1.3, "SPIKE_DMG": 1.35 },
       "order": 4,
       "effect": { "sheet": "", "name": null },
       "noTrack": true,
@@ -24599,7 +24599,7 @@
       },
       "description": {
         "en_US": "Tinted eye protection that was crafted from a transparent, sun-forged alloy. \\i[ascended]",
-        "pt_BR": "Proteção dos olhos que foi elaborada a partir de uma liga transparente, forjada pelo sol. \\i[ascended]" ,
+        "pt_BR": "Proteção dos olhos que foi elaborada a partir de uma liga transparente, forjada pelo sol. \\i[ascended]",
         "de_DE": "Get\u00f6nter Augenschutz, aus transparenter, in der Sonne geh\u00e4rteter Legierung. \\i[ascended]",
         "fr_FR": "undefined",
         "zh_CN": "\u4f7f\u7528\u9633\u5149\u6240\u94f8\u900f\u660e\u7d20\u6750\u5236\u6210\u7684\u67d3\u8272\u58a8\u955c\u3002 \\i[ascended]<<A<<[CHANGED 2021/02/24]",
@@ -24700,7 +24700,7 @@
       "icon": "item-sword",
       "equipType": "ARM",
       "params": { "elemFactor": [1, 1, 1, 1], "attack": 154, "focus": 69 },
-        "properties": { "RANGED_DMG": 1.2, "AIM_SPEED": 1.2, "BREAK_DMG": 1.2 },
+      "properties": { "RANGED_DMG": 1.2, "AIM_SPEED": 1.2, "BREAK_DMG": 1.2 },
       "effect": { "sheet": "", "name": null },
       "noTrack": true,
       "isScalable": true,

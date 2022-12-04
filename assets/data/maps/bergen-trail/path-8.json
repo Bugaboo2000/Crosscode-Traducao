@@ -6659,7 +6659,7 @@
           "icon": "INFO",
           "hoverText": {
             "en_US": "\\i[arrow-w] Bergen Village\n\\i[arrow-se] Descent to Autumn's Rise",
-            "pt_BR": "\\i[arrow-w] Bergen Village\n\\i[arrow-se] Descida para Autumn's Rise",
+            "pt_BR": "\\i[arrow-w] Vila de Bergen\n\\i[arrow-se] Descida para Nascer do Outono",
             "de_DE": "\\i[arrow-w] Bergen\n\\i[arrow-se] Abstieg nach Autumn's Rise",
             "fr_FR": "fr_FR",
             "langUid": 240,
@@ -7800,7 +7800,7 @@
           {
             "message": {
               "en_US": "Oh, you want to bring both of us in for interrogation?\\. I fear we can't oblige.",
-              "pt_BR": "Oh, você quer levar nós dois para um interrogatório?\\. Temo que não possamos obedecer.",
+              "pt_BR": "Ah, você quer nos levar para um interrogatório?\\. Acho que isso não vai rolar.",
               "de_DE": "Oh, du willst uns also beide ins Verh\u00f6r nehmen?\\. Ich f\u00fcrchte, das kann ich nicht zulassen.",
               "zh_CN": "\u5662\uff0c\u4f60\u60f3\u8981\u628a\u6211\u4eec\u4e24\u4e2a\u90fd\u5e26\u53bb\u5ba1\u8baf\u5417\uff1f\\.\u6055\u6211\u4e0d\u4ece\u3002",
               "ja_JP": "\u304a\u3084\u3001\u79c1\u305f\u3061\u3092\u3064\u308c\u3066\u884c\u3063\u3066\u53d6\u308a\u8abf\u3079\u306b\u304b\u3051\u308b\n\u3064\u3082\u308a\u304b\uff1f\\.\u6050\u7e2e\u3060\u304c\u5354\u529b\u306f\u3067\u304d\u305d\u3046\u306b\u306a\u3044\u306a\u3002",
@@ -7818,7 +7818,7 @@
           {
             "message": {
               "en_US": "You see, we have some big plans that will change this entire mountain.\\.\\. And besides...",
-              "pt_BR": "Veja, temos alguns grandes planos que vão mudar toda esta montanha.\\.\\. E além ...",
+              "pt_BR": "Ouça, temos alguns grandes planos que vão mudar toda esta montanha.\\.\\. Enquanto isso...",
               "de_DE": "Versteh doch, wir haben gro\u00dfe Pl\u00e4ne, die den gesamten Berg ver\u00e4ndern werden.\\.\\. Im \u00dcbrigen...",
               "zh_CN": "\u77e5\u9053\u5417\uff0c\u6211\u4eec\u53ef\u662f\u6709\u6539\u53d8\u6574\u5ea7\u5c71\u7684\u5927\u8ba1\u5212\u3002\\.\\.\u9664\u6b64\u4e4b\u5916\u2026",
               "ja_JP": "\u3044\u3044\u304b\u3001\u79c1\u305f\u3061\u306b\u306f\u3053\u306e\u5c71\u5168\u4f53\u3092\u5909\u3048\u308b\u3067\u3042\u308d\u3046\n\u5927\u304d\u306a\u8a08\u753b\u304c\u3042\u308b\u3093\u3060\u3002\\.\\.\u305d\u308c\u306b...",
@@ -8143,7 +8143,7 @@
           {
             "message": {
               "en_US": "Come, Zira.\\. And farewell to you, \\v[lore.title.seeker]!",
-              "pt_BR": "Venha, Zira. \\. E adeus a você, \\v[lore.title.seeker]!",
+              "pt_BR": "Venha, Zira. \\. Hasta la vista, \\v[lore.title.seeker]!",
               "de_DE": "Komm, Zira.\\. Und auf Nimmerwiedersehen, Seeker!",
               "zh_CN": "\u6765\u8fd9\uff0c\u5409\u62c9\u3002\\.\u518d\u89c1\u55bd\uff0c\\v[lore.title.seeker]!",
               "ja_JP": "\u304a\u3044\u3067\u3001\u30b8\u30e9\u3002\\.\u305d\u3057\u3066\u3055\u3089\u3070\u3060\u3001\\v[lore.title.seeker]\u541b\uff01",

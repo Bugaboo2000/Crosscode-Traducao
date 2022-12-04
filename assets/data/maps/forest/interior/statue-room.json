@@ -8166,7 +8166,7 @@
           {
             "message": {
               "en_US": "Lea, that means Grand Krys'kajo was pretty much our last dungeon race, non?",
-              "pt_BR": "Lea, isso significa que o Grand Krys'kajo foi praticamente nossa última corrida de masmorra, não?",
+              "pt_BR": "Lea, isso significa que o Grand Krys'kajo foi praticamente nossa última corrida de dungeon, não?",
               "langUid": 923,
               "zh_CN": "\u8389\u4e9a\uff0c\u8fd9\u4e48\u8bf4\u5927\u51ef\u65af\u5361\u7f57\u5c31\u662f\u6211\u4eec\u6700\u540e\u4e00\u4e2a\u5730\u7262\u4e86\uff1f<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u30ec\u30a2\u3001\u3053\u308c\u3063\u3066\u3064\u307e\u308a\u3001\n\u30af\u30ea\u30e5\u30b9\u30fb\u30ab\u30fc\u30e8\u5927\u795e\u6bbf\u304c\n\u79c1\u305f\u3061\u304c\u6700\u5f8c\u306b\u7af6\u8d70\u3057\u305f\n\u30c0\u30f3\u30b8\u30e7\u30f3\u306b\u306a\u308b\u3093\u3058\u3083\u306a\u3044\uff1f<<A<<[CHANGED 2018/07/09]",
@@ -8196,7 +8196,7 @@
           {
             "message": {
               "en_US": "So not counting that tutorial dungeon, we had 5 runs in total.",
-              "pt_BR": "Então, sem contar com aquela masmorra tutorial, tivemos 5 corridas no total.",
+              "pt_BR": "Então, sem contar com aquela dungeon tutorial, tivemos 5 corridas no total.",
               "langUid": 921,
               "zh_CN": "\u5982\u679c\u4e0d\u7b97\u4e0a\u6700\u521d\u7684\u6559\u5b66\u5730\u7262\uff0c\u6211\u4eec\u603b\u5171\u4e00\u8d77\u73a9\u8fc75\u4e2a\u5730\u7262\u3002<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u3092\u9664\u3051\u3070\u3001\n\u305c\u3093\u3076\u30675\u3064\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u3067\n\u7af6\u8d70\u3057\u305f\u3053\u3068\u306b\u306a\u308b\u3088\u306d\u3002<<A<<[CHANGED 2018/07/09]",
@@ -8445,7 +8445,7 @@
           {
             "message": {
               "en_US": "Let's continue once new dungeons are added!",
-              "pt_BR": "Vamos continuar assim que novas masmorras forem acrescentadas!",
+              "pt_BR": "Vamos continuar assim que novas dungeons forem acrescentadas!",
               "langUid": 935,
               "zh_CN": "\u7b49\u4ee5\u540e\u518d\u5f00\u65b0\u5730\u7262\u6211\u4eec\u63a5\u7740\u6bd4\uff01<<A<<[CHANGED 2018/07/09]",
               "ja_JP": "\u65b0\u3057\u3044\u30c0\u30f3\u30b8\u30e7\u30f3\u304c\u8ffd\u52a0\u3055\u308c\u305f\u3089\n\u307e\u305f\u7af6\u8d70\u3057\u3088\u3046\u306d\uff01<<A<<[CHANGED 2018/07/09]",
@@ -9059,7 +9059,7 @@
             "entity": { "global": true, "name": "hexaAfraid" },
             "text": {
               "en_US": "That last tree dungeon was...\\. the literal pinnacle.",
-              "pt_BR": "Aquela última masmorra da árvore foi...\\. o ápice literal.",
+              "pt_BR": "Aquela última dungeon da árvore foi...\\. o ápice literal.",
               "langUid": 959,
               "de_DE": "Dieser letzte Baum-Dungeon war doch wirklich der Gipfel!",
               "ja_JP": "\u6700\u5f8c\u306e\u6728\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u306f...\\.\n\u3059\u3054\u304f\u9ad8\u304b\u3063\u305f\u3088\u306d\u3002<<A<<[CHANGED 2018/09/02]",

@@ -2239,7 +2239,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\c[3]Quadroguards\\c[0]",
-                    "pt_BR": "\\c[3]Quadroguards\\c[0]",
+                    "pt_BR": "\\c[3]Quadroguardas\\c[0]",
                     "langUid": 14,
                     "ko_KR": "\\c[3]\uc0ac\uc804\uc0ac\\c[0]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\\c[3]\u65b9\u5ca9\u62a4\u536b\\c[0]<<A<<[CHANGED 2019/01/10]",
@@ -2449,7 +2449,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\c[3]Tribladers\\c[0]",
-                    "pt_BR": "\\c[3]Tribladers\\c[0]",
+                    "pt_BR": "\\c[3]Tricortes\\c[0]",
                     "langUid": 11,
                     "ko_KR": "\\c[3]\uc0bc\uac80\uc0ac\\c[0]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\\c[3]\u53c1\u5203\u5251\u5ba2\\c[0]<<A<<[CHANGED 2019/01/10]",
@@ -2674,7 +2674,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\c[3]Pentafist\\c[0]",
-                    "pt_BR": "\\c[3]Pentafist\\c[0]",
+                    "pt_BR": "\\c[3]Pentapunhos\\c[0]",
                     "langUid": 22,
                     "ko_KR": "\\c[3]\uc624\uad8c\uc0ac\\c[0]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\\c[3]\u6b66\u661f\u62f3\u624b\\c[0]<<A<<[CHANGED 2019/01/10]",
@@ -2884,7 +2884,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\c[3]Hexacasts\\c[0]",
-                    "pt_BR": "\\c[3]Hexacasts\\c[0]",
+                    "pt_BR": "\\c[3]Hexamagos\\c[0]",
                     "langUid": 34,
                     "ko_KR": "\\c[3]\uc721\ubc95\uc0ac\\c[0]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\\c[3]\u9646\u5408\u6cd5\u5e08\\c[0]<<A<<[CHANGED 2019/01/10]",
@@ -2917,7 +2917,7 @@
                 }, {
                     "text": {
                         "en_US": "\\s[0]Last Minute Heroes\n~ \\c[3]Hexacast\\c[0] ~\nMember List\n",
-                        "pt_BR": "\\s[0]Heróis da Hora H\n~ \\c[3]Hexamagia\\c[0] ~\nLista de Memebros\n",
+                        "pt_BR": "\\s[0]Heróis da Hora H\n~ \\c[3]Hexamago\\c[0] ~\nLista de Memebros\n",
                         "langUid": 55,
                         "ko_KR": "\\s[0]\ub9c8\uc9c0\ub9c9 60\ucd08\uc758 \uc601\uc6c5\ub4e4\n~ \\c[3]\uc721\ubc95\uc0ac\\c[0] ~\n\uad6c\uc131\uc6d0 \ubaa9\ub85d<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\\s[0]\u6025\u96be\u82f1\u96c4\n~ \\c[3]\u9646\u5408\u6cd5\u5e08\\c[0] ~\n\u6210\u5458\u5217\u8868\n<<A<<[CHANGED 2019/01/10]",
@@ -3124,7 +3124,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\c[3]Spheromancers\\c[0]",
-                    "pt_BR": "\\c[3]Spheromancers\\c[0]",
+                    "pt_BR": "\\c[3]Esferomantes\\c[0]",
                     "langUid": 20,
                     "ko_KR": "\\c[3]\uc6d0\uc220\uc0ac\\c[0]<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\\c[3]\u6c14\u5706\u4f7f\u8005\\c[0]<<A<<[CHANGED 2019/01/10]",
@@ -3602,7 +3602,7 @@
                 },
                 "text": {
                     "en_US": "Black so deep you can get lost in it.",
-                    "pt_BR": "Tão preto que você pode se perder nele.",
+                    "pt_BR": "Tão divertido quanto ficar preso numa dungeon.",
                     "langUid": 79,
                     "ko_KR": "\ub108\ubb34 \uae4c\ub9e4\uc11c \uc774 \uc548\uc5d0\uc11c \ud5e4\ub9ec \uc218\ub3c4 \uc788\uaca0\uc5b4.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u9ed1\u5230\u8ff7\u832b\u3002<<A<<[CHANGED 2019/02/01]",
@@ -3617,7 +3617,7 @@
                 },
                 "text": {
                     "en_US": "Really now, isn't there a way to use the display for something? Watch some shows?",
-                    "pt_BR": "Mas sério, não há como usar a tela para alguma coisa? Assistir a alguns programas?",
+                    "pt_BR": "Mas sério, não tem como usar essa tela para alguma coisa? Assistir alguns animes?",
                     "langUid": 80,
                     "ko_KR": "\ud654\uba74\uc744 \ud1b5\ud574 \ubb54\uac00\ub97c \ubcfc \ubc29\ubc95\uc740 \uc5c6\ub294 \uac74\uac00? \ubc29\uc1a1\uc744 \ubcf8\ub2e4\uac70\ub098?<<A<<[CHANGED 2020/06/17]",
                     "zh_CN": "\u800c\u4e14\uff0c\u8fd9\u91cc\u6709\u529e\u6cd5\u641e\u6295\u5f71\u4e4b\u7c7b\u7684\u4e1c\u897f\u5417\uff1f\u653e\u4e2a\u7535\u5f71\u4e4b\u7c7b\uff1f<<A<<[CHANGED 2020/06/17]",
@@ -3647,7 +3647,7 @@
                 },
                 "text": {
                     "en_US": "The guild decided it's not worth it since barely anybody uses it.",
-                    "pt_BR": "A guilda decidiu que não vale a pena, pois quase ninguém o usa.",
+                    "pt_BR": "A guilda decidiu que não vale a pena, pois quase ninguém usa.",
                     "langUid": 82,
                     "ko_KR": "\uc544\ubb34\ub3c4 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\uc544\uc11c \uae38\ub4dc\uc5d0\uc11c\ub294 \uac00\uce58\uac00 \uc5c6\ub2e4\uace0 \ud310\ub2e8\ud588\uac70\ub4e0.<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u56e0\u4e3a\u6ca1\u4eba\u7528\u6240\u4ee5\u516c\u4f1a\u5c31\u6ca1\u88c5\u5427\uff0c\u6bd5\u7adf\u90fd\u662f\u8981\u82b1\u94b1\u7684\u3002<<A<<[CHANGED 2019/02/01]",
@@ -3719,7 +3719,7 @@
                 }, {
                     "message": {
                         "en_US": "Welcome to the great Last Minute Heroes headquarters!",
-                        "pt_BR": "Bem-vindo à grande sede dos Heróis da Hora H!",
+                        "pt_BR": "Bem-vinda à grande sede dos Heróis da Hora H!",
                         "langUid": 84,
                         "ko_KR": "\uc704\ub300\ud55c \ub9c8\uc9c0\ub9c9 60\ucd08\uc758 \uc601\uc6c5\ub4e4 \ubcf8\ubd80\uc5d0 \uc628 \uac78 \ud658\uc601\ud574!<<A<<[CHANGED 2019/01/10]",
                         "zh_CN": "\u6b22\u8fce\u6765\u5230\u4f1f\u5927\u7684\u6025\u96be\u82f1\u96c4\u516c\u4f1a\u603b\u90e8\uff01<<A<<[CHANGED 2019/01/10]",
@@ -3770,7 +3770,7 @@
                 }, {
                     "message": {
                         "en_US": "They're all great people ready to \\c[3]save the day at the last minute\\c[0]!",
-                        "pt_BR": "Eles são todos ótimas pessoas, prontas para \\c[3]salvar o dia no último minuto\\c[0]!",
+                        "pt_BR": "Eles são pessoas incríveis, prontas para \\c[3]salvar o dia no último minuto\\c[0]!",
                         "langUid": 87,
                         "ko_KR": "\uc804\ubd80 \\c[3]\ub9c8\uc9c0\ub9c9 60\ucd08\uc5d0 \uace4\uacbd\uc5d0 \ube60\uc9c4 \uc0c1\ud669\uc744 \ud574\uacb0\ud560\\c[0] \uc900\ube44\uac00 \ub418\uc5b4 \uc788\ub294 \ud6cc\ub96d\ud55c \uc0ac\ub78c\ub4e4\uc774\uc57c!<<A<<[CHANGED 2019/05/14]",
                         "zh_CN": "\u4ed6\u4eec\u90fd\u662f\\c[3]\u6551\u4eba\u4e8e\u6c34\u706b\u4e4b\u4e2d\\c[0]\u7684\u5927\u82f1\u96c4!<<A<<[CHANGED 2019/05/14]",
@@ -3801,7 +3801,7 @@
                 },
                 "text": {
                     "en_US": "Alright and that's pretty much it! Get ready and let's meet up tomorrow!",
-                    "pt_BR": "Tudo certo, é basicamente isso! Prepare-se e vamos nos encontrar amanhã!",
+                    "pt_BR": "Tudo certo, é basicamente isso! Preparem-se e vamos nos encontrar amanhã!",
                     "langUid": 88,
                     "ko_KR": "\uc88b\uc544, \uc774 \uc815\ub3c4\uba74 \ub410\uc9c0? \uc900\ube44\ud558\uace0 \ub0b4\uc77c \ub9cc\ub098\uc790!<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u4eca\u5929\u5dee\u4e0d\u591a\u4e86\u3002\u505a\u597d\u51c6\u5907\uff0c\u660e\u5929\u518d\u4f1a\uff01<<A<<[CHANGED 2019/01/10]",
@@ -3831,7 +3831,7 @@
                 },
                 "text": {
                     "en_US": "Please make sure to arrive on time, okay?",
-                    "pt_BR": "Certifiquem-se de chegar na hora certa, ok?",
+                    "pt_BR": "Lembrem de chegar na hora certa, ok?",
                     "langUid": 90,
                     "ko_KR": "\uc81c \uc2dc\uac04\uc5d0 \uc624\ub294 \uac70 \uc78a\uc9c0 \ub9c8, \uc54c\uc9c0?<<A<<[CHANGED 2019/01/10]",
                     "zh_CN": "\u8bb0\u5f97\u8981\u51c6\u65f6\u5230\u54e6\uff01<<A<<[CHANGED 2019/01/10]",
@@ -3876,7 +3876,7 @@
                 },
                 "text": {
                     "en_US": "Yeah sorry, I got held up with something! Won't happen again!",
-                    "pt_BR": "Sim, desculpe, eu me atrapalhei com algo! Não vai acontecer de novo!",
+                    "pt_BR": "Sim, desculpa, eu me atrapalhei com algo! Não vai acontecer de novo!",
                     "langUid": 93,
                     "ko_KR": "\uc544, \ubbf8\uc548. \uadf8\ub54c \ud560 \uc77c\uc774 \uc880 \uc788\uc5b4\uc11c! \uc774\ubc88\uc5d0\ub294 \uc548 \uadf8\ub7f4 \uac70\uc57c!<<A<<[CHANGED 2019/02/01]",
                     "zh_CN": "\u597d\u5427\uff0c\u4e0a\u6b21\u662f\u6709\u4e8b\u803d\u6401\u4e86\uff0c\u4ee5\u540e\u4e0d\u4f1a\u53d1\u751f\u4e86\uff01<<A<<[CHANGED 2019/02/01]",

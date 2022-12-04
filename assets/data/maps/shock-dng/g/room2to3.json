@@ -1026,7 +1026,7 @@
           {
             "message": {
               "en_US": "But you always get the element opposite to the dungeon's theme.",
-              "pt_BR": "Mas você sempre obtém o elemento oposto ao tema da masmorra.",
+              "pt_BR": "Mas você sempre obtém o elemento oposto ao tema da dungeon.",
               "de_DE": "Du bekommst aber immer das zum Dungeon-Thema kontr\u00e4re Element.",
               "zh_CN": "\u4f46\u662f\u4f60\u83b7\u5f97\u7684\u5143\u7d20\u603b\u662f\u548c\u5730\u7262\u7684\u4e3b\u9898\u76f8\u53cd\u3002<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u3067\u3082\u3001\u30c0\u30f3\u30b8\u30e7\u30f3\u306e\u30c6\u30fc\u30de\u3068\n\u624b\u306b\u5165\u308b\u30a8\u30ec\u30e1\u30f3\u30c8\u306f\n\u3044\u3064\u3082\u9006\u3067\u3057\u305f\u3088\u306d\u3002<<A<<[CHANGED 2018/03/14]",
@@ -1056,7 +1056,7 @@
           {
             "message": {
               "en_US": "I wouldn't call the \\c[3]Faj'ro Temple\\c[0] the Cold dungeon because you get Cold.",
-              "pt_BR": "Eu não chamaria o \\c[3]Templo Faj'ro\\c[0] de Masmorra Fria porque você adquire Gelo.",
+              "pt_BR": "Eu não chamaria o \\c[3]Templo Faj'ro\\c[0] de Dungeon Fria porque você adquire Gelo.",
               "de_DE": "Ich w\u00fcrde den \\c[3]Faj'ro-Tempel\\c[0] auch nicht K\u00e4lte-Dungeon nennen, nur weil du dort K\u00e4lte bekommst.",
               "zh_CN": "\u800c\\c[3]\u6cd5\u52a0\u7f57\u795e\u5e99\\c[0]\u80af\u5b9a\u4e5f\u79f0\u4e0d\u4e0a\u51b7\uff0c\u4f46\u83b7\u5f97\u7684\u662f\u51b0\u5143\u7d20\u3002<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u51b7\u6c17\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u3092\u624b\u306b\u5165\u308c\u305f\u304b\u3089\u3068\n\u3044\u3063\u3066\u3001\\c[3]\u30d5\u30a1\u30a4\u30ed\u795e\u6bbf\\c[0]\u3092\n\u51b7\u6c17\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u3068\u306f\u8a00\u3048\u306a\u3044\u3067\u3057\u3087\u3046\u3002<<A<<[CHANGED 2018/03/14]",
@@ -1116,7 +1116,7 @@
           {
             "message": {
               "en_US": "I get the Cold element and punch stuff to make it cold in the Cold dungeon.",
-              "pt_BR": "Simples, porque eu congelo as coisas com meus socos na masmorra do Gelo.",
+              "pt_BR": "Simples, porque eu congelo as coisas com meus socos na dungeon do Gelo.",
               "de_DE": "Ganz einfach: Weil ich im K\u00e4lte-Dungeon die Gegner kaltmache und dort das K\u00e4lte-Element kriege.",
               "zh_CN": "\u56e0\u4e3a\u6211\u5728\u91cc\u9762\u80fd\u62ff\u5230\u51b0\u5143\u7d20\u54c7\u3002<<A<<[CHANGED 2018/03/14]",
               "ja_JP": "\u79c1\u306f\u51b7\u6c17\u306e\u795e\u6bbf\u3067\n\u51b7\u6c17\u306e\u30a8\u30ec\u30e1\u30f3\u30c8\u3092\u624b\u306b\u5165\u308c\u3066\u3001\n\u6575\u3092\u51b7\u6c17\u3067\u30d1\u30f3\u30c1\u3057\u305f\u306e\u3002<<A<<[CHANGED 2018/03/14]",

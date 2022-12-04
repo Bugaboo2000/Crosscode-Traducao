@@ -1289,7 +1289,7 @@
                 {
                   "message": {
                     "en_US": "Hello, player, and welcome to the \\v[lore.unlock.omni-gilders.first]\\c[3]Omni Gilders\\c[0].",
-                    "pt_BR": "Olá, jogador, bem-vindo ao \\v[lore.unlock.omni-gilders.first]\\c[3]Omni Gilders\\c[0].",
+                    "pt_BR": "Olá, jogadora, bem-vinda aos \\v[lore.unlock.omni-gilders.first]\\c[3]Onidouradores\\c[0].",
                     "de_DE": "Hallo, Spieler, und willkommen bei den \\v[lore.unlock.omni-gilders]\\c[3]Omni-Gilders\\c[0].",
                     "zh_CN": "\u4f60\u597d\u554a\u73a9\u5bb6\uff0c\u6b22\u8fce\u6765\u5230\\v[lore.unlock.omni-gilders.first]\\c[3]\u8d85\u7ea7\u56e2\\c[0]\u3002<<A<<[CHANGED 2018/07/09]",
                     "ja_JP": "\u3053\u3093\u306b\u3061\u306f\u3001\u30d7\u30ec\u30a4\u30e4\u30fc\u3055\u3093\u3002\n\\v[lore.unlock.omni-gilders.first]\\c[3]\u30aa\u30e0\u30cb\u30ae\u30eb\u30c0\u30fc\\c[0]\u3078\u3088\u3046\u3053\u305d\u3002<<A<<[CHANGED 2018/07/09]",
@@ -1454,7 +1454,7 @@
                     {
                       "message": {
                         "en_US": "No need to come back to me by the way.",
-                        "pt_BR": "A propósito, não há necessidade de voltar para mim.",
+                        "pt_BR": "A propósito, não tem necessidade de voltar para mim.",
                         "de_DE": "Nebenbei, du musst zwischendurch nicht zur\u00fcckkommen.",
                         "fr_FR": "fr_FR",
                         "langUid": 31,
@@ -1749,7 +1749,7 @@
             "entity": { "global": true, "name": "gilder1" },
             "text": {
               "en_US": "We really need some low-level trade stuff.",
-              "pt_BR": "Nós realmente precisamos de alguns itens de baixo nível para negociar.",
+              "pt_BR": "Nós precisamos de alguns itens de nível baixo para negociar.",
               "de_DE": "Wir brauchen echt mal ein paar Low Level-Items zum Handeln.",
               "fr_FR": "fr_FR",
               "langUid": 2,
@@ -1777,7 +1777,7 @@
             "entity": { "global": true, "name": "gilder2" },
             "text": {
               "en_US": "Don't worry too much about it, the higher-ups have already started giving quests to low-level players.",
-              "pt_BR": "Não se preocupe muito com isso, os superiores já começaram a dar missões aos jogadores de level baixo.",
+              "pt_BR": "Não se preocupe muito com isso, os superiores já começaram a dar missões aos jogadores de nível baixo.",
               "de_DE": "Keine Sorge, die High Level-Chars haben bereits angefangen, Quests an Low Level-Chars zu vergeben.",
               "fr_FR": "fr_FR",
               "langUid": 4,
@@ -1791,7 +1791,7 @@
             "entity": { "global": true, "name": "gilder1" },
             "text": {
               "en_US": "So we don't need to lift a finger?\\. I like it.",
-              "pt_BR": "Então, não precisamos levantar um dedo? \\. Eu gosto disso.",
+              "pt_BR": "Então, não precisamos levantar um dedo?\\. Eu gostei hein.",
               "de_DE": "Also m\u00fcssen wir eigentlich keinen Finger kr\u00fcmmen?\\. So muss das!",
               "fr_FR": "fr_FR",
               "langUid": 5,
@@ -1805,7 +1805,7 @@
             "entity": { "global": true, "name": "gilder2" },
             "text": {
               "en_US": "Until we have to grind high level mobs...",
-              "pt_BR": "Até o momento que precisaremos matar monstros de level alto...",
+              "pt_BR": "Até o momento que precisaremos matar monstros de nível alto...",
               "de_DE": "Bis wir dann irgendwann High Level-Mobs grinden m\u00fcssen...",
               "fr_FR": "fr_FR",
               "langUid": 6,
@@ -2014,7 +2014,7 @@
               {
                 "message": {
                   "en_US": "It might look small, but it's really just a small branch.",
-                  "pt_BR": "Pode parecer pequeno, mas na verdade é apenas uma parte.",
+                  "pt_BR": "Pode parecer pequena, mas na verdade é apenas uma parte.",
                   "de_DE": "Sie mag klein aussehen, aber das hier ist eigentlich nur eine kleine Zweigstelle.",
                   "fr_FR": "fr_FR",
                   "langUid": 11,
@@ -2087,7 +2087,7 @@
               {
                 "message": {
                   "en_US": "Yeah I know, pretty cool right?",
-                  "pt_BR": "Sim, eu sei, muito legal, certo?",
+                  "pt_BR": "Sim, eu sei, muito legal, não é?",
                   "de_DE": "Ja, ich wei\u00df, ziemlich cool, gell?",
                   "fr_FR": "fr_FR",
                   "langUid": 15,
@@ -2274,7 +2274,7 @@
                 {
                   "message": {
                     "en_US": "You see, I'm pretty new in this guild here.",
-                    "pt_BR": "Sabe, eu sou muito nova nesta guilda aqui.",
+                    "pt_BR": "Sabe, eu sou muito nova nessa guilda aqui.",
                     "de_DE": "Also, ich bin noch ziemlich neu in dieser Gilde hier.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u6211\u624d\u521a\u8fdb\u8fd9\u4e2a\u516c\u4f1a\u3002",
@@ -2331,7 +2331,7 @@
                 {
                   "message": {
                     "en_US": "One of which was just given to me.",
-                    "pt_BR": "Uma das quais acabou de ser dado a mim.",
+                    "pt_BR": "E eu tenho que fazer uma delas.",
                     "de_DE": "Eine davon wurde mir gerade zugeteilt.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u6211\u521a\u6536\u5230\u4e00\u4e2a\u3002",
@@ -2404,7 +2404,7 @@
                 {
                   "message": {
                     "en_US": "But this thing is a MAZE, I tell you.",
-                    "pt_BR": "Mas esse lugar é um labirinto, estou te falando.",
+                    "pt_BR": "Mas esse lugar é um labirinto, nem te conto.",
                     "de_DE": "Aber der ist ein LABYRINTH, sag' ich dir.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u53ef\u662f\u90a3\u5730\u4e0b\u5ba4\u7b80\u76f4\u5c31\u662f\u4e2a\u8ff7\u5bab\u3002",
@@ -2496,7 +2496,7 @@
                 {
                   "message": {
                     "en_US": "Yeah... I wonder what they're up to...",
-                    "pt_BR": "É... Eu me pergunto o que eles estão fazendo...",
+                    "pt_BR": "É... Eu queria saber o que eles estão fazendo...",
                     "de_DE": "Ja... Ich frage mich, was die treiben...",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u771f\u662f...\u4e5f\u4e0d\u77e5\u9053\u4ed6\u4eec\u5e72\u561b\u5462..<<A<<[CHANGED 2017/07/11]",
@@ -3116,7 +3116,7 @@
                 {
                   "message": {
                     "en_US": "Anyway, did you happen to find the \\c[3]Storage Unit\\c[0]?",
-                    "pt_BR": "De qualquer forma, por acaso você encontrou a \\c[3]Unidade de Armazenamento\\c[0]?",
+                    "pt_BR": "Então, por acaso você encontrou a \\c[3]Unidade de Armazenamento\\c[0]?",
                     "de_DE": "Wie auch immer, hast du die \\c[3]Speichereinheit\\c[0] gefunden?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u603b\u4e4b\uff0c\u4f60\u627e\u5230\\c[3]\u50a8\u5b58\u5355\u5143\\c[0]\u4e86\u5417\uff1f",
@@ -3186,7 +3186,7 @@
                 {
                   "message": {
                     "en_US": "The General of this branch is currently in \\c[3]Maroon Valley\\c[0] so I'm gonna head off and give the unit to him as quickly as I can.",
-                    "pt_BR": "O General deste local está atualmente no \\c[3]Vale Castanho\\c[0] então irei levar a ele esta coisa o mais rápido possível.",
+                    "pt_BR": "O General desse local está no \\c[3]Vale Castanho\\c[0] então irei levar essa coisa pra ele o mais rápido possível.",
                     "de_DE": "Der General dieser Zweigstelle ist momentan im \\c[3]Maronental\\c[0], also beeil ich mich besser, sie ihm so schnell wie m\u00f6glich zu bringen.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u516c\u4f1a\u652f\u90e8\u7684\u5c06\u519b\u73b0\u5728\u6b63\u5728\\c[3]\u8910\u7ea2\u5ce1\u8c37\\c[0]\uff0c\u6211\u8981\u8d76\u7d27\u8fc7\u53bb\u628a\u50a8\u5b58\u5355\u5143\u4ea4\u7ed9\u4ed6\u3002<<A<<[CHANGED 2017/07/11]",

@@ -4290,7 +4290,7 @@
                 "icon": "INFO",
                 "hoverText": {
                     "en_US": "\\i[arrow-ne] Autumn Residences\n\\i[arrow-w] To Bergen Trail\n\\i[arrow-e] To Rookie Harbor",
-                    "pt_BR": "\\i[arrow-ne] Residências de Autumn\n\\i[arrow-w] Para Trilha de Bergen\n\\i[arrow-e] Para Porto do Novato",
+                    "pt_BR": "\\i[arrow-ne] Residências do Outono\n\\i[arrow-w] Para Trilha de Bergen\n\\i[arrow-e] Para Porto do Novato",
                     "de_DE": "\\i[arrow-ne] Autumn-Residenzen\n\\i[arrow-w] Zum Bergen-Trail\n\\i[arrow-e] Nach Rookie Harbor",
                     "fr_FR": "fr_FR",
                     "langUid": 51,
@@ -7579,7 +7579,7 @@
                 }, {
                     "message": {
                         "en_US": "Here we are!",
-                        "pt_BR": "Aqui estamos!",
+                        "pt_BR": "Chegamos!",
                         "de_DE": "Da w\u00e4ren wir!",
                         "fr_FR": "fr_FR",
                         "langUid": 180,
@@ -7597,7 +7597,7 @@
                 }, {
                     "message": {
                         "en_US": "Now this is the entrance to a small and humble \\c[3]guild area\\c[0].",
-                        "pt_BR": "Agora, esta é a entrada para uma pequena e humilde \\c[3]área da guilda\\c[0].",
+                        "pt_BR": "Agora, essa é a entrada para uma pequena e humilde \\c[3]área da guilda\\c[0].",
                         "de_DE": "Dies ist der Eingang zu einem kleinen und bescheidenen \\c[3]Gildengebiet\\c[0].",
                         "fr_FR": "fr_FR",
                         "langUid": 182,

@@ -6389,7 +6389,7 @@
               {
                 "message": {
                   "en_US": "Well...\\. I suppose water is sort of my element?",
-                  "pt_BR": "Bem...\\. Suponho que a água é mais ou menos o meu elemento?",
+                  "pt_BR": "Bem...\\. Acho que a água é mais ou menos o meu elemento?",
                   "langUid": 94,
                   "zh_CN": "\u5443...\\.\u770b\u6765\u6211\u5f88\u5584\u4e8e\u5904\u7406\u6c34\u3002<<A<<[CHANGED 2018/03/14]",
                   "ko_KR": "\ubb50...\\. \ubb3c \uc18d\uc131\uc774 \ub0b4\uac8c \uc81c\uaca9\uc778\uac00 \ubd10.<<A<<[CHANGED 2018/03/14]",
@@ -7473,7 +7473,7 @@
               {
                 "message": {
                   "en_US": "One dungeon completed, two to go!",
-                  "pt_BR": "Uma masmorra concluída, faltam duas!",
+                  "pt_BR": "Uma dungeon concluída, faltam duas!",
                   "de_DE": "Einen Dungeon erledigt, bleiben noch zwei!",
                   "zh_CN": "\u641e\u5b9a\u4e00\u4e2a\u5730\u7262\u4e86\uff0c\u8fd8\u5269\u4e24\u4e2a\uff01<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "1\u3064\u76ee\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u30af\u30ea\u30a2\u3001\n\u6b8b\u308a2\u3064\u3060\u306d\uff01<<A<<[CHANGED 2018/03/14]",
@@ -7490,7 +7490,7 @@
               {
                 "message": {
                   "en_US": "So that means we're finally ready for that Grand-something dungeon, right?",
-                  "pt_BR": "Então isso significa que finalmente estamos prontos para aquela masmorra Grand-sei-lá-o-que, certo?",
+                  "pt_BR": "Então isso significa que finalmente estamos prontos para aquela dungeon Grand-sei-lá-o-que, certo?",
                   "de_DE": "Oui! Das hei\u00dft also, wir d\u00fcrfen jetzt in diesen Gro\u00dfen Dingsbums-Dungeon rein, richtig?",
                   "zh_CN": "\u8fd9\u4e48\u8bf4\u6211\u4eec\u7ec8\u4e8e\u53ef\u4ee5\u8fdb\u5165\u90a3\u4e2a\u5927\u4ec0\u4e48\u4ec0\u4e48\u5730\u7262\u4e86\uff1f<<A<<[CHANGED 2018/03/14]",
                   "ja_JP": "\u3053\u308c\u3067\u3088\u3046\u3084\u304f\u5927\u306a\u3093\u3068\u304b\u3044\u3046\n\u30c0\u30f3\u30b8\u30e7\u30f3\u306b\u5165\u308c\u308b\u3093\u3060\u3088\u306d\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -7750,7 +7750,7 @@
             "entity": { "global": true, "name": "hexaShocked" },
             "text": {
               "en_US": "We did it! Another dungeon finished!",
-              "pt_BR": "Conseguimos! Outra masmorra terminada!",
+              "pt_BR": "Conseguimos! Outra dungeon terminada!",
               "langUid": 915,
               "de_DE": "Geschafft! Wieder ein Dungeon erledigt!",
               "ja_JP": "\u3084\u3063\u305f\uff01\u307e\u305f\u3072\u3068\u3064\n\u30c0\u30f3\u30b8\u30e7\u30f3\u3092\u30af\u30ea\u30a2\u3057\u305f\u305e\uff01<<A<<[CHANGED 2018/08/28]",
@@ -7763,7 +7763,7 @@
             "entity": { "global": true, "name": "pentaComforting" },
             "text": {
               "en_US": "Yep, underwater dungeon crawling. Pretty neat.",
-              "pt_BR": "Sim, aventura numa masmorra subaquática. Bem legal.",
+              "pt_BR": "Sim, aventura numa dungeon subaquática. Bem legal.",
               "langUid": 913,
               "de_DE": "Jau, Crawlen im Unterwasserdungeon. Fand ich klasse.<<A<<[CHANGED 2021/05/22]",
               "ja_JP": "\u3046\u3093\u3001\u6c34\u4e2d\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u3092\n\u653b\u7565\u3057\u305f\u306d\u3002\u3044\u3044\u611f\u3058\u3060\u3002<<A<<[CHANGED 2021/05/22]",
@@ -7776,7 +7776,7 @@
             "entity": { "global": true, "name": "hexaShocked" },
             "text": {
               "en_US": "In fact, I think this was my favorite dungeon so far!",
-              "pt_BR": "Na verdade, acho que essa é minha masmorra favorita até agora!",
+              "pt_BR": "Na verdade, acho que essa é minha dungeon favorita até agora!",
               "langUid": 916,
               "de_DE": "Das war bis jetzt mein Lieblingsdungeon!<<A<<[CHANGED 2021/05/22]",
               "ja_JP": "\u5b9f\u969b\u3001\u73fe\u6642\u70b9\u3067\u3053\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u304c\n\u4e00\u756a\u597d\u304d\u3060\u306a\uff01<<A<<[CHANGED 2021/05/22]",

@@ -9623,7 +9623,7 @@
             "entity": { "global": true, "name": "penta1" },
             "text": {
               "en_US": "Final Dungeon when?!",
-              "pt_BR": "Quando vamos entrar na última masmorra?!",
+              "pt_BR": "Quando vamos entrar na última dungeon?!",
               "langUid": 202,
               "de_DE": "Wann kommt der letzte Dungeon?!",
               "ja_JP": "\u6700\u5f8c\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u306f\n\u3044\u3064\u6765\u308b\u306e\uff1f\uff01<<A<<[CHANGED 2018/09/02]",
@@ -12800,7 +12800,7 @@
                           {
                             "message": {
                               "en_US": "No really, you really should \\c[3]improve your equipment\\c[0]. It's by far the most important factor for your stats.",
-                              "pt_BR": "Sério, você realmente deveria \\c[3]melhorar seu equipamento\\c[0]. Isso é, de longe, o fator mais importante para suas estatísticas.",
+                              "pt_BR": "Sério, você realmente devia \\c[3]melhorar seu equipamento\\c[0]. Isso é, de longe, o fator mais importante para seus atributos.",
                               "de_DE": "Im Ernst, du solltest deine \\c[3]Ausr\u00fcstung dringend verbessern\\c[0]. Das ist am allerwichtigsten f\u00fcr deine Stats.",
                               "fr_FR": "fr_FR",
                               "zh_CN": "\u771f\u7684\uff0c\u4f60\u6700\u597d\u53bb\\c[3]\u66f4\u65b0\u4e00\u4e0b\u4f60\u7684\u88c5\u5907\\c[0]\u3002\u8fd9\u662f\u5f71\u54cd\u4f60\u5c5e\u6027\u7684\u6700\u5927\u56e0\u7d20\u3002<<A<<[CHANGED 2021/01/12]",
@@ -12819,7 +12819,7 @@
                           {
                             "message": {
                               "en_US": "Also make sure to \\c[3]check your circuit tree\\c[0] if there are any more skills you can learn.",
-                              "pt_BR": "Certifique-se também de checar sua \\c[3]árvore de circuitos\\c[0] para ver se há mais alguma habilidade que você possa aprender.",
+                              "pt_BR": "E também cheque sua \\c[3]árvore de circuitos\\c[0] para ver se existe mais alguma habilidade que você possa aprender.",
                               "de_DE": "Du solltest au\u00dferdem \\c[3]\u00fcberpr\u00fcfen, ob du neue Circuits lernen kannst\\c[0].",
                               "fr_FR": "fr_FR",
                               "zh_CN": "\u8fd8\u6709\u8bb0\u5f97\\c[3]\u770b\u4e00\u4e0b\u4f60\u7684\u7535\u8def\\c[0]\uff0c\u770b\u770b\u6709\u6ca1\u6709\u8fd8\u6ca1\u52a0\u7684\u70b9\u6570\u3002<<A<<[CHANGED 2021/01/12]",
@@ -15368,7 +15368,7 @@
             "entity": { "global": true, "name": "heightAfraidChan" },
             "text": {
               "en_US": "Another dungeon...\\. Okay...\\. I have to prepare mentally.",
-              "pt_BR": "Outra masmorra...\\. Certo....\\. Eu tenho que me preparar mentalmente.",
+              "pt_BR": "Outra dungeon...\\. Certo....\\. Eu tenho que me preparar mentalmente.",
               "langUid": 256,
               "de_DE": "Noch ein Dungeon...\\. Okay...\\. Darauf muss ich mich mental vorbereiten.",
               "ja_JP": "\u6b21\u306e\u30c0\u30f3\u30b8\u30e7\u30f3...\\.\u308f\u304b\u3063\u305f...\n\\.\u5fc3\u306e\u6e96\u5099\u3092\u3057\u306a\u3044\u3068\u3002<<A<<[CHANGED 2021/02/09]",
@@ -15381,7 +15381,7 @@
             "entity": { "global": true, "name": "heightAfraidFriend" },
             "text": {
               "en_US": "Come on!\\. It might just be a very flat dungeon without any height difference at all.",
-              "pt_BR": "Vamos lá!\\. Pode ser apenas uma masmorra muito plana, sem nenhuma diferença de altura.",
+              "pt_BR": "Vamos lá!\\. Pode ser apenas uma dungeon muito plana, sem nenhuma diferença de altura.",
               "langUid": 257,
               "de_DE": "Ach, komm schon!\\. Warum so pessimistisch? Es k\u00f6nnte doch auch ein absolut planer Dungeon sein.",
               "ja_JP": "\u304a\u3044\u304a\u3044\uff01\\.\u9ad8\u4f4e\u5dee\u306e\u5168\u7136\u306a\u3044\u307e\u3063\u5e73\u306a\n\u30c0\u30f3\u30b8\u30e7\u30f3\u304b\u3082\u3057\u308c\u306a\u3044\u3058\u3083\u306a\u3044\u304b\u3002<<A<<[CHANGED 2021/02/09]",
@@ -15541,7 +15541,7 @@
             "entity": { "global": true, "name": "tableChanFriend" },
             "text": {
               "en_US": "Don't you want to run the dungeon as well?",
-              "pt_BR": "Você não quer entrar na masmorra também?",
+              "pt_BR": "Você não quer entrar na dungeon também?",
               "langUid": 267,
               "de_DE": "Willst du nicht auch den Dungeon machen?",
               "ja_JP": "\u3042\u306a\u305f\u3001\u30c0\u30f3\u30b8\u30e7\u30f3\u3084\u308a\u305f\u304f\u306a\u3044\u306e\uff1f<<A<<[CHANGED 2021/02/09]",

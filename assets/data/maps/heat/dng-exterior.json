@@ -1138,7 +1138,7 @@
                           {
                             "message": {
                               "en_US": "Lea, what about Emilie? We wanted to race the dungeon together, right?",
-                              "pt_BR": "Lea, e a Emilie? Nós iriamos fazer a corrida de masmorra juntos, não é?",
+                              "pt_BR": "Lea, e a Emilie? Nós iriamos fazer a corrida de dungeon juntos, não é?",
                               "de_DE": "Lea, was ist mit Emilie? Wir wollten das Dungeon-Rennen gemeinsam machen, oder?",
                               "fr_FR": "fr_FR",
                               "zh_CN": "\u8389\u4e9a\uff0c\u827e\u7c73\u8389\u8fd8\u6ca1\u5230\u5462\uff01\u6211\u4eec\u8981\u6bd4\u8d5b\u7684\uff0c\u8bb0\u5f97\u5417\uff1f",
@@ -1200,7 +1200,7 @@
                       {
                         "message": {
                           "en_US": "Lea, what about that dungeon race? You were planning to enter the dungeon together with Emilie and C'tron, right?",
-                          "pt_BR": "Lea, e sobre aquela corrida de masmorras? Você estava planejando entrar na masmorra junto com Emilie e C'tron, certo?",
+                          "pt_BR": "Lea, e sobre aquela corrida de dungeons? Você estava planejando entrar na dungeon junto com Emilie e C'tron, certo?",
                           "de_DE": "Lea, was ist mit dem Rennen? Du wolltest es doch zusammen mit Emilie und C'tron machen, richtig?",
                           "fr_FR": "fr_FR",
                           "zh_CN": "\u8389\u4e9a\uff0c\u522b\u5fd8\u4e86\u4f60\u4eec\u7684\u5730\u7262\u7ade\u901f\u8d5b\uff01\u4f60\u4e0d\u662f\u8981\u548c\u827e\u7c73\u8389\u8fd8\u6709\u897f\u7279\u9686\u4e00\u8d77\u8fdb\u5730\u7262\u7684\u5417\uff1f",
@@ -11617,7 +11617,7 @@
           {
             "message": {
               "en_US": "It's time for our third dungeon race!",
-              "pt_BR": "Chegou a hora de nossa terceira corrida de masmorras!",
+              "pt_BR": "Chegou a hora de nossa terceira corrida de dungeons!",
               "de_DE": "Zeit f\u00fcr unser drittes Dungeon-Rennen!",
               "fr_FR": "fr_FR",
               "zh_CN": "\u7b2c\u4e09\u6b21\u5730\u7262\u7ade\u901f\u8d5b\uff01",
@@ -11640,7 +11640,7 @@
           {
             "message": {
               "en_US": "Oh, you two are racing dungeons together?",
-              "pt_BR": "Oh, vocês duas estão sempre competindo nas masmorras?",
+              "pt_BR": "Oh, vocês duas estão sempre competindo nas dungeons?",
               "de_DE": "Oh, ihr beiden veranstaltet also immer Wettrennen?",
               "fr_FR": "fr_FR",
               "zh_CN": "\u54e6--\u4f60\u4eec\u4fe9\u8fd8\u73a9\u8fd9\u4e2a\uff1f",
@@ -11960,7 +11960,7 @@
           {
             "task": {
               "en_US": "Enter \\c[3]Faj'ro Temple\\c[0] to start the next dungeon race again Emilie and C'tron!",
-              "pt_BR": "Entre no \\c[3]Templo Faj'ro\\c[0] para começar a próxima corrida de masmorra com Emilie e C'tron!",
+              "pt_BR": "Entre no \\c[3]Templo Faj'ro\\c[0] para começar a próxima corrida de dungeon com Emilie e C'tron!",
               "de_DE": "Betritt den \\c[3]Faj'ro-Tempel\\c[0], um das n\u00e4chste Rennen gegen Emilie und C'tron zu starten!",
               "fr_FR": "fr_FR",
               "zh_CN": "\u518d\u6b21\u4e0e\u827e\u7c73\u8389\u548c\u897f\u7279\u9686\u8fdb\u5165 \\c[3]\u6cd5\u52a0\u7f57\u795e\u5e99\\c[0]\uff0c\u5f00\u59cb\u5730\u7262\u7ade\u901f\u8d5b\uff01",
@@ -14031,7 +14031,7 @@
               {
                 "message": {
                   "en_US": "... But this is not the end of the dungeon, oui?",
-                  "pt_BR": "... Mas isso não é o fim da masmorra, oui?",
+                  "pt_BR": "... Mas isso não é o fim da dungeon, oui?",
                   "de_DE": "... Aber das ist noch nicht das Ende des Dungeons, oui?",
                   "fr_FR": "fr_FR",
                   "zh_CN": "...\u4e0d\u8fc7\u6211\u4eec\u8fd8\u6ca1\u5230\u901a\u5173\u5462\u5427\uff1f",
@@ -14259,7 +14259,7 @@
               {
                 "message": {
                   "en_US": "Anyway, this is not the end of the dungeon, just the middle.",
-                  "pt_BR": "Enfim, este não é o fim da masmorra, apenas a metade.",
+                  "pt_BR": "Enfim, este não é o fim da dungeon, apenas a metade.",
                   "de_DE": "Jedenfalls ist der Dungeon noch nicht zu Ende, das ist erst die Mitte.",
                   "fr_FR": "fr_FR",
                   "zh_CN": "\u603b\u4e4b\uff0c\u8fd9\u91cc\u8fd8\u4e0d\u662f\u7ec8\u70b9\uff0c\u53ea\u662f\u4e2d\u6bb5\u3002",
@@ -14297,7 +14297,7 @@
           {
             "message": {
               "en_US": "But man... this dungeon sure is full of puzzles.",
-              "pt_BR": "Mas cara... essa masmorra está cheia de enigmas.",
+              "pt_BR": "Mas cara... essa dungeon está cheia de enigmas.",
               "de_DE": "Aber uff... Dieser Dungeon ist echt voller R\u00e4tsel.",
               "fr_FR": "fr_FR",
               "zh_CN": "\u4e0d\u8fc7\u8fd9\u4e2a\u5730\u7262\u91cc\u7684\u89e3\u8c1c\u53ef\u771f\u591a\u554a\u3002",
@@ -14375,7 +14375,7 @@
           {
             "message": {
               "en_US": "We'll leave it up to you, Lea. Just enter the dungeon when you want to continue the race.",
-              "pt_BR": "Vamos deixar que você decida, Lea. Basta entrar na masmorra quando você quiser continuar a corrida.",
+              "pt_BR": "Vamos deixar que você decida, Lea. Basta entrar na dungeon quando você quiser continuar a corrida.",
               "de_DE": "Wir lassen dich entscheiden, Lea. Geh einfach in den Dungeon, wenn du weitermachen willst.",
               "fr_FR": "fr_FR",
               "zh_CN": "\u7531\u4f60\u51b3\u5b9a\u5427\u8389\u4e9a\u3002\u51b3\u5b9a\u7ee7\u7eed\u6bd4\u8d5b\u4e86\u5c31\u8fdb\u5730\u7262\u3002",

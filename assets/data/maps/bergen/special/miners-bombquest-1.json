@@ -3474,7 +3474,7 @@
           {
             "message": {
               "en_US": "Seems you handled that as well.\\. Just did another thorough scan and there are no signs of activity left.\\.\\. Finally.",
-              "pt_BR": "Parece que você também lidou com isso.\\. Acabei de fazer outra verificação completa e não há mais sinais de atividade.\\.\\. Finalmente.",
+              "pt_BR": "Parece que você resolveu o problema.\\. Acabei de fazer outra verificação completa e não há mais sinais de atividade.\\.\\. Finalmente.",
               "de_DE": "Damit w\u00e4ren auch die erledigt.\\. Habe die Umgebung nochmal gescannt, es werden keine Anzeichen von Aktivit\u00e4t angezeigt.\\.\\. Endlich.",
               "fr_FR": "fr_FR",
               "zh_CN": "\u770b\u6765\u4f60\u4e5f\u5904\u7406\u597d\u4e86\u3002\\.\u6211\u53c8\u8fdb\u884c\u4e00\u6b21\u626b\u63cf\uff0c\u6ca1\u6709\u6b8b\u4f59\u751f\u547d\u8ff9\u8c61\u3002\\.\\.\u592a\u597d\u4e86\u3002",
@@ -4383,7 +4383,7 @@
                 {
                   "message": {
                     "en_US": "Too smoothly perhaps... there haven't been any recent attacks, but those bugs might just gather their strength.",
-                    "pt_BR": "Tranquilo demais, talvez... não houve nenhum ataque recente, mas esses bugs podem apenas ganhar força.",
+                    "pt_BR": "Tranquilo demais, talvez... não houve nenhum ataque recente, mas esses insetos podem estar apenas aumentando a força deles.",
                     "de_DE": "Zu wunderbar vielleicht... Es gab keine weiteren Angriffe, was aber nix hei\u00dft. Vielleicht b\u00fcndeln sie grad nur ihre Kr\u00e4fte.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4e5f\u8bb8\u8fd9\u592a\u987a\u5229\u4e86\u5427\u2026\u6700\u8fd1\u90fd\u6ca1\u6709\u4ec0\u4e48\u88ad\u51fb\uff0c\u4e5f\u8bb8\u8fd9\u4e9b\u6606\u866b\u6b63\u5728\u79ef\u84c4\u529b\u91cf\u3002",
@@ -4512,7 +4512,7 @@
                     {
                       "message": {
                         "en_US": "Just a warning: \\c[3]The nanosounds will most likely make them really angry\\c[0].\\. So expect even \\c[3]more aggression\\c[0] than before.",
-                        "pt_BR": "Apenas um aviso: \\c[3]Os nanossons provavelmente os deixarão realmente irritados\\c[0].\\. Portanto, espere \\c[3]mais agressividade\\c[0] do que antes",
+                        "pt_BR": "Apenas um aviso: \\c[3]Os nanossons provavelmente os deixarão realmente irritados\\c[0].\\. Portanto, espere \\c[3]mais agressividade\\c[0] do que antes.",
                         "de_DE": "Kleine Vorwarnung: \\c[3]Der Nanoschall wird sie wahrscheinlich sehr w\u00fctend machen\\c[0].\\. Rechne also mit \\c[3]noch mehr Aggressivit\u00e4t\\c[0] als zuvor.",
                         "zh_CN": "\u7ed9\u4f60\u4e00\u4e2a\u8b66\u544a\uff1a\u8fd9\u4e2a\u7eb3\u7c73\u58f0\u6ce2\u8bbe\u5907\u5f88\u53ef\u80fd\u4f1a\u4f7f\u5b83\u4eec\u53d8\u5f97\u6c14\u6025\u8d25\u574f\u3002\\.\u6240\u4ee5\u653b\u51fb\u80af\u5b9a\u4f1a\u6bd4\u4ee5\u524d\u66f4\u52a0\u6fc0\u70c8\u3002<<A<<[CHANGED 2018/09/14]",
                         "ja_JP": "\u305f\u3060\u3001\u6c17\u3092\u3064\u3051\u3066\u304f\u308c\u3002\\c[3]\u30ca\u30ce\u30b5\u30a6\u30f3\u30c9\u306f\u3084\u3064\u3089\u306e\u795e\u7d4c\n\u3092\u9006\u306a\u3067\u3059\u308b\u3093\u3060\\c[0]\u3002\\.\u3060\u304b\u3089\u3001\u524d\u3088\u308a\u3082\u3063\u3068\\c[3]\u653b\u6483\u7684\\c[0]\u306b\n\u306a\u308b\u3053\u3068\u304c\u4e88\u60f3\u3055\u308c\u308b\u3002<<A<<[CHANGED 2018/09/14]",
@@ -4549,7 +4549,7 @@
                     {
                       "message": {
                         "en_US": "Oh, I'm sure you will do just fine!",
-                        "pt_BR": "Oh, tenho certeza que você vai se sair bem!",
+                        "pt_BR": "Ah, tenho certeza que você vai se sair bem!",
                         "de_DE": "Du schaffst dat schon!",
                         "fr_FR": "fr_FR",
                         "zh_CN": "\u5662\uff0c\u6211\u786e\u5b9a\u4f60\u4e00\u5b9a\u4f1a\u6ca1\u4e8b\u7684\uff01",
@@ -5702,7 +5702,7 @@
           {
             "message": {
               "en_US": "The entire operation was halted by some \\c[3]rock-hard crawlers\\c[0] and now even our \\c[3]blasting devices\\c[0] are offline.",
-              "pt_BR": "Toda a operação foi interrompida por alguns \\c[3]piolhos resistentes\\c[0] e agora até mesmo nossos \\c[3]dispositivos de detonação\\c[0] estão offline.",
+              "pt_BR": "Toda a operação foi interrompida por alguns \\c[3]insetos resistentes\\c[0] e agora até mesmo nossos \\c[3]dispositivos de detonação\\c[0] estão offline.",
               "de_DE": "Ein paar \\c[3]steinharte Krabbelviecher\\c[0] haben hier alles lahmgelegt. Und jetzt sind auch noch unsere Abschussger\u00e4te ausgefallen.",
               "zh_CN": "\u4e00\u4e9b\u5982\u5ca9\u77f3\u822c\u575a\u786c\u7684\u722c\u866b\u5bfc\u81f4\u6211\u4eec\u6574\u4e2a\u7cfb\u7edf\u505c\u6ede\u4e86\uff0c\u73b0\u5728\u751a\u81f3\u4e8e\u6211\u4eec\u7684\u7206\u7834\u8bbe\u5907\u4e5f\u5904\u4e8e\u79bb\u7ebf\u72b6\u6001\u3002<<A<<[CHANGED 2018/09/14]",
               "ja_JP": "\u4f5c\u696d\u306f\\c[3]\u5ca9\u4e26\u307f\u306b\u786c\u3044\u866b\u3069\u3082\\c[0]\u306e\u305b\u3044\u3067\u4f11\u6b62\u305b\u3056\u308b\u3092\n\u5f97\u306a\u304f\u306a\u3063\u3066\u306a\u3002\u3044\u307e\u3084\\c[3]\u7206\u7834\u7528\u306e\u30c7\u30d0\u30a4\u30b9\\c[0]\u3082\n\u7a3c\u50cd\u505c\u6b62\u3057\u3061\u307e\u3063\u305f\u3002<<A<<[CHANGED 2018/09/14]",

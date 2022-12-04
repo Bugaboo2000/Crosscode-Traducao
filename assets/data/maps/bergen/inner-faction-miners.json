@@ -444,7 +444,7 @@
               {
                 "message": {
                   "en_US": "Hello \\v[lore.title.seeker], and welcome to the headquarters of the \\c[3]Bergen Digging Mates\\c[0].",
-                  "pt_BR": "Olá \\v[lore.title.seeker], seja bem-vindo ao quartel general dos \\c[3]Amigos Mineradores de Bergen\\c[0].",
+                  "pt_BR": "Olá \\v[lore.title.seeker], seja bem-vinda ao quartel general dos \\c[3]Amigos Mineradores de Bergen\\c[0].",
                   "de_DE": "Hallo, Seeker, und willkommen im Hauptquartier der \\c[3]Bergener Buddelkumpels\\c[0].",
                   "zh_CN": "\u4f60\u597d\uff0c\\v[lore.title.seeker]\u3002\u6b22\u8fce\u6765\u5230\\c[3]\u4ffe\u5c14\u6839\u77ff\u5de5\u534f\u4f1a\\c[0]\u7684\u603b\u90e8\u3002",
                   "langUid": 1,
@@ -462,7 +462,7 @@
               {
                 "message": {
                   "en_US": "We manage the mining operations at Mt. Bergen and also try to reclaim the areas that were recently lost to the Track.",
-                  "pt_BR": "Gerenciamos as operações de mineração no Monte. Bergen e também tentar recuperar as áreas que foram recentemente perdidas para a Trilha.",
+                  "pt_BR": "Gerenciamos as operações de mineração no Monte Bergen e também tentamos recuperar as áreas que foram recentemente perdidas para a Trilha.",
                   "de_DE": "Wir leiten den Bergener Bergbaubetrieb und versuchen auch die Gebiete zur\u00fcckzugewinnen, die vor kurzem an den Pfad verloren gingen.",
                   "zh_CN": "\u6211\u4eec\u7ba1\u7406\u7740\u4ffe\u5c14\u6839\u5c71\u7684\u91c7\u77ff\u4f5c\u4e1a\uff0c\u4e5f\u8bd5\u56fe\u6536\u56de\u6700\u8fd1\u88ab\u5148\u7956\u4e4b\u8def\u5360\u9886\u7684\u5730\u57df\u3002",
                   "langUid": 255,
@@ -846,7 +846,7 @@
                 {
                   "message": {
                     "en_US": "A visitor fresh from outside, eh?\\. No need to reply, I feel the sun's warmth still on you, child.",
-                    "pt_BR": "Uma visitante recém-chegada, hein?\\. Não diga nada, ainda sinto o calor do sol em você, criança",
+                    "pt_BR": "Uma visitante recém-chegada, hein?\\. Não diga nada, ainda sinto o calor do sol em você, criança.",
                     "de_DE": "Ein Besucher von drau\u00dfen, was?\\. Sag nichts, mein Kind, ich sp\u00fcre noch die W\u00e4rme der Sonne auf dir.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u4f60\u662f\u6765\u81ea\u5916\u9762\u7684\u4e00\u4e2a\u65b0\u6e38\u5ba2\u5427\\.\u54e6\uff0c\u4f60\u4e0d\u9700\u8981\u56de\u7b54\uff0c\u6211\u611f\u89c9\u5230\u4f60\u8eab\u4e0a\u592a\u9633\u7684\u6e29\u6696\u4e86\uff0c\u5b69\u5b50\u3002",
@@ -881,7 +881,7 @@
                 {
                   "message": {
                     "en_US": "Har, that look on your face!\\. The name's Turis McEdinthil, Chief Miner of the Bergen Digging Mates.\\. Welcome to our humble headquarters!",
-                    "pt_BR": "Ha! olha só pra sua cara! \\. Sou Turis McEdinthil, minerador chefe dos amigos mineradores de Bergen. \\. Bem-vindo à sede!",
+                    "pt_BR": "Ha! olha só pra sua cara!\\. Sou Turis McEdinthil, minerador chefe dos amigos mineradores de Bergen.\\. Bem-vinda à sede!",
                     "de_DE": "Ha! Muffensausen, he?\\. Ich bin Turis McEdinthil, Obersteiger der Bergener Buddelkumpels.\\. Willkommen im Hauptquartier!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u54c8\uff0c\u4f60\u8be5\u770b\u770b\u4f60\u7684\u8868\u60c5\uff01\\.\u6211\u7684\u540d\u5b57\u662f\u56fe\u91cc\u65af\u00b7\u9ea6\u4e01\u5e0c\u5c14\uff0c\u662f\u4ffe\u5c14\u6839\u77ff\u5de5\u534f\u4f1a\u7684\u9996\u5e2d\u77ff\u5de5\u3002\\.\u6b22\u8fce\u6765\u5230\u6211\u4eec\u7684\u603b\u90e8\uff01",
@@ -1015,7 +1015,7 @@
                 {
                   "message": {
                     "en_US": "Those pesky things got contaminated by the ores and machinery inside and now they're running wild in \\v[area.bergen-trails.name].",
-                    "pt_BR": "Essas coisas irritantes foram contaminadas pelos minérios e maquinários internos e agora estão correndo soltas em \\v[area.bergen-trails.name].",
+                    "pt_BR": "Essas coisas irritantes foram contaminadas pelos minérios e maquinários internos e agora estão correndo soltas na \\v[area.bergen-trails.name].",
                     "de_DE": "Diese Saubande ist durch die Erze und Maschinen jetzt v\u00f6llig verdreckt und treibt ihr Unwesen in Bergen-Trail.",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u8fd9\u4e9b\u8ba8\u538c\u7684\u4e1c\u897f\u88ab\u91cc\u9762\u7684\u77ff\u77f3\u548c\u673a\u68b0\u6c61\u67d3\u4e86\uff0c\u73b0\u5728\u5b83\u4eec\u6b63\u5728\\v[area.bergen-trails.name]\u8086\u610f\u7834\u574f\u3002",
@@ -1189,7 +1189,7 @@
                     {
                       "message": {
                         "en_US": "Just give them a good \\c[3]shove into the nearest lake\\c[0] and then hammer their freshly-bathed butts into the ground.\\. Got it?",
-                        "pt_BR": "Basta empurra-los \\c[3]no lago mais próximo\\c[0] e, em seguida, martelar suas pontas recém-lavadas no chão.\\. Entendeu?",
+                        "pt_BR": "Basta empurra-los \\c[3]no lago mais próximo\\c[0] e, em seguida, arrebentar aquelas pestes.\\. Entendeu?",
                         "de_DE": "Du \\c[3]schubst sie einfach ins Wasser\\c[0] und dann RAMMST du sie unangespitzt in den Boden.\\. Klar so weit?",
                         "zh_CN": "\u53ea\u8981\u628a\u5b83\u4eec\u5f15\u5230\u6c34\u8fb9\uff0c\u7136\u540e\u4e00\u811a\u628a\u5b83\u4eec\u8e39\u8fdb\u53bb\u5c31\u884c\u4e86\u3002\\.\u660e\u767d\u4e86\u5417\uff1f<<A<<[CHANGED 2018/09/19]",
                         "ja_JP": "\u305f\u3060\u3001\u3084\u3064\u3089\u3092\\c[3]\u624b\u8fd1\u306a\u6c60\\c[0]\u306b\u7a81\u304d\u843d\u3068\u3057\u3066\n\u3084\u308c\u3070\u3044\u3044\u3093\u3060\u3002\u305d\u3046\u3084\u3063\u3066\u304d\u308c\u3044\u306b\u306a\u3063\u305f\n\u9023\u4e2d\u306e\u30b1\u30c4\u3092\u3076\u3063\u53e9\u3044\u3066\u3084\u308c\u3070\u3044\u3044\u3002\\.\u308f\u304b\u3063\u305f\u304b\uff1f<<A<<[CHANGED 2018/09/19]",
@@ -1514,7 +1514,7 @@
                 {
                   "message": {
                     "en_US": "Here, take your reward, fresh from the mines.\\. And there'll be more where that came from in the future!",
-                    "pt_BR": "Aqui, pegue sua recompensa, recém-saído das minas.\\. E haverá mais de onde isso veio no futuro!",
+                    "pt_BR": "Aqui, pegue sua recompensa, recém-saída das minas.\\. E haverá mais de onde isso veio no futuro!",
                     "de_DE": "Hier, deine Belohnung, frisch aus der Grube.\\. Von dem Zeug wird's schon bald 'ne Menge mehr geben!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u6765\uff0c\u8fd9\u662f\u4f60\u7684\u62a5\u916c\uff0c\u521a\u6316\u51fa\u6765\u7684\u3002\\.\u4ee5\u540e\u8fd9\u91cc\u8fd8\u4f1a\u4ea7\u51fa\u66f4\u591a\u8fd9\u4e9b\u4e1c\u897f\u3002",
@@ -1595,7 +1595,7 @@
                 {
                   "message": {
                     "en_US": "Har, pleasure to see you again \\v[lore.title.seeker]!",
-                    "pt_BR": "Oh, é um prazer vê-la novamente \\v[lore.title.seeker]!",
+                    "pt_BR": "Ah, é um prazer vê-la novamente \\v[lore.title.seeker]!",
                     "de_DE": "Ah, freut mich, dich wiederzusehen, Seeker!",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u54c8\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u4f60\uff0c\\v[lore.title.seeker]\uff01",
@@ -1614,7 +1614,7 @@
                 {
                   "message": {
                     "en_US": "And that warmth... you've conquered the Temple Mine and claimed the power of Heat, eh?",
-                    "pt_BR": "E esse calor... você conquistou a Templo da Mina e reivindicou o poder do Fogo, hein?",
+                    "pt_BR": "E esse calor... você conquistou a Mina do Templo e reivindicou o poder do Fogo, hein?",
                     "de_DE": "Diese W\u00e4rme... Dann hast du dir die Kraft der Hitze aus der Tempelmine an Land gezogen, he?",
                     "fr_FR": "fr_FR",
                     "zh_CN": "\u597d\u6696\u548c\u2026\u4f60\u5df2\u7ecf\u51fb\u8d25\u795e\u5e99\u77ff\u4e95\uff0c\u5e76\u4e14\u83b7\u5f97\u4e86\u706b\u7130\u7684\u80fd\u529b\u6ca1\u9519\u5427\uff1f",
@@ -1930,7 +1930,7 @@
                     {
                       "message": {
                         "en_US": "\\c[3]Miner Darrel\\c[0] will wait for you on the spot and fill you in on the details.",
-                        "pt_BR": "\\c[3]Mineiro Darrel\\c[0] irá esperar por você no local para informá-la sobre os detalhes.",
+                        "pt_BR": "O \\c[3]Mineiro Darrel\\c[0] irá esperar por você no local para informá-la sobre os detalhes.",
                         "de_DE": "\\c[3]Bergmann Darrel\\c[0] wartet vor Ort auf dich und erkl\u00e4rt dir den Rest.",
                         "zh_CN": "\u77ff\u5de5\u8fbe\u745e\u5c14\u4f1a\u5728\u90a3\u91cc\u7b49\u4f60\uff0c\u4ed6\u4f1a\u544a\u8bc9\u4f60\u5f88\u591a\u7ec6\u8282\u3002<<A<<[CHANGED 2018/09/14]",
                         "ja_JP": "\u305d\u3053\u3067\u5f85\u3063\u3066\u308b\\c[3]\u9271\u54e1\u306e\u30c0\u30ec\u30eb\\c[0]\u304c\u3082\u3063\u3068\u8a73\u3057\u3044\u3053\u3068\u3092\n\u6559\u3048\u3066\u304f\u308c\u308b\u3060\u308d\u3046\u3002<<A<<[CHANGED 2018/09/14]",

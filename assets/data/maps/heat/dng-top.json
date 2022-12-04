@@ -12444,7 +12444,7 @@
               {
                 "message": {
                   "en_US": "We just finished the dungeon and suddenly he has to go afk.",
-                  "pt_BR": "Acabamos de terminar a masmorra e de repente ele ficou afk.",
+                  "pt_BR": "Acabamos de terminar a dungeon e de repente ele ficou afk.",
                   "langUid": 912,
                   "de_DE": "Gerade als wir aus dem Dungeon raus sind, ging er pl\u00f6tzlich afk.",
                   "ja_JP": "\u30c0\u30f3\u30b8\u30e7\u30f3\u3092\u30af\u30ea\u30a2\u3057\u305f\u3089\u3001\n\u53cb\u9054\u304c\u7a81\u7136\u5e2d\u3092\u5916\u3057\u3061\u3083\u3063\u3066\u306d\u3002<<A<<[CHANGED 2018/08/28]",
@@ -12498,7 +12498,7 @@
               {
                 "message": {
                   "en_US": "Wait!",
-                  "pt_BR": "Espere!",
+                  "pt_BR": "Espera!",
                   "langUid": 915,
                   "de_DE": "Warte!",
                   "ja_JP": "\u5f85\u3063\u3066\uff01<<A<<[CHANGED 2018/08/28]",
@@ -12732,7 +12732,7 @@
             "entity": { "global": true, "name": "hexaShocked" },
             "text": {
               "en_US": "Phew, finally done! That was a long one again.",
-              "pt_BR": "Ufa, finalmente acabou! Essa foi uma longa masmorra.",
+              "pt_BR": "Ufa, finalmente acabou! Essa foi uma longa dungeon.",
               "langUid": 896,
               "de_DE": "Puh, geschafft! Der war wieder echt lang.",
               "ja_JP": "\u3075\u3046\u3001\u3088\u3046\u3084\u304f\u7d42\u308f\u3063\u305f\uff01\n\u3053\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u3082\n\u305a\u3044\u3076\u3093\u9577\u304b\u3063\u305f\u306a\u3002<<A<<[CHANGED 2018/08/28]",
