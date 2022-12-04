@@ -1,0 +1,2089 @@
+{
+  "level": 63,
+  "params": {
+    "hp": 186681,
+    "attack": 404,
+    "defense": 381,
+    "focus": 386,
+    "statusInflict": [1, 1, 1, 1],
+    "statusEffect": [0.3, 0.7, 1, 0.8]
+  },
+  "credit": 0,
+  "exp": 0,
+  "maxSp": 250,
+  "enduranceScale": 10,
+  "healDropRate": 0,
+  "boss": true,
+  "bossOrder": 0,
+  "padding": { "x": 0, "y": 0 },
+  "material": "METAL",
+  "aiGroup": "",
+  "aiLearnType": "REGULAR",
+  "itemDrops": [],
+  "targetDetect": { "onDistance": false, "detectDistance": 1000 },
+  "hpBreaks": [{ "hp": 0.5, "healDrop": 0.25 }],
+  "size": { "x": 72, "y": 72, "z": 20 },
+  "anims": "enemies.turret-float-boss-1",
+  "defaultState": "OFF",
+  "walkConfigs": {
+    "off": { "idle": "aim" },
+    "default": {
+      "idle": "aim",
+      "_shoot": "shoot",
+      "_toggle": "aim",
+      "move": "aim"
+    },
+    "stun": { "idle": "stun" }
+  },
+  "_wm": null,
+  "walkAnims": "off",
+  "accelSpeed": 1,
+  "airFriction": 0,
+  "weight": -1,
+  "maxVel": 20,
+  "collType": "VIRTUAL",
+  "shadow": 22,
+  "floatMaxSpeed": 800,
+  "floatAccel": 10,
+  "flyHeight": 72,
+  "flyKeepHeight": true,
+  "hitStable": "MASSIVE",
+  "annotate": {
+    "active": "NONE",
+    "passive": "NONE",
+    "weapon": "RANGED",
+    "element": "ANY",
+    "extra": ["BE_PASSIVE"]
+  },
+  "DOCTYPE": "ENEMY",
+  "trackers": {
+    "regen": {
+      "target": 6,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "noAssist": false,
+      "type": "TIME"
+    },
+    "stunHits": {
+      "target": 3,
+      "scaleDmgFactor": false,
+      "scaleEnemyFactor": false,
+      "noStateReset": false,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noAssist": false,
+      "type": "HIT"
+    },
+    "shieldRegen": {
+      "target": 45,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": true,
+      "noAssist": false,
+      "scaleDmgFactor": false,
+      "scaleEnemyFactor": false,
+      "type": "TIME"
+    },
+    "missileCooldown": {
+      "target": 15,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": true,
+      "noAssist": false,
+      "scaleDmgFactor": false,
+      "scaleEnemyFactor": false,
+      "type": "TIME"
+    }
+  },
+  "states": {
+    "OFF": {
+      "walkAnims": "off",
+      "ignoreCollision": true,
+      "hitIgnore": true,
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "ENTERED_STATE" },
+            { "name": "false", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "InitMove"
+        },
+        {
+          "req": [{ "name": "init", "type": "!ATTRIB_IS_TRUE" }],
+          "action": "Init"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "(entity.vel.x >= -19)"
+            },
+            { "name": "false", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "InitMove",
+          "negated": false,
+          "type": "ENTERED_STATE"
+        },
+        {
+          "req": [
+            {
+              "min": 0,
+              "max": 740,
+              "negated": false,
+              "type": "TARGET_X_DISTANCE"
+            }
+          ],
+          "action": "GoOn",
+          "preSwitchState": "ATTACK"
+        }
+      ]
+    },
+    "ATTACK": {
+      "walkAnims": "default",
+      "faceToTarget": false,
+      "enabledReactions": [
+        "TURRET_HIT_PARTSHIELD",
+        "TURRET_HIT_PARTSHIELD_SIDE",
+        "TURRET_HIT",
+        "TARGET",
+        "DEAD",
+        "TURRET_HIT_SHIELD",
+        "HP_BREAK"
+      ],
+      "choices": [
+        {
+          "req": [{ "name": "init", "type": "!ATTRIB_IS_TRUE" }],
+          "action": "Init"
+        },
+        {
+          "req": [
+            { "name": "part", "type": "!HAS_SHIELD" },
+            {
+              "name": "partShield",
+              "negated": false,
+              "type": "ATTRIB_IS_TRUE"
+            },
+            { "min": 1, "negated": false, "type": "HP_BREAK" }
+          ],
+          "action": "StartPartShield"
+        },
+        {
+          "req": [
+            { "name": "full", "type": "!HAS_SHIELD" },
+            { "name": "part", "type": "!HAS_SHIELD" },
+            { "name": "shield", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "StartFullShield"
+        },
+        {
+          "req": [
+            { "name": "full", "type": "!HAS_SHIELD" },
+            { "name": "part", "type": "!HAS_SHIELD" },
+            { "name": "shield", "type": "!ATTRIB_IS_TRUE" },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "shieldRegen"
+            },
+            { "max": 0, "negated": false, "type": "HP_BREAK" }
+          ],
+          "action": "StartFullShield"
+        },
+        {
+          "req": [
+            { "name": "part", "type": "!HAS_SHIELD" },
+            { "name": "partShield", "type": "!ATTRIB_IS_TRUE" },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "shieldRegen"
+            },
+            { "min": 1, "negated": false, "type": "HP_BREAK" }
+          ],
+          "action": "StartPartShield"
+        },
+        {
+          "req": [{ "zMin": 12, "zMax": 24, "type": "!TARGET_Z_DISTANCE" }],
+          "action": "Idle"
+        },
+        {
+          "req": [
+            {
+              "count": 999,
+              "sameType": false,
+              "negated": false,
+              "type": "ENEMY_COUNT"
+            },
+            { "name": "helpShown", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "RangeShot",
+          "frequency": "SOMETIMES"
+        },
+        {
+          "req": [
+            { "type": "!VAR_CONDITION", "condition": "tmp.allyStunned" },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "missileCooldown"
+            }
+          ],
+          "action": "AntiTurretShot",
+          "frequency": "SOMETIMES"
+        },
+        { "action": "MultiShot", "frequency": "NORMAL" },
+        { "action": "SingleShot", "frequency": "OFTEN" },
+        { "action": "FocusTarget" }
+      ]
+    },
+    "STUN": {
+      "walkAnims": "stun",
+      "damageFactor": 2,
+      "enabledReactions": [
+        "TURRET_HIT_PARTSHIELD",
+        "TURRET_HIT_STUNSTATE",
+        "TARGET",
+        "DEAD",
+        "HP_BREAK"
+      ],
+      "annotate": {
+        "active": "NONE",
+        "passive": "WEAK",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": [
+        {
+          "req": [{ "negated": false, "type": "ENTERED_STATE" }],
+          "action": "StunStart"
+        },
+        {
+          "req": [
+            { "negated": false, "type": "TRACKER_READY", "name": "regen" }
+          ],
+          "action": "StunEnd",
+          "postSwitchState": "ATTACK",
+          "ignoreStun": true
+        },
+        { "action": "StunWait" }
+      ]
+    },
+    "PASSIVE_INVIS": {
+      "ignoreCollision": true,
+      "weight": -1,
+      "maxVel": 20,
+      "hitIgnore": true,
+      "aggression": "PEACEFUL",
+      "annotate": {
+        "active": "NONE",
+        "passive": "IMMUNE",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": [
+        {
+          "req": [{ "name": "init", "type": "!ATTRIB_IS_TRUE" }],
+          "action": "Init"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.wave >= entity.attrib.startingWave"
+            }
+          ],
+          "postSwitchState": "OFF"
+        }
+      ]
+    }
+  },
+  "proxies": {
+    "default": {
+      "effects": "enemies.turret-rhombus",
+      "speed": 150,
+      "maxBounce": 0,
+      "timer": 5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "effect": "ar",
+      "maxBounds": 0,
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/enemy/turret-rhombus.png",
+          "width": 16,
+          "height": 16,
+          "offX": 192,
+          "offY": 160
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [3, 2, 1, 0]
+      },
+      "attack": {
+        "type": "MEDIUM",
+        "element": "NEUTRAL",
+        "damageFactor": 0.8,
+        "reverse": false,
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "anti-turret": {
+      "effects": "enemies.turret-monks",
+      "speed": 100,
+      "maxBounce": 0,
+      "timer": 5,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "effect": "ar",
+      "maxBounds": 0,
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/enemy/turret-monk.png",
+          "offX": 96,
+          "offY": 152,
+          "width": 16,
+          "height": 16
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [3, 2, 1, 0]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "NEUTRAL",
+        "damageFactor": 0.3,
+        "fly": "MASSIVE",
+        "reverse": false,
+        "critFactor": 1,
+        "hints": ["anti-turret"],
+        "guardable": "ALWAYS",
+        "skillBonus": "RANGED_DMG",
+        "limiter": null
+      },
+      "timeBoni": null,
+      "behaviors": []
+    },
+    "dmgBuff": {
+      "copyOwnerAnims": false,
+      "breakType": "NEVER",
+      "action": [],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": null,
+      "startAnim": null,
+      "size": { "x": 0, "y": 0, "z": 0 },
+      "config": {},
+      "type": "GENERIC"
+    },
+    "missilesHoming": {
+      "animation": {
+        "name": "missile",
+        "sheet": {
+          "src": "media/entity/enemy/turret-boss-float.png",
+          "offX": 72,
+          "offY": 760,
+          "width": 16,
+          "height": 32
+        },
+        "time": 0.06,
+        "repeat": true,
+        "faceRotate": true,
+        "frames": [0, 1, 2]
+      },
+      "copyOwnerAnims": false,
+      "breakType": "COMBATANT",
+      "action": [
+        {
+          "withElse": false,
+          "type": "IF",
+          "condition": "!tmp.firstMissiles",
+          "thenStep": [
+            {
+              "text": {
+                "en_US": "[ INTERCEPT THE MISSILES! ]",
+                "pt_BR": "[ INTERCEPTAR OS MÍSSEIS! ]",
+                "langUid": 41,
+                "de_DE": "[ FANGE RAKETEN AB! ]<<C<<Gepr\u00fcft: Minsu",
+                "zh_TW": "[\u6514\u622a\u5c0e\u5f48\uff01]<<A<<[CHANGED 2020/06/15]",
+                "ko_KR": "[ \ubbf8\uc0ac\uc77c\uc744 \ucc28\ub2e8\ud558\uc138\uc694! ]<<A<<[CHANGED 2020/06/17]",
+                "ja_JP": "[\u30df\u30b5\u30a4\u30eb\u3092\u6253\u3061\u843d\u3068\u305b\uff01]<<A<<[CHANGED 2020/06/17]",
+                "zh_CN": "[\u62e6\u622a\u5bfc\u5f39\uff01]<<A<<[CHANGED 2020/06/17]"
+              },
+              "mode": "NO_LINE",
+              "color": "RED",
+              "actionDetached": false,
+              "hideOutsideOfScreen": false,
+              "type": "SHOW_AR_MSG",
+              "time": 3
+            }
+          ]
+        },
+        {
+          "volume": 1,
+          "global": false,
+          "loop": false,
+          "sound": "media/sound/battle/explosion-1.ogg",
+          "type": "PLAY_SOUND"
+        },
+        {
+          "kind": "NAMED_ENTITY",
+          "key": "helper-turret",
+          "type": "SET_TEMP_TARGET"
+        },
+        {
+          "duration": 0,
+          "align": "BOTTOM",
+          "rotateFace": 8,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "fixPos": false,
+          "type": "SHOW_EFFECT",
+          "effect": { "sheet": "puzzle.water-bubble", "name": "missileStart" },
+          "offset": { "x": 0, "y": -16, "z": 0 }
+        },
+        { "type": "SET_RELATIVE_SPEED", "value": 1 },
+        { "time": 0.05, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+        { "type": "SET_RELATIVE_SPEED", "value": 0.3 },
+        { "value": 8, "type": "SET_FLY_HEIGHT" },
+        { "time": 1.2, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+        { "value": 0.05, "type": "SET_AIR_FRICTION" },
+        {
+          "conditions": [{ "min": 1, "negated": false, "type": "HP_BREAK" }],
+          "withElse": true,
+          "type": "COMBAT_IF",
+          "thenStep": [{ "aggroTime": 0.5, "type": "WAIT", "time": 0.7 }],
+          "elseStep": [{ "aggroTime": 0.7, "type": "WAIT", "time": 0.9 }]
+        },
+        {
+          "volume": 0.8,
+          "global": false,
+          "loop": false,
+          "speed": 1.4,
+          "sound": "media/sound/battle/explosion-1.ogg",
+          "type": "PLAY_SOUND"
+        },
+        {
+          "duration": 0,
+          "align": "BOTTOM",
+          "rotateFace": 8,
+          "flipLeftFace": false,
+          "wait": false,
+          "waitSkip": 0,
+          "actionDetached": false,
+          "fixPos": false,
+          "type": "SHOW_EFFECT",
+          "effect": { "sheet": "puzzle.water-bubble", "name": "missileStart" },
+          "offset": { "x": 0, "y": -16, "z": 0 }
+        },
+        { "value": 1.5, "type": "SET_ACCEL_SPEED" },
+        { "type": "SET_RELATIVE_SPEED", "value": 3 },
+        {
+          "time": 0.15,
+          "cancelOnHit": true,
+          "withBranches": true,
+          "collideCancel": 1,
+          "rotateSpeed": 0.1,
+          "orthoDirFactor": 0,
+          "ignoreLastHit": false,
+          "collideSlip": false,
+          "type": "TACKLE",
+          "attack": {
+            "type": "HEAVY",
+            "element": "HEAT",
+            "damageFactor": 0.5,
+            "reverse": false,
+            "critFactor": 1,
+            "hints": ["anti-turret"],
+            "guardable": null,
+            "skillBonus": "RANGED_DMG",
+            "limiter": null
+          },
+          "hit": [
+            {
+              "text": {
+                "en_US": "boom effects?",
+                "pt_BR": "efeitos de explosão?",
+                "langUid": 35,
+                "de_DE": "Knalleffekte?<<C<<Gepr\u00fcft: Minsu",
+                "zh_TW": "boomeffects?<<A<<[CHANGED 2020/06/15]",
+                "ko_KR": "\ud3ed\ubc1c \ud6a8\uacfc?<<A<<[CHANGED 2020/06/17]",
+                "ja_JP": "\u30c9\u30ab\u30fc\u30f3<<A<<[CHANGED 2020/06/17]",
+                "zh_CN": "boom effects?<<A<<[CHANGED 2020/06/17]"
+              },
+              "mode": "NO_LINE",
+              "color": "GREEN",
+              "actionDetached": false,
+              "hideOutsideOfScreen": false,
+              "type": "SHOW_AR_MSG",
+              "time": 0
+            }
+          ],
+          "missed": []
+        },
+        {
+          "conditions": [{ "min": 1, "negated": false, "type": "HP_BREAK" }],
+          "withElse": true,
+          "type": "COMBAT_IF",
+          "thenStep": [{ "type": "SET_RELATIVE_SPEED", "value": 0.8 }],
+          "elseStep": [{ "type": "SET_RELATIVE_SPEED", "value": 0.7 }]
+        },
+        {
+          "time": 7,
+          "cancelOnHit": true,
+          "withBranches": true,
+          "collideCancel": 1,
+          "rotateSpeed": 0.15,
+          "orthoDirFactor": 0,
+          "ignoreLastHit": false,
+          "collideSlip": false,
+          "type": "TACKLE",
+          "attack": {
+            "type": "HEAVY",
+            "element": "HEAT",
+            "damageFactor": 0.5,
+            "reverse": false,
+            "critFactor": 1,
+            "hints": ["anti-turret"],
+            "guardable": null,
+            "skillBonus": "RANGED_DMG",
+            "limiter": null
+          },
+          "hit": [
+            {
+              "text": {
+                "en_US": "boom effects?",
+                "pt_BR": "efeitos de explosão?",
+                "langUid": 38,
+                "de_DE": "Knalleffekte?<<C<<Gepr\u00fcft: Minsu",
+                "zh_TW": "boomeffects?<<A<<[CHANGED 2020/06/15]",
+                "ko_KR": "\ud3ed\ubc1c \ud6a8\uacfc?<<A<<[CHANGED 2020/06/17]",
+                "ja_JP": "\u30c9\u30ab\u30fc\u30f3<<A<<[CHANGED 2020/06/17]",
+                "zh_CN": "boom effects?<<A<<[CHANGED 2020/06/17]"
+              },
+              "mode": "NO_LINE",
+              "color": "GREEN",
+              "actionDetached": false,
+              "hideOutsideOfScreen": false,
+              "type": "SHOW_AR_MSG",
+              "time": 0
+            }
+          ],
+          "missed": [
+            {
+              "time": 10,
+              "cancelOnHit": true,
+              "withBranches": true,
+              "collideCancel": 1,
+              "rotateSpeed": 0.3,
+              "orthoDirFactor": 0,
+              "ignoreLastHit": false,
+              "collideSlip": false,
+              "type": "TACKLE",
+              "attack": {
+                "type": "HEAVY",
+                "element": "HEAT",
+                "damageFactor": 0.5,
+                "reverse": false,
+                "critFactor": 1,
+                "hints": ["anti-turret"],
+                "guardable": null,
+                "skillBonus": "RANGED_DMG",
+                "limiter": null
+              },
+              "hit": [
+                {
+                  "text": {
+                    "en_US": "boom effects?",
+                    "pt_BR": "efeitos de explosão?",
+                    "langUid": 42,
+                    "de_DE": "Knalleffekte?<<C<<Gepr\u00fcft: Minsu",
+                    "zh_TW": "boomeffects?<<A<<[CHANGED 2020/06/15]",
+                    "ko_KR": "\ud3ed\ubc1c \ud6a8\uacfc?<<A<<[CHANGED 2020/06/17]",
+                    "ja_JP": "\u30c9\u30ab\u30fc\u30f3<<A<<[CHANGED 2020/06/17]",
+                    "zh_CN": "boom effects?<<A<<[CHANGED 2020/06/17]"
+                  },
+                  "mode": "NO_LINE",
+                  "color": "GREEN",
+                  "actionDetached": false,
+                  "hideOutsideOfScreen": false,
+                  "type": "SHOW_AR_MSG",
+                  "time": 0
+                }
+              ],
+              "missed": []
+            }
+          ]
+        }
+      ],
+      "invisible": false,
+      "hp": 0.5,
+      "killEffect": { "sheet": "puzzle.destructible", "name": "smallBoom_1" },
+      "stickToSource": "NONE",
+      "stickFaceAlign": false,
+      "group": "",
+      "startAnim": "",
+      "size": { "x": 16, "y": 16, "z": 16 },
+      "effects": "enemies.turret-monks",
+      "speed": 100,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "GENERIC",
+      "attack": {
+        "type": "HEAVY",
+        "element": "NEUTRAL",
+        "damageFactor": 0.5,
+        "reverse": false,
+        "hints": ["anti-turret"],
+        "guardable": null,
+        "skillBonus": "RANGED_DMG",
+        "limiter": null
+      },
+      "timeBoni": null,
+      "behaviors": [
+        { "type": "FOLLOW_TARGET", "steerDegree": 0.6, "adjustTime": 0.3 },
+        {
+          "type": "SLOW_DOWN",
+          "speedFactor": 0.1,
+          "fadeOut": 0.033,
+          "pause": 0.3,
+          "fadeIn": 0.2
+        }
+      ],
+      "config": {
+        "collType": "PROJECTILE",
+        "accelSpeed": 0.7,
+        "maxVel": 100,
+        "shadow": 16,
+        "floatAccel": 1,
+        "flyHeight": 16,
+        "faceToTarget": false
+      }
+    },
+    "missilesHoming_OLD": {
+      "effects": "enemies.turret-monks",
+      "speed": 100,
+      "maxBounce": 0,
+      "timer": 1,
+      "trail": false,
+      "multiHit": false,
+      "noLightGlow": false,
+      "type": "BALL",
+      "animation": {
+        "name": "default",
+        "sheet": {
+          "src": "media/entity/balls/default.png",
+          "width": 24,
+          "height": 24,
+          "offY": 72
+        },
+        "time": 0.05,
+        "repeat": true,
+        "frames": [4]
+      },
+      "attack": {
+        "type": "HEAVY",
+        "element": "NEUTRAL",
+        "damageFactor": 0.5,
+        "reverse": false,
+        "hints": ["anti-turret"],
+        "guardable": "",
+        "skillBonus": "RANGED_DMG",
+        "limiter": ""
+      },
+      "timeBoni": null,
+      "behaviors": [
+        { "type": "FOLLOW_TARGET", "steerDegree": 0.6, "adjustTime": 0.3 },
+        {
+          "type": "SLOW_DOWN",
+          "speedFactor": 0.1,
+          "fadeOut": 0.033,
+          "pause": 0.3,
+          "fadeIn": 0.2
+        }
+      ]
+    }
+  },
+  "actions": {
+    "Init": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "\\v[entity.attrib.startingWave]",
+              "pt_BR": "\\v[entity.attrib.startingWave]",
+              "de_DE": "\\v[entity.attrib.startingWave]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "\\v[entity.attrib.startingWave]<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "\\v[entity.attrib.startingWave]<<A<<[CHANGED 2020/06/17]",
+              "ko_KR": "\\v[entity.attrib.startingWave]<<A<<[CHANGED 2020/06/17]",
+              "langUid": 11,
+              "zh_TW": "\\v[entity.attrib.startingWave]<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 3
+          }
+        ]
+      },
+      {
+        "forceValue": 0.66,
+        "type": "RESET_TRACKER",
+        "tracker": "missileCooldown"
+      },
+      { "name": "shield", "type": "SET_ATTRIB_BOOL", "value": true },
+      { "name": "partShield", "type": "SET_ATTRIB_BOOL", "value": true },
+      { "name": "init", "type": "SET_ATTRIB_BOOL", "value": true }
+    ],
+    "InitMove": [
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" },
+      { "time": 0.2, "type": "WAIT" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "MOVE",
+              "pt_BR": "MOVER",
+              "langUid": 28,
+              "zh_CN": "\u79fb\u52a8<<A<<[CHANGED 2020/06/17]",
+              "de_DE": "BEWEGEN<<C<<Gepr\u00fcft: Minsu",
+              "ko_KR": "\uc774\ub3d9<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "\u79fb\u52d5<<A<<[CHANGED 2020/06/17]",
+              "zh_TW": "\u79fb\u52d5<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 1
+          }
+        ]
+      },
+      { "type": "STOP_XY" },
+      {
+        "conditions": [
+          {
+            "negated": false,
+            "type": "VAR_CONDITION",
+            "condition": "tmp.vertical"
+          }
+        ],
+        "withElse": true,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "face": "SOUTH",
+            "rotate": true,
+            "rotateSpeed": 3,
+            "type": "SET_FACE"
+          }
+        ],
+        "elseStep": [
+          {
+            "face": "WEST",
+            "rotate": true,
+            "rotateSpeed": 3,
+            "type": "SET_FACE"
+          }
+        ]
+      },
+      { "value": true, "type": "SET_FACE_FIX" },
+      { "time": 0.01, "type": "WAIT" },
+      { "value": 1, "type": "SET_AIR_FRICTION" },
+      { "time": 0.2, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "moving", "type": "SET_ATTRIB_BOOL", "value": true },
+      { "type": "REASSIGN_TARGET" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" }
+    ],
+    "Idle": [{ "time": 0.1, "type": "WAIT" }],
+    "StunWait": [
+      {
+        "duration": 0.3,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "weak", "name": "light" }
+      },
+      { "time": 0.5, "type": "WAIT" }
+    ],
+    "FocusTarget": [
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "time": 0.1, "type": "WAIT" }
+    ],
+    "SingleShot": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0.2,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "charge" }
+      },
+      { "time": 0.2, "type": "WAIT" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "align": "FACE", "type": "SHOOT_PROXY", "proxy": "default" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      }
+    ],
+    "MultiShot": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "duration": 0.5,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "charge",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "time": 0.1, "type": "WAIT" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0.2,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "charge" }
+      },
+      { "time": 0.2, "type": "WAIT" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 2, "forwardToProxies": false, "type": "SET_DAMAGE_CEILING" },
+      { "align": "FACE", "type": "SHOOT_PROXY", "proxy": "default" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      },
+      { "time": 0.1, "type": "WAIT" },
+      { "align": "FACE", "type": "SHOOT_PROXY", "proxy": "default" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      },
+      { "time": 0.1, "type": "WAIT" },
+      { "align": "FACE", "type": "SHOOT_PROXY", "proxy": "default" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      },
+      { "time": 0.1, "type": "WAIT" }
+    ],
+    "RangeShot": [
+      {
+        "active": "PRE_ATTACK",
+        "passive": "VULNERABLE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "name": "full", "type": "REMOVE_SHIELD" },
+      { "group": "fullShield", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": 2,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "charge",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "type": "ENABLE_REACTION", "reaction": "CHARGE_WEAK" },
+      { "time": 1.3, "type": "WAIT" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0.2,
+        "actionDetached": false,
+        "group": "charge",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "charge" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "time": 0.2, "type": "WAIT" },
+      {
+        "active": "ATTACK",
+        "passive": "NONE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "type": "DISABLE_REACTION", "reaction": "CHARGE_WEAK" },
+      { "value": 2, "forwardToProxies": false, "type": "SET_DAMAGE_CEILING" },
+      {
+        "align": "FACE",
+        "centralAngle": 0.05,
+        "angleVary": 0,
+        "startDistCollide": "NONE",
+        "random": false,
+        "clockwise": true,
+        "flipLeftFace": 0,
+        "circularArea": false,
+        "uniformDir": 0,
+        "delay": 0,
+        "repeat": false,
+        "count": 3,
+        "duration": 0,
+        "type": "SHOOT_PROXY_RANGE",
+        "proxy": "default",
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      }
+    ],
+    "GoOn": [
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_toggle"
+      },
+      {
+        "actionDetached": true,
+        "onlyAfterRemove": false,
+        "type": "ADD_PLAYER_CAMERA_TARGET"
+      },
+      { "time": 0.1, "type": "WAIT" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "false",
+        "thenStep": [
+          {
+            "noStateReset": false,
+            "type": "DO_ENEMY_ACTION",
+            "actionName": "StartFullShield"
+          }
+        ]
+      }
+    ],
+    "GoOff": [
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "face": "SOUTH", "rotate": true, "rotateSpeed": 3, "type": "SET_FACE" },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_toggle"
+      }
+    ],
+    "StartFullShield": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "true",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "[ FullShield On ]",
+              "pt_BR": "[ Escudo Completo Ligado ]",
+              "de_DE": "[ Vollschild AN ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u5c55\u5f00\u5168\u65b9\u5411\u62a4\u76fe]<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "[\u30d5\u30eb\u30b7\u30fc\u30eb\u30c9ON]<<A<<[CHANGED 2020/06/17]",
+              "ko_KR": "[ \uc804\uccb4 \ubc29\uc5b4\ub9c9 \ucf1c\uc9d0 ]<<A<<[CHANGED 2020/06/17]",
+              "langUid": 1,
+              "zh_TW": "[\u5c55\u958b\u5168\u65b9\u5411\u8b77\u76fe]<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "time": 2,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "duration": -1,
+        "align": "TOP",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "fullShield",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-huge", "name": "fullShield" },
+        "offset": { "x": 0, "y": 40, "z": 24 }
+      },
+      { "name": "shield", "type": "SET_ATTRIB_BOOL", "value": true },
+      {
+        "name": "full",
+        "actionDetached": true,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": { "baseFactor": 0.25, "range": 1 }
+        }
+      },
+      { "time": 1.5, "type": "WAIT" }
+    ],
+    "EndFullShield": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.attrib.shield",
+        "thenStep": [{ "type": "RESET_TRACKER", "tracker": "shieldRegen" }]
+      },
+      { "name": "full", "type": "REMOVE_SHIELD" },
+      { "group": "fullShield", "type": "CLEAR_EFFECTS" },
+      { "group": "charge", "type": "CLEAR_EFFECTS" },
+      { "name": "moving", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "name": "shield", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "type": "CLEAR_AR_MSG" },
+      { "type": "STOP_XY" }
+    ],
+    "StartPartShield": [
+      {
+        "text": {
+          "en_US": "[ FrontShield On ]",
+          "pt_BR": "[ Escudo Frontal Ligado ]",
+          "de_DE": "[ Frontschild AN ]<<C<<Gepr\u00fcft: Minsu",
+          "langUid": 2,
+          "zh_TW": "[\u5c55\u958b\u524d\u65b9\u8b77\u76fe]<<A<<[CHANGED 2020/06/15]",
+          "ko_KR": "[ \uc804\ubc29 \ubc29\uc5b4\ub9c9 \ucf1c\uc9d0 ]<<A<<[CHANGED 2020/06/17]",
+          "ja_JP": "[\u30d5\u30ed\u30f3\u30c8\u30b7\u30fc\u30eb\u30c9ON]<<A<<[CHANGED 2020/06/17]",
+          "zh_CN": "[\u5c55\u5f00\u524d\u65b9\u62a4\u76fe]<<A<<[CHANGED 2020/06/17]"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "time": 2,
+        "type": "SHOW_AR_MSG"
+      },
+      { "name": "full", "type": "REMOVE_SHIELD" },
+      { "group": "fullShield", "type": "CLEAR_EFFECTS" },
+      { "group": "charge", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "partShield",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-huge", "name": "partShield" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "name": "part",
+        "actionDetached": true,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": {
+            "baseFactor": 0.1,
+            "strength": "REGULAR",
+            "range": 0.3,
+            "back": false
+          }
+        }
+      },
+      { "time": 1, "type": "WAIT" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.helperPlatforms",
+        "value": true
+      },
+      { "time": 1, "type": "WAIT" }
+    ],
+    "StartAllShields": [
+      {
+        "text": {
+          "en_US": "[ DoubleShield On ]",
+          "pt_BR": "[ Escudo Duplo Ligado ]",
+          "de_DE": "[ Doppelschild AN ]<<C<<Gepr\u00fcft: Minsu",
+          "langUid": 3,
+          "zh_TW": "[\u5c55\u958b\u96d9\u91cd\u8b77\u76fe]<<A<<[CHANGED 2020/06/15]",
+          "ko_KR": "[ \uc774\uc911 \ubc29\uc5b4\ub9c9 \ucf1c\uc9d0 ]<<A<<[CHANGED 2020/06/17]",
+          "ja_JP": "[\u30c0\u30d6\u30eb\u30b7\u30fc\u30eb\u30c9ON]<<A<<[CHANGED 2020/06/17]",
+          "zh_CN": "[\u5c55\u5f00\u53cc\u91cd\u62a4\u76fe]<<A<<[CHANGED 2020/06/17]"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "time": 2,
+        "type": "SHOW_AR_MSG"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "fullShield",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-large", "name": "fullShield" }
+      },
+      {
+        "name": "full",
+        "actionDetached": true,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": { "baseFactor": 0.1, "range": 1 }
+        }
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "partShield",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-large", "name": "partShield" }
+      },
+      {
+        "name": "part",
+        "actionDetached": true,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": { "baseFactor": 0.1, "range": 0.5 }
+        }
+      },
+      { "name": "fullShieldBlock", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "name": "doubleShield", "type": "SET_ATTRIB_BOOL", "value": true },
+      { "time": 2, "type": "WAIT" }
+    ],
+    "EndPartShield": [
+      { "name": "part", "type": "REMOVE_SHIELD" },
+      { "group": "partShield", "type": "CLEAR_EFFECTS" },
+      { "name": "shield", "type": "SET_ATTRIB_BOOL", "value": true },
+      { "name": "partShield", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "type": "RESET_TRACKER", "tracker": "shieldRegen" }
+    ],
+    "Target": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.targetNamePrev",
+        "value": { "varName": "tmp.targetName" }
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.targetName",
+        "value": { "varName": "entity.name" }
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "tmp.targetName != tmp.targetNamePrev",
+        "thenStep": [
+          {
+            "kind": "NAMED_ENTITY",
+            "key": "helper-turret",
+            "type": "SET_TEMP_TARGET"
+          },
+          {
+            "duration": -1,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": true,
+            "group": "target",
+            "target2": "TARGET",
+            "target2Align": "FACE",
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "enemies.jungle",
+              "name": "chickenAim_Infinite"
+            },
+            "offset": { "x": 0, "y": 0, "z": 0 }
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_NUMBER",
+        "varName": "tmp.targetElement",
+        "value": { "varName": "entity.lastHitElement" }
+      },
+      {
+        "text": {
+          "en_US": "[ TARGET ]",
+          "pt_BR": "[ ALVO ]",
+          "de_DE": "[ ZIEL ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u76ee\u6807]<<A<<[CHANGED 2020/06/17]",
+          "ja_JP": "[\u30bf\u30fc\u30b2\u30c3\u30c8]<<A<<[CHANGED 2020/06/17]",
+          "ko_KR": "[ \ubaa9\ud45c ]<<A<<[CHANGED 2020/06/17]",
+          "langUid": 5,
+          "zh_TW": "[\u76ee\u6a19]<<A<<[CHANGED 2020/06/15]"
+        },
+        "mode": "NO_LINE",
+        "color": "GREEN",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 1.5
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.targetChange",
+        "value": true
+      }
+    ],
+    "AntiTurretShot": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "kind": "NAMED_ENTITY",
+        "key": "helper-turret",
+        "type": "SET_TEMP_TARGET"
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "name": "full", "type": "REMOVE_SHIELD" },
+      { "group": "fullShield", "type": "CLEAR_EFFECTS" },
+      { "group": "charge", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "charge",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "missilePre"
+      },
+      {
+        "conditions": [
+          { "name": "part", "negated": false, "type": "HAS_SHIELD" }
+        ],
+        "withElse": true,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "[ Preparing Missiles ]",
+              "pt_BR": "[ Preparando Mísseis ]",
+              "de_DE": "[ Raketen vorbereiten ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u6b63\u5728\u51c6\u5907\u5bfc\u5f39]<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "[\u30bf\u30ec\u30c3\u30c8\u3092\u6a19\u7684\u306b\u8a2d\u5b9a]<<A<<[CHANGED 2020/06/17]",
+              "ko_KR": "[ \ubbf8\uc0ac\uc77c \uc900\ube44 \uc911 ]<<A<<[CHANGED 2020/06/17]",
+              "langUid": 39,
+              "zh_TW": "[\u6b63\u5728\u6e96\u5099\u5c0e\u5f48]<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "LINE_FILL",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 2
+          },
+          { "time": 2, "type": "WAIT" }
+        ],
+        "elseStep": [
+          {
+            "text": {
+              "en_US": "[ Preparing Missiles ]",
+              "pt_BR": "[ Preparando Mísseis ]",
+              "de_DE": "[ Raketen vorbereiten ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u6b63\u5728\u51c6\u5907\u5bfc\u5f39]<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "[\u30bf\u30ec\u30c3\u30c8\u3092\u6a19\u7684\u306b\u8a2d\u5b9a]<<A<<[CHANGED 2020/06/17]",
+              "ko_KR": "[ \ubbf8\uc0ac\uc77c \uc900\ube44 \uc911 ]<<A<<[CHANGED 2020/06/17]",
+              "langUid": 20,
+              "zh_TW": "[\u6b63\u5728\u6e96\u5099\u5c0e\u5f48]<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "LINE_FILL",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 1.5
+          },
+          { "time": 1.5, "type": "WAIT" }
+        ]
+      },
+      { "group": "charge", "type": "CLEAR_EFFECTS" },
+      { "time": 0.1, "type": "WAIT" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "missile"
+      },
+      {
+        "conditions": [{ "min": 1, "negated": false, "type": "HP_BREAK" }],
+        "withElse": true,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "align": "TOP",
+            "centralAngle": 0.35,
+            "startAngle": 0.25,
+            "angleVary": 0,
+            "startDist": 12,
+            "startDistCollide": "NONE",
+            "random": false,
+            "clockwise": true,
+            "flipLeftFace": 8,
+            "circularArea": false,
+            "uniformDir": 0.5,
+            "delay": 0,
+            "repeat": false,
+            "count": 4,
+            "duration": 0.35,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "missilesHoming",
+            "offset": { "x": -16, "y": 44, "z": 20 }
+          },
+          {
+            "align": "TOP",
+            "centralAngle": -0.35,
+            "startAngle": -0.25,
+            "angleVary": 0,
+            "startDist": 12,
+            "startDistCollide": "NONE",
+            "random": false,
+            "clockwise": true,
+            "flipLeftFace": 8,
+            "circularArea": false,
+            "uniformDir": 0.5,
+            "delay": 0,
+            "repeat": false,
+            "count": 4,
+            "duration": 0.35,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "missilesHoming",
+            "offset": { "x": 16, "y": 44, "z": 20 }
+          },
+          { "time": 0.35, "type": "WAIT" }
+        ],
+        "elseStep": [
+          {
+            "align": "TOP",
+            "centralAngle": 0.3,
+            "startAngle": 0.2,
+            "angleVary": 0,
+            "startDist": 12,
+            "startDistCollide": "NONE",
+            "random": false,
+            "clockwise": true,
+            "flipLeftFace": 8,
+            "circularArea": false,
+            "uniformDir": 0.5,
+            "delay": 0,
+            "repeat": false,
+            "count": 3,
+            "duration": 0.3,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "missilesHoming",
+            "offset": { "x": -16, "y": 44, "z": 16 }
+          },
+          {
+            "align": "TOP",
+            "centralAngle": 0.3,
+            "startAngle": 0.2,
+            "angleVary": 0,
+            "startDist": 12,
+            "startDistCollide": "NONE",
+            "random": false,
+            "clockwise": false,
+            "flipLeftFace": 8,
+            "circularArea": false,
+            "uniformDir": 0.5,
+            "delay": 0,
+            "repeat": false,
+            "count": 3,
+            "duration": 0.3,
+            "type": "SHOOT_PROXY_RANGE",
+            "proxy": "missilesHoming",
+            "offset": { "x": 16, "y": 44, "z": 16 }
+          },
+          { "time": 0.05, "type": "WAIT" },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.firstMissiles",
+            "value": true
+          },
+          { "time": 0.3, "type": "WAIT" }
+        ]
+      },
+      { "type": "CLEAR_ANIMATION" },
+      { "time": 0.4, "type": "WAIT" }
+    ],
+    "AntiTurretShot_2": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": "LIGHT", "type": "SET_HIT_STABLE" },
+      {
+        "kind": "NAMED_ENTITY",
+        "key": "helper-turret",
+        "type": "SET_TEMP_TARGET"
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "name": "full", "type": "REMOVE_SHIELD" },
+      { "group": "fullShield", "type": "CLEAR_EFFECTS" },
+      { "group": "charge", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "charge",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "conditions": [
+          { "name": "part", "negated": false, "type": "HAS_SHIELD" }
+        ],
+        "withElse": true,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "[Targetting Turret]",
+              "pt_BR": "[Mirando na Torre]",
+              "de_DE": "[ Gesch\u00fctz anvisieren! ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u6b63\u5728\u7784\u51c6\u70ae\u53f0]<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "[\u30bf\u30ec\u30c3\u30c8\u3092\u6a19\u7684\u306b\u8a2d\u5b9a]<<A<<[CHANGED 2020/06/17]",
+              "ko_KR": "[ \ud3ec\ud0d1 \uc870\uc900 \uc911 ]<<A<<[CHANGED 2020/06/17]",
+              "langUid": 36,
+              "zh_TW": "[\u6b63\u5728\u7784\u6e96\u70ae\u81fa]<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "LINE_FILL",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 5
+          },
+          { "time": 5, "type": "WAIT" }
+        ],
+        "elseStep": [
+          {
+            "text": {
+              "en_US": "[Targetting Turret]",
+              "pt_BR": "[Mirando na Torre]",
+              "langUid": 37,
+              "zh_CN": "[\u6b63\u5728\u7784\u51c6\u70ae\u53f0]<<A<<[CHANGED 2020/06/17]",
+              "de_DE": "[ Gesch\u00fctz anvisieren! ]<<C<<Gepr\u00fcft: Minsu",
+              "ko_KR": "[ \ud3ec\ud0d1 \uc870\uc900 \uc911 ]<<A<<[CHANGED 2020/06/17]",
+              "ja_JP": "[\u30bf\u30ec\u30c3\u30c8\u3092\u6a19\u7684\u306b\u8a2d\u5b9a]<<A<<[CHANGED 2020/06/17]",
+              "zh_TW": "[\u6b63\u5728\u7784\u6e96\u70ae\u81fa]<<A<<[CHANGED 2020/06/15]"
+            },
+            "mode": "LINE_FILL",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 3
+          },
+          { "time": 3, "type": "WAIT" }
+        ]
+      },
+      { "group": "charge", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0.2,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "charge" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "time": 0.4, "type": "WAIT" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "align": "FACE",
+        "type": "SHOOT_PROXY",
+        "proxy": "anti-turret",
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      },
+      { "time": 0.2, "type": "WAIT" },
+      {
+        "align": "FACE",
+        "type": "SHOOT_PROXY",
+        "proxy": "anti-turret",
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.turret-rhombus", "name": "shoot" }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": true,
+        "type": "SHOW_ANIMATION",
+        "anim": "_shoot"
+      }
+    ],
+    "ReachGoal": [
+      {
+        "text": {
+          "en_US": "[ WEAPON ESCAPED! ]",
+          "pt_BR": "[ ARMA ESCAPOU! ]",
+          "de_DE": "[ WAFFEN ENTKOMMEN! ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u6b66\u5668\u8131\u9003\uff01]<<A<<[CHANGED 2020/06/17]",
+          "ja_JP": "[\u653b\u6483\u547d\u4e2d\u305b\u305a\uff01]<<A<<[CHANGED 2020/06/17]",
+          "ko_KR": "[ \ubb34\uae30 \ud0c8\ucd9c! ]<<A<<[CHANGED 2020/06/17]",
+          "langUid": 23,
+          "zh_TW": "[\u6b66\u5668\u812b\u9003\uff01]<<A<<[CHANGED 2020/06/15]"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 1.5
+      },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "changeType": "add",
+        "type": "CHANGE_VAR_NUMBER",
+        "varName": "tmp.fail",
+        "value": 1
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "npc", "name": "disappear" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "noReward": true, "type": "SELF_DESTRUCT" }
+    ],
+    "ReachSight": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.attrib.helpMsg != \"\"",
+        "thenStep": [
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_STRING",
+            "varName": "tmp.helpText",
+            "value": { "varName": "entity.attrib.helpMsg" }
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_STRING",
+            "varName": "tmp.helpTextTarget",
+            "value": { "varName": "entity.name" }
+          }
+        ]
+      },
+      { "name": "helpShown", "type": "SET_ATTRIB_BOOL", "value": true }
+    ],
+    "MiniStun": [
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "type": "SET_WALK_ANIMS", "config": "stun" },
+      { "type": "WAIT", "time": 1 }
+    ],
+    "Dead": [
+      { "type": "CLEAR_AR_MSG" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.name == tmp.targetName",
+        "thenStep": [
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_STRING",
+            "varName": "tmp.targetName",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.name == tmp.targetNamePrev",
+        "thenStep": [
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_STRING",
+            "varName": "tmp.targetNamePrev",
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "HPBreak": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_NUMBER",
+        "varName": "tmp.respawnCounterGoal",
+        "value": 8
+      },
+      { "type": "CLEAR_AR_MSG" },
+      {
+        "forceValue": 0.66,
+        "type": "RESET_TRACKER",
+        "tracker": "missileCooldown"
+      },
+      { "name": "shield", "type": "SET_ATTRIB_BOOL", "value": true },
+      { "name": "partShield", "type": "SET_ATTRIB_BOOL", "value": true }
+    ],
+    "StunStart": [
+      {
+        "text": {
+          "en_US": "[ STUN ]",
+          "pt_BR": "[ ATORDOAR ]",
+          "langUid": 32,
+          "de_DE": "[ GEL\u00c4HMT ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_TW": "[\u6688\u7729]<<A<<[CHANGED 2020/06/15]",
+          "ko_KR": "[ \uae30\uc808 ]<<A<<[CHANGED 2020/06/17]",
+          "ja_JP": "[\u30b9\u30bf\u30f3]<<A<<[CHANGED 2020/06/17]",
+          "zh_CN": "[\u6655\u7729]<<A<<[CHANGED 2020/06/17]"
+        },
+        "mode": "LINE_EMPTY",
+        "color": "GREEN",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "tracker": "regen",
+        "type": "SHOW_AR_MSG",
+        "time": 0
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "stun",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemy", "name": "angry1" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      }
+    ],
+    "StunEnd": [{ "group": "stun", "type": "CLEAR_EFFECTS" }]
+  },
+  "reactions": {
+    "DEAD": {
+      "hitType": "KILL_HIT",
+      "action": "Dead",
+      "blockFurtherHits": false,
+      "attackType": "BREAK",
+      "flyLevel": "LIGHT",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BOSS_ZOOM",
+      "conditions": [],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "CHARGE_WEAK": {
+      "hitType": "REGULAR",
+      "preAction": "EndFullShield",
+      "action": "MiniStun",
+      "blockFurtherHits": false,
+      "damageFactor": 1,
+      "attackType": "MASSIVE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK_LIGHT",
+      "conditions": [
+        { "negated": false, "type": "BALL_CHARGE", "value": true },
+        { "hint": "ally-turret", "type": "!HAS_HINT" },
+        { "type": "!IS_SHIELDED" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TURRET_HIT": {
+      "hitType": "REGULAR",
+      "preAction": "EndFullShield",
+      "preSwitchState": "STUN",
+      "blockFurtherHits": false,
+      "damageFactor": 5,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK",
+      "conditions": [
+        { "name": "full", "type": "!HAS_SHIELD" },
+        { "name": "part", "type": "!HAS_SHIELD" },
+        { "hint": "ally-turret", "negated": false, "type": "HAS_HINT" },
+        { "negated": false, "type": "TRACKER_READY", "name": "stunHits" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TURRET_HIT_DMG": {
+      "hitType": "REGULAR",
+      "preAction": "EndFullShield",
+      "preSwitchState": "STUN",
+      "blockFurtherHits": false,
+      "damageFactor": 5,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK",
+      "conditions": [
+        { "name": "full", "type": "!HAS_SHIELD" },
+        { "name": "part", "type": "!HAS_SHIELD" },
+        { "hint": "ally-turret", "negated": false, "type": "HAS_HINT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TURRET_HIT_STUNSTATE": {
+      "hitType": "REGULAR",
+      "blockFurtherHits": false,
+      "damageFactor": 5,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [
+        { "hint": "ally-turret", "negated": false, "type": "HAS_HINT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TURRET_HIT_SHIELD": {
+      "hitType": "REGULAR",
+      "preAction": "EndFullShield",
+      "preSwitchState": "STUN",
+      "blockFurtherHits": false,
+      "damageFactor": 5,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK",
+      "conditions": [
+        { "name": "full", "negated": false, "type": "HAS_SHIELD" },
+        { "name": "part", "type": "!HAS_SHIELD" },
+        { "hint": "ally-turret", "negated": false, "type": "HAS_HINT" },
+        { "negated": false, "type": "TRACKER_READY", "name": "stunHits" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TURRET_HIT_PARTSHIELD": {
+      "hitType": "REGULAR",
+      "blockFurtherHits": false,
+      "damageFactor": 5,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [
+        { "name": "part", "negated": false, "type": "HAS_SHIELD" },
+        { "hint": "ally-turret", "negated": false, "type": "HAS_HINT" },
+        { "negated": false, "type": "IS_SHIELDED" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TURRET_HIT_PARTSHIELD_SIDE": {
+      "hitType": "REGULAR",
+      "preAction": "EndPartShield",
+      "preSwitchState": "STUN",
+      "blockFurtherHits": false,
+      "damageFactor": 5,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK",
+      "conditions": [
+        { "name": "part", "negated": false, "type": "HAS_SHIELD" },
+        { "hint": "ally-turret", "negated": false, "type": "HAS_HINT" },
+        { "type": "!IS_SHIELDED" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "TARGET": {
+      "hitType": "REGULAR",
+      "preAction": "Target",
+      "blockFurtherHits": false,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [
+        { "negated": false, "type": "BALL_CHARGE", "value": true },
+        { "hint": "STANDARD", "negated": false, "type": "HAS_HINT" },
+        {
+          "negated": false,
+          "type": "VAR_CONDITION",
+          "condition": "tmp.shotReady"
+        },
+        { "min": 0, "max": 640, "negated": false, "type": "TARGET_DISTANCE" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "NOTARGET_STUN": {
+      "hitType": "REGULAR",
+      "blockFurtherHits": false,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [
+        { "negated": false, "type": "BALL_CHARGE", "value": true },
+        { "type": "!VAR_CONDITION", "condition": "tmp.shotReady" },
+        { "hint": "ally-turret", "type": "!HAS_HINT" },
+        { "type": "!IS_SHIELDED" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "HP_BREAK": {
+      "hitType": "HP_BREAK_HIT",
+      "preAction": "HPBreak",
+      "preSwitchState": "ATTACK",
+      "blockFurtherHits": false,
+      "attackType": "MASSIVE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "HP_BREAK_ZOOM",
+      "conditions": [],
+      "ignoreFailed": false,
+      "forceStable": false,
+      "type": "HIT_REACTION"
+    }
+  },
+  "meta": {
+    "species": {
+      "en_US": "Floating Coordinator Turret",
+      "de_DE": "Schwimmender Koordinator<<C<<Gepr\u00fcft: Minsu",
+      "zh_CN": "\u6d6e\u7a7a\u534f\u4f5c\u70ae\u53f0<<A<<[CHANGED 2020/06/17]",
+      "zh_TW": "\u6d6e\u7a7a\u5354\u4f5c\u70ae\u81fa<<A<<[CHANGED 2020/06/15]",
+      "ja_JP": "\u98db\u884c\u30b3\u30fc\u30c7\u30a3\u30cd\u30fc\u30bf\u30fc\u30ed\u30dc\u30c3\u30c8<<A<<[CHANGED 2020/06/17]",
+      "ko_KR": "\ubd80\uc720 \uc88c\ud45c \ud3ec\ud0d1<<A<<[CHANGED 2020/06/17]",
+      "langUid": 29
+    },
+    "category": "MECHA",
+    "descriptions": [
+      {
+        "text": {
+          "en_US": "The central coordinator of the heavily modified turrets that were made in \\c[3]\\v[area.rhombus-sqr.name]\\c[0] and meant for illegal activities all over \\v[lore.title.planet]. It too is equipped with \\c[3]floating devices\\c[0] to cross the ocean on its own and has a highly advanced \\c[3]shielding system\\c[0].\nWhile \\c[3]heavy artillery\\c[0] will be able to \\c[3]break its normal shield\\c[0], the \\c[3]focussed frontal shield is basically impenetrable\\c[0] and must somehow be bypassed.\nIn addition to a \\c[3]powerful cannon\\c[0], this malicious machine of war is also equipped with an advanced launcher of \\c[3]ship-to-ship missiles\\c[0]. \\c[3]Shooting them down to protect your vessel\\c[0] should be the top-priority!",
+          "de_DE": "Der zentrale Koordinator der stark modifizierten Gesch\u00fctzt\u00fcrme, die in \\c[3]Rhombus Square\\c[0] f\u00fcr illegale Aktivit\u00e4ten auf ganz Shadoon geschaffen wurden. Auch er ist mit \\c[3]schwimmenden Vorrichtungen\\c[0] ausgestattet, um den Ozean aus eigener Kraft zu \u00fcberqueren und verf\u00fcgt \u00fcber ein hochentwickeltes \\c[3]Abschirmsystem\\c[0].\nW\u00e4hrend \\c[3]schwere Artillerie\\c[0] in der Lage sein wird, \\c[3]seinen normalen Schild zu durchbrechen\\c[0], ist der \\c[3]fokussierte Frontalschild nahezu undurchdringlich\\c[0] und muss irgendwie umgangen werden.\nNeben einer \\c[3]m\u00e4chtigen Kanone\\c[0] ist diese b\u00f6sartige Kriegsmaschine auch mit einer fortschrittlichen Abschussvorrichtung f\u00fcr \\c[3]Anti-Schiffsraketen\\c[0] ausgestattet. \\c[3]Sie abzuschie\u00dfen, um dein Schiff zu sch\u00fctzen\\c[0], sollte oberste Priorit\u00e4t haben!<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "\u5728\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u5236\u9020\u7684\u6539\u9020\u70ae\u53f0\uff0c\u88ab\u4e0d\u6cd5\u5206\u5b50\u5728\\v[lore.title.planet]\u4f7f\u7528\u3002\u70b8\u5f39\u4e0a\u88c5\u6709\\c[3]\u6d6e\u7a7a\u88c5\u7f6e\\c[0]\u6765\u81ea\u52a8\u6e21\u6d77\uff0c\u6709\u7684\u751a\u81f3\u8fd8\u5177\u5907\\c[3]\u62a4\u76fe\u7cfb\u7edf\\c[0]\u3002\n\\c[3]\u91cd\u578b\u706b\u70ae\\c[0]\u80fd\u51fb\u7834\u5176\u62a4\u76fe\uff0c\u4f46\u5176\\c[3]\u524d\u65b9\u5f3a\u529b\u62a4\u76fe\\c[0]\u51e0\u4e4e\u4e0d\u53ef\u7834\u574f\uff0c\u5fc5\u987b\u53e6\u60f3\u529e\u6cd5\u3002\n\u9664\u4e86\\c[3]\u52a0\u519c\u70ae\\c[0]\uff0c\u8fd9\u53f0\u6050\u6016\u7684\u6218\u4e89\u673a\u5668\u8fd8\u88c5\u5907\u4e86\u8239\u5bf9\u8239\u706b\u7bad\u3002\u5728\u88ab\u70b8\u70c2\u8239\u53ea\u4e4b\u524d\u51fb\u843d\u98de\u5f39\uff01<<A<<[CHANGED 2021/05/04]",
+          "zh_TW": "\u5728\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u88fd\u9020\u7684\u6539\u9020\u70ae\u81fa\uff0c\u88ab\u4e0d\u6cd5\u5206\u5b50\u5728\\v[lore.title.planet]\u4f7f\u7528\u3002\u70b8\u5f48\u4e0a\u88dd\u6709\\c[3]\u6d6e\u7a7a\u88dd\u7f6e\\c[0]\u4f86\u81ea\u52d5\u6e21\u6d77\uff0c\u6709\u7684\u751a\u81f3\u9084\u5177\u5099\\c[3]\u8b77\u76fe\u7cfb\u7d71\\c[0]\u3002\n\u6700\u597d\u53ea\u5728\\c[3]\u91cd\u578b\u706b\u70ae\\c[0]\u7684\u652f\u63f4\u4e0b\u8207\u5b83\u5011\u5c0d\u6297\u3002<<A<<[CHANGED 2021/05/04]",
+          "ja_JP": "\\v[lore.title.planet]\u4e2d\u306e\u72af\u7f6a\u884c\u70ba\u3092\u53d6\u308a\u7de0\u307e\u308b\u305f\u3081\u3001\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\u3067\u5927\u5e45\u306b\u6539\u9020\u3055\u308c\u305f\u30bf\u30ec\u30c3\u30c8\u306e\u4e2d\u67a2\u30b3\u30fc\u30c7\u30a3\u30cd\u30fc\u30bf\u30fc\u3002\\c[3]\u98db\u884c\u30c7\u30d0\u30a4\u30b9\\c[0]\u304c\u642d\u8f09\u3055\u308c\u3066\u3044\u308b\u305f\u3081\u6d77\u3092\u6e21\u308b\u3053\u3068\u304c\u3067\u304d\u3001\u81ea\u8eab\u3092\u5b88\u308b\u305f\u3081\u306e\u304b\u306a\u308a\u9ad8\u5ea6\u306a\\c[3]\u30b7\u30fc\u30eb\u30c9\u30b7\u30b9\u30c6\u30e0\\c[0]\u3082\u642d\u8f09\u3055\u308c\u3066\u3044\u308b\u3002\r\n\\c[3]\u91cd\u706b\u5668\\c[0]\u306f\\c[3]\u901a\u5e38\u306e\u30b7\u30fc\u30eb\u30c9\u3092\u7834\u308b\\c[0]\u3053\u3068\u304c\u3067\u304d\u308b\u4e00\u65b9\u3001\\c[3]\u524d\u7dda\u306e\u53b3\u91cd\u30b7\u30fc\u30eb\u30c9\u306f\u57fa\u672c\u7684\u306b\u7834\u308c\u305a\\c[0]\u3001\u3069\u3053\u304b\u304b\u3089\u8fc2\u56de\u304c\u5fc5\u8981\u3060\u3002\r\n\u3053\u306e\u60aa\u8cea\u306a\u6226\u4e89\u5175\u5668\u306f\u3001\\c[3]\u30d1\u30ef\u30d5\u30eb\u306a\u30ad\u30e3\u30ce\u30f3\\c[0]\u3001\\c[3]\u8266\u5bfe\u8266\u30df\u30b5\u30a4\u30eb\\c[0]\u306e\u6700\u65b0\u30e9\u30f3\u30c1\u30e3\u30fc\u3082\u88c5\u5099\u3057\u3066\u3044\u308b\u3002\\c[3]\u30e4\u30c4\u3089\u3092\u6483\u3061\u843d\u3068\u3057\u8239\u3092\u5b88\u308b\\c[0]\u3053\u3068\u304c\u6700\u512a\u5148\u4e8b\u9805\u3060\uff01<<A<<[CHANGED 2021/05/04]",
+          "ko_KR": "\\c[3]\\v[area.rhombus-sqr.name]\\c[0]\uc5d0\uc11c \uc81c\uc791\ub41c \ubcc0\ud615 \ud3ec\ud0d1\uc758 \uc911\uc559 \uc88c\ud45c \uae30\uacc4\ub85c, \\v[lore.title.planet] \uc804\uc5ed\uc5d0\uc11c \uc2e4\ud589\ub418\ub294 \ubd88\ubc95 \ud65c\ub3d9\uc5d0 \uc0ac\uc6a9\ud558\ub294 \uc6a9\ub3c4\uc785\ub2c8\ub2e4. \ud3ec\ud0d1\uc5d0\ub294 \\c[3]\ubd80\uc720 \uc7a5\uce58\\c[0]\uac00 \uc788\uc5b4 \uc2a4\uc2a4\ub85c \ubc14\ub2e4\ub97c \uac74\ub110 \uc218 \uc788\uc73c\uba70 \uc2ec\uc9c0\uc5b4\ub294 \ucd5c\ucca8\ub2e8 \\c[3]\ubc29\uc5b4 \uc2dc\uc2a4\ud15c\\c[0]\ub3c4 \uac16\ucdb0\uc838 \uc788\uc2b5\ub2c8\ub2e4.\n\\c[3]\uc911\ud3ec\ub300\\c[0]\ub85c\ub294 \\c[3]\uc77c\ubc18 \ubc29\uc5b4\ub9c9\\c[0]\uc744 \uaca9\ud30c\ud560 \uc218 \uc788\uc9c0\ub9cc, \\c[3]\uc804\ubc29\uc5d0 \uc9d1\uc911\ub41c \ubc29\uc5b4\ub9c9\uc740 \uae30\ubcf8\uc801\uc73c\ub85c \uad00\ud1b5\ud560 \uc218 \uc5c6\uc73c\ubbc0\ub85c\\c[0] \ub2e4\ub978 \uacf3\uc744 \ub178\ub824\uc57c \ud569\ub2c8\ub2e4.\n\uc774 \uc0ac\uc545\ud55c \uc6cc \uba38\uc2e0\uc5d0\ub294 \\c[3]\uac15\ub825\ud55c \ub300\ud3ec\\c[0]\ubfd0 \uc544\ub2c8\ub77c, \uc120\uc9c4 \\c[3]\ud568\ub300\ud568 \ubbf8\uc0ac\uc77c\\c[0] \ubc1c\uc0ac\uae30\ub3c4 \uc788\uc2b5\ub2c8\ub2e4. \\c[3]\ubbf8\uc0ac\uc77c\uc744 \uaca9\ucd94\uc2dc\ucf1c \ud568\uc120\uc744 \ubcf4\ud638\ud558\ub294 \uac83\\c[0]\uc774 \uac00\uc7a5 \uc911\uc694\ud55c \uc77c\uc774 \ub418\uaca0\uc8e0?<<A<<[CHANGED 2021/05/04]",
+          "langUid": 26
+        },
+        "condition": ""
+      }
+    ]
+  }
+}

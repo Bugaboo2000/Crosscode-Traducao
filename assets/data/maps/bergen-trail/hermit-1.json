@@ -630,7 +630,7 @@
             "entity": { "global": true, "name": "frozen" },
             "text": {
               "en_US": "Finally I'm out of this freezing storm...",
-              "pt_BR": "Finalmente me livrei desta tempestade congelante...",
+              "pt_BR": "Finalmente me livrei dessa tempestade congelante...",
               "de_DE": "Endlich bin ich aus diesem Schneesturm raus...",
               "fr_FR": "fr_FR",
               "langUid": 6,
@@ -705,7 +705,7 @@
                 {
                   "message": {
                     "en_US": "Welcome to the \\c[3]Hermit's House\\c[0].",
-                    "pt_BR": "Bem-vindo à \\c[3]Casa do Eremita\\c[0].",
+                    "pt_BR": "Bem-vinda à \\c[3]Casa do Eremita\\c[0].",
                     "de_DE": "Willkommen in der \\c[3]Eremitenh\u00fctte\\c[0].",
                     "fr_FR": "fr_FR",
                     "langUid": 8,
@@ -927,7 +927,7 @@
                 {
                   "message": {
                     "en_US": "Welcome to the \\c[3]Hermit's House\\c[0].",
-                    "pt_BR": "Bem-vindo à \\c[3]Casa do Eremita\\c[0].",
+                    "pt_BR": "Bem-vinda à \\c[3]Casa do Eremita\\c[0].",
                     "de_DE": "Willkommen in der \\c[3]Eremitenh\u00fctte\\c[0].",
                     "fr_FR": "fr_FR",
                     "langUid": 21,
@@ -1096,7 +1096,7 @@
                 {
                   "message": {
                     "en_US": "Lastly we need some fuel.\\. The generator runs on \\c[3]\\v[item.186.name]\\c[0] which only grows in \\c[3]\\v[area.heat-area.name]\\c[0].",
-                    "pt_BR": "Por último, precisamos de algum combustível.\\. O gerador é a base de \\c[3]\\v[item.186.name]\\c[0] que só cresce em \\c[3]\\v[area.heat-area.name]\\c[0].",
+                    "pt_BR": "Por último, precisamos de algum combustível.\\. O gerador é a base de \\c[3]\\v[item.186.name]\\c[0] que só cresce no \\c[3]\\v[area.heat-area.name]\\c[0].",
                     "de_DE": "Und nat\u00fcrlich etwas Sprit.\\. Der Generator l\u00e4uft mit \\c[3]D\u00f6rrholz\\c[0], welches nur im \\c[3]Maronental\\c[0] w\u00e4chst.",
                     "fr_FR": "fr_FR",
                     "langUid": 68,
@@ -1978,7 +1978,7 @@
                 {
                   "message": {
                     "en_US": "I hope to see you around more often!",
-                    "pt_BR": "Espero vê-lo com mais frequência!",
+                    "pt_BR": "Espero vê-la com mais frequência!",
                     "de_DE": "Ich hoffe, wir werden dich hier noch \u00f6fter sehen!",
                     "fr_FR": "fr_FR",
                     "langUid": 90,
@@ -2387,7 +2387,7 @@
               {
                 "message": {
                   "en_US": "Some friends of mine told me that you get some quests here after you beat the \\c[3]Temple Mine\\c[0].",
-                  "pt_BR": "Alguns amigos meus me disseram que você consegue algumas missões aqui depois de terminar o \\c[3]Templo da Mina\\c[0].",
+                  "pt_BR": "Alguns amigos meus me disseram que você consegue algumas missões aqui depois de terminar a \\c[3]Mina do Templo\\c[0].",
                   "de_DE": "Ein paar Freunde von mir meinten, man k\u00f6nnte hier ein paar Quests abstauben, nachdem man die \\c[3]Tempelmine\\c[0] abgeschlossen hat.",
                   "zh_CN": "\u6211\u7684\u4e00\u4e9b\u670b\u53cb\u544a\u8bc9\u6211\uff0c\u5982\u679c\u4f60\u901a\u5173\u4e86\\c[3]\u795e\u5e99\u77ff\u4e95\\c[0]\uff0c\u53ef\u4ee5\u5230\u8fd9\u513f\u6765\u63a5\u4e00\u4e9b\u4efb\u52a1\u3002",
                   "zh_TW": "\u6211\u7684\u4e00\u4e9b\u670b\u53cb\u544a\u8a34\u6211\uff0c\u5982\u679c\u4f60\u901a\u95dc\u4e86\\c[3]\u795e\u5edf\u7926\u4e95\\c[0]\uff0c\u53ef\u4ee5\u5230\u9019\u88e1\u4f86\u63a5\u4e00\u4e9b\u4efb\u52d9\u3002",

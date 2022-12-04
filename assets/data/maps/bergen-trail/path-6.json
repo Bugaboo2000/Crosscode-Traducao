@@ -10315,7 +10315,7 @@
             }, {
                 "message": {
                     "en_US": "Except it's cold. And avatars can't swim. And you really shouldn't swim near waterfalls.",
-                    "pt_BR": "Exceto pelo frio. E os avatares também não sabem nadar. E você realmente não deveria nadar perto de cachoeiras.",
+                    "pt_BR": "Exceto pelo frio. E os avatares também não sabem nadar. E você não devia nadar perto de cachoeiras.",
                     "de_DE": "Mal davon abgesehen, dass es eiskalt ist. Und Avatare nicht schwimmen k\u00f6nnen. Und man nicht in der N\u00e4he von Wasserf\u00e4llen schwimmen sollte.",
                     "fr_FR": "fr_FR",
                     "langUid": 417,
@@ -10366,7 +10366,7 @@
                 "thenStep": [{
                     "message": {
                         "en_US": "You'd think they'd place something unique and interesting on this spot.",
-                        "pt_BR": "Você acha que eles colocariam algo único e interessante neste local.",
+                        "pt_BR": "Achei que eles colocariam algo único e interessante neste local.",
                         "de_DE": "Eigentlich h\u00e4tte ich hier an dieser Stelle etwas Einzigartiges und Interessantes erwartet.",
                         "zh_CN": "\u6b63\u5e38\u4eba\u5e94\u8be5\u4f1a\u5728\u8fd9\u91cc\u653e\u4e9b\u7279\u522b\u7684\u4e1c\u897f\u3002<<A<<[CHANGED 2018/01/06]",
                         "ja_JP": "\u904b\u55b6\u3082\u3053\u3053\u306b\u306a\u306b\u304b\u3001\u30e6\u30cb\u30fc\u30af\u3067\n\u9762\u767d\u3044\u3082\u306e\u3092\u7f6e\u3044\u3066\u304f\u308c\u308c\u3070\u3044\u3044\u306e\u306b\u3002<<A<<[CHANGED 2018/01/06]",
@@ -10382,7 +10382,7 @@
                 }, {
                     "message": {
                         "en_US": "It's just a \\c[3]regular\\c[0] rock, though.",
-                        "pt_BR": "É apenas uma rocha \\c[3]regular\\c[0].",
+                        "pt_BR": "É apenas uma rocha \\c[3]quadrada\\c[0].",
                         "de_DE": "Stattdessen blo\u00df ein \\c[3]stinknormaler\\c[0] Stein.",
                         "zh_CN": " \n                                 \n\n\u53ef\u8fd9\u53ea\u662f\u4e00\u5757\\c[3]\u6b63\u5e38\u7684\\c[0]\u77f3\u5934\u800c\u5df2\u3002<<A<<[CHANGED 2018/09/19]",
                         "ja_JP": "\u3067\u3082\u3001\u3042\u308b\u306e\u306f\u3054\u304f\\c[3]\u666e\u901a\\c[0]\u306e\u5ca9\u3060\u3051\u3002<<A<<[CHANGED 2018/09/19]",

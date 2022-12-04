@@ -4780,7 +4780,7 @@
               {
                 "message": {
                   "en_US": "I assume you have something to do with this?",
-                  "pt_BR": "Suponho que você tem algo a ver com isso?",
+                  "pt_BR": "Você tem algo a ver com isso?",
                   "de_DE": "Ich nehme an, dass das auch dein Verdienst war?",
                   "zh_CN": "\u6211\u731c\u4ed6\u5c31\u662f\u4f60\u6765\u7684\u539f\u56e0\u5427\uff1f<<A<<[CHANGED 2017/12/12]",
                   "ko_KR": "\ub098\uc5d0\uac8c \ubcfc\uc77c \uc788\uc9c0?<<A<<[CHANGED 2017/11/16]",
@@ -5747,7 +5747,7 @@
                   {
                     "message": {
                       "en_US": "You first need to enter the dungeons to the \\c[3]left\\c[0] and \\c[3]right\\c[0] to collect the \\c[3]\\v[item.231.name]\\c[0] and \\c[3]\\v[item.286.name]\\c[0].",
-                      "pt_BR": "Você precisa entrar primeiro nas masmorras da \\c[3]esquerda\\c[0] e da \\c[3]direita\\c[0] para coletar o \\c[3]\\v[item.231.name]\\c[0] e o \\v[item.286.name]\\c[0].",
+                      "pt_BR": "Você precisa entrar primeiro nas dungeons da \\c[3]esquerda\\c[0] e da \\c[3]direita\\c[0] para coletar o \\c[3]\\v[item.231.name]\\c[0] e o \\v[item.286.name]\\c[0].",
                       "de_DE": "Daf\u00fcr musst du zuerst die Dungeons zur \\c[3]Linken\\c[0] und \\c[3]Rechten\\c[0] bew\u00e4ltigen, um die \\c[3]Lila Blitzform\\c[0] und die \\c[3]Azurtropfenform\\c[0] zu erhalten.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u4f60\u9996\u5148\u9700\u8981\u8fdb\u5165\\c[3]\u5de6\u8fb9\\c[0]\u548c\\c[3]\u53f3\u8fb9\\c[0]\u7684\u5730\u7262\uff0c\u6536\u96c6\u5230\\c[3]\\v[item.231.name]\\c[0]\u548c\\c[3]\\v[item.286.name]\\c[0]\u3002",
@@ -5766,7 +5766,7 @@
                   {
                     "message": {
                       "en_US": "If you've already finished those dungeons... just revisit the \\c[3]boss rooms\\c[0]. I'm sure you'll find the shades somewhere in there.",
-                      "pt_BR": "Se você já finalizou essas masmorras... basta revisitar as \\c[3]salas do chefes\\c[0]. Tenho certeza de que você encontrará os fragmentos em algum lugar lá dentro.",
+                      "pt_BR": "Se você já finalizou essas dungeons... basta revisitar as \\c[3]salas do chefes\\c[0]. Tenho certeza de que você encontrará os fragmentos em algum lugar lá dentro.",
                       "de_DE": "Falls du die Dungeons schon gemacht hast... geh nochmal in die \\c[3]Bossr\u00e4ume\\c[0]. Da wirst du sicher etwas finden.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u5982\u679c\u4f60\u5df2\u7ecf\u5b8c\u6210\u4e86\u8fd9\u4e9b\u5730\u7262\u7684\u8bdd\u2026\u53ea\u8981\u91cd\u65b0\u53bb\\c[3]Boss\u623f\u95f4\\c[0]\u5c31\u53ef\u4ee5\u4e86\u3002\u6211\u80af\u5b9a\u4f60\u5728\u90a3\u91cc\u80fd\u591f\u627e\u5230\u8bc1\u5370\u7684\u3002<<A<<[CHANGED 2017/07/11]",
@@ -5806,7 +5806,7 @@
                   {
                     "message": {
                       "en_US": "It looks like you're ready to enter! Better be prepared then. This is the last dungeon of Gaia's Garden.",
-                      "pt_BR": "Parece que você está pronta para entrar! Então é melhor estar preparada. Este é a última masmorra do Jardim de Gaia.",
+                      "pt_BR": "Parece que você está pronta para entrar! Então é melhor estar preparada. Este é a última dungeon do Jardim de Gaia.",
                       "de_DE": "Sieht so aus, als w\u00e4rst du nun bereit! Sei besser vorbereitet. Das ist der letzte Dungeon von Gaias Garten.",
                       "fr_FR": "fr_FR",
                       "zh_CN": "\u770b\u6837\u5b50\u4f60\u5df2\u7ecf\u51c6\u5907\u597d\u8981\u8fdb\u5165\u4e86\uff01\u6700\u597d\u505a\u597d\u51c6\u5907\u3002\u8fd9\u662f\u76d6\u4e9a\u82b1\u56ed\u6700\u540e\u4e00\u4e2a\u5730\u7262\u3002",
@@ -9584,7 +9584,7 @@
           {
             "message": {
               "en_US": "Looks like we have to solve another little quest before entering the last dungeon.",
-              "pt_BR": "Parece que temos que resolver outra pequena busca antes de entrar na última masmorra.",
+              "pt_BR": "Parece que temos que resolver outra pequena missão antes de entrar na última dungeon.",
               "langUid": 901,
               "de_DE": "Tja, da m\u00fcssen wir wohl noch eine Kleinigkeit erledigen, bevor wir in den letzten Dungeon k\u00f6nnen.",
               "ja_JP": "\u3069\u3046\u3084\u3089\u3001\u6700\u5f8c\u306e\u30c0\u30f3\u30b8\u30e7\u30f3\u306b\u5165\u308b\u524d\u306b\n\u3061\u3087\u3063\u3068\u3057\u305f\u30af\u30a8\u30b9\u30c8\u3092\n\u30af\u30ea\u30a2\u3057\u306a\u304d\u3083\u3044\u3051\u306a\u3044\u307f\u305f\u3044\u3060\u306d\u3002<<A<<[CHANGED 2018/08/01]",
@@ -9612,7 +9612,7 @@
           {
             "task": {
               "en_US": "Solve the quest \\c[3]The Root Cause\\c[0] to get access to \\c[3]Grand Krys'kajo\\c[0]!",
-              "pt_BR": "Solucione a busca \\c[3]A Causa Raiz\\c[0] para ganhar acesso ao \\c[3]Grand Krys'kajo\\c[0]!",
+              "pt_BR": "Solucione a missão \\c[3]A Causa Raiz\\c[0] para ganhar acesso ao \\c[3]Grand Krys'kajo\\c[0]!",
               "langUid": 895,
               "zh_CN": "\u5b8c\u6210\u4efb\u52a1\\c[3]\u95ee\u9898\u6839\u6e90\\c[0]\uff0c\u83b7\u5f97\u8fdb\u5165\\c[3]\u5927\u51ef\u65af\u5361\u7f57\\c[0]\u7684\u8d44\u683c\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\\c[3]\uadfc\ubcf8 \uc6d0\uc778\\c[0] \ud018\uc2a4\ud2b8\ub97c \ud574\uacb0\ud574 \\c[3]\uadf8\ub79c\ub4dc \ud06c\ub9ac\uc2a4\uce74\uc870\\c[0]\uc5d0 \ub4e4\uc5b4\uac00\uc138\uc694!<<A<<[CHANGED 2018/03/14]",
@@ -10605,7 +10605,7 @@
           {
             "message": {
               "en_US": "Here we are! That famous dungeon crossing!",
-              "pt_BR": "Chegamos! Na famosa travessia de masmorra!",
+              "pt_BR": "Chegamos! Na famosa travessia de dungeon!",
               "langUid": 313,
               "zh_CN": "\u603b\u7b97\u62b5\u8fbe\u8fd9\u4e2a\u8457\u540d\u7684\u5730\u7262\u5c94\u8def\u4e86\uff01<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub3c4\ucc29\ud588\ub2e4! \uadf8 \uc720\uba85\ud55c \ub358\uc804\uc758 \uad50\ucc28 \uc9c0\uc810!<<A<<[CHANGED 2018/03/14]",
@@ -10683,7 +10683,7 @@
           {
             "message": {
               "en_US": "So... which dungeon is first?",
-              "pt_BR": "Então... qual masmorra é a primeira?",
+              "pt_BR": "Então... qual dungeon é a primeira?",
               "langUid": 314,
               "zh_CN": "\u5148\u6253\u54ea\u4e2a\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc5b4\ub5a4 \ub358\uc804\uc744 \uba3c\uc800 \uac00\uc9c0?<<A<<[CHANGED 2018/03/14]",
@@ -11036,7 +11036,7 @@
           {
             "message": {
               "en_US": "Mon dieu, that's a lot of dungeons.",
-              "pt_BR": "Mon dieu, são muitas masmorras.",
+              "pt_BR": "Mon dieu, são muitas dungeons.",
               "langUid": 320,
               "zh_CN": "\u6211\u4e86\u4e2a\u5929\uff0c\u8fd9\u4e48\u591a\u5730\u7262\u8981\u6253\u554a\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc138\uc0c1\uc5d0, \ub358\uc804\uc774 \uc65c \uc774\ub807\uac8c \ub9ce\uc544?<<A<<[CHANGED 2018/03/14]",
@@ -11190,7 +11190,7 @@
           {
             "message": {
               "en_US": "Are you ready to dive right into dungeon crawling?",
-              "pt_BR": "Você tá pronta pra mergulhar em uma corrida de masmorras?",
+              "pt_BR": "Você tá pronta pra mergulhar em uma corrida de dungeons?",
               "langUid": 326,
               "zh_CN": "\u4f60\u51c6\u5907\u597d\u6253\u5730\u7262\u4e86\u5417\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub358\uc804\uc744 \ud0d0\ud5d8\ud560 \uc900\ube44\uac00 \ub410\uc5b4?<<A<<[CHANGED 2018/03/14]",
@@ -11265,7 +11265,7 @@
           {
             "message": {
               "en_US": "But of course, no entering a dungeon without us!",
-              "pt_BR": "Mas é claro, nada de entrar numa masmorra sem a gente!",
+              "pt_BR": "Mas é claro, nada de entrar numa dungeon sem a gente!",
               "langUid": 330,
               "zh_CN": "\u4f46\u662f\u8bb0\u4f4f\uff0c\u6253\u5730\u7262\u8bb0\u5f97\u8981\u53eb\u4e0a\u6211\u4eec\u554a\uff01<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc6b0\ub9ac \ube7c\uace0 \ud63c\uc790 \ub358\uc804\uc5d0 \ub4e4\uc5b4\uac00\ub294 \uac83\ub9cc \uc544\ub2c8\uba74!<<A<<[CHANGED 2018/03/14]",
@@ -11518,7 +11518,7 @@
           {
             "message": {
               "en_US": "So...\\. should we start another dungeon now?",
-              "pt_BR": "Então...\\. devemos iniciar outra masmorra agora?",
+              "pt_BR": "Então...\\. devemos iniciar outra dungeon agora?",
               "langUid": 557,
               "zh_CN": "\u90a3\u4e48...\\.\u6211\u4eec\u5e94\u8be5\u5f00\u59cb\u53e6\u4e00\u4e2a\u5730\u7262\u5417\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uadf8\ub7fc...\\. \ub2f9\uc7a5 \ub2e4\ub978 \ub358\uc804\uc744 \uc2dc\uc791\ud560\uae4c?<<A<<[CHANGED 2018/03/14]",
@@ -11563,7 +11563,7 @@
           {
             "message": {
               "en_US": "Oui, same for me. I don't think another dungeon fits in.",
-              "pt_BR": "Oui, eu também. Acho que não dá tempo de encarar outra masmorra.",
+              "pt_BR": "Oui, eu também. Acho que não dá tempo de encarar outra dungeon.",
               "langUid": 560,
               "zh_CN": "\u55ef\u55ef\uff0c\u6211\u4e5f\u662f\u3002\u53ef\u80fd\u6253\u4e0d\u4e86\u53e6\u4e00\u4e2a\u4e86\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc751, \ub098\ub3c4\uc57c. \uc624\ub298 \uc548\uc5d0 \ub2e4\ub978 \ub358\uc804\uc740 \ubabb \ud560 \uac83 \uac19\uc544.<<A<<[CHANGED 2018/03/14]",

@@ -1,0 +1,1558 @@
+{
+  "level": 36,
+  "params": {
+    "hp": 9999,
+    "attack": 30,
+    "defense": 31,
+    "focus": 26,
+    "statusInflict": [0, 0, 0, 0]
+  },
+  "credit": 16,
+  "exp": 30,
+  "maxSp": 8,
+  "enduranceScale": 1,
+  "healDropRate": 0,
+  "boss": false,
+  "bossOrder": 0,
+  "padding": { "x": 4, "y": 4 },
+  "material": "METAL",
+  "aiGroup": "",
+  "aiLearnType": "IMMEDIATELY",
+  "itemDrops": [],
+  "targetDetect": {
+    "detectDistance": 120,
+    "loseDistance": 320,
+    "notifyNeighbourRadius": 100
+  },
+  "hpBreaks": [],
+  "size": { "x": 16, "y": 16, "z": 12 },
+  "anims": "enemies.ball-probe",
+  "defaultState": "IDLE",
+  "walkConfigs": {
+    "normal": {
+      "idle": "idle",
+      "move": "idle",
+      "damage": "idle",
+      "jump": "idle"
+    },
+    "weak": { "idle": "idle", "damage": "idle" }
+  },
+  "_wm": null,
+  "walkAnims": "normal",
+  "airFriction": 0.3,
+  "weight": -1,
+  "maxVel": 180,
+  "jumpingEnabled": false,
+  "collType": "IGNORE",
+  "bounciness": 1,
+  "shadow": 18,
+  "floatVariance": 2,
+  "flyHeight": 10,
+  "flyKeepHeight": true,
+  "damageFactor": 0,
+  "hitStable": "MASSIVE",
+  "fallDmgFactor": 0,
+  "annotate": {
+    "active": "NONE",
+    "passive": "IMMUNE",
+    "weapon": "ANY",
+    "element": "ANY",
+    "extra": []
+  },
+  "DOCTYPE": "ENEMY",
+  "trackers": {
+    "weakRegen": {
+      "target": 3,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "noAssist": false,
+      "type": "TIME"
+    },
+    "coldCharge": {
+      "target": 3,
+      "scaleDmgFactor": false,
+      "scaleEnemyFactor": false,
+      "noStateReset": false,
+      "type": "HIT"
+    },
+    "coldTimer": {
+      "target": 10,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "noAssist": true,
+      "type": "TIME"
+    }
+  },
+  "states": {
+    "IDLE": {
+      "enabledReactions": [
+        "chargeCold",
+        "hitCold",
+        "hitOtherSmall",
+        "hitOtherMelee",
+        "hitOtherCharge",
+        "hitHeatSmall",
+        "hitHeatMelee",
+        "hitHeatCharge",
+        "hitEnemy",
+        "hitParty",
+        "fallReturn"
+      ],
+      "aggression": "PEACEFUL",
+      "choices": [
+        {
+          "req": [{ "negated": false, "type": "ENTERED_STATE" }],
+          "action": "Init",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 32,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-marker",
+                "type": "NAMED_ENTITIES"
+              }
+            },
+            { "type": "!VAR_CONDITION", "condition": "tmp.questBall-onMark" }
+          ],
+          "action": "OnMarker",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 36,
+              "checkPath": false,
+              "type": "!POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-marker",
+                "type": "NAMED_ENTITIES"
+              }
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.questBall-onMark"
+            }
+          ],
+          "action": "OffMarker",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 4,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-noBall",
+                "type": "NAMED_ENTITIES"
+              }
+            }
+          ],
+          "action": "ReturnPlayer",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 32,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-marker",
+                "type": "NAMED_ENTITIES"
+              }
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.questBall-onMark"
+            }
+          ],
+          "action": "AdjustToMark"
+        },
+        { "action": "Idle" }
+      ]
+    },
+    "IDLE_COLD": {
+      "weight": -1,
+      "hitStable": "MASSIVE",
+      "enabledReactions": ["hitColded", "hitThaw", "fallReturn"],
+      "aggression": "PEACEFUL",
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "TRACKER_READY", "name": "coldTimer" }
+          ],
+          "action": "DisCharge",
+          "preSwitchState": "IDLE",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 24,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-marker",
+                "type": "NAMED_ENTITIES"
+              }
+            },
+            { "type": "!VAR_CONDITION", "condition": "tmp.questBall-onMark" }
+          ],
+          "action": "OnMarker",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 24,
+              "checkPath": false,
+              "type": "!POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-marker",
+                "type": "NAMED_ENTITIES"
+              }
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.questBall-onMark"
+            }
+          ],
+          "action": "OffMarker",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 4,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-noBall",
+                "type": "NAMED_ENTITIES"
+              }
+            }
+          ],
+          "action": "ReturnPlayer",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            {
+              "distance": 32,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "namePart": "questBall-marker",
+                "type": "NAMED_ENTITIES"
+              }
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.questBall-onMark"
+            }
+          ],
+          "action": "AdjustToMark"
+        },
+        {
+          "req": [{ "zMin": 0, "zMax": 10, "type": "!TARGET_Z_DISTANCE" }],
+          "action": "AdjustZ"
+        },
+        { "action": "Idle" }
+      ]
+    },
+    "ATK": {
+      "choices": [
+        { "req": [{ "type": "!HAS_TARGET" }], "postSwitchState": "IDLE" },
+        {
+          "req": [{ "type": "!TARGET_REACHABLE", "distance": 200 }],
+          "action": "Adjust"
+        },
+        { "action": "Attack", "frequency": "NORMAL" },
+        {
+          "req": [{ "type": "!TARGET_REACHABLE", "distance": 120 }],
+          "action": "Adjust"
+        },
+        { "action": "BattleIdle" }
+      ]
+    },
+    "WEAK": {
+      "walkAnims": "weak",
+      "damageFactor": 1.5,
+      "annotate": {
+        "active": "NONE",
+        "passive": "WEAK",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "TRACKER_READY", "name": "weakRegen" }
+          ],
+          "preSwitchState": "DEFAULT"
+        }
+      ]
+    },
+    "PASSIVE_INVIS": {
+      "weight": -1,
+      "hitIgnore": true,
+      "aggression": "PEACEFUL",
+      "annotate": {
+        "active": "NONE",
+        "passive": "IMMUNE",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": []
+    }
+  },
+  "proxies": {},
+  "actions": {
+    "Init": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<INIT IDLE>",
+              "pt_BR": "<INICIAR OCIOSIDADE>",
+              "langUid": 21,
+              "ja_JP": "<\u6d3b\u52d5\u4f11\u6b62><<A<<[CHANGED 2017/08/03]",
+              "zh_CN": "<INIT IDLE><<A<<[CHANGED 2017/10/10]",
+              "de_DE": "<INIT IDLE><<C<<IGNORE",
+              "ko_KR": "<\ucd08\uae30\ud654 \ub300\uae30><<A<<[CHANGED 2017/10/17]",
+              "zh_TW": "<INIT IDLE><<A<<[CHANGED 2017/10/10]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 1
+          }
+        ]
+      },
+      { "group": "coldStable", "type": "CLEAR_EFFECTS" }
+    ],
+    "Idle": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "false",
+        "thenStep": [
+          {
+            "kind": "NAMED_ENTITY",
+            "key": { "varName": "tmp.questBall-returnPointArea" },
+            "type": "SET_TEMP_TARGET"
+          },
+          {
+            "conditions": [
+              { "ignoreZ": true, "negated": false, "type": "TARGET_OVERLAP" },
+              {
+                "negated": false,
+                "type": "VAR_CONDITION",
+                "condition": "tmp.questBall-returnPointPlayer"
+              },
+              {
+                "type": "!VAR_CONDITION",
+                "condition": "tmp.questBall-returnPoint == tmp.questBall-returnPointTarget"
+              }
+            ],
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "thenStep": [
+              {
+                "withElse": false,
+                "type": "IF",
+                "condition": "test",
+                "thenStep": [
+                  {
+                    "text": {
+                      "en_US": "<ReturnPos Changed>",
+                      "pt_BR": "<Posição de Rotorno Mudada>",
+                      "langUid": 34,
+                      "zh_CN": "<ReturnPos Changed><<A<<[CHANGED 2017/10/10]",
+                      "de_DE": "<ReturnPos Changed><<C<<IGNORE",
+                      "ko_KR": "<\uadc0\ud658\uc810 \ubcc0\uacbd\ub428><<A<<[CHANGED 2017/10/17]",
+                      "ja_JP": "<\u5fa9\u5e30\u5730\u70b9\u5909\u66f4><<A<<[CHANGED 2017/11/04]",
+                      "zh_TW": "<ReturnPos Changed><<A<<[CHANGED 2017/10/10]"
+                    },
+                    "mode": "NO_LINE",
+                    "color": "GREEN",
+                    "actionDetached": true,
+                    "type": "SHOW_AR_MSG",
+                    "time": 1
+                  }
+                ]
+              },
+              {
+                "changeType": "set",
+                "type": "CHANGE_VAR_STRING",
+                "varName": "tmp.questBall-returnPoint",
+                "value": { "varName": "tmp.questBall-returnPointTarget" }
+              },
+              {
+                "changeType": "set",
+                "type": "CHANGE_VAR_BOOL",
+                "varName": "tmp.questBall-returnPointPlayer",
+                "value": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "poiFilter": {
+          "namePart": "questBall-marker",
+          "type": "NAMED_ENTITIES"
+        },
+        "distance": 5000,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.hasTmpTarget",
+        "thenStep": [{ "value": false, "type": "SET_FLY_KEEP_HEIGHT" }]
+      },
+      { "time": 0.1, "type": "WAIT" }
+    ],
+    "BattleIdle": [
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "minTime": 0.2, "maxTime": 0.4, "type": "WAIT_RANDOM" }
+    ],
+    "MoveToSpawnPoint": [
+      { "value": 0.5, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 3,
+        "maxDistance": 16,
+        "precise": false,
+        "type": "NAVIGATE_TO_SPAWN_POINT"
+      }
+    ],
+    "MoveRandom": [
+      { "value": 0.3, "type": "SET_RELATIVE_SPEED" },
+      { "value": false, "type": "SET_JUMPING" },
+      {
+        "minTime": 0.3,
+        "maxTime": 0.5,
+        "dirChanges": 0,
+        "stopBeforeEdge": true,
+        "type": "MOVE_RANDOM"
+      },
+      { "minTime": 0.5, "maxTime": 0.6, "type": "WAIT_RANDOM" }
+    ],
+    "Adjust": [
+      { "value": 0.6, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 100,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "value": 10, "type": "SET_FLY_HEIGHT" }
+    ],
+    "GetClose": [
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 60,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      }
+    ],
+    "Attack": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 70,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "large" }
+      },
+      {
+        "name": "full",
+        "actionDetached": false,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": {
+            "baseFactor": 0.25,
+            "strength": "REGULAR",
+            "hitResist": "HEAVY",
+            "range": 1,
+            "back": false
+          }
+        }
+      },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "roll"
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-in.ogg"
+      },
+      { "time": 1, "type": "WAIT" },
+      { "type": "CLEAR_EFFECTS" },
+      { "value": 400, "type": "SET_SPEED" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out-long.ogg"
+      },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "value": "IGNORE", "type": "SET_COLL_TYPE" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "time": 0.4,
+        "cancelOnHit": false,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "type": "TACKLE",
+        "attack": { "type": "HEAVY", "damageFactor": 1 }
+      },
+      { "value": 50, "type": "SET_SPEED" },
+      { "time": 0.3, "stopBeforeEdge": false, "type": "MOVE_FORWARD" }
+    ],
+    "Jump": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 80,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "roll"
+      },
+      {
+        "name": "full",
+        "actionDetached": false,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": { "baseFactor": 0.25, "range": 1 }
+        }
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "speed": 0.7,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out.ogg"
+      },
+      {
+        "jumpHeight": "L",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "speed": 0.85,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out.ogg"
+      },
+      {
+        "jumpHeight": "L",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      { "value": 200, "type": "SET_SPEED" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "backMedium" }
+      },
+      { "value": "IGNORE", "type": "SET_COLL_TYPE" },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out-long.ogg"
+      },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "jumpSpeed": 300, "adjustAbove": 13, "type": "JUMP_TO_TARGET" },
+      {
+        "align": "BOTTOM",
+        "radius": 20,
+        "yScale": 0,
+        "zHeight": 64,
+        "centralAngle": 0,
+        "duration": 0,
+        "expandRadius": 0,
+        "alwaysFull": false,
+        "clockwise": false,
+        "flipLeftFace": false,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": false,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "damageFactor": 1.2,
+          "element": "NEUTRAL",
+          "spFactor": 0
+        }
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "backMedium" }
+      }
+    ],
+    "BlockCounter": [
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "combat", "name": "flashShort" }
+      },
+      {
+        "flyLevel": "MASSIVE",
+        "breaking": false,
+        "stable": false,
+        "wait": true,
+        "type": "DO_DAMAGE_MOVEMENT"
+      },
+      { "time": 0.4, "type": "WAIT" }
+    ],
+    "AdjustToMark": [
+      {
+        "poiFilter": {
+          "namePart": "questBall-marker",
+          "type": "NAMED_ENTITIES"
+        },
+        "distance": 34,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      { "value": false, "type": "SET_FLY_KEEP_HEIGHT" },
+      { "value": 0.2, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 0,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": true,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      }
+    ],
+    "ReturnPlayer": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "text": {
+          "en_US": "[Returning]",
+          "pt_BR": "[Retornando]",
+          "langUid": 23,
+          "ja_JP": "[\u30ea\u30bf\u30fc\u30f3\u4e2d]<<A<<[CHANGED 2017/08/03]",
+          "zh_CN": "[\u8fd4\u56de\u4e2d]<<A<<[CHANGED 2017/10/10]",
+          "de_DE": "[Zur\u00fcckkehren]<<C<<Gepr\u00fcft: Minsu",
+          "ko_KR": "[\uadc0\ud658 \uc911]<<A<<[CHANGED 2017/10/17]",
+          "zh_TW": "[\u8fd4\u56de\u4e2d]<<A<<[CHANGED 2017/10/10]"
+        },
+        "mode": "NO_LINE",
+        "color": "GREEN",
+        "actionDetached": true,
+        "type": "SHOW_AR_MSG",
+        "time": 1
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.questBall-returning",
+        "value": true
+      },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "tmp.questBall-returnPoint == \"\"",
+        "thenStep": [{ "kind": "PLAYER", "type": "SET_TEMP_TARGET" }],
+        "elseStep": [
+          {
+            "kind": "NAMED_ENTITY",
+            "key": { "varName": "tmp.questBall-returnPoint" },
+            "type": "SET_TEMP_TARGET"
+          }
+        ]
+      },
+      { "value": true, "type": "SET_SLIP_THROUGH" },
+      {
+        "maxTime": 0,
+        "forceTime": false,
+        "distance": 0,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "value": false, "type": "SET_SLIP_THROUGH" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.questBall-returning",
+        "value": false
+      }
+    ],
+    "OnMarker": [
+      { "group": "marker", "type": "CLEAR_EFFECTS" },
+      { "actionDetached": false, "type": "REMOVE_PLAYER_CAMERA_TARGET" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.stringCheck",
+        "value": "questBall-marker-"
+      },
+      {
+        "changeType": "append",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.stringCheck",
+        "value": { "varName": "tmp.questBall-markerActive" }
+      },
+      {
+        "poiFilter": {
+          "namePart": "questBall-marker-",
+          "name": "",
+          "type": "NAMED_ENTITIES"
+        },
+        "distance": 32,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "attribName": "markerName",
+        "valueType": "ENTITY_NAME",
+        "type": "SET_ATTRIB_TARGET_VALUE"
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.questBall-markerName",
+        "value": { "varName": "entity.attrib.markerName" }
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "tmp.stringCheck == tmp.questBall-markerName",
+        "thenStep": [
+          {
+            "withElse": true,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              {
+                "text": {
+                  "en_US": "<ON MARK> \\v[tmp.markerName] = \\v[tmp.stringCheck]",
+                  "pt_BR": "<NA MARCA> \\v[tmp.markerName] = \\v[tmp.stringCheck]",
+                  "langUid": 10,
+                  "ja_JP": "<\u6a19\u7684\u6307\u5b9a> \\v[tmp.markerName] = \\v[tmp.stringCheck]<<A<<[CHANGED 2017/08/03]",
+                  "zh_CN": "<ON MARK> \\v[tmp.markerName] = \\v[tmp.stringCheck]<<A<<[CHANGED 2017/10/10]",
+                  "de_DE": "<ON MARK> \\v[tmp.markerName] = \\v[tmp.stringCheck]<<C<<IGNORE",
+                  "ko_KR": "<\ucd94\uc801 \ucf1c\uc9d0> \\v[tmp.markerName] = \\v[tmp.stringCheck]<<A<<[CHANGED 2017/10/17]",
+                  "zh_TW": "<ON MARK> \\v[tmp.markerName] = \\v[tmp.stringCheck]<<A<<[CHANGED 2017/10/10]"
+                },
+                "mode": "NO_LINE",
+                "color": "GREEN",
+                "actionDetached": true,
+                "type": "SHOW_AR_MSG",
+                "time": 3
+              }
+            ],
+            "elseStep": [
+              {
+                "text": {
+                  "en_US": "[Connected to Power]",
+                  "pt_BR": "[Conectado à Força]",
+                  "ja_JP": "[\u5145\u96fb\u4e2d]<<A<<[CHANGED 2017/11/04]",
+                  "langUid": 41,
+                  "zh_CN": "[\u5df2\u8fde\u63a5\u80fd\u91cf\u6e90]<<A<<[CHANGED 2017/10/10]",
+                  "de_DE": "[Mit Kraftpunkt verbunden]<<C<<Gepr\u00fcft: Minsu",
+                  "ko_KR": "[\uc804\uc6d0 \uc5f0\uacb0\ub428]<<A<<[CHANGED 2017/10/17]",
+                  "zh_TW": "[\u5df2\u9023\u63a5\u80fd\u91cf\u6e90]<<A<<[CHANGED 2017/10/10]"
+                },
+                "mode": "NO_LINE",
+                "color": "GREEN",
+                "actionDetached": true,
+                "type": "SHOW_AR_MSG",
+                "time": 3
+              }
+            ]
+          },
+          {
+            "duration": 0,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": true,
+            "group": "marker",
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": { "sheet": "enemies.questBall", "name": "onMark" },
+            "offset": { "x": 0, "y": 0, "z": 0 }
+          },
+          {
+            "duration": -1,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": true,
+            "group": "marker",
+            "target2": "TARGET",
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": {
+              "sheet": "enemies.questBall",
+              "name": "markerBallConnect"
+            },
+            "offset": { "x": 0, "y": 0, "z": 0 }
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questBall-onMark",
+            "value": true
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.questBall-onMarkChange",
+        "value": true
+      }
+    ],
+    "OffMarker": [
+      { "group": "marker", "type": "CLEAR_EFFECTS" },
+      { "actionDetached": true, "type": "ADD_PLAYER_CAMERA_TARGET" },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<OFF MARK \\v[tmp.questBall-markerActive]>",
+              "pt_BR": "<FORA DA MARCA \\v[tmp.questBall-markerActive]>",
+              "de_DE": "<OFF MARK \\v[tmp.questBall-markerActive]><<C<<IGNORE",
+              "zh_CN": "<OFF MARK \\v[tmp.questBall-markerActive]><<A<<[CHANGED 2017/12/12]",
+              "ja_JP": "<\u6a19\u7684\u55aa\u5931><<A<<[CHANGED 2017/11/04]",
+              "langUid": 11,
+              "ko_KR": "<\ucd94\uc801 \uaebc\uc9d0 \\v[tmp.questBall-markerActive]><<A<<[CHANGED 2017/10/17]",
+              "zh_TW": "<OFF MARK \\v[tmp.questBall-markerActive]><<A<<[CHANGED 2017/12/12]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "type": "SHOW_AR_MSG",
+            "time": 1
+          }
+        ],
+        "elseStep": [
+          {
+            "text": {
+              "en_US": "[Disconnected from Power]",
+              "pt_BR": "[Desconectado da Força]",
+              "ja_JP": "[\u5145\u96fb\u505c\u6b62]<<A<<[CHANGED 2017/11/04]",
+              "langUid": 42,
+              "zh_CN": "[\u4e0e\u80fd\u91cf\u6e90\u8fde\u63a5\u65ad\u5f00]<<A<<[CHANGED 2017/10/10]",
+              "de_DE": "[Von Kraftpunkt getrennt]<<C<<Gepr\u00fcft: Minsu",
+              "ko_KR": "[\uc804\uc6d0 \ud574\uc81c\ub428]<<A<<[CHANGED 2017/10/17]",
+              "zh_TW": "[\u8207\u80fd\u91cf\u6e90\u9023\u63a5\u65b7\u958b]<<A<<[CHANGED 2017/10/10]"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "type": "SHOW_AR_MSG",
+            "time": 3
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.stringCheck",
+        "value": "questBall-marker-"
+      },
+      {
+        "changeType": "append",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.stringCheck",
+        "value": { "varName": "tmp.questBall-markerActive" }
+      },
+      {
+        "poiFilter": {
+          "namePart": "questBall-marker-",
+          "name": "",
+          "type": "NAMED_ENTITIES"
+        },
+        "distance": 40000,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "attribName": "markerName",
+        "valueType": "ENTITY_NAME",
+        "type": "SET_ATTRIB_TARGET_VALUE"
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_STRING",
+        "varName": "tmp.questBall-markerName",
+        "value": { "varName": "entity.attrib.markerName" }
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "color_blink", "name": "blink_red_powerloss" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "marker",
+        "target2": "TARGET",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": {
+          "sheet": "enemies.questBall",
+          "name": "markerBallConnectRequest"
+        },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.questBall-onMark",
+        "value": false
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.questBall-onMarkChange",
+        "value": true
+      }
+    ],
+    "ChargeHeat": [
+      {
+        "text": {
+          "en_US": "[HEAT CHARGE]",
+          "pt_BR": "[CARGA DE FOGO]",
+          "langUid": 13,
+          "ja_JP": "[\u706b\u708e\u30c1\u30e3\u30fc\u30b8]<<A<<[CHANGED 2017/08/03]",
+          "zh_CN": "[\u706b\u7130\u51b2\u523a]<<A<<[CHANGED 2017/10/10]",
+          "de_DE": "[HITZE-LADUNG]<<C<<Gepr\u00fcft: Minsu",
+          "ko_KR": "[\uc5f4\uae30 \ucda9\uc804]<<A<<[CHANGED 2017/10/17]",
+          "zh_TW": "[\u706b\u7130\u885d\u523a]<<A<<[CHANGED 2017/10/10]"
+        },
+        "mode": "LINE_EMPTY",
+        "color": "GREEN",
+        "actionDetached": true,
+        "type": "SHOW_AR_MSG",
+        "time": 10
+      },
+      { "type": "RESET_TRACKER", "tracker": "heatTimer" },
+      { "type": "RESET_TRACKER", "tracker": "coldTimer" },
+      { "name": "chargeHeat", "type": "SET_ATTRIB_BOOL", "value": true }
+    ],
+    "ChargeCold": [
+      {
+        "text": {
+          "en_US": "[STABLE]",
+          "pt_BR": "[ESTÁVEL]",
+          "langUid": 15,
+          "zh_CN": "[\u7a33\u5b9a]<<A<<[CHANGED 2017/10/10]",
+          "de_DE": "[STABIL]<<C<<Gepr\u00fcft: Minsu",
+          "ko_KR": "[\uc548\uc815]<<A<<[CHANGED 2017/10/17]",
+          "ja_JP": "[\u5b89\u5b9a]<<A<<[CHANGED 2017/11/04]",
+          "zh_TW": "[\u7a69\u5b9a]<<A<<[CHANGED 2017/10/10]"
+        },
+        "mode": "LINE_EMPTY",
+        "color": "GREEN",
+        "actionDetached": true,
+        "type": "SHOW_AR_MSG",
+        "time": 10
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "coldStable",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "specials.cold", "name": "coldGuardSlowMo" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "type": "RESET_TRACKER", "tracker": "heatTimer" },
+      { "type": "RESET_TRACKER", "tracker": "coldTimer" },
+      { "name": "chargeCold", "type": "SET_ATTRIB_BOOL", "value": true }
+    ],
+    "DisCharge": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<DISCHARGE>",
+              "pt_BR": "<DESCARGA>",
+              "langUid": 16,
+              "ja_JP": "<\u767a\u5c04><<A<<[CHANGED 2017/08/03]",
+              "zh_CN": "<DISCHARGE><<A<<[CHANGED 2017/10/10]",
+              "de_DE": "<DISCHARGE><<C<<IGNORE",
+              "ko_KR": "<\ubc1c\uc0ac><<A<<[CHANGED 2017/10/17]",
+              "zh_TW": "<DISCHARGE><<A<<[CHANGED 2017/10/10]"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "type": "SHOW_AR_MSG",
+            "time": 1
+          }
+        ]
+      },
+      { "group": "coldStable", "type": "CLEAR_EFFECTS" },
+      { "type": "RESET_TRACKER", "tracker": "heatTimer" },
+      { "type": "RESET_TRACKER", "tracker": "coldTimer" },
+      { "name": "chargeHeat", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "name": "chargeCold", "type": "SET_ATTRIB_BOOL", "value": false }
+    ],
+    "HitHeatSmall": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 800, "type": "SET_SPEED" },
+      { "time": 0.02, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HitHeatMelee": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 4000, "type": "SET_SPEED" },
+      { "time": 0.02, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HitHeatCharged": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 8000, "type": "SET_SPEED" },
+      { "time": 0.02, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HitNeutralSmall": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 200, "type": "SET_SPEED" },
+      { "time": 0.02, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HitNeutralMelee": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 1000, "type": "SET_SPEED" },
+      { "time": 0.02, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HitNeutralCharged": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 2000, "type": "SET_SPEED" },
+      { "time": 0.02, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "Thawing": [
+      { "type": "RESET_TRACKER", "tracker": "coldCharge" },
+      { "name": "chargeCold", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "group": "coldStable", "type": "CLEAR_EFFECTS" },
+      {
+        "conditions": [
+          { "negated": false, "type": "CURRENT_STATE", "state": "IDLE_COLD" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test && false",
+            "thenStep": [
+              {
+                "text": {
+                  "en_US": "<THAW>",
+                  "pt_BR": "<DESCONGELAMENTO>",
+                  "langUid": 27,
+                  "ja_JP": "<\u51cd\u89e3><<A<<[CHANGED 2017/08/03]",
+                  "zh_CN": "<THAW><<A<<[CHANGED 2017/10/10]",
+                  "de_DE": "<THAW><<C<<IGNORE",
+                  "ko_KR": "<\ud574\ub3d9><<A<<[CHANGED 2017/10/17]",
+                  "zh_TW": "<THAW><<A<<[CHANGED 2017/10/10]"
+                },
+                "mode": "NO_LINE",
+                "color": "RED",
+                "actionDetached": true,
+                "type": "SHOW_AR_MSG",
+                "time": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "HitCold": [
+      { "name": "chargeHeat", "type": "SET_ATTRIB_BOOL", "value": false },
+      {
+        "conditions": [
+          { "negated": false, "type": "CURRENT_STATE", "state": "IDLE_HEAT" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [{ "type": "CLEAR_AR_MSG" }]
+      }
+    ],
+    "HitEnemy": [
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 3000, "type": "SET_SPEED" },
+      { "time": 0.03, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HitParty": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "PARTY",
+              "pt_BR": "GRUPO",
+              "langUid": 37,
+              "zh_CN": "\u5c0f\u961f<<A<<[CHANGED 2017/10/10]",
+              "de_DE": "PARTY<<C<<Gepr\u00fcft: Minsu",
+              "ko_KR": "\ud30c\ud2f0 \ub9fa\uae30<<A<<[CHANGED 2017/10/17]",
+              "ja_JP": "\u30d1\u30fc\u30c6\u30a3\u30fc<<A<<[CHANGED 2017/11/04]",
+              "zh_TW": "\u5c0f\u968a<<A<<[CHANGED 2017/10/10]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "type": "SHOW_AR_MSG",
+            "time": 1
+          }
+        ]
+      },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "HeatedHitPre": [
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 600, "type": "SET_SPEED" },
+      { "time": 0.1, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "Bounce": [
+      { "time": 0, "turn": 0.5, "random": 0, "type": "ROTATE_FACE" },
+      { "value": 600, "type": "SET_SPEED" },
+      { "time": 0.1, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "AdjustZ": [
+      { "value": false, "type": "SET_FLY_KEEP_HEIGHT" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<Z ADJUST>",
+              "pt_BR": "<AJUSTE Z>",
+              "langUid": 40,
+              "zh_CN": "<Z ADJUST><<A<<[CHANGED 2017/10/10]",
+              "de_DE": "<Z ADJUST><<C<<IGNORE",
+              "ko_KR": "<Z\ucd95 \uc870\uc815><<A<<[CHANGED 2017/10/17]",
+              "ja_JP": "<Z\u8abf\u6574><<A<<[CHANGED 2017/11/04]",
+              "zh_TW": "<Z ADJUST><<A<<[CHANGED 2017/10/10]"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "type": "SHOW_AR_MSG",
+            "time": 0.5
+          }
+        ]
+      },
+      { "value": 10, "type": "SET_FLY_HEIGHT" },
+      { "time": 0.2, "type": "WAIT" },
+      { "value": true, "type": "SET_FLY_KEEP_HEIGHT" },
+      { "time": 0.1, "type": "WAIT" }
+    ]
+  },
+  "reactions": {
+    "hitEnemy": {
+      "hitType": "REGULAR",
+      "action": "HitEnemy",
+      "blockFurtherHits": false,
+      "attackType": "MASSIVE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "hint": "ENEMY_PUSH", "negated": false, "type": "HAS_HINT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitParty": {
+      "hitType": "REGULAR",
+      "action": "HitParty",
+      "blockFurtherHits": false,
+      "attackType": "NONE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "entity": { "player": true }, "type": "!ATTACK_FROM_ENTITY" },
+        { "hint": "ENEMY_PUSH", "type": "!HAS_HINT" },
+        { "negated": false, "type": "VAR_CONDITION", "condition": "false" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "chargeCold": {
+      "hitType": "REGULAR",
+      "preSwitchState": "IDLE_COLD",
+      "action": "ChargeCold",
+      "blockFurtherHits": false,
+      "attackType": "NONE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "COLD", "negated": false, "type": "ELEMENT_HIT" },
+        {
+          "entity": { "player": true },
+          "negated": false,
+          "type": "ATTACK_FROM_ENTITY"
+        }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitHeatSmall": {
+      "hitType": "REGULAR",
+      "action": "HitHeatSmall",
+      "blockFurtherHits": false,
+      "attackType": "MEDIUM",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "negated": false, "type": "ELEMENT_HIT" },
+        { "negated": false, "type": "BALL_SMALL" },
+        {
+          "entity": { "player": true },
+          "negated": false,
+          "type": "ATTACK_FROM_ENTITY"
+        }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitHeatMelee": {
+      "hitType": "REGULAR",
+      "action": "HitHeatMelee",
+      "blockFurtherHits": false,
+      "attackType": "MEDIUM",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "negated": false, "type": "ELEMENT_HIT" },
+        { "type": "!BALL_CHARGE", "value": true },
+        { "type": "!BALL_SMALL" },
+        {
+          "entity": { "player": true },
+          "negated": false,
+          "type": "ATTACK_FROM_ENTITY"
+        }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitHeatCharge": {
+      "hitType": "REGULAR",
+      "action": "HitHeatCharged",
+      "blockFurtherHits": false,
+      "attackType": "MEDIUM",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "negated": false, "type": "ELEMENT_HIT" },
+        { "negated": false, "type": "BALL_CHARGE", "value": true },
+        {
+          "entity": { "player": true },
+          "negated": false,
+          "type": "ATTACK_FROM_ENTITY"
+        }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitCold": {
+      "hitType": "REGULAR",
+      "preAction": "HitCold",
+      "blockFurtherHits": false,
+      "attackType": "NONE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "COLD", "negated": false, "type": "ELEMENT_HIT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitOtherSmall": {
+      "hitType": "REGULAR",
+      "action": "HitNeutralSmall",
+      "blockFurtherHits": false,
+      "attackType": "NONE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "type": "!ELEMENT_HIT" },
+        { "element": "COLD", "type": "!ELEMENT_HIT" },
+        { "negated": false, "type": "BALL_SMALL" },
+        { "hint": "ENEMY_PUSH", "type": "!HAS_HINT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitOtherMelee": {
+      "hitType": "REGULAR",
+      "action": "HitNeutralMelee",
+      "blockFurtherHits": false,
+      "attackType": "MEDIUM",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "type": "!ELEMENT_HIT" },
+        { "element": "COLD", "type": "!ELEMENT_HIT" },
+        { "type": "!BALL_SMALL" },
+        { "hint": "ENEMY_PUSH", "type": "!HAS_HINT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitOtherCharge": {
+      "hitType": "REGULAR",
+      "action": "HitNeutralCharged",
+      "blockFurtherHits": false,
+      "attackType": "MEDIUM",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "type": "!ELEMENT_HIT" },
+        { "element": "COLD", "type": "!ELEMENT_HIT" },
+        { "type": "!BALL_SMALL" },
+        { "hint": "ENEMY_PUSH", "type": "!HAS_HINT" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitColded": {
+      "hitType": "REGULAR",
+      "blockFurtherHits": false,
+      "attackType": "NONE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [{ "element": "HEAT", "type": "!ELEMENT_HIT" }],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "hitThaw": {
+      "hitType": "REGULAR",
+      "preAction": "Thawing",
+      "preSwitchState": "IDLE",
+      "blockFurtherHits": false,
+      "attackType": "NONE",
+      "flyLevel": "",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "",
+      "conditions": [
+        { "element": "HEAT", "negated": false, "type": "ELEMENT_HIT" },
+        { "entity": { "party": "Member2" }, "type": "!ATTACK_FROM_ENTITY" },
+        { "entity": { "party": "Member3" }, "type": "!ATTACK_FROM_ENTITY" }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "fallReturn": { "action": "ReturnPlayer", "type": "FALL" }
+  },
+  "meta": {
+    "species": {
+      "en_US": "Mystery Device",
+      "pt_BR": "Dispositivo Misterioso",
+      "de_DE": "Mysteri\u00f6ses Ger\u00e4t<<C<<Gepr\u00fcft: Minsu",
+      "zh_CN": "\u795e\u79d8\u88c5\u7f6e<<A<<[CHANGED 2017/10/10]",
+      "ja_JP": "\u8b0e\u306e\u30c7\u30d0\u30a4\u30b9<<A<<[CHANGED 2017/08/03]",
+      "ko_KR": "\uc218\uc218\uaed8\ub07c \uc7a5\uce58<<A<<[CHANGED 2017/10/17]",
+      "langUid": 4,
+      "zh_TW": "\u795e\u79d8\u88dd\u7f6e<<A<<[CHANGED 2017/10/10]"
+    },
+    "category": "MECHA",
+    "descriptions": []
+  }
+}

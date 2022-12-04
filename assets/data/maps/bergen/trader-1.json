@@ -3184,7 +3184,7 @@
                 {
                   "message": {
                     "en_US": "Ah, a \\v[lore.title.seeker].\\. It is a pleasure, seeing more of your kind here in Bergen.",
-                    "pt_BR": "Ah, um \\v[lore.title.seeker].\\. É um prazer ver mais do seu tipo aqui em Bergen.",
+                    "pt_BR": "Ah, uma \\v[lore.title.seeker].\\. É um prazer ver mais do seu tipo aqui em Bergen.",
                     "de_DE": "Ah, ein Seeker.\\. Es ist eine Freude, mehr von deinesgleichen hier in Bergen zu sehen.",
                     "fr_FR": "fr_FR",
                     "langUid": 261,
@@ -3203,7 +3203,7 @@
                 {
                   "message": {
                     "en_US": "I am Mrs. Summers, holding the position of chairperson in \\c[3]\\v[lore.title.faction-shock-bergen]\\c[0].",
-                    "pt_BR": "Eu sou a Sra. Summers, ocupando o cargo de presidente em \\c[3]\\v[lore.title.faction-shock-bergen]\\c[0].",
+                    "pt_BR": "Eu sou a Sra. Summers, presidente do \\c[3]\\v[lore.title.faction-shock-bergen]\\c[0].",
                     "de_DE": "Ich bin Frau Summers, die Vorsitzende von \\c[3]\\v[lore.title.faction-shock-bergen]\\c[0].",
                     "fr_FR": "fr_FR",
                     "langUid": 388,
@@ -3238,7 +3238,7 @@
                 {
                   "message": {
                     "en_US": "Lovely.\\. Alas, we should not spend too much time with idle pleasantries.",
-                    "pt_BR": "Encantador.\\. Porém, não podemos perder muito tempo com comprimentos educados.",
+                    "pt_BR": "Encantada.\\. Porém, não podemos perder muito tempo com comprimentos educados.",
                     "de_DE": "Angenehm.\\. Zu viel Zeit mit H\u00f6flichkeiten sollten wir jedoch nicht verbringen.",
                     "fr_FR": "fr_FR",
                     "langUid": 390,
@@ -3737,7 +3737,7 @@
                 {
                   "message": {
                     "en_US": "Yes, yes, he got his wish but still was not satisfied.\\. A luxury problem as old as man.",
-                    "pt_BR": "Sim, sim, ele saciou seu desejo, mas ainda não foi o suficiente.\\. A Luxúria é um problema tão antigo quanto o homem.",
+                    "pt_BR": "Sim, sim, ele conseguiu o que queria, mas não foi o suficiente.\\. A vaidade é um problema tão antigo quanto o ser humano.",
                     "de_DE": "Ja, ja, er hat zwar, was er wollte, ist aber immer noch nicht zufrieden.\\. Ein Luxusproblem, so alt wie die Menschheit selbst.",
                     "fr_FR": "fr_FR",
                     "langUid": 405,
@@ -4075,7 +4075,7 @@
                     {
                       "message": {
                         "en_US": "Very good.\\. You can find the Hermit's House at the \\c[3]Spike Heights on \\v[area.bergen-trails.name]\\c[0].",
-                        "pt_BR": "Muito bem.\\. Você pode encontrar a Cabana do Eremita em \\c[3]Picos Altos na \\v[area.bergen-trails.name]\\c[0].",
+                        "pt_BR": "Muito bem.\\. Você pode encontrar a Cabana do Eremita nos \\c[3]Picos Altos na \\v[area.bergen-trails.name]\\c[0].",
                         "de_DE": "Sehr gut.\\. Du findest die Eremitenh\u00fctte auf den \\c[3]Zackenh\u00f6hen des Bergen-Trails\\c[0].",
                         "fr_FR": "fr_FR",
                         "langUid": 414,

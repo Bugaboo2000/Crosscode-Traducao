@@ -4892,7 +4892,7 @@
           {
             "message": {
               "en_US": "That quest from before just took so much longer than I expected.",
-              "pt_BR": "Essa busca de antes levou muito mais tempo do que eu esperava.",
+              "pt_BR": "Essa missão de antes levou muito mais tempo do que eu esperava.",
               "langUid": 12,
               "zh_CN": "\u4e4b\u524d\u4efb\u52a1\u6bd4\u6211\u9884\u8ba1\u4e2d\u7684\u957f\u592a\u591a\u4e86\u3002<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc870\uae08 \uc804\uc5d0 \ub05d\ub0b8 \ud018\uc2a4\ud2b8\uac00 \ub0b4\uac00 \uc608\uc0c1\ud55c \uac83\ubcf4\ub2e4 \ub108\ubb34 \uc624\ub798 \uac78\ub838\uc5b4.<<A<<[CHANGED 2018/03/14]",
@@ -5513,7 +5513,7 @@
           {
             "message": {
               "en_US": "I've had enough for today. We just ran two whole dungeons in a row.",
-              "pt_BR": "Já tive o suficiente por hoje. Acabamos de correr em duas masmorras inteiras seguidas.",
+              "pt_BR": "Já tive o suficiente por hoje. Acabamos de correr em duas dungeons inteiras seguidas.",
               "langUid": 501,
               "zh_CN": "\u6211\u4eca\u5929\u73a9\u4e0d\u52a8\u4e86\u3002\u6211\u4eec\u521a\u8fde\u7eed\u8dd1\u4e86\u4e24\u4e2a\u5730\u7262\u554a\u3002<<A<<[CHANGED 2018/09/19]",
               "ko_KR": "\uc624\ub298\uc740 \ub108\ubb34 \ub9ce\uc774 \ud588\uc5b4. \ub358\uc804 \ub450 \uac1c\ub97c \ud55c\uaebc\ubc88\uc5d0 \ud588\uc796\uc544.<<A<<[CHANGED 2018/09/19]",
@@ -5549,7 +5549,7 @@
           {
             "message": {
               "en_US": "Have the dungeons been too difficult?",
-              "pt_BR": "As masmorras foram tão difíceis assim?",
+              "pt_BR": "As dungeons foram tão difíceis assim?",
               "langUid": 503,
               "zh_CN": "\u592a\u96be\u4e86\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\ub358\uc804\uc774 \ub108\ubb34 \uc5b4\ub824\uc6e0\ub098?<<A<<[CHANGED 2018/03/14]",
@@ -6026,7 +6026,7 @@
           {
             "message": {
               "en_US": "Here's an idea: how about you join Lea's party again and run the dungeon with her?\n",
-              "pt_BR": "Tive uma ideia: que tal você se juntar novamente ao grupo de Lea e correr na masmorra com ela?",
+              "pt_BR": "Tive uma ideia: que tal você se juntar novamente ao grupo de Lea e correr na dungeon com ela?",
               "langUid": 516,
               "zh_CN": "\u8981\u4e0d\u8fd9\u6837\uff1a\u4f60\u518d\u52a0\u5230\u8389\u4e9a\u7684\u961f\u4f0d\u91cc\uff0c\u8ddf\u5979\u4eec\u4e00\u8d77\u73a9\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc774\ub807\uac8c \ud558\ub294 \uac8c \uc5b4\ub54c. \ub2e4\uc2dc \ub808\uc544\uc758 \ud30c\ud2f0\uc5d0 \ud569\ub958\ud574\uc11c \ub808\uc544\uc640 \ud568\uaed8 \uc2dc\ud569\ud558\ub294 \uac70\uc57c.<<A<<[CHANGED 2018/03/14]",
@@ -6669,7 +6669,7 @@
           {
             "message": {
               "en_US": "Do you want to join our dungeon race or not?",
-              "pt_BR": "Você quer se juntar à nossa corrida de masmorra ou não?",
+              "pt_BR": "Você quer se juntar à nossa corrida de dungeon ou não?",
               "langUid": 534,
               "zh_CN": "\u4f60\u60f3\u8981\u8ddf\u6211\u4eec\u4e00\u8d77\u6765\u4e00\u628a\u5730\u7262\u7ade\u901f\u5417\uff1f<<A<<[CHANGED 2018/03/14]",
               "ko_KR": "\uc6b0\ub9ac\ub791 \uac19\uc774 \ub358\uc804 \uc2dc\ud569\ud560 \uac70\uc57c \ub9d0 \uac70\uc57c?<<A<<[CHANGED 2018/03/14]",
@@ -7618,7 +7618,7 @@
                       {
                         "message": {
                           "en_US": "You should call \\c[3]Emilie\\c[0] for the dungeon race.",
-                          "pt_BR": "Você deveria chamar a \\c[3]Emilie[0] para a corrida da masmorra.",
+                          "pt_BR": "Você deveria chamar a \\c[3]Emilie[0] para a corrida da dungeon.",
                           "de_DE": "Dann solltest du \\c[3]Emilie\\c[0] wegen des Rennens vorher anrufen.",
                           "zh_CN": "\u4f60\u5e94\u8be5\u53eb\u4e0a\\c[3]\u827e\u7c73\u8389\\c[0]\u4e00\u8d77\u3002<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u30c0\u30f3\u30b8\u30e7\u30f3\u7af6\u4e89\u3092\u3059\u308b\u306e\u306b\n\\c[3]\u30a8\u30df\u30ea\u30fc\\c[0]\u306b\u58f0\u3092\u304b\u3051\u305f\u307b\u3046\u304c\n\u3044\u3044\u3067\u3059\u3088\u3002<<A<<[CHANGED 2018/03/14]",
@@ -7753,7 +7753,7 @@
                       {
                         "message": {
                           "en_US": "Lea, what about that dungeon race? You were planning to enter the dungeon together with Emilie... Apollo, right?",
-                          "pt_BR": "Lea, e sobre aquela corrida de masmorras? Você estava planejando entrar na masmorra junto com Emilie e o Apollo... certo?",
+                          "pt_BR": "Lea, e sobre aquela corrida de dungeons? Você estava planejando entrar na dungeon junto com Emilie e o Apollo... certo?",
                           "de_DE": "Lea, was ist mit dem Rennen? Du wolltest es doch zusammen mit Emilie... und Apollo machen, richtig?",
                           "zh_CN": "\u8389\u4e9a\uff0c\u4f60\u7684\u5730\u7262\u7ade\u8d5b\u8ba1\u5212\u600e\u4e48\u6837\u4e86\uff1f\u4f60\u4e0d\u662f\u8ddf\u827e\u7c73\u8389\u548c....\u548c\u963f\u6ce2\u7f57\u7ea6\u597d\u4e86\u8981\u53bb\u6253\u5730\u7262\u7684\uff1f<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u30ec\u30a2\u3001\u30c0\u30f3\u30b8\u30e7\u30f3\u7af6\u4e89\u306f\u3069\u3046\u3057\u305f\u3093\u3060\uff1f\n\u30a8\u30df\u30ea\u30fc\u3084...\u30a2\u30dd\u30ed\u3068\u4e00\u7dd2\u306b\n\u30c0\u30f3\u30b8\u30e7\u30f3\u306b\u5165\u308b\u3093\u3058\u3083\u306a\u304b\u3063\u305f\u306e\u304b\u3044\uff1f<<A<<[CHANGED 2018/03/14]",
@@ -7773,7 +7773,7 @@
                       {
                         "message": {
                           "en_US": "Lea, what about that dungeon race? You were planning to enter the dungeon together with Emilie and C'tron, right?",
-                          "pt_BR": "Lea, e sobre aquela corrida de masmorras? Você estava planejando entrar na masmorra junto com Emilie e o C'tron, certo?",
+                          "pt_BR": "Lea, e sobre aquela corrida de dungeons? Você estava planejando entrar na dungeon junto com Emilie e o C'tron, certo?",
                           "de_DE": "Lea, was ist mit dem Rennen? Du wolltest es doch zusammen mit Emilie und C'tron machen, richtig?",
                           "zh_CN": "\u8389\u4e9a\uff0c\u522b\u5fd8\u4e86\u4f60\u4eec\u7684\u5730\u7262\u7ade\u901f\u8d5b\uff01\u4f60\u4e0d\u662f\u8981\u548c\u827e\u7c73\u8389\u8fd8\u6709\u897f\u7279\u9686\u4e00\u8d77\u8fdb\u5730\u7262\u7684\u5417\uff1f<<A<<[CHANGED 2018/03/14]",
                           "ja_JP": "\u30ec\u30a2\u3001\u30c0\u30f3\u30b8\u30e7\u30f3\u7af6\u4e89\u306f\u3069\u3046\u3057\u305f\u3093\u3060\uff1f\n\u30a8\u30df\u30ea\u30fc\u3084\u30b7\u30fb\u30c8\u30ed\u30f3\u3068\u4e00\u7dd2\u306b\n\u30c0\u30f3\u30b8\u30e7\u30f3\u306b\u5165\u308b\u3093\u3058\u3083\u306a\u304b\u3063\u305f\u306e\u304b\u3044\uff1f<<A<<[CHANGED 2018/03/14]",
