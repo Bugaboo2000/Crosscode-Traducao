@@ -1,0 +1,2223 @@
+{
+  "level": 24,
+  "boostedLevel": 61,
+  "params": {
+    "hp": 950,
+    "attack": 101,
+    "defense": 95,
+    "focus": 94,
+    "elemFactor": [0.5, 1.25, 0.7, 1.25],
+    "statusInflict": [0.75, 1.5, 1, 1]
+  },
+  "credit": 161,
+  "exp": 37,
+  "maxSp": 0,
+  "enduranceScale": 2.5,
+  "healDropRate": 0,
+  "boss": false,
+  "bossOrder": 0,
+  "padding": { "x": 6, "y": 6 },
+  "material": "METAL",
+  "aiGroup": "",
+  "aiLearnType": "REGULAR",
+  "itemDrops": [
+    { "item": "196", "prob": 0.16, "min": 1, "max": 1, "rank": "" },
+    { "item": "353", "prob": 0.04, "min": 1, "max": 1, "rank": "A" },
+    {
+      "item": "462",
+      "prob": 0.1,
+      "min": 1,
+      "max": 1,
+      "rank": "C",
+      "boosted": true,
+      "condition": "item.448.toggled || stat.items.457>= 1"
+    }
+  ],
+  "targetDetect": {
+    "detectDistance": 60,
+    "loseDistance": 320,
+    "notifyNeighbourRadius": 100,
+    "onDistance": true,
+    "detectZDelta": 16
+  },
+  "hpBreaks": [],
+  "size": { "x": 16, "y": 16, "z": 24 },
+  "anims": "enemies.sandshark",
+  "defaultState": "IDLE",
+  "walkConfigs": {
+    "normal": {
+      "idle": "idle",
+      "damage": "fall",
+      "jump": "jump",
+      "fall": "fall"
+    },
+    "weak": { "idle": "weak", "damage": "weak" }
+  },
+  "_wm": null,
+  "walkAnims": "normal",
+  "groundConnect": "IN_EARTH",
+  "weight": 100,
+  "maxVel": 180,
+  "jumpingEnabled": false,
+  "collType": "IGNORE",
+  "shadow": 0,
+  "soundType": "none",
+  "hitStable": "LIGHT",
+  "invincibleTimer": -1,
+  "annotate": {
+    "active": "NONE",
+    "passive": "IMMUNE",
+    "weapon": "RANGED",
+    "element": "ANY",
+    "extra": []
+  },
+  "DOCTYPE": "ENEMY",
+  "trackers": {
+    "randomJump": {
+      "target": 2,
+      "initRandom": 0,
+      "resetRandom": 0.3,
+      "noStateReset": false,
+      "noAssist": true,
+      "type": "TIME"
+    },
+    "weakRegen": {
+      "target": 5,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "type": "TIME"
+    },
+    "crateAttackBlock": {
+      "target": 12,
+      "initRandom": 0.75,
+      "resetRandom": 0.25,
+      "noStateReset": false,
+      "type": "TIME"
+    }
+  },
+  "states": {
+    "IDLE": {
+      "enabledReactions": ["DEAD"],
+      "choices": [
+        { "req": [{ "type": "HAS_TARGET" }], "postSwitchState": "DEFAULT" },
+        {
+          "req": [{ "type": "!SPAWN_POINT_DISTANCE", "max": 64 }],
+          "action": "MoveToSpawnPoint"
+        },
+        { "req": [{ "type": "RANDOM", "max": 0.3 }], "action": "MoveRandom" },
+        { "action": "Idle" }
+      ]
+    },
+    "DEFAULT": {
+      "enabledReactions": ["DEAD"],
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "ENTERED_STATE" },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.quest_traders-defense_started"
+            }
+          ],
+          "action": "Quest-CircleCrate"
+        },
+        {
+          "req": [
+            { "type": "!HAS_TARGET" },
+            {
+              "type": "!VAR_CONDITION",
+              "condition": "tmp.quest_traders-defense_started"
+            }
+          ],
+          "postSwitchState": "IDLE"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.quest_traders-defense_started"
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "!tmp.questCrateAttack"
+            },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "crateAttackBlock"
+            }
+          ],
+          "action": "Quest-MoveToCrate"
+        },
+        {
+          "req": [{ "negated": false, "type": "HAS_TARGET" }],
+          "sub": [
+            {
+              "req": [
+                {
+                  "distance": 200,
+                  "throwing": false,
+                  "type": "!TARGET_REACHABLE"
+                }
+              ],
+              "action": "BattleGetCloser"
+            },
+            { "action": "HighJump", "frequency": "SOMETIMES" },
+            { "action": "JumpAttack", "frequency": "NORMAL" },
+            {
+              "req": [
+                {
+                  "min": 0,
+                  "max": 64,
+                  "negated": false,
+                  "type": "TARGET_DISTANCE"
+                }
+              ],
+              "action": "BattleAdjust"
+            },
+            { "action": "BattleCircle" }
+          ]
+        },
+        {
+          "req": [
+            { "type": "!HAS_TARGET" },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.quest_traders-defense_started"
+            }
+          ],
+          "action": "Quest-CircleCrate"
+        }
+      ]
+    },
+    "WEAK": {
+      "walkAnims": "weak",
+      "groundConnect": "LOOSE",
+      "shadow": 32,
+      "damageFactor": 1.25,
+      "enabledReactions": ["DEAD"],
+      "invincibleTimer": 0,
+      "annotate": {
+        "active": "NONE",
+        "passive": "WEAK",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "TRACKER_READY", "name": "weakRegen" }
+          ],
+          "action": "WeakEnd",
+          "preSwitchState": "DEFAULT",
+          "ignoreStun": true
+        },
+        { "action": "WeakJump" }
+      ]
+    },
+    "PASSIVE_INVIS": {
+      "weight": -1,
+      "hitIgnore": true,
+      "aggression": "PEACEFUL",
+      "annotate": {
+        "active": "NONE",
+        "passive": "IMMUNE",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": []
+    }
+  },
+  "proxies": {},
+  "actions": {
+    "Idle": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "value": false, "type": "SET_ATTRIB_BOOL" },
+          {
+            "changeType": "set",
+            "varName": "tmp.questCrateAttack",
+            "value": false,
+            "type": "CHANGE_VAR_BOOL"
+          }
+        ]
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "minTime": 0.1, "maxTime": 0.3, "type": "WAIT_RANDOM" }
+    ],
+    "BattleGetCloser": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "distance": 96,
+        "throwing": false,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      }
+    ],
+    "BattleAdjust": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 0.5,
+        "distance": 120,
+        "throwing": false,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      }
+    ],
+    "BattleCircle": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 0.5,
+        "distance": 90,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 64,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      {
+        "maxTime": 0.5,
+        "distance": 90,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 64,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      {
+        "maxTime": 0.5,
+        "distance": 48,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 64,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      {
+        "noStateReset": false,
+        "type": "DO_ENEMY_ACTION",
+        "actionName": "RandomJump"
+      }
+    ],
+    "BattleIdle": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "minTime": 0.2, "maxTime": 0.4, "type": "WAIT_RANDOM" }
+    ],
+    "RandomJump": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": -1, "type": "SET_WEIGHT" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": 0, "type": "SET_FRICTION" },
+      { "value": 0, "type": "SET_AIR_FRICTION" },
+      { "time": 0.05, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "diveDown"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK" },
+      {
+        "passive": "VULNERABLE",
+        "weapon": "RANGED",
+        "extra": [],
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpStart"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "size": 32, "type": "SET_SHADOW" },
+      { "value": 120, "type": "SET_Z_VEL" },
+      { "minWait": 0.1, "type": "WAIT_UNTIL_Z_ZENITH" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "size": 0, "type": "SET_SHADOW" },
+      { "type": "DISABLE_REACTION", "reaction": "JUMP_WEAK" },
+      {
+        "passive": "IMMUNE",
+        "extra": ["BE_PASSIVE"],
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      }
+    ],
+    "JumpAttack": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 180,
+        "throwing": true,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "value": 1, "type": "FACE_TO_TARGET_SPEED" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "effect": { "sheet": "enemy", "name": "angry2" },
+        "offset": { "x": 0, "y": 0, "z": 0 },
+        "type": "SHOW_EFFECT"
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "diveDown"
+      },
+      { "value": 1.3, "type": "SET_RELATIVE_SPEED" },
+      {
+        "min": 0,
+        "max": 80,
+        "maxTime": 0.4,
+        "forceTime": false,
+        "stopBeforeEdge": false,
+        "type": "MOVE_TO_DISTANCE"
+      },
+      {
+        "active": "ATTACK",
+        "passive": "VULNERABLE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": -1, "type": "SET_WEIGHT" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpStart"
+      },
+      { "time": 0.2, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      { "value": 0, "type": "SET_FRICTION" },
+      { "value": 0, "type": "SET_AIR_FRICTION" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jump"
+      },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "size": 32, "type": "SET_SHADOW" },
+      { "value": 120, "type": "SET_Z_VEL" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      {
+        "volume": 0.5,
+        "variance": 0.2,
+        "global": false,
+        "loop": false,
+        "speed": 1.2,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/bite-low.ogg"
+      },
+      {
+        "time": 0.7,
+        "cancelOnHit": true,
+        "withBranches": true,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "reverse": false,
+          "guardable": "AUTO",
+          "skillBonus": ""
+        },
+        "hit": [],
+        "missed": []
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "size": 0, "type": "SET_SHADOW" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "active": "POST_ATTACK",
+        "passive": "IMMUNE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      },
+      { "forceValue": 0.5, "type": "RESET_TRACKER", "tracker": "randomJump" }
+    ],
+    "HighJump": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1.5,
+        "forceTime": false,
+        "distance": 96,
+        "throwing": true,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "value": 2, "type": "FACE_TO_TARGET_SPEED" },
+      { "type": "STOP_XY" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "diveDown"
+      },
+      { "value": -1, "type": "SET_WEIGHT" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpStart"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "effect": { "sheet": "enemy", "name": "angry2" },
+        "offset": { "x": 0, "y": 0, "z": 0 },
+        "type": "SHOW_EFFECT"
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jump"
+      },
+      { "size": 32, "type": "SET_SHADOW" },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "value": 220, "type": "SET_Z_VEL" },
+      { "minWait": 0, "type": "STOP_Z_ZENITH" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "topShake"
+      },
+      { "time": 0.5, "type": "WAIT" },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "trail",
+        "fixPos": false,
+        "effect": { "sheet": "trail", "name": "neutralQuick" },
+        "offset": { "x": 0, "y": 0, "z": 0 },
+        "type": "SHOW_EFFECT"
+      },
+      {
+        "active": "ATTACK",
+        "passive": "VULNERABLE",
+        "weapon": "RANGED",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": 1, "type": "SET_AIR_FRICTION" },
+      { "value": 3, "type": "SET_RELATIVE_SPEED" },
+      { "value": -100, "type": "SET_Z_VEL" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      {
+        "min": 0,
+        "max": 32,
+        "maxTime": 0.3,
+        "forceTime": true,
+        "stopBeforeEdge": false,
+        "type": "MOVE_TO_DISTANCE"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "type": "CLEAR_EFFECTS" },
+      {
+        "active": "POST_ATTACK",
+        "passive": "IMMUNE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      { "size": 0, "type": "SET_SHADOW" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDustBig" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "align": "BOTTOM",
+        "radius": 32,
+        "yScale": 0,
+        "zHeight": 0,
+        "centralAngle": 1,
+        "duration": 0.2,
+        "expandRadius": 0,
+        "alwaysFull": true,
+        "clockwise": false,
+        "flipLeftFace": 0,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": false,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "fly": "MASSIVE",
+          "guardable": ""
+        },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.8, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      }
+    ],
+    "MoveToSpawnPoint": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 0.5, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 3,
+        "maxDistance": 16,
+        "precise": false,
+        "type": "NAVIGATE_TO_SPAWN_POINT"
+      }
+    ],
+    "MoveRandom": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 0.3, "type": "SET_RELATIVE_SPEED" },
+      { "value": false, "type": "SET_JUMPING" },
+      {
+        "minTime": 0.3,
+        "maxTime": 0.5,
+        "dirChanges": 0,
+        "stopBeforeEdge": true,
+        "type": "MOVE_RANDOM"
+      },
+      { "minTime": 0.5, "maxTime": 0.6, "type": "WAIT_RANDOM" }
+    ],
+    "WeakStart": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "weak",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "weak" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      }
+    ],
+    "WeakEnd": [
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "group": "weak", "type": "CLEAR_EFFECTS" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jump"
+      },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "value": 150, "type": "SET_Z_VEL" },
+      { "minWait": 0.1, "type": "WAIT_UNTIL_Z_ZENITH" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "type": "DISABLE_REACTION", "reaction": "JUMP_WEAK" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      },
+      { "value": 1.3, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 160,
+        "throwing": true,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      }
+    ],
+    "WeakJump": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      { "value": 0.3, "type": "SET_RELATIVE_SPEED" },
+      {
+        "jumpHeight": "M",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "minTime": 0.2,
+        "maxTime": 0.2,
+        "dirChanges": 0,
+        "stopBeforeEdge": true,
+        "type": "MOVE_RANDOM"
+      },
+      { "time": 0.3, "type": "WAIT" }
+    ],
+    "GuardCounterStart": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "weak",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemy", "name": "angry2" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "flyLevel": "MASSIVE+",
+        "breaking": false,
+        "stable": false,
+        "wait": true,
+        "type": "DO_DAMAGE_MOVEMENT"
+      }
+    ],
+    "Quest-MoveToCrate": [
+      {
+        "text": {
+          "en_US": "[hateful bone noises]",
+          "pt_BR": "[sons de ossos odiosos]",
+          "de_DE": "[abartige Knochenger\u00e4usche]<<C<<Gepr\u00fcft: Minsu",
+          "fr_FR": "fr_FR",
+          "zh_CN": "[\u53ef\u6076\u7684\u9aa8\u5934\u58f0\u97f3]",
+          "langUid": 22,
+          "ja_JP": "[\u618e\u3057\u307f\u306b\u6e80\u3061\u305f\u9aa8\u306e\u97f3]",
+          "ko_KR": "[\ub4e3\uae30 \uc2eb\uc740 \ubf08 \uc18c\ub9ac]",
+          "zh_TW": "[\u53ef\u60e1\u7684\u9aa8\u982d\u8072\u97f3]"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "time": 1.5,
+        "type": "SHOW_AR_MSG"
+      },
+      { "name": "adjust", "type": "LABEL" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.questCrateAttack",
+        "value": true
+      },
+      { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": true },
+      {
+        "poiFilter": {
+          "name": "quest-crate",
+          "ready": false,
+          "namePart": "",
+          "type": "NAMED_ENTITY"
+        },
+        "distance": 10000,
+        "furthest": false,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      {
+        "conditions": [
+          { "min": 0, "max": 240, "negated": false, "type": "TARGET_DISTANCE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              { "type": "CLEAR_AR_MSG" },
+              {
+                "text": {
+                  "en_US": "<ESCAPE>",
+                  "pt_BR": "<FUGA>",
+                  "de_DE": "<ESCAPE><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "langUid": 3,
+                  "zh_CN": "<ESCAPE>",
+                  "ja_JP": "<\u9003\u3052\u308b><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<\ub3c4\ub9dd>",
+                  "zh_TW": "<ESCAPE>"
+                },
+                "mode": "NO_LINE",
+                "color": "GREEN",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 1,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          {
+            "maxTime": 3,
+            "forceTime": false,
+            "distance": 280,
+            "throwing": false,
+            "planOnly": false,
+            "targetType": "ENEMY",
+            "type": "NAVIGATE_ESCAPE_TARGET"
+          }
+        ]
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<GOTO>",
+              "de_DE": "<GOTO><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 18,
+              "zh_CN": "<GOTO>",
+              "ja_JP": "<\u9032\u3080><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<\uc774\ub3d9>",
+              "zh_TW": "<GOTO>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 1,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "maxTime": 0.05,
+        "forceTime": false,
+        "distance": 270,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<SIDE>",
+              "pt_BR": "<LADO>",
+              "de_DE": "<SIDE><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 19,
+              "zh_CN": "<SIDE>",
+              "ja_JP": "<\u30b5\u30a4\u30c9><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<\uc606>",
+              "zh_TW": "<SIDE>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 1,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 90,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 260,
+        "precise": false,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 90,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 260,
+        "precise": false,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      {
+        "conditions": [
+          { "min": 0, "max": 230, "negated": false, "type": "TARGET_DISTANCE" }
+        ],
+        "withElse": true,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "volume": 1,
+            "variance": 0.2,
+            "global": false,
+            "loop": false,
+            "speed": 0.7,
+            "type": "PLAY_SOUND",
+            "sound": "media/sound/battle/enemies/bite.ogg"
+          },
+          {
+            "maxTime": 0.1,
+            "forceTime": false,
+            "distance": 220,
+            "planOnly": false,
+            "targetType": "ENEMY",
+            "precise": true,
+            "type": "NAVIGATE_TO_TARGET"
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              { "type": "CLEAR_AR_MSG" },
+              {
+                "text": {
+                  "en_US": "<TACKLE>",
+                  "pt_BR": "<INVESTIDA>",
+                  "de_DE": "<TACKLE><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "langUid": 14,
+                  "zh_CN": "<TACKLE>",
+                  "ja_JP": "<\u30bf\u30c3\u30af\u30eb><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<\ud0dc\ud074>",
+                  "zh_TW": "<TACKLE>"
+                },
+                "mode": "NO_LINE",
+                "color": "RED",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 0.5,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          {
+            "noStateReset": false,
+            "type": "DO_ENEMY_ACTION",
+            "actionName": "Quest-TackleCrate"
+          }
+        ],
+        "elseStep": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              { "type": "CLEAR_AR_MSG" },
+              {
+                "text": {
+                  "en_US": "<ADJUST>",
+                  "pt_BR": "<AJUSTE>",
+                  "de_DE": "<ADJUST><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "langUid": 20,
+                  "zh_CN": "<ADJUST>",
+                  "ja_JP": "<\u8abf\u6574><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<\uc870\uc900>",
+                  "zh_TW": "<ADJUST>"
+                },
+                "mode": "NO_LINE",
+                "color": "RED",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 0.5,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          { "type": "WAIT", "time": 0.1 },
+          { "name": "adjust", "type": "GOTO_LABEL" }
+        ]
+      }
+    ],
+    "Quest-TackleCrate": [
+      {
+        "poiFilter": {
+          "name": "quest-crate",
+          "ready": false,
+          "namePart": "",
+          "type": "NAMED_ENTITY"
+        },
+        "distance": 10000,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      { "type": "RESET_TRACKER", "tracker": "crateAttackBlock" },
+      { "value": 1.3, "type": "SET_RELATIVE_SPEED" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<1 START>",
+              "pt_BR": "<1 INICÍO>",
+              "de_DE": "<1 START><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 15,
+              "zh_CN": "<1 START>",
+              "ja_JP": "<1 \u30b9\u30bf\u30fc\u30c8><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<1 \uc2dc\uc791>",
+              "zh_TW": "<1 START>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 0.5,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 220,
+        "throwing": true,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "value": true, "type": "SET_FACE_FIX" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<2 JUMP>",
+              "pt_BR": "<2 PULO>",
+              "de_DE": "<2 JUMP><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 13,
+              "zh_CN": "<2 JUMP>",
+              "ja_JP": "<2 \u30b8\u30e3\u30f3\u30d7><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<2 \uc810\ud504>",
+              "zh_TW": "<2 JUMP>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 0.5,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "active": "PRE_ATTACK",
+        "passive": "VULNERABLE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "text": {
+          "en_US": "!!!",
+          "pt_BR": "!!!",
+          "de_DE": "!!!<<C<<IGNORE",
+          "fr_FR": "fr_FR",
+          "langUid": 27,
+          "zh_CN": "!!!",
+          "ja_JP": "\uff01\uff01\uff01",
+          "ko_KR": "!!!",
+          "zh_TW": "!!!"
+        },
+        "mode": "LINE_EMPTY",
+        "color": "RED",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "time": 1,
+        "type": "SHOW_AR_MSG"
+      },
+      { "value": 0.2, "type": "SET_RELATIVE_SPEED" },
+      { "value": -1, "type": "SET_WEIGHT" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "angry",
+        "fixPos": false,
+        "effect": { "sheet": "enemy", "name": "angry2" },
+        "offset": { "x": 0, "y": 0, "z": 0 },
+        "type": "SHOW_EFFECT"
+      },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpStart"
+      },
+      {
+        "maxTime": 0.3,
+        "forceTime": false,
+        "distance": 200,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jump"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "size": 32, "type": "SET_SHADOW" },
+      { "value": 120, "type": "SET_Z_VEL" },
+      {
+        "maxTime": 0.4,
+        "forceTime": false,
+        "distance": 180,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "size": 0, "type": "SET_SHADOW" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "active": "PRE_ATTACK",
+        "passive": "IMMUNE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      },
+      { "time": 0.2, "type": "WAIT" },
+      { "value": 1.3, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 0.1,
+        "forceTime": false,
+        "distance": 120,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "active": "ATTACK",
+        "passive": "VULNERABLE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": -1, "type": "SET_WEIGHT" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK" },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK_LIGHT" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpStart"
+      },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "value": 0, "type": "SET_FRICTION" },
+      { "value": 0, "type": "SET_AIR_FRICTION" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "maxTime": 0.2,
+        "forceTime": true,
+        "distance": 80,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jump"
+      },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "size": 32, "type": "SET_SHADOW" },
+      { "value": 120, "type": "SET_Z_VEL" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "time": 0.2, "type": "WAIT" },
+      { "value": 0, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": 0, "type": "SET_Z_VEL" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<3 TACKLE>",
+              "pt_BR": "<3 INVESTIDA>",
+              "de_DE": "<3 TACKLE><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 17,
+              "zh_CN": "<3 TACKLE>",
+              "ja_JP": "<3 \u30bf\u30c3\u30af\u30eb><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<3 \ud0dc\ud074>",
+              "zh_TW": "<3 TACKLE>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 0.5,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      { "type": "ENABLE_REACTION", "reaction": "WALL_HIT" },
+      {
+        "time": 1.5,
+        "cancelOnHit": true,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "guardable": "AUTO",
+          "skillBonus": ""
+        }
+      },
+      { "type": "DISABLE_REACTION", "reaction": "WALL_HIT" },
+      { "value": 1, "type": "SET_Z_GRAVITY_FACTOR" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<4 MISSED>",
+              "pt_BR": "<4 ERROU>",
+              "de_DE": "<4 MISSED><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 12,
+              "zh_CN": "<4 MISSED>",
+              "ja_JP": "<4 \u5931\u6557><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<4 \ud68c\ud53c>",
+              "zh_TW": "<4 MISSED>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "time": 0,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "size": 0, "type": "SET_SHADOW" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "active": "POST_ATTACK",
+        "passive": "IMMUNE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      }
+    ],
+    "Quest-HitCrate": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      {
+        "poiFilter": {
+          "name": "quest-crate",
+          "ready": false,
+          "namePart": "",
+          "type": "NAMED_ENTITY"
+        },
+        "distance": 10000,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "active": "POST_ATTACK",
+        "passive": "VULNERABLE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "effect": { "sheet": "enemy", "name": "angry2" },
+        "offset": { "x": 0, "y": 0, "z": 0 },
+        "type": "SHOW_EFFECT"
+      },
+      { "type": "ENABLE_REACTION", "reaction": "JUMP_WEAK" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      { "value": 0.5, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "size": 32, "type": "SET_SHADOW" },
+      {
+        "conditions": [
+          { "min": 0, "max": 48, "negated": false, "type": "TARGET_DISTANCE" },
+          { "maxAngle": 0.95, "negated": false, "type": "FACING_TARGET" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              { "type": "CLEAR_AR_MSG" },
+              {
+                "text": {
+                  "en_US": "<4 HIT>",
+                  "pt_BR": "<4 ACERTO>",
+                  "de_DE": "<4 HIT><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "langUid": 21,
+                  "zh_CN": "<4 HIT>",
+                  "ja_JP": "<4 \u547d\u4e2d><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<4 \uacf5\uaca9>",
+                  "zh_TW": "<4 HIT>"
+                },
+                "mode": "NO_LINE",
+                "color": "RED",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 0.5,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.quest_traders-crate_tackled",
+            "value": true
+          }
+        ]
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "combat", "name": "flashShort" }
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/thud-4.ogg"
+      },
+      {
+        "rumbleType": "RANDOM",
+        "name": "",
+        "duration": 0.4,
+        "power": "STRONGER",
+        "speed": "FASTER",
+        "fade": false,
+        "type": "RUMBLE_SCREEN"
+      },
+      {
+        "flyLevel": "MASSIVE",
+        "breaking": false,
+        "stable": false,
+        "wait": false,
+        "type": "DO_DAMAGE_MOVEMENT"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<5 LAND>",
+              "pt_BR": "<5 POUSO>",
+              "de_DE": "<5 LAND><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 23,
+              "zh_CN": "<5 LAND>",
+              "ja_JP": "<5 \u7740\u5730><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<5 \ucc29\uc9c0>",
+              "zh_TW": "<5 LAND>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 0.5,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      { "size": 0, "type": "SET_SHADOW" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "active": "POST_ATTACK",
+        "passive": "IMMUNE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      }
+    ],
+    "Quest-Deflect": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      {
+        "poiFilter": {
+          "name": "quest-crate",
+          "ready": false,
+          "namePart": "",
+          "type": "NAMED_ENTITY"
+        },
+        "distance": 10000,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "active": "POST_ATTACK",
+        "passive": "IMMUNE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      { "value": 0, "type": "SET_INVINCIBLE" },
+      { "value": 0, "type": "SET_FRICTION" },
+      { "value": 0, "type": "SET_AIR_FRICTION" },
+      { "value": "LOOSE", "type": "SET_GROUND_CONNECTED" },
+      { "size": 32, "type": "SET_SHADOW" },
+      { "value": 1, "type": "SET_Z_GRAVITY_FACTOR" },
+      { "value": true, "type": "SET_FACE_FIX" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "fall"
+      },
+      { "time": 0.1, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<DEFLECT>",
+              "pt_BR": "<REFLETE>",
+              "de_DE": "<DEFLECT><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 24,
+              "zh_CN": "<DEFLECT>",
+              "ja_JP": "<\u5f3e\u9053\u8a98\u5c0e><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<\ube57\ub098\uac10>",
+              "zh_TW": "<DEFLECT>"
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "time": 0,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "size": 0, "type": "SET_SHADOW" },
+      { "value": -1, "type": "SET_INVINCIBLE" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.sandshark", "name": "diveDust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "followUp": "hidden",
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "jumpEnd"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      {
+        "wait": true,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "riseUp"
+      }
+    ],
+    "Quest-CircleCrate": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      },
+      {
+        "poiFilter": {
+          "name": "quest-crate",
+          "ready": false,
+          "namePart": "",
+          "type": "NAMED_ENTITY"
+        },
+        "distance": 10000,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 3,
+        "forceTime": false,
+        "distance": 280,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          { "type": "CLEAR_AR_MSG" },
+          {
+            "text": {
+              "en_US": "<CIRCLE>",
+              "pt_BR": "<CIRCUNDA>",
+              "de_DE": "<CIRCLE><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "langUid": 26,
+              "zh_CN": "<CIRCLE>",
+              "ja_JP": "<\u30b5\u30fc\u30af\u30eb><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<\uc6d0>",
+              "zh_TW": "<CIRCLE>"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 1,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 90,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 250,
+        "precise": false,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 90,
+        "distVariance": 30,
+        "keepDirection": true,
+        "throwing": false,
+        "planOnly": false,
+        "forceMinTargetDistance": 250,
+        "precise": false,
+        "forceMaxTargetDistance": 96,
+        "type": "NAVIGATE_SIDEWAYS_TARGET"
+      },
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" }
+    ],
+    "Quest-DEAD": [
+      {
+        "conditions": [
+          { "name": "crateAttack", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          { "name": "crateAttack", "type": "SET_ATTRIB_BOOL", "value": false },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.questCrateAttack",
+            "value": false
+          }
+        ]
+      }
+    ]
+  },
+  "reactions": {
+    "JUMP_WEAK": {
+      "hitType": "REGULAR",
+      "preAction": "WeakStart",
+      "preSwitchState": "WEAK",
+      "blockFurtherHits": false,
+      "attackType": "MASSIVE",
+      "flyLevel": "MASSIVE",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK",
+      "conditions": [{ "negated": false, "type": "BALL_CHARGE" }],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "GUARD_COUNTER": {
+      "preSwitchState": "WEAK",
+      "action": "GuardCounterStart",
+      "type": "GUARD_COUNTER"
+    },
+    "WALL_HIT": {
+      "action": "Quest-HitCrate",
+      "angle": 0.25,
+      "type": "MOVEMENT_BLOCK"
+    },
+    "JUMP_WEAK_LIGHT": {
+      "hitType": "REGULAR",
+      "action": "Quest-Deflect",
+      "blockFurtherHits": false,
+      "attackType": "",
+      "flyLevel": "MEDIUM",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [{ "type": "!BALL_CHARGE" }],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "DEAD": {
+      "hitType": "KILL_HIT",
+      "preAction": "Quest-DEAD",
+      "blockFurtherHits": false,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [
+        {
+          "negated": false,
+          "type": "VAR_CONDITION",
+          "condition": "tmp.quest_traders-defense_started"
+        }
+      ],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    }
+  },
+  "meta": {
+    "species": {
+      "en_US": "Fish",
+      "pt_BR": "Peixe",
+      "de_DE": "Fisch<<C<<Gepr\u00fcft: Minsu",
+      "zh_CN": "\u9c7c\u7c7b",
+      "zh_TW": "\u9b5a\u985e",
+      "ja_JP": "\u9b5a\u985e",
+      "ko_KR": "\ubb3c\uace0\uae30",
+      "langUid": 5
+    },
+    "category": "ANIMALS",
+    "descriptions": [
+      {
+        "text": {
+          "en_US": "Fearsome creatures, these bony sharks attack on sight, or rather vibration as they are actually blind. Adventurers often struggle in dealing with this fast foe as it is hard to catch and invulnerable underground. However constantly aiming your shot and throwing balls at them as soon as they jump up stuns them for quite a while.",
+          "pt_BR": "Esses tubarões assutadores feitos de ossos atacam qualquer coisa que eles detectam pela vibração, pois na verdade são cegos. Os aventureiros muitas vezes sofrem quando lutam contra esse inimigo rápido, pois ele fica a maior parte do tempo no subsolo. A melhor coisa a fazer é ser paciente e ficar mirando neles até que saltem da areia.",
+          "de_DE": "Furchterregende Kreaturen. Diese kn\u00f6chernen Haie greifen bei Sichtkontakt, oder besser gesagt, bei Vibration an, da sie genau genommen blind sind. Abenteurer haben oft Schwierigkeiten, mit diesem schnellen Feind umzugehen, da er schwer zu fangen und im Untergrund unverwundbar ist. Hier helfen nur gezielte Sch\u00fcsse, um ihn zu l\u00e4hmen, sobald er hochspringt.<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "\\v[combat.name.heat/sandshark]\u7684\u53ef\u6015\u751f\u7269\u3002\u8fd9\u4e9b\u9ab8\u9aa8\u9ca8\u9c7c\u867d\u7136\u89c1\u4eba\u5c31\u54ac\uff0c\u5b9e\u9645\u4e0a\u6ca1\u6709\u89c6\u529b\uff0c\u901a\u8fc7\u611f\u77e5\u9707\u52a8\u5bf9\u5468\u56f4\u7684\u6d3b\u7269\u53d1\u52a8\u653b\u51fb\u3002\u5b83\u4eec\u7684\u901f\u5ea6\u5f88\u5feb\uff0c\u800c\u4e14\u8eb2\u5728\u5730\u4e0b\u65f6\u514d\u75ab\u4efb\u4f55\u653b\u51fb\uff0c\u5bf9\u4e8e\u8bb8\u591a\u5192\u9669\u8005\u6765\u8bf4\uff0c\u5b83\u4eec\u90fd\u662f\u975e\u5e38\u96be\u7f20\u7684\u5bf9\u624b\u3002\u8981\u5bf9\u4ed8\u5b83\u4eec\uff0c\u4f60\u9700\u8981\u7b49\u5f85\u65f6\u673a\u5728\u5b83\u4eec\u4e00\u8dc3\u800c\u8d77\u7684\u65f6\u5019\u5bf9\u5b83\u4eec\u53d1\u5c04\u5f39\u7403\uff0c\u51fb\u6655\u5b83\u4eec\u3002<<A<<[CHANGED 2018/09/19]",
+          "zh_TW": "\\v[combat.name.heat/sandshark]\u7684\u53ef\u6015\u751f\u7269\u3002\u9019\u4e9b\u9ab8\u9aa8\u9bca\u9b5a\u96d6\u7136\u898b\u4eba\u5c31\u54ac\uff0c\u5be6\u969b\u4e0a\u6c92\u6709\u8996\u529b\uff0c\u901a\u904e\u611f\u77e5\u9707\u52d5\u5c0d\u5468\u570d\u7684\u6d3b\u7269\u767c\u52d5\u653b\u64ca\u3002\u5b83\u5011\u7684\u901f\u5ea6\u5f88\u5feb\uff0c\u800c\u4e14\u8eb2\u5728\u5730\u4e0b\u6642\u514d\u75ab\u4efb\u4f55\u653b\u64ca\uff0c\u5c0d\u65bc\u8a31\u591a\u5192\u96aa\u8005\u4f86\u8aaa\uff0c\u5b83\u5011\u90fd\u662f\u975e\u5e38\u96e3\u7e8f\u7684\u5c0d\u624b\u3002\u8981\u5c0d\u4ed8\u5b83\u5011\uff0c\u4f60\u9700\u8981\u7b49\u5f85\u6642\u6a5f\u5728\u5b83\u5011\u4e00\u8e8d\u800c\u8d77\u7684\u6642\u5019\u5c0d\u5b83\u5011\u767c\u5c04\u5f48\u7403\uff0c\u64ca\u6688\u5b83\u5011\u3002<<A<<[CHANGED 2018/09/19]",
+          "ja_JP": "\u6050\u308d\u3057\u3044\u59ff\u3092\u3057\u305f\u3001\u9aa8\u306e\u30b5\u30e1\u3067\u3042\u308b\\v[combat.name.heat/sandshark]\u306f\u3001\u8996\u754c\u306b\u5165\u3063\u305f\u6575\u306b\u653b\u6483\u3092\u4ed5\u639b\u3051\u308b\u3002\u6b63\u78ba\u306b\u8a00\u3048\u3070\u5f7c\u3089\u306f\u76ee\u304c\u898b\u3048\u306a\u3044\u305f\u3081\u3001\u632f\u52d5\u3092\u751f\u307f\u51fa\u3057\u305f\u6575\u306b\u653b\u6483\u3092\u4ed5\u639b\u3051\u308b\u3002\u305d\u306e\u52d5\u304d\u306f\u975e\u5e38\u306b\u7d20\u65e9\u304f\u3001\u307e\u305f\u5730\u4e2d\u3067\u306f\u7121\u6575\u3067\u3042\u308b\u305f\u3081\u3001\u6226\u3046\u306e\u306b\u82e6\u52b4\u3059\u308b\u5192\u967a\u5bb6\u304c\u5f8c\u3092\u7d76\u305f\u306a\u3044\u3002\u3057\u304b\u3057\u3001\u72d9\u3044\u3092\u5b9a\u3081\u3001\u5730\u4e2d\u304b\u3089\u98db\u3073\u4e0a\u304c\u3063\u305f\u77ac\u9593\u306b\u30dc\u30fc\u30eb\u3092\u547d\u4e2d\u3055\u305b\u308b\u3053\u3068\u306b\u3088\u308a\u3001\u3057\u3070\u3089\u304f\u30b9\u30bf\u30f3\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3002<<A<<[CHANGED 2018/09/19]",
+          "ko_KR": "\ubf08 \uc0c1\uc5b4\uc778 \uc774 \ubb34\uc11c\uc6b4 \uc874\uc7ac \\v[combat.name.heat/sandshark]\ub294 \ubcf4\uc790\ub9c8\uc790, \uc544\ub2c8 \uc0ac\uc2e4 \uc55e\uc774 \uc548 \ubcf4\uc774\ub2c8\uae4c \uc9c4\ub3d9\uc744 \ub290\ub07c\uba74 \uacf5\uaca9\ud569\ub2c8\ub2e4. \ubaa8\ud5d8\uac00\ub4e4\uc740 \uc18d\ub3c4\uac00 \ube68\ub77c \uc7a1\uae30\ub3c4 \uc5b4\ub835\uace0 \ub545\uc18d\uc5d0\uc11c \uac70\uc758 \ubb34\uc801\uc778 \uc774 \ub140\uc11d\uc744 \uc0c1\ub300\ud558\ub290\ub77c \uc9c4\ub540\uc744 \ube8d\ub2c8\ub2e4. \ud558\uc9c0\ub9cc, \ud328\ud134\uc744 \ud30c\uc545\ud574 \ub140\uc11d\uc774 \ub545\uc18d\uc5d0\uc11c \ud280\uc5b4\uc624\ub97c \ub54c \ubc1c\uc0ac\uccb4\ub97c \uc3d8\uba74 \uc7a0\uc2dc \uae30\uc808\uc2dc\ud0ac \uc218 \uc788\uc2b5\ub2c8\ub2e4.<<A<<[CHANGED 2018/09/19]",
+          "langUid": 29
+        },
+        "condition": ""
+      }
+    ]
+  }
+}

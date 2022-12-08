@@ -1,0 +1,2045 @@
+{
+  "level": 33,
+  "params": {
+    "hp": 9999,
+    "attack": 150,
+    "defense": 145,
+    "focus": 139,
+    "elemFactor": [0.7, 1, 1, 1.2],
+    "statusInflict": [0.75, 0.75, 0.75, 0.75],
+    "statusEffect": [0.3, 0.5, 0.7, 1]
+  },
+  "credit": 999,
+  "exp": 150,
+  "maxSp": 8,
+  "enduranceScale": 10,
+  "healDropRate": 0,
+  "boss": true,
+  "bossOrder": 0,
+  "padding": { "x": 2, "y": 2 },
+  "material": "ORGANIC",
+  "aiGroup": "guard",
+  "aiLearnType": "REGULAR",
+  "itemDrops": [],
+  "targetDetect": {
+    "detectDistance": 120,
+    "loseDistance": 3200,
+    "notifyNeighbourRadius": 100
+  },
+  "hpBreaks": [],
+  "size": { "x": 16, "y": 16, "z": 24 },
+  "anims": "enemies.guard-mustache",
+  "defaultState": "IDLE",
+  "walkConfigs": {
+    "normal": {
+      "idle": "idle",
+      "move": "walk",
+      "run": "run",
+      "damage": "damage",
+      "jump": "jump",
+      "fall": "fall"
+    },
+    "weak": { "idle": "damage", "damage": "damage" }
+  },
+  "_wm": null,
+  "walkAnims": "normal",
+  "weight": 70,
+  "maxVel": 180,
+  "jumpingEnabled": true,
+  "shadow": 16,
+  "hitStable": "LIGHT",
+  "stunEscapeTime": 1.5,
+  "annotate": {
+    "active": "NONE",
+    "passive": "NONE",
+    "weapon": "ANY",
+    "element": "ANY",
+    "extra": []
+  },
+  "DOCTYPE": "ENEMY",
+  "trackers": {
+    "weakRegen": {
+      "target": 2.5,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "noAssist": false,
+      "type": "TIME"
+    },
+    "sandwichDelay": {
+      "target": 12,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": true,
+      "noAssist": false,
+      "type": "TIME"
+    },
+    "reinforcementDelay": {
+      "target": 1,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": true,
+      "noAssist": true,
+      "type": "TIME"
+    }
+  },
+  "states": {
+    "IDLE": {
+      "enabledReactions": ["KILL_HIT"],
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "ENTERED_STATE" },
+            { "name": "init", "type": "!ATTRIB_IS_TRUE" }
+          ],
+          "action": "Init"
+        },
+        { "req": [{ "type": "HAS_TARGET" }], "postSwitchState": "DEFAULT" },
+        {
+          "req": [{ "type": "!SPAWN_POINT_DISTANCE", "max": 64 }],
+          "action": "MoveToSpawnPoint"
+        },
+        { "req": [{ "type": "RANDOM", "max": 0.3 }], "action": "MoveRandom" },
+        { "action": "Idle" }
+      ]
+    },
+    "DEFAULT": {
+      "enabledReactions": ["DODGE_COUNTER_MELEE", "DODGE_DISTANCE", "KILL_HIT"],
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "ENTERED_STATE" },
+            { "name": "init", "type": "!ATTRIB_IS_TRUE" }
+          ],
+          "action": "Init"
+        },
+        { "req": [{ "type": "!HAS_TARGET" }], "postSwitchState": "IDLE" },
+        {
+          "req": [
+            { "showMsg": false, "negated": false, "type": "STUN_ESCAPE" }
+          ],
+          "action": "DodgeCounter_DashAttack",
+          "ignoreStun": true
+        },
+        {
+          "req": [
+            { "value": 0.7, "negated": false, "type": "HP_BELOW" },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "sandwichDelay"
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "entity.attrib.sandwichUse < 4"
+            }
+          ],
+          "action": "HealSandwich"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "map.guardLair"
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.turretsSummoned < map.maxSummon"
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "entity.attrib.sandwichUse >= 2"
+            },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "reinforcementDelay"
+            }
+          ],
+          "action": "summonTurrets"
+        },
+        {
+          "req": [
+            { "type": "!VAR_CONDITION", "condition": "tmp.battle-guardActive" },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "map.guardLair"
+            }
+          ],
+          "action": "GetActive"
+        },
+        {
+          "req": [
+            { "distance": 200, "throwing": false, "type": "!TARGET_REACHABLE" }
+          ],
+          "action": "Adjust"
+        },
+        {
+          "req": [
+            { "distance": 120, "throwing": false, "type": "!TARGET_REACHABLE" }
+          ],
+          "action": "GetClose"
+        },
+        { "action": "Attack_Stab_Triple", "frequency": "NORMAL" },
+        { "action": "Attack_Stab", "frequency": "OFTEN" },
+        { "action": "BattleIdle" }
+      ]
+    },
+    "WEAK": {
+      "walkAnims": "weak",
+      "damageFactor": 1.25,
+      "enabledReactions": ["KILL_HIT"],
+      "stunEscapeTime": 2.5,
+      "annotate": {
+        "active": "NONE",
+        "passive": "WEAK",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": [
+        {
+          "req": [
+            { "negated": false, "type": "TRACKER_READY", "name": "weakRegen" }
+          ],
+          "preSwitchState": "DEFAULT"
+        }
+      ]
+    },
+    "PASSIVE_INVIS": {
+      "weight": -1,
+      "hitIgnore": true,
+      "aggression": "PEACEFUL",
+      "annotate": {
+        "active": "NONE",
+        "passive": "IMMUNE",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": []
+    }
+  },
+  "proxies": {},
+  "actions": {
+    "Init": [
+      {
+        "withElse": false,
+        "condition": "test",
+        "type": "IF",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<INIT>",
+              "pt_BR": "<INICIAR>",
+              "de_DE": "<INIT><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "zh_CN": "<\u521d\u59cb\u5316>",
+              "langUid": 15,
+              "ja_JP": "<\u5b9f\u884c><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<\ucd08\uae30\ud654>",
+              "zh_TW": "<\u521d\u59cb\u5316>"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 0.5,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "varName": "tmp.battle-guardActive",
+        "value": true,
+        "type": "CHANGE_VAR_BOOL"
+      },
+      {
+        "changeType": "set",
+        "attribName": "sandwichUse",
+        "value": 0,
+        "proxyOwner": false,
+        "type": "SET_ATTRIB_NUMBER"
+      },
+      { "name": "init", "value": true, "type": "SET_ATTRIB_BOOL" },
+      { "forceValue": 1, "tracker": "sandwichDelay", "type": "RESET_TRACKER" },
+      {
+        "forceValue": 1,
+        "tracker": "reinforcementDelay",
+        "type": "RESET_TRACKER"
+      }
+    ],
+    "Idle": [
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "minTime": 0.1, "maxTime": 0.3, "type": "WAIT_RANDOM" }
+    ],
+    "BattleIdle": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "minTime": 0.2, "maxTime": 0.4, "type": "WAIT_RANDOM" }
+    ],
+    "MoveToSpawnPoint": [
+      { "value": 0.5, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 3,
+        "maxDistance": 16,
+        "precise": false,
+        "type": "NAVIGATE_TO_SPAWN_POINT"
+      }
+    ],
+    "MoveRandom": [
+      { "value": 0.3, "type": "SET_RELATIVE_SPEED" },
+      { "value": false, "type": "SET_JUMPING" },
+      {
+        "minTime": 0.3,
+        "maxTime": 0.5,
+        "dirChanges": 0,
+        "stopBeforeEdge": true,
+        "type": "MOVE_RANDOM"
+      },
+      { "minTime": 0.5, "maxTime": 0.6, "type": "WAIT_RANDOM" }
+    ],
+    "Adjust": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 150,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      }
+    ],
+    "GetClose": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 80,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      }
+    ],
+    "Attack_Stab": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 44,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": 1, "type": "FACE_TO_TARGET_SPEED" },
+      { "minTime": 0, "maxTime": 0.05, "type": "WAIT_RANDOM" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "time": 0.25, "type": "WAIT" },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      {
+        "align": "FACE",
+        "radius": 16,
+        "yScale": 0,
+        "zHeight": 24,
+        "centralAngle": 1,
+        "duration": 0.2,
+        "expandRadius": 0,
+        "alwaysFull": true,
+        "clockwise": false,
+        "flipLeftFace": 6,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": true,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "damageFactor": 0.8,
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": 250, "type": "SET_SPEED" },
+      { "time": 0.2, "stopBeforeEdge": true, "type": "MOVE_FORWARD" },
+      { "type": "CLEAR_EFFECTS" },
+      { "active": "POST_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "postAttack"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      { "type": "CLEAR_ANIMATION" },
+      { "time": 0.5, "type": "WAIT" }
+    ],
+    "Attack_Stab_Triple": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      {
+        "text": {
+          "en_US": "\"En garde!\"",
+          "pt_BR": "\"Em guarda!\"",
+          "de_DE": "\"En garde!\"<<C<<Gepr\u00fcft: Minsu",
+          "fr_FR": "fr_FR",
+          "zh_CN": "\u201c\u770b\u62db\uff01\u201d",
+          "langUid": 11,
+          "ja_JP": "\u300c\u69cb\u3048\u308d\uff01\u300d",
+          "ko_KR": "\"\uc900\ube44!\"",
+          "zh_TW": "\u201c\u770b\u62db\uff01\u201d"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "time": 1.5,
+        "type": "SHOW_AR_MSG"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "time": 0.4, "type": "WAIT" },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "CLEAR_ANIMATION" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 44,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": 1.5, "type": "FACE_TO_TARGET_SPEED" },
+      { "minTime": 0, "maxTime": 0.05, "type": "WAIT_RANDOM" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "time": 0.25, "type": "WAIT" },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      {
+        "align": "FACE",
+        "radius": 16,
+        "yScale": 0,
+        "zHeight": 24,
+        "centralAngle": 1,
+        "duration": 0.1,
+        "expandRadius": 0,
+        "alwaysFull": true,
+        "clockwise": false,
+        "flipLeftFace": 6,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": true,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "damageFactor": 0.8,
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": 250, "type": "SET_SPEED" },
+      { "time": 0.1, "stopBeforeEdge": true, "type": "MOVE_FORWARD" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "postAttack"
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "minTime": 0.1, "maxTime": 0.15, "type": "WAIT_RANDOM" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "time": 0.15, "type": "WAIT" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      {
+        "align": "FACE",
+        "radius": 16,
+        "yScale": 0,
+        "zHeight": 24,
+        "centralAngle": 1,
+        "duration": 0.1,
+        "expandRadius": 0,
+        "alwaysFull": true,
+        "clockwise": false,
+        "flipLeftFace": 6,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": true,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "damageFactor": 0.9,
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": 350, "type": "SET_SPEED" },
+      { "time": 0.1, "stopBeforeEdge": true, "type": "MOVE_FORWARD" },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "ENABLE_REACTION", "reaction": "BLINDSIDE" },
+      {
+        "active": "PRE_ATTACK",
+        "passive": "VULNERABLE",
+        "type": "CHANGE_ENEMY_ANNOTATION"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "postAttack"
+      },
+      { "time": 0.1, "type": "WAIT" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "minTime": 0, "maxTime": 0.05, "type": "WAIT_RANDOM" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "aggroTime": 0.9, "time": 1.1, "type": "WAIT" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "type": "DISABLE_REACTION", "reaction": "BLINDSIDE" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      { "value": 450, "type": "SET_SPEED" },
+      {
+        "time": 0.4,
+        "cancelOnHit": false,
+        "collideCancel": 7,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "damageFactor": 1,
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        }
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "active": "POST_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "postAttack"
+      },
+      { "time": 0.3, "type": "WAIT" },
+      { "type": "CLEAR_ANIMATION" },
+      { "time": 0.5, "type": "WAIT" }
+    ],
+    "Attack_Dash": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 96,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": 1.5, "type": "SET_RELATIVE_SPEED" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      {
+        "maxTime": 0.05,
+        "forceTime": false,
+        "distance": 160,
+        "throwing": false,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      },
+      {
+        "jumpHeight": "M",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "maxTime": 0.35,
+        "forceTime": false,
+        "distance": 160,
+        "throwing": false,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "type": "NAVIGATE_ESCAPE_TARGET"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "minTime": 0, "maxTime": 0.05, "type": "WAIT_RANDOM" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "time": 0.2, "type": "WAIT" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      { "value": 450, "type": "SET_SPEED" },
+      {
+        "time": 0.4,
+        "cancelOnHit": false,
+        "collideCancel": 7,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        }
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "active": "POST_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "postAttack"
+      },
+      { "time": 0.6, "type": "WAIT" }
+    ],
+    "DodgeCounter_DashAttack": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "value": 0.15, "type": "SET_INVINCIBLE" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "value": 1.5, "type": "SET_RELATIVE_SPEED" },
+      { "group": "weak", "type": "CLEAR_EFFECTS" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      {
+        "maxTime": 0.05,
+        "distance": 160,
+        "planOnly": false,
+        "dodgeType": "PASSIVE",
+        "type": "NAVIGATE_DODGE"
+      },
+      {
+        "jumpHeight": "M",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "maxTime": 0.35,
+        "distance": 160,
+        "planOnly": false,
+        "dodgeType": "PASSIVE",
+        "type": "NAVIGATE_DODGE"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "minTime": 0, "maxTime": 0.05, "type": "WAIT_RANDOM" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "time": 0.2, "type": "WAIT" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      { "value": 450, "type": "SET_SPEED" },
+      {
+        "time": 0.4,
+        "cancelOnHit": false,
+        "collideCancel": 7,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        }
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "active": "POST_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "postAttack"
+      },
+      { "time": 0.6, "type": "WAIT" }
+    ],
+    "Blindside": [
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      {
+        "text": {
+          "en_US": "\"Too easy!\"",
+          "pt_BR": "\"Muito fácil!\"",
+          "de_DE": "\"Zu einfach!\"<<C<<Gepr\u00fcft: Minsu",
+          "fr_FR": "fr_FR",
+          "zh_CN": "\u201c\u8f7b\u677e\uff01\u201d",
+          "langUid": 16,
+          "ja_JP": "\u300c\u305d\u3093\u306a\u3082\u3093\u304b\uff1f\u300d",
+          "ko_KR": "\"\ub108\ubb34 \uc27d\uad70!\"",
+          "zh_TW": "\u201c\u8f15\u9b06\uff01\u201d"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "time": 1.5,
+        "type": "SHOW_AR_MSG"
+      },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "value": 0.15, "type": "SET_INVINCIBLE" },
+      {
+        "maxTime": 0.05,
+        "distance": 64,
+        "planOnly": false,
+        "dodgeType": "AGGRESSIVE",
+        "type": "NAVIGATE_DODGE"
+      },
+      { "value": 1.5, "type": "SET_RELATIVE_SPEED" },
+      {
+        "jumpHeight": "S",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "maxTime": 0.2,
+        "distance": 64,
+        "planOnly": false,
+        "dodgeType": "AGGRESSIVE",
+        "type": "NAVIGATE_DODGE"
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "time": 0.01, "type": "WAIT" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.1,
+        "forceTime": true,
+        "distance": 44,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "charge", "name": "light" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "value": 0.5, "type": "FACE_TO_TARGET_SPEED" },
+      { "minTime": 0, "maxTime": 0.05, "type": "WAIT_RANDOM" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "preAttack"
+      },
+      { "time": 0.25, "type": "WAIT" },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "type": "CLEAR_EFFECTS" },
+      { "type": "ENABLE_REACTION", "reaction": "GUARD_COUNTER" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "attack"
+      },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      { "value": 450, "type": "SET_SPEED" },
+      {
+        "time": 0.4,
+        "cancelOnHit": false,
+        "withBranches": true,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": {
+          "type": "HEAVY",
+          "element": "NEUTRAL",
+          "fly": "HEAVY",
+          "reverse": false,
+          "guardable": "",
+          "skillBonus": ""
+        },
+        "hit": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              {
+                "text": {
+                  "en_US": "<HIT>",
+                  "pt_BR": "<ACERTO>",
+                  "de_DE": "<TREFFER><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "zh_CN": "<\u547d\u4e2d>",
+                  "langUid": 9,
+                  "ja_JP": "<\u30d2\u30c3\u30c8><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<\uacf5\uaca9>",
+                  "zh_TW": "<\u547d\u4e2d>"
+                },
+                "mode": "NO_LINE",
+                "color": "GREEN",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 1,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          { "type": "CLEAR_EFFECTS" },
+          { "active": "POST_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "postAttack"
+          },
+          { "time": 0.3, "type": "WAIT" },
+          { "type": "CLEAR_ANIMATION" },
+          { "time": 0.5, "type": "WAIT" }
+        ],
+        "missed": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              {
+                "text": {
+                  "en_US": "<MISS>",
+                  "pt_BR": "<ERRO>",
+                  "de_DE": "<VERFEHLT><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "zh_CN": "<\u672a\u547d\u4e2d>",
+                  "langUid": 17,
+                  "ja_JP": "<\u30df\u30b9><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<\ud68c\ud53c>",
+                  "zh_TW": "<\u672a\u547d\u4e2d>"
+                },
+                "mode": "NO_LINE",
+                "color": "GREEN",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 1,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          { "type": "ENABLE_REACTION", "reaction": "WEAK" },
+          { "type": "CLEAR_EFFECTS" },
+          {
+            "active": "POST_ATTACK",
+            "passive": "VULNERABLE",
+            "type": "CHANGE_ENEMY_ANNOTATION"
+          },
+          {
+            "wait": false,
+            "viaWalkConfig": false,
+            "type": "SHOW_ANIMATION",
+            "anim": "postAttack"
+          },
+          {
+            "duration": -1,
+            "align": "BOTTOM",
+            "rotateFace": 0,
+            "flipLeftFace": false,
+            "wait": false,
+            "waitSkip": 0,
+            "actionDetached": false,
+            "fixPos": false,
+            "type": "SHOW_EFFECT",
+            "effect": { "sheet": "charge", "name": "light" },
+            "offset": { "x": 0, "y": 0, "z": 0 }
+          },
+          { "time": 0.4, "type": "WAIT" },
+          { "type": "CLEAR_ANIMATION" },
+          { "aggroTime": 0.8, "time": 1.1, "type": "WAIT" }
+        ]
+      }
+    ],
+    "BlockCounter": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "damage"
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "combat", "name": "flashShort" }
+      },
+      {
+        "flyLevel": "MASSIVE",
+        "breaking": false,
+        "stable": false,
+        "wait": true,
+        "type": "DO_DAMAGE_MOVEMENT"
+      },
+      { "time": 1, "type": "WAIT" }
+    ],
+    "DodgeDistance": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      },
+      { "value": 400, "type": "SET_SPEED" },
+      { "value": 0.15, "type": "SET_INVINCIBLE" },
+      {
+        "jumpHeight": "S",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "maxTime": 1,
+        "distance": 32,
+        "planOnly": false,
+        "dodgeType": "AGGRESSIVE",
+        "type": "NAVIGATE_DODGE"
+      }
+    ],
+    "HealSandwich": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "map.guardLair",
+        "thenStep": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "tmp.battle-guardActive",
+            "thenStep": [
+              {
+                "withElse": false,
+                "type": "IF",
+                "condition": "test",
+                "thenStep": [
+                  {
+                    "text": {
+                      "en_US": "<RETREAT>",
+                      "pt_BR": "<RECUO>",
+                      "de_DE": "<RETREAT><<C<<IGNORE",
+                      "fr_FR": "fr_FR",
+                      "zh_CN": "<\u64a4\u9000>",
+                      "langUid": 23,
+                      "ja_JP": "<\u30ea\u30c8\u30ea\u30fc\u30c8><<A<<[CHANGED 2017/08/03]",
+                      "ko_KR": "<\ud6c4\ud1f4>",
+                      "zh_TW": "<\u64a4\u9000>"
+                    },
+                    "mode": "NO_LINE",
+                    "color": "GREEN",
+                    "actionDetached": true,
+                    "hideOutsideOfScreen": false,
+                    "time": 1,
+                    "type": "SHOW_AR_MSG"
+                  }
+                ]
+              },
+              { "name": "barrierPass", "type": "LABEL" },
+              {
+                "entity": { "global": true, "name": "billstonTarget" },
+                "maxTime": 5,
+                "forceTime": false,
+                "distance": 16,
+                "ignoreBelow": 0,
+                "planOnly": false,
+                "precise": false,
+                "assistSlow": false,
+                "type": "NAVIGATE_TO_ENTITY"
+              },
+              {
+                "changeType": "set",
+                "type": "CHANGE_VAR_BOOL",
+                "varName": "tmp.billstonBarrierUp",
+                "value": false
+              },
+              {
+                "entity": { "global": true, "name": "barrierBillston" },
+                "maxTime": 0,
+                "forceTime": false,
+                "distance": 24,
+                "ignoreBelow": 0,
+                "planOnly": false,
+                "precise": false,
+                "assistSlow": false,
+                "type": "NAVIGATE_TO_ENTITY"
+              },
+              { "value": true, "type": "SET_SLIP_THROUGH" },
+              {
+                "entity": { "global": true, "name": "blockPostBarrier" },
+                "rotate": true,
+                "rotateSpeed": 3,
+                "type": "SET_FACE_TO_ENTITY"
+              },
+              { "time": 0.15, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+              { "value": false, "type": "SET_SLIP_THROUGH" }
+            ]
+          },
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "!tmp.playerUpPlatform",
+            "thenStep": [
+              {
+                "changeType": "set",
+                "type": "CHANGE_VAR_BOOL",
+                "varName": "tmp.billstonBarrierUp",
+                "value": true
+              }
+            ]
+          },
+          {
+            "entity": { "global": true, "name": "billstonPlace" },
+            "maxTime": 1,
+            "forceTime": false,
+            "distance": 0,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          {
+            "conditions": [
+              {
+                "entity": { "global": true, "name": "billstonTarget" },
+                "distance": 48,
+                "type": "!ENTITY_DISTANCE_OVER"
+              }
+            ],
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "thenStep": [{ "name": "barrierPass", "type": "GOTO_LABEL" }]
+          },
+          {
+            "face": "SOUTH_EAST",
+            "rotate": true,
+            "rotateSpeed": 3,
+            "type": "SET_FACE"
+          }
+        ],
+        "elseStep": [
+          {
+            "maxTime": 1.5,
+            "forceTime": false,
+            "distance": 160,
+            "throwing": false,
+            "planOnly": false,
+            "targetType": "ENEMY",
+            "type": "NAVIGATE_ESCAPE_TARGET"
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": false
+      },
+      { "type": "ENABLE_REACTION", "reaction": "SANDWICH_BREAK" },
+      {
+        "changeType": "add",
+        "attribName": "sandwichUse",
+        "proxyOwner": false,
+        "type": "SET_ATTRIB_NUMBER",
+        "value": 1
+      },
+      {
+        "volume": 1,
+        "global": false,
+        "loop": false,
+        "speed": 0.33,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/move/eat.ogg"
+      },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "[Eating] #\\v[entity.attrib.sandwichUse]",
+              "pt_BR": "[Comendo] #\\v[entity.attrib.sandwichUse]",
+              "de_DE": "[Isst] #\\v[entity.attrib.sandwichUse]<<C<<Gepr\u00fcft: Minsu",
+              "fr_FR": "fr_FR",
+              "zh_CN": "[\u6b63\u5728\u98df\u7528] #\\v[entity.attrib.sandwichUse]",
+              "langUid": 13,
+              "ja_JP": "[\u98df\u4e8b\u4e2d] #\\v[entity.attrib.sandwichUse]",
+              "ko_KR": "[\uba39\ub294 \uc911] #\\v[entity.attrib.sandwichUse]",
+              "zh_TW": "[\u6b63\u5728\u98df\u7528] #\\v[entity.attrib.sandwichUse]"
+            },
+            "mode": "LINE_FILL",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "time": 2,
+            "type": "SHOW_AR_MSG"
+          }
+        ],
+        "elseStep": [
+          {
+            "text": {
+              "en_US": "[Eating]",
+              "pt_BR": "[Comendo]",
+              "de_DE": "[Isst]<<C<<Gepr\u00fcft: Minsu",
+              "fr_FR": "fr_FR",
+              "zh_CN": "[\u8fdb\u98df\u4e2d]",
+              "langUid": 27,
+              "ja_JP": "[\u98df\u4e8b\u4e2d]",
+              "ko_KR": "[\uba39\ub294 \uc911]",
+              "zh_TW": "[\u9032\u98df\u4e2d]"
+            },
+            "mode": "LINE_FILL",
+            "color": "RED",
+            "actionDetached": false,
+            "hideOutsideOfScreen": false,
+            "time": 2,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      { "time": 2, "type": "WAIT" },
+      { "value": 0.3, "hideNumbers": false, "type": "REGEN_HP" },
+      { "type": "HEAL_STATUS" },
+      { "type": "DISABLE_REACTION", "reaction": "SANDWICH_BREAK" },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "map.guardLair",
+        "thenStep": [{ "time": 1.5, "type": "WAIT" }],
+        "elseStep": [{ "time": 0.5, "type": "WAIT" }]
+      }
+    ],
+    "HealCancel": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      {
+        "text": {
+          "en_US": "\"My sandwich! You'll pay!\"",
+          "pt_BR": "\"Meu sanduíche! Você me paga!\"",
+          "de_DE": "\"Mein Sandwich! Das wirst du mir b\u00fc\u00dfen!\"<<C<<Gepr\u00fcft: Minsu",
+          "fr_FR": "fr_FR",
+          "zh_CN": "\u201c\u6211\u7684\u4e09\u660e\u6cbb\uff01\u6211\u4f1a\u8ba9\u4f60\u4ed8\u51fa\u4ee3\u4ef7\u7684\uff01\u201d",
+          "langUid": 18,
+          "ja_JP": "\u300c\u3088\u304f\u3082\u3001\u4ffa\u306e\u5927\u4e8b\u306a\u30b5\u30f3\u30c9\u30a4\u30c3\u30c1\u3092...\uff01\u300d",
+          "ko_KR": "\"\ub0b4 \uc0cc\ub4dc\uc704\uce58! \ud6c4\ud68c\ud560 \uac70\uc57c!\"",
+          "zh_TW": "\u201c\u6211\u7684\u4e09\u660e\u6cbb\uff01\u6211\u6703\u8b93\u4f60\u4ed8\u51fa\u4ee3\u50f9\u7684\uff01\u201d"
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "time": 2,
+        "type": "SHOW_AR_MSG"
+      },
+      {
+        "dropType": "HP",
+        "healValue": 0.15,
+        "align": "BOTTOM",
+        "partyToo": false,
+        "type": "THROW_ENERGY_DROPS"
+      },
+      { "time": 0.8, "type": "WAIT" }
+    ],
+    "HealIdle": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      {
+        "name": "healShield",
+        "actionDetached": false,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": {
+            "baseFactor": 0.5,
+            "strength": "REGULAR",
+            "hitResist": "MASSIVE",
+            "range": 1,
+            "back": false
+          }
+        }
+      },
+      {
+        "entity": { "global": true, "name": "billstonPlace" },
+        "maxTime": 0,
+        "forceTime": false,
+        "distance": 0,
+        "ignoreBelow": 0,
+        "planOnly": false,
+        "precise": false,
+        "assistSlow": false,
+        "type": "NAVIGATE_TO_ENTITY"
+      },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "time": 1, "type": "WAIT" },
+      { "value": 0.05, "hideNumbers": false, "type": "REGEN_HP" }
+    ],
+    "summonTurrets": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "tmp.battle-guardActive",
+        "thenStep": [
+          {
+            "withElse": false,
+            "type": "IF",
+            "condition": "test",
+            "thenStep": [
+              {
+                "text": {
+                  "en_US": "<RETREAT>",
+                  "pt_BR": "<RECUO>",
+                  "de_DE": "<RETREAT><<C<<IGNORE",
+                  "fr_FR": "fr_FR",
+                  "zh_CN": "<\u64a4\u9000>",
+                  "langUid": 25,
+                  "ja_JP": "<\u30ea\u30c8\u30ea\u30fc\u30c8><<A<<[CHANGED 2017/08/03]",
+                  "ko_KR": "<\ud6c4\ud1f4>",
+                  "zh_TW": "<\u64a4\u9000>"
+                },
+                "mode": "NO_LINE",
+                "color": "GREEN",
+                "actionDetached": true,
+                "hideOutsideOfScreen": false,
+                "time": 1,
+                "type": "SHOW_AR_MSG"
+              }
+            ]
+          },
+          {
+            "entity": { "global": true, "name": "billstonTarget" },
+            "maxTime": 5,
+            "forceTime": false,
+            "distance": 16,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.billstonBarrierUp",
+            "value": false
+          },
+          {
+            "entity": { "global": true, "name": "barrierBillston" },
+            "maxTime": 0,
+            "forceTime": false,
+            "distance": 24,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          { "value": true, "type": "SET_SLIP_THROUGH" },
+          {
+            "entity": { "global": true, "name": "blockPostBarrier" },
+            "rotate": true,
+            "rotateSpeed": 3,
+            "type": "SET_FACE_TO_ENTITY"
+          },
+          { "time": 0.15, "stopBeforeEdge": false, "type": "MOVE_FORWARD" },
+          { "value": false, "type": "SET_SLIP_THROUGH" }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": false
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<TURRETS>",
+              "pt_BR": "<TORRES>",
+              "de_DE": "<TURRETS><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "zh_CN": "<\u70ae\u53f0>",
+              "langUid": 24,
+              "ja_JP": "<\u30bf\u30ec\u30c3\u30c8><<A<<[CHANGED 2017/08/03]",
+              "ko_KR": "<\ud3ec\ud0d1>",
+              "zh_TW": "<\u7832\u81fa>"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 1,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!tmp.playerUpPlatform",
+        "thenStep": [
+          {
+            "changeType": "set",
+            "type": "CHANGE_VAR_BOOL",
+            "varName": "tmp.billstonBarrierUp",
+            "value": true
+          }
+        ]
+      },
+      {
+        "entity": { "global": true, "name": "billstonPlace" },
+        "maxTime": 0,
+        "forceTime": false,
+        "distance": 8,
+        "ignoreBelow": 0,
+        "planOnly": false,
+        "precise": false,
+        "assistSlow": false,
+        "type": "NAVIGATE_TO_ENTITY"
+      },
+      {
+        "entity": { "global": true, "name": "terminal" },
+        "maxTime": 0,
+        "forceTime": false,
+        "distance": 16,
+        "ignoreBelow": 0,
+        "planOnly": false,
+        "precise": false,
+        "assistSlow": false,
+        "type": "NAVIGATE_TO_ENTITY"
+      },
+      {
+        "entity": { "global": true, "name": "terminal" },
+        "rotate": true,
+        "rotateSpeed": 3,
+        "type": "SET_FACE_TO_ENTITY"
+      },
+      {
+        "text": {
+          "en_US": "[Getting Reinforcements]",
+          "pt_BR": "[Obtendo Reforços]",
+          "de_DE": "[Hole Verst\u00e4rkung]<<C<<Gepr\u00fcft: Minsu",
+          "fr_FR": "fr_FR",
+          "zh_CN": "[\u547c\u53eb\u589e\u63f4]",
+          "langUid": 19,
+          "ja_JP": "[\u63f4\u8ecd\u8981\u8acb\u4e2d]",
+          "ko_KR": "[\uac15\ud654 \uc911]",
+          "zh_TW": "[\u547c\u53eb\u589e\u63f4]"
+        },
+        "mode": "LINE_FILL",
+        "color": "RED",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "time": 1.5,
+        "type": "SHOW_AR_MSG"
+      },
+      { "time": 1.5, "type": "WAIT" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.turretsSummon",
+        "value": true
+      },
+      {
+        "entity": { "player": true },
+        "rotate": true,
+        "rotateSpeed": 3,
+        "type": "SET_FACE_TO_ENTITY"
+      },
+      { "time": 1.5, "type": "WAIT" }
+    ],
+    "GetActive": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "name": "goBack", "type": "LABEL" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!tmp.playerUpPlatform",
+        "thenStep": [
+          {
+            "entity": { "global": true, "name": "billstonPlace" },
+            "maxTime": 2,
+            "forceTime": false,
+            "distance": 16,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          {
+            "entity": { "global": true, "name": "camTarget" },
+            "maxTime": 3,
+            "forceTime": false,
+            "distance": 20,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          {
+            "conditions": [
+              {
+                "entity": { "global": true, "name": "camTarget" },
+                "distance": 48,
+                "negated": false,
+                "type": "ENTITY_DISTANCE_OVER"
+              }
+            ],
+            "withElse": false,
+            "type": "COMBAT_IF",
+            "thenStep": [{ "name": "goBack", "type": "GOTO_LABEL" }]
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.battle-guardActive",
+        "value": true
+      }
+    ],
+    "MakeWay": [
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_COUNTER_MELEE" },
+      { "type": "DISABLE_REACTION", "reaction": "DODGE_DISTANCE" },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "name": "goBack", "type": "LABEL" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "<MAKE WAY>",
+              "pt_BR": "<CRIAR CAMINHO>",
+              "de_DE": "<MAKE WAY><<C<<IGNORE",
+              "fr_FR": "fr_FR",
+              "zh_CN": "<\u8ba9\u5f00>",
+              "ja_JP": "<\u9053\u3092\u958b\u304f><<A<<[CHANGED 2017/08/03]",
+              "langUid": 30,
+              "ko_KR": "<\uae38\uc744 \ube44\ucf1c\ub77c>",
+              "zh_TW": "<\u8b93\u958b>"
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "time": 1,
+            "type": "SHOW_AR_MSG"
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.billstonBarrierUp",
+        "value": false
+      },
+      { "time": 0.1, "type": "WAIT" },
+      {
+        "conditions": [{ "type": "!HAS_TARGET" }],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [{ "kind": "PLAYER", "type": "SET_TEMP_TARGET" }]
+      },
+      {
+        "maxTime": 5,
+        "forceTime": false,
+        "distance": 128,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "conditions": [{ "min": 0, "max": 128, "type": "!TARGET_DISTANCE" }],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [{ "name": "goBack", "type": "GOTO_LABEL" }]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.billstonBarrierUp",
+        "value": true
+      }
+    ],
+    "HPBreak": [{ "value": 0.5, "type": "SET_DAMAGE_FACTOR" }]
+  },
+  "reactions": {
+    "GUARD_COUNTER": {
+      "action": "BlockCounter",
+      "conditions": [],
+      "type": "GUARD_COUNTER"
+    },
+    "DODGE_COUNTER_MELEE": {
+      "action": "DodgeCounter_DashAttack",
+      "viewAngle": 0.3,
+      "restartPrevAction": false,
+      "probability": 1,
+      "count": 1,
+      "blockTime": 2,
+      "conditions": [
+        {
+          "distance": 80,
+          "throwing": false,
+          "negated": false,
+          "type": "TARGET_REACHABLE"
+        }
+      ],
+      "type": "DODGE"
+    },
+    "DODGE_DISTANCE": {
+      "action": "DodgeDistance",
+      "viewAngle": 0.2,
+      "restartPrevAction": false,
+      "probability": 1,
+      "count": 2,
+      "blockTime": 3,
+      "conditions": [
+        { "distance": 80, "throwing": false, "type": "!TARGET_REACHABLE" }
+      ],
+      "type": "DODGE"
+    },
+    "BLINDSIDE": {
+      "action": "Blindside",
+      "viewAngle": 1,
+      "restartPrevAction": false,
+      "probability": 1,
+      "count": 0,
+      "blockTime": 0,
+      "conditions": [],
+      "minDistance": 0,
+      "maxDistance": 160,
+      "targetFace": 0.05,
+      "checkCollision": false,
+      "type": "DODGE",
+      "eventType": null
+    },
+    "WEAK": {
+      "hitType": "REGULAR",
+      "preSwitchState": "WEAK",
+      "blockFurtherHits": false,
+      "attackType": "MASSIVE",
+      "flyLevel": "MASSIVE+",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BREAK",
+      "conditions": [{ "type": "!BALL_SMALL" }],
+      "ignoreFailed": false,
+      "viewAngle": 0.5,
+      "restartPrevAction": false,
+      "probability": 1,
+      "count": 0,
+      "blockTime": 1,
+      "minDistance": 0,
+      "maxDistance": 160,
+      "targetFace": 0.05,
+      "checkCollision": false,
+      "type": "HIT_REACTION",
+      "eventType": null
+    },
+    "SANDWICH_BREAK": {
+      "hitType": "REGULAR",
+      "action": "HealCancel",
+      "blockFurtherHits": true,
+      "attackType": "HEAVY",
+      "flyLevel": "HEAVY",
+      "stunChange": "FORCE_STABLE",
+      "alignFace": true,
+      "dramaticEffect": "BREAK_LIGHT",
+      "conditions": [{ "negated": false, "type": "BALL_CHARGE" }],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "KILL_HIT": {
+      "hitType": "KILL_HIT",
+      "blockFurtherHits": false,
+      "attackType": "MASSIVE",
+      "flyLevel": "MASSIVE+",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BOSS_ZOOM",
+      "conditions": [],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "HP_BREAK": {
+      "hitType": "HP_BREAK_HIT",
+      "preAction": "HPBreak",
+      "blockFurtherHits": false,
+      "attackType": "BREAK",
+      "flyLevel": "MASSIVE+++",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "HP_BREAK_ZOOM",
+      "conditions": [],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    }
+  },
+  "meta": {
+    "species": {
+      "en_US": "Human Guard",
+      "pt_BR": "Guarda Humano",
+      "de_DE": "Menschliche Wache<<C<<Gepr\u00fcft: Minsu",
+      "zh_CN": "\u4eba\u7c7b\u5b88\u536b",
+      "zh_TW": "\u4eba\u985e\u5b88\u885b",
+      "ja_JP": "\u4eba\u9593\u306e\u885b\u5175",
+      "ko_KR": "\uc778\uac04 \uacbd\ube44\uc6d0",
+      "langUid": 4
+    },
+    "category": "PLAYERS",
+    "descriptions": [
+      {
+        "text": {
+          "en_US": "A corrupt guard that holds no respect for the Shad that are native on Shadoon. Did formerly hold a respectable position in the \\c[3]Maroon Ba'kii Guard\\c[0], before his crimes were uncovered.\n\nWhile his sense of justice is warped, he is still a very capable fighter. He wields the standard issue \\c[3]Laserlance\\c[0] of the guards with great skill and always carries a few of \\c[3]his favorite sandwiches\\c[0], in case the battle tires him.",
+          "pt_BR": "Um guarda corrupto que não tem respeito pelos Shad que são nativos de Shadoon. Ele ocupava anteriormente uma posição respeitável na \\c[3]Guarda Baki\\c[0], antes de seus crimes serem descobertos.\n Embora seu senso de justiça seja distorcido, ele ainda é um lutador muito capaz. Ele usa com grande habilidade uma \\c[3]Lança Laser\\c[0] padrão dos guardas e sempre carrega alguns de \\c[3]seus sanduíches favoritos\\c[0], para uso emergencial.",
+          "de_DE": "Eine korrupte Wache, die keinen Respekt vor den Shad hat, den Ureinwohnern Shadoons. Hatte fr\u00fcher eine respektable Position in der \\c[3]Ba'kii-Wache\\c[0] inne, bevor seine Verbrechen aufgedeckt wurden.\n\nObwohl sein Sinn f\u00fcr Gerechtigkeit verzerrt ist, ist er immer noch ein sehr f\u00e4higer K\u00e4mpfer. Er f\u00fchrt die \\c[3]Laserlanze\\c[0] mit gro\u00dfem Geschick, die zur Standardausr\u00fcstung der Wachen geh\u00f6rt, und tr\u00e4gt immer ein paar seiner \\c[3]Lieblingssandwiches\\c[0] bei sich, sollte der Kampf ihn erm\u00fcden.<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "\u4e00\u540d\u8150\u8d25\u7684\u5b88\u536b\uff0c\u5bf9\u6c99\u5fb7\u9686\u7684\u571f\u8457\u6c99\u5fb7\u6beb\u65e0\u534a\u70b9\u5c0a\u91cd\u3002\u5728\u5176\u7f6a\u884c\u672a\u88ab\u63ed\u9732\u4e4b\u524d\uff0c\u66fe\u662f\\c[3]\u8910\u7ea2\u5df4\u57fa\u5b88\u536b\\c[0]\u7684\u961f\u957f\u3002\n\n\u867d\u7136\u4ed6\u7684\u6b63\u4e49\u611f\u626d\u66f2\u4e86\uff0c\u4f46\u4ecd\u662f\u4e00\u540d\u51fa\u8272\u7684\u6218\u58eb\u3002\u4ed6\u4ee5\u7cbe\u6e5b\u7684\u6280\u827a\u6325\u821e\u5b88\u519b\u6807\u51c6\u914d\u5907\u2014\u2014\u956d\u5c04\u957f\u67aa\uff0c\u5e76\u968f\u8eab\u643a\u5e26\u51e0\u5757\u4e09\u660e\u6cbb\uff0c\u4ee5\u9632\u5728\u6218\u6597\u4e2d\u7d2f\u5012\u3002<<A<<[CHANGED 2018/11/28]",
+          "zh_TW": "\u4e00\u540d\u8150\u6557\u7684\u5b88\u885b\uff0c\u5c0d\u6c99\u5fb7\u9686\u7684\u571f\u8457\u6c99\u5fb7\u6beb\u7121\u534a\u9ede\u5c0a\u91cd\u3002\u5728\u5176\u7f6a\u884c\u672a\u88ab\u63ed\u9732\u4e4b\u524d\uff0c\u66fe\u662f\\c[3]\u8910\u7d05\u5df4\u57fa\u5b88\u885b\\c[0]\u7684\u968a\u9577\u3002\r\n\r\n\u96d6\u7136\u4ed6\u7684\u6b63\u7fa9\u611f\u626d\u66f2\u4e86\uff0c\u4f46\u4ecd\u662f\u4e00\u540d\u51fa\u8272\u7684\u6230\u58eb\u3002\u4ed6\u4ee5\u7cbe\u6e5b\u7684\u6280\u85dd\u63ee\u821e\u5b88\u8ecd\u6a19\u6e96\u914d\u5099\u2014\u2014\u9433\u5c04\u9577\u69cd\uff0c\u4e26\u96a8\u8eab\u651c\u5e36\u5e7e\u584a\u4e09\u660e\u6cbb\uff0c\u4ee5\u9632\u5728\u6230\u9b25\u4e2d\u7d2f\u5012\u3002<<A<<[CHANGED 2018/11/28]",
+          "ja_JP": "\u60aa\u5fb3\u885b\u5175\u3067\u3001\u30b7\u30e3\u30c9\u30fc\u30f3\u306e\u539f\u4f4f\u6c11\u65cf\u30b7\u30e3\u30c9\u306b\u5bfe\u3057\u3066\u656c\u610f\u3092\u4e00\u5207\u6301\u305f\u306a\u3044\u3002\n\u5f7c\u306f\u72af\u884c\u304c\u66b4\u304b\u308c\u308b\u307e\u3067\u3001\\c[3]\u30de\u30eb\u30fc\u30f3\u30fb\u30d0\u30ad\u8b66\u5099\u968a\\c[0]\u3067\u9ad8\u3044\u5730\u4f4d\u306b\u3064\u3044\u3066\u3044\u305f\u3002\n\n\u5f7c\u306e\u6b63\u7fa9\u611f\u306f\u3086\u304c\u3093\u3067\u3044\u308b\u3082\u306e\u306e\u3001\u6226\u95d8\u80fd\u529b\u306f\u3068\u3066\u3082\u9ad8\u3044\u3002\u885b\u5175\u306e\u6a19\u6e96\u88c5\u5099\u3067\u3042\u308b\\c[3]\u30ec\u30fc\u30b6\u30fc\u30e9\u30f3\u30b9\\c[0]\u3092\u6301\u3063\u3066\u304a\u308a\u3001\u75b2\u308c\u305f\u6642\u306e\u305f\u3081\u306b\u304a\u6c17\u306b\u5165\u308a\u306e\\c[3]\u30b5\u30f3\u30c9\u30a4\u30c3\u30c1\\c[0]\u3092\u3044\u3064\u3082\u643a\u5e2f\u3057\u3066\u3044\u308b\u3002<<A<<[CHANGED 2019/01/10]",
+          "ko_KR": "\uc0e4\ub454 \uc6d0\uc8fc\ubbfc\uc778 \uc0e4\ub4dc\ub97c \uc874\uc911\ud558\uc9c0 \uc54a\ub294 \ud0c0\ub77d\ud55c \uacbd\ube44\uc6d0\uc785\ub2c8\ub2e4. \uadf8\uc758 \ubc94\uc8c4\uac00 \ubc1d\ud600\uc9c0\uae30 \uc804\uae4c\uc9c0\ub294 \\c[3]\ub9c8\ub8ec \ubc14\ud0a4 \uacbd\ube44\ub300\\c[0]\uc5d0\uc11c \uc874\uacbd\ubc1b\uace0 \uc788\uc5c8\uc2b5\ub2c8\ub2e4.\n \n\ube4c\uc2a4\ud134\uc758 \uc815\uc758\uc5d0 \ub300\ud55c \uac10\uac01\uc740 \ub4a4\ud2c0\ub838\uc9c0\ub9cc, \uadf8\ub798\ub3c4 \uc544\uc9c1 \uc4f8\ub9cc\ud55c \uc804\uc0ac\uc785\ub2c8\ub2e4. \uadf8\ub294 \uad49\uc7a5\ud55c \uae30\uc220\ub85c \uacbd\ube44\uc6d0 \uc81c\uc2dd \\c[3]\ub808\uc774\uc800\ucc3d\\c[0]\uc744 \ud718\ub450\ub974\uba70 \uc804\ud22c\uac00 \ud798\ub4e4 \ub54c\ub97c \ub300\ube44\ud574 \ud56d\uc0c1 \\c[3]\uac00\uc7a5 \uc88b\uc544\ud558\ub294 \uc0cc\ub4dc\uc704\uce58\\c[0] \uba87 \uac1c\ub97c \uac00\uc9c0\uace0 \ub2e4\ub2d9\ub2c8\ub2e4.<<A<<[CHANGED 2019/01/10]",
+          "langUid": 29
+        },
+        "condition": ""
+      }
+    ]
+  }
+}
