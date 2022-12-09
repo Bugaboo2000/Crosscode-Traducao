@@ -216,7 +216,7 @@
               "settings": {
                 "text": {
                   "en_US": "Ship HP",
-                  "pt_BR": "HP do Barco",
+                  "pt_BR": "PV do Barco",
                   "de_DE": "Schiff-HP",
                   "zh_CN": "\u6218\u8230HP<<A<<[CHANGED 2017/12/12]",
                   "langUid": 2,
@@ -251,7 +251,7 @@
                 "maxCount": 5,
                 "text": {
                   "en_US": "Battleship HP",
-                  "pt_BR": "HP do Navio de Combate",
+                  "pt_BR": "PV do Navio de Combate",
                   "langUid": 12,
                   "zh_CN": "\u6218\u8230HP<<A<<[CHANGED 2017/10/10]",
                   "de_DE": "Schlachtschiff-HP",

@@ -7488,7 +7488,7 @@
                     {
                       "message": {
                         "en_US": "I see your stats are \\c[1]as high as ever\\c[0].",
-                        "pt_BR": "Vejo que seus atributos estão \\c[3]mais altos do que nunca\\c[0]",
+                        "pt_BR": "Vejo que seus atributos estão \\c[3]mais altos do que nunca\\c[0].",
                         "de_DE": "Wie ich sehe, sind deine Stats \\c[1]unver\u00e4ndert hoch\\c[0].",
                         "zh_CN": "\u770b\u6765\u4f60\u7684\u5c5e\u6027\\c[1]\u4e00\u5982\u65e2\u5f80\u7684\u9ad8\\c[0]\u3002",
                         "ja_JP": "\u304a\u524d\u306e\u30b9\u30c6\u30fc\u30bf\u30b9\u3060\u304c\u3001\n\\c[1]\u3044\u3064\u3082\u901a\u308a\u9ad8\u3044\u307e\u307e\\c[0]\u3060\u306a\u3002<<A<<[CHANGED 2019/08/16]",
@@ -11640,7 +11640,7 @@
           {
             "message": {
               "en_US": "Oh, you two are racing dungeons together?",
-              "pt_BR": "Oh, vocês duas estão sempre competindo nas dungeons?",
+              "pt_BR": "Ah, vocês duas estão sempre competindo nas dungeons?",
               "de_DE": "Oh, ihr beiden veranstaltet also immer Wettrennen?",
               "fr_FR": "fr_FR",
               "zh_CN": "\u54e6--\u4f60\u4eec\u4fe9\u8fd8\u73a9\u8fd9\u4e2a\uff1f",
@@ -14694,7 +14694,7 @@
             "entity": { "global": true, "name": "groupC3" },
             "text": {
               "en_US": "It has HP regeneration! It's super useful!",
-              "pt_BR": "Tem regeneração de HP! É super útil!",
+              "pt_BR": "Tem regeneração de PV! É super útil!",
               "langUid": 689,
               "de_DE": "Er hat HP-Regeneration! Das is super praktisch!",
               "ja_JP": "\u3053\u3044\u3064\u306fHP\u3092\u56de\u5fa9\u3057\u3066\n\u304f\u308c\u308b\u3093\u3060\uff01\u3059\u3054\u304f\u4fbf\u5229\u3060\u3088\uff01<<A<<[CHANGED 2018/08/28]",
