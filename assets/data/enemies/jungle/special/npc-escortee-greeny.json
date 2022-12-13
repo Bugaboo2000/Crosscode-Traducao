@@ -1,0 +1,1693 @@
+{
+  "level": 36,
+  "params": {
+    "hp": 1337,
+    "attack": 108,
+    "defense": 160,
+    "focus": 199,
+    "elemFactor": [1.2, 1.2, 1.3, 1],
+    "statusInflict": [0, 0, 0, 0]
+  },
+  "credit": 0,
+  "exp": 0,
+  "maxSp": 8,
+  "enduranceScale": 1,
+  "healDropRate": 0,
+  "boss": false,
+  "bossOrder": 0,
+  "padding": { "x": 2, "y": 2 },
+  "material": "ORGANIC",
+  "aiGroup": "escortee",
+  "aiLearnType": "IMMEDIATELY",
+  "itemDrops": [],
+  "targetDetect": {
+    "detectDistance": 120,
+    "loseDistance": 320,
+    "notifyNeighbourRadius": 100
+  },
+  "hpBreaks": [],
+  "size": { "x": 16, "y": 16, "z": 24 },
+  "anims": "enemies.escortee",
+  "defaultState": "DEFAULT",
+  "walkConfigs": {
+    "default": {
+      "idle": "idle",
+      "move": "walk",
+      "damage": "idle",
+      "jump": "idle",
+      "charge": "charge",
+      "shoot": "shoot"
+    },
+    "weak": { "idle": "idle", "damage": "idle" }
+  },
+  "_wm": null,
+  "walkAnims": "default",
+  "weight": -1,
+  "maxVel": 180,
+  "jumpingEnabled": true,
+  "shadow": 20,
+  "damageFactor": 1,
+  "hitStable": "MASSIVE",
+  "fallDmgFactor": 0,
+  "aggression": "PEACEFUL",
+  "regenFactor": 0.06,
+  "annotate": {
+    "active": "NONE",
+    "passive": "IMMUNE",
+    "weapon": "ANY",
+    "element": "ANY",
+    "extra": []
+  },
+  "DOCTYPE": "ENEMY",
+  "trackers": {
+    "inspectMove": {
+      "target": 3,
+      "initRandom": 0,
+      "resetRandom": 0.2,
+      "noStateReset": false,
+      "noAssist": true,
+      "type": "TIME"
+    },
+    "absorbTime": {
+      "target": 5,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "noAssist": true,
+      "type": "TIME"
+    },
+    "saltCooldown": {
+      "target": 3,
+      "initRandom": 0,
+      "resetRandom": 0,
+      "noStateReset": false,
+      "noAssist": true,
+      "type": "TIME"
+    }
+  },
+  "states": {
+    "DEFAULT": {
+      "relativeVel": 0.5,
+      "enabledReactions": ["KILL", "HIT_ESCORTEE", "HIT_ESCORTEE_STRONGER"],
+      "choices": [
+        {
+          "req": [{ "negated": false, "type": "ENTERED_STATE" }],
+          "action": "InitEscortee"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.cancelSuck"
+            },
+            { "name": "absorbing", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "EscortSuckCancel"
+        },
+        {
+          "req": [
+            { "negated": false, "type": "TRACKER_READY", "name": "absorbTime" },
+            { "name": "absorbing", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "EscortSuckCess"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.questEscort-started"
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.escort-goalCount >= 1"
+            },
+            { "type": "!VAR_CONDITION", "condition": "tmp.escort-reachGoal" }
+          ],
+          "action": "EscortMovePoint"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.questEscort-started"
+            },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.escort-reachGoal"
+            },
+            { "negated": false, "type": "TRACKER_READY", "name": "inspectMove" }
+          ],
+          "action": "EscortInspect"
+        },
+        {
+          "req": [
+            {
+              "distance": 320,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "enemyTypes": ["beach.special.blob-salt"],
+                "conditions": [
+                  {
+                    "name": "pacified",
+                    "negated": false,
+                    "type": "ATTRIB_IS_TRUE"
+                  }
+                ],
+                "allEnemies": false,
+                "type": "ACTIVE_ENEMIES"
+              }
+            },
+            { "name": "absorbing", "type": "!ATTRIB_IS_TRUE" },
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.capturedSlimes < tmp.captureGoal"
+            }
+          ],
+          "action": "EscortSuckEnemy"
+        },
+        {
+          "req": [
+            {
+              "distance": 512,
+              "checkPath": false,
+              "negated": false,
+              "type": "POI_IS_CLOSE",
+              "poiFilter": {
+                "enemyTypes": ["jungle.special.ghost-toxic"],
+                "conditions": [
+                  {
+                    "name": "saltable",
+                    "negated": false,
+                    "type": "ATTRIB_IS_TRUE"
+                  }
+                ],
+                "allEnemies": false,
+                "type": "ACTIVE_ENEMIES"
+              }
+            },
+            {
+              "negated": false,
+              "type": "TRACKER_READY",
+              "name": "saltCooldown"
+            }
+          ],
+          "action": "EscortSaltSteam"
+        },
+        {
+          "req": [
+            { "name": "absorbing", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "action": "EscortSucking"
+        },
+        {
+          "req": [
+            {
+              "negated": false,
+              "type": "VAR_CONDITION",
+              "condition": "tmp.escortCombat"
+            }
+          ],
+          "action": "EscortCombatIdle"
+        },
+        { "action": "EscortWait" }
+      ]
+    },
+    "PASSIVE_INVIS": {
+      "weight": -1,
+      "hitIgnore": true,
+      "aggression": "PEACEFUL",
+      "annotate": {
+        "active": "NONE",
+        "passive": "IMMUNE",
+        "weapon": "ANY",
+        "element": "ANY",
+        "extra": []
+      },
+      "choices": []
+    }
+  },
+  "proxies": {
+    "hitAura": {
+      "copyOwnerAnims": false,
+      "breakType": "COMBATANT",
+      "action": [
+        { "name": "loop", "type": "LABEL" },
+        {
+          "align": "BOTTOM",
+          "radius": 16,
+          "yScale": 0,
+          "zHeight": 16,
+          "centralAngle": 1,
+          "duration": 0.3,
+          "expandRadius": 0,
+          "alwaysFull": true,
+          "clockwise": false,
+          "flipLeftFace": 0,
+          "rectangular": false,
+          "repeat": false,
+          "uniformHitDir": false,
+          "fixPos": false,
+          "checkCollision": false,
+          "type": "CIRCLE_ATTACK",
+          "attack": {
+            "type": "NONE",
+            "visualType": "NONE",
+            "element": "NEUTRAL",
+            "damageFactor": 0,
+            "reverse": false,
+            "guardable": null,
+            "skillBonus": null,
+            "limiter": null
+          },
+          "offset": { "x": 0, "y": 0, "z": 0 }
+        },
+        { "time": 0.3, "type": "WAIT" },
+        { "name": "loop", "type": "GOTO_LABEL" }
+      ],
+      "invisible": false,
+      "hp": 0,
+      "stickToSource": "OWNER",
+      "stickFaceAlign": true,
+      "group": "",
+      "startAnim": "",
+      "size": { "x": 16, "y": 16, "z": 24 },
+      "config": { "collType": "NONE" },
+      "type": "GENERIC"
+    }
+  },
+  "actions": {
+    "InitEscortee": [
+      {
+        "poiFilter": { "namePart": "escort-target-", "type": "NAMED_ENTITIES" },
+        "distance": 64,
+        "furthest": false,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "sticking": true,
+        "group": "",
+        "ignoreSelf": false,
+        "type": "REMOVE_PROXIES"
+      },
+      {
+        "align": "FACE",
+        "type": "SHOOT_PROXY",
+        "proxy": "hitAura",
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "tmp.bossFight",
+        "thenStep": [
+          { "type": "SET_ATTRIB_BOOL", "name": "startSalting", "value": false }
+        ]
+      }
+    ],
+    "Idle": [{ "minTime": 0.1, "maxTime": 0.2, "type": "WAIT_RANDOM" }],
+    "IdleJump": [
+      { "kind": "ATTRIB_ENTITY", "type": "SET_TEMP_TARGET" },
+      { "jumpHeight": "S", "wait": true, "ignoreSounds": false, "type": "JUMP" }
+    ],
+    "MoveToSpawnPoint": [
+      { "value": 0.5, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 3,
+        "maxDistance": 16,
+        "precise": false,
+        "type": "NAVIGATE_TO_SPAWN_POINT"
+      }
+    ],
+    "MoveRandom": [
+      { "type": "SET_RELATIVE_SPEED", "value": 0.3 },
+      { "value": false, "type": "SET_JUMPING" },
+      {
+        "minTime": 0.3,
+        "maxTime": 0.5,
+        "dirChanges": 0,
+        "stopBeforeEdge": true,
+        "type": "MOVE_RANDOM"
+      },
+      { "minTime": 0.5, "maxTime": 0.6, "type": "WAIT_RANDOM" }
+    ],
+    "Adjust": [
+      { "value": 0.6, "type": "SET_RELATIVE_SPEED" },
+      {
+        "maxTime": 1,
+        "forceTime": false,
+        "distance": 100,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      }
+    ],
+    "GetClose": [
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 60,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      }
+    ],
+    "Attack": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 70,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "large" }
+      },
+      {
+        "name": "full",
+        "actionDetached": false,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": { "baseFactor": 0.25, "range": 1 }
+        }
+      },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "roll"
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-in.ogg"
+      },
+      { "time": 1, "type": "WAIT" },
+      { "type": "CLEAR_EFFECTS" },
+      { "value": 400, "type": "SET_SPEED" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "line" }
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out-long.ogg"
+      },
+      {
+        "volume": 0.8,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/dash-2.ogg"
+      },
+      { "value": "IGNORE", "type": "SET_COLL_TYPE" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      {
+        "time": 0.4,
+        "cancelOnHit": false,
+        "orthoDirFactor": 0,
+        "ignoreLastHit": false,
+        "collideSlip": false,
+        "type": "TACKLE",
+        "attack": { "type": "HEAVY", "damageFactor": 1 }
+      },
+      { "value": 50, "type": "SET_SPEED" },
+      { "time": 0.3, "stopBeforeEdge": false, "type": "MOVE_FORWARD" }
+    ],
+    "Jump": [
+      { "active": "PRE_ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "value": 0.7, "type": "SET_RELATIVE_SPEED" },
+      { "value": "MEDIUM", "type": "SET_HIT_STABLE" },
+      {
+        "maxTime": 0.5,
+        "forceTime": false,
+        "distance": 80,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "stayBehind": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "value": 1, "type": "SET_RELATIVE_SPEED" },
+      { "value": "HEAVY", "type": "SET_HIT_STABLE" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "roll"
+      },
+      {
+        "name": "full",
+        "actionDetached": false,
+        "type": "ADD_SHIELD",
+        "shield": {
+          "type": "DIRECTIONAL",
+          "settings": { "baseFactor": 0.25, "range": 1 }
+        }
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "speed": 0.7,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out.ogg"
+      },
+      {
+        "jumpHeight": "L",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "speed": 0.85,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out.ogg"
+      },
+      {
+        "jumpHeight": "L",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      { "value": 200, "type": "SET_SPEED" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "backMedium" }
+      },
+      { "value": "IGNORE", "type": "SET_COLL_TYPE" },
+      {
+        "volume": 0.9,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/battle/enemies/hedgehog/hedgehog-spin-out-long.ogg"
+      },
+      { "active": "ATTACK", "type": "CHANGE_ENEMY_ANNOTATION" },
+      { "jumpSpeed": 300, "adjustAbove": 13, "type": "JUMP_TO_TARGET" },
+      {
+        "align": "BOTTOM",
+        "radius": 20,
+        "yScale": 0,
+        "zHeight": 64,
+        "centralAngle": 0,
+        "duration": 0,
+        "expandRadius": 0,
+        "alwaysFull": false,
+        "clockwise": false,
+        "flipLeftFace": false,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": false,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "damageFactor": 1.2,
+          "element": "NEUTRAL",
+          "spFactor": 0
+        }
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "backMedium" }
+      }
+    ],
+    "BlockCounter": [
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "combat", "name": "flashShort" }
+      },
+      {
+        "flyLevel": "MASSIVE",
+        "breaking": false,
+        "stable": false,
+        "wait": true,
+        "type": "DO_DAMAGE_MOVEMENT"
+      },
+      { "time": 0.4, "type": "WAIT" }
+    ],
+    "EscortMovePoint": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "[ MOVE ]",
+              "pt_BR": "[ ANDA ]",
+              "de_DE": "[ BEWEGEN ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u79fb\u52a8]<<A<<[CHANGED 2021/01/12]",
+              "zh_TW": "[\u79fb\u52d5]<<A<<[CHANGED 2021/01/12]",
+              "ja_JP": "[\u79fb\u52d5]<<A<<[CHANGED 2021/01/12]",
+              "ko_KR": "[ \uc774\ub3d9 ]<<A<<[CHANGED 2021/01/12]",
+              "langUid": 8
+            },
+            "mode": "NO_LINE",
+            "color": "RED",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 1
+          }
+        ]
+      },
+      {
+        "entity": { "global": true, "name": "quest-escortee-goal" },
+        "maxTime": 0,
+        "forceTime": false,
+        "distance": 16,
+        "ignoreBelow": 0,
+        "planOnly": false,
+        "precise": false,
+        "assistSlow": false,
+        "type": "NAVIGATE_TO_ENTITY"
+      },
+      { "type": "RESET_TRACKER", "tracker": "inspectMove" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.escort-reachGoal",
+        "value": true
+      }
+    ],
+    "EscortInspect": [
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "test",
+        "thenStep": [
+          {
+            "text": {
+              "en_US": "[ INSPECT ]",
+              "pt_BR": "[ INSPECIONANDO ]",
+              "de_DE": "[ UNTERSUCHEN ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u67e5\u770b]<<A<<[CHANGED 2021/01/12]",
+              "zh_TW": "[\u67e5\u770b]<<A<<[CHANGED 2021/01/12]",
+              "ja_JP": "[\u8abf\u67fb]<<A<<[CHANGED 2021/01/12]",
+              "ko_KR": "[ \uc870\uc0ac ]<<A<<[CHANGED 2021/01/12]",
+              "langUid": 12
+            },
+            "mode": "NO_LINE",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "type": "SHOW_AR_MSG",
+            "time": 0.5
+          }
+        ]
+      },
+      {
+        "minTime": 0.1,
+        "maxTime": 0.5,
+        "dirChanges": 1,
+        "stopBeforeEdge": true,
+        "type": "MOVE_RANDOM"
+      },
+      {
+        "conditions": [
+          {
+            "entity": { "global": true, "name": "quest-escortee-goal" },
+            "distance": 80,
+            "negated": false,
+            "type": "ENTITY_DISTANCE_OVER"
+          }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "entity": { "global": true, "name": "quest-escortee-goal" },
+            "maxTime": 0.3,
+            "forceTime": false,
+            "distance": 64,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          {
+            "minTime": 0.1,
+            "maxTime": 0.1,
+            "dirChanges": 1,
+            "stopBeforeEdge": true,
+            "type": "MOVE_RANDOM"
+          }
+        ]
+      },
+      { "type": "WAIT", "time": 1 }
+    ],
+    "EscortCombatIdle": [
+      { "type": "STOP_SOUNDS" },
+      { "type": "SET_ATTRIB_BOOL", "name": "dodgeBlock", "value": false },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.attrib.startSalting",
+        "thenStep": [
+          { "type": "SET_ATTRIB_BOOL", "name": "startSalting", "value": false },
+          {
+            "text": {
+              "en_US": "[ RECHARGING SALT ]",
+              "pt_BR": "[ RECARREGANDO SAL ]",
+              "de_DE": "[ SALZ WIEDER AUFLADEN ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[\u5145\u80fd\u4e2d]<<A<<[CHANGED 2021/01/12]",
+              "zh_TW": "[\u5145\u80fd\u4e2d]<<A<<[CHANGED 2021/01/12]",
+              "ja_JP": "[\u5869\u518d\u30c1\u30e3\u30fc\u30b8\u4e2d]<<A<<[CHANGED 2021/01/12]",
+              "ko_KR": "[ \uc18c\uae08 \uc7ac\ucda9\uc804 \uc911 ]<<A<<[CHANGED 2021/01/12]",
+              "langUid": 17
+            },
+            "mode": "LINE_FILL",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "tracker": "saltCooldown",
+            "type": "SHOW_AR_MSG",
+            "time": 5
+          }
+        ]
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "tmp.bossFight",
+        "thenStep": [
+          {
+            "poiFilter": {
+              "enemyTypes": ["jungle.special.ghost-toxic"],
+              "allEnemies": false,
+              "type": "ACTIVE_ENEMIES"
+            },
+            "distance": 800,
+            "furthest": false,
+            "type": "SET_POI_TEMP_TARGET"
+          }
+        ]
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!entity.hasTmpTarget",
+        "thenStep": [
+          {
+            "poiFilter": { "allEnemies": false, "type": "ACTIVE_ENEMIES" },
+            "distance": 96,
+            "furthest": false,
+            "type": "SET_POI_TEMP_TARGET"
+          }
+        ]
+      },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "entity.hasTmpTarget",
+        "thenStep": [
+          {
+            "maxTime": 0.6,
+            "forceTime": false,
+            "distance": 128,
+            "throwing": false,
+            "planOnly": false,
+            "targetType": "ENEMY",
+            "type": "NAVIGATE_ESCAPE_TARGET"
+          },
+          { "value": true, "type": "FACE_TO_TARGET" }
+        ],
+        "elseStep": [
+          {
+            "entity": { "player": true },
+            "maxTime": 0.4,
+            "forceTime": false,
+            "distance": 128,
+            "ignoreBelow": 0,
+            "planOnly": false,
+            "precise": false,
+            "assistSlow": false,
+            "type": "NAVIGATE_TO_ENTITY"
+          },
+          { "type": "WAIT", "time": 0.2 },
+          {
+            "entity": { "player": true },
+            "rotate": true,
+            "rotateSpeed": 3,
+            "type": "SET_FACE_TO_ENTITY"
+          }
+        ]
+      },
+      { "type": "WAIT", "time": 0.1 }
+    ],
+    "EscortWait": [
+      {
+        "entity": { "global": true, "name": "quest-escortee-goal" },
+        "maxTime": 6,
+        "forceTime": false,
+        "distance": 4,
+        "ignoreBelow": 0,
+        "planOnly": false,
+        "precise": true,
+        "assistSlow": false,
+        "type": "NAVIGATE_TO_ENTITY"
+      },
+      {
+        "entity": { "player": true },
+        "rotate": true,
+        "rotateSpeed": 3,
+        "type": "SET_FACE_TO_ENTITY"
+      },
+      { "type": "WAIT", "time": 0.1 }
+    ],
+    "EscortDodge": [
+      {
+        "text": {
+          "en_US": "DODGE",
+          "pt_BR": "DESVIA",
+          "langUid": 28,
+          "ko_KR": "\ud68c\ud53c<<A<<[CHANGED 2021/02/16]",
+          "zh_TW": "<<A<<[CHANGED 2021/02/19]",
+          "zh_CN": "\u95ea\u907f<<A<<[CHANGED 2021/02/19]",
+          "de_DE": "[ AUSWEICHEN ]<<C<<IGNORE",
+          "ja_JP": "\u30c9\u30c3\u30b8<<A<<[CHANGED 2021/02/24]"
+        },
+        "mode": "NO_LINE",
+        "color": "GREEN",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 2
+      },
+      { "value": 0.1, "type": "SET_INVINCIBLE" },
+      { "value": 1.5, "type": "SET_RELATIVE_SPEED" },
+      { "value": 3, "type": "SET_ACCEL_SPEED" },
+      { "value": 2, "type": "SET_FRICTION" },
+      { "value": "VIRTUAL", "type": "SET_COLL_TYPE" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "dust", "name": "hugdust" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "jumpHeight": "M",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      { "time": 0.2, "stopBeforeEdge": false, "type": "MOVE_BACKWARD" },
+      { "value": 0.2, "type": "SET_FRICTION" },
+      { "type": "WAIT", "time": 0.3 },
+      { "value": 1, "type": "SET_FRICTION" },
+      { "type": "WAIT", "time": 0.1 },
+      { "type": "CLEAR_EFFECTS" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "type": "WAIT", "time": 0.4 }
+    ],
+    "EscortHit": [
+      { "type": "SET_ATTRIB_BOOL", "name": "dodgeBlock", "value": false },
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      {
+        "text": {
+          "en_US": "[ DANGER! ]",
+          "pt_BR": "[ PERIGO! ]",
+          "de_DE": "[ GEFAHR! ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u5371\u9669\uff01]<<A<<[CHANGED 2021/01/12]",
+          "zh_TW": "[\u5371\u96aa\uff01]<<A<<[CHANGED 2021/01/12]",
+          "ja_JP": "[\u5371\u306a\u3044\uff01]<<A<<[CHANGED 2021/01/12]",
+          "ko_KR": "[ \uc704\ud5d8! ]<<A<<[CHANGED 2021/01/12]",
+          "langUid": 10
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 1
+      },
+      { "type": "RESET_TRACKER", "tracker": "absorbTime" },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "entity.attrib.startSalting",
+        "thenStep": [
+          { "type": "SET_ATTRIB_BOOL", "name": "startSalting", "value": false },
+          {
+            "text": {
+              "en_US": "[ RECHARGING SALT ]",
+              "pt_BR": "[ RECARREGANDO SAL ]",
+              "de_DE": "[ SALZ WIEDER AUFLADEN ]<<C<<Gepr\u00fcft: Minsu",
+              "zh_CN": "[ \u5145\u80fd\u76d0 ]<<A<<[CHANGED 2021/02/19]",
+              "zh_TW": "<<A<<[CHANGED 2021/02/19]",
+              "ja_JP": "[\u5869\u518d\u30c1\u30e3\u30fc\u30b8\u4e2d]<<A<<[CHANGED 2021/02/24]",
+              "ko_KR": "[ \uc18c\uae08 \uc7ac\ucda9\uc804 \uc911 ]<<A<<[CHANGED 2021/02/16]",
+              "langUid": 29
+            },
+            "mode": "LINE_FILL",
+            "color": "GREEN",
+            "actionDetached": true,
+            "hideOutsideOfScreen": false,
+            "tracker": "saltCooldown",
+            "type": "SHOW_AR_MSG",
+            "time": 5
+          }
+        ]
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.quest-escorteeHit",
+        "value": true
+      },
+      {
+        "jumpHeight": "S",
+        "wait": false,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "conditions": [
+          { "name": "absorbing", "negated": false, "type": "ATTRIB_IS_TRUE" }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [
+          {
+            "noStateReset": false,
+            "type": "DO_ENEMY_ACTION",
+            "actionName": "EscortSuckCancel"
+          }
+        ]
+      }
+    ],
+    "EscortDead": [
+      { "value": "MASSIVE", "type": "SET_HIT_STABLE" },
+      { "group": "suck", "type": "CLEAR_EFFECTS" },
+      { "group": "sound", "type": "CLEAR_EFFECTS" },
+      {
+        "text": {
+          "en_US": "[ Linde is unconscious!!! ]",
+          "pt_BR": "[ Linde está inconsciente!!! ]",
+          "de_DE": "[ Linde ist bewusstlos!!! ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u6797\u5fb7\u5df2\u5931\u53bb\u610f\u8bc6\uff01]<<A<<[CHANGED 2021/01/12]",
+          "zh_TW": "[\u6797\u5fb7\u5df2\u5931\u53bb\u610f\u8b58\uff01]<<A<<[CHANGED 2021/01/12]",
+          "ja_JP": "[\u30ea\u30f3\u30c7\u306e\u610f\u8b58\u304c\u306a\u3044\uff01\uff01\uff01]<<A<<[CHANGED 2021/01/12]",
+          "ko_KR": "[ \ub9b0\ub4dc\uac00 \uc758\uc2dd\ubd88\uba85\uc785\ub2c8\ub2e4! ]<<A<<[CHANGED 2021/01/12]",
+          "langUid": 9
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 1.5
+      },
+      {
+        "offsetX": 0,
+        "offsetY": 0,
+        "speed": "FASTER",
+        "transition": "EASE_IN_OUT",
+        "wait": true,
+        "waitSkip": 0,
+        "zoom": 1,
+        "focusType": "SELF",
+        "type": "FOCUS_CAMERA"
+      },
+      {
+        "changeConnected": "TARGET",
+        "name": "getSuck",
+        "type": "SET_ATTRIB_BOOL",
+        "value": false
+      },
+      { "type": "WAIT_UNTIL_ON_GROUND" },
+      {
+        "jumpHeight": "S",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "jumpHeight": "S",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      {
+        "jumpHeight": "S",
+        "wait": true,
+        "ignoreSounds": false,
+        "type": "JUMP"
+      },
+      { "noReward": true, "type": "SELF_DESTRUCT" }
+    ],
+    "EscortSuckEnemy": [
+      {
+        "poiFilter": {
+          "enemyTypes": ["beach.special.blob-salt"],
+          "conditions": [
+            { "name": "pacified", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "allEnemies": false,
+          "type": "ACTIVE_ENEMIES"
+        },
+        "distance": 320,
+        "furthest": false,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!entity.hasTmpTarget",
+        "thenStep": [{ "name": "end", "type": "GOTO_LABEL" }]
+      },
+      {
+        "maxTime": 10,
+        "forceTime": false,
+        "distance": 24,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      {
+        "conditions": [
+          {
+            "negated": false,
+            "type": "VAR_CONDITION",
+            "condition": "!entity.hasTmpTarget"
+          },
+          {
+            "min": 32,
+            "max": 1600,
+            "negated": false,
+            "type": "TARGET_DISTANCE"
+          }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [{ "name": "end", "type": "GOTO_LABEL" }]
+      },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "type": "WAIT", "time": 0.1 },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "charge"
+      },
+      { "type": "RESET_TRACKER", "tracker": "absorbTime" },
+      { "name": "absorbing", "type": "SET_ATTRIB_BOOL", "value": true },
+      {
+        "changeConnected": "TARGET",
+        "name": "getSuck",
+        "type": "SET_ATTRIB_BOOL",
+        "value": true
+      },
+      {
+        "volume": 1,
+        "global": false,
+        "loop": true,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/scenes/distillery/distillery-idle.ogg"
+      },
+      { "group": "suck", "type": "CLEAR_EFFECTS" },
+      { "group": "sound", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "sound",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.jungle", "name": "npcSuckSound" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "text": {
+          "en_US": "[ ABSORBING ]",
+          "pt_BR": "[ ABSORVENDO ]",
+          "de_DE": "[ ABSORBIEREN ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u67e5\u770b]<<A<<[CHANGED 2021/01/12]",
+          "zh_TW": "[\u67e5\u770b]<<A<<[CHANGED 2021/01/12]",
+          "ja_JP": "[\u5438\u53ce\u4e2d]<<A<<[CHANGED 2021/01/12]",
+          "ko_KR": "[ \ud761\uc218 \uc911 ]<<A<<[CHANGED 2021/01/12]",
+          "langUid": 11
+        },
+        "mode": "LINE_FILL",
+        "color": "GREEN",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "tracker": "absorbTime",
+        "type": "SHOW_AR_MSG",
+        "time": 10
+      },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "group": "suck",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "specials.wave", "name": "wavePull2" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "EscortSucking": [
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "charge"
+      },
+      {
+        "poiFilter": {
+          "enemyTypes": ["beach.special.blob-salt"],
+          "conditions": [
+            { "name": "pacified", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "allEnemies": false,
+          "type": "ACTIVE_ENEMIES"
+        },
+        "distance": 254,
+        "furthest": false,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!entity.hasTmpTarget",
+        "thenStep": [
+          {
+            "stateReset": false,
+            "type": "DO_ENEMY_ACTION_INLINE",
+            "actionName": "EscortSuckCancel"
+          },
+          { "name": "end", "type": "GOTO_LABEL" }
+        ]
+      },
+      {
+        "maxTime": 10,
+        "forceTime": false,
+        "distance": 24,
+        "planOnly": false,
+        "targetType": "ENEMY",
+        "precise": false,
+        "type": "NAVIGATE_TO_TARGET"
+      },
+      { "group": "suck", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": -1,
+        "target": "TARGET",
+        "align": "CENTER",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "suck",
+        "target2": "SELF",
+        "target2Align": "CENTER",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.jungle", "name": "catPull2WaveSuck" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "conditions": [
+          {
+            "negated": false,
+            "type": "VAR_CONDITION",
+            "condition": "!entity.hasTmpTarget"
+          },
+          {
+            "min": 32,
+            "max": 1600,
+            "negated": false,
+            "type": "TARGET_DISTANCE"
+          }
+        ],
+        "withElse": false,
+        "type": "COMBAT_IF",
+        "thenStep": [{ "name": "end", "type": "GOTO_LABEL" }]
+      },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "type": "WAIT", "time": 0.1 },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "EscortSuckCess": [
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "charge"
+      },
+      {
+        "poiFilter": {
+          "enemyTypes": ["beach.special.blob-salt"],
+          "conditions": [
+            { "name": "pacified", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "allEnemies": false,
+          "type": "ACTIVE_ENEMIES"
+        },
+        "distance": 254,
+        "furthest": false,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!entity.hasTmpTarget",
+        "thenStep": [{ "name": "end", "type": "GOTO_LABEL" }]
+      },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "group": "suck", "type": "CLEAR_EFFECTS" },
+      { "group": "sound", "type": "CLEAR_EFFECTS" },
+      { "type": "WAIT", "time": 0.1 },
+      { "type": "RESET_TRACKER", "tracker": "absorbTime" },
+      { "type": "WAIT", "time": { "varName": "tmp.escortAborbTime" } },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "shoot"
+      },
+      {
+        "duration": 0,
+        "target": "TARGET",
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": true,
+        "target2": "SELF",
+        "target2Offset": { "x": 0, "y": 0, "z": 16 },
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "specials.wave", "name": "waveBigGunConnectSlow" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "text": {
+          "en_US": "[ ABSORBING DONE ]",
+          "pt_BR": "[ ABSORVIÇÃO CONCLUÍDA ]",
+          "de_DE": "[ ABSORBIEREN FERTIG ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u67e5\u770b]<<A<<[CHANGED 2021/01/12]",
+          "zh_TW": "[\u67e5\u770b]<<A<<[CHANGED 2021/01/12]",
+          "ja_JP": "[\u5438\u53ce\u5b8c\u4e86]<<A<<[CHANGED 2021/01/12]",
+          "ko_KR": "[ \ud761\uc218 \uc644\ub8cc ]<<A<<[CHANGED 2021/01/12]",
+          "langUid": 13
+        },
+        "mode": "NO_LINE",
+        "color": "GREEN",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 2
+      },
+      { "name": "absorbing", "type": "SET_ATTRIB_BOOL", "value": false },
+      {
+        "changeConnected": "TARGET",
+        "name": "absorbed",
+        "type": "SET_ATTRIB_BOOL",
+        "value": true
+      },
+      { "type": "SET_ATTRIB_STRING" },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.captureStop",
+        "value": true
+      },
+      {
+        "changeType": "add",
+        "type": "CHANGE_VAR_NUMBER",
+        "varName": "tmp.capturedSlimes",
+        "value": 1
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.captured",
+        "value": true
+      },
+      { "value": 0.2, "hideNumbers": false, "type": "REGEN_HP" },
+      { "value": true, "type": "SET_FACE_FIX" },
+      { "value": 1, "type": "SET_FRICTION" },
+      { "time": 0.1, "stopBeforeEdge": false, "type": "MOVE_BACKWARD" },
+      { "value": 0.3, "type": "SET_FRICTION" },
+      { "type": "WAIT", "time": 0.5 },
+      { "kind": "PLAYER", "type": "SET_TEMP_TARGET" },
+      { "value": false, "type": "FACE_TO_TARGET" },
+      { "value": 1, "type": "SET_FRICTION" },
+      { "type": "WAIT", "time": 0.2 },
+      {
+        "volume": 2,
+        "global": false,
+        "loop": false,
+        "type": "PLAY_SOUND",
+        "sound": "media/sound/scenes/distillery/distillery-request-success.ogg"
+      },
+      { "type": "WAIT", "time": 0.3 },
+      { "type": "CLEAR_ANIMATION" },
+      { "type": "WAIT", "time": 1 },
+      { "value": false, "type": "SET_FACE_FIX" },
+      { "value": true, "type": "FACE_TO_TARGET" },
+      { "type": "WAIT", "time": 0.6 },
+      { "name": "end", "type": "LABEL" }
+    ],
+    "EscortSuckCancel": [
+      { "type": "CLEAR_AR_MSG" },
+      {
+        "text": {
+          "en_US": "[ ABSORBING CANCELLED ]",
+          "pt_BR": "[ ABSORVIÇÃO CANCELADA ]",
+          "de_DE": "[ ABSORBIEREN ABGEBROCHEN ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[\u67e5\u770b]<<A<<[CHANGED 2021/02/19]",
+          "zh_TW": "[\u67e5\u770b]<<A<<[CHANGED 2021/02/19]",
+          "ja_JP": "[\u5438\u53ce\u30ad\u30e3\u30f3\u30bb\u30eb]<<A<<[CHANGED 2021/02/09]",
+          "ko_KR": "[ \ud761\uc218 \ucde8\uc18c\ub428 ]<<A<<[CHANGED 2021/02/16]",
+          "langUid": 18
+        },
+        "mode": "NO_LINE",
+        "color": "RED",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 3
+      },
+      { "group": "suck", "type": "CLEAR_EFFECTS" },
+      { "group": "sound", "type": "CLEAR_EFFECTS" },
+      { "name": "absorbing", "type": "SET_ATTRIB_BOOL", "value": false },
+      { "type": "RESET_TRACKER", "tracker": "absorbTime" },
+      {
+        "changeConnected": "TARGET",
+        "name": "getSuck",
+        "type": "SET_ATTRIB_BOOL",
+        "value": false
+      },
+      {
+        "changeType": "set",
+        "type": "CHANGE_VAR_BOOL",
+        "varName": "tmp.cancelSuck",
+        "value": false
+      },
+      { "type": "WAIT", "time": 1 }
+    ],
+    "EscortSaltSteam": [
+      {
+        "poiFilter": {
+          "enemyTypes": ["jungle.special.ghost-toxic"],
+          "conditions": [
+            { "name": "saltable", "negated": false, "type": "ATTRIB_IS_TRUE" }
+          ],
+          "allEnemies": false,
+          "type": "ACTIVE_ENEMIES"
+        },
+        "distance": 512,
+        "furthest": false,
+        "type": "SET_POI_TEMP_TARGET"
+      },
+      {
+        "withElse": false,
+        "type": "IF",
+        "condition": "!entity.hasTmpTarget",
+        "thenStep": [
+          {
+            "forceValue": 0.9,
+            "type": "RESET_TRACKER",
+            "tracker": "saltCooldown"
+          },
+          { "name": "end", "type": "GOTO_LABEL" }
+        ]
+      },
+      { "type": "SET_RELATIVE_SPEED", "value": 0.8 },
+      { "type": "SET_ATTRIB_BOOL", "name": "startSalting", "value": true },
+      { "type": "SET_ATTRIB_BOOL", "name": "dodgeBlock", "value": true },
+      {
+        "withElse": true,
+        "type": "IF",
+        "condition": "tmp.ghostWalls",
+        "thenStep": [
+          {
+            "maxTime": 2,
+            "forceTime": false,
+            "distance": 84,
+            "planOnly": false,
+            "targetType": "ENEMY",
+            "precise": false,
+            "type": "NAVIGATE_TO_TARGET"
+          }
+        ],
+        "elseStep": [
+          {
+            "maxTime": 2.5,
+            "forceTime": false,
+            "distance": 76,
+            "planOnly": false,
+            "targetType": "ENEMY",
+            "precise": false,
+            "type": "NAVIGATE_TO_TARGET"
+          }
+        ]
+      },
+      { "type": "CLEAR_AR_MSG" },
+      { "value": true, "immediately": true, "type": "FACE_TO_TARGET" },
+      { "type": "WAIT", "time": 0.1 },
+      { "group": "sound", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": -1,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "sound",
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.jungle", "name": "npcSuckSound" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "duration": -1,
+        "target": "SELF",
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "salt",
+        "fixPos": false,
+        "entity": { "global": true, "name": "quest-escortee" },
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "enemies.jungle", "name": "blobWaveSpecialCmd" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "text": {
+          "en_US": "[ BUILDING STEAM ]",
+          "pt_BR": "[ ACUMULAR VAPOR ]",
+          "langUid": 25,
+          "ko_KR": "[ \uc99d\uae30 \uc0dd\uc131 \uc911 ]<<C<<\uc99d\uae30?<<A<<[CHANGED 2021/02/16]",
+          "zh_TW": "<<A<<[CHANGED 2021/02/19]",
+          "zh_CN": "[ \u538b\u7f29\u84b8\u6c7d ]<<A<<[CHANGED 2021/02/19]",
+          "de_DE": "[ DAMPF AUFBAUEN ]<<C<<Gepr\u00fcft: Minsu",
+          "ja_JP": "[\u84b8\u6c17\u69cb\u7bc9\u4e2d]<<A<<[CHANGED 2021/02/24]"
+        },
+        "mode": "LINE_FILL",
+        "color": "GREEN",
+        "actionDetached": false,
+        "hideOutsideOfScreen": false,
+        "type": "SHOW_AR_MSG",
+        "time": 3.5
+      },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "charge"
+      },
+      {
+        "actionDetached": false,
+        "onlyAfterRemove": false,
+        "type": "ADD_PLAYER_CAMERA_TARGET"
+      },
+      { "type": "WAIT", "time": 3.4 },
+      { "group": "salt", "type": "CLEAR_EFFECTS" },
+      {
+        "duration": 0,
+        "align": "BOTTOM",
+        "rotateFace": 0,
+        "flipLeftFace": false,
+        "wait": true,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "group": "salt",
+        "fixPos": false,
+        "entity": { "global": true, "name": "quest-escortee" },
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "specials.wave", "name": "waveSubCharge" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "group": "sound", "type": "CLEAR_EFFECTS" },
+      {
+        "wait": false,
+        "viaWalkConfig": false,
+        "type": "SHOW_ANIMATION",
+        "anim": "shoot"
+      },
+      {
+        "duration": 0,
+        "align": "FACE",
+        "rotateFace": 8,
+        "flipLeftFace": true,
+        "wait": false,
+        "waitSkip": 0,
+        "actionDetached": false,
+        "fixPos": false,
+        "type": "SHOW_EFFECT",
+        "effect": { "sheet": "puzzle.water-bubble", "name": "steamExplosion" },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      {
+        "align": "BOTTOM",
+        "radius": 88,
+        "yScale": 0,
+        "zHeight": 24,
+        "centralAngle": 0.3,
+        "duration": 0.1,
+        "expandRadius": 0,
+        "alwaysFull": true,
+        "clockwise": false,
+        "flipLeftFace": 0,
+        "rectangular": false,
+        "repeat": false,
+        "uniformHitDir": false,
+        "fixPos": false,
+        "checkCollision": false,
+        "type": "CIRCLE_ATTACK",
+        "attack": {
+          "type": "HEAVY",
+          "element": "WAVE",
+          "damageFactor": 2,
+          "reverse": false,
+          "spFactor": 0,
+          "status": 1,
+          "hints": ["salt"],
+          "guardable": "",
+          "skillBonus": "MELEE_DMG",
+          "limiter": ""
+        },
+        "offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      { "time": 0.05, "type": "WAIT" },
+      { "type": "SET_RELATIVE_SPEED", "value": 1 },
+      { "value": 0.2, "type": "SET_FRICTION" },
+      { "time": 0.1, "stopBeforeEdge": false, "type": "MOVE_BACKWARD" },
+      { "type": "SET_ATTRIB_BOOL", "name": "startSalting", "value": false },
+      { "type": "WAIT", "time": 0.5 },
+      { "type": "RESET_TRACKER", "tracker": "saltCooldown" },
+      {
+        "text": {
+          "en_US": "[ RECHARGING SALT ]",
+          "pt_BR": "[ RECARREGANDO SAL ]",
+          "de_DE": "[ SALZ WIEDER AUFLADEN ]<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "[ \u5145\u80fd\u76d0 ]<<A<<[CHANGED 2021/02/19]",
+          "zh_TW": "<<A<<[CHANGED 2021/02/19]",
+          "ja_JP": "[\u5869\u518d\u30c1\u30e3\u30fc\u30b8\u4e2d]<<A<<[CHANGED 2021/02/24]",
+          "ko_KR": "[ \uc18c\uae08 \uc7ac\ucda9\uc804 \uc911 ]<<A<<[CHANGED 2021/02/16]",
+          "langUid": 30
+        },
+        "mode": "LINE_FILL",
+        "color": "GREEN",
+        "actionDetached": true,
+        "hideOutsideOfScreen": false,
+        "tracker": "saltCooldown",
+        "type": "SHOW_AR_MSG",
+        "time": 5
+      },
+      { "actionDetached": true, "type": "REMOVE_PLAYER_CAMERA_TARGET" },
+      { "type": "CLEAR_ANIMATION" },
+      { "value": 1, "type": "SET_FRICTION" },
+      { "type": "WAIT", "time": 0.2 },
+      { "name": "end", "type": "LABEL" }
+    ]
+  },
+  "reactions": {
+    "HIT_ESCORTEE": {
+      "hitType": "REGULAR",
+      "action": "EscortHit",
+      "blockFurtherHits": false,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [{ "hint": "escortBonusDmg", "type": "!HAS_HINT" }],
+      "ignoreFailed": true,
+      "type": "HIT_REACTION"
+    },
+    "HIT_ESCORTEE_STRONGER": {
+      "hitType": "REGULAR",
+      "action": "EscortHit",
+      "blockFurtherHits": false,
+      "damageFactor": 1.2,
+      "attackType": "",
+      "flyLevel": "",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "",
+      "conditions": [
+        { "hint": "escortBonusDmg", "negated": false, "type": "HAS_HINT" }
+      ],
+      "ignoreFailed": true,
+      "type": "HIT_REACTION"
+    },
+    "KILL": {
+      "hitType": "KILL_HIT",
+      "blockFurtherHits": false,
+      "attackType": "BREAK",
+      "flyLevel": "LIGHT",
+      "stunChange": "FORCE_STUN",
+      "alignFace": false,
+      "dramaticEffect": "BOSS_ZOOM",
+      "conditions": [],
+      "ignoreFailed": false,
+      "type": "HIT_REACTION"
+    },
+    "DODGE": {
+      "action": "EscortDodge",
+      "viewAngle": 0.5,
+      "restartPrevAction": false,
+      "probability": 2,
+      "count": 0,
+      "blockTime": 5,
+      "conditions": [
+        { "hint": "escortDodge", "negated": false, "type": "HAS_HINT" },
+        { "name": "dodgeBlock", "type": "!ATTRIB_IS_TRUE" }
+      ],
+      "type": "DODGE"
+    }
+  },
+  "meta": {
+    "species": {
+      "en_US": "Escortee",
+      "pt_BR": "Escoltada",
+      "de_DE": "Sch\u00fctzling<<C<<Gepr\u00fcft: Minsu",
+      "zh_CN": "\u88ab\u62a4\u9001\u8005<<A<<[CHANGED 2018/05/01]",
+      "zh_TW": "\u88ab\u8b77\u9001\u8005<<A<<[CHANGED 2018/05/01]",
+      "ja_JP": "\u8b77\u885b\u5bfe\u8c61<<A<<[CHANGED 2018/05/01]",
+      "ko_KR": "\ud53c\ubcf4\ud638\uc790<<A<<[CHANGED 2018/05/01]",
+      "langUid": 4
+    },
+    "category": "PLAYERS",
+    "descriptions": [
+      {
+        "text": {
+          "en_US": "A person that wants to be escorted, to not get mugged.",
+          "pt_BR": "Uma pessoa que quer ser escoltada, para não ser assaltada.",
+          "de_DE": "Eine Person, die begleitet werden will, um nicht ausgeraubt zu werden.<<C<<Gepr\u00fcft: Minsu",
+          "zh_CN": "\u8fd9\u4e2a\u4eba\u5bb3\u6015\u88ab\u52ab\uff0c\u9700\u8981\u6709\u4eba\u62a4\u9001\u3002<<A<<[CHANGED 2018/05/01]",
+          "zh_TW": "\u9019\u500b\u4eba\u5bb3\u6015\u88ab\u52ab\uff0c\u9700\u8981\u6709\u4eba\u8b77\u9001\u3002<<A<<[CHANGED 2018/05/01]",
+          "ja_JP": "\u8972\u3044\u639b\u304b\u3063\u3066\u304f\u308b\u30e2\u30f3\u30b9\u30bf\u30fc\u304b\u3089\u8b77\u885b\u3059\u308b\u5bfe\u8c61\u3060\u3002<<A<<[CHANGED 2018/05/01]",
+          "ko_KR": "\uc2b5\uaca9\ub2f9\ud558\uc9c0 \uc54a\uac8c \ubcf4\ud638\ub97c \ubc1b\uace0 \uc2f6\uc5b4\ud558\ub294 \uc0ac\ub78c\uc785\ub2c8\ub2e4.<<A<<[CHANGED 2018/05/01]",
+          "langUid": 5
+        },
+        "condition": ""
+      }
+    ]
+  }
+}
