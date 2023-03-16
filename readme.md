@@ -17,13 +17,19 @@ Baixe o instalador e aponte para a pasta do jogo. Após isso, clique em instalar
 
 ### Versão de Linux
 
-Baixe o .zip para Linux
+Instale as dependências:
 
-![ziplinux](ziplinux.png) 
+Derivados de Debian:
+<pre> sudo apt install subversion git-svn git -y</pre>
 
-extraia os arquivos 
+Derivados de Fedora:
+<pre>sudo dnf install subversion git-svn git </pre>
 
-![extraido](extraido.png)
+Derivados de Arch Linux:
+
+<pre>sudo pacman -S subversion git --noconfirm</pre>
+
+Baixe o arquivo.sh para Linux
 
 Conceda permissões de execução para o arquivo .sh
 
@@ -31,7 +37,7 @@ Conceda permissões de execução para o arquivo .sh
 
 Execute o arquivo .sh 
 
-![arquivosh](arquivosh.png)
+![arquivosh](instalador_linux.png)
 
 ## Versão de Mac
 
