@@ -3,21 +3,21 @@
 [![Steam](https://img.shields.io/static/v1?label=Steam&message=page&color=blue&logo=steam&style=flat-square)](https://store.steampowered.com/app/368340/CrossCode/) [![Discord](https://img.shields.io/discord/820853804572344381?style=flat-square&label=Discord&color=darkblue&logo=discord&style=flat-square)](https://discord.gg/dqWYEM8UJY)
 # Sobre 
 
-Esse repositório contém arquivos de um projeto que visa **traduzir o game Crosscode**. A tradução ainda não está 100% completa, e encontra-se em andamento.Você pode testar as traduções aqui:
+ Esse repositório é o resultado de uma ação conjunta realizada por durante 3 anos visando traduzir o game Crosscode para o Português Brasileiro. A tradução do game principal encontra-se completa, porém devido a imensidão de dialógos graças a natureza do jogo ser um RPG, nós ativamente realizamos correções no código quando algum erro é encontrado. Por fim, você pode baixar a tradução abaixo:
 
-[![Windows](https://img.shields.io/static/v1?label=Windows&message=version&color=blue&logo=windows&style=flat-square)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/0.1.3.1/Traducao_Crosscode_v0.1.3.1.exe) [![Linux](https://img.shields.io/static/v1?label=Linux&message=version&color=yellow&logo=linux&style=flat-square)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/0.1.3.1/Traducao_Crosscode_v0.1.3.1.linux.zip) [![Mac](https://img.shields.io/static/v1?label=MacOS&message=version&color=lightgrey&logo=apple&style=flat-square)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/0.1.3.1/Traducao_Crosscode_v0.1.3.1.linux.zip)
+[![Windows](https://img.shields.io/static/v1?label=Windows&message=version&color=blue&logo=windows&style=flat-square)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/1.0.0.0/Traducao_Crosscode_v1.0.0.0.exe) [![Linux](https://img.shields.io/static/v1?label=Linux&message=version&color=yellow&logo=linux&style=flat-square)](https://github.com/Bugaboo2000/Crosscode-Traducao/releases/download/1.0.0.0/Traducao_Crosscode_v1.0.0.0.linux.sh) [![Mac](https://img.shields.io/static/v1?label=MacOS&message=version&color=lightgrey&logo=apple&style=flat-square)](https://github.com/Bugaboo2000/Crosscode-Traducao/archive/refs/tags/1.0.0.0.zip)
 
 ## Instalação
 
 ### Versão de Windows
 
-Baixe o instalador e aponte para a pasta do jogo. Após isso, clique em instalar.
+Baixe o instalador e aponte para a pasta do jogo. Após isso, clique em instalar:
 
 ![Instalador](instalação.png)
 
 ### Versão de Linux
 
-Instale as dependências:
+Baixe o instalador de Linux e instale as dependências:
 
 Derivados de Debian:
 <pre> sudo apt install subversion git-svn git -y</pre>
@@ -29,7 +29,7 @@ Derivados de Arch Linux:
 
 <pre>sudo pacman -S subversion git --noconfirm</pre>
 
-Baixe o arquivo.sh para Linux
+
 
 Conceda permissões de execução para o arquivo .sh
 
@@ -37,7 +37,10 @@ Conceda permissões de execução para o arquivo .sh
 
 Execute o arquivo .sh 
 
-![arquivosh](instalador_linux.png)
+![arquivosh](instalador_linux.jpg)
+
+Por padrão o instalador já sincroniza para a versão mais recente da tradução e direciona para a pasta padrão da Steam. Você pode modificar a localização da pasta se quiser
+
 
 ## Versão de Mac
 
