@@ -20,16 +20,17 @@ Baixe o instalador e aponte para a pasta do jogo. Após isso, clique em instalar
 Baixe o instalador de Linux e instale as dependências:
 
 Derivados de Debian:
-<pre> sudo apt install subversion git-svn git -y</pre>
-
+```
+sudo apt install subversion git-svn git dialog -y 
+```
 Derivados de Fedora:
-<pre>sudo dnf install subversion git-svn git </pre>
-
+```
+sudo dnf install subversion git-svn git dialog 
+```
 Derivados de Arch Linux:
-
-<pre>sudo pacman -S subversion git --noconfirm</pre>
-
-
+```
+sudo pacman -S subversion git dialog --noconfirm
+```
 
 Conceda permissões de execução para o arquivo .sh
 
