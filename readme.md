@@ -59,7 +59,7 @@ Ao reportar você está contribuindo para melhorar a tradução. Caso se depare 
 
 ## Contribuindo 
 
-Você pode **contribuir fazendo um Fork**, e mandar um **pull request**. Note que sua contribuição **poderá demorar** devido a moderação.
+Sinta-se livre para **contribuir fazendo um Fork**, e mandar um **pull request**. 
 
 Recomendamos também que entre no nosso **grupo do Discord** para mais informações.
 
