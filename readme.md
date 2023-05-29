@@ -74,8 +74,8 @@ Recomendamos também que entre no nosso **grupo do Discord** para mais informaç
 
 * [KingTimer12](https://github.com/KingTimer12) - Tradutor
 
-* [spacetk00](https://github.com/spacetk00) -  Revisão, tradução e ajuste da interface do game.
+* [spacetk00](https://github.com/spacetk00) -  Revisão das expansões, tradução e ajuste da interface do game.
 
-* [Dalffs](https://github.com/Dalffs) -  Revisão e tradução
+* [douglasjfarias](https://github.com/douglasjfarias) -  Revisão e tradução das expansões
 
 * [BrTraducoes](https://github.com/brtraducoes) -  Idealizador do ajuste na interface do game. Nosso eterno agradecimento 💓
